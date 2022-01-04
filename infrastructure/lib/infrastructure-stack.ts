@@ -16,7 +16,7 @@ export class InfrastructureStack extends cdk.Stack {
 		const pipeline = new pipelines.CodePipeline(this, 'Pipeline', {
 			pipelineName: 'HP_Pipeline',
 			crossAccountKeys: false,
-			synth: new pipelines.ShellStep('Synth', {
+			synth: new pipelines.CodeBuildStep('Synth', {
 				input: pipelines.CodePipelineSource.codeCommit(repo , 'master'),
         primaryOutputDirectory: 'infrastructure',
 				commands: [
