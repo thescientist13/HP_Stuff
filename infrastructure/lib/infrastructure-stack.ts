@@ -1,20 +1,28 @@
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 // import * as sqs from 'aws-cdk-lib/aws-sqs';
-import { aws_s3 as s3 } from 'aws-cdk-lib';
+import *as pipelines from 'aws-cdk-lib/pipelines';
+import * as codecommit from 'aws-cdk-lib/aws-codecommit';
 
 export class InfrastructureStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-		const bucket = new s3.Bucket(this, 'HPBucket', {
-			autoDeleteObjects: true,
-			removalPolicy: cdk.RemovalPolicy.DESTROY,
-			websiteIndexDocument: 'index.html',
-			websiteErrorDocument: '404.html',
-			enforceSSL: true,
-			publicReadAccess: true,
+		const repo = new codecommit.Repository(this, 'HPRepo', {
+			repositoryName: 'HP_Stuff',
+			description: 'Luke Schierer\'s Harry Potter Stuff',
+		});
+
+		const pipeline = new pipelines.CodePipeline(this, 'Pipeline', {
+			pipelineName: 'HP_Pipeline',
+			crossAccountKeys: false,
+			synth: new pipelines.ShellStep('Synth', {
+				input: pipelines.CodePipelineSource.codeCommit(repo , 'master'),
+				commands: ['npm ci', 'npm run build', 'npx cdk synth'],
+			}),
 		});
 
   }
 }
+// vim: shiftwidth=2:tabstop=2:expandtab 
+
