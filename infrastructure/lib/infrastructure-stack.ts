@@ -18,7 +18,7 @@ export class InfrastructureStack extends cdk.Stack {
 			crossAccountKeys: false,
 			synth: new pipelines.ShellStep('Synth', {
 				input: pipelines.CodePipelineSource.codeCommit(repo , 'master'),
-				commands: ['npm ci', 'npm run build', 'npx cdk synth'],
+				commands: ['cd infrastructure', 'npm ci', 'npm run build', 'npx cdk synth'],
 			}),
 		});
 
