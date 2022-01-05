@@ -21,7 +21,9 @@ export class InfrastructureStack extends cdk.Stack {
         primaryOutputDirectory: 'infrastructure/cdk.out',
         installCommands: [
           'cd infrastructure', 
-          'snap install hugo',
+          'apt-get update',
+          'curl -L -o hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.91.2/hugo_0.91.2_Linux-64bit.deb',
+          'dpkg -i hugo.deb',
         ],
 				commands: [
           'npm ci', 
