@@ -21,6 +21,7 @@ export class InfrastructureStack extends cdk.Stack {
         primaryOutputDirectory: 'infrastructure/cdk.out',
         installCommands: [
           'cd infrastructure', 
+          'snap install hugo',
         ],
 				commands: [
           'npm ci', 
