@@ -18,6 +18,7 @@ export class InfrastructureStack extends cdk.Stack {
 			crossAccountKeys: false,
 			synth: new pipelines.CodeBuildStep('Synth', {
 				input: pipelines.CodePipelineSource.codeCommit(repo , 'master'),
+        primaryOutputDirectory: 'infrastructure/cdk.out',
         installCommands: [
           'cd infrastructure', 
         ],
