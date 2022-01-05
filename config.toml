@@ -1,4 +1,4 @@
-baseURL = "http://www.schierer.org/~luke/HP/"
+baseURL = "http://hpfan.luke.schierer.org/"
 languageCode = "en-GB"
 title = "Luke Schierer's Harry Potter Stuff"
 theme = "terminal"
