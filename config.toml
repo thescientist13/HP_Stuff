@@ -1,6 +1,6 @@
-baseURL = "http://www.schierer.org/~luke/HP/"
+baseURL = "http://hpfan.luke.schierer.org/"
 languageCode = "en-GB"
-title = "Luke Schierer's Harry Potter Stuff"
+title = "Harry Potter Analysis, Speculation, Fan fiction, and Fan fiction tracking"
 theme = "terminal"
 
 [params]
@@ -22,11 +22,11 @@ enableGitInfo = true
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
-    owner = ""
+    title = "Luke's Harry Potter Fan Site"
+    subtitle = "Analysis, Speculation, Fan fiction, and Fan fiction tracking"
+    owner = "Luke Schierer"
     keywords = ""
-    copyright = ""
+    copyright = "© 2005-2022 Luke Schierer"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
