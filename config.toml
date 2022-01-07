@@ -5,3 +5,38 @@ copyright = "© 2005-2022 Luke Schierer"
 owner = "Luke Schierer"
 theme = "terminal"
 
+[params]
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "blue"
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+  enableGitInfo = true
+
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "Harrypedia"
+
+  # set all headings to their default size (depending on browser settings)
+  # it's set to `true` by default
+  oneHeadingSize = false
+
+[menu]
+  [[menu.main]]
+    identifier = 'Harrypedia'
+    name = "Notes"
+    title = "Notes"
+    url = '/Harrypedia/'
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About this site'
+    title = 'About'
+    url = '/about/'
+
