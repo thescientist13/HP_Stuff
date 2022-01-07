@@ -28,6 +28,10 @@ theme = "terminal"
   # it's set to `true` by default
   oneHeadingSize = false
 
+  [params.logo]
+    logoText = "Luke's Harry Potter Analysis, Speculation, Fan fiction, and Fan fiction tracking"
+    logoHomeLink = "/"
+
 [menu]
   [[menu.main]]
     identifier = 'Harrypedia'
