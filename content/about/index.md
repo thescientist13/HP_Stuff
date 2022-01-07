@@ -17,7 +17,7 @@ For myself, I will use the the following, in the following order of precedence. 
 #### Primary Sources 
 Bloomsbury editions, [with corrections](Bloomsbury editions, with corrections)
 
-### Secondary Sources
+#### Secondary Sources
 American Kindle editions (because these are easier to search and cite)
 
 #### Tertiary Sources
