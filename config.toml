@@ -1,42 +1,7 @@
 baseURL = "http://hpfan.luke.schierer.org/"
 languageCode = "en-GB"
 title = "Harry Potter Analysis, Speculation, Fan fiction, and Fan fiction tracking"
+copyright = "© 2005-2022 Luke Schierer"
+owner = "Luke Schierer"
 theme = "terminal"
-
-[params]
-
-# ["orange", "blue", "red", "green", "pink"]
-themeColor = "blue"
-
-# set theme to full screen width
-fullWidthTheme = false
-
-# center theme with default width
-centerTheme = true
-
-# set post to show the last updated
-# If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-showLastUpdated = false
-enableGitInfo = true
-
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Luke's Harry Potter Fan Site"
-    subtitle = "Analysis, Speculation, Fan fiction, and Fan fiction tracking"
-    owner = "Luke Schierer"
-    keywords = ""
-    copyright = "© 2005-2022 Luke Schierer"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
 
