@@ -1,3 +1,13 @@
++++
+title = "Luke's Harry Potter Notes, Analysis, Speculation, Fan fiction, and Fan fiction tracking"
+date = 2022-01-07T20:58:46-05:00
+weight = 5
+chapter = true
+pre = "<b> </b>"
++++
+
+# Luke's Harry Potter Notes, Analysis, Speculation, Fan fiction, and Fan fiction tracking
+
 I am on the older end of those who grew up with the Harry Potter books, and did not start to read them myself until after the fourth book (if I recall correctly) came out.  It was thus around the year 2000 or 2001 as I was a student in college that I first read them.  It was not until roughly 2019 that I *really* became obsessive about the books.  I am not sure what triggered it really.  I had never read fan fiction before that, and if you go through my "[Random Unfinished Thoughts][RUT]" you will quickly see that I rarely commented on my personal reading.  So why did I all of a sudden start taking admittedly obsessive notes about different aspects of the Harry Potter books, and consolidating my analysis of the various entirely fictional characters therein as if they were real people whose moral worth had real consequence?  I really cannot say.  I just know that I have been, and that while others, like the [Harry Potter Lexicon][HPL] have a more extensive collection of facts that I have unabashedly mined as tertiary sources for my own notes, I find them ultimately dissatisfying.
 
 This is primarily because of the questions surrounding canonicity.  The [Harry Potter Wiki][HPW] is incredibly liberal in accepting sources, and is not always incredibly great about having accurate footnotes.  The [Lexicon][HPL2] is much more conservative about sources, though even worse about documenting *which* source a particular fact comes from.  However even at their most conservative, both of them include things that I am reluctant to include in my personal list of "canonical" sources.[^220106-1]  
