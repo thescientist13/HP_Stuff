@@ -1,7 +1,7 @@
 +++
 title = "Luke's Harry Potter Notes, Analysis, Speculation, Fan fiction, and Fan fiction tracking"
 date = 2022-01-07T20:58:46-05:00
-weight = 5
+weight = 4
 chapter = true
 pre = "<b> </b>"
 +++
