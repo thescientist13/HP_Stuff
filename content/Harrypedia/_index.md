@@ -6,15 +6,15 @@ chapter = true
 pre = "<b></b>"
 +++
 
-### Speculation, Analysis and Reference Material for the Harry Potter Universe
+## Speculation, Analysis and Reference Material for the Harry Potter Universe
 
-# Introduction to this Reference
+### Introduction to this Reference
 
 I probably still need to revisit the main page and move some of its content here. 
 
-## My Own Sources
+### My Own Sources
 
-For myself, I will use the the following, in the following order of precedence.  That is, facts found in secondary sources cannot contradict facts found in primary sources, nor can facts found in tertiary sources contradict either of the previous two. 
+I will use the the following, in the following order of precedence.  That is, facts found in secondary sources cannot contradict facts found in primary sources, nor can facts found in tertiary sources contradict either of the previous two. 
 
 #### Primary Sources 
 Bloomsbury editions, [with corrections](Bloomsbury editions, with corrections)
