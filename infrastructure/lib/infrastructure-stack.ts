@@ -10,6 +10,7 @@ import { aws_cloudformation as cfn } from 'aws-cdk-lib';
 import * as codebuild from 'aws-cdk-lib/aws-codebuild';
 import { aws_codecommit as codecommit } from 'aws-cdk-lib';
 import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
+import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as codepipeline from 'aws-cdk-lib/aws-codepipeline';
 import * as codepipeline_actions from 'aws-cdk-lib/aws-codepipeline-actions';
 import * as cloudwatch from "aws-cdk-lib/aws-cloudwatch";
@@ -23,13 +24,7 @@ export class InfrastructureStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: StackProps) {
     super(scope, id, props);
 
-    const HugoSute = 'hpfan.schierer.org';
     const HUGO_VERSION = '0.92.0';
-
-    const SOZone = route53.HostedZone.fromHostedZoneAttributes(this, 'SOZone', {
-      zoneName: 'schierer.org',
-      hostedZoneId: 'ZOB4NXMJR2BZF',
-    });
 
     const code = new codecommit.Repository(this, 'HPRepo', {
       repositoryName: 'HP_Stuff',
@@ -80,6 +75,12 @@ class HugoStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
+    const HugoSite = 'hpfan.schierer.org';
+
+    const SOZone = route53.HostedZone.fromHostedZoneAttributes(this, 'SOZone', {
+      zoneName: 'schierer.org',
+      hostedZoneId: 'ZOB4NXMJR2BZF',
+    });
 
     const HPBucket = new s3.Bucket(this, 'HPHugoBucket', {
       encryption: s3.BucketEncryption.KMS,
@@ -91,12 +92,20 @@ class HugoStack extends Stack {
       autoDeleteObjects: true, // safe since everything in here is generated
     });
 
-    /*const HPRecord = new route53.ARecord(this, 'Alias', {
-      zone: SOZone,
-      recordName: HugoSute, 
-      target: route53.RecordTarget.fromAlias(new targets.CloudFrontTarget(distribution)),
+    const HugoCert = new acm.DnsValidatedCertificate(this, 'HugoCert', {
+      domainName: HugoSite,
+      hostedZone: SOZone,
     });
-    */
+
+    const HugoCFD = new cloudfront.Distribution(this, 'HugoDist', {
+      defaultBehavior: { 
+        origin: new origins.S3Origin(HPBucket),
+        allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
+        viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
+      },
+      certificate: HugoCert,
+      domainNames: [ HugoSite ],
+    });
 
   }
 }
