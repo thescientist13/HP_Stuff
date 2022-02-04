@@ -107,6 +107,19 @@ class HugoStack extends Stack {
       domainNames: [ HugoSite ],
     });
 
+    const HugoDeploy = new s3deploy.BucketDeployment(this, 'DeployWebsite', {
+      sources: [
+        s3deploy.Source.asset('./public')
+      ],
+      destinationBucket: HPBucket,
+      distribution: HugoCFD,
+      distributionPaths: [
+        '/*',
+      ],
+      storageClass: s3deploy.StorageClass.INTELLIGENT_TIERING,
+      accessControl: s3.BucketAccessControl.BUCKET_OWNER_FULL_CONTROL,
+    });
+
   }
 }
 
