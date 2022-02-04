@@ -19,7 +19,7 @@ new InfrastructureStack(app, 'InfrastructureStack', {
 
   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 
-	stackName: "HPInfrastructure",
+	stackName: "HP",
 	env: {
 		account: '699040795025',
 		region: 'us-east-1',

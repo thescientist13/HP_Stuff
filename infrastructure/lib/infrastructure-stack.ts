@@ -2,9 +2,16 @@ import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 // import * as sqs from 'aws-cdk-lib/aws-sqs';
 import { RemovalPolicy, Stack, StackProps } from 'aws-cdk-lib';
+import { Stage, StageProps } from 'aws-cdk-lib';
+import { CodePipeline, CodePipelineSource, ManualApprovalStep, ShellStep } from 'aws-cdk-lib/pipelines';
+
 import * as acm from 'aws-cdk-lib/aws-certificatemanager';
 import { aws_cloudformation as cfn } from 'aws-cdk-lib';
+import * as codebuild from 'aws-cdk-lib/aws-codebuild';
+import { aws_codecommit as codecommit } from 'aws-cdk-lib';
 import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
+import * as codepipeline from 'aws-cdk-lib/aws-codepipeline';
+import * as codepipeline_actions from 'aws-cdk-lib/aws-codepipeline-actions';
 import * as cloudwatch from "aws-cdk-lib/aws-cloudwatch";
 import * as route53 from 'aws-cdk-lib/aws-route53';
 import * as s3 from 'aws-cdk-lib/aws-s3';
@@ -13,15 +20,66 @@ import * as targets from 'aws-cdk-lib/aws-route53-targets';
 
 
 export class InfrastructureStack extends cdk.Stack {
-  constructor(scope: Construct, id: string, props?: cdk.StackProps) {
+  constructor(scope: Construct, id: string, props: StackProps) {
     super(scope, id, props);
 
     const HugoSute = 'hpfan.schierer.org';
+    const HUGO_VERSION = '0.92.0';
 
     const SOZone = route53.HostedZone.fromHostedZoneAttributes(this, 'SOZone', {
       zoneName: 'schierer.org',
       hostedZoneId: 'ZOB4NXMJR2BZF',
     });
+
+    const code = new codecommit.Repository(this, 'HPRepo', {
+      repositoryName: 'HP_Stuff',
+      description: "Luke Schierer's Harry Potter Stuff",
+    });
+
+    const HugoPipe = new CodePipeline(this, 'HugoPipeline', {
+      pipelineName: 'Hugo_Pipeline',
+      crossAccountKeys: false,
+      selfMutation: true,
+      synth: new ShellStep('install', {
+        primaryOutputDirectory: 'infrastructure/cdk.out',
+        input: CodePipelineSource.codeCommit(code, "master", {
+          codeBuildCloneOutput: true,
+        }),
+        installCommands: [
+          `curl -Ls https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb -o /tmp/hugo.deb`,
+          'dpkg -i /tmp/hugo.deb',
+        ],
+        commands: [
+          'git submodule init',
+          'npm ci',
+          'npm run build',
+          'hugo -v',
+          'cd infrastructure',
+          'npx cdk synth',
+        ],
+      }),
+    });
+
+    const Haccount = (!(props)) ? process.env.CDK_DEFAULT_ACCOUNT : (!(props.env)) ? process.env.CDK_DEFAULT_ACCOUNT : (!(props.env.account)) ? process.env.CDK_DEFAULT_ACCOUNT : props.env.account;
+    const Hregion = (!(props)) ? process.env.CDK_DEFAULT_REGION : (!(props.env)) ? process.env.CDK_DEFAULT_REGION : (!(props.env.region)) ? process.env.CDK_DEFAULT_REGION : props.env.region;
+
+
+    const hugoStage = new HSiteStage(this, "Hugo", {
+      env: {
+        account: Haccount,
+        region: Hregion,
+      }
+    });
+
+    HugoPipe.addStage(hugoStage);
+
+  }
+}
+
+class HugoStack extends Stack { 
+  constructor(scope: Construct, id: string, props?: StackProps) {
+    super(scope, id, props);
+
 
     const HPBucket = new s3.Bucket(this, 'HPHugoBucket', {
       encryption: s3.BucketEncryption.KMS,
@@ -42,5 +100,15 @@ export class InfrastructureStack extends cdk.Stack {
 
   }
 }
+
+
+class HSiteStage extends Stage {
+  constructor(scope: Construct, id: string, props?: StageProps) {
+    super(scope, id, props);
+
+    const HugoSite = new HugoStack(this, 'HugoStack', props);
+  }
+}
+
 // vim: shiftwidth=2:tabstop=2:expandtab 
 
