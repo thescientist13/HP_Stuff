@@ -109,7 +109,7 @@ class HugoStack extends Stack {
 
     const HugoDeploy = new s3deploy.BucketDeployment(this, 'DeployWebsite', {
       sources: [
-        s3deploy.Source.asset('./public')
+        s3deploy.Source.asset('../public')
       ],
       destinationBucket: HPBucket,
       distribution: HugoCFD,
