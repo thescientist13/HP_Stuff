@@ -84,11 +84,17 @@ class HugoStack extends Stack {
       hostedZoneId: 'ZOB4NXMJR2BZF',
     });
 
+    const accessLogsBucket = new s3.Bucket(this, 'AccessLogsBucket', {
+      removalPolicy: RemovalPolicy.DESTROY, // these logs are only enabled to debug cloudfront
+      autoDeleteObjects: true, // these logs are only enabled to debug cloudfrount
+    });
+
     const HPBucket = new s3.Bucket(this, 'HPHugoBucket', {
       enforceSSL: false,
       publicReadAccess: true,
       websiteIndexDocument: 'index.html',
       websiteErrorDocument: '/404.html',
+      serverAccessLogsBucket: accessLogsBucket,
       removalPolicy: RemovalPolicy.DESTROY, //safe since everything in here is generated
       autoDeleteObjects: true, // safe since everything in here is generated
     });
