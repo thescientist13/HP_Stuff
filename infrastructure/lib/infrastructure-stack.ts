@@ -61,7 +61,7 @@ export class InfrastructureStack extends cdk.Stack {
     const Hregion = (!(props)) ? process.env.CDK_DEFAULT_REGION : (!(props.env)) ? process.env.CDK_DEFAULT_REGION : (!(props.env.region)) ? process.env.CDK_DEFAULT_REGION : props.env.region;
 
 
-    const hugoStage = new HSiteStage(this, "Hugo", {
+    const hugoStage = new HSiteStage(this, "Prod", {
       env: {
         account: Haccount,
         region: Hregion,
@@ -177,7 +177,7 @@ class HSiteStage extends Stage {
   constructor(scope: Construct, id: string, props?: StageProps) {
     super(scope, id, props);
 
-    const HugoSite = new HugoStack(this, 'HugoStack', props);
+    const HugoSite = new HugoStack(this, 'HPfan', props);
   }
 }
 
