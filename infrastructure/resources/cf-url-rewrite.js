@@ -1,5 +1,5 @@
 //from aws-samples/amazon-cloudfront-functions
-function handler(event: any = {} ) {
+function handler(event ) {
     var request = event.request;
     var uri = request.uri;
     

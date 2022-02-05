@@ -117,7 +117,7 @@ class HugoStack extends Stack {
 
     const indexFunction = new cloudfront.Function(this, 'indexFunction', {
       code: cloudfront.FunctionCode.fromFile({
-        filePath: 'resources/cf-url-rewrite.ts'
+        filePath: 'resources/cf-url-rewrite.js'
       })
     });
 
