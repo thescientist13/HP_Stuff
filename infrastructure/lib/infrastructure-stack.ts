@@ -103,7 +103,11 @@ class HugoStack extends Stack {
       },
       certificate: HugoCert,
       domainNames: [ HugoSite ],
+      defaultRootObject: 'index.html',
+      priceClass: cloudfront.PriceClass.PRICE_CLASS_100,
     });
+
+    HugoCFD.applyRemovalPolicy(cdk.RemovalPolicy.DESTROY);
 
     const HPARecord = new route53.ARecord(this, 'HPAliasRecord', {
       zone: SOZone,
