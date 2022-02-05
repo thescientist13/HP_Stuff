@@ -115,10 +115,20 @@ class HugoStack extends Stack {
 
     HPBucket.grantRead(HOAId);
 
+    const indexFunction = new cloudfront.Function(this, 'indexFunction', {
+      code: cloudfront.FunctionCode.fromFile({
+        filePath: 'resources/cf-url-rewrite.ts'
+      })
+    });
+
     const HugoCFD = new cloudfront.Distribution(this, 'HugoDist', {
       defaultBehavior: { 
         origin: HS3O,
         allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
+        functionAssociations: [{
+          function: indexFunction,
+          eventType: cloudfront.FunctionEventType.VIEWER_REQUEST,
+        }],
         viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
       },
       errorResponses: [
@@ -157,6 +167,7 @@ class HugoStack extends Stack {
       storageClass: s3deploy.StorageClass.INTELLIGENT_TIERING,
       logRetention: logs.RetentionDays.ONE_DAY,
     });
+
 
   }
 }
