@@ -14,6 +14,7 @@ import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as codepipeline from 'aws-cdk-lib/aws-codepipeline';
 import * as codepipeline_actions from 'aws-cdk-lib/aws-codepipeline-actions';
 import * as cloudwatch from "aws-cdk-lib/aws-cloudwatch";
+import { aws_logs as logs } from 'aws-cdk-lib';
 import * as route53 from 'aws-cdk-lib/aws-route53';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 import * as s3deploy from 'aws-cdk-lib/aws-s3-deployment';
@@ -84,8 +85,8 @@ class HugoStack extends Stack {
     });
 
     const HPBucket = new s3.Bucket(this, 'HPHugoBucket', {
-      blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
-      enforceSSL: true,
+      blockPublicAccess: s3.BlockPublicAccess.BLOCK_ACLS,
+      enforceSSL: false,
       publicReadAccess: false,
       websiteIndexDocument: 'index.html',
       websiteErrorDocument: '/404.html',
@@ -111,6 +112,13 @@ class HugoStack extends Stack {
         allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
         viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
       },
+      errorResponses: [
+        {
+          httpStatus: 404,
+          responseHttpStatus: 200,
+          responsePagePath: '/index.html',
+        },
+      ],
       certificate: HugoCert,
       domainNames: [ HugoSite ],
       priceClass: cloudfront.PriceClass.PRICE_CLASS_100,
@@ -137,6 +145,7 @@ class HugoStack extends Stack {
       ],
       storageClass: s3deploy.StorageClass.INTELLIGENT_TIERING,
       accessControl: s3.BucketAccessControl.BUCKET_OWNER_FULL_CONTROL,
+      logRetention: logs.RetentionDays.ONE_DAY,
     });
 
   }
