@@ -84,9 +84,9 @@ class HugoStack extends Stack {
     });
 
     const HPBucket = new s3.Bucket(this, 'HPHugoBucket', {
-      //blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
+      blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
       enforceSSL: true,
-      publicReadAccess: true,
+      publicReadAccess: false,
       websiteIndexDocument: 'index.html',
       websiteErrorDocument: '/404.html',
       removalPolicy: RemovalPolicy.DESTROY, //safe since everything in here is generated
