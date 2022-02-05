@@ -39,14 +39,13 @@ export class InfrastructureStack extends cdk.Stack {
         primaryOutputDirectory: 'infrastructure/cdk.out',
         input: CodePipelineSource.codeCommit(code, "master", {
           codeBuildCloneOutput: true,
+          fetchSubmodules: true,
         }),
         installCommands: [
           `curl -Ls https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb -o /tmp/hugo.deb`,
           'dpkg -i /tmp/hugo.deb',
         ],
         commands: [
-          'git submodule init',
-          'git submodule update',
           'npm ci',
           'npm run build',
           'hugo -v',
