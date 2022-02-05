@@ -136,7 +136,6 @@ class HugoStack extends Stack {
         '/*',
       ],
       storageClass: s3deploy.StorageClass.INTELLIGENT_TIERING,
-      accessControl: s3.BucketAccessControl.AUTHENTICATED_READ,
       logRetention: logs.RetentionDays.ONE_DAY,
     });
 
