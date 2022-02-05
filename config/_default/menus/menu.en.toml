@@ -1,0 +1,15 @@
+#  menu items
+[[main]]
+  name = "Notes"
+  weight = 2
+  url = "/Harrypedia/"
+
+[[main]]
+  name = "About"
+  weight = 3
+  url = "/about/"
+
+# [[main]]
+#   name = "Blog"
+#   weight = 4
+#   url = "blog/"

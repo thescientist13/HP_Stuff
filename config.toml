@@ -1,43 +1,15 @@
 baseURL = "https://hpfan.schierer.org/"
+languageCode = "en-GB"
 title = "Harry Potter Analysis, Speculation, Fan fiction, and Fan fiction tracking"
 copyright = "© 2005-2022 Luke Schierer"
-
 owner = "Luke Schierer"
-
-theme = "geekdoc"
-
-# Geekdoc required configuration
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-disablePathToLower = true
-
-pluralizeListTitles = false
-
-languageCode = "en-GB"
-
 enableRobotsTXT = true
-
+# this example loads the theme as hugo module
+# comment out line below, and uncomment the line after it if you prefer to load the theme normally
+theme = "learn"
 enableGitInfo = true
 
-# Needed for mermaid shortcodes
-[markup]
-  [markup.goldmark.renderer]
-    # Needed for mermaid shortcode
-    unsafe = true
-  [markup.tableOfContents]
-    startLevel = 1
-    endLevel = 9
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [outputs]
   home = ["HTML", "RSS","JSON"]
-
-[taxonomies]
-  tag = 'tags'
-  # first middle last
-  #person = 'persons' 
-  # last name at birth, else as known
-  #family = 'families'
-  # hogwarts house if applicable, else magical school if applicable
-  #affiliation = 'affiliations'
-  # mundane, new-blood, half-blood, pure-blood
-  #status = 'statuses'
