@@ -110,6 +110,7 @@ class HugoStack extends Stack {
 
     const HPARecord = new route53.ARecord(this, 'HPAliasRecord', {
       zone: SOZone,
+      recordName: HugoSite,
       target: route53.RecordTarget.fromAlias(new targets.CloudFrontTarget(HugoCFD)),
     });
 
