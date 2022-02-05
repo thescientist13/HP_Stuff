@@ -111,6 +111,13 @@ class HugoStack extends Stack {
         allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
         viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
       },
+      errorResponses: [
+        {
+          httpStatus: 404,
+          responseHttpStatus: 200,
+          responsePagePath: '/index.html',
+        },
+      ],
       certificate: HugoCert,
       domainNames: [ HugoSite ],
       priceClass: cloudfront.PriceClass.PRICE_CLASS_100,
