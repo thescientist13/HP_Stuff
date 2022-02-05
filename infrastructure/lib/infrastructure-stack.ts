@@ -92,17 +92,16 @@ class HugoStack extends Stack {
     const HPBucket = new s3.Bucket(this, 'HPHugoBucket', {
       enforceSSL: false,
       publicReadAccess: false,
-      blockPublicAccess: BlockPublicAccess.BLOCK_ALL,
+      blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
       objectOwnership: s3.ObjectOwnership.BUCKET_OWNER_ENFORCED,
       websiteIndexDocument: 'index.html',
       websiteErrorDocument: '/404.html',
       serverAccessLogsBucket: accessLogsBucket,
       serverAccessLogsPrefix: 's3access',
       intelligentTieringConfigurations: [{
-        id: 'HugoS3ITC',
-        status: 'Enabled',
-        archiveAccessTierTime: cdk.Duration.days(90),
-        deepArchiveAccessTierTime: cdk.Duration.days(180),
+        name: 'HugoS3ITC',
+        archiveAccessTierTime: cdk.Duration.days(180),
+        deepArchiveAccessTierTime: cdk.Duration.days(360),
       }],
       removalPolicy: RemovalPolicy.DESTROY, //safe since everything in here is generated
       autoDeleteObjects: true, // safe since everything in here is generated
