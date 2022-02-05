@@ -108,16 +108,7 @@ class HugoStack extends Stack {
     const HugoCFD = new cloudfront.Distribution(this, 'HugoDist', {
       defaultBehavior: { 
         origin: HS3O,
-        allowedMethods: { 
-          methods: [
-            'GET',
-            'HEAD',
-            'OPTIONS',
-            'PUT',
-            'POST',
-            'PATCH',
-          ]
-        },
+        allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
         viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
       },
       certificate: HugoCert,
