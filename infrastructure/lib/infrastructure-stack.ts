@@ -90,14 +90,10 @@ class HugoStack extends Stack {
     });
 
     const HPBucket = new s3.Bucket(this, 'HPHugoBucket', {
-      enforceSSL: false,
+      enforceSSL: true,
       publicReadAccess: false,
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
       objectOwnership: s3.ObjectOwnership.BUCKET_OWNER_ENFORCED,
-      websiteIndexDocument: 'index.html',
-      websiteErrorDocument: '/404.html',
-      serverAccessLogsBucket: accessLogsBucket,
-      serverAccessLogsPrefix: 's3access',
       intelligentTieringConfigurations: [{
         name: 'HugoS3ITC',
         archiveAccessTierTime: cdk.Duration.days(180),
