@@ -47,6 +47,8 @@ export class InfrastructureStack extends cdk.Stack {
         commands: [
           'npm ci',
           'npm run build',
+          'git submodule init',
+          'git submodule update',
           'hugo -v',
           'cd infrastructure',
           'npx cdk synth',
