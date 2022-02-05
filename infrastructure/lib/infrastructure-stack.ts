@@ -98,16 +98,34 @@ class HugoStack extends Stack {
       validation: acm.CertificateValidation.fromDns(SOZone),
     });
 
+    const HOAId = new cloudfront.OriginAccessIdentity(this, 'Hugo OAId');
+    const HS3O = new origins.S3Origin(HPBucket, { 
+      originAccessIdentity: HOAId,
+    });
+
+    HPBucket.grantRead(HOAId);
+
     const HugoCFD = new cloudfront.Distribution(this, 'HugoDist', {
       defaultBehavior: { 
-        origin: new origins.S3Origin(HPBucket),
-        allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
+        origin: HS3O,
+        allowedMethods: { 
+          methods: [
+            'GET',
+            'HEAD',
+            'OPTIONS',
+            'PUT',
+            'POST',
+            'PATCH',
+          ]
+        },
         viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
       },
       certificate: HugoCert,
       domainNames: [ HugoSite ],
       priceClass: cloudfront.PriceClass.PRICE_CLASS_100,
     });
+
+
 
     HugoCFD.applyRemovalPolicy(cdk.RemovalPolicy.DESTROY);
 
