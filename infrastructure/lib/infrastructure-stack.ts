@@ -91,10 +91,19 @@ class HugoStack extends Stack {
 
     const HPBucket = new s3.Bucket(this, 'HPHugoBucket', {
       enforceSSL: false,
-      publicReadAccess: true,
+      publicReadAccess: false,
+      blockPublicAccess: BlockPublicAccess.BLOCK_ALL,
+      objectOwnership: s3.ObjectOwnership.BUCKET_OWNER_ENFORCED,
       websiteIndexDocument: 'index.html',
       websiteErrorDocument: '/404.html',
       serverAccessLogsBucket: accessLogsBucket,
+      serverAccessLogsPrefix: 's3access',
+      intelligentTieringConfigurations: [{
+        id: 'HugoS3ITC',
+        status: 'Enabled',
+        archiveAccessTierTime: cdk.Duration.days(90),
+        deepArchiveAccessTierTime: cdk.Duration.days(180),
+      }],
       removalPolicy: RemovalPolicy.DESTROY, //safe since everything in here is generated
       autoDeleteObjects: true, // safe since everything in here is generated
     });
@@ -126,6 +135,8 @@ class HugoStack extends Stack {
       ],
       certificate: HugoCert,
       domainNames: [ HugoSite ],
+      logBucket: accessLogsBucket,
+      logFilePrefix: 'cfaccess',
       priceClass: cloudfront.PriceClass.PRICE_CLASS_100,
     });
 
