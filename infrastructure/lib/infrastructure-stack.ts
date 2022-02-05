@@ -93,9 +93,9 @@ class HugoStack extends Stack {
       autoDeleteObjects: true, // safe since everything in here is generated
     });
 
-    const HugoCert = new acm.DnsValidatedCertificate(this, 'HugoCert', {
+    const HugoCert = new acm.Certificate(this, 'HugoCert', {
       domainName: HugoSite,
-      hostedZone: SOZone,
+      validation: acm.CertificateValidation.fromDns(SOZone),
     });
 
     const HugoCFD = new cloudfront.Distribution(this, 'HugoDist', {
