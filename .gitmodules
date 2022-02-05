@@ -2,3 +2,6 @@
 	path = themes/learn
 	url = https://github.com/matcornic/hugo-theme-learn
 	branch = master
+[submodule "themes/geekdoc"]
+	path = themes/geekdoc
+	url = https://github.com/thegeeklab/hugo-geekdoc.git

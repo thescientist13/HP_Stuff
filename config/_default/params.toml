@@ -1,42 +1,80 @@
-author = "Luke Schierer"
+# (Optional, default 6) Set how many table of contents levels to be showed on page.
+# Use false to hide ToC, note that 0 will default to 6 (https://gohugo.io/functions/default/)
+# You can also specify this parameter per page in front matter.
+geekdocToC = 3
 
-# see https://learn.netlify.app/en/basics/configuration/ for more theme specific options
-# Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
-# Useful to give opportunity to people to create merge request for your doc.
-# See the config.toml file from this documentation site to have an example.
-editURL = ""
-# Description of the site, will be used in meta information
-description = ""
-# Shows a checkmark for visited pages on the menu
-showVisitedLinks = false
-# Disable search function. It will hide search bar
-disableSearch = false
-# Javascript and CSS cache are automatically busted when new version of site is generated.
-# Set this to true to disable this behavior (some proxies don't handle well this optimization)
-disableAssetsBusting = false
-# Set this to true to disable copy-to-clipboard button for inline code.
-disableInlineCopyToClipBoard = false
-# A title for shortcuts in menu is set by default. Set this to true to disable it.
-disableShortcutsTitle = false
-# If set to false, a Home button will appear below the search bar on the menu.
-# It is redirecting to the landing page of the current language if specified. (Default is "/")
-disableLandingPageButton = true
-# When using mulitlingual website, disable the switch language button.
-disableLanguageSwitchingButton = true
-# Hide breadcrumbs in the header and only show the current page title
-disableBreadcrumb = true
-# If set to true, prevents Hugo from including the mermaid module if not needed (will reduce load times and traffic)
-disableMermaid = false
-# Specifies the remote location of the mermaid js
-customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
-# Hide Next and Previous page buttons normally displayed full height beside content
-disableNextPrev = true
-# Order sections in menu by "weight" or "title". Default to "weight"
-ordersectionsby = "weight"
-# Change default color scheme with a variant one. Can be "red", "blue", "green".
-themeVariant = "3399ff"
-# Provide a list of custom css files to load relative from the `static/` folder in the site root.
-custom_css = ["css/foo.css", "css/bar.css"]
-# Change the title separator. Default to "::".
-titleSeparator = "-"
+# (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
+# relative to your 'static/' folder.
+geekdocLogo = "Harry Potter Notes.xcf"
 
+# (Optional, default false) Render menu from data file in 'data/menu/main.yaml'.
+# See also https://geekdocs.de/usage/menus/#bundle-menu.
+geekdocMenuBundle = true
+
+# (Optional, default false) Collapse all menu entries, can not be overwritten
+# per page if enabled. Can be enabled per page via `geekdocCollapseSection`.
+geekdocCollapseAllSections = true
+
+# (Optional, default true) Show page navigation links at the bottom of each
+# docs page (bundle menu only).
+geekdocNextPrev = false
+
+# (Optional, default true) Show a breadcrumb navigation bar at the top of each docs page.
+# You can also specify this parameter per page in front matter.
+geekdocBreadcrumb = false
+
+# (Optional, default none) Set source repository location. Used for 'Edit page' links.
+# You can also specify this parameter per page in front matter.
+#geekdocRepo = "https://github.com/thegeeklab/hugo"
+
+# (Optional, default none) Enable 'Edit page' links. Requires 'GeekdocRepo' param
+# and path must point to 'content' directory of repo.
+# You can also specify this parameter per page in front matter.
+#geekdocEditPath = "edit/main/exampleSite/content"
+
+# (Optional, default true) Enables search function with flexsearch.
+# Index is built on the fly and might slow down your website.
+geekdocSearch = false
+
+# (Optional, default false) Display search results with the parent folder as prefix. This
+# option allows you to distinguish between files with the same name in different folders.
+# NOTE: This parameter only applies when 'geekdocSearch = true'.
+geekdocSearchShowParent = true
+
+# (Optional, default none) Add a link to your Legal Notice page to the site footer.
+# It can be either a remote url or a local file path relative to your content directory.
+#geekdocLegalNotice = "https://blog.example.com/legal"
+
+# (Optional, default none) Add a link to your Privacy Policy page to the site footer.
+# It can be either a remote url or a local file path relative to your content directory.
+#geekdocPrivacyPolicy = "/privacy"
+
+# (Optional, default true) Add an anchor link to headlines.
+geekdocAnchor = true
+
+# (Optional, default true) Copy anchor url to clipboard on click.
+geekdocAnchorCopy = true
+
+# (Optional, default true) Enable or disable image lazy loading for images rendered
+# by the 'img' shortcode.
+geekdocImageLazyLoading = true
+
+# (Optional, default false) Set HTMl <base> to .Site.BaseURL if enabled. It might be required
+# if a subdirectory is used within Hugos BaseURL.
+# See https://developer.mozilla.org/de/docs/Web/HTML/Element/base.
+geekdocOverwriteHTMLBase = false
+
+# (Optional, default false) Auto-decrease brightness of images and add a slightly grayscale to avoid
+# bright spots while using the dark mode.
+geekdocDarkModeDim = false
+
+# (Optional, default true) Display a "Back to top" link in the site footer.
+geekdocBackToTop = true
+
+# (Optional, default false) Enable or disable adding tags for post pages automatically to the navigation sidebar.
+geekdocTagsToMenu = true
+
+# (Optional, default 'title') Configure how to sort file-tree menu entries. Possible options are 'title', 'linktitle',
+# 'date', 'publishdate', 'expirydate' or 'lastmod'. Every option can be used with a reverse modifier as well
+# e.g. 'title_reverse'.
+geekdocFileTreeSortBy = "title"
