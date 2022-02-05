@@ -108,6 +108,11 @@ class HugoStack extends Stack {
       domainNames: [ HugoSite ],
     });
 
+    const HPARecord = new route53.ARecord(this, 'HPAliasRecord', {
+      zone: SOZone,
+      target: route53.RecordTarget.fromAlias(new targets.CloudFrontTarget(HugoCFD)),
+    });
+
     const HugoDeploy = new s3deploy.BucketDeployment(this, 'DeployWebsite', {
       sources: [
         s3deploy.Source.asset('../public')
