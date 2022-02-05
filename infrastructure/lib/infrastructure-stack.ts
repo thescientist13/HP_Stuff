@@ -33,7 +33,7 @@ export class InfrastructureStack extends cdk.Stack {
     });
 
     const HugoPipe = new CodePipeline(this, 'HugoPipeline', {
-      pipelineName: 'Hugo_Pipeline',
+      pipelineName: 'HP_Pipeline',
       crossAccountKeys: false,
       selfMutation: true,
       synth: new ShellStep('install', {
