@@ -1,11 +1,15 @@
 #  menu items
 [[main]]
-  name = "FanFiction"
+  name = "Notes"
   weight = 2
-  url = "fanfiction/"
+  url = "/Harrypedia/"
 
 [[main]]
-  name = "Encyclopedic Reference of things Harry Potter"
+  name = "About"
   weight = 3
-  url = "harrypedia/"
+  url = "/about/"
 
+# [[main]]
+#   name = "Blog"
+#   weight = 4
+#   url = "blog/"

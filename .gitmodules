@@ -2,6 +2,3 @@
 	path = themes/learn
 	url = https://github.com/matcornic/hugo-theme-learn
 	branch = master
-[submodule "themes/compose"]
-	path = themes/compose
-	url = https://github.com/onweru/compose/
