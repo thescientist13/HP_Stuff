@@ -21,9 +21,11 @@
   },
   "dependencies": {
     "aws-cdk-lib": "^2.10.0",
+    "chart.js": "^3.7.0",
     "constructs": "^10.0.52",
     "gedcom": "^3.0.0",
     "source-map-support": "^0.5.16",
-    "tsc": "^2.0.4"
+    "tsc": "^2.0.4",
+    "webpack": "^5.68.0"
   }
 }
