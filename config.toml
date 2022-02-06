@@ -3,6 +3,7 @@ languageCode = "en-GB"
 title = "Harry Potter Analysis, Speculation, Fan fiction, and Fan fiction tracking"
 copyright = "© 2005-2022 Luke Schierer"
 owner = "Luke Schierer"
+googleAnalytics = "G-9KF1R3YFTZ"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
 # comment out line below, and uncomment the line after it if you prefer to load the theme normally
