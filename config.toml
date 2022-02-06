@@ -6,10 +6,12 @@ owner = "Luke Schierer"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
 # comment out line below, and uncomment the line after it if you prefer to load the theme normally
-theme = "learn"
+theme = "hugo-book"
 enableGitInfo = true
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
+
+disablePathToLower = true
 
 [outputs]
   home = ["HTML", "RSS","JSON"]
