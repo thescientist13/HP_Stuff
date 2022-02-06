@@ -10,8 +10,6 @@ enableRobotsTXT = true
 theme = "hugo-book"
 enableGitInfo = true
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
-
 disablePathToLower = true
 
 [outputs]
