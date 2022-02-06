@@ -1,3 +1,14 @@
+.book-brand {
+	margin-top: 0;
+	margin-bottom: $padding-14;
+
+	img {
+		height: 3em;
+		width: 9em;
+		margin-inline-end: $padding-8;
+	}
+}
+
 .book-menu {
 	flex: 0 0 $menu-width;
 	font-size: $font-size-14;
@@ -29,6 +40,4 @@
 		content: "▸";
 	}
 }
-
-
 
