@@ -19,7 +19,7 @@ BookLogo = 'LukeHPSite.svg'
 
 # (Optional, default docs) Specify section of content to render as menu
 # You can also set value to "*" to render all sections to menu
-BookSection = 'Harrypedia'
+BookSection = 'docs'
 
 # Set source repository location.
 # Used for 'Last Modified' and 'Edit this page' links.
