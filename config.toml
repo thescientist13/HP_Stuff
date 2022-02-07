@@ -12,5 +12,7 @@ enableGitInfo = true
 
 disablePathToLower = true
 
+refLinksErrorLevel = WARNING
+
 [outputs]
   home = ["HTML", "RSS","JSON"]
