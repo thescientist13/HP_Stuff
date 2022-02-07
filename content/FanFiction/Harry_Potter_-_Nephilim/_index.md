@@ -10,6 +10,10 @@ bookSearchExclude: true
 type: 'docs'
 ---
 
+# Harry Potter - Nephilim
+
+## Introduction
+
 On reading _[Many Waters][MW]_ by Madeleine L'Engle, a number of ideas came
 together and I started thinking about the Harry Potter universe in a different
 way.  Mrs. L'Engle's theology in that book is *really really* sketchy, but like
@@ -65,7 +69,7 @@ this extra information.
 
 #### Some Notable Differences from the actual Harry Potter universe
 
-* [Harry]({{< ref "/docs/Harrypedia/people/Harry" >}}) is noticeably out of
+* Harry is noticeably out of
   character in this story.  I will try to make him the exception rather than the
   norm.
 * Witches are those corrupted by union with fallen angels.  They do gain power
