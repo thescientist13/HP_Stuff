@@ -3,10 +3,11 @@ title: "Harry Potter - Nephilim"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
-# bookHidden: false
+bookHidden: false
 # bookCollapseSection: false
 # bookComments: false
 bookSearchExclude: true
+type: 'docs'
 ---
 
 On reading _[Many Waters][MW]_ by Madeleine L'Engle, a number of ideas came
@@ -47,6 +48,11 @@ this extra information.
 * Lewis describes the effect of sin on the fallen angles in _[The Screwtape
   Letters][TSL2]_
 
-[MW]: {{< ref https://en.wikipedia.org/wiki/Many_Waters >}}
+[MW]: <https://en.wikipedia.org/wiki/Many_Waters>
 
-[TSL]: {{< ref "https://archive.org/details/in.ernet.dli.2015.86985" >>}}
+[MW2]: <https://en.wikipedia.org/wiki/Many_Waters>
+
+[TSL]: <https://archive.org/details/in.ernet.dli.2015.86985>
+
+[TSL2]: <https://archive.org/details/in.ernet.dli.2015.86985>
+
