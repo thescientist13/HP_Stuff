@@ -1,4 +1,4 @@
-{{ $storySection := default "docs" .Site.Params.BookSection  }}
+{{ $storySection := default "docs" .Site.Params.StorySection  }}
 {{ if eq $storySection "*" }}
   {{ $storySection = "/" }}{{/* Backward compatibility */}}
 {{ end }}

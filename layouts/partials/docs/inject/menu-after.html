@@ -1,3 +1,5 @@
 <a id="FanFiction" href='{{ ref $ "FanFiction" }}'>Fan Fiction</a>
 
-{{ partial "docs/menu-storytree" . }
+{{ if eq .CurrentSection "FanFiction" }} 
+  {{ partial "docs/menu-storytree" . }}
+{{ end }}
