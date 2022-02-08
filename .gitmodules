@@ -7,4 +7,4 @@
 	url = https://github.com/alex-shpak/hugo-book
 [submodule "themes/terminal"]
 	path = themes/terminal
-	url = git@github.com:lschierer/hugo-theme-terminal.git
+	url = https://github.com/lschierer/hugo-theme-terminal.git
