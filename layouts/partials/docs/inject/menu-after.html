@@ -1,5 +1,11 @@
 <a id="FanFiction" href='{{ ref $ "FanFiction" }}'>Fan Fiction</a>
 
-{{ if eq .CurrentSection "FanFiction" }} 
-  {{ partial "docs/menu-storytree" . }}
+{{ with .FirstSection }}
+  {{ if eq .FirstSection "FanFiction" }} 
+    {{ partial "docs/menu-storytree" . }}
+  {{ else }}
+    {{ $.Param .FirstSection }}  
+  {{ end }}
+{{ else }}
+  no section defined
 {{ end }}
