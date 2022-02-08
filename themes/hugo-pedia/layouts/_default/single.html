@@ -1,9 +1,6 @@
-<body>
-	<h1>{{ .Site.Title }}</h1>
-	
+{{ define "main" }}	
 	<h2>{{ .Title }}</h2>
 
-	{{ .Content }}
-
-</body>
+	{{- .Content -}}
 		
+{{ end }}
