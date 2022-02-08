@@ -1,7 +1,13 @@
 {{ define "main" }}
-  {{ $paginator := .Paginate (where .Pages "type" "stories") }}
-  {{ range sort $paginator.Pages }}
-  <article class="markdown book-post">
+<section id="about">
+{{ with site.GetPage "about" }}
+  {{ .Content }}
+{{ end }}
+</section>
+
+{{ range where (.Paginate .RegularPagesRecursive.ByWeight).Pages "Type" "stories" }}
+{{/* range (.Paginate .RegularPagesRecursive.ByWeight).Pages */}}
+<article class="markdown book-post">
     <h2>
       <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
     </h2>
