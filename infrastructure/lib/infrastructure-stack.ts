@@ -43,15 +43,13 @@ export class InfrastructureStack extends cdk.Stack {
           codeBuildCloneOutput: true,
         }),
         installCommands: [
-          `curl -Ls https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb -o /tmp/hugo.deb`,
-          'dpkg -i /tmp/hugo.deb',
+          'npm ci',
         ],
         commands: [
-          'npm ci',
           'npm run build',
           'git submodule init',
           'git submodule update',
-          'hugo -v',
+          'npx hugo -v',
           'cd infrastructure',
           'npx cdk synth',
         ],
