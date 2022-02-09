@@ -49,7 +49,7 @@ export class InfrastructureStack extends cdk.Stack {
           'npm run build',
           'git submodule init',
           'git submodule update',
-          'cd theme/terminal',
+          'cd themes/terminal',
           'npm ci',
           'npm build',
           'cd ../../',
