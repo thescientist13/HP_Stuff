@@ -1,10 +1,7 @@
 ---
 title: "Harry Potter - Nephilim"
 weight: 1
-bookComments: false
-bookSearchExclude: true
-# bookHidden: false
-# bookToc: true
+Toc: true
 type: "stories"
 ---
 
