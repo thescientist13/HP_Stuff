@@ -15,6 +15,7 @@ showLanguageSelector = false
 
 # set theme to full screen width
 fullWidthTheme = false
+framed = true
 
 # center theme with default width
 centerTheme = true 
