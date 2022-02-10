@@ -1,10 +1,10 @@
 +++
-title = "FanFiction"
+title = "About My Writing"
 date = 2022-01-07T20:12:01-05:00
 weight = 2
 +++
 
-# Harry Potter Fan Fiction 
+# My Harry Potter Fan Fiction 
 
 The stories here are works where I am either the primary author, or where I
 have picked up an abandoned fan fiction story with the intent to extend and
