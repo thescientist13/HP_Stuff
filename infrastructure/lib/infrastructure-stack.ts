@@ -33,11 +33,9 @@ export class InfrastructureStack extends cdk.Stack {
       description: "Luke Schierer's Harry Potter Stuff",
     });
 
-    const HugoPipe = new CodePipeline(this, 'HugoPipeline', {
-      pipelineName: 'HP_Pipeline',
-      crossAccountKeys: false,
-      selfMutation: true,
-      synth: new ShellStep('install', {
+    const preBuildApproval = new ManualApprovalStep('PreBuildApproval');
+
+    const mainSynth = new ShellStep('install', {
         primaryOutputDirectory: 'infrastructure/cdk.out',
         input: CodePipelineSource.codeCommit(code, "master", {
           codeBuildCloneOutput: true,
@@ -58,7 +56,15 @@ export class InfrastructureStack extends cdk.Stack {
           'cd infrastructure',
           'npx cdk synth',
         ],
-      }),
+    });
+
+    mainSynth.addStepDependency(preBuildApproval);
+
+    const HugoPipe = new CodePipeline(this, 'HugoPipeline', {
+      pipelineName: 'HP_Pipeline',
+      crossAccountKeys: false,
+      selfMutation: true,
+      synth: mainSynth,
     });
 
     const Haccount = (!(props)) ? process.env.CDK_DEFAULT_ACCOUNT : (!(props.env)) ? process.env.CDK_DEFAULT_ACCOUNT : (!(props.env.account)) ? process.env.CDK_DEFAULT_ACCOUNT : props.env.account;
