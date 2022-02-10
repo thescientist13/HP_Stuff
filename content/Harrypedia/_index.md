@@ -28,7 +28,8 @@ American Kindle editions (because these are easier to search and cite)
 * [Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists](https://www.goodreads.com/book/show/31538614-short-stories-from-hogwarts-of-power-politics-and-pesky-poltergeists)
 * [Hogwarts: An Incomplete and Unreliable Guide](https://www.goodreads.com/book/show/31538647-hogwarts)
 * [The Tales of Beedle the Bard](https://www.goodreads.com/book/show/3950967-the-tales-of-beedle-the-bard)
-* Other works accepted by the [Rowling Index](https://www.rowlingindex.org/)
+* Other works accepted by the [Rowling Index](https://www.rowlingindex.org/) but
+  not otherwise listed on this site.
 
 #### Quaternary
 * Interview and twitter comments where I can find the direct quote
@@ -39,5 +40,4 @@ American Kindle editions (because these are easier to search and cite)
 Reasonable Inference based on the above such as, but not limited to
 * [Secrets of the Classlist](https://www.goodreads.com/book/show/25464490-secrets-of-the-classlist)
 * [Harry Potter: A Journey Through A History of Magic](https://www.goodreads.com/book/show/36068753-harry-potter)
-
 
