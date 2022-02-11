@@ -52,6 +52,7 @@ export class InfrastructureStack extends cdk.Stack {
           'npm run build',
           'cd ../../',
           'echo $PWD',
+          'node infrastructure/bin/potter_universe.js',
           'npx hugo -v',
           'cd infrastructure',
           'npx cdk synth',
