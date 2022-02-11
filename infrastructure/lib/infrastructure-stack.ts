@@ -20,8 +20,6 @@ import * as s3 from 'aws-cdk-lib/aws-s3';
 import * as s3deploy from 'aws-cdk-lib/aws-s3-deployment';
 import * as targets from 'aws-cdk-lib/aws-route53-targets';
 
-import { GeneaStage } from './genea';
-
 export class InfrastructureStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: StackProps) {
     super(scope, id, props);
@@ -80,13 +78,6 @@ export class InfrastructureStack extends cdk.Stack {
     });
 
     HugoPipe.addStage(hugoStage);
-
-    HugoPipe.addStage( new GeneaStage(this, 'HPGenea', {
-      env: {
-        account: Haccount,
-        region: Hregion,
-      }
-    }));
 
   }
 }
