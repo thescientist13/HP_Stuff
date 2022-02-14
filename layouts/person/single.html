@@ -38,8 +38,8 @@
   {{ end }}
 
   <div class="post-content">
-		{{ range .Site.Data.potter_universe.children }}
-			{{ if ( and ( eq .type "INDI" ) (eq .data.xref_id .Params.id ) ) }}
+		{{ range $r := .Site.Data.potter_universe.children }}
+			{{ if ( and ( eq $r.type "INDI" ) (eq $r.data.xref_id ( printf "@%s@" $.Params.id ) ) ) }}
 				success
 			{{ end }}
 		{{ end }}
