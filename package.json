@@ -26,6 +26,7 @@
     "gedcom": "^3.0.0",
     "hugo-bin": "^0.80.1",
     "source-map-support": "^0.5.16",
-    "tsc": "^2.0.4"
+    "tsc": "^2.0.4",
+		"typescript": "^3.9.10"
   }
 }
