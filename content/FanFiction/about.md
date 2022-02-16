@@ -1,7 +1,7 @@
 +++
 title = "About My Writing"
 date = 2022-01-07T20:12:01-05:00
-weight = 2
+weight = 1
 +++
 
 # My Harry Potter Fan Fiction 
