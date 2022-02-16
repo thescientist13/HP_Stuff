@@ -3,6 +3,8 @@ title = "Encyclopedic Reference of things Harry Potter"
 date = 2022-01-07T18:51:12-05:00
 weight = 1
 type = 'docs'
+[cascade]
+  ListByWeight = false
 +++
 
 ## Speculation, Analysis and Reference Material for the Harry Potter Universe
