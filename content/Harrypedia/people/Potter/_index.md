@@ -1,12 +1,14 @@
 +++
 title = "Potter Family"
+type = "docs"
 date = 2022-02-05T04:27:33-05:00
+tags = ["family"]
 weight = 5
 +++
 
 # Potter Family
 
-{{<mermaid>}}
+```mermaid
 flowchart TB
   p1f1(? ? Potter\nb? - d?)
   p1m1(? ? Fleamont\nb? - d?)
@@ -59,8 +61,7 @@ flowchart TB
     p8m1 --- p8f1
   end
   p7 --> p8
-  
-{{</mermaid>}}
+```  
 
 This tree is speculative based on the available information.  Note that the
 picture of the Potter family tree that is attributed to the Pottermore site has

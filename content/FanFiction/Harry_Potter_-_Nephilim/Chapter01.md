@@ -6,7 +6,7 @@ bookComments: false
 bookSearchExclude: true
 # bookHidden: false
 # bookToc: true
-type: "stories"
+type: "docs"
 ---
 
 # Harry Potter - Nephilim

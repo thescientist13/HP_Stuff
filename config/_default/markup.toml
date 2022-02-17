@@ -1,6 +1,8 @@
 [goldmark]
   [goldmark.extensions]
     typographer = false
+  [goldmark.renderer]
+    unsafe = true
 [highlight]
   codeFences = true
   guessSyntax = false
@@ -11,5 +13,5 @@
   tabWidth = 2
 [tableOfContents]
   endLevel = 4
-  ordered = false
+  ordered = true
   startLevel = 2

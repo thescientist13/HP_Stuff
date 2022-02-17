@@ -1,5 +1,6 @@
 +++
 title = "People in Harry Potter"
+type = "docs"
 date = 2022-01-07T21:03:10-05:00
 weight = 5
 +++

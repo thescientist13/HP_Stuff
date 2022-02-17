@@ -2,7 +2,7 @@
 title: "Introduction"
 weight: 1
 Toc: true
-type: "stories"
+type: "docs"
 ---
 
 # Harry Potter - Nephilim

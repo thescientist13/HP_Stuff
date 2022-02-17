@@ -1,7 +1,0 @@
-{{ if (or (eq .Type "stories") ( and (eq .CurrentSection .FirstSection) ( findRE "FanFiction" .FirstSection)))  }} 
-    {{ partial "docs/menu-storytree" . }}
-{{ else }}
-	<a id="FanFiction" href='{{ ref $ "FanFiction" }}'>Fan Fiction</a><br/>
-
-	{{ .Type }}
-{{ end }} 
