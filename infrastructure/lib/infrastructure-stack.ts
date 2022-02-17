@@ -44,11 +44,7 @@ export class InfrastructureStack extends cdk.Stack {
         commands: [
           'npm run build',
           'git submodule init',
-          'git submodule update',
-          'cd themes/terminal',
-          'npm ci',
-          'npm run build',
-          'cd ../../',
+          'git submodule update --init --recursive',
           'echo $PWD',
           'node infrastructure/bin/potter_universe.js',
           'npx hugo -v',
