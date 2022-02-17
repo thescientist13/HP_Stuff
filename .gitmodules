@@ -8,6 +8,3 @@
 [submodule "themes/terminal"]
 	path = themes/terminal
 	url = https://github.com/lschierer/hugo-theme-terminal.git
-[submodule "themes/hugo-theme-bootstrap"]
-	path = themes/hugo-theme-bootstrap
-	url = https://github.com/lschierer/hugo-theme-terminal.git
