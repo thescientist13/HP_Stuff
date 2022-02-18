@@ -1,18 +1,8 @@
 ---
-title: "Harry Potter - Nephilim: Chapter 2"
+title: "Chapter 2"
 date: 2022-02-14T23:32:49-05:00
-weight: 1
-bookComments: false
-bookSearchExclude: true
-# bookHidden: false
-# bookToc: true
-type: "docs"
+weight: 2
 ---
-
-# Harry Potter - Nephilim
-
-## Chapter 2
-
 
 Harry's prioritisation of the spiritual over the physical exposed him to his
 mother's love; it also exposed him to Voldemort's hate.  On the whole though,

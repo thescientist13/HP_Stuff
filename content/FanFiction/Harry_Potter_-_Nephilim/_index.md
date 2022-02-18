@@ -1,7 +1,8 @@
 +++
 title = "Harry Potter - Nephilim"
 weight = 1
-Toc = true
-type = 'docs'
+type = 'stories'
+[cascade]
+  type = 'stories'
 +++
 

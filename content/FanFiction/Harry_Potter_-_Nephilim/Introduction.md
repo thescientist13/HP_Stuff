@@ -2,12 +2,8 @@
 title: "Introduction"
 weight: 1
 Toc: true
-type: "docs"
+type: "stories"
 ---
-
-# Harry Potter - Nephilim
-
-## Introduction
 
 On reading _[Many Waters][MW]_ by Madeleine L'Engle, a number of ideas came
 together and I started thinking about the Harry Potter universe in a different

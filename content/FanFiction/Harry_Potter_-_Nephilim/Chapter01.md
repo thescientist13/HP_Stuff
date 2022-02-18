@@ -1,17 +1,8 @@
 ---
-title: "Chapter01"
+title: "Chapter 1"
 date: 2022-02-14T23:32:49-05:00
-weight: 1
-bookComments: false
-bookSearchExclude: true
-# bookHidden: false
-# bookToc: true
-type: "docs"
+weight: 2
 ---
-
-# Harry Potter - Nephilim
-
-## Chapter 1
 
 Vernon Dursley was a huge walrus of a man, with a large moustache and hardly
 any neck. Although fundamentally a bully by nature, Vernon would never dream of
