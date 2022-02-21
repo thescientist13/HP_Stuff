@@ -21,7 +21,21 @@
 
   {{ range $r := .Site.Data.potter_universe.children }}
 	  {{ if ( and ( eq $r.type "INDI" ) (eq $r.data.xref_id ( printf "@%s@" $.Params.id ) ) ) }}
-		  success
+			Birth:  {{ range $r.children }}
+				{{ if (eq .type "BIRT") }}
+				  {{ index (index .children 0) "value"}}<br/>
+				{{ end }}
+		  {{ end }} 
+			Death:  {{ range $r.children }}
+				{{ if (eq .type "DEAT") }}
+				  {{ index (index .children 0) "value"}}<br/>
+				{{ end }}
+		  {{ end }} 
+			<hr/>
+			{{ range $key, $v := $r.children }}
+			 <tr> <td>{{ $v.type }}</td></tr>
+			{{ end }}
+			</table>
   	{{ end }}
   {{ end }}
 	{{ .Content }}
