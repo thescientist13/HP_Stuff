@@ -27,7 +27,7 @@ protected him from the worst of the effects of his upbringing.
 explores as a one-shot from when Harry and [[Ginny]] are dating the idea that
 perhaps Harry is simply really really good at hiding his reactions.[^200527-1]
 
-[^200527-1]: ivybelle.  _Don't Touch Me_,
+[^200527-1]: ivybelle.  _[Don't Touch Me](https://archiveofourown.org/works/702684)_,
     [Archive of Our Own](https://archiveofourown.org/) last viewed 2020-05-27.
 
 #### Slytherin?
