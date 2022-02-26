@@ -21,6 +21,9 @@
     "typescript": "^3.9.10"
   },
   "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-react": "^7.16.7",
     "@fortawesome/fontawesome-common-types": "^0.3.0",
     "autoprefixer": "^10.4.2",
     "constructs": "^10.0.69",
@@ -28,6 +31,7 @@
     "hugo-bin": "^0.80.1",
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0",
+    "read-gedcom": "^0.3.1",
     "source-map-support": "^0.5.16",
     "typescript": "^3.9.10"
   }
