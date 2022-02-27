@@ -2,7 +2,7 @@
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
   <head>
     {{ partial "head.html" . }}
-		{{ $app := resources.Get "scripts/app.jsx" | resources.ExecuteAsTemplate "app.js" . | babel  }}
+		{{ $app := resources.Get "scripts/gedcom.jsx" | resources.ExecuteAsTemplate "gedcom.js" . | babel  }}
 		<script src="{{ $app.RelPermalink }}"></script>
   </head>
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
