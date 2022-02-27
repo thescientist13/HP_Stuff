@@ -7,7 +7,7 @@ import * as path from "path";
 import * as gedcom from "gedcom";
 
 
-const infile = "resources/potter_universe.ged";
+const infile = "static/potter_universe.ged";
 const outfile = "data/potter_universe.json";
 const type = "json";
 
