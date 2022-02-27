@@ -13,6 +13,19 @@ disablePathToLower = true
 
 refLinksErrorLevel = "WARNING"
 
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^babel$', '^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+
 [outputs]
   home = ["HTML", "RSS","JSON"]
 
