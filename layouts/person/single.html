@@ -19,9 +19,13 @@
 		{{ end }}
 	</header>    
 
-	{{ $PotterverseGedcom := .FirstSection.Resources.GetMatch "potter_universe.ged" }}
-
-	Birthday:
+  Birthday:
+	<script> 
+    PBDay = "initial value";
+	  {{ $PotterverseGedcom := .FirstSection.Resources.GetMatch "potter_universe.ged" }}
+    PBDay = BirthDay("{{ $PotterverseGedcom.Permalink }}", "@{{ $.Params.id }}@");
+    document.getElementById("container").innerHTML = PBDay;
+  </script>
 
 	{{ .Content }}
 	{{ if (and (not .Params.hide_feedback) (.Site.Params.ui.feedback.enable) (.Site.GoogleAnalytics)) }}
