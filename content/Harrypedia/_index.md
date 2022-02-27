@@ -3,7 +3,10 @@ title = "Encyclopedic Reference of things Harry Potter"
 linkTitle = "Encyclopedic Reference"
 type = "docs"
 date = 2022-01-07T18:51:12-05:00
+publishResources = true
 weight = 1
+[resources]
+  src = "potter_universe.ged"
 [cascade]
   type = "docs"
   ListByWeight = false

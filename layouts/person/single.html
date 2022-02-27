@@ -19,13 +19,17 @@
 		{{ end }}
 	</header>    
 
-  Birthday:
-	<script> 
-    PBDay = "initial value";
-	  {{ $PotterverseGedcom := .FirstSection.Resources.GetMatch "potter_universe.ged" }}
-    PBDay = BirthDay("{{ $PotterverseGedcom.Permalink }}", "@{{ $.Params.id }}@");
-    document.getElementById("container").innerHTML = PBDay;
-  </script>
+  <div >
+    <h4 class="h3">
+      Biographical Information
+    </h4>
+    <div class="mb-0" id="bio-info">
+      Birthday:
+  	  <script> 
+        {{ printf "BirthDay(\"%s\", \"@%s@\");" ((.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink) $.Params.id | safeJS }}
+      </script>
+    </div>
+  </div>
 
 	{{ .Content }}
 	{{ if (and (not .Params.hide_feedback) (.Site.Params.ui.feedback.enable) (.Site.GoogleAnalytics)) }}
