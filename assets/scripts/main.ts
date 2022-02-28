@@ -1,5 +1,2 @@
-import { HPGC } from './HPGC';
-
-export class HPGC;
-
+export { HPGC } from './HPGC';
 
