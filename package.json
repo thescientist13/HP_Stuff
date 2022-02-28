@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "bin": {
     "infrastructure": "bin/infrastructure.js",
-    "potter_universe": "bin/potter_universe.js"
   },
   "scripts": {
     "build": "tsc",
