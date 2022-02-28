@@ -2,7 +2,7 @@
   "name": "HPInfrastructure",
   "version": "0.1.0",
   "bin": {
-    "infrastructure": "bin/infrastructure.js",
+    "infrastructure": "bin/infrastructure.js"
   },
   "scripts": {
     "build": "tsc",
