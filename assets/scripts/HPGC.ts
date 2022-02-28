@@ -1,9 +1,11 @@
 import * as rgc from 'read-gedcom';
 import * as buffer from 'buffer';
 
+interface CallbackType { (Arg: string): void }
+
 export class HPGC {
 
-  BDayResponce(response) {
+  BDayResponce(response: string) {
     if(!response) {
       console.log("response is null");
         return;
@@ -13,7 +15,7 @@ export class HPGC {
     }
   }
 
-  loadFile(url, callback, ErrText: string /*, opt_arg1, opt_arg2, ... */) {
+  loadFile(url: string, callback: CallbackType, ErrText: string /*, opt_arg1, opt_arg2, ... */) {
     var args = Array.prototype.slice.call(arguments, 3);
     var XMLHttpRequest = require("xmlhttprequest-ssl").XMLHttpRequest;
     var xhr = new XMLHttpRequest();
@@ -28,7 +30,7 @@ export class HPGC {
     xhr.send();
   }
 
-  BirthDay (myfile, id) {
+  BirthDay (myfile: string, id: string) {
     if(myfile === undefined) {
       console.log("no file name provided");
       return "no filename";
@@ -38,6 +40,7 @@ export class HPGC {
       return "no id";
     }
     this.loadFile(myfile, this.BDayResponce, "Unknown Birthday");
+    return "end of function";
   }  
 
 }
