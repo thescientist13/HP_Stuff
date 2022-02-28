@@ -6,6 +6,7 @@
 		<script src="{{ $app.RelPermalink }}" defer></script>
   </head>
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
+		<div id="app">
     <header>
       {{ partial "navbar.html" . }}
     </header>
@@ -29,6 +30,7 @@
       </div>
       {{ partial "footer.html" . }}
     </div>
+		</div>
     {{ partial "scripts.html" . }}
   </body>
 </html>
