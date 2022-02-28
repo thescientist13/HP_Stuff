@@ -8,10 +8,11 @@ module.exports = function (api) {
 				corejs: 3
 			},
 			"@babel/preset-typescript",
-			"@babel/plugin-syntax-jsx"
 		]
   ]
-  const plugins = [];
+  const plugins = [
+			"@babel/plugin-syntax-jsx"
+	];
   return {
     presets,
     plugins
