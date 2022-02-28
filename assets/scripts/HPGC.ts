@@ -1,9 +1,9 @@
 import * as rgc from 'read-gedcom';
 import * as buffer from 'buffer';
 
-class HPGC {
+export class HPGC {
 
-  const BDayResponce = function(response) {
+  const BDayResponce(response) {
     if(!response) {
       console.log("response is null");
         return;
@@ -41,6 +41,5 @@ class HPGC {
   }  
 
 }
-
 
 // vim: shiftwidth=2:tabstop=2:expandtab 
