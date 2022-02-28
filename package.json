@@ -14,6 +14,7 @@
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.5",
     "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/plugin-transform-parameters": "^7.16.7",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
     "@types/jest": "^26.0.10",
