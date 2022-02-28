@@ -3,7 +3,7 @@ import * as buffer from 'buffer';
 
 export class HPGC {
 
-  const BDayResponce(response) {
+  BDayResponce(response) {
     if(!response) {
       console.log("response is null");
         return;
@@ -13,14 +13,14 @@ export class HPGC {
     }
   }
 
-  function loadFile(url, callback /*, opt_arg1, opt_arg2, ... */) {
+  loadFile(url, callback, ErrText: string /*, opt_arg1, opt_arg2, ... */) {
     var args = Array.prototype.slice.call(arguments, 3);
     var XMLHttpRequest = require("xmlhttprequest-ssl").XMLHttpRequest;
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function() {
       if (this.readyState == 4) {
-        BDayResponce(this.responseText);
+        callback(this.responseText);
       }
     }
 
@@ -28,7 +28,7 @@ export class HPGC {
     xhr.send();
   }
 
-  function BirthDay (myfile, id) {
+  BirthDay (myfile, id) {
     if(myfile === undefined) {
       console.log("no file name provided");
       return "no filename";
@@ -37,7 +37,7 @@ export class HPGC {
       console.log("no id provided");
       return "no id";
     }
-    loadFile(myfile, BDayResponce, "Unknown Birthday");
+    this.loadFile(myfile, this.BDayResponce, "Unknown Birthday");
   }  
 
 }
