@@ -13,7 +13,7 @@
   "devDependencies": {
     "@babel/preset-typescript": "^7.16.7",
     "@types/jest": "^26.0.10",
-    "@types/node": "10.17.27",
+    "@types/node": "^10.17.27",
     "aws-cdk-lib": "^2.13.0",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
@@ -30,6 +30,7 @@
     "esbuild": "^0.14.23",
     "gedcom": "^3.0.0",
     "hugo-bin": "^0.80.1",
+    "open": "^8.4.0",
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0",
     "read-gedcom": "^0.3.1",
@@ -38,8 +39,12 @@
     "xmlhttprequest-ssl": "^2.0.0"
   },
   "browser": {
+    "child_process": false,
     "fs": false,
+    "http": false,
+    "https": false,
     "path": false,
-    "os": false
+    "os": false,
+    "url": false
   }
 }
