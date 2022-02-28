@@ -26,7 +26,24 @@
     <div class="mb-0" id="bio-info">
       Birthday:
   	  <script> 
-        {{ printf "BirthDay(\"%s\", \"@%s@\");" ((.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink) $.Params.id | safeJS }}
+	  	var PBD = "UnCalled";
+		function resolver() {
+		}
+		const promiseA = new Promise((resolve,reject) => {
+			{{printf "var aPBD = window.BirthDay(\"%s\", \"@%s@\");" ((.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink) $.Params.id | safeJS }}
+			debugs = "async PBD is ";
+			console.log(debugs.concat(debugs, aPBD));
+			return aPBD;
+		});
+		promiseA.then( (val) => {
+			console.log("asynchronous logging has val:",val);
+			PBD = val;
+		});
+		var debugs = "PBD is ";
+		debugs = debugs.concat(debugs, PBD);
+		console.log(debugs);
+		var fieldNameElement = document.getElementById("PBD");
+		document.currentScript.insertAdjacentHTML('beforebegin', PBD);
       </script>
     </div>
   </div>
