@@ -11,6 +11,9 @@
     "cdk": "cdk"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
     "@types/jest": "^26.0.10",
     "@types/node": "^10.17.27",
@@ -21,8 +24,6 @@
     "typescript": "^3.9.10"
   },
   "dependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.5",
     "@babel/preset-react": "^7.16.7",
     "@fortawesome/fontawesome-common-types": "^0.3.0",
     "autoprefixer": "^10.4.2",
