@@ -2,8 +2,8 @@
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
   <head>
     {{ partial "head.html" . }}
-		{{ $app := resources.Get "scripts/gedcom.js" | js.Build (dict "minify" false "target" "es2015") | fingerprint }}
-		<script src="{{ $app.RelPermalink }}"></script>
+		{{ $app := resources.Get "scripts/main.ts" | js.Build (dict "minify" false "target" "es2015") | fingerprint }}
+		<script src="{{ $app.RelPermalink }}" defer></script>
   </head>
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
     <header>
