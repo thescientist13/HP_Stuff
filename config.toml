@@ -82,4 +82,6 @@ id = "G-9KF1R3YFTZ"
 
 # Language configuration
 
-
+[module]
+[[module.imports]]
+path = "github.com/gohugoio/hugo-mod-jslibs/alpinejs"
