@@ -43,6 +43,7 @@
     "@fortawesome/fontawesome-common-types": "^0.3.0",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
+    "alpinejs": "^3.9.2",
     "constructs": "^10.0.69",
     "esbuild": "^0.14.23",
     "gedcom": "^3.0.0",
