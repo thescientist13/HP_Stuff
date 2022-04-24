@@ -2,8 +2,19 @@
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
   <head>
     {{ partial "head.html" . }}
-		{{ $app := resources.Get "scripts/main.ts" | js.Build (dict "minify" false ) | fingerprint }}
-		<script src="{{ $app.RelPermalink }}" defer></script>
+		{{ $params := dict }}
+		{{ $sourceMap := cond hugo.IsProduction "" "inline" }}
+		{{ $env := cond hugo.IsProduction `'production'` `'development'`  }}
+		{{ $defines := dict "process.env.NODE_ENV" $env "ALPINE_VERSION" `'v3-hugo'` "__DEV__" (not hugo.IsProduction) }}
+		{{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2017" "params" $params "defines" $defines }}
+		{{- $js := resources.Get "js/read-gedcom/index.js" | js.Build $opts -}}
+		{{- if hugo.IsProduction }}
+			{{ $js = $js | minify | fingerprint }}
+		{{ end }}
+		<script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}
+			integrity="{{ $js.Data.Integrity }}" {{ end }}
+			crossorigin="anonymous" defer>
+		</script>
   </head>
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
 		<div id="app">
