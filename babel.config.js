@@ -2,7 +2,7 @@ module.exports = function (api) {
   api.cache(true);
   const presets = [
     [
-			require("@babel/preset-env"),
+			"@babel/preset-env",
 			{
 				useBuiltIns: 'entry',
 				corejs: 3

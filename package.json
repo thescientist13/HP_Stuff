@@ -18,7 +18,6 @@
     "@babel/plugin-transform-parameters": "^7.16.7",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.17.12",
-    "@types/alpinejs": "^3.7.0",
     "@types/jest": "^26.0.10",
     "@types/node": "^10.17.60",
     "autoprefixer": "^10.4.4",
@@ -40,8 +39,11 @@
     "url-loader": "^4.1.1"
   },
   "dependencies": {
+    "@alpinejs/intersect": "^3.10.2",
+    "@alpinejs/persist": "^3.10.2",
     "@babel/preset-react": "^7.16.7",
     "@fortawesome/fontawesome-common-types": "^0.3.0",
+    "@types/alpinejs": "^3.7.0",
     "@types/react": "^17.0.44",
     "@types/react-dom": "^17.0.15",
     "alpinejs": "^3.10.2",

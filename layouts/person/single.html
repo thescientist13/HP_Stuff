@@ -24,7 +24,10 @@
       Biographical Information
     </h4>
     <div class="mb-0" id="bio-info">
-			Birthday: <span x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></span>
+			<div x-data>
+				Birthday: <span x-text="$store.testmessage.message">didn't work</span>
+			</div>
+			Death: <span x-data="{ message: 'I ❤️  Alpine' }" x-text="message"></span>
     </div>
   </div>
 
