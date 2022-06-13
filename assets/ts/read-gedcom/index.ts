@@ -13,10 +13,22 @@ Alpine.store('testmessage', {
 	message: 'this is a test of alpine with typescript',
 });
 
-Alpine.start();
 
-Alpine.directive('HPGedCom', el => {
-  var GC = new HPGC;
+Alpine.store('HPGedCom', {
+  message: 'Stores must go before start',
+  myHPGC: null,
+  myURL: null,
+  init() {
+    if ( ! this.myURL ){
+      return;
+    } else {
+      this.myHPGC = new HPGC;
+      this.myHPGC.initGedCom(this.myURL);
+    }
+  },
+
+  bDay() {
+  }
 });
 
 export class HPGC {
@@ -49,11 +61,13 @@ export class HPGC {
   public initGedCom(myURL: string) {
 
     var gedFile = myURL + "Harrypedia/potter_universe.ged";
-    loadGedCom(gedFile, 2000, _initGedCom);
+    this.loadGedCom(gedFile, 2000, this._initGedCom);
 
   }
     
 }
+
+Alpine.start();
 
 // vim: shiftwidth=2:tabstop=2:expandtab 
 
