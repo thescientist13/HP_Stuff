@@ -19,13 +19,17 @@
     {{ end }}
   </header>    
 
-  <div >
+	<div x-init="
+      $store.HPGedCom.myURL = '{{ .Site.BaseURL }}';
+      $store.HPGedCom.init();
+		"
+		>
     <h4 class="h3">
       Biographical Information
     </h4>
     <div class="mb-0" id="bio-info">
 			<div x-data>
-				Birthday: <span x-text="$store.testmessage.message">didn't work</span>
+				Birthday: <span x-text="$store.HPGedCom.message">didn't work</span>
 			</div>
 			Death: <span x-data="{ message: 'I ❤️  Alpine' }" x-text="message"></span>
     </div>
