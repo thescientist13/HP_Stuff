@@ -27,11 +27,16 @@ Alpine.store('HPGedCom', {
     }
   },
 
-  bDay() {
+  bDay(id: string) {
+    const individual = this.HPGC.myGedData.getIndividualRecord(id);
+    return individual.getEventBirth(); // Birth
   }
 });
 
 export class HPGC {
+
+  myGedFile: Blob;
+  myGedData: rgc.readGedcom;
 
   private loadGedCom(url, timeout, callback) {
     var args = Array.prototype.slice.call(arguments, 3);
@@ -43,25 +48,25 @@ export class HPGC {
     xhr.onload = function() {
       if (xhr.readyState === 4) {
         if (xhr.status === 200) {
-          callback.apply(xhr, args);
+          xhr.onload = function(e) {
+            var arraybuffer = xhr.response; // not responseText
+            myGedFile = rgc.readGedcom(arraybuffer);
+          }
         } else {
           console.error(xhr.statusText);
         }
       }
     };
     xhr.open("GET", url);
+    xhr.responseType = "arraybuffer";
     xhr.timeout = timeout;
     xhr.send();
   }
 
-  private _initGedCom( gedFile) {
-    console.log("callback function called");
-  }
-
   public initGedCom(myURL: string) {
 
-    var gedFile = myURL + "Harrypedia/potter_universe.ged";
-    this.loadGedCom(gedFile, 2000, this._initGedCom);
+    console.log(myURL);
+    this.loadGedCom(myURL, 2000, this._initGedCom);
 
   }
     

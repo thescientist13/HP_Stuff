@@ -19,8 +19,9 @@
     {{ end }}
   </header>    
 
+  {{ $GedFile := (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
 	<div x-init="
-      $store.HPGedCom.myURL = '{{ .Site.BaseURL }}';
+      $store.HPGedCom.myURL = '{{ $GedFile }}';
       $store.HPGedCom.init();
 		"
 		>
@@ -29,7 +30,7 @@
     </h4>
     <div class="mb-0" id="bio-info">
 			<div x-data>
-				Birthday: <span x-text="$store.HPGedCom.message">didn't work</span>
+				Birthday: <span x-text="$store.HPGedCom.bDay('@001@')">didn't work</span>
 			</div>
 			Death: <span x-data="{ message: 'I ❤️  Alpine' }" x-text="message"></span>
     </div>
