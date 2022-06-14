@@ -20,18 +20,33 @@
   </header>    
 
   {{ $GedFile := (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
-	<div x-init="
-      $store.HPGedCom.myURL = '{{ $GedFile }}';
-      $store.HPGedCom.init();
-		"
-		>
+	<div >
     <h4 class="h3">
       Biographical Information
     </h4>
-    <div class="mb-0" id="bio-info">
-			<div x-data>
-				Birthday: <span x-text="$store.HPGedCom.bDay('@001@')">didn't work</span>
-			</div>
+    <div class="mb-0" id="bio-info" 
+	  	x-data="{
+				birthday: 'Unset',
+			}"
+			x-init="
+				console.log('GedFile is {{ $GedFile }}');
+  	    $store.HPGedCom.myURL = '{{ $GedFile }}';
+				await $store.HPGedCom.initGC();
+				if ($store.HPGedCom.isLoaded()) {
+					birthday = $store.HPGedCom.bDay('@I0001@');
+					console.log('HPGedCom isLoaded is ' + $store.HPGedCom.isLoaded());
+				} else {
+					console.log('not ready to call birthday');
+				}
+
+			"
+		>
+		Birthday: <span x-on:alpine:init="(e) => { console.log('in x-on'); birthday = $store.HPGedCom.bDay('@I0001@'); }" x-init="
+				$watch($store.HPGedCom.myHPGC.isLoaded, value => { 
+					console.log('value changed to ' + value); 
+					birthday = $store.HPGedCom.bDay('@I0001@');
+				});
+			" x-text="birthday">didn't work</span><br/>
 			Death: <span x-data="{ message: 'I ❤️  Alpine' }" x-text="message"></span>
     </div>
   </div>

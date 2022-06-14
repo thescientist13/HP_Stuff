@@ -16,56 +16,109 @@ Alpine.store('testmessage', {
 
 Alpine.store('HPGedCom', {
   message: 'Stores must go before start',
-  myHPGC: null,
   myURL: null,
-  init() {
-    if ( ! this.myURL ){
+  myHPGC: null,
+
+  async initGC() {
+    if ( ! this.myURL ) {
+      console.log('initGC called before myURL set');
       return;
+    }
+    console.log("initGC called with url " + this.myURL);
+    this.myHPGC = new HPGC;
+    this.myHPGC.initGedCom(this.myURL);
+
+  },
+
+  isLoaded() {
+    if ( this.myHPGC ) { 
+      return this.myHPGC.isLoaded;
     } else {
-      this.myHPGC = new HPGC;
-      this.myHPGC.initGedCom(this.myURL);
+      console.log('called before myHPGC exists');
+      return false;
     }
   },
 
   bDay(id: string) {
-    const individual = this.HPGC.myGedData.getIndividualRecord(id);
-    return individual.getEventBirth(); // Birth
+    if (! this.myHPGC) { 
+      console.log('bDay called before init');
+      return "Unknowable";
+    } else if ( ! this.myHPGC.myGedFile ) {
+      console.log('bDay called before GedFile present');
+      return "Unknown";
+    } else {
+      var ged = <rgc.readGedcom>this.myHPGC.myGedFile;
+      console.log('bday entry: ' + typeof(this.myHPGC.myGedFile));
+      console.log('fetching bday for ' + id);
+      //const individual = ged.getIndividualRecord(id);
+      //console.log(individual.toString());
+      //return individual.getEventBirth(); // Birth
+    }
   }
+
 });
 
 export class HPGC {
 
-  myGedFile: Blob;
-  myGedData: rgc.readGedcom;
+  myGedFile: rgc.readGedcom;
+  public readonly isLoaded: boolean;
 
-  private loadGedCom(url, timeout, callback) {
+  constructor() {
+    this.myGedData = null;
+    this.myGedFile = null;
+    this.isLoaded = false;
+  };
+
+  public setGedFile(newFile: rgc.readGedcom) {
+    this.myGedFile = newFile;
+    console.log("called setter function");
+    if (this.myGedFile) {
+      Alpine.effect(() => {
+        this.isLoaded = true;
+        console.log("set loaded value");
+      });
+    }
+  };
+
+  private async loadGedCom(url, timeout, callback) {
     var args = Array.prototype.slice.call(arguments, 3);
     var xhr = new XMLHttpRequest();
     xhr.ontimeout = function () {
       console.error("The request for " + url + " timed out.");
     };
 
-    xhr.onload = function() {
+    const computeGeneralStatistics = x => ({
+      families: x.getFamilyRecord().length,
+      individuals: x.getIndividualRecord().length,
+      multimedia: x.getMultimediaRecord().length,
+      notes: x.getNoteRecord().length,
+      repositories: x.getRepositoryRecord().length,
+      sources: x.getSourceRecord().length,
+    });
+
+    xhr.open("GET", url);
+    xhr.responseType = "arraybuffer";
+    xhr.onload = function(e) {
       if (xhr.readyState === 4) {
         if (xhr.status === 200) {
-          xhr.onload = function(e) {
-            var arraybuffer = xhr.response; // not responseText
-            myGedFile = rgc.readGedcom(arraybuffer);
-          }
+          console.log('xhr status 200');
+          //console.error(xhr.statusText);
+          var arraybuffer = xhr.response; // not responseText
+          var GedFile = rgc.readGedcom(arraybuffer);
+          console.log(computeGeneralStatistics(GedFile));
+          Alpine.store('HPGedCom').myHPGC.setGedFile(GedFile);
         } else {
-          console.error(xhr.statusText);
+          console.log('xhr status not 200');
         }
       }
     };
-    xhr.open("GET", url);
-    xhr.responseType = "arraybuffer";
     xhr.timeout = timeout;
     xhr.send();
   }
 
   public initGedCom(myURL: string) {
 
-    console.log(myURL);
+    console.log('initGedCom with ' + myURL);
     this.loadGedCom(myURL, 2000, this._initGedCom);
 
   }
