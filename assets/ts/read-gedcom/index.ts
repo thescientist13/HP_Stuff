@@ -1,4 +1,4 @@
-import  Alpine from 'alpinejs';
+import Alpine from 'alpinejs';
 import * as rgc from 'read-gedcom';
 import * as buffer from 'buffer';
 
@@ -14,13 +14,17 @@ Alpine.store('testmessage', {
 });
 
 
-Alpine.store('HPGedCom', {
-  message: 'Stores must go before start',
+export Alpine.store('HPGedCom', {
+  message: String,
   myURL: null,
   myHPGC: null,
 
+  HPGC() {
+     return this.myHPGC;
+  },
+
   async initGC() {
-    if ( ! this.myURL ) {
+    if ( typeof(this.myURL) === 'undefined' ) {
       console.log('initGC called before myURL set');
       return;
     }
@@ -31,7 +35,7 @@ Alpine.store('HPGedCom', {
   },
 
   isLoaded() {
-    if ( this.myHPGC ) { 
+    if ( typeof(this.myHPGC) !== 'undefined' ) { 
       return this.myHPGC.isLoaded;
     } else {
       console.log('called before myHPGC exists');
@@ -92,7 +96,7 @@ export class HPGC {
     }
   };
 
-  private async loadGedCom(url, timeout, callback) {
+  private async loadGedCom(url, timeout) {
     var args = Array.prototype.slice.call(arguments, 3);
     var xhr = new XMLHttpRequest();
     xhr.ontimeout = function () {
@@ -118,7 +122,7 @@ export class HPGC {
           var arraybuffer = xhr.response; // not responseText
           var GedFile = rgc.readGedcom(arraybuffer);
           console.log(computeGeneralStatistics(GedFile));
-          Alpine.store('HPGedCom').myHPGC.setGedFile(GedFile);
+          Alpine.store('HPGedCom').HPGC().setGedFile(GedFile);
         } else {
           console.log('xhr status not 200');
         }
@@ -128,10 +132,10 @@ export class HPGC {
     xhr.send();
   }
 
-  public initGedCom(myURL: string) {
+  public initGedCom(url: string) {
 
-    console.log('initGedCom with ' + myURL);
-    this.loadGedCom(myURL, 2000, this._initGedCom);
+    console.log('initGedCom with ' + url);
+    this.loadGedCom(url, 2000);
 
   }
     
