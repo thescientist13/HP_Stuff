@@ -39,23 +39,6 @@ Alpine.store('HPGedCom', {
     }
   },
 
-  bDay(id: string) {
-    if (! this.myHPGC) { 
-      console.log('bDay called before init');
-      return "Unknowable";
-    } else if ( ! this.myHPGC.myGedFile ) {
-      console.log('bDay called before GedFile present');
-      return "Unknown";
-    } else {
-      var ged = <rgc.readGedcom>this.myHPGC.myGedFile;
-      console.log('bday entry: ' + typeof(this.myHPGC.myGedFile));
-      console.log('fetching bday for ' + id);
-      //const individual = ged.getIndividualRecord(id);
-      //console.log(individual.toString());
-      //return individual.getEventBirth(); // Birth
-    }
-  }
-
 });
 
 export class HPGC {
@@ -69,12 +52,41 @@ export class HPGC {
     this.isLoaded = false;
   };
 
+  public bDay(id: string) {
+    if (! this.myGedFile) { 
+      console.log('bDay called before init');
+      return;
+    } else {
+      var ged = <rgc.readGedcom>this.myGedFile;
+      console.log('bday entry: ' + typeof(this.myGedFile));
+      console.log('fetching bday for ' + id);
+      const individual = ged.getIndividualRecord(id);
+      console.log('individual ' + individual.toString());
+      const gedDate = individual.getEventBirth().getDate();
+      return gedDate;
+    }
+  }
+
+  public dDay(id: string) {
+    if (! this.myGedFile) { 
+      console.log('dDay called before init');
+      return;
+    } else {
+      var ged = <rgc.readGedcom>this.myGedFile;
+      console.log('fetching dday for ' + id);
+      const individual = ged.getIndividualRecord(id);
+      const gedDate = individual.getEventDeath().getDate();
+      return gedDate;
+    }
+  }
+
   public setGedFile(newFile: rgc.readGedcom) {
     this.myGedFile = newFile;
     console.log("called setter function");
     if (this.myGedFile) {
       Alpine.effect(() => {
         this.isLoaded = true;
+        dispatchEvent(new CustomEvent('GedLoaded'));
         console.log("set loaded value");
       });
     }

@@ -20,34 +20,35 @@
   </header>    
 
   {{ $GedFile := (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
+	{{ $id := printf "\"@%s@\"" .Params.id }}
 	<div >
     <h4 class="h3">
       Biographical Information
     </h4>
     <div class="mb-0" id="bio-info" 
 	  	x-data="{
-				birthday: 'Unset',
-			}"
+				birthday: '',
+				deathday: '',
+			}
+			"
+			x-effect="
+				console.log('in x-effect');
+				console.log($store.HPGedCom.myHPGC.isLoaded);
+				birthday = $store.HPGedCom.myHPGC.bDay({{$id}}) || birthday;
+				deathday = $store.HPGedCom.myHPGC.dDay({{$id}}) || deathday;
+				console.log('x-effect birthday is ' + birthday);
+				console.log('type is ' + typeof(birthday));
+			"
+			x-modelable='birthday'
 			x-init="
 				console.log('GedFile is {{ $GedFile }}');
   	    $store.HPGedCom.myURL = '{{ $GedFile }}';
 				await $store.HPGedCom.initGC();
-				if ($store.HPGedCom.isLoaded()) {
-					birthday = $store.HPGedCom.bDay('@I0001@');
-					console.log('HPGedCom isLoaded is ' + $store.HPGedCom.isLoaded());
-				} else {
-					console.log('not ready to call birthday');
-				}
-
 			"
 		>
-		Birthday: <span x-on:alpine:init="(e) => { console.log('in x-on'); birthday = $store.HPGedCom.bDay('@I0001@'); }" x-init="
-				$watch($store.HPGedCom.myHPGC.isLoaded, value => { 
-					console.log('value changed to ' + value); 
-					birthday = $store.HPGedCom.bDay('@I0001@');
-				});
-			" x-text="birthday">didn't work</span><br/>
-			Death: <span x-data="{ message: 'I ❤️  Alpine' }" x-text="message"></span>
+		Birthday: <span @GedLoaded.document="console.log('birthday is ' + birthday + ` printing ${year}-${month}-${day}`);"
+				x-text="birthday.toString().replace('DATE ', '');">didn't work</span><br/>
+			Death: <span @GedLoaded.document="console.log('deathday is ' + deathday);" x-text="deathday.toString().replace('DATE ', '');"></span>
     </div>
   </div>
 
