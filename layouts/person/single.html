@@ -19,19 +19,36 @@
     {{ end }}
   </header>    
 
-	<div x-init="
-      $store.HPGedCom.myURL = '{{ .Site.BaseURL }}';
-      $store.HPGedCom.init();
-		"
-		>
+  {{ $GedFile := (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
+	{{ $id := printf "\"@%s@\"" .Params.id }}
+	<div >
     <h4 class="h3">
       Biographical Information
     </h4>
-    <div class="mb-0" id="bio-info">
-			<div x-data>
-				Birthday: <span x-text="$store.HPGedCom.message">didn't work</span>
-			</div>
-			Death: <span x-data="{ message: 'I ❤️  Alpine' }" x-text="message"></span>
+    <div class="mb-0" id="bio-info" 
+	  	x-data="{
+				birthday: '',
+				deathday: '',
+			}
+			"
+			x-effect="
+				console.log('in x-effect');
+				console.log($store.HPGedCom.myHPGC.isLoaded);
+				birthday = $store.HPGedCom.myHPGC.bDay({{$id}}) || birthday;
+				deathday = $store.HPGedCom.myHPGC.dDay({{$id}}) || deathday;
+				console.log('x-effect birthday is ' + birthday);
+				console.log('type is ' + typeof(birthday));
+			"
+			x-modelable='birthday'
+			x-init="
+				console.log('GedFile is {{ $GedFile }}');
+  	    $store.HPGedCom.myURL = '{{ $GedFile }}';
+				await $store.HPGedCom.initGC();
+			"
+		>
+		Birthday: <span @GedLoaded.document="console.log('birthday is ' + birthday + ` printing ${year}-${month}-${day}`);"
+				x-text="birthday.toString().replace('DATE ', '');">didn't work</span><br/>
+			Death: <span @GedLoaded.document="console.log('deathday is ' + deathday);" x-text="deathday.toString().replace('DATE ', '');"></span>
     </div>
   </div>
 
