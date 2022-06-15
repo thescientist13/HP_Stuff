@@ -1,6 +1,6 @@
 import Alpine from 'alpinejs';
+import fetch from 'isomorphic-fetch';
 import * as rgc from 'read-gedcom';
-import * as buffer from 'buffer';
 
 interface CallbackType { 
   (Arg: string): void; 
@@ -13,133 +13,102 @@ Alpine.store('testmessage', {
 	message: 'this is a test of alpine with typescript',
 });
 
+export class HPGC {
 
-export Alpine.store('HPGedCom', {
-  message: String,
-  myURL: null,
-  myHPGC: null,
+  public myURL: string | null;
+  public isLoaded: boolean;
+  public myGedFile: ArrayBuffer | null;
+  public myGedData: rgc.SelectionGedcom | null;
 
-  HPGC() {
-     return this.myHPGC;
-  },
+  constructor() {
+    this.isLoaded = false;
+    this.myURL = null;
+    this.myGedFile = null;
+    this.myGedData = null;
+  };
 
-  async initGC() {
+  public dDay(id: string) {
+    if (typeof(this.myGedData) === 'undefined') { 
+      console.log('dDay called before init');
+      return;
+    } else {
+      console.log('fetching dday for ' + id);
+      const individual = this.myGedData!.getIndividualRecord(id);
+      const gedDate = individual.getEventDeath().getDate();
+      return gedDate;
+    }
+  };
+
+  public bDay(id: string) {
+    if (typeof(this.myGedData) === 'undefined') { 
+      console.log('bDay called before init');
+      return;
+    } else {
+      console.log('fetching bday for ' + id);
+      const individual = this.myGedData!.getIndividualRecord(id);
+      console.log('individual ' + individual.toString());
+      const gedDate = individual.getEventBirth().getDate();
+      return gedDate;
+    }
+  };
+
+  private setGedData(newFile: ArrayBuffer ) {
+    this.myGedFile = newFile;
+    console.log("called setter function");
+    if (typeof(this.myGedFile) !== 'undefined') {
+      var data = rgc.readGedcom(this.myGedFile);
+      this.myGedData = data;
+      if (typeof(this.myGedData) !== 'undefined') { 
+        Alpine.effect(() => {
+          this.isLoaded = true;
+          dispatchEvent(new CustomEvent('GedLoaded'));
+          console.log("set loaded value");
+        });
+      }
+    }
+  };
+
+  public initGedCom(url: string) {
+    console.log('initGedCom with ' + url);
+    this.loadGedCom(url, 2000);
+  };
+    
+  private async initGC() {
     if ( typeof(this.myURL) === 'undefined' ) {
       console.log('initGC called before myURL set');
       return;
     }
     console.log("initGC called with url " + this.myURL);
-    this.myHPGC = new HPGC;
-    this.myHPGC.initGedCom(this.myURL);
+    this.initGedCom(this.myURL!);
 
-  },
-
-  isLoaded() {
-    if ( typeof(this.myHPGC) !== 'undefined' ) { 
-      return this.myHPGC.isLoaded;
-    } else {
-      console.log('called before myHPGC exists');
-      return false;
-    }
-  },
-
-});
-
-export class HPGC {
-
-  myGedFile: rgc.readGedcom;
-  public readonly isLoaded: boolean;
-
-  constructor() {
-    this.myGedData = null;
-    this.myGedFile = null;
-    this.isLoaded = false;
   };
 
-  public bDay(id: string) {
-    if (! this.myGedFile) { 
-      console.log('bDay called before init');
-      return;
-    } else {
-      var ged = <rgc.readGedcom>this.myGedFile;
-      console.log('bday entry: ' + typeof(this.myGedFile));
-      console.log('fetching bday for ' + id);
-      const individual = ged.getIndividualRecord(id);
-      console.log('individual ' + individual.toString());
-      const gedDate = individual.getEventBirth().getDate();
-      return gedDate;
-    }
-  }
-
-  public dDay(id: string) {
-    if (! this.myGedFile) { 
-      console.log('dDay called before init');
-      return;
-    } else {
-      var ged = <rgc.readGedcom>this.myGedFile;
-      console.log('fetching dday for ' + id);
-      const individual = ged.getIndividualRecord(id);
-      const gedDate = individual.getEventDeath().getDate();
-      return gedDate;
-    }
-  }
-
-  public setGedFile(newFile: rgc.readGedcom) {
-    this.myGedFile = newFile;
-    console.log("called setter function");
-    if (this.myGedFile) {
-      Alpine.effect(() => {
-        this.isLoaded = true;
-        dispatchEvent(new CustomEvent('GedLoaded'));
-        console.log("set loaded value");
-      });
-    }
-  };
-
-  private async loadGedCom(url, timeout) {
-    var args = Array.prototype.slice.call(arguments, 3);
-    var xhr = new XMLHttpRequest();
-    xhr.ontimeout = function () {
-      console.error("The request for " + url + " timed out.");
-    };
-
-    const computeGeneralStatistics = x => ({
+  public computeGeneralStatistics(x: rgc.SelectionGedcom) {
+    return {
       families: x.getFamilyRecord().length,
       individuals: x.getIndividualRecord().length,
       multimedia: x.getMultimediaRecord().length,
       notes: x.getNoteRecord().length,
       repositories: x.getRepositoryRecord().length,
       sources: x.getSourceRecord().length,
-    });
+    }
+  };
 
-    xhr.open("GET", url);
-    xhr.responseType = "arraybuffer";
-    xhr.onload = function(e) {
-      if (xhr.readyState === 4) {
-        if (xhr.status === 200) {
-          console.log('xhr status 200');
-          //console.error(xhr.statusText);
-          var arraybuffer = xhr.response; // not responseText
-          var GedFile = rgc.readGedcom(arraybuffer);
-          console.log(computeGeneralStatistics(GedFile));
-          Alpine.store('HPGedCom').HPGC().setGedFile(GedFile);
-        } else {
-          console.log('xhr status not 200');
-        }
-      }
-    };
-    xhr.timeout = timeout;
-    xhr.send();
-  }
-
-  public initGedCom(url: string) {
-
-    console.log('initGedCom with ' + url);
-    this.loadGedCom(url, 2000);
-
-  }
+  private loadGedCom(url: string, timeout: number) {
+    var args = Array.prototype.slice.call(arguments, 3);
+    const reader = new FileReader();
     
-}
+    const GedPromise = fetch(url)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not OK');
+      }
+      return response.arrayBuffer();
+    })
+    .then(this.setGedData);
+  };
+
+};
 
 Alpine.start();
 

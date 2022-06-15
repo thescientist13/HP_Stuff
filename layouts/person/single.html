@@ -1,4 +1,15 @@
 {{ define "main" }}
+<script>
+	document.addEventListener('alpine:init', () => {
+		Alpine.store('HPGC', {
+			myHPGC: HPGC,
+
+			init() {
+				this.myHPGC = new HPGC();
+			},
+		})
+	});
+</script>
 
 <div class="td-content">
   <h1>{{ .Title }}</h1>
