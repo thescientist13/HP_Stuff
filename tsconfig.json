@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
+    "target": "ES2020",
     "module": "commonjs",
     "lib": [
-      "es2018",
-      "dom"
+      "es2020",
+      "dom",
     ],
     "declaration": true,
     "esModuleInterop": true,
     "strict": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "strictNullChecks": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
