@@ -2,24 +2,13 @@ import Alpine from 'alpinejs';
 import fetch from 'isomorphic-fetch';
 import * as rgc from 'read-gedcom';
 
-interface CallbackType { 
-  (Arg: string): void; 
-}
-
-//window.Alpine = Alpine
-//cannot have hte above without type tomfoolery that I have not figured out yet
-
-Alpine.store('testmessage', {
-	message: 'this is a test of alpine with typescript',
-});
-
 export class HPGC {
-
+  
   public myURL: string | null;
   public isLoaded: boolean;
   public myGedFile: ArrayBuffer | null;
   public myGedData: rgc.SelectionGedcom | null;
-
+  
   constructor() {
     this.isLoaded = false;
     this.myURL = null;
@@ -31,12 +20,12 @@ export class HPGC {
     if (typeof(this.myGedData) === 'undefined') { 
       console.log('dDay called before init');
       return;
-    } else {
-      console.log('fetching dday for ' + id);
-      const individual = this.myGedData!.getIndividualRecord(id);
-      const gedDate = individual.getEventDeath().getDate();
-      return gedDate;
-    }
+   } else {
+     console.log('fetching dday for ' + id);
+     const individual = this.myGedData!.getIndividualRecord(id);
+     const gedDate = individual.getEventDeath().getDate();
+     return gedDate;
+   }
   };
 
   public bDay(id: string) {
@@ -51,28 +40,26 @@ export class HPGC {
       return gedDate;
     }
   };
-
+  
   private setGedData(newFile: ArrayBuffer ) {
     this.myGedFile = newFile;
     console.log("called setter function");
     if (typeof(this.myGedFile) !== 'undefined') {
       var data = rgc.readGedcom(this.myGedFile);
       this.myGedData = data;
-      if (typeof(this.myGedData) !== 'undefined') { 
-        Alpine.effect(() => {
-          this.isLoaded = true;
-          dispatchEvent(new CustomEvent('GedLoaded'));
-          console.log("set loaded value");
-        });
+      if (typeof(this.myGedData) !== 'undefined') {
+        this.isLoaded = true;
+        dispatchEvent(new CustomEvent('GedLoaded'));
+        console.log("set loaded value");
       }
     }
   };
-
+  
   public initGedCom(url: string) {
     console.log('initGedCom with ' + url);
     this.loadGedCom(url, 2000);
   };
-    
+  
   private async initGC() {
     if ( typeof(this.myURL) === 'undefined' ) {
       console.log('initGC called before myURL set');
@@ -80,7 +67,7 @@ export class HPGC {
     }
     console.log("initGC called with url " + this.myURL);
     this.initGedCom(this.myURL!);
-
+    
   };
 
   public computeGeneralStatistics(x: rgc.SelectionGedcom) {
@@ -93,7 +80,7 @@ export class HPGC {
       sources: x.getSourceRecord().length,
     }
   };
-
+  
   private loadGedCom(url: string, timeout: number) {
     var args = Array.prototype.slice.call(arguments, 3);
     const reader = new FileReader();
@@ -107,10 +94,21 @@ export class HPGC {
     })
     .then(this.setGedData);
   };
-
+  
 };
+
+interface CallbackType {
+  (Arg: string): void;
+}
+
+//window.Alpine = Alpine
+//cannot have the above without type tomfoolery that I have not figured out yet
+
+Alpine.store('testmessage', {
+  message: 'this is a test of alpine with typescript',
+});
 
 Alpine.start();
 
-// vim: shiftwidth=2:tabstop=2:expandtab 
+// vim: shiftwidth=2:tabstop=2:expandtab
 

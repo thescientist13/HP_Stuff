@@ -1,17 +1,17 @@
 {{ define "main" }}
-<script>
+<div class="td-content">
+
+<script src="/ts/alpine.js" defer >
 	document.addEventListener('alpine:init', () => {
-		Alpine.store('HPGC', {
-			myHPGC: HPGC,
+		Alpine.store('HPGedCom', {
+			myHPGC: number,
 
 			init() {
-				this.myHPGC = new HPGC();
 			},
 		})
 	});
 </script>
 
-<div class="td-content">
   <h1>{{ .Title }}</h1>
   {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
   <header class="article-meta">
@@ -40,21 +40,22 @@
 	  	x-data="{
 				birthday: '',
 				deathday: '',
+				GC = HPGC(),
 			}
 			"
 			x-effect="
 				console.log('in x-effect');
-				console.log($store.HPGedCom.myHPGC.isLoaded);
-				birthday = $store.HPGedCom.myHPGC.bDay({{$id}}) || birthday;
-				deathday = $store.HPGedCom.myHPGC.dDay({{$id}}) || deathday;
+				//console.log($store.HPGedCom.myHPGC.isLoaded);
+				//birthday = $store.HPGedCom.myHPGC.bDay({{$id}}) || birthday;
+				//deathday = $store.HPGedCom.myHPGC.dDay({{$id}}) || deathday;
 				console.log('x-effect birthday is ' + birthday);
 				console.log('type is ' + typeof(birthday));
 			"
 			x-modelable='birthday'
 			x-init="
 				console.log('GedFile is {{ $GedFile }}');
-  	    $store.HPGedCom.myURL = '{{ $GedFile }}';
-				await $store.HPGedCom.initGC();
+  	    //$store.HPGedCom.myHPGC.myURL = '{{ $GedFile }}';
+				//await $store.HPGedCom.myHPGC.initGC();
 			"
 		>
 		Birthday: <span @GedLoaded.document="console.log('birthday is ' + birthday + ` printing ${year}-${month}-${day}`);"
