@@ -24,7 +24,7 @@ export class InfrastructureStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: StackProps) {
     super(scope, id, props);
 
-    const HUGO_VERSION = '0.92.0';
+    const HUGO_VERSION = '0.100.2';
 
     const code = new codecommit.Repository(this, 'HPRepo', {
       repositoryName: 'HP_Stuff',
