@@ -2,6 +2,12 @@ import Alpine from 'alpinejs';
 import fetch from 'isomorphic-fetch';
 import * as rgc from 'read-gedcom';
 
+export class HPGC_debug {
+  constructor() {
+    console.log('successful import');
+  }
+}
+
 export class HPGC {
   
   public myURL: string | null;

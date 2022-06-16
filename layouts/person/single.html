@@ -1,27 +1,6 @@
 {{ define "main" }}
 <div class="td-content">
 
-{{- $ap := resources.Get "ts/alpine.ts" -}}
-{{ $params := (dict "search_config" site.Params.search_config "is_production" hugo.IsProduction ) }}
-{{ $sourceMap := cond hugo.IsProduction "" "inline" }}
-{{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2018" "params" $params }}
-{{ $ap = $ap | js.Build $opts }}
-{{ if hugo.IsProduction }}
-  {{ $ap = $ap | fingerprint }}
-{{ end }}
-<script src="{{ $ap.RelPermalink }}" 
-	{{ if hugo.IsProduction }}integrity="{{ $ap.Data.Integrity }}"{{ end }}
-	defer >
-	document.addEventListener('alpine:init', () => {
-		Alpine.store('HPGedCom', {
-			myHPGC: number,
-
-			init() {
-			},
-		})
-	});
-</script>
-
   <h1>{{ .Title }}</h1>
   {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
   <header class="article-meta">
@@ -47,30 +26,9 @@
       Biographical Information
     </h4>
     <div class="mb-0" id="bio-info" 
-	  	x-data="{
-				birthday: '',
-				deathday: '',
-				GC = HPGC(),
-			}
-			"
-			x-effect="
-				console.log('in x-effect');
-				//console.log($store.HPGedCom.myHPGC.isLoaded);
-				//birthday = $store.HPGedCom.myHPGC.bDay({{$id}}) || birthday;
-				//deathday = $store.HPGedCom.myHPGC.dDay({{$id}}) || deathday;
-				console.log('x-effect birthday is ' + birthday);
-				console.log('type is ' + typeof(birthday));
-			"
-			x-modelable='birthday'
-			x-init="
-				console.log('GedFile is {{ $GedFile }}');
-  	    //$store.HPGedCom.myHPGC.myURL = '{{ $GedFile }}';
-				//await $store.HPGedCom.myHPGC.initGC();
-			"
 		>
-		Birthday: <span @GedLoaded.document="console.log('birthday is ' + birthday + ` printing ${year}-${month}-${day}`);"
-				x-text="birthday.toString().replace('DATE ', '');">didn't work</span><br/>
-			Death: <span @GedLoaded.document="console.log('deathday is ' + deathday);" x-text="deathday.toString().replace('DATE ', '');"></span>
+		Birthday: <span x-data="{ message: 'I ❤️ Alpine' }" x-text="message">didn't work</span><br/>
+		Death: <span ></span>
     </div>
   </div>
 
