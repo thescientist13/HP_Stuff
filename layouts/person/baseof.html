@@ -7,7 +7,7 @@
 		{{ $env := cond hugo.IsProduction `'production'` `'development'`  }}
 		{{ $defines := dict "process.env.NODE_ENV" $env "ALPINE_VERSION" `'v3-hugo'` "__DEV__" (not hugo.IsProduction) }}
 		{{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2017" "params" $params "defines" $defines }}
-		{{- $js := resources.Get "ts/read-gedcom/index.ts" | js.Build $opts }} 
+		{{- $js := resources.Get "ts/alpine.ts" | js.Build $opts }} 
 		{{- if hugo.IsProduction }}
 			{{ $js = $js | minify | fingerprint }}
 		{{ end }}
