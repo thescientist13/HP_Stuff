@@ -1,7 +1,17 @@
 {{ define "main" }}
 <div class="td-content">
 
-<script src="/ts/alpine.js" defer >
+{{- $ap := resources.Get "ts/alpine.ts" -}}
+{{ $params := (dict "search_config" site.Params.search_config "is_production" hugo.IsProduction ) }}
+{{ $sourceMap := cond hugo.IsProduction "" "inline" }}
+{{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2018" "params" $params }}
+{{ $ap = $ap | js.Build $opts }}
+{{ if hugo.IsProduction }}
+  {{ $ap = $ap | fingerprint }}
+{{ end }}
+<script src="{{ $ap.RelPermalink }}" 
+	{{ if hugo.IsProduction }}integrity="{{ $ap.Data.Integrity }}"{{ end }}
+	defer >
 	document.addEventListener('alpine:init', () => {
 		Alpine.store('HPGedCom', {
 			myHPGC: number,

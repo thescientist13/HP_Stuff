@@ -2,19 +2,7 @@
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
   <head>
     {{ partial "head.html" . }}
-		{{ $params := dict }}
-		{{ $sourceMap := cond hugo.IsProduction "" "inline" }}
-		{{ $env := cond hugo.IsProduction `'production'` `'development'`  }}
-		{{ $defines := dict "process.env.NODE_ENV" $env "ALPINE_VERSION" `'v3-hugo'` "__DEV__" (not hugo.IsProduction) }}
-		{{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2017" "params" $params "defines" $defines }}
-		{{- $js := resources.Get "ts/HPGC/index.ts" | js.Build $opts }} 
-		{{- if hugo.IsProduction }}
-			{{ $js = $js | minify | fingerprint }}
-		{{ end }}
-		<script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}
-			integrity="{{ $js.Data.Integrity }}" {{ end }}
-			crossorigin="anonymous" defer>
-		</script>
+		{{ partial "ts.html" . }}
   </head>
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
 		<div id="app">
