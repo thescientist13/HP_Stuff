@@ -19,15 +19,22 @@
     {{ end }}
   </header>    
 
-  {{ $GedFile := (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
+  {{ $GedFile := printf "\"%s\"" (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
 	{{ $id := printf "\"@%s@\"" .Params.id }}
-	<div >
+	<div x-data="{
+		GedBuffer: ArrayBuffer,
+		GedData: rgc.SelectionGedcom
+		}" 
+		x-init="{
+		  GedFile: Alpine.store('HPGC').initGedCom({{ $GedFile }})
+		}"
+		>
     <h4 class="h3">
       Biographical Information
     </h4>
     <div class="mb-0" id="bio-info" 
 		>
-		Birthday: <span x-data="{ message: 'I ❤️ Alpine' }" x-text="message">didn't work</span><br/>
+		Birthday: <span x-data="{ message: 'initial' }" x-text="message">didn't work</span><br/>
 		Death: <span ></span>
     </div>
   </div>

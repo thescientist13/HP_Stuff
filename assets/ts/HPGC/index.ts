@@ -2,81 +2,37 @@ import Alpine from 'alpinejs';
 import fetch from 'isomorphic-fetch';
 import * as rgc from 'read-gedcom';
 
-export class HPGC_debug {
-  constructor() {
-    console.log('successful import');
-  }
-}
-
-export class HPGC {
+export default() => ({
   
-  public myURL: string | null;
-  public isLoaded: boolean;
-  public myGedFile: ArrayBuffer | null;
-  public myGedData: rgc.SelectionGedcom | null;
+  myURL: '',
+  isLoaded: false,
   
-  constructor() {
-    this.isLoaded = false;
-    this.myURL = null;
-    this.myGedFile = null;
-    this.myGedData = null;
-  };
-
-  public dDay(id: string) {
-    if (typeof(this.myGedData) === 'undefined') { 
+  dDay(id: string, GedData: rgc.SelectionGedcom ): string {
+    if (typeof(GedData) === 'undefined') { 
       console.log('dDay called before init');
-      return;
-   } else {
-     console.log('fetching dday for ' + id);
-     const individual = this.myGedData!.getIndividualRecord(id);
-     const gedDate = individual.getEventDeath().getDate();
-     return gedDate;
-   }
-  };
-
-  public bDay(id: string) {
-    if (typeof(this.myGedData) === 'undefined') { 
+      return 'Unknown date of Death';
+    } else {
+      console.log('fetching dday for ' + id);
+      const individual = GedData!.getIndividualRecord(id);
+      const gedDate = individual.getEventDeath().getDate();
+      return gedDate.toString().replace('DATE ', '');
+    }
+  },
+  
+  bDay(id: string, GedData: rgc.SelectionGedcom): string {
+    if (typeof(GedData) === 'undefined') { 
       console.log('bDay called before init');
-      return;
+      return 'Uknown Birthday';
     } else {
       console.log('fetching bday for ' + id);
-      const individual = this.myGedData!.getIndividualRecord(id);
+      const individual = GedData!.getIndividualRecord(id);
       console.log('individual ' + individual.toString());
       const gedDate = individual.getEventBirth().getDate();
-      return gedDate;
+      return gedDate.toString().replace('DATE ', '');
     }
-  };
+  },
   
-  private setGedData(newFile: ArrayBuffer ) {
-    this.myGedFile = newFile;
-    console.log("called setter function");
-    if (typeof(this.myGedFile) !== 'undefined') {
-      var data = rgc.readGedcom(this.myGedFile);
-      this.myGedData = data;
-      if (typeof(this.myGedData) !== 'undefined') {
-        this.isLoaded = true;
-        dispatchEvent(new CustomEvent('GedLoaded'));
-        console.log("set loaded value");
-      }
-    }
-  };
-  
-  public initGedCom(url: string) {
-    console.log('initGedCom with ' + url);
-    this.loadGedCom(url, 2000);
-  };
-  
-  private async initGC() {
-    if ( typeof(this.myURL) === 'undefined' ) {
-      console.log('initGC called before myURL set');
-      return;
-    }
-    console.log("initGC called with url " + this.myURL);
-    this.initGedCom(this.myURL!);
-    
-  };
-
-  public computeGeneralStatistics(x: rgc.SelectionGedcom) {
+  computeGeneralStatistics(x: rgc.SelectionGedcom) {
     return {
       families: x.getFamilyRecord().length,
       individuals: x.getIndividualRecord().length,
@@ -85,12 +41,10 @@ export class HPGC {
       repositories: x.getRepositoryRecord().length,
       sources: x.getSourceRecord().length,
     }
-  };
+  },
   
-  private loadGedCom(url: string, timeout: number) {
-    var args = Array.prototype.slice.call(arguments, 3);
-    const reader = new FileReader();
-    
+  initGedCom(url: string) {
+    console.log('initGedCom with ' + url);
     const GedPromise = fetch(url)
     .then(response => {
       if (!response.ok) {
@@ -99,9 +53,24 @@ export class HPGC {
       return response.arrayBuffer();
     })
     .then(this.setGedData);
-  };
+  },
   
-};
+  setGedData(newFile: ArrayBuffer ): rgc.SelectionGedcom | null {
+    var myGedFile = newFile;
+    console.log("called setter function");
+    if (typeof(myGedFile) !== 'undefined') {
+      var data = rgc.readGedcom(myGedFile);
+      if (typeof(data) !== 'undefined') {
+        this.isLoaded = true;
+        dispatchEvent(new CustomEvent('GedLoaded'));
+        console.log("set loaded value");
+        return data;
+      }
+    }
+    return null;
+  },
+  
+});
 
 // vim: shiftwidth=2:tabstop=2:expandtab
 
