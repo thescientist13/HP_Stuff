@@ -52,6 +52,7 @@ class HPGC extends LitElement {
       GedPromise.then(gedc => {
         console.log(gedc.getHeader().toString());
         this.my_GedData = gedc;
+        dispatchEvent(new CustomEvent('GedLoaded'));
       });
     } else {
       console.log('loadGedCom called before myGedUrl is set');
