@@ -10,6 +10,9 @@ module.exports = function (api) {
 			"@babel/preset-typescript",
 		]
   ]
+	const assumptions = {
+		"setPublicClassFields": true
+	};
   const plugins = [
 		"@babel/plugin-syntax-jsx",
 		["@babel/plugin-transform-typescript", {"allowDeclareFields": true}],
