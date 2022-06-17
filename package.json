@@ -43,6 +43,7 @@
   "dependencies": {
     "@alpinejs/intersect": "^3.10.2",
     "@alpinejs/persist": "^3.10.2",
+    "@babel/plugin-proposal-decorators": "^7.18.2",
     "@fortawesome/fontawesome-common-types": "^0.3.0",
     "alpinejs": "^3.10.2",
     "constructs": "^10.1.42",
@@ -50,6 +51,8 @@
     "gedcom": "^3.0.0",
     "hugo-bin": "^0.80.1",
     "isomorphic-fetch": "^3.0.0",
+    "lit": "^2.2.6",
+    "lit-html": "^2.2.6",
     "open": "^8.4.0",
     "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",

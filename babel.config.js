@@ -11,7 +11,10 @@ module.exports = function (api) {
 		]
   ]
   const plugins = [
-			"@babel/plugin-syntax-jsx"
+		"@babel/plugin-syntax-jsx",
+		["@babel/plugin-transform-typescript", {"allowDeclareFields": true}],
+		["@babel/plugin-proposal-decorators", { "legacy": true }],
+		["@babel/plugin-proposal-class-properties"]
 	];
   return {
     presets,

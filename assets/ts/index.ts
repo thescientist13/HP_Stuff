@@ -1,10 +1,5 @@
-import Alpine from 'alpinejs';
-import  HPGC from "./HPGC/index";
+import * as testlit from "./components/test";
 
-console.log("loaded base typescript file");
-
-Alpine.data('HPGC', HPGC );
-
-Alpine.start();
+export { testlit };
 
 

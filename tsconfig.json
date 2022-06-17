@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "target": "es2020",
-    "module": "es2015",
-    "lib": ["ES2015", "DOM"],
+    "module": "es2020",
+    "lib": ["ES2020", "DOM"],
     "moduleResolution": "Node",
+    "experimentalDecorators": true,
     "declaration": true,
-    "useDefineForClassFields": true,
+    "useDefineForClassFields": false,
     "strict": true,
     "sourceMap": true,
     "resolveJsonModule": true,
