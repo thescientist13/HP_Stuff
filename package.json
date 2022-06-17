@@ -49,7 +49,6 @@
     "alpinejs": "^3.10.2",
     "constructs": "^10.1.42",
     "esbuild": "^0.14.44",
-    "gedcom": "^3.0.0",
     "hugo-bin": "^0.80.1",
     "isomorphic-fetch": "^3.0.0",
     "lit": "^2.2.6",
