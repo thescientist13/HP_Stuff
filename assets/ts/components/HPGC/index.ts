@@ -6,8 +6,7 @@ import {when} from 'lit/directives/when.js';
 import {html, literal} from 'lit/static-html.js';
 
 import { readGedcom } from 'read-gedcom';
-import * as rgs from 'read-gedcom';
-
+import * as rgc from 'read-gedcom';
 
 @customElement('hp-gc')
 class HPGC extends LitElement {
@@ -51,8 +50,11 @@ class HPGC extends LitElement {
 
       GedPromise.then(gedc => {
         console.log(gedc.getHeader().toString());
-        this.my_GedData = gedc;
-        dispatchEvent(new CustomEvent('GedLoaded'));
+        this._myGedData = gedc;
+        this.dispatchEvent(new CustomEvent('GedLoaded', {
+          bubbles: true,
+          composed: true,
+        }));
       });
     } else {
       console.log('loadGedCom called before myGedUrl is set');
