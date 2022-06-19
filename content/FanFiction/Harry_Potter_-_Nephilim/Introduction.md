@@ -10,12 +10,22 @@ together and I started thinking about the Harry Potter universe in a different
 way.  Mrs. L'Engle's theology in that book is *really really* sketchy, but like
 many distortions of true Catholic thought, makes for interesting fiction.  This
 is not really a cross-over, you will not see the characters from any of the
-non-Rowling works I am taking ideas from here.  A huge multi-way crossover is,
-however, the most concise way to describe what this *is*.  I am taking some
-things from _[Many Waters][MW2]_, some from C. S. Lewis' _[The Screwtape
-Letters][TSL]_, some from actual Catholic theology, some from various myths and
-legends, and some from Tolkien's Middle Earth universe.  I am grafting these
-ideas into the Harry Potter universe, replacing some of its actual world
+non-Rowling works I am taking ideas from here.
+
+Rather, as I said, that book caused a me to think about the Harry Potter
+universe differently, but it was not until I was reading CmptrWz' _[For Want of
+an Outfit][FWoaO1]_ Chapters 30 through 35 that what I am trying for here
+*really* came clear.  Left unadulterated, Mrs. Rowling's Harry Potter universe
+has too few consequences.  I harp on that theme in my [[Harrypedia]].  This
+fanfiction is a harsher universe.  Magic, even if not "dark" and *intentionally*
+harmful, cannot always be undone or fixed.  There can be not only life-long
+repercussions, but *generational* repercussions from the spells and potions that
+are so often carelessly used.  
+
+I am taking some things from _[Many Waters][MW2]_, some from C. S. Lewis' _[The
+Screwtape Letters][TSL]_, some from actual Catholic theology, some from various
+myths and legends, and some from Tolkien's Middle Earth universe.  I am grafting
+these ideas into the Harry Potter universe, replacing some of its actual world
 building with these grafted bits, extending it in other places.  
 
 A lot of authors will try to do almost all their world building within the
@@ -29,6 +39,8 @@ world building notes are useful to understand the story, but are hopefully not
 truly necessary.  That being said, I am not going to go out of my way to explain
 in depth the way some authors do since an interested reader *can* find it in
 this extra information. 
+
+[FWoaO1]: <https://archiveofourown.org/works/28507302>
 
 ### Points of Divergence 
 
@@ -46,7 +58,12 @@ this extra information.
   Letters][TSL2]_.[^210408-1]  At various places I talk about "bizarre" things
   happening to nephil.  This is more or less what I envision.  Essentially these
   represent instances of Divine Justice, sometimes mediated by the actual
-  angels.  This is the primary idea pulled from that source.
+  angels.  This is the primary idea pulled from that source.  I am going to be
+  inconsistent in my language about this, because it is unclear to the nephilim
+  how much is something *they* did wrong (and was thus avoidable), how much is
+  something *God* caused to happen to them, and how much is something that an
+  angel, acting within the scope and authority granted that angel by God, has
+  caused of its own initiative.  
 
 #### Things Specifically Pulled from _Many Waters_
 
@@ -60,13 +77,14 @@ this extra information.
 
 #### Some Notable Differences from the actual Harry Potter universe
 
-* Harry is noticeably out of
-  character in this story.  I will try to make him the exception rather than the
-  norm.
+* Harry is noticeably out of character in this story.  I will try to make him
+  the exception rather than the norm.
 * Witches are those corrupted by union with fallen angels.  They do gain power
   (magic) from this union, but are corrupted by it.  Should they repent and
   receive forgiveness from their sins, they would also lose their access to
-  magic. 
+  magic.  It is from these people that the persistent rumours about non-magical
+  people "stealing magic" come.  It is possible (in this story) for someone to
+  *become* magical. 
 * Following from the origin of magic I'm using, magic will follow somewhat
   different [rules]({{ relref . "/appendix_a" }}) than the Harry Potter books.
   This includes both the way the characters use magic and magical creatures.
