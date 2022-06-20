@@ -43,6 +43,7 @@ enableMissingTranslationPlaceholders = true
 [taxonomies]
 tag = "tags"
 category = "categories"
+person = "people"
 
 [params.taxonomy]
 # set taxonomyCloud = [] to hide taxonomy clouds
