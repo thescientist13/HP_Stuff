@@ -47,10 +47,10 @@ person = "people"
 
 [params.taxonomy]
 # set taxonomyCloud = [] to hide taxonomy clouds
-taxonomyCloud = ["tags", "categories"] 
+taxonomyCloud = ["tags", "categories", "people"] 
 
 # If used, must have same lang as taxonomyCloud
-taxonomyCloudTitle = ["Tag Cloud", "Categories"] 
+taxonomyCloudTitle = ["Tag Cloud", "Categories", "People"] 
 
 # set taxonomyPageHeader = [] to hide taxonomies on the page headers
 taxonomyPageHeader = ["tags", "categories"] 
