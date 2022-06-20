@@ -16,18 +16,18 @@ class HPGC extends LitElement {
   protected _myGedFile: ArrayBuffer;
   
   @state()
-  protected _myGedData: rgc.SelectionGedcom;
+  protected myGedData: rgc.SelectionGedcom;
 
   @property({type: String, reflect: true})
   public myGedUrl: string;
 
   public constructor() {
     super();
-		if(typeof(this.myGedUrl) !== 'undefined') {
-			this.loadGedCom();
-		} else {
-			console.log('url undefined, need to figure out how to set it');
-		}
+    if(typeof(this.myGedUrl) !== 'undefined') {
+      this.loadGedCom();
+    } else {
+      console.log('url undefined, need to figure out how to set it');
+    }
   };
 
   private setGedUrl(url: string) {
@@ -40,8 +40,8 @@ class HPGC extends LitElement {
     return this.myGedUrl;
   };
 
-	private loadGedCom() {
-		
+  private loadGedCom() {
+    
     if((typeof(this.myGedUrl) !== 'undefined') && (this.myGedUrl !== '')) {
       console.log(`loadGedCom called for ${this.myGedUrl}`);
       const GedPromise = fetch(this.myGedUrl)
@@ -50,8 +50,8 @@ class HPGC extends LitElement {
 
       GedPromise.then(gedc => {
         console.log(gedc.getHeader().toString());
-        this._myGedData = gedc;
-        this.dispatchEvent(new CustomEvent('GedLoaded', {
+        this.myGedData = gedc;
+        this.dispatchEvent(new Event('GedLoaded', {
           bubbles: true,
           composed: true,
         }));
