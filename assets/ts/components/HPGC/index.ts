@@ -16,7 +16,7 @@ class HPGC extends LitElement {
   protected _myGedFile: ArrayBuffer;
   
   @state()
-  protected _myGedData: rgc.SelectionGedcom;
+  protected myGedData: rgc.SelectionGedcom;
 
   @property({type: String, reflect: true})
   public myGedUrl: string;
@@ -50,8 +50,8 @@ class HPGC extends LitElement {
 
       GedPromise.then(gedc => {
         console.log(gedc.getHeader().toString());
-        this._myGedData = gedc;
-        this.dispatchEvent(new CustomEvent('GedLoaded', {
+        this.myGedData = gedc;
+        this.dispatchEvent(new Event('GedLoaded', {
           bubbles: true,
           composed: true,
         }));
