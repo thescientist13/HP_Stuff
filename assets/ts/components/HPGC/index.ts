@@ -23,11 +23,11 @@ class HPGC extends LitElement {
 
   public constructor() {
     super();
-		if(typeof(this.myGedUrl) !== 'undefined') {
-			this.loadGedCom();
-		} else {
-			console.log('url undefined, need to figure out how to set it');
-		}
+    if(typeof(this.myGedUrl) !== 'undefined') {
+      this.loadGedCom();
+    } else {
+      console.log('url undefined, need to figure out how to set it');
+    }
   };
 
   private setGedUrl(url: string) {
@@ -40,8 +40,8 @@ class HPGC extends LitElement {
     return this.myGedUrl;
   };
 
-	private loadGedCom() {
-		
+  private loadGedCom() {
+    
     if((typeof(this.myGedUrl) !== 'undefined') && (this.myGedUrl !== '')) {
       console.log(`loadGedCom called for ${this.myGedUrl}`);
       const GedPromise = fetch(this.myGedUrl)
