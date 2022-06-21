@@ -13,7 +13,7 @@ export class HPFamily extends LitElement {
   @property({type: String, reflect: true})
   public SurName: string;
 
-  @property(reflect: true)
+  @property({reflect: true})
   public Members: string[];
 
 

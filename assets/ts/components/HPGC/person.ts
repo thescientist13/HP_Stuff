@@ -5,6 +5,7 @@ import {html, literal} from 'lit/static-html.js';
 
 import {HPGC} from ".";
 
+import { readGedcom, toJsDate } from 'read-gedcom';
 import * as rgc from 'read-gedcom';
 
 @customElement('hp-person')
@@ -20,17 +21,17 @@ export class HPPerson extends LitElement {
   public myDeathday: string;
 
   @state()
-  private myParent: HPGC;
+  private myParent: rgc.SelectionGedcom;
 
-  protected connectedCallback() {
+  public connectedCallback() {
     super.connectedCallback();
     console.log('connector call back');
-    window.addEventListener('GedLoaded', (e: Event) => this.myBirthday = this.birthday(e.target as Element));
-    window.addEventListener('GedLoaded', (e: Event) => this.myDeathday = this.deathday(e.target as Element));
+    window.addEventListener('GedLoaded', (e: Event) => this.myBirthday = this.birthday((e.target as Element)));
+    window.addEventListener('GedLoaded', (e: Event) => this.myDeathday = this.deathday((e.target as Element)));
   };
 
-  protected disconnectedCallback() {
-    window.removeEventListener('GedLoaded', this.birthday());
+  public disconnectedCallback() {
+    window.removeEventListener('GedLoaded', (e: Event) => this.myBirthday = this.birthday((e.target as Element)));
     console.log('disconnected callback');
     super.disconnectedCallback();
   };
@@ -38,7 +39,7 @@ export class HPPerson extends LitElement {
   public constructor() {
     super ();
 
-    this.myParent = (this as Node).parentNode;
+    this.myParent = ((this as Node).parentNode! as HPGC).myGedData;
     this.myBirthday = '';
 
     this.myGedId = '';

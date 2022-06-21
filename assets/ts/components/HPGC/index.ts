@@ -5,18 +5,18 @@ import {guard} from 'lit/directives/guard.js';
 import {when} from 'lit/directives/when.js';
 import {html, literal} from 'lit/static-html.js';
 
-import { readGedcom } from 'read-gedcom';
+import { readGedcom, toJsDate } from 'read-gedcom';
 import * as rgc from 'read-gedcom';
 
 @customElement('hp-gc')
-class HPGC extends LitElement {
+export class HPGC extends LitElement {
   tag = literal`hp-gc`;
 
   @state()
   protected _myGedFile: ArrayBuffer;
   
-  @state()
-  protected myGedData: rgc.SelectionGedcom;
+  @property()
+  public myGedData: rgc.SelectionGedcom;
 
   @property({type: String, reflect: true})
   public myGedUrl: string;
