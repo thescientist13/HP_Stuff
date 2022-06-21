@@ -32,6 +32,7 @@ export class HPPerson extends LitElement {
 
   public disconnectedCallback() {
     window.removeEventListener('GedLoaded', (e: Event) => this.myBirthday = this.birthday((e.target as Element)));
+    window.removeEventListener('GedLoaded', (e: Event) => this.myBirthday = this.deathday((e.target as Element)));
     console.log('disconnected callback');
     super.disconnectedCallback();
   };
