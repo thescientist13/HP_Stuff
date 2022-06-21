@@ -116,7 +116,7 @@ export class HPPerson extends LitElement {
     <h4 class="h3">Biographical Information</h4>
     <div class="mb-0" id="bio-info" .myGedId=${this.myGedId} >
       Birthday: <span>${when(
-        ((typeof(this.myBirthday) !== 'undefined') && (this.myBirthday !== null) && (this.myBirthday !== [null])), 
+        ((typeof(this.myBirthday) !== 'undefined') && (this.myBirthday !== null) && (this.myBirthday !== [null]) && ( this.myBirthday.length > 0)), 
         () => html`${this.myBirthday}`, 
         () => html`Unknown Birthday`
       )}</span><br/>
