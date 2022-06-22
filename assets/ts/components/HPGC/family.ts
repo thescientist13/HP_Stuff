@@ -43,8 +43,9 @@ export class HPFamily extends LitElement {
     if ((typeof(this.SurName) !== 'undefined') && (this.SurName !== '')) {
       console.log('Sur is ' + this.SurName);
       g.getIndividualRecord().arraySelect().forEach(i => {
-        const s = (i.getName() as rgc.SelectionNamePieces).getSurname().value();
-        if(s !== null) {
+        const s = (i.getName() as rgc.SelectionNamePieces).filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getSurname().value();
+        if((s !== null) && (typeof(s) !== 'undefined')) {
+          console.log('type is ' + typeof(s));
           if(Array.isArray(s)) {
             s.forEach(v => {
               if((v !== null) && (v.normalize() === this.SurName.normalize())) {
@@ -69,6 +70,10 @@ export class HPFamily extends LitElement {
   };
 
   protected render() {
+    console.log('start of render');
+    const myUrl = window.location.pathname;
+    const myParentUrl = myUrl.slice(0, myUrl.slice(0,-1).lastIndexOf('/')) + '/';
+    console.log('my parent is ' + myParentUrl);
     
     const lis = [];
     for (const i of this.Members) {
@@ -76,19 +81,15 @@ export class HPFamily extends LitElement {
       var f = '';
       var l = '';
       var s = '';
+      const iNamePartsNonMaiden: (null | (undefined | string)[])[] = i.getName()
+        .filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).valueAsParts();
 
-      if(n !== null) {
-        console.log('values are: ' + n.valueAsParts());
-        console.log('type is ' + n.getType());
-        var t: rgc.SelectionAny = n.getType();
-        if((typeof(t) !== 'undefined') && (t !== null) && (t.length > 0)) {
-          if(!t.value().includes('married')) {
-            f = n.getGivenName().value();
-            l = n.getSurname().value();
-            s = n.getNameSuffix().value();
-            lis.push(html`<li>${f} ${l} ${s}</li>`);
-          } 
-        }
+      if( (iNamePartsNonMaiden!== null) && (typeof(iNamePartsNonMaiden) !== 'undefined')) {
+        console.log('values are: ' + iNamePartsNonMaiden);
+        f = i.getName().filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getGivenName().value();
+        l = i.getName().filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getSurname().value();
+        s = i.getName().filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getNameSuffix().value();
+        lis.push(html`<li><a href="${myParentUrl}${f}">${f} ${l} ${s}</a></li>`);
       } else {
         console.log('why is n null?');
       }
