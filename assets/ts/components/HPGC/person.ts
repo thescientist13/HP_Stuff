@@ -14,11 +14,11 @@ export class HPPerson extends LitElement {
   @property({type: String, reflect: true})
   public myGedId: string;
 
-  @property({type: String, reflect: true}) 
-  public myBirthday: string;
+  @property({type: Date, reflect: true}) 
+  public myBirthday: (Date|null)[];
 
-  @property({type: String, reflect: true}) 
-  public myDeathday: string;
+  @property({type: Date, reflect: true}) 
+  public myDeathday: (Date|null)[];
 
   @state()
   private myParent: rgc.SelectionGedcom;
@@ -32,6 +32,7 @@ export class HPPerson extends LitElement {
 
   public disconnectedCallback() {
     window.removeEventListener('GedLoaded', (e: Event) => this.myBirthday = this.birthday((e.target as Element)));
+    window.removeEventListener('GedLoaded', (e: Event) => this.myBirthday = this.deathday((e.target as Element)));
     console.log('disconnected callback');
     super.disconnectedCallback();
   };
@@ -40,7 +41,8 @@ export class HPPerson extends LitElement {
     super ();
 
     this.myParent = ((this as Node).parentNode! as HPGC).myGedData;
-    this.myBirthday = '';
+    this.myBirthday = [null];
+		this.myDeathday = [null];
 
     this.myGedId = '';
     console.log('person constructor complete');
@@ -60,13 +62,20 @@ export class HPPerson extends LitElement {
       this.myBirthday = g.getIndividualRecord(`${this.myGedId}`)
         .getEventBirth()
         .getDate() 
-        .toString()
-        .replace('DATE ', '');
+        .valueAsDate()
+        .map(d => {
+          if(d && d.isDatePunctual) {
+            const datePart = (d as rgc.ValueDatePunctual).date;
+            return toJsDate(datePart);
+          } else {
+            return null;
+          }
+        });
       console.log(`in birthday after successful query, ${this.myBirthday}`);
       return this.myBirthday;
     } else {
       console.log('gedcom loaded before id string set');
-      return '';
+      return [null];
     }
 
     console.log('reached the end of birthday without returning');
@@ -82,13 +91,20 @@ export class HPPerson extends LitElement {
       console.log('individual is ' + i.toString());
       this.myDeathday = i.getEventDeath()
         .getDate() 
-        .toString()
-        .replace('DATE ', '');
+				.valueAsDate()
+        .map(d => {
+          if(d && d.isDatePunctual) {
+            const datePart = (d as rgc.ValueDatePunctual).date;
+            return toJsDate(datePart);
+          } else {
+            return null;
+          }
+        });
       console.log(`in deathday after successful query, ${this.myDeathday}`);
       return this.myDeathday;
     } else {
       console.log('gedcom loaded before id string set');
-      return '';
+      return [null];
     }
 
     console.log('reached the end of deathday without returning');
@@ -100,12 +116,12 @@ export class HPPerson extends LitElement {
     <h4 class="h3">Biographical Information</h4>
     <div class="mb-0" id="bio-info" .myGedId=${this.myGedId} >
       Birthday: <span>${when(
-        ((typeof(this.myBirthday) !== 'undefined') && (this.myBirthday !== null) && (this.myBirthday !== '')), 
+        ((typeof(this.myBirthday) !== 'undefined') && (this.myBirthday !== null) && (this.myBirthday !== [null]) && ( this.myBirthday.length > 0)), 
         () => html`${this.myBirthday}`, 
         () => html`Unknown Birthday`
       )}</span><br/>
       Deathday: <span>${when(
-        ((typeof(this.myDeathday) !== 'undefined') && (this.myDeathday !== null) && (this.myDeathday !== '')), 
+        ((typeof(this.myDeathday) !== 'undefined') && (this.myDeathday !== null) && (this.myDeathday !== [null])), 
         () => html`${this.myDeathday}`, 
         () => html`Unknown date of death`
       )}</span><br/>
