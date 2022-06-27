@@ -2,8 +2,8 @@
 1 SOUR Gramps
 2 VERS 5.1.2
 2 NAME Gramps
-1 DATE 22 JUN 2022
-2 TIME 09:43:10
+1 DATE 27 JUN 2022
+2 TIME 14:12:48
 1 SUBM @SUBM@
 1 FILE /home/schierer/luke/src/HarryPotter/content/Harrypedia/potter_universe.ged
 1 COPR Copyright (c) 2022 .
@@ -16,9 +16,11 @@
 1 NAME
 1 ADDR
 0 @I0000@ INDI
-1 NAME Harry /Potter/
-2 GIVN Harry
+1 NAME Harry James /Potter/
+2 GIVN Harry James
 2 SURN Potter
+2 SOUR @S0033@
+3 PAGE Location 2074
 1 SEX M
 1 BIRT
 2 DATE 31 JUL 1980
@@ -35,8 +37,8 @@
 2 PEDI foster
 1 FAMS @F0035@
 1 CHAN
-2 DATE 6 FEB 2022
-3 TIME 01:57:09
+2 DATE 22 JUN 2022
+3 TIME 17:54:54
 0 @I0001@ INDI
 1 NAME James /Potter/
 2 GIVN James
@@ -165,9 +167,10 @@
 2 DATE 9 SEP 2021
 3 TIME 18:23:21
 0 @I0007@ INDI
-1 NAME Sirius /Black/
+1 NAME Sirius /Black/ III
 2 GIVN Sirius
 2 SURN Black
+2 NSFX III
 1 NAME  //
 2 TYPE aka
 2 NICK Padfoot
@@ -187,11 +190,11 @@
 1 SOUR @S0035@
 2 PAGE https://web.archive.org/web/20190110174600/https://www.pottermore.com/explore-the-story/sirius-black
 1 CHAN
-2 DATE 19 OCT 2021
-3 TIME 00:56:13
+2 DATE 27 JUN 2022
+3 TIME 18:10:21
 0 @I0008@ INDI
-1 NAME Regulas /Black/
-2 GIVN Regulas
+1 NAME Regulus Arcturus /Black/
+2 GIVN Regulus Arcturus
 2 SURN Black
 1 SEX M
 1 BIRT
@@ -206,13 +209,17 @@
 2 PEDI birth
 1 SOUR @S0003@
 2 PAGE https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg
+1 SOUR @S0002@
+2 PAGE 76
+2 QUAY 3
 1 CHAN
-2 DATE 19 OCT 2021
-3 TIME 00:56:13
+2 DATE 27 JUN 2022
+3 TIME 17:55:43
 0 @I0009@ INDI
-1 NAME Arcturus /Black/
+1 NAME Arcturus /Black/ II
 2 GIVN Arcturus
 2 SURN Black
+2 NSFX II
 1 SEX M
 1 BIRT
 2 DATE 1901
@@ -228,8 +235,8 @@
 1 SOUR @S0003@
 2 PAGE https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg
 1 CHAN
-2 DATE 7 SEP 2021
-3 TIME 21:01:40
+2 DATE 27 JUN 2022
+3 TIME 17:49:37
 0 @I0010@ INDI
 1 NAME Hesper /Gamp/
 2 GIVN Hesper
@@ -274,9 +281,10 @@
 2 DATE 9 SEP 2021
 3 TIME 18:22:31
 0 @I0013@ INDI
-1 NAME Sirius /Black/
+1 NAME Sirius /Black/ II
 2 GIVN Sirius
 2 SURN Black
+2 NSFX II
 1 SEX M
 1 BIRT
 2 DATE 1877
@@ -292,8 +300,8 @@
 1 SOUR @S0003@
 2 PAGE https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg
 1 CHAN
-2 DATE 9 SEP 2021
-3 TIME 18:23:36
+2 DATE 27 JUN 2022
+3 TIME 18:10:34
 0 @I0014@ INDI
 1 NAME Lycoris /Black/
 2 GIVN Lycoris
@@ -367,9 +375,10 @@
 2 DATE 7 SEP 2021
 3 TIME 21:10:29
 0 @I0018@ INDI
-1 NAME Cygnus /Black/
+1 NAME Cygnus /Black/ II
 2 GIVN Cygnus
 2 SURN Black
+2 NSFX II
 1 SEX M
 1 BIRT
 2 DATE 1889
@@ -385,8 +394,8 @@
 1 SOUR @S0003@
 2 PAGE https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg
 1 CHAN
-2 DATE 8 SEP 2021
-3 TIME 19:10:03
+2 DATE 27 JUN 2022
+3 TIME 18:10:57
 0 @I0019@ INDI
 1 NAME Belvina /Black/
 2 GIVN Belvina
@@ -608,9 +617,10 @@
 2 DATE 9 SEP 2021
 3 TIME 18:22:31
 0 @I0032@ INDI
-1 NAME Cygnus /Black/
+1 NAME Cygnus /Black/ III
 2 GIVN Cygnus
 2 SURN Black
+2 NSFX III
 1 SEX M
 1 BIRT
 2 DATE 1938
@@ -626,8 +636,8 @@
 1 SOUR @S0003@
 2 PAGE https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg
 1 CHAN
-2 DATE 8 SEP 2021
-3 TIME 19:07:15
+2 DATE 27 JUN 2022
+3 TIME 18:11:12
 0 @I0033@ INDI
 1 NAME Druella /Rosier/
 2 GIVN Druella
@@ -1074,8 +1084,8 @@
 2 PEDI birth
 1 FAMS @F0019@
 1 CHAN
-2 DATE 8 SEP 2021
-3 TIME 17:28:31
+2 DATE 27 JUN 2022
+3 TIME 18:03:26
 0 @I0063@ INDI
 1 NAME Hermione Jean /Granger/
 2 GIVN Hermione Jean
@@ -1435,8 +1445,8 @@
 1 FAMC @F0025@
 2 PEDI birth
 1 CHAN
-2 DATE 8 SEP 2021
-3 TIME 17:28:31
+2 DATE 27 JUN 2022
+3 TIME 18:03:26
 0 @I0082@ INDI
 1 NAME Gideon /Prewett/
 2 GIVN Gideon
@@ -1445,8 +1455,8 @@
 1 FAMC @F0025@
 2 PEDI birth
 1 CHAN
-2 DATE 8 SEP 2021
-3 TIME 17:28:31
+2 DATE 27 JUN 2022
+3 TIME 18:03:26
 0 @I0083@ INDI
 1 NAME Henry /Potter/
 2 GIVN Henry
@@ -1819,8 +1829,8 @@
 1 SOUR @S0033@
 2 PAGE Location 2075
 1 CHAN
-2 DATE 18 OCT 2021
-3 TIME 03:09:41
+2 DATE 27 JUN 2022
+3 TIME 18:01:40
 0 @I0112@ INDI
 1 NAME Dolores Jane /Umbridge/
 2 GIVN Dolores Jane
@@ -1841,8 +1851,8 @@
 1 SOUR @S0033@
 2 PAGE Locations 2590-2591
 1 CHAN
-2 DATE 18 OCT 2021
-3 TIME 03:09:41
+2 DATE 27 JUN 2022
+3 TIME 18:01:40
 0 @I0114@ INDI
 1 NAME Aberforth /Dumbledore/
 2 GIVN Aberforth
@@ -3169,8 +3179,8 @@
 1 SOUR @S0004@
 2 PAGE https://harrypotter.fandom.com/wiki/Bones_family
 1 CHAN
-2 DATE 18 OCT 2021
-3 TIME 02:56:19
+2 DATE 27 JUN 2022
+3 TIME 18:01:40
 0 @I0207@ INDI
 1 NAME  /Greengrass/
 2 SURN Greengrass
@@ -4065,9 +4075,11 @@
 1 CHIL @I0062@
 1 CHIL @I0081@
 1 CHIL @I0082@
+1 SOUR @S0033@
+2 PAGE American Kindle Location 2594
 1 CHAN
-2 DATE 8 SEP 2021
-3 TIME 17:28:31
+2 DATE 27 JUN 2022
+3 TIME 18:03:26
 0 @F0026@ FAM
 1 HUSB @I0083@
 1 CHIL @I0003@
@@ -4319,9 +4331,11 @@
 1 CHIL @I0206@
 1 SOUR @S0004@
 2 PAGE https://harrypotter.fandom.com/wiki/Bones_family
+1 SOUR @S0033@
+2 PAGE American Kindle Locations 2590-2591
 1 CHAN
-2 DATE 18 OCT 2021
-3 TIME 02:54:43
+2 DATE 27 JUN 2022
+3 TIME 18:01:40
 0 @F0057@ FAM
 1 HUSB @I0206@
 1 CHIL @I0154@
