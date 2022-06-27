@@ -47,9 +47,9 @@ different but equally magical mechanism to the same end in [Chapter
 
 [CW1]: https://archiveofourown.org/users/CmptrWz/pseuds/CmptrWz
 
-[[FWO1]: https://archiveofourown.org/works/28507302/
+[FWO1]: https://archiveofourown.org/works/28507302/
 
-[[FWO2]: https://archiveofourown.org/works/28507302/
+[FWO2]: https://archiveofourown.org/works/28507302/
 
 [FWOC28-1]: https://archiveofourown.org/works/28507302/chapters/78741424
 
