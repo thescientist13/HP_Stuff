@@ -2,10 +2,10 @@
 1 SOUR Gramps
 2 VERS 5.1.2
 2 NAME Gramps
-1 DATE 7 FEB 2022
-2 TIME 01:02:21
+1 DATE 22 JUN 2022
+2 TIME 09:43:10
 1 SUBM @SUBM@
-1 FILE /home/schierer/luke/src/HarryPotter/gramps.ged
+1 FILE /home/schierer/luke/src/HarryPotter/content/Harrypedia/potter_universe.ged
 1 COPR Copyright (c) 2022 .
 1 GEDC
 2 VERS 5.5.1
@@ -90,8 +90,8 @@
 2 PAGE https://harrypotter.fandom.com/wiki/Lily_J._Potter
 1 NOTE @N0002@
 1 CHAN
-2 DATE 18 OCT 2021
-3 TIME 03:36:13
+2 DATE 22 JUN 2022
+3 TIME 13:42:25
 0 @I0003@ INDI
 1 NAME Fleamont /Potter/
 2 GIVN Fleamont
