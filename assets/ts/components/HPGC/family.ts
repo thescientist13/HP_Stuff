@@ -1,5 +1,6 @@
 import {LitElement, css} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
+import {ifDefined} from 'lit/directives/if-defined.js';
 import {when} from 'lit/directives/when.js';
 import {html, literal} from 'lit/static-html.js';
 
@@ -78,9 +79,9 @@ export class HPFamily extends LitElement {
     const lis = [];
     for (const i of this.Members) {
       const n = i.getName();
-      var f: (string | null)[] = [null];
-      var l: (string | null)[] = [null]; 
-      var s: (string | null)[] = [null];
+      var f: (string | null)[] | undefined = undefined;
+      var l: (string | null)[] | undefined = undefined;
+      var s: (string | null)[] | undefined = undefined;
       const iNamePartsNonMaiden: (null | (undefined | string)[])[] = i.getName()
         .filterSelect(nameField => !(nameField as rgc.SelectionName).getType().value().includes(rgc.ValueNameType.Married)).valueAsParts();
 
@@ -89,7 +90,19 @@ export class HPFamily extends LitElement {
         f = i.getName().filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getGivenName().value();
         l = i.getName().filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getSurname().value();
         s = i.getName().filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getNameSuffix().value();
-        lis.push(html`<li><a href="${myParentUrl}${f}">${f} ${l} ${s}</a></li>`);
+        console.log(`for ${f}, f has ${f.length}`);
+        console.log(`for ${f}, s has ${s.length}`);
+        var PUrl = '';
+        if((typeof(f) !== 'undefined') && (f.length > 0) && (f[0] !== '') && (f[0] !== null)) {
+          console.log('f is of type ' + typeof(f));
+          PUrl = f;
+        } else {
+          PUrl = '';
+        }
+        if((typeof(s) !== 'undefined') && (s.length > 0) && (s[0] !== '') && (s[0] !== null)) {
+          PUrl = PUrl + `_${s}`;
+        } 
+        lis.push(html`<li><a href="${myParentUrl}${PUrl}">${f} ${l} ${s}</a></li>`);
       } else {
         console.log('why is n null?');
       }
