@@ -43,7 +43,7 @@ export class HPFamily extends LitElement {
     if ((typeof(this.SurName) !== 'undefined') && (this.SurName !== '')) {
       console.log('Sur is ' + this.SurName);
       g.getIndividualRecord().arraySelect().forEach(i => {
-        const s = (i.getName() as rgc.SelectionNamePieces).filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getSurname().value();
+        const s = (i.getName() as rgc.SelectionNamePieces).filterSelect(nameField => !(nameField as rgc.SelectionName).getType().value().includes(rgc.ValueNameType.Married)).getSurname().value();
         if((s !== null) && (typeof(s) !== 'undefined')) {
           console.log('type is ' + typeof(s));
           if(Array.isArray(s)) {
@@ -78,11 +78,11 @@ export class HPFamily extends LitElement {
     const lis = [];
     for (const i of this.Members) {
       const n = i.getName();
-      var f = '';
-      var l = '';
-      var s = '';
+      var f: (string | null)[] = [null];
+      var l: (string | null)[] = [null]; 
+      var s: (string | null)[] = [null];
       const iNamePartsNonMaiden: (null | (undefined | string)[])[] = i.getName()
-        .filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).valueAsParts();
+        .filterSelect(nameField => !(nameField as rgc.SelectionName).getType().value().includes(rgc.ValueNameType.Married)).valueAsParts();
 
       if( (iNamePartsNonMaiden!== null) && (typeof(iNamePartsNonMaiden) !== 'undefined')) {
         console.log('values are: ' + iNamePartsNonMaiden);
