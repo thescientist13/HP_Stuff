@@ -90,12 +90,9 @@ export class HPFamily extends LitElement {
         f = i.getName().filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getGivenName().value();
         l = i.getName().filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getSurname().value();
         s = i.getName().filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getNameSuffix().value();
-        console.log(`for ${f}, f has ${f.length}`);
-        console.log(`for ${f}, s has ${s.length}`);
         var PUrl = '';
         if((typeof(f) !== 'undefined') && (f.length > 0) && (f[0] !== '') && (f[0] !== null)) {
-          console.log('f is of type ' + typeof(f));
-          PUrl = f;
+          PUrl = f[0];
         } else {
           PUrl = '';
         }
