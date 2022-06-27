@@ -3,7 +3,7 @@
 2 VERS 5.1.2
 2 NAME Gramps
 1 DATE 22 JUN 2022
-2 TIME 09:43:10
+2 TIME 17:00:32
 1 SUBM @SUBM@
 1 FILE /home/schierer/luke/src/HarryPotter/content/Harrypedia/potter_universe.ged
 1 COPR Copyright (c) 2022 .
@@ -16,9 +16,11 @@
 1 NAME
 1 ADDR
 0 @I0000@ INDI
-1 NAME Harry /Potter/
-2 GIVN Harry
+1 NAME Harry James /Potter/
+2 GIVN Harry James
 2 SURN Potter
+2 SOUR @S0033@
+3 PAGE Location 2074
 1 SEX M
 1 BIRT
 2 DATE 31 JUL 1980
@@ -35,8 +37,8 @@
 2 PEDI foster
 1 FAMS @F0035@
 1 CHAN
-2 DATE 6 FEB 2022
-3 TIME 01:57:09
+2 DATE 22 JUN 2022
+3 TIME 17:54:54
 0 @I0001@ INDI
 1 NAME James /Potter/
 2 GIVN James
