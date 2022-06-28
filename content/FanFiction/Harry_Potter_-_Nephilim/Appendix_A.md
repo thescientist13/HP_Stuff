@@ -1,52 +1,9 @@
 ---
-title: "Introduction"
-weight: 1
+title: "Appendix A - Points of Divergence"
+weight: 2
 Toc: true
 type: "stories"
 ---
-
-On reading _[Many Waters][MW]_ by Madeleine L'Engle, a number of ideas came
-together and I started thinking about the Harry Potter universe in a different
-way.  Mrs. L'Engle's theology in that book is *really really* sketchy, but like
-many distortions of true Catholic thought, makes for interesting fiction.  This
-is not really a cross-over, you will not see the characters from any of the
-non-Rowling works I am taking ideas from here.  Similarly, much of the
-"theology" in this work is more like a comic book's depiction of Catholicism
-than a true representation.
-
-As I said, that book caused a me to think about the Harry Potter universe
-differently, but it was not until I was reading CmptrWz' _[For Want of
-an Outfit][FWoaO1]_ Chapters 30 through 35 that what I am trying for here
-*really* came clear.  Left unadulterated, Mrs. Rowling's Harry Potter universe
-has too few consequences.  I harp on that theme in my [[Harrypedia]].  This
-fanfiction is a harsher universe.  Magic, even if not "dark" and *intentionally*
-harmful, cannot always be undone or fixed.  There can be not only life-long
-repercussions, but *generational* repercussions from the spells and potions that
-are so often carelessly used.  
-
-I am taking some things from _[Many Waters][MW2]_, some from C. S. Lewis' _[The
-Screwtape Letters][TSL]_, some from actual Catholic theology, some from various
-myths and legends, and some from Tolkien's Middle Earth universe.  I am grafting
-these ideas into the Harry Potter universe, replacing some of its actual world
-building with these grafted bits, extending it in other places.  The end result
-will, like _[Many Waters][MW3]_, be *really really* bad theology, that's okay
-and in fact inevitable (I think) when you mix in the mythological and Harry
-Potter elements.
-
-A lot of authors will try to do almost all their world building within the
-narrative.  I realise this is technically better, but it is also harder to do.
-Since I am pulling from several disparate, previously existing, universes that
-the reader may well already be familiar with, and because I am *not* an awesome
-writer actually capable of pulling off the vision in my head, I am going to set
-the stage and provide some of the world building in the form of appendices that
-authors generally do not publish.  These world building notes are useful to
-understand the story, but are hopefully not truly necessary.  That being said,
-I am not going to go out of my way to explain in depth the way some authors do
-since an interested reader *can* find it in this extra information. 
-
-[FWoaO1]: <https://archiveofourown.org/works/28507302>
-
-### Points of Divergence 
 
 #### Things differing for those familiar with _Many Waters_
 
@@ -63,11 +20,11 @@ since an interested reader *can* find it in this extra information.
   happening to nephil.  This is more or less what I envision.  Essentially these
   represent instances of Divine Justice, sometimes mediated by the actual
   angels.  This is the primary idea pulled from that source.  I am going to be
-  inconsistent in my language about this, because it is unclear to the nephilim
-  how much is something *they* did wrong (and was thus avoidable), how much is
-  something *God* caused to happen to them, and how much is something that an
-  angel, acting within the scope and authority granted that angel by God, has
-  caused of its own initiative.  
+  inconsistent in my language about this, because it is (and always has been)
+  unclear to the nephilim how much is something *they* did wrong (and was thus
+  avoidable), how much is something *God* caused to happen to them, and how
+  much is something that an angel, acting within the scope and authority
+  granted that angel by God, has caused of its own initiative.  
 
 #### Things Specifically Pulled from _Many Waters_
 
@@ -77,12 +34,21 @@ since an interested reader *can* find it in this extra information.
   See below for deviations from Harry Potter. 
 * The fallen angels directly interact with humanity and have visible
   manifestations of the powers they retain from their angelic nature.  I'm
-  extending this to say that some of these are inherited. 
+  extending this to say that some of these are inherited.  
+* All of the angels and nephil found in _Many Waters_ are, in Harry Potter
+  terms, animagi.  More, these animal forms are symbolic in some way of the
+  angel or nephil in question.  Again, per above, I am not using L'Engle's
+  definition of nephil, but I am keeping this aspect.  All nephil have the
+  ability to be an animagi, and this transformation is, when not specifically
+  suppressed, natural to them.  
 
 #### Some Notable Differences from the actual Harry Potter universe
 
 * Harry is noticeably out of character in this story.  I will try to make him
-  the exception rather than the norm.
+  the exception rather than the norm.  However, to the extent that characters
+  are formed by their experiences across the actual Harry Potter series, they
+  may end up in different places (emotionally/psychologically) between my first
+  chapter and last, than they did between Mrs. Rowling's first book and last.
 * Witches are those corrupted by union with fallen angels.  They do gain power
   (magic) from this union, but are corrupted by it.  Should they repent and
   receive forgiveness from their sins, they would also lose their access to
@@ -90,7 +56,7 @@ since an interested reader *can* find it in this extra information.
   people "stealing magic" come.  It is possible (in this story) for someone to
   *become* magical. 
 * Following from the origin of magic I'm using, magic will follow somewhat
-  different [rules]({{ relref . "/appendix_a" }}) than the Harry Potter books.
+  different [rules]({{< relref "/appendix_b" >}}) than the Harry Potter books.
   This includes both the way the characters use magic and magical creatures.
 * Those that call themselves witches *are not actually.*  They are nephilim.
   That is, the actual characters you encounter are not what this story's true
@@ -127,9 +93,31 @@ since an interested reader *can* find it in this extra information.
      explained by Mendelian inheritance patterns, children of either two nephil
      or one human and one nephil do not follow purely Mendelian inheritance
      patterns. 
+   * Per the above, all nephil are animagi.  However, normally a child, growing
+     up around those who either do not have or do not use this power, begins to
+     instinctively suppress the ability. This suppression thing is how I am
+     merging the Harry Potter concept with the _Many Waters_ concept, and is
+     thus found in neither original work.  Some traditions, like that described
+     in _Short Stories of Heroism_ are time consuming, difficult, and
+     exacting.[^220628-1]  In this work this is not because of the inherent
+     difficulty of the actual magic, but rather the drawn out ritual is,
+     functionally but unknowingly to the nephil population (who largely have
+     not studied any actual psychology), training the nephil to *allow* the
+     change, to overcome the enculturated inhibitions against using this power.
+     Moreover, Magic is in part about belief, you cannot do something you
+     believe you cannot do.  Thus if you believe that the transformation is
+     difficult, you can (unconciously) *make it difficult.*  
+   * Uagadou is known for teaching self transfiguration.[^220628-2]  Their
+     results differ from the way most nephil communities handle the animagi
+     ability.  Rather than working with the student's inate form, the Uagadou
+     school teaches students to mutate themselves, and thus to *change* their
+     inate form.  They disregard the repercussions this has on the student's
+     core personality, and sometimes even on the person's ability to function
+     in normal human society.
 * I intended this long before I read this in any other work: faith, prayer, the
   Sacraments, and sacramentals will all have actual effects.[^210412-5]
 
+[FWoaO1]: <https://archiveofourown.org/works/28507302>
 
 [MW]: <https://en.wikipedia.org/wiki/Many_Waters>
 
@@ -162,3 +150,8 @@ since an interested reader *can* find it in this extra information.
     [Chapter Six](https://www.fanfiction.net/s/5490079/7/The-Little-Veela-that-Could)
     Published: 2009-11-05. Updated: 2012-06-28. Last Viewed: 2021-04-12.
 
+[^220628-1]: Mrs. J. K. Rowling. _[Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies](https://www.goodreads.com/book/show/31538635-short-stories-from-hogwarts-of-heroism-hardship-and-dangerous-hobbies)_
+    p. 20-22. © 2016 Pottermore Publishing. American Kindle Edition. 
+
+[^220628-2]: Mrs. J. K. Rowling. _[Uagadou](https://www.rowlingindex.org/work/pmuag/)_
+    [The J.K. Rowling Index](https://www.rowlingindex.org/).  Publication Date: 2016-01-31. Last Viewed: 2022-06-28.
