@@ -15,16 +15,6 @@ type: "stories"
   Testament suggest that nephilim continue to exist after the flood.  I am
   positing that fallen angels continued to seduce women during the Old Testament
   times. 
-* Lewis describes the effect of sin on the fallen angles in _[The Screwtape
-  Letters][TSL2]_.[^210408-1]  At various places I talk about "bizarre" things
-  happening to nephil.  This is more or less what I envision.  Essentially these
-  represent instances of Divine Justice, sometimes mediated by the actual
-  angels.  This is the primary idea pulled from that source.  I am going to be
-  inconsistent in my language about this, because it is (and always has been)
-  unclear to the nephilim how much is something *they* did wrong (and was thus
-  avoidable), how much is something *God* caused to happen to them, and how
-  much is something that an angel, acting within the scope and authority
-  granted that angel by God, has caused of its own initiative.  
 
 #### Things Specifically Pulled from _Many Waters_
 
@@ -41,6 +31,20 @@ type: "stories"
   definition of nephil, but I am keeping this aspect.  All nephil have the
   ability to be an animagi, and this transformation is, when not specifically
   suppressed, natural to them.  
+
+#### Things Specifically Pulled from _Screwtape_
+
+* Lewis describes the effect of sin on the fallen angles in _[The Screwtape
+  Letters][TSL2]_.[^210408-1]  At various places I talk about "bizarre" things
+  happening to nephil.  This is more or less what I envision.  Essentially these
+  represent instances of Divine Justice, sometimes mediated by the actual
+  angels.  This is the primary idea pulled from that source.  I am going to be
+  inconsistent in my language about this, because it is (and always has been)
+  unclear to the nephilim how much is something *they* did wrong (and was thus
+  avoidable), how much is something *God* caused to happen to them, and how
+  much is something that an angel, acting within the scope and authority
+  granted that angel by God, has caused of its own initiative.  
+
 
 #### Some Notable Differences from the actual Harry Potter universe
 

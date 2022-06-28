@@ -166,7 +166,7 @@ Angels
 [^220628-4]: Dr. Andrew Sulavik. _[All About Angels](https://www.kofc.org/en/resources/cis/cis303.pdf)_
     © 1999-2021 by Knights of Columbus Supreme Council. Pages 15-16.
 
-#### mapping to Harry Potter
+### mapping to Harry Potter
 
 Harry Potter cannon breaks magic down into:
 

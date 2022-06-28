@@ -6,7 +6,7 @@ author = "Luke Schierer"
 weight = 4
 +++
 
-## Overview
+### Overview
 
 Since I need non-Mendelian inheritance to explain both magical creatures and the
 nephilim themselves, I am going to set some rules.  These are primarily for the
@@ -150,7 +150,7 @@ determine what happens to a given child.
      most magic users do not believe in angels, much less fallen angels, and
      have a strong distrust for the Church.
 
-#### Specifically human/nephil
+### Specifically human/nephil
 
 * "Standard" nephilim seem more or less humans with extra abilities, but this is
   not really true. If you consider creation as a hierarchy, humanity has always
@@ -195,20 +195,12 @@ determine what happens to a given child.
 * Per the above, in practice, most modern nephil have mixed inheritances, and
   thus magic in a broad range of categories.
 * nephil do get one straight up advantage over humans in addition to using
-  magic - they [live longer]({{< relref "Appendix_D" >}}).  This is *actually*
+  magic - they [live longer]({{< relref "Appendix_E" >}}).  This is *actually*
   a side effect of their magic, which, regardless of type, will offer some
   protection against disease and against the effects of entropy (and thus old
   age).  It does not halt the decay of old age, but it does retard it.  The
   extend to which it extends the nephil's life depends on the nephil's average
-  power level.  For males, I settled on the formula a = 16.14+29.9e\^0.184x  where
-  a is their estimated average lifespan, e is Euler's number, and x is the
-  average of their nine power levels.  For females, using the same variables, I
-  settled on the formula a = 31+22.39e\^0.205x.  I chose the different formulas
-  because while it does not fully remove the fact that women normally live
-  longer than men, it does massively reduce the delta.  I decided  (while I have
-  no proof of this) a large part of the difference between male and female
-  humans has got to be either the effects of more guys involved in wars or
-  disease (or both).
+  power level.  
 * Per earlier sections, it takes approximately six consecutive generations of magical
   abuse for "truly bizarre" things to become not just possible but probable.
    * Recall the note from [Appendix A]({{< relref "Appendix_A" >}}) on _The
