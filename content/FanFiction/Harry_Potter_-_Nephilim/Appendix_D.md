@@ -3,7 +3,7 @@ title = "Appendix D - Relative Power Levels"
 date = 2022-06-28T17:31:53-04:00
 toc = true
 author = "Luke Schierer"
-weight = 5
+weight = 23
 +++
 
 Per the inheritance rules, you can follow a different rule for inheritance in

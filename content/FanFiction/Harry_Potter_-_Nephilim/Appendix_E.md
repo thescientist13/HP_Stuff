@@ -2,7 +2,7 @@
 title = "Appendix E - Life Expectancy"
 date = 2022-06-28T18:18:30-04:00
 author = "Luke Schierer"
-weight = 6
+weight = 24
 +++
 
 Average Power Level|US Males 1900|US Males 2001|US Females 1900|US Females 2001|US Male Nephilim 1900|US Male Nephilim 2001|US Female Nephilim 1900|US Female Nephilim 2001

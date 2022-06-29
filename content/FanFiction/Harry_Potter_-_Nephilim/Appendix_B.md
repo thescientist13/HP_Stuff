@@ -3,7 +3,7 @@ title = "Appendix B - Rules of Magic"
 Toc = true
 date = 2022-06-28T12:31:41-04:00
 author = "Luke Schierer"
-weight = 3
+weight = 21
 +++
 
 ### Overall Rules
