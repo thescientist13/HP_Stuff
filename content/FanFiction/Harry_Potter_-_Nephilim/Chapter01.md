@@ -208,7 +208,7 @@ one) had made it clear, without words, that he would find it someday.
     _[Justice Served With A Side Of Fries](https://www.fanfiction.net/s/6300111)_ 
     though I think I came up with my version before I read that story. 
 
-[^210902-6]: Per my [[Notes|Harry_Potter_-_Nephilim]] on this fanfiction, I am
+[^210902-6]: Per my [Notes]({{< relref "Appendix_A" >}}) on this fanfiction, I am
     making Petunia a Squib. Vernon is purely non-magically, but nephil traits
     are sometimes remarkably persistent, so Dudley is, just barely, a nephil.
-    See my notes on [[relative power levels|appendix_b]].
+    See my notes on [relative power levels]({{< relref "Appendix_D" >}}).
