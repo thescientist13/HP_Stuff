@@ -1,6 +1,9 @@
 [goldmark]
   [goldmark.extensions]
     typographer = false
+    definitionList = true
+    footnote = true
+    table = true
   [goldmark.renderer]
     unsafe = true
 [highlight]
