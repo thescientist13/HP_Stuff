@@ -1,7 +1,6 @@
-{{ define "main" }}
 <div class="td-content">
-	<h1>{{ .Title }}</h1>
-  {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+	<h1>{{ .Title }} {{ .Params.surn }}</h1>
+	{{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
 	<header class="article-meta">
 		{{ $context := . }}
 		{{ if .Site.Params.Taxonomy.taxonomyPageHeader }}
@@ -16,17 +15,40 @@
 		{{ if (and (not .Params.hide_readingtime) (.Site.Params.ui.readingtime.enable)) }}
 			{{ partial "reading-time.html" . }}
 		{{ end }}
-	</header>
+	</header>    
+	{{ if ( and (.Params.id) (not (eq .Params.id "insert number from gramps without the @s"))) }}
+		<div class="card mb-4">
+			<div class="card-header">
+				<h5 class="card-title">
+					Biographical Information
+				</h5>
+			</div>
+			<div class="card-body">
+				<p class="card-text">
+					{{ $GedFile := printf "%s" (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
+					{{ $id := printf "@%s@" .Params.id }}
+					{{ with $GedFile }}
+						<hp-gc myGedUrl="{{.}}">
+							{{ with $id }}
+								<hp-person myGedId="{{.}}" slot="hpgc-main"></hp-person>
+							{{end}}
+						</hp-gc>
+					{{end}}
+				</p>
+			</div>
+			<div class="card-footer">
+			</div>
+		</div>
+	{{ end }}
+
 	{{ .Content }}
-        {{ partial "section-index.html" . }}
 	{{ if (and (not .Params.hide_feedback) (.Site.Params.ui.feedback.enable) (.Site.GoogleAnalytics)) }}
 		{{ partial "feedback.html" .Site.Params.ui.feedback }}
 		<br />
 	{{ end }}
-	{{ if (.Site.DisqusShortname) }}
+	{{ if (.Site.Params.DisqusShortname) }}
 		<br />
 		{{ partial "disqus-comment.html" . }}
 	{{ end }}
 	{{ partial "page-meta-lastmod.html" . }}
 </div>
-{{ end }}
