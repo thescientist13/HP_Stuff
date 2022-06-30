@@ -1,15 +1,19 @@
-[[!meta title="Balance of Power"]]
++++
+title = "Balance of Power"
+author = "Luke Schierer"
++++
 
 One of the troubling things about the world that Mrs. Rowling has created is
 that it is unbalanced towards being fallen.  This is perhaps no where so obvious
-as in the case of the so called [[non-beings|non-being]].  With the exception of
-[[poltergeists]], which are apparently based on "chaos,"[^211020-10] all of
-these "non-beings" are evil creatures.  While I am okay with [[Dark
-Magic|Magic]] being difficult to impossible to fully repair to some extent, I
-have limits.  I can accept the idea of acts having consequences that require
-divine intervention to fully heal.  I cannot accept that *if* magic is not
-fundamentally tainted (as in the real world it would have to be if it existed),
-that it *is* fundamentally unbalanced towards evil.  
+as in the case of the so called [non-beings]({{< relref "non-beings" >}}).  With 
+the exception of [poltergeists]({{< relref "poltergeist" >}}), which are
+apparently based on "chaos,"[^211020-10] all of these "non-beings" are evil
+creatures.  While I am okay with [Dark Magic]({{< relref "Magic" >}}) being
+difficult to impossible to fully repair to some extent, I have limits.  I can
+accept the idea of acts having consequences that require divine intervention to
+fully heal.  I cannot accept that *if* magic is not fundamentally tainted (as
+in the real world it would have to be if it existed), that it *is*
+fundamentally unbalanced towards evil.  
 
 * Evil creatures are indestructible, but on the side of good, the closest we
   come is the phoenix which seems to have a rather useless form of immortality,
@@ -30,11 +34,11 @@ protect someone else, but are stronger than standard shields?  Why do we not
 health problems irrelevant?  Harry should be healed of his vision problems,
 someone else cured after being crushed by a giant (since that is, in essence a
 mundane injury), or after a catastrophic fall from a broom (explaining why
-[[Madam Pomfrey|adults/Pomfrey]] hates Quidditch).  Since dementors play an
-important role, so to should some of the more benevolent creatures.  Sure,
-Fawkes is critical with the basilisk, but that creature is so evil it needs its
-own balance.  And yes, Buckbeak shows up a few times, but so too do Acromantula,
-which, again, are mostly evil.  
+[Madam Pomfrey]({{< relref "Pomfrey" >}}) hates Quidditch).  Since dementors
+play an important role, so to should some of the more benevolent creatures.
+Sure, Fawkes is critical with the basilisk, but that creature is so evil it
+needs its own balance.  And yes, Buckbeak shows up a few times, but so too do
+Acromantula, which, again, are mostly evil.  
 
 In short, magic seems to have massively escalated the fallen nature of the
 world.  
@@ -47,4 +51,3 @@ world.
     "[Poltergeist](https://harrypotter.fandom.com/wiki/Poltergeist)"
     Last Edited: 2021-08-18. Last Viewed: 2021-10-20. 
 
-[[!tag "HP Notes"]]  
