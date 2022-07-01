@@ -43,17 +43,18 @@ enableMissingTranslationPlaceholders = true
 [taxonomies]
 tag = "tags"
 category = "categories"
-person = "people"
+family = "families"
+spell = "spells"
 
 [params.taxonomy]
 # set taxonomyCloud = [] to hide taxonomy clouds
-taxonomyCloud = ["tags", "categories", "people"] 
+taxonomyCloud = ["tags", "categories", "families", "spells" ] 
 
 # If used, must have same lang as taxonomyCloud
-taxonomyCloudTitle = ["Tag Cloud", "Categories", "People"] 
+taxonomyCloudTitle = ["Tag Cloud", "Categories", "Families", "Spells"] 
 
 # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-taxonomyPageHeader = ["tags", "categories"] 
+taxonomyPageHeader = ["tags", "categories", "families"] 
 
 
 # Highlighting config
