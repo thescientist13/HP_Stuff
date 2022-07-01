@@ -1,3 +1,8 @@
++++
+title="Veela"
+author="Luke Schierer"
++++
+
 see _[Balm](https://www.fanfiction.net/s/13829286)_.  Chapter 11 has some
 interesting notes, as do some of the earlier chapters. 
 
