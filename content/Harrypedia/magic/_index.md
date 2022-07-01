@@ -1,13 +1,9 @@
-[[!meta title="Spells in the Harry Potter Universe"]]
++++
+title = "Magic in the Harry Potter Universe"
+author = "Luke Schierer"
++++
 
 ### a
-#### Accio[^20210930-33]
-Can be blocked by anti-theft charms.  Causes objects to fly through the air to
-the caster.  The description is inconsistent, it describes cattle being
-summoned, but then says that most living creatures cannot be summoned.  
-#### Aguamenti
-Conjures clean drinkable water from the end of the wand.[^20210930-6] Appears to
-be a violation of Gramp's Law? 
 #### Alohomora[^20210930-11]
 Introduced in the early 1600s from Africa by Eldon Elsrickle. 
 #### Anti-Alohomora[^20210930-13]
