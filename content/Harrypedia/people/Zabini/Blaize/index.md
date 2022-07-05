@@ -1,4 +1,5 @@
 +++
+type = "person"
 title = "Blaize"
 date = 2022-07-05T15:49:16-04:00
 +++
