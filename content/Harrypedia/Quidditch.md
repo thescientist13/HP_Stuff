@@ -4,6 +4,8 @@ date = 2022-06-28T20:51:22-04:00
 author = "Luke Schierer"
 +++
 
+## Cultural Impact
+
 If you pay close attention, Quidditch reveals a *ton* about the culture of the
 magical population, very little of it good.  Interestingly I have not read all
 that many fan fiction stories that pick up on much of this.
@@ -29,8 +31,6 @@ that I enjoy action movies only because I know that they are *not* real, and
 that I would have the moral fibre to resist such temptation were people
 *actually* hurt, history tells us that many either did not or could not.
 
-
-
 [^220628-10]: Mrs. J. K. Rowling.
    _[Harry Potter and the Philosopher's Stone](https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone)_
    © 1997. Pottermore Publishing. American Kindle Edition page 169.
@@ -52,3 +52,61 @@ that I would have the moral fibre to resist such temptation were people
       Publication Date: 2014-03-21, Last Viewed: 2022-06-28.
     * "[Quidditch World Cup 2014: Daily Prophet reports](https://www.rowlingindex.org/work/pmqwcdpr/)"
       Publication Date: 2014-04-12 to 2014-07-11.  Last Viewed: 2022-06-28.
+
+## Game Play
+
+Mrs. Rowling has written very little overall about how Quidditch is actually
+played.  We know of a few "chaser formations" and have the description of a
+handful of the numerous possible fouls.   We know how the game is scored, but
+not how it is usually won.
+
+In soccer a free kick is very hard on the goalie,[^220705-2] and similarly,
+basketball players average about 70 to 75 percent of their free
+throws.[^220705-1]  How hard is the penalty shot a chaser makes? Is it similar
+odds? Or does the keeper have an advantage? 
+
+What role does the team captain play?  We have examples of a captain in each of
+the available positions, Wood as keeper, Angelina as chaser, [Harry]({{< relref
+"Harry" >}}) as seaker, and Harpies captain [Gwenog Jones]({{< relref "Gwenog" >}}) 
+as beater.  Are there advantages or disadvantages to the captain being one or
+more of these? Does the answer depend in any way on the team's playing style? 
+
+Many authors have attempted to do something with this, sometimes by radically
+changing the game.[^220705-3]  Few have come up with compelling explanations
+within the rules, but the following is probably the best. 
+
+> There are two basic strategies of being a seeker. First there were those rare
+> individuals who could successfully shut out every aspect of the game. For
+> those few who could, the quaffle, chasers and keepers were of no importance
+> and ceased to exist within their consciousness. If the seeker was focused
+> enough, the distraction made by the bludger could also be shut
+> out.
+> 
+> This strategy left the seeker vulnerable to occasionally being hit by a
+> bludger, but more often than not, these seekers won that game – especially if
+> their team's beaters focused on protecting their seeker and keeping the
+> bludgers at bay.
+> 
+> …
+> 
+> The other common seeker strategy was to act as a utility player of sorts –
+> keeping one eye open for the snitch, but focusing more on acting as the
+> fourth chaser of sorts or acting as a human bludger to break up the opposing
+> team's plays as often as possible. When one of this player's teammates saw
+> the snitch, they would shout something in a prearranged code and the player
+> would revert to being a seeker.
+> 
+> While on average, these seekers only caught a third of the snitches, their
+> teams averaged seven incremental goals per game.[^220705-4]
+
+[^220705-1]: Mr. Robbie Gonzalez. "[Free Throws Should Be Easy. Why Do Basketball Players Miss?](https://www.wired.com/story/almost-impossible-free-throws/)" [Wired](https://www.wired.com/) 2019-03-28. Last Viewed: 2022-07-05. 
+
+[^220705-2]: InStat Limited. "[MASSIVE RESEARCH OF PENALTIES BY INSTAT](https://instatsport.com/football/article/penalty_research)" [InStat](https://instatsport.com). Last Viewed: 2022-07-05. 
+
+[^220705-3]: Sorcerer's Muse. _[Harry-Potter-and-the-Muggle-s-Daughter](https://www.fanfiction.net/s/12273541)_ 
+    [Chapter 13. "Sharpening the Blade"](https://www.fanfiction.net/s/12273541/13/Harry-Potter-and-the-Muggle-s-Daughter) 
+    Published: 2016-12-14. Updated: 2017-02-02. Last Viewed: 2022-07-05.
+
+[^220705-4]: old-crow. _[An Inconvenient Truth](https://www.fanfiction.net/s/5084287)_
+    [Chapter Seven](https://www.fanfiction.net/s/5084287/7/An-Inconvenient-Truth)
+    Published: 2009-05-24. Updated: 2016-06-22. Last Viewed: 2022-07-05.
