@@ -59,6 +59,7 @@
     "lit-html": "^2.2.6",
     "mermaid": "^9.1.2",
     "open": "^8.4.0",
+    "pdfkit": "^0.13.0",
     "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
     "read-gedcom": "^0.3.1",
