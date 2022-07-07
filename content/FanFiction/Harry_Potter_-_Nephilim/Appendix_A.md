@@ -110,12 +110,12 @@ type: "stories"
      change, to overcome the enculturated inhibitions against using this power.
      Moreover, Magic is in part about belief, you cannot do something you
      believe you cannot do.  Thus if you believe that the transformation is
-     difficult, you can (unconciously) *make it difficult.*  
+     difficult, you can (unconsciously) *make it difficult.*  
    * Uagadou is known for teaching self transfiguration.[^220628-2]  Their
      results differ from the way most nephil communities handle the animagi
-     ability.  Rather than working with the student's inate form, the Uagadou
+     ability.  Rather than working with the student's innate form, the Uagadou
      school teaches students to mutate themselves, and thus to *change* their
-     inate form.  They disregard the repercussions this has on the student's
+     innate form.  They disregard the repercussions this has on the student's
      core personality, and sometimes even on the person's ability to function
      in normal human society.
 * I intended this long before I read this in any other work: faith, prayer, the
@@ -141,10 +141,16 @@ type: "stories"
 
 [WP3]: <https://en.wikipedia.org/wiki/Ecclesiology>
 
-[^211201-1]: In _[Error of Soul](https://www.fanfiction.net/s/8490518)_
-    Materia-Blade has a line referring to magical folk as Nephilim.  I came up
-    with this idea well before I found that work.  Just goes to show that there
-    is nothing possible that *someone* else hasn't also thought of. 
+[^211201-1]: There is nothing truly unique in Fan Fiction. 
+    * In _[Error of Soul](https://www.fanfiction.net/s/8490518)_
+      Materia-Blade has a line referring to magical folk as Nephilim.  I came up
+      with this idea well before I found that work.  Just goes to show that there
+      is nothing possible that *someone* else hasn't also thought of. in 
+    * In _[Losing Control](https://www.fanfiction.net/s/9157305)_
+      JackPotr has an overlapping explanation of where magical humans came
+      from.  I had read this before starting this work, but had totally
+      forgotten until after I had fleshed out the primary Appendices and the
+      first handful of chapters.
 
 [^210408-1]: Mr. C. S. Lewis. _[The Screwtape Letters][TSL3]_. pp. 120-121.
   Copyright 1942. HarperOne. Kindle Edition.
