@@ -49,6 +49,7 @@
     "@fortawesome/fontawesome-common-types": "^0.3.0",
     "alpinejs": "^3.10.2",
     "basicprimitives": "^6.5.1",
+    "cdk": "^2.31.0",
     "constructs": "^10.1.42",
     "d3-dtree": "^2.4.1",
     "esbuild": "^0.14.44",
