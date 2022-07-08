@@ -22,8 +22,9 @@ _[I'm Where][GAFRIW1]_
       year just after wining the canonical battle.  He reveals very little while
       he is back there, but is responsible for encouraging
       [Lily]({{< ref "Harrypedia/people/Evans/Lily" >}}) to reevaluate her
-      relationships, and [Dumbledore]({{< ref "Harrypedia/people/Dumbledore/Albus" >}}) 
-      to trust the prophesy. 
+      relationships, and [Dumbledore][HpediaD1] to trust the prophesy. 
+
+[HpediaD1]: <{{< ref "Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
  _[Natural Order](https://www.fanfiction.net/s/3942400)_
 :   * Author: moshpitstories

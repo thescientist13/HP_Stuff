@@ -33,10 +33,12 @@ _[Hope for the Best, Plan for the Worst](https://siye.co.uk/viewstory.php?sid=13
       to his time in [Grimmauld Place]({{< ref "Harrypedia/Grimmauld_Place" >}}) 
       rather than the slower and mostly off "screen" build-up that we see in
       the canonical story line.  Here Ginny convinces and helps Harry to
-      prepare for his trial rather than rely on [Dumbledore]({{< ref "Harrypedia/people/Dumbledore/Albus" >}}).  
+      prepare for his trial rather than rely on [Dumbledore][HpediaD1].
       This turns out to be for the best, as [Lucius]({{< ref "Harrypedia/people/Malfoy/Lucius_Abraxus" >}}) 
       is rather more openly active in this version.  It is unfortunate that the
       author did not develop this concept further.
+
+[HpediaD1]: <{{< ref "Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
 _[Walk Away Without Noticing](https://www.fanfiction.net/s/14040641/5/Walk-Away-Without-Noticing)_
 :   * Author: Hippothestrowl 

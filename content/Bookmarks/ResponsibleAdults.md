@@ -82,9 +82,9 @@ _[The Three Professors Visit No 4 PrivetDrive](https://www.fanfiction.net/s/1193
       which is going on though.  What makes this one memorable is the back and
       forth between Snape and Petunia, with [McGonagall]({{< ref "Harrypedia/people/McGonagall/Minerva" >}})'s 
       introspection interspersed.  Petunia does a masterful job of *destroying*
-      [Dumbledore]({{< ref "Harrypedia/people/Dumbledore/Albus" >}}) and
-      McGonagall, only to be equally *destroyed* by Snape.  Meanwhile
-      McGonagall shows that underneath all that tarnish there really is some
-      silver by realising that much of what is happening is deserved on all
-      sides.  
+      [Dumbledore][HpediaD1] and McGonagall, only to be equally *destroyed* by
+      Snape.  Meanwhile McGonagall shows that underneath all that tarnish there
+      really is some silver by realising that much of what is happening is
+      deserved on all sides.  
 
+[HpediaD1]: <{{< ref "Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
