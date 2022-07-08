@@ -3,16 +3,6 @@ title = "Magic in the Harry Potter Universe"
 author = "Luke Schierer"
 +++
 
-### a
-#### Alohomora[^20210930-11]
-Introduced in the early 1600s from Africa by Eldon Elsrickle. 
-#### Anti-Alohomora[^20210930-13]
-Developed by Blagdon Blay.
-#### Aparecium[^20210930-23]
-Shows ink and messages hidden by magical means, overcoming most basic
-concealment charms.  
-#### Avis[^20210930-20]
-The small flock created are not actually real animals.
 ### b
 #### Bat-Bogey Hex[^20210930-29]
 Turn a person's bogies into black bats which crawl out of the nose and flap
@@ -202,15 +192,7 @@ the weight of the object and the skill of the caster.[^20210930-2]
     "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
     Last Viewed 2021-09-30.
 
-[^20210930-11]: [magicscrapbook](https://magicscrapbook.tumblr.com/)
-    "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
-    Last Viewed 2021-09-30.
-
 [^20210930-12]: [magicscrapbook](https://magicscrapbook.tumblr.com/)
-    "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
-    Last Viewed 2021-09-30.
-
-[^20210930-13]: [magicscrapbook](https://magicscrapbook.tumblr.com/)
     "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
     Last Viewed 2021-09-30.
 
@@ -238,17 +220,11 @@ the weight of the object and the skill of the caster.[^20210930-2]
     "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
     Last Viewed 2021-09-30.
 
-[^20210930-20]: [magicscrapbook](https://magicscrapbook.tumblr.com/)
-    "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
-    Last Viewed 2021-09-30.
 
 [^20210930-22]: [magicscrapbook](https://magicscrapbook.tumblr.com/)
     "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
     Last Viewed 2021-09-30.
 
-[^20210930-23]: [magicscrapbook](https://magicscrapbook.tumblr.com/)
-    "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
-    Last Viewed 2021-09-30.
 
 [^20210930-24]: [magicscrapbook](https://magicscrapbook.tumblr.com/)
     "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
