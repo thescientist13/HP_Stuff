@@ -18,3 +18,11 @@ _[Daphne Greengrass and the Importance of Intent](https://archiveofourown.org/wo
       Harry has caught on to the fact that Dumbledore is not to be trusted early
       on in sixth year.  Everything flows from that. 
 
+_[The Grass Is Always Greener](https://www.fanfiction.net/s/4334542/)_
+:   * Author: kb0
+    * Published: 2008-06-19. Updated: 2009-01-3.
+    * Comments: Featuring a slightly super-powered Harry, this one also features
+      a believable Daphne, and in some ways a better Ginny than _the Importance
+      of Intent_.  The super power deviation is presented in a way that makes it
+      a logical branch point from the original books, and does not badly
+      detract.
