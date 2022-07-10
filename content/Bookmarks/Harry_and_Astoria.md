@@ -26,3 +26,11 @@ _[Finding a Place to Call Home](https://www.fanfiction.net/s/9885609)_
       is alone.  When [Astoria]({{< ref "Harrypedia/people/Greengrass/Astoria" >}})
       unexpectedly reaches out to him, there is nothing left to hold him back. 
 
+_[Family - It's in the Blood](https://archiveofourown.org/works/20812145)_
+:   * Author: mjimeyg
+    * Published: 2019-05-21. Reposted: 2019-09-29
+    * Comments: A massively extended one-shot, had this been broken down into
+      chapters it would probably be more readable.  The pure-blood princess is
+      confronted with her prejudice, but is a decent enough person to grow from
+      the experience. 
+
