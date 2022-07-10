@@ -1,4 +1,5 @@
 +++
+date = 2022-05-20T14:45:16-04:00
 title = "Snape Dies"
 author = "Luke Schierer"
 +++
