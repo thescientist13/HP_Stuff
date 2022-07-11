@@ -1,24 +1,34 @@
-[[!meta title="The Mind Arts"]]
++++
+title = "The Mind Arts"
+author = "Luke Schierer"
+date = 2021-05-22T00:19:38-04:00
++++
 
-For lack of a better word, I am going to call [[Occlumency]] and [[Legilimency]]
+For lack of a better word, I am going to call [Occlumency][] and [Legilimency][]
 "the Mind Arts," and not "the Mental Arts" because these are magics dealing with
 the mind, whereas "mental arts" could be almost anything *using* your mind.  I
 am trying to distinguish, however imperfectly, the mind as an object versus the
 mind as a means. 
 
-I dislike [[Occlumency]].  I am resigned to accepting a definition of it that I
+[Occlumency]: <{{< relref "Occlumency" >}}>
+
+[Legilimency]: <{{< relref "Legilimency" >}}>
+
+I dislike [Occlumency][O1].  I am resigned to accepting a definition of it that I
 am fairly confident is intended to be canonical to this universe; the problem
 is that definition is an unacceptable practice.  You can read my rant on it for
 details.
 
-Given that [[Occlumency]] is a flawed Art, one that will work for only some
+[O1]: <{{< relref "Occlumency" >}}>
+
+Given that [Occlumency][O2] is a flawed Art, one that will work for only some
 people, and can be used safely only for short durations, can we accept that the
 magical world has no other way to protect the privacy of one's thoughts or the
 integrity of one's mind?  This seems unacceptable.  Look at the number of
 threats that people face in that society. 
 
 * I cannot prove it from cannon sources, but I am fairly confident that
-  Professor Dumbledore uses [[Legilimency]] on students regularly.  I started
+  Professor Dumbledore uses [Legilimency][L1] on students regularly.  I started
   thinking that as soon as I re-read _The Chamber of Secrets_ after finding out
   about Legilimency.  
 
@@ -38,6 +48,10 @@ threats that people face in that society.
 
 * Hermione uses a "Confundus Charm" to confuse McLaggen in sixth
   year.[^20200716-2]
+
+[O2]: <{{< relref "Occlumency" >}}>
+
+[L1]: <{{< relref "Legilimency" >}}>
 
 So you are going to walk around in a society where everyone is capable of at
 least some of the above list, aware of all of it, and probably knows at least
@@ -98,6 +112,4 @@ long term use.
 [^20200716-3]: Mrs. J. K. Rowling. _Harry Potter and the Goblet of Fire_ 
     (Kindle Locations 3231-3234). Pottermore Limited. American Kindle Edition. 
 
-
-[[!tag "HP Notes"]]
 
