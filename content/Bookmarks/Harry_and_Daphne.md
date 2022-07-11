@@ -25,4 +25,4 @@ _[The Grass Is Always Greener](https://www.fanfiction.net/s/4334542/)_
       a believable Daphne, and in some ways a better Ginny than _the Importance
       of Intent_.  The super power deviation is presented in a way that makes it
       a logical branch point from the original books, and does not badly
-      detract.
+      detract, but overall the Harry in this one is somewhat less believable. 
