@@ -97,3 +97,13 @@ _[Realizations](https://www.fanfiction.net/s/7875381)_
     _[Harry Potter and the Prisoner of Azkaban](https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban)_
     © 2000 Pottermore Limited. American Kindle Edition.  p 70. 
 
+-[Perilous Journey](https://www.fanfiction.net/s/8281675)_
+:   * Author: sbmcneil
+    * Published: 2012-07-03. Updated: 2017-05-06.
+    * Comments: also unfortunately unfinished, this story is another great
+      example of Harry and Ginny's mutually supporting relationship.  This one
+      is AU in that they get together sooner, and Umbridge is able to expel
+      them.  This also show cases [Dumbledore][D2]'s distrust of [Harry]({{< relref "Harry_James" >}}) 
+      and [Molly]({{< relref "Molly" > >}}) as overprotective.
+
+[D2]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
