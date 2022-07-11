@@ -77,3 +77,23 @@ _[A Romance In Reverse](https://www.fanfiction.net/s/12413357)_
       Sorting is for a friend, and thus Hufflepuff.... and it all flows from
       there. 
 
+_[Realizations](https://www.fanfiction.net/s/7875381)_
+:   * Author: sbmcneil
+    * Published: 2012-02-26. Updated: 2017-07-15.
+    * Comments: Despite its unfinished state, this is one of my favourite after
+      the battle depictions.  One, I doubt Mrs. Weasley came face to face with
+      that particular boggart made real without consequences.  Two, I do not
+      think that Mrs. Weasley is ready for Ginny to be in a relationship.  Yes,
+      in book three they talk about love potions,[^220711-1] but given her
+      over-protective and overbearing nature, I do not think she will be ready
+      for Ginny to be in a *serious* romantic relationship until *she* sets
+      said relationship up.  I suspect this remains true even if she would have
+      otherwise approved of said relationship.  I also think that while Ron
+      shows a fair amount of character growth across the latter chapters of
+      book seven, he and Hermione have a lot further to go than Harry.  This
+      story gets all these things right. 
+
+[^220711-1]: Mrs. J. K. Rowling.
+    _[Harry Potter and the Prisoner of Azkaban](https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban)_
+    © 2000 Pottermore Limited. American Kindle Edition.  p 70. 
+
