@@ -107,3 +107,19 @@ _[Realizations](https://www.fanfiction.net/s/7875381)_
       and [Molly]({{< relref "Molly" >}}) as overprotective.
 
 [D2]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
+
+_[Without a Trace](https://www.fanfiction.net/s/11718442)_
+:   * Author: sbmcneil
+    *  Published: 2016-01-06. Updated: 2016-01-10.
+    * Comments: Yet another work by this author, this one has the premise that
+      [Hermione][H1] does not actually get along with [Ginny][G1], and that
+      [Percy][PW1] is not any more happy with his family's association with
+      [Harry][HP1] after the war than he was during it. 
+
+[HP1]: <{{< relref "Harry_James" >}}> 
+
+[PW1]: <{{< relref "Percy_Ignatius" >}}>
+
+[G1]: <{{< relref "Ginevra_Molly" >}}>
+
+[H1]: <{{< relref "Hermione" >}}>
