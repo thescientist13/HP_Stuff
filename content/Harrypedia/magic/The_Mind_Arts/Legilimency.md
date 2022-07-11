@@ -68,9 +68,9 @@ more inaccessible.[^20191119-9]
 [^20191119-9]: Mrs. J. K. Rowling.  _Harry Potter and the Order of
     the Phoenix_.  Better citation needed here.
 
-[D1]: <{{< ref "/Harrypedia/people/Dumbledore/Albus" >}}>
+[D1]: <{{< ref "/Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
-[D2]: <{{< ref "/Harrypedia/people/Dumbledore/Albus" >}}>
+[D2]: <{{< ref "/Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
 [H1]: <{{< relref "Harry_James" >}}>
 

@@ -308,20 +308,20 @@ is pure speculation, but one possibility is that James was *not* as irresponsibl
 as he is made out to be.  By 1975 the Riddle's violence was no doubt ramping up,
 if not already in full swing.  We know, reference my discussion of James above,
 and my discussion of [Snape]({{< ref "Severus" >}}), that some of the Slytherin
-students are experimenting with [[dark magic|Magic]].  Perhaps Fleamont sent
-his son to school with the cloak as an additional layer of protection for a
-beloved, and yes, somewhat spoiled heir, knowing the boy (James) was feuding
-with such evil already.  Despite his many illicit forays out after curfew, this
-supposedly irresponsible boy kept the Cloak out of larcenous[^20210318-7] enemy
-hands, despite the fact that he supposedly has no cunning or intelligence.
+students are experimenting with [dark magic]({{< relref "magic" >}}).  Perhaps 
+[Fleamont]({{< relref "Fleamont" >}}) sent his son to school with the cloak as
+an additional layer of protection for a beloved, and yes, somewhat spoiled
+heir, knowing the boy (James) was feuding with such evil already.  Despite his
+many illicit forays out after curfew, this supposedly irresponsible boy kept
+the Cloak out of larcenous[^20210318-7] enemy hands, despite the fact that he
+supposedly has no cunning or intelligence.
 
 ### Pure Speculation
 
 Consider some of the stuff [Harry]({{< ref "Harry_James" >}}) goes through in
-Books 1 and 2.  Given that, Ian Hycrest speculates that with [Dumbledore]({{<
-ref "Albus_Percival_Wulfric_Brian" >}}) and [McGonagall]({{< ref "Minerva" >}})
-even more distracted by the more active war that was then going on, and with
-[[Slughorn]] trying to avoid [Riddle]({{< ref "Tom_Marvolo" >}})'s
+Books 1 and 2.  Given that, Ian Hycrest speculates that with [Dumbledore][D1]
+and [McGonagall]({{< ref "Minerva" >}}) even more distracted by the more active
+war that was then going on, and with [Slughorn][] trying to avoid [Riddle]({{< ref "Tom_Marvolo" >}})'s
 notice,[^20210629-2] there were probably students openly planning on becoming
 Death Eaters, and openly preparing for their proposed careers, probably with no
 real repercussions.[^20210629-3] In such an environment, James Potter, who
@@ -330,6 +330,10 @@ hated the dark arts,[^20210629-4] may have had reasons for his pranks that
 acknowledge.  He may, per Mr. Hycrest's theory, have been guilty of poor
 targeting and have occasionally over-reacted, but he was *reacting* not
 *instigating*.
+
+[Slughorn]: <{{< relref "Horace_Eugene" >}}>
+
+[D1]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
 
 [^20210629-3]: Ian Hycrest.
     _[Harry Potter and the Hands of Justice](https://www.fanfiction.net/s/13374289)_

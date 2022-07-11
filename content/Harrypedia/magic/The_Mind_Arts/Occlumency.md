@@ -76,11 +76,11 @@ might do to [Harry]({{< relref "Harry_James" >}}), in which case he must not
 really much believe his own theory about [Harry]({{< relref "Harry_James" >}})'s 
 love being supper important.
 
-[D1]: <{{< ref "/Harrypedia/people/Dumbledore/Albus" >}}>
+[D1]: <{{< ref "/Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
-[D2]: <{{< ref "/Harrypedia/people/Dumbledore/Albus" >}}>
+[D2]: <{{< ref "/Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
-[D3]: <{{< ref "/Harrypedia/people/Dumbledore/Albus" >}}>
+[D3]: <{{< ref "/Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
 The tone of the Draco article[^20210922-1] strongly implies that [Harry]({{< relref "Harry_James" >}}) 
 had no chance of getting Occlumency to work. I think it need not have been that
