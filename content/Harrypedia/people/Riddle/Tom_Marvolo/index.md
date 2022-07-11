@@ -2,7 +2,7 @@
 type = "person"
 family = "Riddle"
 title = "Tom Marvolo"
-id = "@I0247"
+id = "I0247"
 date = "2022-07-08T17:19:49-04:00"
 author = "Luke Schierer"
 +++
@@ -10,7 +10,6 @@ author = "Luke Schierer"
 ## Facts
 
 * Born to Merope Gaunt.[^20210827-1]
-* Birthday: 1926-12-31[^20210827-2]
 * Started Hogwarts: 1938-09-01[^20210827-3]
 * Finished Hogwarts: 1945-06-??[^20210827-4]
 * Worked at Borgin and Burkes.[^20210827-5]
