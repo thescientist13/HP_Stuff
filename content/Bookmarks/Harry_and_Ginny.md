@@ -104,6 +104,6 @@ _[Realizations](https://www.fanfiction.net/s/7875381)_
       example of Harry and Ginny's mutually supporting relationship.  This one
       is AU in that they get together sooner, and Umbridge is able to expel
       them.  This also show cases [Dumbledore][D2]'s distrust of [Harry]({{< relref "Harry_James" >}}) 
-      and [Molly]({{< relref "Molly" > >}}) as overprotective.
+      and [Molly]({{< relref "Molly" >}}) as overprotective.
 
 [D2]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
