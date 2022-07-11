@@ -1,5 +1,9 @@
-[[!meta title="The Mind Arts: Legilimency"]]
-[[!meta date="2020-06-30"]]
++++
+title = "The Mind Arts: Legilimency"
+date = "2020-06-30"
+author = "Luke Schierer"
++++
+
 Legilimency is the art, Legilimens is the person who practices it. 
 
 Legilimency might not be quite reading your thoughts like a book, but it
@@ -10,16 +14,16 @@ Mrs. Rowling's comments on that movie indicate that Legilimency is not
 just a skill you can learn, but one that you can essentially be born with.
 
 Before reading that, my thoughts were certainly trending in the direction
-of the dark arts. The fact that [[Dumbledore|adults/Dumbledore]] makes fairly
-free use of Legilimency[^20200630-9] is really more proof of the morally
-ambiguous nature of [[Dumbledore|adults/Dumbledore]]; I am the last person to
-whitelist a practice just because he does it.  Certainly the idea of intruding
-on a person's thoughts, memories and emotions is invasive.  That by itself isn't
-enough to render it evil though.  It is more the way [[Snape|adults/Snape]] uses it I suppose,
-the way he batters [[Harry]] with it, leaving Harry with migraines and
-nightmares that starts me down that path. I am not sure where, but I have also
-read at least one author speculate that a skilled Legilimens might not just be
-able to read and interpret, but might be able to implant and influence
+of the dark arts. The fact that [Dumbledore][D1] makes fairly free use of
+Legilimency[^20200630-9] is really more proof of the morally ambiguous nature
+of [Dumbledore][D2]; I am the last person to whitelist a practice just because
+he does it.  Certainly the idea of intruding on a person's thoughts, memories
+and emotions is invasive.  That by itself isn't enough to render it evil
+though.  It is more the way [Snape]({{< relref "Severus" >}}) uses it I
+suppose, the way he batters [Harry][H1] with it, leaving Harry with migraines
+and nightmares that starts me down that path. I am not sure where, but I have
+also read at least one author speculate that a skilled Legilimens might not
+just be able to read and interpret, but might be able to implant and influence
 thoughts, emotions, maybe even manipulate memories. That, to me, would
 unquestionably be a violation of the person's free will, and thus evil.
 
@@ -37,9 +41,9 @@ even if she must (or at least should) learn to reign it in some or even
 most of the time.
 
 Still, whether or not Legilimency is not itself inherently evil,
-and given that [[Occlumency]] is inherently flawed, the methods of
-defense against it that are presented to us by Mrs. Rowling are woefully
-insufficient. There has to be something that you can do to defend your
+and given that [Occlumency]({{< relref "Occlumency" >}}) is inherently flawed,
+the methods of defense against it that are presented to us by Mrs. Rowling are
+woefully insufficient. There has to be something that you can do to defend your
 privacy, and potentially even the integrity of your mind, without risking
 damage to yourself.
 
@@ -53,15 +57,22 @@ damage to yourself.
     Viewed 2020-06-30.  Note the article's text only mentions one clear cut
     example, but I'm taking everything in the table as a given example of use.
 
-Lastly, as I discuss when considering [[Mental Shields]] as an
-alternative to [[Occlumency]], using Legilimency must in some way undermine any
-defenses you may have against being yourself attacked with it.  Whatever
-[[Snape|adults/Snape]] does to protect his own thoughts, when he is attacking
-[[Harry]]'s mind, he feels the need to take the extra step of removing certain
-thoughts to make them that much more inaccessible.[^20191119-9]
-
+Lastly, as I discuss when considering [Mental Shields]({{< relref "Mental_Shields" >}}) 
+as an alternative to [Occlumency]({{< relref "Occlumency" >}}), using
+Legilimency must in some way undermine any defenses you may have against being
+yourself attacked with it.  Whatever [Snape]({{< relref "Severus" >}}) does to
+protect his own thoughts, when he is attacking [Harry][H2]'s mind, he feels the
+need to take the extra step of removing certain thoughts to make them that much
+more inaccessible.[^20191119-9]
 
 [^20191119-9]: Mrs. J. K. Rowling.  _Harry Potter and the Order of
     the Phoenix_.  Better citation needed here.
 
-[[!tag "HP Notes"]]
+[D1]: <{{< ref "/Harrypedia/people/Dumbledore/Albus" >}}>
+
+[D2]: <{{< ref "/Harrypedia/people/Dumbledore/Albus" >}}>
+
+[H1]: <{{< relref "Harry_James" >}}>
+
+[H2]: <{{< relref "Harry_James" >}}>
+

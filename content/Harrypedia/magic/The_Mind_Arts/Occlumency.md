@@ -1,14 +1,18 @@
-[[!meta title="The Mind Arts: Occlumency"]]
-[[!meta date="2020-06-30"]]
++++
+title = "The Mind Arts: Occlumency"
+date = "2020-06-30"
+author = "Luke Schierer"
++++
+
 Occlumency is the art, one who practices it is an Occlumens.
 
 This is another topic on which the books themselves are either incredibly
 incomplete, or utterly impossible.  The interview quoted at the [Harry Potter
 fandom wiki](https://harrypotter.fandom.com/) on occulumency[^20191119-1] makes
 the situation worse, not better.  In the interview, she is asserting that
-[[Professor Snape|adults/Snape]]'s description of occulumency is accurate - that
-it is the practice of compartmentalizing and/or suppressing emotion and
-memories. This is further confirmed in her [article on
+[Professor Snape]({{< relref "Severus" >}})'s description of occulumency is
+accurate - that it is the practice of compartmentalizing and/or suppressing
+emotion and memories. This is further confirmed in her [article on
 Draco][WWJKRDM1] on what used to be Pottermore.[^20200630-7]
 
 There are three problems with this.  One, it isn't really practical.  In
@@ -22,7 +26,8 @@ like in practice:
   water in the ocean if you've been there, a large table cloth that's a single
   color, or whatever you know and can easily pull up.[^20191119-3]
 
-[[Harry]] later figures out what this would be like to hold all the time:
+[Harry]({{< relref "Harry_James" >}}) later figures out what this would be like
+to hold all the time:
 
 > Harry had been diligently practicing his clearing of the mind every spare
   moment he had. He was proud of himself for a small break through he had had
@@ -33,24 +38,26 @@ like in practice:
   around him, unlike being blind and almost deaf the first time he had done it
   with Daphne.[^20191119-4]
 
-In that story, [[Harry]] choses the "view" of a room without light - total darkness.
-This works, but basically means both reduced sight and, because he's partially
-focusing on something else, reduced awareness overall.  Are you really going to
-duel like that, as [[Professor Snape|adults/Snape]] suggests when fighting [[Harry]]
+In that story, [Harry]({{< relref "Harry_James" >}}) choses the "view" of a
+room without light - total darkness.  This works, but basically means both
+reduced sight and, because he's partially focusing on something else, reduced
+awareness overall.  Are you really going to duel like that, as [Professor
+Snape]({{< relref "Severus" >}}) suggests when fighting [Harry]({{< relref "Harry_James" >}})
 in Chapter 28 of _the Half-Blood Prince_[^20191119-5]? People really can't
 effectively multitask that way.  You can concentrate on your cleared mind, or on
 what is happening around you (to be able to react to stray curses for example)
 but not on both.  
 
-Secondly, it is not even really consistent.  [[Professor Snape|adults/Snape]] is
-described as a master at occulumency.  However, he is *constantly* showing his
-anger, hatred, and scorn.  It is not only the positive emotions that can be used
-against you, anger can be used aginst you as well.  The man who cannot look past
-[[James Potter|adults/James]] to see [[Harry]] Potter cannot depend on
-compartmentalization to keep his mind in control.  The man who totally loses it
-when, in that same chapter, [[Professor Snape|adults/Snape]] totally loses
-control just because [[Harry]] attempts to use his own spell[^20191119-6] is a
-master at emotional control?  It does not make sense.  
+Secondly, it is not even really consistent.  [Professor Snape]({{< relref "Severus" >}}) 
+is described as a master at occulumency.  However, he is *constantly* showing
+his anger, hatred, and scorn.  It is not only the positive emotions that can be
+used against you, anger can be used aginst you as well.  The man who cannot
+look past [James Potter]({{< relref "James" >}}) to see [Harry]({{< relref "Harry_James" >}}) 
+Potter cannot depend on compartmentalization to keep his mind in control.  The
+man who totally loses it when, in that same chapter, [Professor
+Snape]({{< relref "Severus" >}}) totally loses control just because [Harry]({{< relref "Harry_James" >}}) 
+attempts to use his own spell[^20191119-6] is a master at emotional control?
+It does not make sense.  
 
 Thirdly, shutting down emotions, suppressing them, is not particularly healthy.
 While it is a common short term strategy, and can even be a viable one in the
@@ -58,20 +65,28 @@ fact of a trama situation, long term it will cause problems with your ability to
 form and maintain interpersonal relationships[^20200630-4], long term health
 problems (probably due to stress)[^20200630-5], and others that you can find on
 google. Basically, it is really really bad advice for long term use.  On one
-hand, it certainly describes [[Snape|adults/Snape]]. On the other, is this
-really the recommendation that [[Dumbledore|adults/Dumbledore]] has for
-[[Harry]], whose supposed power is love?  Either it had no chance of working
-(which seems to be Mrs. Rowling's theory, in the Draco article, but come on,
-really?) in which case [[Dumbledore|adults/Dumbledore]] really is throwing [[Harry]]
-to the wolves, or [[Dumbledore|adults/Dumbledore]] does not really care about the
-damage this might do to [[Harry]], in which case he must not really much believe his
-own theory about [[Harry]]'s love being supper important.
+hand, it certainly describes [Snape]({{< relref "Severus" >}}). On the other,
+is this really the recommendation that [Dumbledore][D1] has for 
+[Harry]({{< relref "Harry_James" >}}), whose supposed power is love?  Either it
+had no chance of working (which seems to be Mrs. Rowling's theory, in the
+[Draco]({{< relref "Draco_Lucius" >}}) article, but come on, really?) in which
+case [Dumbledore][D2] really is throwing [Harry]({{< relref "Harry_James" >}})
+to the wolves, or [Dumbledore][D3] does not really care about the damage this
+might do to [Harry]({{< relref "Harry_James" >}}), in which case he must not
+really much believe his own theory about [Harry]({{< relref "Harry_James" >}})'s 
+love being supper important.
 
-The tone of the Draco article[^20210922-1] strongly implies that Harry had no
-chance of getting Occlumency to work. I think it need not have been that way,
-but I think it is clear at this point that
-the author's intent for Occlumency is fairly clear.  The problem then is not so
-much Occlumency, but rather [[Legilimency]]. 
+[D1]: <{{< ref "/Harrypedia/people/Dumbledore/Albus" >}}>
+
+[D2]: <{{< ref "/Harrypedia/people/Dumbledore/Albus" >}}>
+
+[D3]: <{{< ref "/Harrypedia/people/Dumbledore/Albus" >}}>
+
+The tone of the Draco article[^20210922-1] strongly implies that [Harry]({{< relref "Harry_James" >}}) 
+had no chance of getting Occlumency to work. I think it need not have been that
+way, but I think it is clear at this point that the author's intent for
+Occlumency is fairly clear.  The problem then is not so much Occlumency, but
+rather [Legilimency]({{< relref "Legilimency" >}}). 
 
 
 [^20210922-1]: Mrs. J. K. Rowling. 
@@ -79,7 +94,7 @@ much Occlumency, but rather [[Legilimency]].
     <https://www.wizardingworld.com/> Originally Pubished 2020-08-10. Last Viewed
     2020-06-30.
 
-[WWJKRDM1]: https://www.wizardingworld.com/writing-by-jk-rowling/draco-malfoy
+[WWJKRDM1]: https://www.rowlingindex.org/work/dmpm/
 
 [^20200630-7]: Mrs. J. K. Rowling. 
     "[Draco Malfoy](https://www.wizardingworld.com/writing-by-jk-rowling/draco-malfoy)"
@@ -126,5 +141,4 @@ much Occlumency, but rather [[Legilimency]].
 [^20191119-6]: Mrs. J. K. Rowling. _Harry Potter and the Half-Blood Prince_.
     Chapter 28.  Approx Page  502 of 543.  Kindle Edition. 
 
-[[!tag "HP Notes"]]
 
