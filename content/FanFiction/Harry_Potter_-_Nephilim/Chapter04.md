@@ -106,9 +106,9 @@ centaurs and dwarfs.  Other times changes that the abusers hoped to be temporary
 were made into permanent hereditary changes, such as what happened with the
 merfolk.[^211219-2]  Harry had already experienced one subtle change in the way
 his mind and magic worked, now he would experience another.  Like the last,
-because Harry's use of this destabilising magic was not malicious, the
-exaggerated versions of things Harry was using the magic for became locked into
-place. 
+because Harry's use of this destabilising magic was not malicious, the worst
+effects of this destablization were avoided, still, exaggerated versions of
+things Harry was using the magic for became locked into place. 
 
 In the first change, Harry's desire to connect to someone the way he connected
 to his mum's soul became realised as his magic started actively seeking and
