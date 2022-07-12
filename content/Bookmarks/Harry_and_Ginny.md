@@ -16,6 +16,11 @@ _[A Godfather's Love](https://archiveofourown.org/works/18216887)_
      not seen the newspaper from Fudge, but rather died when Riddle raided
      Azkaban?  
 
+_[Unintended Consequences](https://www.fanfiction.net/s/6365342)_
+:   * Author: sbmcneil
+    * Published: 2010-10-01. Updated: 2011-02-20
+    * Comments: In many ways this is how book seven *ought* to have gone.  
+
 _[Harry Potter and the Dimensional Trunk](https://www.fanfiction.net/s/2456938)_
 :   * Author: Ophiuchus
     * Published: 2005-06-27. Updated: 2005-08-07. 
@@ -97,7 +102,7 @@ _[Realizations](https://www.fanfiction.net/s/7875381)_
     _[Harry Potter and the Prisoner of Azkaban](https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban)_
     © 2000 Pottermore Limited. American Kindle Edition.  p 70. 
 
--[Perilous Journey](https://www.fanfiction.net/s/8281675)_
+_[Perilous Journey](https://www.fanfiction.net/s/8281675)_
 :   * Author: sbmcneil
     * Published: 2012-07-03. Updated: 2017-05-06.
     * Comments: also unfortunately unfinished, this story is another great
