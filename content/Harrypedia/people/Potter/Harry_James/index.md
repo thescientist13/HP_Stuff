@@ -11,7 +11,7 @@ author = "Luke Schierer"
 
 #### Effects of abuse
 
-See the [[Dursleys]] for some discussion on just how much and in what ways Harry
+See the [Dursleys][] for some discussion on just how much and in what ways Harry
 is abused.  That he is abused to at least some extent is pretty much undeniable.
 The only real question is how does he survive it?  How much of his personality
 is in fact reflective of, to be brutally honest, damage, how much is innate, how
@@ -24,9 +24,13 @@ less impossible essentially requires something along the lines of his mother's
 sacrifice not just magically protected him from Tom, but also magically
 protected him from the worst of the effects of his upbringing.
 
+[Dursleys]: <{{< ref "/Harrypedia/people/Dursley" >}}>
+
 [_Don't Touch Me_](https://archiveofourown.org/works/702684) by ivybelle
-explores as a one-shot from when Harry and [[Ginny]] are dating the idea that
+explores as a one-shot from when Harry and [Ginny][] are dating the idea that
 perhaps Harry is simply really really good at hiding his reactions.[^200527-1]
+
+[Ginny]: <{{< relref "Ginevra_Molly" >}}>
 
 [^200527-1]: ivybelle.  _[Don't Touch Me](https://archiveofourown.org/works/702684)_,
     [Archive of Our Own](https://archiveofourown.org/) last viewed 2020-05-27.
@@ -96,7 +100,7 @@ willing to use that "not a bad mind" mentioned above away from Ron's influence).
 
 ### Relationships
 
-See my overview on [[Shipping]].  The problem is that the series is, with very
+See my overview on [Shipping][].  The problem is that the series is, with very
 very few exceptions, third-person limited with a Harry point of view, *and*
 skips around to show *mostly* only "significant" (ie the kind that history books
 pivot on) moments in his life.  We do not see the bulk of his daily interactions
@@ -104,6 +108,8 @@ with anyone.  We never see him attending the Hufflepuff/Ravenclaw Quidditch game
 for example.  Similarly it is not uncommon for the books to jump over weeks and
 even occasionally (especially in the earlier books) months where nothing
 significant happens.
+
+[Shipping]: <{{< relref "Shipping" >}}>
 
 This is a problem because it is in these non-significant times that Harry would
 be growing in relationship with all the rest of his classmates, year mates, and
@@ -115,7 +121,7 @@ that *we* know of them.
 
 ### Appearance
 
-On a truly trivial note, the scene from [[Snape|adults/Snape]]'s memory showing
+On a truly trivial note, the scene from [Snape][SS1]'s memory showing
 the confrontation after the OWL tests shows that James purposefully messed up
 his hair.[^200710-1]  Harry's hair is unfix-ably messy.  Unfortunately, we know
 that while James did mess up his hair, it was also unfix-ably untidy.[^200710-2]
@@ -124,6 +130,8 @@ authors have had fun speculating a magical origin for this hair.  I read one
 idea that I found really amusing, that Harry's hair was a prank that James
 played on Lily.[^200710-3]  As I said, the book 1 evidence probably contradicts
 the theory, but it is a great one.
+
+[SS1]: <{{< relref "Severus" >}}>
 
 [^200710-1]: Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_ Kindle Locations 9456-9457. Pottermore Limited. American Kindle Edition.
 
