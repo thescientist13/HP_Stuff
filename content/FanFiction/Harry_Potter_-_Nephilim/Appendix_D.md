@@ -1,7 +1,7 @@
 +++
 title = "Appendix D - Relative Power Levels"
 date = 2022-06-28T17:31:53-04:00
-toc = true
+toc = false
 author = "Luke Schierer"
 weight = 23
 +++

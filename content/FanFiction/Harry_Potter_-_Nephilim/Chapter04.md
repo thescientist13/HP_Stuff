@@ -1,7 +1,6 @@
 +++
 title = "Chapter 4"
 date = 2022-06-28T17:31:53-04:00
-toc = true
 author = "Luke Schierer"
 weight = 3
 +++

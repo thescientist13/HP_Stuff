@@ -1,6 +1,6 @@
 +++
 title = "Appendix C - Magical Inheritance"
-toc = true
+toc = false
 date = 2022-06-28T15:36:08-04:00
 author = "Luke Schierer"
 weight = 22
