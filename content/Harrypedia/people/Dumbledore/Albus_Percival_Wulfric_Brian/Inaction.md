@@ -1,8 +1,11 @@
-[[meta title="Does Dumbledore Ever Accomplish Anything?"]]
++++
+title = "Does Dumbledore Ever Accomplish Anything?"
+author = "Luke Schierer"
++++
 
 A recurring theme in fanfiction is Dumbledore's inaction.  Not only is this a
 theme in fanfiction, I question it time and time again as Dumbledore [[interacts
-with Riddle|Dealing_with_Riddle]], with [[Harry]] and the [[Dursleys]], and even
+with Riddle|Dealing_with_Riddle]], with [Harry][HJP1] and the [Dursleys][DF1], and even
 with [[Grindelwald]].  Dumbledore has three jobs, each of which is the sort of
 prestigious position that influences a signature line of a letter, in some cases
 even when *someone else* is signing the letter in question.[^211015-1]  What
@@ -18,8 +21,8 @@ Some fanfiction works that have built on this team:
   might learn a second language at home, not every student at the school has
   that opportunity. 
 * secondly on the idea that Bill Weasley can be trusted to investigate the curse
-  on the defence position, since [[Dumbledore]] has *already* trusted him to
-  help with the wards on [[Harry]]'s house (in this story). 
+  on the defence position, since [Dumbledore][AD1] has *already* trusted him to
+  help with the wards on [Harry][HJP1]'s house (in this story). 
 
 > Albus was truly dumbfounded. He wasn't used to being talked to in the manner
 > these two were doing. He wasn't accustomed to others coming up with ideas with
@@ -50,6 +53,14 @@ Some fanfiction works that have built on this team:
 > Over and over again my friends and I were rewarded for our efforts, but the
 > teachers also neglected to think of how these events might have scarred
 > us.[^211102-1]
+
+[TMR1]: <{{< relref "Tom_Marvolo" >}}>
+
+[HJP1]: <{{< relref "Harry_James" >}}>
+
+[DF1]: <{{< ref "Harrypedia/people/Dursley" >}}>
+
+[AD1]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
 
 [^211102-1]: Venquine1990.
     _[Dumbledore's Folly](https://www.fanfiction.net/s/13948448)_
