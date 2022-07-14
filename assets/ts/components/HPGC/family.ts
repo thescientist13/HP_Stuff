@@ -92,7 +92,7 @@ export class HPFamily extends LitElement {
         s = i.getName().filterSelect(nameField => !nameField.getType().value().includes(rgc.ValueNameType.Married)).getNameSuffix().value();
         var PUrl = '';
         if((typeof(f) !== 'undefined') && (f.length > 0) && (f[0] !== '') && (f[0] !== null)) {
-          PUrl = f[0];
+          PUrl = f[0].replace(/ /g, "_");
         } else {
           PUrl = '';
         }
