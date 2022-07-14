@@ -17,26 +17,28 @@
 		{{ end }}
 	</header>    
 	{{ if ( and (.Params.id) (not (eq .Params.id "insert number from gramps without the @s"))) }}
-		<div class="card mb-4">
-			<div class="card-header">
-				<h5 class="card-title">
-					Biographical Information
-				</h5>
-			</div>
-			<div class="card-body">
-				<p class="card-text">
-					{{ $GedFile := printf "%s" (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
-					{{ $id := printf "@%s@" .Params.id }}
-					{{ with $GedFile }}
-						<hp-gc myGedUrl="{{.}}">
-							{{ with $id }}
-								<hp-person myGedId="{{.}}" slot="hpgc-main"></hp-person>
-							{{end}}
-						</hp-gc>
-					{{end}}
-				</p>
-			</div>
-			<div class="card-footer">
+	  <div class="card-deck mb-4">
+			<div class="card mb-4">
+				<div class="card-header">
+					<h5 class="card-title">
+						Biographical Information
+					</h5>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+					  {{ $GedFile := printf "%s" (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
+						{{ $id := printf "@%s@" .Params.id }}
+						{{ with $GedFile }}
+						  <hp-gc myGedUrl="{{.}}">
+							  {{ with $id }}
+								  <hp-person myGedId="{{.}}" slot="hpgc-main"></hp-person>
+								{{end}}
+							</hp-gc>
+						{{end}}
+					</p>
+				</div>
+				<div class="card-footer">
+				</div>
 			</div>
 		</div>
 	{{ end }}

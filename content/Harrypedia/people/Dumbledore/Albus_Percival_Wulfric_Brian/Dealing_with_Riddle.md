@@ -1,12 +1,13 @@
-[[!meta title="Dumbledore and Tom Riddle"]]
-
-[[!toc levels=3 startlevel=3]]
++++
+title = "Dumbledore and Tom Riddle"
+author = "Luke Schierer"
++++
 
 ### Riddle's School Years
 
 Dumbledore was transfiguration teacher when he first met [[Tom Riddle|Riddle]]
 in the summer of 1938.[^20210927-5] We do not know if he was as yet Deputy
-Headmaster.  I find it interesting that Dumbledore's reaction to [[Riddle]] is
+Headmaster.  I find it interesting that Dumbledore's reaction to [Riddle][TMR1] is
 to pretend to light his wardrobe on fire.  His idea of the way to persuade a
 young boy to reform is to threaten to destroy all the boy owns.  The message is
 clear: behave because I am more powerful than you are.  The verbal message is
@@ -16,32 +17,32 @@ your poverty.
 The second is *absolutely typical* of how an Englishman would treat an orphan in
 the 1800s.  Given Dumbledore is born in 1881,[^20210927-6] he is in that sense
 very much a man of his time.  It is the first that is curious.  There is no
-attempt to educate [[Riddle]] in morality, no sympathy for the lack of role
+attempt to educate [Riddle][TMR1] in morality, no sympathy for the lack of role
 models in his life, no carrot, all stick.  It is very different from the way
 that Dumbledore will later deal with [[Draco]], but is very reminiscent of the
-way that Dumbledore will refuse to explain why [[Harry]] should respect
-[[Snape]] except that [[Harry]] should obey.  
+way that Dumbledore will refuse to explain why [Harry][HJP1] should respect
+[[Snape]] except that [Harry][HJP1] should obey.  
 
 Dumbledore claims to have kept a close eye on young Tom,[^20210927-7] and yet
 observed nothing as Tom searched for and found the Chamber of Secrets, opened
 it, and terrorised the school.  It was only after Myrtle Warren[^20210927-8]
-died that [[Riddle]] felt that he was being watched.[^20210927-9]  This
+died that [Riddle][TMR1] felt that he was being watched.[^20210927-9]  This
 contradiction has lead some to speculate that a more evil Dumbledore than I can
-account for intentionally moulded [[Riddle]] into a dark lord.[^20210927-10]
+account for intentionally moulded [Riddle][TMR1] into a dark lord.[^20210927-10]
 Perhaps because he felt that society needed an enemy, perhaps because he thought
-that [[Riddle]] could be more/better controlled than turned out to be the case,
+that [Riddle][TMR1] could be more/better controlled than turned out to be the case,
 perhaps because he wanted the fame of defeating a second dark lord.  As I said,
 a Dumbledore that evil is not particularly compelling to me.  My personal
-thought is that despite what he would later tell [[Harry]], Dumbledore *did not*
-watch [[Riddle]] all that closely those first few years.  Dumbledore may not
-have *trusted* [[Riddle]]'s apparently good behaviour, but he was complacent.
-He thought that he had sufficiently intimidated [[Riddle]] and allowed his
+thought is that despite what he would later tell [Harry][HJP1], Dumbledore *did not*
+watch [Riddle][TMR1] all that closely those first few years.  Dumbledore may not
+have *trusted* [Riddle][TMR1]'s apparently good behaviour, but he was complacent.
+He thought that he had sufficiently intimidated [Riddle][TMR1] and allowed his
 vigilance to slacken.  It took Miss Warren's death to awaken Dumbledore to his
-responsibilities, and only *then* did he actually watch [[Riddle]].  Dumbledore
-feels no need to give [[Harry]] insight into his own failings, and so claims to
-have done more/better than was really the case.  He watched [[Riddle]] closely
+responsibilities, and only *then* did he actually watch [Riddle][TMR1].  Dumbledore
+feels no need to give [Harry][HJP1] insight into his own failings, and so claims to
+have done more/better than was really the case.  He watched [Riddle][TMR1] closely
 enough that it would never again be safe to open the chamber.  If he had watched
-[[Riddle]] consistently as he claims, then [[Riddle]] could never have had the
+[Riddle][TMR1] consistently as he claims, then [Riddle][TMR1] could never have had the
 opportunity to cause that death.  One less horcrux to have been made, perhaps
 even no opportunity to learn of them at all.[^20210927-11]
 
@@ -56,10 +57,10 @@ but in this one instance, he did not create it.
 
 ### Before the First Fall
 
-[[Riddle]] graduates, works for an unknown amount of time as a purchasing agent
+[Riddle][TMR1] graduates, works for an unknown amount of time as a purchasing agent
 for Borgin and Burke, then disappears.  He returns sometime in the late 1960s,
 already in command of the Death Eaters,[^20210927-12] for a doomed interview for
-the DADA position.  Dumbledore intimates that he knows much of what [[Riddle]]
+the DADA position.  Dumbledore intimates that he knows much of what [Riddle][TMR1]
 has been up to.  Why does he not act?  We do not know what power Dumbledore has
 in the [[Wizengamot|Culture]] or the [[International Confederation of
 Wizards|ICW]], but we do know that he has been nominated for Minister of Magic
@@ -77,13 +78,13 @@ Death Eaters, to be effective.
 ### The Prophecy
 
 The immediate rebuttal is that it does not matter that Dumbledore did not act,
-because [[Harry]] will be subject of a prophecy stating (effectively) that
-Dumbledore lacks the power to defeat [[Riddle]].  This argument has no weight.  
+because [Harry][HJP1] will be subject of a prophecy stating (effectively) that
+Dumbledore lacks the power to defeat [Riddle][TMR1].  This argument has no weight.  
 
 Firstly, it has no weight because the prophecy has not happened yet.  Dumbledore
 is failing to act not because he knows that someone else is the only one who
 can, but for some other reason.  We do not know if it is fear, agreement with
-[[Riddle]]'s goals, a mis-guided sense that [[Riddle]] can be redeemed, or what.
+[Riddle][TMR1]'s goals, a mis-guided sense that [Riddle][TMR1] can be redeemed, or what.
 We only know that Dumbledore is failing to act when he, as yet, has no reason
 for holding back.  
 
@@ -98,23 +99,31 @@ fate, but rather acts as a goad, triggering actions, but not forcing behaviour.
 > for a situation that would never have occurred if it had not been
 > made.[^20210927-14]
 
-Dumbledore realises that both [[Riddle]] and [[Harry]] could have ignored the
+Dumbledore realises that both [Riddle][TMR1] and [Harry][HJP1] could have ignored the
 prophecy; the corollary is also true, though less intuitive: *Dumbledore is not
 bound by it either.*  If prophecy need not come true,[^20210927-15] then
 Dumbledore could have done more than battle to a standstill, he could have truly
-spared [[Harry]].  
+spared [Harry][HJP1].  
 
 ### Summation
 
 It is in *this* light that we must question why the war
-dragged on for eleven years before [[Riddle]]'s first defeat.  Why, knowing that
-[[Riddle]] would return, Dumbledore does *nothing* to investigate how or why
-[[Riddle]] avoided death.  Why, learning about the [[horcuruxes]] in [[Harry]]'s
-second year, Dumbledore waits until the summer after [[Harry]]'s *fifth* year to
+dragged on for eleven years before [Riddle][TMR1]'s first defeat.  Why, knowing that
+[Riddle][TMR1] would return, Dumbledore does *nothing* to investigate how or why
+[Riddle][TMR1] avoided death.  Why, learning about the [[horcuruxes]] in [Harry][HJP1]'s
+second year, Dumbledore waits until the summer after [Harry][HJP1]'s *fifth* year to
 hunt them down.  Why, knowing that he will die, he entrusts the knowledge to
-[[Harry]] and gives him no adult to confide in.  Why he allows him to confide in
-[[Hermione]] and [[Ron]] who can help little, but not in [[Lupin]],
+[Harry][HJP1] and gives him no adult to confide in.  Why he allows him to confide in
+[Hermione][HJG1] and [Ron][RBW1] who can help little, but not in [[Lupin]],
 [[Kingsley]], or [[Moody]] who might have truly helped.  
+
+[TMR1]: <{{< relref "Tom_Marvolo" >}}>
+
+[HJP1]: <{{< relref "Harry_James" >}}>
+
+[HJG1]: <{{< relref "Hermione_Jean" >}}>
+
+[RBW1]: <{{< relref "Ronald_Bilius" >}}>
 
 [^20210927-14]: Mrs. J. K. Rowling.
     "[F.A.Q.: About the Books](https://www.rowlingindex.org/work/faq1web/)"
@@ -138,7 +147,7 @@ hunt them down.  Why, knowing that he will die, he entrusts the knowledge to
     _[An Inconvenient Truth](https://www.fanfiction.net/s/5084287)_
     [Chapter 9](https://www.fanfiction.net/s/5084287/9/An-Inconvenient-Truth)
     Published: 2009-05-24. Updated: 2016-06-22. Last Viewed: 2021-09-27. 
-    Speculation that [[Riddle]] learned about [[Horcruxes]] from the Chamber of
+    Speculation that [Riddle][TMR1] learned about [[Horcruxes]] from the Chamber of
     Secrets. 
 
 [^20210927-10]: citation needed.  

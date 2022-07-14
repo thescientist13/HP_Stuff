@@ -1,6 +1,6 @@
 +++
 title = "Appendix B - Rules of Magic"
-Toc = true
+toc = false
 date = 2022-06-28T12:31:41-04:00
 author = "Luke Schierer"
 weight = 21

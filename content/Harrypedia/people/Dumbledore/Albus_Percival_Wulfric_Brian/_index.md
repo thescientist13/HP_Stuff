@@ -1,22 +1,30 @@
-[[!tag "HP Adult"]]
-[[!tag "HP Notes"]]
-[[!meta title="Albus Percival Wulfric Brian Dumbledore"]]
-
-[[!toc levels=2 startlevel=3]]
++++
+type = "person"
+family = "Dumbledore"
+title = "Albus Percival Wulfric Brian"
+id = "@I0061@"
+date = "2022-07-08T16:37:09-04:00"
+aliases = [
+  "/Harrypedia/people/Dumbledore/Albus/",
+  "/Harrypedia/people/Dumbledore/Albus",
+]
+author = "Luke Schierer"
++++
 
 ### timeline Speculation
 
-* Dumbledore became Headmaster after Lupin was bitten.[^200720-6]  Since Lupin
-  was a classmate of [[James]] and Lily, he was born in either late 1959 or
-  early 1960.[^200813-1]  Since he was bitten at age four, that puts us in
-  approximately 1964.[^200813-2]
-* However, Dumbledore's memory of [[Riddle]]'s timeline says that Riddle's job
-  interview was ten years after he murdered Hepzibah Smith.[^210810-6] That
-  would mean that [[Riddle]] was with Borgin and Burke for something like 20
-  years.[^210810-7]  This seems improbable, as he is still described as
-  "young" when he left the shop.[^210810-8]
-* It does, however fit with the emergence of [[Riddle]] and the Death Eaters as a
-  terrorist force, which the [[timeline|History]] places around 1970.  
+* Dumbledore became Headmaster after [Lupin][RL1] was bitten.[^200720-6]  Since
+  [Lupin][RL2] was a classmate of [James][JP1] and [Lily][LP1], he was born in
+  either late 1959 or early 1960.[^200813-1]  Since he was bitten at age four,
+  that puts us in approximately 1964.[^200813-2]
+* However, Dumbledore's memory of [Riddle][TMR1]'s timeline says that
+  [Riddle][TMR2]'s job interview was ten years after he murdered Hepzibah
+  Smith.[^210810-6] That would mean that [Riddle][TMR3] was with Borgin and
+  Burke for something like 20 years.[^210810-7]  This seems improbable, as he
+  is still described as "young" when he left the shop.[^210810-8]
+* It does, however fit with the emergence of [Riddle][TMR4] and the Death
+  Eaters as a terrorist force, which the [timeline][H1] places around
+  1970.  
 * Thus my guess is that Dumbledore *collected* the memory from the house elf ten
   years prior to the interview, not that the the house elf *formed* the memory
   ten years prior.  Note, this actually puts Dumbledore in a really poor light. 
@@ -37,9 +45,33 @@
 
 [^200813-1]: Mrs. J. K. Rowling.  _Harry Potter and the Deathly Hallows_ (p. 135). Pottermore Publishing. American Kindle Edition. 
 
-[^210810-7]: See my notes on [[History]], compute from when [[Riddle]] graduated
+[^210810-7]: See my notes on [History][H2], compute from when [Riddle][TMR5] graduated
     Hogwarts to the earliest Dumbledore could be headmaster and yet be winter
-    *after* [[Remus|Lupin]] is bitten. 
+    *after* [Remus][RL3] is bitten. 
+
+[RL1]: <{{< relref "Remus_John" >}}>
+
+[RL2]: <{{< relref "Remus_John" >}}>
+
+[RL3]: <{{< relref "Remus_John" >}}>
+
+[JP1]: <{{< relref "James" >}}>
+
+[LP1]: <{{< relref "Lily" >}}>
+
+[TMR1]: <{{< relref "Tom_Marvolo" >}}>
+
+[TMR2]: <{{< relref "Tom_Marvolo" >}}>
+
+[TMR3]: <{{< relref "Tom_Marvolo" >}}>
+
+[TMR4]: <{{< relref "Tom_Marvolo" >}}>
+
+[TMR5]: <{{< relref "Tom_Marvolo" >}}>
+
+[H1]: <{{< relref "History" >}}>
+
+[H2]: <{{< relref "History" >}}>
 
 ### Character Analysis
 
@@ -47,58 +79,92 @@ Some authors assume that Dumbledore is completely evil, and is in fact the Dark
 Lord of the prophecy.[^210706-1]  The problem with this is the "neither shall
 live" part, but then that is nearly as much of a problem if you look too closely
 at the cannon events.  For myself, I do not think Dumbledore intentionally
-shaped Riddle into Voldemort,[^210706-2] nor that he is secretly the most
+shaped [Riddle][TMR6] into Voldemort,[^210706-2] nor that he is secretly the most
 dastardly person imaginable.  Dumbledore is not a saintly figure either mind
 you, but rather a complex one who requires more careful analysis to understand
 his flaws in the right context. 
 
+[TMR6]: <{{< relref "Tom_Marvolo" >}}>
+
 Musings of Apathy, in writing the original version of [Family Inseparable](https://musings-of-apathy.fanficauthors.net/Family_Inseparable/index/),
 envisions Dumbledore as (my words) misguided, and perhaps ruthless, but not
 evil.[^180702-2] One of the things that really struck me as I started to really
-think about the [[Harry]] Potter books (as opposed to just enjoying them as
+think about the Harry Potter books (as opposed to just enjoying them as
 stories), is just how valid some of the common fanfiction criticisms of
 Dumbledore are.  In no particular order:
 
 * Dumbledore does not seem to know about the horcruxes until he is
-  presented with the diary.  He knew [[Riddle]] had survived the Halloween
-  encounter with [[Harry]], but apparently did nothing to investigate this.
-* [[Harry]]'s scar as a horcrux:
+  presented with the diary.  He knew [Riddle][TMR7] had survived the Halloween
+  encounter with [Harry][HJP1], but apparently did nothing to investigate this.
+* [Harry][HJP2]'s scar as a horcrux:
   * [Saving the Saviour](https://www.fanfiction.net/s/11833745/14/Saving-the-Saviour)
-    talks about how Dumbledore didn't have [[Harry]] examined at all by a
+    talks about how Dumbledore didn't have [Harry][HJP3] examined at all by a
     Healer after that fateful Halloween night.  Could the soul fragment
-    [[Riddle]] left have been detected?  Could something have been done
+    [Riddle][TMR8] left have been detected?  Could something have been done
     about it?  
-  * See the discussion on [[Harry]]'s scar in [[Horcruxes]] 
+  * See the discussion on [Harry][HJP4]'s scar in [Horcruxes][DMH1] 
 * More or less a follow up to the previous point, but further consider.
-  Dumbledore states that he did not know that [[Harry]] would survive.
-  Dumbledore _hoped_ that [[Harry]] would.  Dumbledore, by his own admission,
-  knows that [[Harry]] will be willing to sacrifice himself.  The reason
-  implied is that Dumbledore is well aware of [[Harry]]'s heroic virtue.
-  But when you consider how much Dumbledore hid from [[Harry]], how calculated
-  the final revelation is, I think there is more to it.  Dumbledore is
-  not leaving anything to chance - I agree with fanfiction authors who
-  think that Dumbledore has, in the choices he has made regarding [[Harry]]'s
-  upbringing, purposefully worked to shape [[Harry]] into someone who will
-  make that choice.  This does not negate [[Harry]]'s virtue; Dumbledore
-  is building on [[Harry]]'s nature, not creating it out of whole cloth.
-  Honestly, if Dumbledore were as calculating about subjecting [[Harry]]
+  Dumbledore states that he did not know that [Harry][HJP5] would survive.
+  Dumbledore _hoped_ that [Harry][HJP6] would.  Dumbledore, by his own admission,
+  knows that [Harry][HJP7] will be willing to sacrifice himself.  The reason
+  implied is that Dumbledore is well aware of [Harry][HJP8]'s heroic virtue.
+  But when you consider how much Dumbledore hid from [Harry][HJP9], how
+  calculated the final revelation is, I think there is more to it.  Dumbledore
+  is not leaving anything to chance - I agree with fanfiction authors who
+  think that Dumbledore has, in the choices he has made regarding
+  [Harry][HJP1]'s upbringing, purposefully worked to shape [Harry][HJP1] into
+  someone who will make that choice.  This does not negate [Harry][HJP1]'s
+  virtue; Dumbledore is building on [Harry][HJP1]'s nature, not creating it out of whole cloth.
+  Honestly, if Dumbledore were as calculating about subjecting [Harry][HJP1]
   to abuse as some authors would have him, then he took an incredibly
-  reckless chance.  Dumbledore knows how similar [[Harry]]'s situation is to
-  [[Riddle]]'s childhood.  I think that this plan is something that Dumbledore
+  reckless chance.  Dumbledore knows how similar [Harry][HJP1]'s situation is to
+  [Riddle][TMR1]'s childhood.  I think that this plan is something that Dumbledore
   came to over time, not something he intended from the beginning.
-* Dumbledore placed Mrs. Figg to watch [[Harry]].  She knows she has to be
+* Dumbledore placed Mrs. Figg to watch [Harry][HJP1].  She knows she has to be
   unpleasant to him to retain access to him and thus fulfilled her mission.
   Surely this was reported to Dumbledore over the years.  He presumably
   did not believe her, possibly because she is a squib, and he has some
   of the pure-blood's unconscious prejudices against them.  Alternately,
-  while he does believe her, he risks both [[Harry]] turning evil and [[Harry]]'s
-  health, because he views the odds that [[Harry]] will be killed by a Death
-  Eater and/or a returned [[Riddle]] that probable.  There _must_ have been some
+  while he does believe her, he risks both [Harry][HJP1] turning evil and [Harry][HJP1]'s
+  health, because he views the odds that [Harry][HJP1] will be killed by a Death
+  Eater and/or a returned [Riddle][TMR1] that probable.  There _must_ have been some
   middle ground.  Between Dumbledore's civil authority on the Wizengamot,
   and his experience with and control over magic, he could have dome
-  *something* to intervene in [[Harry]]'s treatment.  
-* The above and [[much more|treatment_of_Harry]] concerning [[Harry]]. 
+  *something* to intervene in [Harry][HJP1]'s treatment.  
+* The above and [[much more|treatment_of_Harry]] concerning [Harry][HJP1]. 
 * And even more about [[how he dealt with Riddle|Dealing_with_Riddle]].
+
+[TMR7]: <{{< relref "Tom_Marvolo" >}}>
+
+[TMR8]: <{{< relref "Tom_Marvolo" >}}>
+
+[TMR9]: <{{< relref "Tom_Marvolo" >}}>
+
+[HJP1]: <{{< relref "Harry_James" >}}>
+
+[HJP2]: <{{< relref "Harry_James" >}}>
+
+[HJP3]: <{{< relref "Harry_James" >}}>
+
+[HJP4]: <{{< relref "Harry_James" >}}>
+
+[HJP5]: <{{< relref "Harry_James" >}}>
+
+[HJP6]: <{{< relref "Harry_James" >}}>
+
+[HJP7]: <{{< relref "Harry_James" >}}>
+
+[HJP8]: <{{< relref "Harry_James" >}}>
+
+[HJP9]: <{{< relref "Harry_James" >}}>
+
+[HJP10]: <{{< relref "Harry_James" >}}>
+
+[HJP11]: <{{< relref "Harry_James" >}}>
+
+[HJP12]: <{{< relref "Harry_James" >}}>
+
+[DMH1]: <{{< relref "Horcrux" >}}>
 
 Against this collection of problems is Dumbledore's friendship with Fawkes.  How
 intelligent are phoenixes?  Does the phoenix bond with its partner (popular in
@@ -126,13 +192,13 @@ if [[Grindelwald]] tolerated it, but did not actually care one way or another
 about the justification for actions he intended to take either way.  
 
 Ms. Richa Venkatraman wrote a defence of Dumbledore on MuggleNet[^190301-1] in
-which she seems to express well the view that [[Harry]] himself has in the book,
+which she seems to express well the view that [Harry][HJP1] himself has in the book,
 that Dumbledore is ultimately a good, if flawed, person.  I have trouble with
 this, Dumbledore's unstated philosophy seems way too close to "the ends justify
 the means," and I am far from convinced that it differs in any important detail.
 
 The ends (the greater good) do not justify the means (cooperating with (in a
-moral sense) the abuse [[Harry]] suffers).  Similarly, Dumbledore is right,
+moral sense) the abuse [Harry][HJP1] suffers).  Similarly, Dumbledore is right,
 children do need to learn to deal with all sorts of people, even difficult
 authority figures.[^211022-4]  However, *his* responsibility, as headmaster, is
 to foster a healthy, safe, and effective learning environment.  Students might
@@ -164,9 +230,9 @@ different circumstances across the books.
 The principle of the double effect can be a valid defence.[^210914-5]  It only
 actually applies to morally good and morally neutral acts done for good ends
 that have incidental evil by-products.  Thus Dumbledore might justify placing
-[[Harry]] with the [[Dursleys]] if he *truly* **only** intended to save his
+[Harry][HJP1] with the [Dursleys][DF1] if he *truly* **only** intended to save his
 life, and did not also intend the "dark" and "difficult years"[^200624-2] to
-temper a perceived Potter tendency towards over-egoism.  If [[Harry]]'s
+temper a perceived Potter tendency towards over-egoism.  If [Harry][HJP1]'s
 suffering was an *aim* of the placement, then the act was not morally good nor
 even morally neutral, and thus not protected by this principle even if saving
 his life was also intended.  We naturally cannot definitively know which of
@@ -188,7 +254,7 @@ back to is echoed in at least one fanfiction I have read:
 > No, the world needed this Harry, shy, polite, an indifferent student, and utterly
 > incurious, save for what he could learn about his parents.[^200721-1]
 
-While that fanfiction's depiction of [[Harry]] is somewhat out of character, it
+While that fanfiction's depiction of [Harry][HJP1] is somewhat out of character, it
 is close enough that the depiction of Dumbledore's thoughts, here quoted, is
 disturbingly believable. 
 
@@ -240,10 +306,10 @@ values and judgements, he can be judged to be sinful, but not mortally
 sinful, and thus not evil. It is only where he is self deceptive, that
 is he knows his arguments are either not cogent or not based on true
 value propositions, that he can be held mortally accountable, and thus
-potentially evil.  In this Dumbledore contrasts positively with [[Riddle]],
+potentially evil.  In this Dumbledore contrasts positively with [Riddle][TMR1],
 who quite frankly doesn't care about either the cogency or the validity
 of his decisions. Dumbledore is certainly _less evil_ though possibly
-_more morally dangerous_ (in that he is more insidious) than [[Riddle]].
+_more morally dangerous_ (in that he is more insidious) than [Riddle][TMR1].
 
 Dumbledore might (almost certainly is) wrong about what the Greater
 Good looks like. He is certainly wrong about what he can and cannot do
@@ -254,23 +320,25 @@ with faint praise, or giving him what little credit is due.
 
 That being said, was Dumbledore a master of [[manipulation|Manipulator]], or
 was he just as much reacting to an out of control situating that he abhorred as
-[[Harry]] is?  In other words, just how much of the world situation is he in
+[Harry][HJP1] is?  In other words, just how much of the world situation is he in
 fact responsible for?  We cannot ultimately know. 
 
 That being said, I keep coming back to Dumbledore's inaction.  The end of
 [Chapter 4][PaMOD41] is too long to block quote and expect my point to come
 across, but it does convey what I am thinking fairly well.  Consider:
 
-* Dumbledore knows that [[Riddle]] will return: this is his justification for
-  leaving [[Harry]] with the [[Dursleys]]. 
+* Dumbledore knows that [Riddle][TMR1] will return: this is his justification for
+  leaving [Harry][HJP1] with the [Dursleys][DF1]. 
 * Dumbledore seemingly does nothing about this for eleven years. 
-* Dumbledore not only does nothing about [[Riddle]], he allows
+* Dumbledore not only does nothing about [Riddle][TMR1], he allows
   [[Malfoy|Families/Malfoy]] and others to be a continued influence on society. 
-* Dumbledore conveniently sets up a situation where [[Riddle]] will be at
-  [[Hogwarts]] the same year [[Harry]] starts.[^210915-1]
+* Dumbledore conveniently sets up a situation where [Riddle][TMR1] will be at
+  [[Hogwarts]] the same year [Harry][HJP1] starts.[^210915-1]
 * Dumbledore learns of the Horcruxes no later than the end of the second book,
   yet it is not until the summer between the fifth and sixth that he has found
   even one.
+
+[DF1]: <{{< ref "Harrypedia/people/Dursley" >}}>
 
 This train of thought leads Sirius to the following:
 > "No one will be hurting Harry even if I couldn't get rid of the Horcrux- Oh I
@@ -286,10 +354,10 @@ This train of thought leads Sirius to the following:
 > this out and act, what have you been doing? Waiting for Harry to grow up and
 > do your job for you?"[^210915-2]
 
-Dumbledore was approximately 100 years old when [[Riddle]] disappeared that
+Dumbledore was approximately 100 years old when [Riddle][TMR1] disappeared that
 Halloween in 1981.  If he was [[too tired|Inaction]] to deal with things, he
 should have retired.  If he was not going to retire, then he *should have
-acted.*  The whole situation with [[Riddle]] [[reeks|Dealing_with_Riddle]].
+acted.*  The whole situation with [Riddle][TMR1] [[reeks|Dealing_with_Riddle]].
 
 [IEPU2]: https://iep.utm.edu/util-a-r/
 
@@ -371,7 +439,7 @@ Interestingly, Wikipedia confirms that "Warlock" does in fact imply
 both male magic user and betrayer.[^200720-2] This contrasts
 interestingly with "witch,"[^200720-3] "wizard"[^200720-4] and
 "sorcerer"[^200720-5] that apparently have an etymology of simply being
-a magic user.  Any work trying to work in the [[Harry]] Potter universe has
+a magic user.  Any work trying to work in the [Harry][HJP1] Potter universe has
 to go fictional at some point, since in true history magic is always
 associated with the pagan, the satanic, or both.  So it is noteworthy
 that the common titles they use, "witch" and "wizard," have no negative
@@ -477,10 +545,10 @@ Elemental](https://www.fanfiction.net/s/11995519/)_, Dumbledore is subtle,
 Dumbledore is prejudiced and does not in fact want muggleborns to fit
 in.[^200813-3]  He does not subvert the Goblins, he simply trusts their nature
 not to tell a wizard about something he or she does not ask about (other
-vaults).  [[Harry]] *is* missing critical information about the society around him,
+vaults).  [Harry][HJP1] *is* missing critical information about the society around him,
 but its effects are such that you can see the connection to the way the books
 turned out (with a few exceptions like [[Ron]]).  There is a hidden (non-Gringotts)
-vault full of stuff that book [[Harry]] might well never have found, but which
+vault full of stuff that book [Harry][HJP1] might well never have found, but which
 you can picture actually existing.  Subtle, understated manipulations that let
 people fool themselves.  That I think is a very very canonical representation of
 Dumbledore. 

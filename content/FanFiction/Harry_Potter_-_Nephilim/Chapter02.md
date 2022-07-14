@@ -41,7 +41,7 @@ asleep (and thus not thinking rationally at all) and in part because he was only
 four (and thus even more not capable of rational thought), mistaking the shard's
 desire to take over Harry's body for a desire to be *with* Harry.  
 
-Fortunately for now the bizarre connection was both short lived and only went
+Fortunately, at least for now, the bizarre connection was both short lived and only went
 one way.  Harry's dreaming self got lost in the mutilated soul of Tom Riddle.
 On waking however, the feeling of wrongness shattered the bridge forming between
 them before it could solidify into something permanent.  Meanwhile the part of

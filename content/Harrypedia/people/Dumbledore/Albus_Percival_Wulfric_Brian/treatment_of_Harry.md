@@ -1,4 +1,8 @@
-[[!meta title="Dumbledore's Treatment of Harry"]]
++++
+title = "Dumbledore's Treatment of Harry"
+author = "Luke Schierer"
++++
+
 In explaining his decisions to Harry, Dumbledore says:
 
 > Five years ago you arrived at Hogwarts, Harry, safe and whole, as I had
@@ -47,7 +51,7 @@ In the fan fiction work _[The Sound of Silence][BW95TSS1]_ Dumbledore states:
 
 Mrs. Rowling does not allow her version of Dumbledore to admit any such thing, but I think there is some element of truth to this take on his character.  If, however, I am off base, it makes the next point even stronger. 
 
-In the fan fiction work _[After Destiny][CAD1]_, cambangst presents a view of [[Harry]], [[Ginny]], and the other student fighters that is overly influenced by modern secular morality, but shows them struggling with the traumas they have faced in a way that I *do* find very realistic.  The following is part of an exchange between [[Harry]] and [[Ginny]].  
+In the fan fiction work _[After Destiny][CAD1]_, cambangst presents a view of [Harry][HJP1], [Ginny][GMW1], and the other student fighters that is overly influenced by modern secular morality, but shows them struggling with the traumas they have faced in a way that I *do* find very realistic.  The following is part of an exchange between [Harry][HJP1] and [Ginny][GMW1].  
 
 > "Training, Harry." She really wanted to smack him again, but settled for
 > doing her best Hermione, instead. "Do you know how long Charlie had to train
@@ -60,24 +64,36 @@ In the fan fiction work _[After Destiny][CAD1]_, cambangst presents a view of [[
 > Harry blinked a few times and then looked down. "A few evenings with
 > Dumbledore."[^20210912-1]
 
-As I stated on the main [[Dumbledore]] page, I believe that Dumbledore, at
+As I stated on the main [Dumbledore][AD1] page, I believe that Dumbledore, at
 heart, embraces some  version of [[utilitarianism|Society/utilitarianism]].
-Rightly or wrongly, he believed that the [[horcrux|Horcruxes]] in [[Harry]]
-required that [[Harry]] be destroyed, or in other words, he would have to
-die.[^20210912-9]  Under utilitarian theory, while [[Harry]]'s death might be
+Rightly or wrongly, he believed that the [[horcrux|Horcruxes]] in [Harry][HJP1]
+required that [Harry][HJP1] be destroyed, or in other words, he would have to
+die.[^20210912-9]  Under utilitarian theory, while [Harry][HJP1]'s death might be
 tragic, it is outweighed by the salvation it would bring to the rest of
-society when [[Riddle]] is vanquished.  Thus [[Harry]] must be programmed
+society when [Riddle][TMR1] is vanquished.  Thus [Harry][HJP1] must be programmed
 towards self-sacrifice.
 
-Again, Mrs. Rowling never allows her version of Dumbledore to admit that he has intentionally worked towards this end.  Her version of Dumbledore claims that the whole thing was, from beginning to end, entirely [[Harry]]'s free choice, and in a sense that is true.  It is true in the sense that no one held a gun to his head and forced his action.  Dumbledore was much more subtle than that.  He allowed [[Harry]] to spend ten years in an [[abusive environment|Dursleys]].  He allowed [[Snape]] to belittle and torment [[Harry]].  He did nothing as the school as a whole turned on [[Harry]] in first year,[^20210912-10] second year,[^20210912-11] fourth year,[^20210912-12] *and* fifth year.[^20210912-13]  
+Again, Mrs. Rowling never allows her version of Dumbledore to admit that he has intentionally worked towards this end.  Her version of Dumbledore claims that the whole thing was, from beginning to end, entirely [Harry][HJP1]'s free choice, and in a sense that is true.  It is true in the sense that no one held a gun to his head and forced his action.  Dumbledore was much more subtle than that.  He allowed [Harry][HJP1] to spend ten years in an [[abusive environment|Dursleys]].  He allowed [Snape][SS1] to belittle and torment [Harry][HJP1].  He did nothing as the school as a whole turned on [Harry][HJP1] in first year,[^20210912-10] second year,[^20210912-11] fourth year,[^20210912-12] *and* fifth year.[^20210912-13]  
 
-Even the lack of training fits into this.  Dumbledore tells [[Harry]] that love is the "power" leaving [[Harry]] confused at first, but knowing that when the final bits of the puzzle are revealed, it will all make sense - an untrained [[Harry]] has no other weapon in his arsenal except the power of his self-sacrifice with which to protect his friends.  He even tells [[Harry]] that he depended on [[Hermione]] to *slow [[Harry]] down*[^20210913-1] and while they were specifically talking about the Hallows, when you consider that [[Hermione]] also slowed down the hunt for the [[horcruxes]] (see her page for details), I feel safe including this in my indictment. 
+Even the lack of training fits into this.  Dumbledore tells [Harry][HJP1] that love is the "power" leaving [Harry][HJP1] confused at first, but knowing that when the final bits of the puzzle are revealed, it will all make sense - an untrained [Harry][HJP1] has no other weapon in his arsenal except the power of his self-sacrifice with which to protect his friends.  He even tells [Harry][HJP1] that he depended on [Hermione][HJG1] to *slow [Harry][HJP1] down*[^20210913-1] and while they were specifically talking about the Hallows, when you consider that [Hermione][HJG1] also slowed down the hunt for the [[horcruxes]] (see her page for details), I feel safe including this in my indictment. 
 
 When you consider the potential cost if Riddle had not been stopped, and
 further consider the fact *that it worked*, it is very hard to argue with
-Dumbledore.  The fact that [[Harry]] not only does not blame him, but feels
+Dumbledore.  The fact that [Harry][HJP1] not only does not blame him, but feels
 great affection for him makes it even harder.  There is just one problem.
 [[Utilitarianism is wrong|Society/utilitarianism]]. 
+
+[AD1]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
+
+[GMW1]: <{{< relref "Ginevra_Molly" >}}>
+
+[HJP1]: <{{< relref "Harry_James" >}}>
+
+[HJG1]: <{{< relref "Hermione_Jean" >}}>
+
+[TMR1]: <{{< relref "Tom_Marvolo" >}}>
+
+[SS1]: <{{< relref "Severus" >}}>
 
 [CAD1]: https://fanfictalk.com/archive/viewstory.php?sid=721
 

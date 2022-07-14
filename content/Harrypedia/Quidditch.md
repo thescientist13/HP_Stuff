@@ -67,7 +67,7 @@ odds? Or does the keeper have an advantage?
 
 What role does the team captain play?  We have examples of a captain in each of
 the available positions, Wood as keeper, Angelina as chaser, [Harry]({{< relref
-"Harry" >}}) as seaker, and Harpies captain [Gwenog Jones]({{< relref "Gwenog" >}}) 
+"Harry" >}}) as seeker, and Harpies captain [Gwenog Jones]({{< relref "Gwenog" >}}) 
 as beater.  Are there advantages or disadvantages to the captain being one or
 more of these? Does the answer depend in any way on the team's playing style? 
 
@@ -98,6 +98,46 @@ within the rules, but the following is probably the best.
 > 
 > While on average, these seekers only caught a third of the snitches, their
 > teams averaged seven incremental goals per game.[^220705-4]
+
+Another problem is the broom speeds and the stadium size.  While we do not know
+the stadium size, it is fair to say that you can see the players reasonably
+well.  My guess is that Mrs. Rowling is mentally modelling the stadium on
+professional soccer pitches.  These can be anywhere from 90 to 120 meters
+long.[^220713-1]  If the Firebolt brooms go from 0 to 150 in ten
+seconds,[^220713-2] then he will be all the way across the pitch before he
+reaches full speed.  In fact, if I do my maths right, if Harry does achieve full
+speed, he will be going 13200 feet per minute, which means that staying in
+within the pitch *at all* would be essentially impossible.  
+
+One author tried to get around this by giving the snitch a 2 mile limit for
+school play, and 6 miles for professional play.[^220713-3]  The problem with
+this solution is that either the snitch is going massively far outside the
+stadium, or else the _players_ are barely visible across the Hogwarts pitch to
+the unaided eye, and *aren't* visible in professional games.[^220713-4]
+
+Ultimately I think this comes down to Mrs. Rowling's statement that she is
+really bad at maths.[^220713-5]
+
+[^220713-5]: Mrs. J. K. Rowling.
+   "[F.A.Q.](https://therowlinglibrary.com/jkrowling.com/textonly/en/faq.html)"
+   Last Viewed: 2022-07-13.
+
+[^220713-4]: Ms. Natalie Wolchover.
+   "[How far can the human eye see?](https://www.livescience.com/33895-human-eye.html)"
+   Published: 2012-05-07. Reference the part where it says we can resolve human scale objects at about 2 miles. 
+
+[^220713-3]: gredandforgerock.
+    _[Professor Potter](https://www.fanfiction.net/s/6116629)_
+    Published: 2010-07-06. Updated: 2011-02-13. Last Viewed: 2022-07-13.
+
+[^220713-2]: Mrs. J. K. Rowling.
+    _[Harry Potter and the Prisoner of Azkaban][HPPoA1]_
+    ® 2000 Pottermore Limited. American Kindle Edition. page 51.
+
+[HPPaA1]: <https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban>
+
+[^220713-1]: [The Internaltional Football Association Board](https://www.theifab.com/). "[LAW 1 THE FIELD OF PLAY](https://www.theifab.com/laws/latest/the-field-of-play)" 
+    ® 2022. 
 
 [^220705-1]: Mr. Robbie Gonzalez. "[Free Throws Should Be Easy. Why Do Basketball Players Miss?](https://www.wired.com/story/almost-impossible-free-throws/)" [Wired](https://www.wired.com/) 2019-03-28. Last Viewed: 2022-07-05. 
 

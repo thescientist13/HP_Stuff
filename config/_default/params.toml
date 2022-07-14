@@ -49,6 +49,9 @@ prism_syntax_highlighting = false
 [mermaid]
 enable = true
 
+[markmap]
+enable = true
+
 # User interface configuration
 [ui]
 #  Set to true to disable breadcrumb navigation.

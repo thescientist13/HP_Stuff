@@ -1,7 +1,7 @@
 ---
 title: "Appendix A - Points of Divergence"
 weight: 20
-Toc: true
+toc: false
 type: "stories"
 ---
 

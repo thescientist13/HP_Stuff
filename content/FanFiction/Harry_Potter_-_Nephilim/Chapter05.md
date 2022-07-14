@@ -1,7 +1,6 @@
 +++
 title = "Chapter 5"
 date = 2022-06-28T17:31:53-04:00
-toc = true
 author = "Luke Schierer"
 weight = 3
 +++
@@ -48,41 +47,48 @@ occurrence, he was quickly memorising every available hiding place on each of th
 various side streets he could take in his attempts to avoid his pursuers.  Once
 he was out of sight, no one except Dudley ever noticed him. Indeed, if Harry
 could have heard them, when Dudley was not around Gordon and Malcolm sometimes
-complained about how often Dudley "made" them search for "[Dudley's] immaginary
+complained about how often Dudley "made" them search for "[Dudley's] imaginary
 cousin."  Unable to remember Harry without either his presence disrupting the
-spell or Dudley's subconcious magic protecting them from it, their minds
-convinced them that they had entirely immagined each encounter with Harry.  
+spell or Dudley's subconscious magic protecting them from it, their minds
+convinced them that they had entirely imagined each encounter with Harry.  
 
 Life thus settled into a pattern.  Harry found that he could avoid Uncle Vernon
-more easily than he remembered being able to do even a few months ago, but that
-whatever was happening did not work nearly so well on Aunt Petunia or Mrs. Figg.
-It was clear that neither of them could see him unless he made a noise, but both
-of them *remembered* him far more than Vernon, or his teachers ever did.  This
-was both good and bad.  On the plus side, Aunt Petunia usually remembered to
-unlock the cupboard in the mornings.  On the down side, she remembered to give
-him chores, and follow up to see that they were completed.  Harry was not lazy,
-it was not the *work* he minded, but rather the results.  She gave him so much
-to do that it was hard to find time to do his homework.  Worse, if he did not
-get everything done, she would get upset, and her complaints were the one thing
-that would reliably cause Uncle Vernon to notice him.  Overall, it was best when
-she didn't notice him.  He learned to avoid making unnecessary noises, as that
-seemed to break or pause his invisibility.  
+more easily than he remembered being able to do even a few months ago, and Mrs.
+Figg seemed to have all but forgotten him entirely.  Whatever was happening did
+not work nearly so well on Aunt Petunia or Dudley.  It was clear that neither
+of them could see him unless he made a noise, but both of them *remembered* him
+far more than Vernon, or his teachers ever did.  This was both good and bad.
+On the plus side, Aunt Petunia usually remembered to unlock the cupboard in the
+mornings.  On the down side, she remembered to give him chores, and follow up
+to see that they were completed.  Harry was not lazy, it was not the *work* he
+minded, but rather the results.  She gave him so much to do that it was hard to
+find time to do his homework.  Worse, if he did not get everything done, she
+would get upset, and her complaints were the one thing that would reliably
+cause Uncle Vernon to notice him.  Overall, it was best when she didn't notice
+him.  He learned to avoid making unnecessary noises, as that seemed to break or
+pause his invisibility.  
 
 Like many children before him, he found that when no one notices you are there,
 adults say things that they would probably rather you not hear. It was this way
 that he learned that his aunt and uncle were not quite as blind to Dudley's
 faults as they pretended — he overheard his uncle on the phone with the school
 superintendent one day, and saw an envelope change hands with one of the town
-constables another.  Once, mowing Mrs. Figg's lawn, he overheard her talking to
-someone in the house about making sure that the "obliv-somethings" made "their
-monthly visit before people start asking questions again about Potter's
-disgraceful clothing."  He wondered what an "obliv-something" was and if it
-(they?) had anything to do with the way nothing had happened the one time he had
-tried making an anonymous call to the local ACPCs.[^210902-9]  Still, Harry
-figured it was better to know more than not; already habitually silent, he was
-now getting used to being invisible as well.  
+constables another.  Listening at the window (he was supposed to be mowing her
+lawn, but she would never remember if he did or not) as Mrs. Figg made her
+weekly report to the man with the beard, Harry noticed that her reports were
+starting to resemble the fantasy stories that she told the other guy, the one
+with the girl's hair and too many teeth.  He heard the man mention that the
+"obliv-somethings" would be making "their monthly visit because someone had
+complained about Potter's disgraceful clothing again."  He wondered what an
+"obliv-something" was and figured that it (they?) had something to do with the
+way nothing had happened the one time he had tried making an anonymous call to
+the local ACPCs.[^210902-9]  On one hand it was nice to know that someone had
+thought to complain about the way he was treated.  On the other, it angered him
+that the bearded man was apparently not letting those complaints come to
+anything.  Still, Harry figured it was better to know more than not; already
+habitually silent, he was now getting used to being invisible as well.  
 
-If only being invisible worked on Dudley.  Unlike everyone else, Dudley
+If only being invisible worked on Dudley.  Unlike everyone else, (even Aunt Petunia) Dudley
 *consistently* noticed when Harry was around.[^211219-3]  Worse, it was as if he
 had a sixth sense that helped him find Harry.  The other boys in the gang were
 easy to avoid, the slightest excuse for a hiding space was enough for them to
@@ -108,9 +114,9 @@ Staying at school also almost never worked, because Dudley knew that Harry
 started out at school.  Harry might not be in Dudley's line of sight on a
 particular sidewalk, but Dudley expected Harry to be on the way home *somewhere*
 and all sidewalks seemed to be sufficiently similar to count for
-Dudley-finding-Harry purposes.  It became very important not just to not use the
-same places to hide multiple days in a row, but to be sufficiently random about
-it that Dudley could never compile a list of favourite places to look.  Harry had
+Dudley-finding-Harry purposes.  It became very important not just to use
+different places to hide each day, but to be sufficiently random about it that
+Dudley could never compile a list of favourite places to look.  Harry had
 already learned the geography of Little Whinging fairly well, now he was
 learning which buildings were least monitored and least trafficked.  Where were
 there rarely used corners or benches out of sight of the doors and windows, but

@@ -1,12 +1,15 @@
-[[!toc levels=2 startlevel=3]]
++++
+title = "Albus as the Great Manipulator"
+author = "Luke Schierer"
++++
 
-It is quite easy to portray [[Dumbledore]] as a master manipulator.[^211203-1]
+It is quite easy to portray [Dumbledore][AD1] as a master manipulator.[^211203-1]
 Indeed, for a fanfiction author, the problem with this route is not that
-[[Dumbledore]] ends up feeling Out of Character, but rather that there seems to
+[Dumbledore][AD1] ends up feeling Out of Character, but rather that there seems to
 be a dissociative element to the story if you allow anything to go *better* than
-it did in the cannon story line.  How could [[Harry]] overcome [[Dumbledore]]
+it did in the cannon story line.  How could [Harry][HJP1] overcome [Dumbledore][AD1]
 with his decades of experience at subtle manipulations? Ian Hycrest, writing as
-Kingsley, describes this sort of [[Dumbledore]] thus:
+Kingsley, describes this sort of [Dumbledore][AD1] thus:
 
 > It's difficult to try to put into words just how much we all trusted and
 > relied on Albus Dumbledore. He was our leader, our counselor, our guide. For
@@ -36,18 +39,22 @@ Kingsley, describes this sort of [[Dumbledore]] thus:
 
 One might use the fact that he was evicted as Headmaster in Book 2, or from his
 various positions in Book 5 as counter examples to this portrayal.  I disagree.
-I am not *wholly* convinced of this view of [[Dumbledore]] but I believe it is
+I am not *wholly* convinced of this view of [Dumbledore][AD1] but I believe it is
 *plausible*, and I think the proof of its plausibility is really the
-conversation at "Kings Cross" at the end of Book 7.  If [[Dumbledore]] really
-did chart out [[Harry]]'s course, plan the entire war out to include events
+conversation at "Kings Cross" at the end of Book 7.  If [Dumbledore][AD1] really
+did chart out [Harry][HJP1]'s course, plan the entire war out to include events
 after his own death, as is implied, then he is fully capable of including in his
 plan temporary defeats on his own part.  The man who uses his own death that way
 would certainly also use his own removal from the ICW, and/or the Wizengamot.  
 
 Allowing himself to appear more fallible, more the victim, would endear him to
-[[Harry]].  Being recalled to the position after being vindicated would make the
+[Harry][HJP1].  Being recalled to the position after being vindicated would make the
 next removal harder (thus I think he *was* in fact able to resist Fudge and
 Umbridge in Book 5 for most of the year).  
+
+[HJP1]: <{{< relref "Harry_James" >}}>
+
+[AD1]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
 
 [^211203-1]: Many works do this, but it can all be summarised with this one:
     KafkaExMachina. _[Divination is a Wooly Subject](https://www.fanfiction.net/s/5251162)_
