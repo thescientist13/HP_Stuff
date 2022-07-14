@@ -1,42 +1,43 @@
-[[!meta title="Horcruxes"]]
++++
+title = "Horcruxes"
+author = "Luke Schierer"
++++
 
 First of all, I'm not going to even start about what the proper plural is.  I
 do not care.  Horcruxes works, and I am going to go with that. 
 
 I am also going to use this page for the general discussion of whatever magic it
-was that 1) allowed Riddle to survive hitting [[Harry]] with the killing curse and
-2) affects [[Harry]]'s scar regardless of if that magic is actually a horcrux or
+was that 1) allowed [Riddle][TMR1] to survive hitting [Harry][HJP1] with the killing curse and
+2) affects [Harry][HJP1]'s scar regardless of if that magic is actually a horcrux or
 not.
-
-[[!toc levels=2 startlevel=3]]
 
 ### Origin
 
 One place I want to quibble with cannon is on the origin of Horcruxes. Mrs.
-Rowling would have Herpo the Foul be essentially the prefigurement of Riddle, an
-evil dark wizard who deals with Parseltongue, a basilisk, and a
-horcrux.[^20210323-9]  She tries to rescue this a bit by saying in an interview
-that others experimented with this before him, but did not
-succeed.[^20210323-10]  This might be nice neat foreshadowing for a novel, but I
+Rowling would have Herpo the Foul be essentially the prefigurement of
+[Riddle][TMR1], an evil dark wizard who deals with Parseltongue, a basilisk,
+and a horcrux.[^210323-9]  She tries to rescue this a bit by saying in an
+interview that others experimented with this before him, but did not
+succeed.[^210323-10]  This might be nice neat foreshadowing for a novel, but I
 find it unrealistic and hokey world building; the caveat made in the interview
 is too little, too late. 
 
 If Herpo did use a Horcrux, he would have lived somewhere between the 12th and
-9th century BC[^20210323-11], which debunks the Chinese origin of the magic put
-forth in _[The Mandatory Marriage Contract Fic]_.[^20210323-12] The Valley of
+9th century BC[^210323-11], which debunks the Chinese origin of the magic put
+forth in _[The Mandatory Marriage Contract Fic]_.[^210323-12] The Valley of
 the Kings, in Egypt, however, was in use from the 16th to the 11th century
-BC.[^20210323-13]  For my purposes the overlap is actually useful. 
+BC.[^210323-13]  For my purposes the overlap is actually useful. 
 
 DisobedienceWriter wrote a fairly extensive one-shot, _[The Valley of the Kings
 Massacre][TVotKM]_, which focused a fair amount on horcruxes.  I dislike the
-characterisation of [[Harry]] in this work, but I do like some of the backstory it
+characterisation of [Harry][HJP1] in this work, but I do like some of the backstory it
 posits. He suggests that the Egyptian priest class delved deep into runic magic
 and soul magic, including Horcruxes and "the ancestor of the modern Killing
-Curse."[^20210323-14] In my mind both the killing curse and horcruxes are evil,
+Curse."[^210323-14] In my mind both the killing curse and horcruxes are evil,
 the first requiring hatred, the second requiring the remorseless killing of an
 innocent.  DisobedianceWriter suggests that one could be created with any
 killing, I think Rowling's interview comments require something more
-gruesome.[^20210323-15] 
+gruesome.[^210323-15] 
 
 Still, despite the parts I dislike, I *do* like the idea that the Egyptian
 priests played the ruling class, developed horcruxes, and that, unlike Itsme66's
@@ -48,49 +49,49 @@ it being convenient that the two civilisations overlap.
 
 Several centuries later, Wong Shan-Hao (from Itsme66's work) attempted a
 horcrux, but botched the creation, explaining the intact one on display in the
-Imperial Museum of Magic.[^20210324-1]  [[Dumbledore]]'s failure to know about and
+Imperial Museum of Magic.[^210324-1]  [Dumbledore][AD1]'s failure to know about and
 properly investigate what an intact horcrux is doing in the Imperial Museum is a
 testimony to his overall dependence on the prophecy, and failure to act. 
 
-[^20210324-1]: Adapted from Itsme66.
+[^210324-1]: Adapted from Itsme66.
     _[The Mandatory Marriage Contract Fic](https://www.fanfiction.net/s/5695032)_
     [Chapter 2](https://www.fanfiction.net/s/5695032/2/The-Mandatory-Marriage-Contract-Fic)
     Last Updated: 2010-02-26. Published: 2010-01-25. Last Viewed 2021-03-23.
 
-[^20210323-15]: Mrs. J. K. Rowling et al.
+[^210323-15]: Mrs. J. K. Rowling et al.
     "[Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, 
     part one." PotterCast #130, 17 December 2007.](http://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html)" 
     [Accio-Quote](http://www.accio-quote.org/) Last viewed 2020-07-31. 
 
-[^20210323-14]: DisobedienceWriter.
+[^210323-14]: DisobedienceWriter.
     _[The Valley of the Kings Massacre](https://www.fanfiction.net/s/5998729)_
     Published 2010-05-25. Last Viewed: 2021-03-23.
 
 [TVotKM]: <https://www.fanfiction.net/s/5998729>
 
-[^20210323-13]: [Wikipedia](https://en.wikipedia.org/)
+[^210323-13]: [Wikipedia](https://en.wikipedia.org/)
     "[Valley of the Kings](https://en.wikipedia.org/wiki/Valley_of_the_Kings)
     Last Edited: 2021-03-22. Last Viewed: 2021-03-23.
 
-[^20210323-12]: Itsme66.
+[^210323-12]: Itsme66.
     _[The Mandatory Marriage Contract Fic](https://www.fanfiction.net/s/5695032)_
     [Chapter 2](https://www.fanfiction.net/s/5695032/2/The-Mandatory-Marriage-Contract-Fic)
     Last Updated: 2010-02-26. Published: 2010-01-25. Last Viewed 2021-03-23.
 
-[^20210323-11]: [Wikipedia](https://en.wikipedia.org/)
+[^210323-11]: [Wikipedia](https://en.wikipedia.org/)
     "[Ancient Greece](https://en.wikipedia.org/wiki/Ancient_Greece)"
     Last Edited 2021-03-23. Last Viewed 2021-03-23. 
 
-[^20210323-10]: Mrs. J. K. Rowling et al.
+[^210323-10]: Mrs. J. K. Rowling et al.
     "[Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, 
     part one." PotterCast #130, 17 December 2007.](http://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html)" 
     [Accio-Quote](http://www.accio-quote.org/) Last viewed 2020-07-31. 
 
-[^20210323-9]: [Harry Potter WIKI](https://harrypotter.fandom.com/)
+[^210323-9]: [Harry Potter WIKI](https://harrypotter.fandom.com/)
     "[Herpo the Foul](https://harrypotter.fandom.com/wiki/Herpo_the_Foul)"
     Last Edited 2021-03-13. Last Viewed 2021-03-23. 
 
-[^20200731-1]: Mrs. J. K. Rowling et al. 
+[^200731-1]: Mrs. J. K. Rowling et al. 
     "[Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, part one." PotterCast #130, 17
     December 2007.](http://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html)"
     [Accio-Quote](http://www.accio-quote.org/) Last viewed 2020-07-31. 
@@ -103,12 +104,14 @@ speak to this at all, and supplementary works Mrs. Rowling has since published
 online do, I similarly do not recall seeing it.  
 
 * Christian theology states that thought is at least partially a power of the
-  soul.[^20210810-1]  If you fragment your soul, you then, logically, fragment
+  soul.[^210810-1]  If you fragment your soul, you then, logically, fragment
   your ability to think.  You would thus render yourself either less intelligent,
   less sane, or both.  
 * As a slight variation to the above, it may be not your *intelligence* that is
   effected so much as less tangible aspects of your humanity.  You may become
-  more sociopathic, psychopathic, or both.[^20210810-2]
+  more sociopathic, psychopathic, or both.[^210810-2]
+* As a variation on either of the above, the effects may only be felt as the
+  horcruxes are destroyed.[^220714-2]
 * Magical ability may be linked to the soul.  If your horcrux is destroyed, you
   may lose some portion of your ability to project magical power, your stamina
   for so projecting, or both. 
@@ -117,49 +120,53 @@ online do, I similarly do not recall seeing it.
   whole?  If the former, how much of the soul must remain anchored to earth to
   prevent the death of the whole? 
 
-[^20210810-1]: Maher, Michael, and Joseph Bolland. "Soul." The Catholic
+[^220714-2]: Works that posit this:
+    * MK-ONE. _[The Weapon](https://www.fanfiction.net/s/7251416)_
+      Published: 2011-08-04. Updated: 2012-02-12.
+
+[^210810-1]: Maher, Michael, and Joseph Bolland. "Soul." The Catholic
     Encyclopedia. Vol. 14. New York: Robert Appleton Company, 1912. 2021-08-10
     <http://www.newadvent.org/cathen/14153a.htm>.
 
-[^20210810-2]: Works that posit this:
+[^210810-2]: Works that posit this:
     * SometimesSecretly. _[We will get through this](https://www.fanfiction.net/s/13773336)_ 
       [Chapter 27](https://www.fanfiction.net/s/13773336/27/We-will-get-through-this)
       Published: 2020-12-20. Updated: 2021-08-10. Last Viewed: 2021-08-10.
 
 #### Tom Riddle specifically
 
-Tom was said to be charming[^20210810-3], clever,[^20210810-8] able to fool even
-the very wise.[^20210810-9] How much of that do we see in the version of Riddle
+Tom was said to be charming[^210810-3], clever,[^210810-8] able to fool even
+the very wise.[^210810-9] How much of that do we see in the version of Riddle
 who appears on the back of Quirrell's head?  He makes a superficial attempt to
 persuade Harry to join him, before he starts snarling and
-threatening.[^20210810-10] His followers in the latter books seem to follow more
+threatening.[^210810-10] His followers in the latter books seem to follow more
 out of fear than out of any real expectation of gain or power.  
 
-[^20210810-10]: Mrs. J. K. Rowling. 
+[^210810-10]: Mrs. J. K. Rowling. 
     _[Harry Potter and the Sorcerer's Stone](https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone)_
     page 294. Pottermore Limited. American Kindle Edition. 
 
-[^20210810-9]: Mrs. J. K. Rowling. 
+[^210810-9]: Mrs. J. K. Rowling. 
     _[Harry Potter and the Chamber of Secrets](https://www.goodreads.com/book/show/15881.Harry_Potter_and_the_Chamber_of_Secrets)_
     page 330. Pottermore Limited. American Kindle Edition. 
 
-[^20210810-8]: Mrs. J. K. Rowling. 
+[^210810-8]: Mrs. J. K. Rowling. 
     _[Harry Potter and the Chamber of Secrets](https://www.goodreads.com/book/show/15881.Harry_Potter_and_the_Chamber_of_Secrets)_
     page 329. Pottermore Limited. American Kindle Edition. 
 
-[^20210810-3]: Mrs. J. K. Rowling. 
+[^210810-3]: Mrs. J. K. Rowling. 
     _[Harry Potter and the Half-Blood Prince](https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince)_
     © 2005. page 301. American Kindle Edition. 
 
 ### Harry's Scar
 
 Cannon makes it very clear that Mrs. Rowling has gone with 6 horcruxes plus
-[[Harry]]'s scar, plus the portion of the soul that floats around for the first
+[Harry][HJP1]'s scar, plus the portion of the soul that floats around for the first
 three point something books and is finally fully resurrected at the end of book
-four. That is fine, and her prerogative. When it comes to [[Harry]]'s scar, I
+four. That is fine, and her prerogative. When it comes to [Harry][HJP1]'s scar, I
 think that cannon is a bit ambiguous, and leaves open some legitimate
 speculation.  If you include interviews as part of cannon, then it starts to
-lean heavily in favour of it being … complicated.[^20200731-1]
+lean heavily in favour of it being … complicated.[^200731-1]
 
 I first read this in [The Thorny Rose 2][TTR213]:
 > "But if you know about the Horcruxes, then you will know that they can only be
@@ -170,62 +177,62 @@ I first read this in [The Thorny Rose 2][TTR213]:
 > case if Harry was a proper Horcrux, but he isn’t! His body was never prepared
 > in the correct manner that Horcrux receptacles are required to be and he
 > wasn’t subjected to a Binding Ritual, either. Voldemort’s sliver of soul isn’t
-> properly integrated with Harry’s," Ginny yelled in anger.[^20210311-1]
+> properly integrated with Harry’s," Ginny yelled in anger.[^210311-1]
  
 However I now know that this theory is more or less exactly what Mrs. Rowling
-intended:[^20200731-2] a horcrux has to be intentional, the bit of soul in
-[[Harry]]'s scar is not, therefor he is not a true horcrux.  Because he is not a
+intended:[^200731-2] a horcrux has to be intentional, the bit of soul in
+[Harry][HJP1]'s scar is not, therefor he is not a true horcrux.  Because he is not a
 true horcrux, it cannot take him over the way a real one would.  The pain is the
 bit of soul trying to rejoin the rest of Riddle; and the few times we see it
-actually influencing [[Harry]] it is because he is, independently, emotionally
+actually influencing [Harry][HJP1] it is because he is, independently, emotionally
 vulnerable to it due to feeling things similar to what Riddle would have been
 feeling. 
 
 Interestingly she insists that despite the fact that he is not a true horcrux,
-he would have had to be destroyed the same way.[^20210323-1] I, like [[Ginny]] in
+he would have had to be destroyed the same way.[^210323-1] I, like [Ginny][GMW1] in
 the fanfiction above, disagree on that.  It does not make sense. I prefer the
 theory "Anything enchanted can be disenchanted … there are many poor methods to
 solve a problem, but usually only one or a small number of elegant
-options."[^20210323-2]  Under this theory, few if any researchers have ever
+options."[^210323-2]  Under this theory, few if any researchers have ever
 discovered a way to disenchant a Horcrux that does *not* involve destruction of
 the object.  Of those who did discover such a way, they either left no records,
 left records inaccessible to Dumbledore, or (nearly the same thing) were someone
 considered untrustworthy by Dumbledore and thus not consulted. A variation of
 this theory is that there are people that Dumbledore trusts (like Bill Weasley)
 who had studied such records, but Dumbledore was so paranoid about knowledge of
-Horcruxes that he did not ask even people he trusted.[^20210323-3]
+Horcruxes that he did not ask even people he trusted.[^210323-3]
 
 Of course all of this assumes that the soul fragment is actually attached to
-*[[Harry]]* and not something embedded in his scar.[^20210330-46]  It is very
+*[Harry][HJP1]* and not something embedded in his scar.[^210330-46]  It is very
 clear that Mrs. Rowling intends precisely that; works with something in the scar
 really fall into the "nonsense" section below. 
 
 [TTR213]: <http://www.siye.co.uk/viewstory.php?sid=129781&textsize=1&chapter=13>
 
-[^20210330-46]: White Angel of Auralon.
+[^210330-46]: White Angel of Auralon.
     _[Champion](https://www.fanfiction.net/s/8754033)_
     [FanFiction](https://www.fanfiction.net) Originally Published: 2012-12-01.
     Updated: 2013-10-27. Last Viewed: 2021-03-30.
 
-[^20210311-1]: Brennus. _[The Thorny Rose  2](https://www.siye.co.uk/viewstory.php?sid=129781)_
+[^210311-1]: Brennus. _[The Thorny Rose  2](https://www.siye.co.uk/viewstory.php?sid=129781)_
     [Chapter 13](https://www.siye.co.uk/viewstory.php?sid=129781&textsize=1&chapter=13)
     Published: 2013-12-29. Updated: 2014-02-23. Last Viewed: 2021-03-11.
 
-[^20200731-2]: Mrs. J. K. Rowling et al. 
+[^200731-2]: Mrs. J. K. Rowling et al. 
     "[Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, 
     part one." PotterCast #130, 17 December 2007.](http://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html)" 
     [Accio-Quote](http://www.accio-quote.org/) Last viewed 2020-07-31. 
 
-[^20210323-1]: Mrs. J. K. Rowling et al. 
+[^210323-1]: Mrs. J. K. Rowling et al. 
     "[Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, 
     part one." PotterCast #130, 17 December 2007.](http://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html)" 
     [Accio-Quote](http://www.accio-quote.org/) Last viewed 2020-07-31. 
 
-[^20210323-2]: DisobedienceWriter.
-    _[[[Harry]] Potter and the Muggle Mess](https://www.fanfiction.net/s/5180286)_
+[^210323-2]: DisobedienceWriter.
+    _[[Harry][HJP1] Potter and the Muggle Mess](https://www.fanfiction.net/s/5180286)_
     Published 2009-06-30. Last Viewed 2021-03-23. 
 
-[^20210323-3]: I know someone not me actually came up with this theory first,
+[^210323-3]: I know someone not me actually came up with this theory first,
     but to give them credit I have to re-find it.
 
 ### Mostly Unsupported Nonsense
@@ -257,7 +264,7 @@ Queen](https://www.fanfiction.net/s/11500936).  From Chapter 32:
 > became clear that while the diary contained some sort of consciousness that
 > interacted with her “the one thing it lacked was a soul, which it was slowly
 > leeching as she wrote more and more in the diary. I also reviewed the memory
-> of [[Harry]] Potter from his encounter with the construct of Tom Marvolo Riddle
+> of [Harry][HJP1] Potter from his encounter with the construct of Tom Marvolo Riddle
 > when he ultimately destroyed the diary, and from that came to a rather
 > astonishing conclusion.”
 > 
@@ -273,7 +280,7 @@ Queen](https://www.fanfiction.net/s/11500936).  From Chapter 32:
 > this process, and since it was destroyed before the process completed the soul
 > was able to return to its natural body once control was lost. At least that's
 > what I think happened; as I said, I've never seen anything quite like it
-> before.”[^20200625-1]
+> before.”[^200625-1]
 
 Imagine the staggering implications of that.  It is the one criticism I have of
 that story, that the author _did not_ really explore the can of worms that
@@ -285,7 +292,7 @@ much in the graveyard scene.
 > I, who have gone further than anybody along the path that leads to
 > immortality. You know my goal to conquer death. And now, I was tested, and it
 > appeared that one or more of my experiments had worked . . . for I had not
-> been killed, though the curse should have done it.[^20200625-2]
+> been killed, though the curse should have done it.[^200625-2]
 
 Six essentially identical horcruxes really doesn't constitute a situation where
 you would say "one or more of my experiments had worked."  I mean, the idea that
@@ -308,11 +315,11 @@ from, because the author implicitly assumes that there is no wraith to
 resurrect. The problem is that Riddle's existence in the first book contradicts
 the theory.  The part of his soul that was not in a horcrux did not pass on, but
 rather fled, without a body (or container) to the forest in
-Albania.[^20210324-4]  
+Albania.[^210324-4]  
 
 Building on that, given that the soul does not really split, lets force the
 death of one segment, by throwing a horcrux through the veil, and let it pull
-the other segments through with it.[^20210324-5] The cannon discrepancy from
+the other segments through with it.[^210324-5] The cannon discrepancy from
 that work is that the diary horcrux was destroyed by the basilisk fang, so while
 the soul parts are not entirely disconnected (and so can be anchors) they are
 not entirely connected either (the containers can be de-horcrux-ified if
@@ -321,20 +328,39 @@ destroyed).
 I suppose you could speculate on if the *soul fragment* was destroyed with the
 diary or not.  It is theoretically possible that instead of dying that soul
 fragment was released from the container.  The problem then would be explaining
-what is up with [[Harry]]'s scar, since we are told that a soul fragment latched on
+what is up with [Harry][HJP1]'s scar, since we are told that a soul fragment latched on
 to him, instead of rejoining some other soul fragment (or the main soul piece
 that was the wraith). 
 
-[^20210324-5]: Yunaine.
+Alternately, it seems to be a favourite idea in any number of fan fiction works
+to think that resurrecting the person who created the horcrux consumes that
+horcrux.  Under this theory, the portion of the soul in the killed body, or
+destroyed horcrux, *does* pass on, but having left behind a portion of their
+soul anchored to this world, that portion can be attached to a body, and will
+become the new primary fragment.  I see no support for this idea in cannon,
+nor, counting the various horcruxes that [Harry][HJP1] and [Dumbledore][AD1]
+between them find and destroy, do I see room for one to have been used but not
+mentioned in book four.  This idea suffers from many of the rebuttals listed
+above as well.
+
+[HJP1]: <{{< relref "Harry_James" >}}>
+
+[GMW1]: <{{< relref "Ginevra_Molly" >}}>
+
+[TMR1]: <{{< relref "Tom_Marvolo" >}}>
+
+[AD1]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
+
+[^210324-5]: Yunaine.
     _[Public Safety](https://www.fanfiction.net/s/10387771)_
     Published: 2014-05-29. Last Viewed: 2021-03-24.
 
-[^20210324-4]: Mrs. J. K. Rowling. _Harry Potter and the Philosopher's Stone_.
+[^210324-4]: Mrs. J. K. Rowling. _Harry Potter and the Philosopher's Stone_.
     Better citation needed.
 
-[^20200625-2]: Mrs. J. K. Rowling. _Harry Potter and the Goblet of Fire_ (Kindle Locations 9729-9731). Pottermore Limited. American Kindle Edition. 
+[^200625-2]: Mrs. J. K. Rowling. _Harry Potter and the Goblet of Fire_ (Kindle Locations 9729-9731). Pottermore Limited. American Kindle Edition. 
 
-[^20200625-1]: offsides.  
+[^200625-1]: offsides.  
     _[Long Live The Queen](https://www.fanfiction.net/s/11500936)_ <https://fanfiction.net> Last Viewed 2020-06-25.
 
 [[!tag "HP Notes"]]
