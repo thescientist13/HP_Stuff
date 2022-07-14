@@ -112,26 +112,26 @@ Dumbledore are.  In no particular order:
   calculated the final revelation is, I think there is more to it.  Dumbledore
   is not leaving anything to chance - I agree with fanfiction authors who
   think that Dumbledore has, in the choices he has made regarding
-  [Harry][HJP10]'s upbringing, purposefully worked to shape [Harry][HJP11] into
-  someone who will make that choice.  This does not negate [Harry][HJP12]'s
-  virtue; Dumbledore is building on [[Harry]]'s nature, not creating it out of whole cloth.
-  Honestly, if Dumbledore were as calculating about subjecting [[Harry]]
+  [Harry][HJP1]'s upbringing, purposefully worked to shape [Harry][HJP1] into
+  someone who will make that choice.  This does not negate [Harry][HJP1]'s
+  virtue; Dumbledore is building on [Harry][HJP1]'s nature, not creating it out of whole cloth.
+  Honestly, if Dumbledore were as calculating about subjecting [Harry][HJP1]
   to abuse as some authors would have him, then he took an incredibly
-  reckless chance.  Dumbledore knows how similar [[Harry]]'s situation is to
-  [[Riddle]]'s childhood.  I think that this plan is something that Dumbledore
+  reckless chance.  Dumbledore knows how similar [Harry][HJP1]'s situation is to
+  [Riddle][TMR1]'s childhood.  I think that this plan is something that Dumbledore
   came to over time, not something he intended from the beginning.
-* Dumbledore placed Mrs. Figg to watch [[Harry]].  She knows she has to be
+* Dumbledore placed Mrs. Figg to watch [Harry][HJP1].  She knows she has to be
   unpleasant to him to retain access to him and thus fulfilled her mission.
   Surely this was reported to Dumbledore over the years.  He presumably
   did not believe her, possibly because she is a squib, and he has some
   of the pure-blood's unconscious prejudices against them.  Alternately,
-  while he does believe her, he risks both [[Harry]] turning evil and [[Harry]]'s
-  health, because he views the odds that [[Harry]] will be killed by a Death
-  Eater and/or a returned [[Riddle]] that probable.  There _must_ have been some
+  while he does believe her, he risks both [Harry][HJP1] turning evil and [Harry][HJP1]'s
+  health, because he views the odds that [Harry][HJP1] will be killed by a Death
+  Eater and/or a returned [Riddle][TMR1] that probable.  There _must_ have been some
   middle ground.  Between Dumbledore's civil authority on the Wizengamot,
   and his experience with and control over magic, he could have dome
-  *something* to intervene in [[Harry]]'s treatment.  
-* The above and [[much more|treatment_of_Harry]] concerning [[Harry]]. 
+  *something* to intervene in [Harry][HJP1]'s treatment.  
+* The above and [[much more|treatment_of_Harry]] concerning [Harry][HJP1]. 
 * And even more about [[how he dealt with Riddle|Dealing_with_Riddle]].
 
 [TMR7]: <{{< relref "Tom_Marvolo" >}}>
@@ -192,13 +192,13 @@ if [[Grindelwald]] tolerated it, but did not actually care one way or another
 about the justification for actions he intended to take either way.  
 
 Ms. Richa Venkatraman wrote a defence of Dumbledore on MuggleNet[^190301-1] in
-which she seems to express well the view that [[Harry]] himself has in the book,
+which she seems to express well the view that [Harry][HJP1] himself has in the book,
 that Dumbledore is ultimately a good, if flawed, person.  I have trouble with
 this, Dumbledore's unstated philosophy seems way too close to "the ends justify
 the means," and I am far from convinced that it differs in any important detail.
 
 The ends (the greater good) do not justify the means (cooperating with (in a
-moral sense) the abuse [[Harry]] suffers).  Similarly, Dumbledore is right,
+moral sense) the abuse [Harry][HJP1] suffers).  Similarly, Dumbledore is right,
 children do need to learn to deal with all sorts of people, even difficult
 authority figures.[^211022-4]  However, *his* responsibility, as headmaster, is
 to foster a healthy, safe, and effective learning environment.  Students might
@@ -230,9 +230,9 @@ different circumstances across the books.
 The principle of the double effect can be a valid defence.[^210914-5]  It only
 actually applies to morally good and morally neutral acts done for good ends
 that have incidental evil by-products.  Thus Dumbledore might justify placing
-[[Harry]] with the [[Dursleys]] if he *truly* **only** intended to save his
+[Harry][HJP1] with the [Dursleys][DF1] if he *truly* **only** intended to save his
 life, and did not also intend the "dark" and "difficult years"[^200624-2] to
-temper a perceived Potter tendency towards over-egoism.  If [[Harry]]'s
+temper a perceived Potter tendency towards over-egoism.  If [Harry][HJP1]'s
 suffering was an *aim* of the placement, then the act was not morally good nor
 even morally neutral, and thus not protected by this principle even if saving
 his life was also intended.  We naturally cannot definitively know which of
@@ -254,7 +254,7 @@ back to is echoed in at least one fanfiction I have read:
 > No, the world needed this Harry, shy, polite, an indifferent student, and utterly
 > incurious, save for what he could learn about his parents.[^200721-1]
 
-While that fanfiction's depiction of [[Harry]] is somewhat out of character, it
+While that fanfiction's depiction of [Harry][HJP1] is somewhat out of character, it
 is close enough that the depiction of Dumbledore's thoughts, here quoted, is
 disturbingly believable. 
 
@@ -306,10 +306,10 @@ values and judgements, he can be judged to be sinful, but not mortally
 sinful, and thus not evil. It is only where he is self deceptive, that
 is he knows his arguments are either not cogent or not based on true
 value propositions, that he can be held mortally accountable, and thus
-potentially evil.  In this Dumbledore contrasts positively with [[Riddle]],
+potentially evil.  In this Dumbledore contrasts positively with [Riddle][TMR1],
 who quite frankly doesn't care about either the cogency or the validity
 of his decisions. Dumbledore is certainly _less evil_ though possibly
-_more morally dangerous_ (in that he is more insidious) than [[Riddle]].
+_more morally dangerous_ (in that he is more insidious) than [Riddle][TMR1].
 
 Dumbledore might (almost certainly is) wrong about what the Greater
 Good looks like. He is certainly wrong about what he can and cannot do
@@ -320,23 +320,25 @@ with faint praise, or giving him what little credit is due.
 
 That being said, was Dumbledore a master of [[manipulation|Manipulator]], or
 was he just as much reacting to an out of control situating that he abhorred as
-[[Harry]] is?  In other words, just how much of the world situation is he in
+[Harry][HJP1] is?  In other words, just how much of the world situation is he in
 fact responsible for?  We cannot ultimately know. 
 
 That being said, I keep coming back to Dumbledore's inaction.  The end of
 [Chapter 4][PaMOD41] is too long to block quote and expect my point to come
 across, but it does convey what I am thinking fairly well.  Consider:
 
-* Dumbledore knows that [[Riddle]] will return: this is his justification for
-  leaving [[Harry]] with the [[Dursleys]]. 
+* Dumbledore knows that [Riddle][TMR1] will return: this is his justification for
+  leaving [Harry][HJP1] with the [Dursleys][DF1]. 
 * Dumbledore seemingly does nothing about this for eleven years. 
-* Dumbledore not only does nothing about [[Riddle]], he allows
+* Dumbledore not only does nothing about [Riddle][TMR1], he allows
   [[Malfoy|Families/Malfoy]] and others to be a continued influence on society. 
-* Dumbledore conveniently sets up a situation where [[Riddle]] will be at
-  [[Hogwarts]] the same year [[Harry]] starts.[^210915-1]
+* Dumbledore conveniently sets up a situation where [Riddle][TMR1] will be at
+  [[Hogwarts]] the same year [Harry][HJP1] starts.[^210915-1]
 * Dumbledore learns of the Horcruxes no later than the end of the second book,
   yet it is not until the summer between the fifth and sixth that he has found
   even one.
+
+[DF1]: <{{< ref "Harrypedia/people/Dursley" >}}>
 
 This train of thought leads Sirius to the following:
 > "No one will be hurting Harry even if I couldn't get rid of the Horcrux- Oh I
@@ -352,10 +354,10 @@ This train of thought leads Sirius to the following:
 > this out and act, what have you been doing? Waiting for Harry to grow up and
 > do your job for you?"[^210915-2]
 
-Dumbledore was approximately 100 years old when [[Riddle]] disappeared that
+Dumbledore was approximately 100 years old when [Riddle][TMR1] disappeared that
 Halloween in 1981.  If he was [[too tired|Inaction]] to deal with things, he
 should have retired.  If he was not going to retire, then he *should have
-acted.*  The whole situation with [[Riddle]] [[reeks|Dealing_with_Riddle]].
+acted.*  The whole situation with [Riddle][TMR1] [[reeks|Dealing_with_Riddle]].
 
 [IEPU2]: https://iep.utm.edu/util-a-r/
 
@@ -437,7 +439,7 @@ Interestingly, Wikipedia confirms that "Warlock" does in fact imply
 both male magic user and betrayer.[^200720-2] This contrasts
 interestingly with "witch,"[^200720-3] "wizard"[^200720-4] and
 "sorcerer"[^200720-5] that apparently have an etymology of simply being
-a magic user.  Any work trying to work in the [[Harry]] Potter universe has
+a magic user.  Any work trying to work in the [Harry][HJP1] Potter universe has
 to go fictional at some point, since in true history magic is always
 associated with the pagan, the satanic, or both.  So it is noteworthy
 that the common titles they use, "witch" and "wizard," have no negative
@@ -543,10 +545,10 @@ Elemental](https://www.fanfiction.net/s/11995519/)_, Dumbledore is subtle,
 Dumbledore is prejudiced and does not in fact want muggleborns to fit
 in.[^200813-3]  He does not subvert the Goblins, he simply trusts their nature
 not to tell a wizard about something he or she does not ask about (other
-vaults).  [[Harry]] *is* missing critical information about the society around him,
+vaults).  [Harry][HJP1] *is* missing critical information about the society around him,
 but its effects are such that you can see the connection to the way the books
 turned out (with a few exceptions like [[Ron]]).  There is a hidden (non-Gringotts)
-vault full of stuff that book [[Harry]] might well never have found, but which
+vault full of stuff that book [Harry][HJP1] might well never have found, but which
 you can picture actually existing.  Subtle, understated manipulations that let
 people fool themselves.  That I think is a very very canonical representation of
 Dumbledore. 
