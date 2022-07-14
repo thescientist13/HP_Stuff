@@ -1,22 +1,23 @@
-[[!meta title="Horcruxes"]]
++++
+title = "Horcruxes"
+author = "Luke Schierer"
++++
 
 First of all, I'm not going to even start about what the proper plural is.  I
 do not care.  Horcruxes works, and I am going to go with that. 
 
 I am also going to use this page for the general discussion of whatever magic it
-was that 1) allowed Riddle to survive hitting [[Harry]] with the killing curse and
-2) affects [[Harry]]'s scar regardless of if that magic is actually a horcrux or
+was that 1) allowed [Riddle][TMR1] to survive hitting [Harry][HJP1] with the killing curse and
+2) affects [Harry][HJP1]'s scar regardless of if that magic is actually a horcrux or
 not.
-
-[[!toc levels=2 startlevel=3]]
 
 ### Origin
 
 One place I want to quibble with cannon is on the origin of Horcruxes. Mrs.
-Rowling would have Herpo the Foul be essentially the prefigurement of Riddle, an
-evil dark wizard who deals with Parseltongue, a basilisk, and a
-horcrux.[^20210323-9]  She tries to rescue this a bit by saying in an interview
-that others experimented with this before him, but did not
+Rowling would have Herpo the Foul be essentially the prefigurement of
+[Riddle][TMR1], an evil dark wizard who deals with Parseltongue, a basilisk,
+and a horcrux.[^20210323-9]  She tries to rescue this a bit by saying in an
+interview that others experimented with this before him, but did not
 succeed.[^20210323-10]  This might be nice neat foreshadowing for a novel, but I
 find it unrealistic and hokey world building; the caveat made in the interview
 is too little, too late. 
@@ -29,7 +30,7 @@ BC.[^20210323-13]  For my purposes the overlap is actually useful.
 
 DisobedienceWriter wrote a fairly extensive one-shot, _[The Valley of the Kings
 Massacre][TVotKM]_, which focused a fair amount on horcruxes.  I dislike the
-characterisation of [[Harry]] in this work, but I do like some of the backstory it
+characterisation of [Harry][HJP1] in this work, but I do like some of the backstory it
 posits. He suggests that the Egyptian priest class delved deep into runic magic
 and soul magic, including Horcruxes and "the ancestor of the modern Killing
 Curse."[^20210323-14] In my mind both the killing curse and horcruxes are evil,
@@ -48,7 +49,7 @@ it being convenient that the two civilisations overlap.
 
 Several centuries later, Wong Shan-Hao (from Itsme66's work) attempted a
 horcrux, but botched the creation, explaining the intact one on display in the
-Imperial Museum of Magic.[^20210324-1]  [[Dumbledore]]'s failure to know about and
+Imperial Museum of Magic.[^20210324-1]  [Dumbledore][AD1]'s failure to know about and
 properly investigate what an intact horcrux is doing in the Imperial Museum is a
 testimony to his overall dependence on the prophecy, and failure to act. 
 
@@ -154,9 +155,9 @@ out of fear than out of any real expectation of gain or power.
 ### Harry's Scar
 
 Cannon makes it very clear that Mrs. Rowling has gone with 6 horcruxes plus
-[[Harry]]'s scar, plus the portion of the soul that floats around for the first
+[Harry][HJP1]'s scar, plus the portion of the soul that floats around for the first
 three point something books and is finally fully resurrected at the end of book
-four. That is fine, and her prerogative. When it comes to [[Harry]]'s scar, I
+four. That is fine, and her prerogative. When it comes to [Harry][HJP1]'s scar, I
 think that cannon is a bit ambiguous, and leaves open some legitimate
 speculation.  If you include interviews as part of cannon, then it starts to
 lean heavily in favour of it being … complicated.[^20200731-1]
@@ -174,15 +175,15 @@ I first read this in [The Thorny Rose 2][TTR213]:
  
 However I now know that this theory is more or less exactly what Mrs. Rowling
 intended:[^20200731-2] a horcrux has to be intentional, the bit of soul in
-[[Harry]]'s scar is not, therefor he is not a true horcrux.  Because he is not a
+[Harry][HJP1]'s scar is not, therefor he is not a true horcrux.  Because he is not a
 true horcrux, it cannot take him over the way a real one would.  The pain is the
 bit of soul trying to rejoin the rest of Riddle; and the few times we see it
-actually influencing [[Harry]] it is because he is, independently, emotionally
+actually influencing [Harry][HJP1] it is because he is, independently, emotionally
 vulnerable to it due to feeling things similar to what Riddle would have been
 feeling. 
 
 Interestingly she insists that despite the fact that he is not a true horcrux,
-he would have had to be destroyed the same way.[^20210323-1] I, like [[Ginny]] in
+he would have had to be destroyed the same way.[^20210323-1] I, like [Ginny][GMW1] in
 the fanfiction above, disagree on that.  It does not make sense. I prefer the
 theory "Anything enchanted can be disenchanted … there are many poor methods to
 solve a problem, but usually only one or a small number of elegant
@@ -196,7 +197,7 @@ who had studied such records, but Dumbledore was so paranoid about knowledge of
 Horcruxes that he did not ask even people he trusted.[^20210323-3]
 
 Of course all of this assumes that the soul fragment is actually attached to
-*[[Harry]]* and not something embedded in his scar.[^20210330-46]  It is very
+*[Harry][HJP1]* and not something embedded in his scar.[^20210330-46]  It is very
 clear that Mrs. Rowling intends precisely that; works with something in the scar
 really fall into the "nonsense" section below. 
 
@@ -222,7 +223,7 @@ really fall into the "nonsense" section below.
     [Accio-Quote](http://www.accio-quote.org/) Last viewed 2020-07-31. 
 
 [^20210323-2]: DisobedienceWriter.
-    _[[[Harry]] Potter and the Muggle Mess](https://www.fanfiction.net/s/5180286)_
+    _[[Harry][HJP1] Potter and the Muggle Mess](https://www.fanfiction.net/s/5180286)_
     Published 2009-06-30. Last Viewed 2021-03-23. 
 
 [^20210323-3]: I know someone not me actually came up with this theory first,
@@ -257,7 +258,7 @@ Queen](https://www.fanfiction.net/s/11500936).  From Chapter 32:
 > became clear that while the diary contained some sort of consciousness that
 > interacted with her “the one thing it lacked was a soul, which it was slowly
 > leeching as she wrote more and more in the diary. I also reviewed the memory
-> of [[Harry]] Potter from his encounter with the construct of Tom Marvolo Riddle
+> of [Harry][HJP1] Potter from his encounter with the construct of Tom Marvolo Riddle
 > when he ultimately destroyed the diary, and from that came to a rather
 > astonishing conclusion.”
 > 
@@ -321,9 +322,17 @@ destroyed).
 I suppose you could speculate on if the *soul fragment* was destroyed with the
 diary or not.  It is theoretically possible that instead of dying that soul
 fragment was released from the container.  The problem then would be explaining
-what is up with [[Harry]]'s scar, since we are told that a soul fragment latched on
+what is up with [Harry][HJP1]'s scar, since we are told that a soul fragment latched on
 to him, instead of rejoining some other soul fragment (or the main soul piece
 that was the wraith). 
+
+[HJP1]: <{{< relref "Harry_James" >}}>
+
+[GMW1]: <{{< relref "Ginevra_Molly" >}}>
+
+[TMR1]: <{{< relref "Tom_Marvolo" >}}>
+
+[AD1]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
 
 [^20210324-5]: Yunaine.
     _[Public Safety](https://www.fanfiction.net/s/10387771)_
