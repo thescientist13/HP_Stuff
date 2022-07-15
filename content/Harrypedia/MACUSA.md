@@ -1,4 +1,7 @@
-[[!meta title="Magical Congress of the United States of America (MACUSA)"]]
++++
+title = "Magical Congress of the United States of America (MACUSA)"
+author = "Luke Schierer"
++++
 
 Mrs. Rowling would have this established in 1693[^210228-8] with the primary 
 end of enforcing the International Statute of Wizarding Secrecy, and 
@@ -17,9 +20,9 @@ users.[^210228-10]  There are a couple of problems with this.
 	 established government would have no authority over the Native American
 	 tribes.  The histories I see on [WizardingWorld][ww] do not account for any
 	 subjugation of the wizards and witches in these populations.  I suspect that
-	 you would see few wands among them, but that you *would* see varieties of
-	 animagi or at least methods of becoming one, unknown to Europe, as well as a
-	 wide variety of potions.  
+	 you would see few wands among them,[^220715-2] but that you *would*
+	 see varieties of animagi or at least methods of becoming one, unknown
+	 to Europe, as well as a wide variety of potions.  
 3. The government and society she describes ignores the Cajun culture, with its
 	 voodoo and spiritualism.  In the Harry Potter world, this would be an area
 	 where the ISWS is stretched to the limit, and oblivators are running around
@@ -43,9 +46,9 @@ prequel Fantastic Beasts movies will be used as cannon only where convenient.
 
 My gut instinct is that Mrs. Rowling has created this extensive segment of
 backstory in support of the Fantastic Beasts movies.  However, as I show when
-looking at [[Professor McGonagall|adults/McGonagall]], she has actually
-*introduced* problems in even her own content with these books.  Like with [Star
-Wars][], we are seeing revisionist history.[^211018-4]
+looking at [Professor McGonagall][MM1], she has actually *introduced* problems
+in even her own content with these books.  Like with [Star Wars][], we are
+seeing revisionist history.[^211018-4]
 
 The problem with rejecting this backstory and these sections from Fantastic
 Beasts is that it leaves us yet another plot hole.  What sort of government
@@ -54,6 +57,8 @@ government, then given how closely we ally with Great Britain, why has the US
 government not helped alleviate the ignorance the UK government has concerning
 the magical world?[^211210-1]
 
+[MM1]: <{{< relref "Minerva" >}}>
+
 [Star Wars]: https://www.starwars.com/
 
 [ww]: <https://www.wizardingworld.com/>
@@ -61,6 +66,10 @@ the magical world?[^211210-1]
 [^211210-1]: This comes up in other works as well, but reading
   _[Exodus](https://www.fanfiction.net/s/11460241)_ by Nigelcat1 triggered me to
   actually realise the severity of the problem.  
+
+[^220715-2]: Wands are essentially European: Mrs. J. K. Rowling.
+    "[Uagadou](https://www.rowlingindex.org/work/pmuag/)"
+    Published: 2016-01-31. 
 
 [^211018-4]: Documentation on the way [Star Wars](https://www.starwars.com/) has
     changed over time: 
@@ -87,18 +96,19 @@ the magical world?[^211210-1]
       re-releases](https://en.wikipedia.org/wiki/Changes_in_Star_Wars_re-releases)"
       Last Edited: 2021-10-16.
 
-[^210228-8]: Mrs. J. K. Rowling. "[The Magical Congress of the United States of America (MACUSA)](https://www.wizardingworld.com/writing-by-jk-rowling/macusa)" 
+[^210228-8]: Mrs. J. K. Rowling. 
+    "[The Magical Congress of the United States of America (MACUSA)](https://www.wizardingworld.com/writing-by-jk-rowling/macusa)" 
     Originally published on Pottermore; 2016-10-06.  © WIZARDING WORLD DIGITAL 2021 <https://www.wizardingworld.com/> Last Viewed 2021-02-28.
 
-[^210228-9]: Mrs. J. K. Rowling. "[The Magical Congress of the United States of America (MACUSA)](https://www.wizardingworld.com/writing-by-jk-rowling/macusa)" 
+[^210228-9]: Mrs. J. K. Rowling. 
+    "[The Magical Congress of the United States of America (MACUSA)](https://www.wizardingworld.com/writing-by-jk-rowling/macusa)" 
     Originally published on Pottermore; 2016-10-06.  © WIZARDING WORLD DIGITAL 2021 <https://www.wizardingworld.com/> Last Viewed 2021-02-28.
 
-[^210228-10]: Mrs. J. K. Rowling. "[The Magical Congress of the United States of America (MACUSA)](https://www.wizardingworld.com/writing-by-jk-rowling/macusa)" 
+[^210228-10]: Mrs. J. K. Rowling. 
+    "[The Magical Congress of the United States of America (MACUSA)](https://www.wizardingworld.com/writing-by-jk-rowling/macusa)" 
     Originally published on Pottermore; 2016-10-06.  © WIZARDING WORLD DIGITAL 2021 <https://www.wizardingworld.com/> Last Viewed 2021-02-28.
 
 [^210228-11]: © 2020 The Statue of Liberty - Ellis Island Foundation, Inc. All
     Rights Reserved.  "[OVERVIEW + HISTORY Ellis	Island](https://www.statueofliberty.org/ellis-island/overview-history/)"
     <https://www.statueofliberty.org/> Last Viewed 2021-02-28. 
-
-[[!tag "HP Notes"]]
 
