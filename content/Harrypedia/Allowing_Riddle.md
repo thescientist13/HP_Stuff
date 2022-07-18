@@ -1,4 +1,8 @@
-[[!meta title="The Society that Allowed Riddle"]]
++++
+title = "The Society that Allowed Riddle"
+author = "Luke Schierer"
+date = "2021-10-20T19:21:56-04:00"
++++
 
 Like other fan fiction writers before me, I am curious about how Riddle came to
 have the power to rock magical world the way he did.  Again, like others before
@@ -7,9 +11,9 @@ or personal charisma, but at least in part in the society that he so devastated.
 What, then, did this society look like?  Why, ultimately, was Riddle possible?
 
 Rowling has confirmed that she deliberately drew parallels between the magical
-society that [[Harry]] reenters at age eleven and that of Nazi
+society that [Harry][HJP1] reenters at age eleven and that of Nazi
 Germany.[^211004-1] However, as I have noted elsewhere in these
-[[notes|fiction/Harry_Potter/Notes]], Mrs. Rowling does not make incredibly
+[notes]({{< relref "Harrypedia" >}}), Mrs. Rowling does not make incredibly
 consistent use of real world history, thus the parallel she is attempting to
 draw is flawed.[^211004-2]  If you strip away the magical bonds stuff that
 Radaslab adds[^211004-3], and the technomacy stuff that Aaran St Vines
@@ -27,20 +31,22 @@ it from 1544.[^211004-5]  Both assume that its membership
  * came to delegate some or all of its authority to the [[Ministry of
    Magic|Culture]]. 
 
+[HJP1]: <{{< relref "Harry_James" >}}>
+
 Both further speculate that the Potters have a hereditary seat on the
 Wizengamot, that said seat wields a fair amount of power, and that seat becomes
 central to the plot without making the story solely a political thriller.  This
 last bit is probably the biggest problem with the scenario, Mrs. Rowling tells us
 that only two Potters have sat on the Wizengamot, but that both were effectively
-at critical times in history.[^211004-6]  As I state in my [[Potter
-Family notes|Families/Potter]], the co-incidental timing makes me think that
-perhaps the Potters typically appoint proxies for some unknown reason, but that
-theory is a stretch.  Leaving aside the exact structure of the Wizengamot, lets
-assume the above speculation is essentially accurate.  It still does not tell us
-enough. 
+at critical times in history.[^211004-6]  As I state in my [Potter
+Family notes]({{< ref "Harrypedia/people/Potter/" >}}), the co-incidental
+timing makes me think that perhaps the Potters typically appoint proxies for
+some unknown reason, but that theory is a stretch.  Leaving aside the exact
+structure of the Wizengamot, lets assume the above speculation is essentially
+accurate.  It still does not tell us enough. 
 
 Mrs. Rowling tells us that while the blood status ideology may have started with
-[[Slytherin|Hogwarts/Founding]], it did not really gain prominence or social
+[Slytherin]({{< relref "Salazar" >}}), it did not really gain prominence or social
 acceptance until the Statute of Secrecy came into effect.[^211004-7]  While 270
 or 280 years, depending on when you date Riddle's power base from, is a long
 time, it pales beside the amount of time that Jews have been used as scapegoats
@@ -62,7 +68,7 @@ real political power quite possibly, but within the context of some existing
     [The J.K. Rowling Index](https://www.rowlingindex.org/)
     2012-10-18. Last Viewed: 2021-10-04. 
 
-[^211004-8]: See the Lifespan section of my notes on [[Magic]]. 
+[^211004-8]: See the Lifespan section of my notes on [Magic]({{< relref "Magic" >}}). 
 
 [^211004-1]: 
     * Mrs. J. K. Rowling.
