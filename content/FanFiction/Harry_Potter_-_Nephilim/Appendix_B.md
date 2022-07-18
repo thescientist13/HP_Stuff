@@ -67,11 +67,12 @@ From the Thrones
 :   The Thrones contemplate Judgement.
 :   While the Thrones, like the Seraphim, are primarily contemplative, the
     inheritance from them is, again like that from the Seraphim, much more
-    active.  The nephil has the ability to bind the will of other nephilim.
-    For the purposes of this story, and *unlike cannon Harry Potter*, this
-    ability has marginal *at best* affect on full humans. Things like the
-    imperious curse or the confundus charm fit in here.  Thus fan fiction
-    concepts like magical contracts are actually possible.
+    active.  The nephil has the ability to bind the will of other nephilim, and
+    to defend against being so bound.  For the purposes of this story, and
+    *unlike cannon Harry Potter*, this ability has marginal *at best* affect on
+    full humans. Things like the imperious curse or the confundus charm fit in
+    here.  Thus fan fiction concepts like magical contracts are actually
+    possible.
     
 Dominions
 :   These angels are responsible for ordering the work of all other angels.
@@ -104,7 +105,7 @@ From the Virtues
 
 Powers
 :   Powers are the first of the overtly militant angelic orders (looking from
-    top down).  They prevent the work of the Virtues from interference.  This,
+    top down).  They protect the work of the Virtues from interference.  This,
     to me, implies that God providentially foresaw that giving angels free will
     would entail a universe in which that free will was exercised in wrong
     ways. 
@@ -113,19 +114,25 @@ Powers
     also stasis charms on the other.  Divination is *not* included in this
     ability, that is something different.  When used on a magical effect, you
     can make it last longer (even permanently) or shorter (a finite incantatem
-    charm for example totally cancels it).  
+    charm for example totally cancels it).  The relationship to this and the
+    parent angel's ability is indirect.  What would a nephil inherit from an
+    order whose work is to interfere with the work of fallen angels? I decided
+    that preserving/extending and/or shortening/ending magical effects is a
+    good way to go.  Playing with Time to do so links them more closely with
+    the Dominions and Virtues, and thus fits with the three groups of three
+    thing that traditional sources of information on angels give us. 
 
 Principalities
 :   The principalities are concerned with groups of people - nations, cities,
     clubs, ethnic groups.  They are not concerned with the individual, but with
     the common good.  
-:   The nephil inherits the ability to create area effects on populations
-    (unplottable, "muggle repelling", so on). This differs from the Thrones in
-    that the gifts from the Thrones affect individuals regardless of location.
-    The gifts from the Principalities affect whoever, full human or nephil, is
-    in the right location to be affected, and no one who is not in relationship
-    to that location.  Your ability to see into a place, remember a place, stay
-    near a place, so on.
+:   The nephil inherits the ability to create area effects on populations and
+    areas.  (unplottable, "muggle repelling", so on). This differs from the
+    Thrones in that the gifts from the Thrones affect individuals regardless of
+    location.  The gifts from the Principalities affect whoever, full human or
+    nephil, is in the right location to be affected, and no one who is not in
+    relationship to that location.  Your ability to see into a place, remember
+    a place, stay near a place, so on.
 
 Archangels
 :   These angels are tasked with particular goals in particular times and
@@ -204,6 +211,26 @@ transfiguration
 :   comes primarily from the Dominions, but is highly temporary unless you use
     abilities from the Virtues to augment reality to make a permanent change
     possible *as you make the change*.
+    - Gramp's Law is problematic.  As noted in the [Harry Potter Wiki][HPW1],
+      even Gramp's Law's exceptions seem to have exceptions, for example wine
+      can be conjured.[^220718-1] For my purposes the problems are two fold: 
+      * transfiguration is temporary by default.  Your transfigured food will
+	revert.  For something like water into wine, that is not actually a problem.  For
+	something like a sandwich, you would now have a block o wood (if you
+	transfigured it out of wood) instead of something digestible.
+      * Successful *permanent* transfiguration means transmuting the actual
+	substance all the way down to the subatomic level.  Few of the nephilum
+	know *anything* to the level of detail required for this to be
+	successful, and where they do, it tends to be fairly pure elements,
+	like raw iron into raw gold.  But even then, combining your
+	transmutation with the Powers magic necessary to make it permanent is
+	poorly understood, thus poorly taught, and so see the prior point. 
+
+[^220718-1]: [Harry Potter Wiki][HPW1]. 
+    "[Gamp's Law of Elemental Transfiguration](https://harrypotter.fandom.com/wiki/Gamp%27s_Law_of_Elemental_Transfiguration)"
+    Last Edited: 2022-07-03. Last Viewed: 2022-07-18.
+
+[HPW1]: <https://harrypotter.fandom.com/wiki>
 
 animagus
 :   In the Harry Potter books, this is a form of transfiguration enabled by the
@@ -216,29 +243,34 @@ animagus
     animagus.  In fact, it would be more accurate to say "unlock" the ability,
     as this is not actually an ability inherited via one of the powers
     enumerated above, but a separate inheritance common no matter what
-    rank/choir of angel(s) one decends from.   Students of the Uagadou school
+    rank/choir of angel(s) one descends from.   Students of the Uagadou school
     use powers meld abilities from the Thrones, the Powers, and the Dominions
     to transmute their own nature to the desired animal (or animals), so that
     when they exercise the inherit animagus ability, they become an "unnatural"
-    animal.  Few ever realize how invasive this transmutation is to their sense
+    animal.  Few ever realise how invasive this transmutation is to their sense
     of self.  Other cultures have other ways of unlocking this ability, some of
     which are safer than others.
 
 conjuring
 :   requires inheritance from the Powers, as you are in essence manipulating
     quantum probabilities.  No nephil *actually* understands how conjuring
-    *actually* works.  You have manipulated time in a highly localized (nearly
+    *actually* works.  You have manipulated time in a highly localised (nearly
     negligible) space until it becomes probable that quanta will appear in the
     desired configuration, and more, that this has *actually happened* (and not
     some other quantum affect).  Unlike the standard Harry Potter, conjuration
-    will tend to be permanent.
+    will tend to be permanent.  Gramp's Law again comes into play, but see the
+    note above about needing to understand your target down to the elemental
+    level for it to end up being digestible. A comfortable chair does not need
+    to be so accurate, because we expect it to remain a chair.  A sandwich we
+    expect our bodies to *break down* into the constituent molecules, which
+    thus *have to be there*. 
 
 Vanishing
-:   though considered transfiguration, this is actually a really wierd mix of
+:   though considered transfiguration, this is actually a really weird mix of
     abilities from Virtues and Powers.  Like conjuring, no nephil *correctly*
     understands it.  You are essentially making the thing vanished air
-    soluable, then for the space that thing occupies, manipulating time such
-    that it appears to have instantly disolved.  Because it is explained so
+    soluble, then for the space that thing occupies, manipulating time such
+    that it appears to have instantly dissolved.  Because it is explained so
     poorly, students new to the practice will often actually attempt to modify
     the physical properties of the thing being vanished instead of its chemical
     properties, resulting in transparent versions instead of something that
@@ -255,40 +287,40 @@ Potions
     ingredients. Thus the best potioneers strongly inherit from both the
     Cherubim and Virtues. Some potions additionally require chemical reactions
     not possible in nature, this requires the potioneer to have abilities in the
-    Power to make a probablistic reaction happen in the desired time frame.
+    Power to make a probabilistic reaction happen in the desired time frame.
     Alternately, the potioneeer can transmute the form of one ingredient to
     make it chemically react the desired way.  Lastly, if a potion is to be
     stored, rather than used immediately, the effects must be locked in place
     *at the time of creation*, again an ability coming from the Powers.
 
     Potions is a wandless art, though some traditions *do* use incantations as
-    part of the process the potioneer trigger their magic. Hogwarts teaches
-    potions in its hardest form: both wandless and silent, requiring near
-    instinctual use of effectively three to four forms of magic simultaneously.
-    The nephil must use abilities inherited from the Virtues to augment the
-    ingredients with additional properties, locking the augmentation in place
-    using the time magic from the Powers(endless duration).  As this highly
-    personal process will result in something slightly different from nephil to
-    nephil, he/she must use abilities from the Cherubim to pick precisely the
-    ingredients affected by his/her magic to precisely the right degree and in
-    precisely the right way.  Should the ingredients not want to mix, the
-    nephil then uses abilities inherited from either the Dominions or the
-    Virtues, either transmuting the form of the ingredient into something that
-    can mix, or to manipulate the laws of chemistry to make the reaction
-    possible. The different ways and patterns of stirring are essentially
-    mental triggers to help the nephil activate their magic.  This means that a
-    potion recipe is more of a suggestion than a true recipe, the best will
-    always come from deviating from the recipe by *just the right amount* to
-    account for your personal magic and the specific ingredients you happen to
-    be using in this particular instance.
+    part of the process to assist the potioneer to trigger their magic.
+    Hogwarts teaches potions in its hardest form: both wandless and silent,
+    requiring near instinctual use of effectively three to four forms of magic
+    simultaneously.  The nephil must use abilities inherited from the Virtues
+    to augment the ingredients with additional properties, locking the
+    augmentation in place using the time magic from the Powers(endless
+    duration).  As this highly personal process will result in something
+    slightly different from nephil to nephil, he/she must use abilities from
+    the Cherubim to pick precisely the ingredients affected by his/her magic to
+    precisely the right degree and in precisely the right way.  Should the
+    ingredients not want to mix, the nephil then uses abilities inherited from
+    either the Dominions or the Virtues, either transmuting the form of the
+    ingredient into something that can mix, or to manipulate the laws of
+    chemistry to make the reaction possible. The different ways and patterns of
+    stirring are essentially mental triggers to help the nephil activate their
+    magic.  This means that a potion recipe is more of a suggestion than a true
+    recipe, the best will always come from deviating from the recipe by *just
+    the right amount* to account for your personal magic and the specific
+    ingredients you happen to be using in this particular instance.
 
 Runes
 :   These are also complicated.  Runes are _created_ from powers inherited from
     the Virtues, you augment reality to give your writing not just meaning, but
-    power.  They are, however, *powered* by the inheritance related to the
-    effect of the runes in question.  Thus two people equally skilled at
-    creating runes might not be equally skilled at powering those runes, or vice
-    versa. This is also a deviation from the cannon Harry Potter universe.
+    power.  They are, however, *powered* by the inheritance from the Dominions
+    (ability to command magic).  Thus two people equally skilled at creating
+    runes might not be equally skilled at powering those runes, or vice versa.
+    This is also a deviation from the cannon Harry Potter universe.
     Runes can also be created to *absorb* power from the surrounding area to
     power connected sequences of runes, using abilities inherited from the
     Principalities.  This in practice reduces the effect of any attempt to use
@@ -297,7 +329,7 @@ Runes
     of each spell would be lessened.  The Hospital Wing would need to be
     shielded from most of the runes protecting the rest of the castle to ensure
     that you could still be cured using magic at full efficacy.  Overall, this
-    effect would bluster Hogwart's reputation for being one of the safest places
+    effect would bolster Hogwart's reputation for being one of the safest places
     in Britain.
 
 Divination
@@ -321,10 +353,10 @@ Divination
 
     Users of the first form make future generations more susceptible to magics
     inherited from the Seraphim and Thrones (for four generations per my rules
-    on nephil [inheritance]({{< relref "Appendix_C" >}})).  So while in general someone strong in the Thrones
-    could normally resist the imperious curse, if they come from a family
-    steeped in the use of divination, then he/she personally will be
-    abnormally susceptible to this magic.
+    on nephil [inheritance]({{< relref "Appendix_C" >}})).  So while in general
+    someone strong in the Thrones could normally resist the imperious curse, if
+    they come from a family steeped in the use of divination, then he/she
+    personally will be abnormally susceptible to this magic.
 
 Arithmancy
 :   This has a Wikipedia definition as being a speciality of divination.  For my
