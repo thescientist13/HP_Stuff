@@ -2,8 +2,8 @@
 1 SOUR Gramps
 2 VERS 5.1.2
 2 NAME Gramps
-1 DATE 8 JUL 2022
-2 TIME 17:56:37
+1 DATE 19 JUL 2022
+2 TIME 11:23:58
 1 SUBM @SUBM@
 1 FILE /home/schierer/luke/src/HarryPotter/content/Harrypedia/potter_universe.ged
 1 COPR Copyright (c) 2022 .
@@ -1387,11 +1387,16 @@
 2 DATE 2 MAY 1998
 2 SOUR @S0035@
 3 PAGE https://web.archive.org/web/20191002071405/https://www.pottermore.com/explore-the-story/severus-snape
+1 FAMC @F0074@
+2 PEDI birth
 1 SOUR @S0035@
 2 PAGE https://web.archive.org/web/20191002071405/https://www.pottermore.com/explore-the-story/severus-snape
+1 SOUR @S0046@
+2 PAGE 530
+2 QUAY 3
 1 CHAN
-2 DATE 8 SEP 2021
-3 TIME 04:39:34
+2 DATE 11 JUL 2022
+3 TIME 17:24:39
 0 @I0078@ INDI
 1 NAME Abraxas /Malfoy/
 2 GIVN Abraxas
@@ -3867,6 +3872,85 @@
 1 CHAN
 2 DATE 8 JUL 2022
 3 TIME 21:48:12
+0 @I0249@ INDI
+1 NAME Tobias /Snape/
+2 GIVN Tobias
+2 SURN Snape
+2 SOUR @S0046@
+3 PAGE 530
+3 QUAY 3
+1 SEX M
+1 FAMS @F0074@
+1 SOUR @S0046@
+2 PAGE 530
+2 QUAY 3
+1 CHAN
+2 DATE 11 JUL 2022
+3 TIME 17:24:39
+0 @I0250@ INDI
+1 NAME Eileen /Prince/
+2 GIVN Eileen
+2 SURN Prince
+2 SOUR @S0046@
+3 PAGE 530
+3 QUAY 3
+1 NAME Eileen /Snape/
+2 TYPE married
+2 GIVN Eileen
+2 SURN Snape
+2 SOUR @S0046@
+3 PAGE 530
+3 QUAY 3
+1 SEX F
+1 FAMS @F0074@
+1 SOUR @S0046@
+2 PAGE 530
+2 QUAY 3
+1 CHAN
+2 DATE 11 JUL 2022
+3 TIME 17:24:39
+0 @I0251@ INDI
+1 NAME Rosalind Antigone /Bungs/
+2 TYPE Unknown
+2 GIVN Rosalind Antigone
+2 SURN Bungs
+1 SEX F
+1 SOUR @S0046@
+2 PAGE 530
+2 QUAY 3
+1 CHAN
+2 DATE 11 JUL 2022
+3 TIME 17:26:57
+0 @I0252@ INDI
+1 NAME Rupert /Brookstanton/
+2 GIVN Rupert
+2 SURN Brookstanton
+2 NICK Axebanger
+1 SEX M
+1 SOUR @S0046@
+2 PAGE 530
+2 QUAY 3
+1 CHAN
+2 DATE 11 JUL 2022
+3 TIME 17:27:48
+0 @I0253@ INDI
+1 NAME Sybill /Trelawney/
+2 GIVN Sybill
+2 SURN Trelawney
+1 SEX F
+1 BIRT
+2 DATE (9 MAR)
+2 SOUR @S0038@
+3 PAGE https://www.rowlingindex.org/work/stpm/
+3 DATA
+4 DATE 31 OCT 2014
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/stpm/
+2 DATA
+3 DATE 31 OCT 2014
+1 CHAN
+2 DATE 19 JUL 2022
+3 TIME 15:08:26
 0 @F0000@ FAM
 1 HUSB @I0001@
 1 WIFE @I0002@
@@ -4592,6 +4676,16 @@
 1 CHAN
 2 DATE 4 JAN 2022
 3 TIME 17:16:17
+0 @F0074@ FAM
+1 HUSB @I0249@
+1 WIFE @I0250@
+1 CHIL @I0077@
+1 SOUR @S0046@
+2 PAGE 530
+2 QUAY 3
+1 CHAN
+2 DATE 11 JUL 2022
+3 TIME 17:24:39
 0 @S0000@ SOUR
 1 TITL Harry Potter and the Sorcerer's Stone
 1 AUTH J. K. Rowling
