@@ -34,9 +34,8 @@ wizarding folk would never guess that pockets are anything but ornamental.
 
 Other writers will go to the other extreme.  The magical world is just lost in
 the past, or worse, simply stupid, and we really just need to join the
-non-magical world.  I have not read one of these recently enough to easily cite
-an example, but you typically see this in stories where either the non-magical
-government steps in to take care of things, where [Harry]({{< relref "Harry_James" >}})
+non-magical world.  You typically see this in stories where either the non-magical
+government steps in to take care of things,[^220719-4] where [Harry]({{< relref "Harry_James" >}})
 leaves the magical world to live as a muggle, or both.  This has ceased to be
 legitimate criticism, it is simply bashing on (in this case) a people because
 it makes the author feel smart. 
@@ -44,6 +43,11 @@ it makes the author feel smart.
 [pgO1]: <https://www.fanfiction.net/s/12954205> 
 
 [pgO2]: <https://www.fanfiction.net/s/12954205> 
+
+[^220719-4]: Works include but are not limited to:
+    * Bobmin356. 
+      _[Mutant Storm](https://www.fanfiction.net/s/7404056)_
+      Published: 2011-09-22. Last Updated: 2011-09-26. Last Viewed: 2022-07-19.
 
 [^220630-5]: phoenixgirl26. _[Observation][pgO2]_
    [Chapter 13](https://www.fanfiction.net/s/12954205/13/Observation)
