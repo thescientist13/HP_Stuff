@@ -1,5 +1,8 @@
-[[!meta title="Hogwarts' Student Body"]]
-[[!toc levels=2 startlevel=3]] 
++++
+title = "Hogwarts' Student Body"
+author = "Luke Schierer"
+date = "2021-10-01T17:22:05-04:00"
++++
 
 ### General Information
 
@@ -11,7 +14,7 @@ that.
 
 ### Who are they
 
-Cannon focuses on [[Harry]]'s classmates almost exclusively.  [Harry's
+Cannon focuses on [Harry][HJP1]'s classmates almost exclusively.  [Harry's
 Yearmates][] is probably the best source for almost cannon
 information,[^20200419-1] though _Secrets of the Classlist_[^20200630-1] also
 contains a ton.  The two disagree on a few things.  Some of this has been
@@ -22,7 +25,7 @@ absent. One would think that in an age where people obsessively wiki things
 (myself not really excluded), someone would have compiled the available data,
 but if so I have not found it.  Thus, I have started [[this list|ClassLists]],
 some of these people are also in the [Gramps][] data I have
-[[exported|People]].
+[extracted]({{< relref "people" >}}).
 
 [Gramps]: https://gramps-project.org/
 
@@ -44,10 +47,10 @@ some of these people are also in the [Gramps][] data I have
 ### "Racial" Breakdown
 
 One of the problems with the above sources is that I've ended up with 6 first
-generation wizards, 11 halfboods and 18 purebloods in [[Harry]]'s class.  This
-gives me a class that is 45% pureblooded, despite [[Mr. Weasley|adults/Arthur]]
-being quoted as saying that purebloods are dying out, and that most families
-are halfblooded.[^20200817-1]  Some of that may be the influence of the first
+generation wizards, 11 halfboods and 18 purebloods in [Harry][HJP1]'s class.  This
+gives me a class that is 45% pureblooded, despite [Mr. Weasley][Arthur] being
+quoted as saying that purebloods are dying out, and that most families are
+halfblooded.[^20200817-1]  Some of that may be the influence of the first
 Riddle war, where entire families were wiped out.  I imagine the halfblooded
 families were disproportionately affected by that.  One author takes it a step
 further, essentially counting the children of first generation witches and
@@ -55,7 +58,7 @@ wizards as still being themselves culturally first generation, and accounting
 for nearly all the deaths.[^20211001-1]  Still, returning to facts, if there
 should be about 1000 students at Hogwarts,[^20200817-2] then we should have
 35-36 per house per year, not 40 per year total.  If we had 140 students in
-[[Harry]]'s year, then the 18 purebloods would be only 13% of the class, and the
+[Harry][HJP1]'s year, then the 18 purebloods would be only 13% of the class, and the
 muggleborn only 4%.  
 
 That assumes that all 116 students killed by Riddle are halfblooded (or at
@@ -75,10 +78,14 @@ to get word of under aged magic users, and to kill the muggle
 ones.[^20200819-4]  If so, it is possible that they may have killed *fewer* of
 them in the years between the two Riddle wars, but not completely stopped.
 This would artificially deflate the number of first generation wizards not just
-in [[Harry]]'s year, but in all of the classes we see in the books.  While
-[[Mr. Weasley|adults/Arthur]]'s "Muggle Protection Act" argues against this
-idea, it does seem believable of Umbridge and those like her who set up the
-laws under Pius Thicknesse's puppet government.
+in [Harry][HJP1]'s year, but in all of the classes we see in the books.  While
+[Mr. Weasley][Arthur]'s "Muggle Protection Act" argues against this idea, it
+does seem believable of Umbridge and those like her who set up the laws under
+Pius Thicknesse's puppet government.
+
+[HJP1]: <{{< ref "Harrypedia/people/Potter/Harry_James" >}}>
+
+[Arthur]: <{{< ref "Harrypedia/people/Weasley/Arthur" >}}>
 
 [^20211001-1]: Bakuraptor.
     _[A Wizard's Guide to 'Banking'](https://www.fanfiction.net/s/12327848)_

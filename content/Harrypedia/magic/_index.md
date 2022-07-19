@@ -146,7 +146,7 @@ We seem to have:
 
 ### Animagus
 
-The common fanfiction idea is that you do not choose your animagus animal. I am
+The common fan fiction idea is that you do not choose your animagus animal. I am
 not sure what basis if any this has in the Cannon books, much less the somewhat
 less canonical stuff that Mrs. Rowling has included in the various websites and
 interviews dedicated to the series.  However, we do have one quote that
@@ -217,14 +217,14 @@ The question then becomes did the Weasleys not fix his eyesight because
 * it is painful to do[^210923-1]
 * it is morally distasteful to do so (requires dark magic?)
 * it is not possible to do so (contradicts the above quote from the website)
-  * from one fanfiction: 
+  * from one fan fiction: 
     > your homeostasis is having poor eyesight. Most healing magic works to get
       things back to normal. If you cut your eye and then healed it, your
       eyesight would remain the same. You'd have to purposefully leave a scar
       to leave an impact, which would only happen with a cursed or highly
       magical injury. Imagine! Cursing your own eyes to heal them, muggles are
       deranged\![^210302-5]
-* it does not occur to British pureblood society to do so 
+* it does not occur to British pure-blood society to do so 
   * You could take the above quote, and assume that the shop owner is actually
     only partially right.  Perhaps *most* healing magic returns you to "normal"
     and thus some forms of poor eye sight could not be affected by that magic.
@@ -295,11 +295,11 @@ These are a huge topic, and need their own [[page|Horcruxes]].
 
 #### Unforgivables
 
-I have read fanfiction that tries to present the three unforgivable curses as
-merely misunderstood bits of magic.  I dislike that idea.  Oh, there is some
-logic to it, particularly for the Imperius curse, but overall it does not fit
-with what we read in the books.  I need to look up the citations for this, but
-there are a couple of key points.  
+I have read fan fiction that tries to present the three unforgivable curses as
+merely misunderstood bits of magic.[^220715-3]  I dislike that idea.  Oh, there
+is some logic to it, particularly for the Imperius curse, but overall it does
+not fit with what we read in the books.  I need to look up the citations for
+this, but there are a couple of key points.  
 
 Fake professor Moody tells the class that the killing curse requires true hate
 as well as power.  He asserts that the class could cast it, but that he would be
@@ -310,11 +310,18 @@ The addition of emotion may make a spell stronger, perhaps harder to block, but
 the spell as described does not overpower shields, it goes right through them.  
 
 Bellatrix tells Harry much the same thing when he fails to cast the cruciatus
-curse on her.[^200731-5]  There is no medical application for hating someone.
-Sure you might envision medical applications for electrical stimulation (which
-might have similar effects as the curse), or otherwise shocking someone.
-However, your benign intent is the total inverse of that required for this
-curse. 
+curse on her.[^200731-5]  There is no medical application for hating someone,
+euthanasiia not withstanding.  Sure you might envision medical applications for
+electrical stimulation (which might have similar effects as the curse), or
+otherwise shocking someone.  However, your benign intent is the total inverse
+of that required for this curse.  If the euthanasia argument is to hold water,
+then it is a *mercy* killing.  Note, I do not *actually* agree with euthanasia
+in any way, but follow the proponent's "logic" for a moment.  The patient is in
+great pain with no hope of a cure or recovery.  The patient will die anyway,
+but only after protected pain.  I, because I *sympathise* with the patient
+(**NOT** hate the patient) am trying to end the pain, but ending his/her life
+is the only way.  This is a _**VERY**_ misguided form of *love* (if true, but
+that is a different debate), not at all the hate these spells require. 
 
 In both cases these two curses are unforgivable in part because they are
 difficult to shield against (I am assuming conjuration of stone is, for most
@@ -329,7 +336,7 @@ know when someone has done something of their own will, you have utterly
 undermined your entire ability to hold trials, establish order, and effectively
 have civilisation.  
 
-I have read in one fanfiction that, while it has some very troubling elements,
+I have read in one fan fiction that, while it has some very troubling elements,
 also has some really compelling world building elements, a view of unforgivables
 and perhaps dark magic in general that is not wholly incompatible with the
 above, but extends beyond it.  I am not sure it how cannon compatible it is, but
@@ -356,6 +363,10 @@ and Defence.  If what they have instead is a type of magic that levels the
 playing field, or even tilts it the other way, a desperate Ministry losing the
 war might well decide to authorise it, and leave it up to each individual Auror
 to judge the cost.  
+
+[^220715-3]: Works include but are not limited to:
+    * Nigelcat1. _[Exodus](https://www.fanfiction.net/s/11460241)_
+      Published: 2015-08-20.
 
 #### Vampires
 
@@ -532,7 +543,7 @@ First of all, I am not going to spend much time worrying about whether or not
 "wards" are part of the cannon universe or not.  The books may never use the
 word, but the concept certainly exists.  The books provide no consistent name
 for area affect protection magics, particularly not long lasting ones.  I am
-going to join most of fanfiction and call these magics wards.  The books use all
+going to join most of fan fiction and call these magics wards.  The books use all
 sorts of names, and in some places descriptions of effects without naming the
 magic behind it at all (you cannot apparate in Hogwarts).  I need a word, and
 "ward" works well.

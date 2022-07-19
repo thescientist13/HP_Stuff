@@ -1,5 +1,8 @@
-[[!meta title="Class and Blood Status in the Magical World"]]
-## Class and Blood Status in the Magical World
++++
+title = "Class and Blood Status in the Magical World"
+author = "Luke Schierer"
+date = "2021-11-01T16:06:22-04:00"
++++
 
 I think the case can be made that there are those who think wizarding
 traditions, culture, and probably even blood lines are important, but that not
@@ -45,28 +48,37 @@ Secrecy through the publishing of the Sacred Twenty-Eight.
 
 If you think about it, this would help make sense of what goes on as Riddle
 rises to power during the 1960s and 1970s.  There are families like the
-[[Potters|Families/Potter]] who are pure-bloods, but essentially by chance.  I
-suspect they have historically been fairly class conscience, but not bought into
-the whole Slytherin blood status mess.  However, in the magical world, most
-upper class girls would have come from other magical families, so more or less
-accidentally the [[Potters|Families/Potter]] are mostly pure-bloods.  The same is
-probably true of the [[Weasleys|Families/Weasley]], [[Longbottoms|Families]],
-[[Abbotts|Families]], and any others who made up the minority who protested
-their inclusion on the Sacred Twenty-Eight list.  
+[Potters][] who are pure-bloods, but essentially by chance.  I suspect they
+have historically been fairly class conscience, but not bought into the whole
+Slytherin blood status mess.  However, in the magical world, most upper class
+girls would have come from other magical families, so more or less accidentally
+the [Potters][] are mostly pure-bloods.  The same is probably true of the
+[Weasleys][], [Longbottoms][], [Abbotts][], and any others who made up the
+minority who protested their inclusion on the Sacred Twenty-Eight list.  
 
-The [[Weasleys|Families/Weasley]] apparently became notorious for their protest, and
-incited a great deal of hatred.  That hatred in a Renaissance, if not positively
-Medieval society, would have triggered feuding, and would explain their present
-state.  The current [[Weasley|Families/Weasley]] family we know lives on a
-fairly good sized plot of land in a part of England where I am told land is
-fairly expensive, but the house on that land is cobbled together with a
-substantial portion of do-it-yourself construction and a whole lot of home grown
-magic.  They have lost most of their wealth, including any hereditary home(s),
-but not all of the land that was once attached to that home.  Arthur has a
-middling high, but not prominent, position in the ministry, and apparently has
-lots of connections and a fair amount of influence.  This makes sense if you
-view them as impoverished aristocracy, a family who has lost a lot, but retains
-vestiges of their former influence and power. 
+[Potters]: <{{< ref "Harrypedia/people/Potter" >}}>
+
+[Weasleys]: <{{< ref "Harrypedia/people/Weasley" >}}>
+
+[Weasley]: <{{< ref "Harrypedia/people/Weasley" >}}>
+
+[Longbottoms]: <{{< ref "Harrypedia/people/Longbottom" >}}>
+
+[Abbotts]: <{{< ref "Harrypedia/people/Abbott" >}}>
+
+The [Weasleys][] apparently became notorious for their protest, and incited a
+great deal of hatred.  That hatred in a Renaissance, if not positively Medieval
+society, would have triggered feuding, and would explain their present state.
+The current [Weasley][] family we know lives on a fairly good sized plot of
+land in a part of England where I am told land is fairly expensive, but the
+house on that land is cobbled together with a substantial portion of
+do-it-yourself construction and a whole lot of home grown magic.  They have
+lost most of their wealth, including any hereditary home(s), but not all of the
+land that was once attached to that home.  Arthur has a middling high, but not
+prominent, position in the ministry, and apparently has lots of connections and
+a fair amount of influence.  This makes sense if you view them as impoverished
+aristocracy, a family who has lost a lot, but retains vestiges of their former
+influence and power. 
 
 Returning to my thoughts on Riddle's rise to power, he polarises the entire
 society, and focuses the survivors of the first war on blood status in a way the
@@ -85,7 +97,7 @@ at least some degree.
 
 On top of the polarising effect of the wars, there is also two other affects
 working to associate class status with blood status.  The idea of blood status
-was associated with Slytherin, and thus with [[Hogwarts]]' Slytherin house.
+was associated with Slytherin, and thus with [Hogwarts][]' Slytherin house.
 Students sorted into that house are those who show tendencies towards cunning
 and ambition.  Heirs sorted into Slytherin will vocally espouse Slytherin's
 philosophy as a matter of house pride.  Their ambitious dorm mates will do so to
@@ -93,7 +105,9 @@ curry favour with them, re-enforcing the beliefs.  They will marry for money and
 power, re-enforcing these beliefs beyond school with social connections, and
 creating a feedback mechanism into the next generation. 
 
-Eventually there are too many of them for one house at [[Hogwarts]].  More than
+[Hogwarts]: <{{< relref "Hogwarts" >}}>
+
+Eventually there are too many of them for one house at [Hogwarts][].  More than
 a quarter of the population strongly supports blood status.  More than a quarter
 of the population is associated by marriage or fealty to the Wizengamot Lords
 who protect it in the government.  Where will these children be sorted?
