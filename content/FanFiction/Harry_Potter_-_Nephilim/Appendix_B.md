@@ -232,6 +232,26 @@ transfiguration
 
 [HPW1]: <https://harrypotter.fandom.com/wiki>
 
+Defense
+:   I am mostly taking [Ishtar][]'s position from _[The Case of the Missing
+    Wizard][TCMW1]_ but with a twist.  Much of the content in this class is, as 
+    Ishtar would have it, a mix of Charms, Runes, Transfiguration, Care of Magical
+    Creatures, and so on.  However, some of it, particularly as it comes to the
+    study of specific counter curses and shields, comes from the Angels.  Some of
+    it, where actual offensive spells are taught (such as the knockback jinx),
+    comes from the ArchAngels.  
+:   As I see it, this class is a mishmash of content, part learning about
+    "dark" creatures, part learning about the curses you are defending against
+    (except not practising casting them), part learning about the counters to those
+    curses, and part learning about avoiding the need to ever use those counter
+    curses.  Since many spells *can* be used either offensively or defensively,
+    but are not *inherently* combat related, this class is pulling from all
+    sorts of branches of magic. 
+
+[TCMW1]: <https://archiveofourown.org/works/4125717>
+
+[Ishtar]: <https://archiveofourown.org/users/IshtarsDream/pseuds/IshtarsDream>
+
 animagus
 :   In the Harry Potter books, this is a form of transfiguration enabled by the
     use of a ritual that combines a repeated spell with a potion.  The article
