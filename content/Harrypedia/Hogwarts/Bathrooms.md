@@ -1,15 +1,21 @@
-[[!meta title="Bathrooms at Hogwarts"]]
++++
+title = "Bathrooms at Hogwarts"
+author = "Luke Schierer"
+date = "2021-11-01T17:34:03-04:00"
++++
 
 Mrs. Rowling explains that the Chamber of Secrets was not always hidden under a
 sink in a girl's restroom.[^210525-1] This is one of the places where Mrs.
 Rowling is particularly hard to make consistent.  She has dated the remodelling
 of Hogwarts to include bathrooms to the eighteenth century,[^210928-1] but
-Dumbledore was born at the end of the *nineteenth* century, and references
+[Dumbledore][] was born at the end of the *nineteenth* century, and references
 finding a collection of chamber pots.[^210928-2]  So far so good, who knows
 how long that collection has sat unused for, it could be two years or two
 centuries and there would be little difference.  It becomes impossible to
 reconcile when you add in her statement that Wizards "relieved themselves
 wherever they stood, and vanished the evidence."[^210928-3]  
+
+[Dumbledore]: <{{< ref "Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
 Her dating of its conversion in the eighteenth century is probably the common
 mistake of forgetting that century numbers are a digit in advance of the printed
@@ -36,18 +42,18 @@ female, the faculty failed to actually create any official rules around this.
 The thing is that I can almost see some ancient (in terms of personal age)
 headmaster somewhat bemusedly authorising his prefects to install these modern
 contrivances while being personally nearly as isolated from the school as
-[[Dumbledore|adults/Dumbledore]] is.  Such a headmaster might well have failed
-to fully think through the implications of replacing chamber pots with restrooms
-and thus fail to amend the school rules to prohibit males in the female restroom
-and vice versa.  This is almost as whimsical as Mrs. Rowling's potty humour, I
-suppose, but I find a mentally deficient headmaster failing to create rules
-around student safety to be totally in line with Hogwarts, whereas a general
-lack of hygiene is just … distasteful.  This also explains away a second
-inconsistency:  The [[Founders|Founding]], a subset of them, were clearly very
-worried about the fact that Hogwarts was a co-ed school.  The girl's dorms are
-protected such that boys cannot enter, and yet the girl's bathrooms are not?
-Right or wrong, the current furror over bathrooms indicates that the concern
-would occur.[^210928-5]  
+[Dumbledore][] is.  Such a headmaster might well have failed to fully think
+through the implications of replacing chamber pots with restrooms and thus fail
+to amend the school rules to prohibit males in the female restroom and vice
+versa.  This is almost as whimsical as Mrs. Rowling's potty humour, I suppose,
+but I find a mentally deficient headmaster failing to create rules around
+student safety to be totally in line with Hogwarts, whereas a general lack of
+hygiene is just … distasteful.  This also explains away a second inconsistency:
+The [Founders]({{< relref "Founding" >}}), or at least a subset of them, were
+clearly very worried about the fact that Hogwarts was a co-ed school.  The
+girl's dorms are protected such that boys cannot enter, and yet the girl's
+bathrooms are not? Right or wrong, the current furror over bathrooms indicates
+that the concern would occur.[^210928-5]  
 
 [FWO1]: https://archiveofourown.org/works/28507302
 
@@ -109,10 +115,10 @@ would occur.[^210928-5]
       Note the distinction between *baths* and *toilets*
 
 [^210525-1]: Mrs. J. K. Rowling. 
-    _Hogwarts: An Incomplete and Unreliable Guide_
+    _[Hogwarts: An Incomplete and Unreliable Guide](https://www.goodreads.com/book/show/31538647-hogwarts)_
     p. 74. Pottermore Publishing. American Kindle Edition. 
 
 [^210525-3]: Mrs. J. K. Rowling. 
-    _Hogwarts: An Incomplete and Unreliable Guide_
+    _[Hogwarts: An Incomplete and Unreliable Guide](https://www.goodreads.com/book/show/31538647-hogwarts)_
     p. 74. Pottermore Publishing. American Kindle Edition. 
 

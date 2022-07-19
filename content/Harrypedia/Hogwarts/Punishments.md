@@ -1,5 +1,10 @@
-[[!meta title="Policies on Punishing Students"]]
-During [[Harry]]'s time there, Filch constantly complains about the punishments
++++
+title = "Policies on Punishing Students"
+author = "Luke Schierer"
+date = "2021-11-09T22:45:01-04:00"
++++
+
+During [Harry][HJP1]'s time there, Filch constantly complains about the punishments
 he is and is not allowed to inflict.  I do not know as much about the change in
 societal norms on school punishments in British boarding schools as I would
 need to know in order to fully evaluate what happens at Hogwarts.  That being
@@ -10,12 +15,16 @@ past.
 > nighttime stroll,” she said. “He got caught by Apollyon Pringle he was the  
 > caretaker in those days your father’s still got the marks.”[^20200720-9] 
 
-Note that [[Mrs. Weasley|adults/Molly]] is not expressing any negative emotion
-here.  She's recounting something she expects [[Harry]] and Bill to hear and
+Note that [Mrs. Weasley][Molly] is not expressing any negative emotion
+here.  She's recounting something she expects [Harry][HJP1] and Bill to hear and
 accept without much surprise.  A [Guardian][] article that is the top Google
 result when I try to look up corporal punishment in British schools tells me
-that [[Harry]] probably never experienced any, but quite possibly heard about
+that [Harry][HJP1] probably never experienced any, but quite possibly heard about
 it.[^20200720-10] 
+
+[HJP1]: <{{< ref "Harrypedia/people/Potter/Harry_James" >}}>
+
+[Molly]: <{{< ref "Harrypedia/people/Prewett/Molly" >}}>
 
 [Rex Tims][FfnRT] points out in an authors note that a fifty point penalty is
 apparently a big deal, but if so, the end of year point totals seem really
