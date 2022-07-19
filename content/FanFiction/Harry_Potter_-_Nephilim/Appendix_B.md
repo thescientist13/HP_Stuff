@@ -12,7 +12,7 @@ weight = 21
 
 Nephil can be rated on a scale of 1 (low) to 10 (high) for access to each class
 of [angelic abilities]({{< relref "#abilities-by-type" >}}). This naturally means that for many of the pivotal
-characters, I have [[mathematical notes on their power levels|appendix_b]].  For the purposes of this work:
+characters, I have [mathematical notes on their power levels]({{< relref "Appendix_D" >}}).  For the purposes of this work:
 
 | Power Level | Ability Estimate |
 | :---------: | :-------------- |
