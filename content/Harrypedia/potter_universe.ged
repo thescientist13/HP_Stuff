@@ -2,8 +2,8 @@
 1 SOUR Gramps
 2 VERS 5.1.2
 2 NAME Gramps
-1 DATE 19 JUL 2022
-2 TIME 11:23:58
+1 DATE 20 JUL 2022
+2 TIME 11:41:43
 1 SUBM @SUBM@
 1 FILE /home/schierer/luke/src/HarryPotter/content/Harrypedia/potter_universe.ged
 1 COPR Copyright (c) 2022 .
@@ -1077,6 +1077,7 @@
 2 SOUR @S0035@
 3 PAGE https://web.archive.org/web/20170701104541/https://www.pottermore.com/explore-the-story/molly-weasley
 1 NAME Molly /Weasley/
+2 TYPE married
 2 GIVN Molly
 2 SURN Weasley
 2 SOUR @S0035@
@@ -1086,8 +1087,8 @@
 2 PEDI birth
 1 FAMS @F0019@
 1 CHAN
-2 DATE 27 JUN 2022
-3 TIME 18:03:26
+2 DATE 20 JUL 2022
+3 TIME 15:39:59
 0 @I0063@ INDI
 1 NAME Hermione Jean /Granger/
 2 GIVN Hermione Jean

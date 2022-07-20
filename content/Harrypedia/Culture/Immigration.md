@@ -1,5 +1,8 @@
-[[!meta title="First-Generation “Immigrants”" sortas="Immigration"]]
-[[!toc levels=2 startlevel=3]]
++++
+title = "First-Generation “Immigrants”" 
+author = "Luke Schierer"
+date = "2021-11-01T16:21:16-04:00"
++++
 
 Assuming that there *are* real differences between the culture dominating
 magical Britain and non-magical Britain, some authors express frustration with
@@ -88,11 +91,13 @@ their children the way the ISWS does.
 When the children arrive at Hogwarts, they are only then told, and that in
 piecemeal, that they have in fact joined a new society.  Since the consequences
 of withdrawing from that society are never spelled out, it is safe to say that
-they are not known to the children *before* they arrive at school.  [[Hermione]]
+they are not known to the children *before* they arrive at school.  [Hermione][HJG1]
 would not have risked practising at home before first year[^210323-8] if she
 knew it was illegal.  This new "world" they have joined has customs that they
 are expected to know, but will not be taught, laws that they must follow, and
 *no way out*.  
+
+[HJG1]: <{{< ref "Harrypedia/people/Granger/Hermione_Jean" >}}>
 
 They might not have been kidnapped, in that they can go home for a few weeks at
 Christmas, and two months or so each summer, but they will quickly find they fit
@@ -118,7 +123,7 @@ they want their static society, they have options:
 
 * they can actually abduct the first generation children on the first sign of
   magic.  I consider this morally abhorrent, but it would work.  I think this is
-  what Mrs. Rowling envisions for [[MACUSA]] but I refuse to consider that. 
+  what Mrs. Rowling envisions for [MACUSA][] but I refuse to consider that. 
 * they can exclude first-generation magical users from magical society.  This
   will create risks to the ISWS, but with careful and aggressive use of memory
   charms, it is also possible that a second, un-hidden magical "culture" (or I
@@ -131,6 +136,8 @@ they want their static society, they have options:
   the secrecy.  That in turn means accountability to the surrounding
   populations, something that I am not actually confident that they could
   survive.  
+
+[MACUSA]: <{{< relref "MACUSA" >}}>
 
 [^210323-5]: Mrs. J. K. Rowling. _Harry Potter and the Half-Blood Prince_
     p. 8. Pottermore Publishing. American Kindle Edition. 
@@ -158,6 +165,4 @@ they want their static society, they have options:
         [Chapter 7](https://www.fanfiction.net/s/9750991/17/Angry-Harry-and-the-Seven)
         Updated: 2013-10-22; Published: 2013-10-09; Last Viewed 2021-02-20.
 
-
-[[!tag "HP Notes"]]
 
