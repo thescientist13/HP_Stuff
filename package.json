@@ -48,6 +48,7 @@
     "cdk": "^2.31.0",
     "constructs": "^10.1.42",
     "d3-dtree": "^2.4.1",
+    "dsv-to-json": "^1.0.2",
     "esbuild": "^0.14.44",
     "gedcom": "^3.0.0",
     "goldmark": "^0.2.0",
