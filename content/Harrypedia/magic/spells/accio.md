@@ -1,6 +1,6 @@
 +++
 type = "spell"
-spells = "accio"
+spells = "Accio"
 title = "Accio"
 date = "2022-06-30T18:25:54-04:00"
 author = "Luke Schierer"

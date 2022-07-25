@@ -6,7 +6,9 @@ date = "2022-07-08T17:03:56-04:00"
 author = "Luke Schierer"
 +++
 
-Developed by Blagdon Blay.
+Developed by [Blagdon Blay][].
+
+[Blagdon Blay]: <{{< ref "Harrypedia/people/Blay/Blagdon" >}}>
 
 ## Found in
 

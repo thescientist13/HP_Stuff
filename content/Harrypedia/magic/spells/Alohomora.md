@@ -6,7 +6,9 @@ date = "2022-07-08T17:03:56-04:00"
 author = "Luke Schierer"
 +++
 
-Introduced in the early 1600s from Africa by Eldon Elsrickle.
+Introduced in the early 1600s from Africa by [Eldon Elsrickle][].
+
+[Eldon Elsrickle]: <{{< ref "Harrypedia/people/Elsrickle/Eldon" >}}>
 
 ## Found in
 
