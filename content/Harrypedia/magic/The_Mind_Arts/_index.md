@@ -12,7 +12,7 @@ mind as a means.
 
 [Occlumency]: <{{< relref "Occlumency" >}}>
 
-[Legilimency]: <{{< relref "Legilimency" >}}>
+[Legilimency]: <{{< ref "Harrypedia/magic/spells/Legilimens" >}}>
 
 I dislike [Occlumency][O1].  I am resigned to accepting a definition of it that I
 am fairly confident is intended to be canonical to this universe; the problem
@@ -92,8 +92,8 @@ not to get caught, and messing up has worse consequences than succeeding.
 And no one has developed any defence at all except "Constant Vigilance?"  Bogus.
 
 So what might those defences look like?  Well, the best source of ideas is the
-way different fanfictions attempt to explain [[Occlumency.]]  These would not
-really be [[Occlumency]], but they *might* be other magical arts that replace,
+way different fanfictions attempt to explain [Occlumency][].  These would not
+really be [Occlumency][], but they *might* be other magical arts that replace,
 supplement, or complement it.  Perhaps even ones that do not cause damage with
 long term use. 
 

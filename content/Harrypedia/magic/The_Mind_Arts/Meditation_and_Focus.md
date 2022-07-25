@@ -1,5 +1,8 @@
-[[!meta date="2020-07-16"]]
-[[!meta title="The Mind Arts: Meditation and Focus"]]
++++
+date = "2020-07-16"
+title = "The Mind Arts: Meditation and Focus"
+author = "Luke Schierer"
++++
 
 This is probably the weekest attempt to dodge the problems of [[Occlumency]],
 but is still worth considering.
@@ -33,12 +36,18 @@ spiritually dangerous.  This difference between focusing on emptying yourself
 versus focusing on something or someone does seem to capture what I recall the
 difference being.
 
-Naturally the version [[Sirius]] is criticising here is the version [[Snape]]
-teaches, and apparently true [[Occlumency]].  What [[Sirius]] is recommending is
+Naturally the version [Sirius][] is criticising here is the version [Snape][]
+teaches, and apparently true [[Occlumency]].  What [Sirius][] is recommending is
 thus something related, but different. I suspect it would work well against
-[[Legilimency]] but only if you knew it was being used against you.  That
+[Legilimency][] but only if you knew it was being used against you.  That
 being said, he is right that it _would_ have benifits for the boys' control over
 their tempers. 
+
+[Snape]: <{{< ref "Harrypedia/people/Snape/Severus" >}}>
+
+[Sirius]: <{{< ref "Harrypedia/people/Black/Sirius_III" >}}>
+
+[Legilimency]: <{{< ref "Harrypedia/magic/spells/Legilimens" >}}>
 
 [^20200716-4]: know-it-all-bookworm . _[Harry Potter and the Secrets He's
     Kept](https://www.fanfiction.net/s/4367211)_ Chapter 9.
