@@ -5,8 +5,6 @@ import {guard} from 'lit/directives/guard.js';
 import {when} from 'lit/directives/when.js';
 import {html, literal} from 'lit/static-html.js';
 
-import * as dsv2json from 'dsv-to-json';
-
 @customElement('hp-cl')
 export class HPCL extends LitElement {
   tag = literal`hp-cl`;
