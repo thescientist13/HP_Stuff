@@ -2,8 +2,8 @@
 1 SOUR Gramps
 2 VERS 5.1.2
 2 NAME Gramps
-1 DATE 20 JUL 2022
-2 TIME 11:41:43
+1 DATE 25 JUL 2022
+2 TIME 15:32:04
 1 SUBM @SUBM@
 1 FILE /home/schierer/luke/src/HarryPotter/content/Harrypedia/potter_universe.ged
 1 COPR Copyright (c) 2022 .
@@ -1087,8 +1087,8 @@
 2 PEDI birth
 1 FAMS @F0019@
 1 CHAN
-2 DATE 20 JUL 2022
-3 TIME 15:39:59
+2 DATE 25 JUL 2022
+3 TIME 17:56:01
 0 @I0063@ INDI
 1 NAME Hermione Jean /Granger/
 2 GIVN Hermione Jean
@@ -3952,6 +3952,84 @@
 1 CHAN
 2 DATE 19 JUL 2022
 3 TIME 15:08:26
+0 @I0254@ INDI
+1 NAME Eldon /Elsrickle/
+2 GIVN Eldon
+2 SURN Elsrickle
+2 SOUR @S0047@
+3 PAGE https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript
+3 DATA
+4 DATE 12 NOV 2012
+1 SEX M
+1 SOUR @S0047@
+2 PAGE https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript
+2 DATA
+3 DATE 12 NOV 2012
+1 CHAN
+2 DATE 25 JUL 2022
+3 TIME 15:39:52
+0 @I0255@ INDI
+1 NAME Jarleth /Hobart/
+2 GIVN Jarleth
+2 SURN Hobart
+1 SEX M
+1 SOUR @S0047@
+2 PAGE https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript
+2 DATA
+3 DATE 12 NOV 2012
+1 CHAN
+2 DATE 25 JUL 2022
+3 TIME 15:41:23
+0 @I0256@ INDI
+1 NAME Garvin /Lügner/
+2 GIVN Garvin
+2 SURN Lügner
+2 SOUR @S0047@
+3 PAGE https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript
+3 DATA
+4 DATE 12 NOV 2012
+1 SEX M
+1 SOUR @S0047@
+2 PAGE https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript
+2 DATA
+3 DATE 12 NOV 2012
+1 CHAN
+2 DATE 25 JUL 2022
+3 TIME 15:43:08
+0 @I0257@ INDI
+1 NAME Blagdon /Blay/
+2 GIVN Blagdon
+2 SURN Blay
+2 SOUR @S0047@
+3 PAGE https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript
+3 DATA
+4 DATE 12 NOV 2012
+1 SEX M
+1 SOUR @S0047@
+2 PAGE https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript
+2 DATA
+3 DATE 12 NOV 2012
+1 CHAN
+2 DATE 25 JUL 2022
+3 TIME 15:44:34
+0 @I0258@ INDI
+1 NAME Malodora /Grymm/
+2 GIVN Malodora
+2 SURN Grymm
+2 SOUR @S0004@
+3 PAGE https://harrypotter.fandom.com/wiki/Beautification_Potion
+3 QUAY 1
+3 DATA
+4 DATE 8 JAN 2022
+1 SEX F
+1 SOUR @S0004@
+2 PAGE https://harrypotter.fandom.com/wiki/Beautification_Potion
+2 QUAY 1
+2 DATA
+3 DATE 8 JAN 2022
+1 CHAN
+2 DATE 25 JUL 2022
+3 TIME 17:56:25
 0 @F0000@ FAM
 1 HUSB @I0001@
 1 WIFE @I0002@
@@ -4859,6 +4937,12 @@
 1 CHAN
 2 DATE 8 JUL 2022
 3 TIME 21:29:16
+0 @S0047@ SOUR
+1 TITL Book of Spells
+1 AUTH Sony and J. K. Rowling
+1 CHAN
+2 DATE 25 JUL 2022
+3 TIME 15:38:39
 0 @R0000@ REPO
 1 NAME https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTr
 2 CONC ee.jpg
