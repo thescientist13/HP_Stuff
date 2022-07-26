@@ -38,7 +38,14 @@ slows in their 15th year and is essentially flat-lined by 16.[^220726-9]
 Interestingly, for UK Girls, the 9th percentile of height at age 16 is
 approximately 5'1".[^220726-10]  Depending on how short percentile-wise someone
 has to be before being generally described *as* "short," authors need to be
-really careful with their descriptions.
+really careful with their descriptions.  On the other hand, a girl's waist size
+apparently increases every year through out her teen years.[^220726-11]  If the
+same is true of her bust size (which is awkward to google), then that may
+explain what the author was *trying* to convey in my one example.
+
+[^220726-11]: [HealthLine](https://www.healthline.com/)
+    "[What Is the Average Waist Size for Women?](https://www.healthline.com/health/average-waist-size-for-women)"
+    Last Medically Reviewed 2019-06-12. (their version of a copyright date). Last Viewed: 2022-07-26
 
 [^220726-8]: kb0. _[The Lost Year](https://www.fanfiction.net/s/13815274)_
     [Chapter 4](https://www.fanfiction.net/s/13815274/4/The-Lost-Year)
