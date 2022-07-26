@@ -398,9 +398,11 @@ would not be inherited from father to child.  It does seem clear that this virus
 shortens the person's lifespan noticeably. 
 
 Is the werewolf more or less susceptible to
-[[Legilimency|The_Mind_Arts/Legilimency]]?  Does the virus create a "wolf"
-personality in his/her mind?  Would fracturing your mind that way make it harder
-to attack, or harder to defend? 
+[Legilimency][]?  Does the virus create a "wolf" personality in his/her mind?
+Would fracturing your mind that way make it harder to attack, or harder to
+defend? 
+
+[Legilimency]: <{{< ref "Harrypedia/magic/spells/Legilimens" >}}>
 
 Does the werewolf experience physical changes that persist the rest of the time?
 Enhanced sense of smell, or strength? 

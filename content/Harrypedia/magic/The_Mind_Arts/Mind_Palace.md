@@ -1,7 +1,7 @@
 [[!meta date="2020-07-27"]]
 [[!meta title="The Mind Arts: Mind Palace"]]
 
-A proposed defence against Legilimency, I have heard this one called a variety
+A proposed defence against [Legilimency][], I have heard this one called a variety
 of things.  The basic idea is to visualise something familiar and "hide" or
 "store" your memories "within" this location or structure.  "Sorting" or
 "organising" your memories this way supposedly makes it harder for an attacker
@@ -15,4 +15,7 @@ mnemonic instead of the real memories.  I suspect it would come down to a mental
 strength contest.  Can you hold your visualisation in place instead of actually
 remembering things as the attacker hunts for memories?
 
-[[!tag "HP Notes"]]
+[Occlumency]: <{{< relref "Occlumency" >}}>
+
+[Legilimency]: <{{< ref "Harrypedia/magic/spells/Legilimens" >}}>
+

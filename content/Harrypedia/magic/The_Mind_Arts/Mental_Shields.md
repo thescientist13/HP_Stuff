@@ -1,5 +1,9 @@
-[[!meta date="2020-07-16"]]
-[[!meta title="The Mind Arts: Mental Shields"]]
++++
+date = "2020-07-16"
+title = "The Mind Arts: Mental Shields"
+author = "Luke Schierer"
++++
+
 Muggledad in _Partners_[^20191119-7] offers a viable alternative.
 
 > What you will do for Occlumency is to cast a wordless, wandless, and most
@@ -17,18 +21,20 @@ gum and taking a drink.  So too, you can, with practice, hold that shield and do
 other things.
 
 Here it gets messy.  When [[Professor Snape|adults/Snape]] is focusing on
-[[legilimency]], which is closely related to [[occulumency]], he is vulnerable to
+[legilimency][], which is closely related to [[occulumency]], he is vulnerable to
 [[Harry]] reflecting the attack and breaking into his own mind.[^20191119-8]  Is
 this because he used [[occlumency]], or because the same would be true of mental
 shields?  
 
 Whichever he is doing, he feels the need to remove certain memories then because
 he, effectively, cannot chew gum and drink at the same time.  He can do
-[[legilimency]], or he can do &lt;insert art here&gt;, and he can even switch
+[legilimency][], or he can do &lt;insert art here&gt;, and he can even switch
 between them relatively fast, but not fast enough to feel confident about
 keeping all his most sensitive memories in his head.  This is an explanation
 that makes sense, without going all crazy supper powered about the benefits of
 mental defences. 
+
+[legilimency]: <{{< ref "Harrypedia/magic/spells/Legilimens" >}}>
 
 [^20191119-6]: muggledad. 
     _[Partners](https://www.faenfiction.com/fanfics/harry_potter/harry/anyone/463/0)_  
@@ -42,4 +48,3 @@ mental defences.
 [^20191119-8]: Mrs. J. K. Rowling.  _Harry Potter and the Order of the Phoenix_.
     Better citation needed here. 
 
-[[!tag "HP Notes"]]

@@ -1,14 +1,10 @@
 +++
-type = "spell"
+type = "potion"
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 spells = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = "{{ .Date }}"
 author = ""
 +++
-
-## Classification
-
-insert type of spell, charm, hex, transfiguration, so on
 
 ## Description
 insert description

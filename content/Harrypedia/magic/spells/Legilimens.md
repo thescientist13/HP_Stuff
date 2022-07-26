@@ -1,10 +1,21 @@
 +++
-title = "The Mind Arts: Legilimency"
-date = "2020-06-30"
+type = "spell"
+title = "Legilimens"
+spells = "Legilimens"
+aliases = [
+  "Harrypedia/magic/The_Mind_Arts/Legilimency/"
+]
+date = "2022-07-11T12:23:00-04:00"
 author = "Luke Schierer"
 +++
 
-Legilimency is the art, Legilimens is the person who practices it. 
+## Classification
+
+Unknown
+
+## Description
+
+Legilimency is the art, Legilimens is the person who practices it, as well as the spell to do so.
 
 Legilimency might not be quite reading your thoughts like a book, but it
 certainly seems to come close.  Though I have not seen it myself, this
@@ -34,11 +45,13 @@ and respond to grace.  Moreover the Devil can only corrupt, not create.
 The idea that you can be born with a _skill_ that is inherently immoral
 to use is repugnant.  One that can only be used in specific context, in
 narrow ways, fine.  Theology has to deal with concupiscense and chastity
-already afterall.  But if Queenie Goldstein is born instinctively
+already afterall.  But if [Queenie Goldstein][] is born instinctively
 practicing Legilimency, there must be a moral context in which it is
 acceptable.  A time, a place, and a method by which she can use her gift,
 even if she must (or at least should) learn to reign it in some or even
 most of the time.
+
+[Queenie Goldstein]: <{{< ref "Harrypedia/people/Goldstein/Queenie" >}}>
 
 Still, whether or not Legilimency is not itself inherently evil,
 and given that [Occlumency]({{< relref "Occlumency" >}}) is inherently flawed,
@@ -75,4 +88,10 @@ more inaccessible.[^20191119-9]
 [H1]: <{{< relref "Harry_James" >}}>
 
 [H2]: <{{< relref "Harry_James" >}}>
+
+## Found in
+
+* Mrs. J. K. Rowling. 
+  _[Harry Potter and the Order of the Phoenix](https://www.goodreads.com/book/show/2.Harry_Potter_and_the_Order_of_the_Phoenix)_
+  © 2005 Pottermore Limited. American Kindle Edition.  Kindle Location 7852.
 

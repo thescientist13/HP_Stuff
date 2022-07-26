@@ -1,8 +1,8 @@
 +++
 type = "spell"
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
-spells = "{{ replace .TranslationBaseName "-" " " | title }}"
-date = "{{ .Date }}"
+title = "Levitation_Charm"
+spells = "Levitation_Charm"
+date = "2022-07-25T10:12:33-04:00"
 author = ""
 +++
 
