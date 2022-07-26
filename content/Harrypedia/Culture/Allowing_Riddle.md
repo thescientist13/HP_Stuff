@@ -39,9 +39,9 @@ central to the plot without making the story solely a political thriller.  This
 last bit is probably the biggest problem with the scenario, Mrs. Rowling tells us
 that only two Potters have sat on the Wizengamot, but that both were effectively
 at critical times in history.[^211004-6]  As I state in my [Potter
-Family notes]({{< ref "Harrypedia/people/Potter/" >}}), the co-incidental
-timing makes me think that perhaps the Potters typically appoint proxies for
-some unknown reason, but that theory is a stretch.  Leaving aside the exact
+Family notes]({{< ref "Harrypedia/people/Potter/" >}}), the coincidental timing
+makes me think that perhaps the Potters typically appoint proxies for some
+unknown reason, but that theory is a stretch.  Leaving aside the exact
 structure of the Wizengamot, lets assume the above speculation is essentially
 accurate.  It still does not tell us enough. 
 
