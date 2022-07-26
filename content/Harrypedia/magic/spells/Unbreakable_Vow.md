@@ -23,7 +23,7 @@ vow).[^220726-8]
 
 [^220726-6]: Mrs. J. K. Rowling.
     _[Harry Potter and the Half-Blood Prince](https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince)_
-    Page 31,271.
+    Pages 31,271.
     © 2005 Pottermore Publishing. American Kindle Edition.
 
 [^220726-7]: Mrs. J. K. Rowling.
@@ -41,7 +41,7 @@ vow).[^220726-8]
 Primary Cannon
 :   Mrs. J. K. Rowling.
     _[Harry Potter and the Half-Blood Prince](https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince)_
-    Page 31,271.
+    Pages 31,271.
     © 2005 Pottermore Publishing. American Kindle Edition.
 
 Secondary Cannon
