@@ -57,7 +57,7 @@ author = "Luke Schierer"
 
 [JP1]: <{{< relref "James" >}}>
 
-[LP1]: <{{< relref "Lily" >}}>
+[LP1]: <{{< relref "Lily_J." >}}>
 
 [TMR1]: <{{< relref "Tom_Marvolo" >}}>
 

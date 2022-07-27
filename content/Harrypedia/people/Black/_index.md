@@ -36,12 +36,14 @@ Black might not have been either, despite her marriage to
 [Harfang]({{< ref "Harfang" >}})).  We *know* that [Arthur]({{< ref "Arthur" >}})
 [Weasley]({{< ref "Weasley" >}}), minimally, lives to inherit, so there would
 be no need to go to the third son of [Phineus Nigellus]({{< ref "Phineus_Nigellus" >}}) - 
-[Cygnus I]({{< ref "Cygnus" >}}), from whom [Draco]({{< ref "Draco" >}}) is
-descended.  Remember, even if girls cannot inherit, their sons can.   If the
-Black family is following an absolute male only primogeniture, then 
-[Draco]({{< ref "Draco" >}}) would still be unable to inherit as he is in line
-via his mother, who would be disqualified by gender.  The dates for this line
-of speculation are in the [History]({{< ref "History" >}}) timeline.
+[Cygnus I]({{< ref "Cygnus" >}}), from whom [Draco][] is descended.  Remember,
+even if girls cannot inherit, their sons can.   If the Black family is
+following an absolute male only primogeniture, then [Draco][] would still be
+unable to inherit as he is in line via his mother, who would be disqualified by
+gender.  The dates for this line of speculation are in the [History]({{< ref
+"History" >}}) timeline.
+
+[Draco]: <{{< relref "Draco_Lucius" >}}>
 
 On a side note, while it flies in the face of some of what I've written above,
 Tigerman has an interesting theory in his work [RuneMaster][RMff1].  He suggests

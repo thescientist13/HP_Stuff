@@ -158,7 +158,7 @@ incorporating non-magical classes no matter how needed or useful they might be.
 
 [James]: <{{< ref "Harrypedia/people/Potter/James" >}}>
 
-[Neville]: <{{< ref "Harryedia/people/Longbottom/Neville" >}}>
+[Neville]: <{{< ref "Harrypedia/people/Longbottom/Neville" >}}>
 
 [Draco]: <{{< ref "Harrypedia/people/Malfoy/Draco_Lucius" >}}>
 

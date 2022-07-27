@@ -145,9 +145,9 @@ influenced by the various depictions I have read.
 
 [Bill]: <{{< ref "Harrypedia/people/Weasley/William_Arthur" >}}>
 
-[HJP1]: <{{< ref "Harrypedia/peopple/Potter/Harry_James" >}}>
+[HJP1]: <{{< ref "Harrypedia/people/Potter/Harry_James" >}}>
 
-[HJG1]: <{{< ref "Harrypedia/peopple/Granger/Hermione_Jean" >}}>
+[HJG1]: <{{< ref "Harrypedia/people/Granger/Hermione_Jean" >}}>
 
 [RBW1]: <{{< ref "Harrypedia/people/Weasley/Ronald_Bilius" >}}>
 
