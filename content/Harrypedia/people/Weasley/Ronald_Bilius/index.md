@@ -29,6 +29,9 @@ It is in fourth year that things start to turn.  First Ron decides that
 [Harry][HJP1] not only put his own name in, but then lied about it.  Lets be
 honest here.  We know that [Harry][HJP1] did not put his name in, but [Harry][HJP1],
 like Ron, *did* dream of the "eternal glory" aspect of winning the tournament.
+If you consider means, motive and opportunity, Ron is correct that Harry has
+both motive and opportunity.
+
 Ron's jealousy and distrust is not appealing, and I would have trouble
 forgiving it.  Still, we cannot help but applaud when [Harry][HJP1] *does*
 forgive Ron.  [Harry][HJP1] has few friends, and when I was first reading the
@@ -40,9 +43,9 @@ probably ought to have disturbed me more.  I do not expect a fourteen year old
 boy to be particularly clued in about girls.  Ron is now the equivalent of a
 freshman in high school, if he went to a US school instead of a UK school.
 Freshmen are just starting to get past standing awkwardly across the room
-from each other, and just starting to group date.  So while Ron is perhaps
-a little on the immature side of things, the Ball has pushed both Ron and
-[Harry][HJP1] far beyond their comfort zone.
+from each other, and starting to group date.  So while Ron is perhaps a little
+on the immature side of things, the Ball has pushed both Ron and [Harry][HJP1]
+far beyond their comfort zone.
 
 It is not the lead up to Ball then that is concerning, it is the anger that
 comes when he sees [Hermione][HJG1] with Krum.  He gets into a screaming match
@@ -67,7 +70,10 @@ Ron's behaviour at the beginning of the summer when he accuses [Harry][HJP1]
 of messing with [Ginny][GMW1] more or less makes sense.  If you are going to
 break up with a girl, then do so.  No matter how little [Harry][HJP1] wanted to
 break up with [Ginny][GMW1], doing so then kissing her, if he had initiated it,
-would have been playing with her emotions.
+would have been playing with her emotions.  We know that the kiss is
+[Ginny's][GWM1] idea, but I think that never occurred to Ron. In his mind, [Ginny][GWM1]
+is the injured party, so why would she kiss [Harry][HJP1]?  He ([Harry][HJP1])
+*must* have started the kiss.
 
 But somehow Ron decides that [Harry][HJP1] broke up with [Ginny][GMW1] because he was
 really secretly attracted to [Hermione][HJG1].  Sure the locket horcrux played a
@@ -91,7 +97,7 @@ summer after fifth year, and perhaps it is not surprising that they have
 not talked.  [Harry][HJP1] knows that Ron does not want to hear about [Ginny][GMW1]
 that way, and [Harry][HJP1] probably does not want to think about [Hermione][HJG1]
 that way.  In fact, [Harry][HJP1] probably thinks, that Ron is respecting
-[Harry][HJP1]'s feelings the same way [Harry][HJP1] is respecting Ron's.
+*[Harry][HJP1]'s* feelings the same way [Harry][HJP1] is respecting Ron's.
 
 So this rambling tangent aside, where does this leave us?  We have Ron who not
 only believes that [Harry][HJP1] and [Hermione][HJG1] are just waiting to stab him
