@@ -45,7 +45,7 @@ theory, horcruxes do work.  It keeps me more in line with cannon, but gets rid
 of the over convenient root of all evil version of Herpo.  To mesh back in with
 cannon, it is my thought that, since Ancient Greece and Egypt had at least some
 contact, Herpo stole the magic theory behind horcruxes from the Egyptians. Hence
-it being convenient that the two civilisations overlap. 
+it being convenient that the two civilisations overlap in time. 
 
 Several centuries later, Wong Shan-Hao (from Itsme66's work) attempted a
 horcrux, but botched the creation, explaining the intact one on display in the
@@ -190,7 +190,7 @@ feeling.
 
 Interestingly she insists that despite the fact that he is not a true horcrux,
 he would have had to be destroyed the same way.[^210323-1] I, like [Ginny][GMW1] in
-the fanfiction above, disagree on that.  It does not make sense. I prefer the
+the fan fiction above, disagree on that.  It does not make sense. I prefer the
 theory "Anything enchanted can be disenchanted … there are many poor methods to
 solve a problem, but usually only one or a small number of elegant
 options."[^210323-2]  Under this theory, few if any researchers have ever
@@ -343,6 +343,22 @@ between them find and destroy, do I see room for one to have been used but not
 mentioned in book four.  This idea suffers from many of the rebuttals listed
 above as well.
 
+More rarely, but closely in line with my first entry in this section, is the
+idea that Harry's scar is *not* a soul fragment.[^220728-4]  Many of these
+authors believe that there ought to be a maximum number of splits.  If that
+were true, if [Riddle][] intended to create his seventh horcrux with/at
+[Harry][HJP1]'s murder, then he was at six soul parts. This is not a [stable
+number][], but also not a notably *unstable* one.[^220728-5]  For this theory
+to work, [Riddle][] ought to have been at [eleven][], or [thirteen][] parts.
+
+[eleven]: <https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/11.html>
+
+[thirteen]: <https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/13.html>
+
+[Riddle]: <{{< relref "Tom_Marvolo" >}}>
+
+[stable number]: <{{< ref "/Harrypedia/magic/arithmancy/RealWorld/" >}}>
+
 [HJP1]: <{{< relref "Harry_James" >}}>
 
 [GMW1]: <{{< relref "Ginevra_Molly" >}}>
@@ -350,6 +366,14 @@ above as well.
 [TMR1]: <{{< relref "Tom_Marvolo" >}}>
 
 [AD1]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
+
+[^220728-5]: [Bible Study](https://www.biblestudy.org/).
+    "[Meaning of Numbers in the Bible](https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/introduction.html)"
+    Last Viewed: 2022-07-28.
+
+[^220728-4]: stories with this include but are not limited to:
+    * kb0. _[Ginny's Plan](https://www.fanfiction.net/s/13281665)_
+      Published: 2019-05-08. Last Updated: 2019-07-28. Last Viewed: 2022-07-28.
 
 [^210324-5]: Yunaine.
     _[Public Safety](https://www.fanfiction.net/s/10387771)_
@@ -363,4 +387,3 @@ above as well.
 [^200625-1]: offsides.  
     _[Long Live The Queen](https://www.fanfiction.net/s/11500936)_ <https://fanfiction.net> Last Viewed 2020-06-25.
 
-[[!tag "HP Notes"]]
