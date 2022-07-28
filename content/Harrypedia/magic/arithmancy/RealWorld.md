@@ -51,7 +51,9 @@ Thus I expect that in Rowling's universe, the following numbers would be "magica
     "[What Is the Significance of Biblical Numerology?](https://www.christianity.com/wiki/christian-terms/what-is-the-significance-of-biblical-numerology.html)"
     Published 2021-04-15. [Christianity.com](https://www.christianity.com).
 
-[^220728-3]: <{{< wikipedia "Arithmancy" >}}>
+[^220728-3]: [Wikipedia](https://wikipedia.org/)
+    "{{< wikipedia "Arithmancy" >}}"
+    Last Edited: 2022-07-26. Last Viewed: 2022-07-28.
 
 [^220728-2]: [Bible Study](https://www.biblestudy.org/).
     "[Meaning of Numbers in the Bible]
