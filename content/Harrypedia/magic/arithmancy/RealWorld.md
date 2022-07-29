@@ -56,4 +56,5 @@ Thus I expect that in Rowling's universe, the following numbers would be "magica
     Last Edited: 2022-07-26. Last Viewed: 2022-07-28.
 
 [^220728-2]: [Bible Study](https://www.biblestudy.org/).
-    "[Meaning of Numbers in the Bible]
+    "[Meaning of Numbers in the Bible](https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/introduction.html)"
+    Last Viewed: 2022-07-28.
