@@ -3,6 +3,13 @@ title = "History"
 date = 2022-07-26T16:13:48-04:00
 +++
 
+```mermaid
+gitGraph
+  commit
+  commit
+  commit
+```
+
 <ui5-timeline>
   <ui5-timeline-item id="410" title-text="410" icon="world">
     Romans pulled out of Britain.[^200623-1]  While Hadrian's wall isn't
