@@ -9,11 +9,13 @@ author = "Luke Schierer"
 
 I really want to like Professor McGonagall, but so much that happens at Hogwarts
 is troubling that I am conflicted about her. She is, in some ways, the
-quintessential Harry Potter Series [[adult|adults]].  _The Board_[^190823-1] by
+quintessential Harry Potter Series [adult].  _The Board_[^190823-1] by
 [Clell65619][dmffan] shows a critical view of her that I am, despite myself,
 really drawn to.  This view is more or less seconded by _[When Is It a
 Contract][WIIAC]_ which focuses on the conflicts between her roles as Deputy and
 Head of House.[^210322-2]
+
+[adult]: <{{< relref "adults" >}}>
 
 Better detectives than I have pieced together her probable timeline, assuming
 you ignore the Fantastic Beasts movies.  Born in 1935, she started Hogwarts in
@@ -23,9 +25,9 @@ graduation.[^200720-7]  She informs Umbridge that she will have been at Hogwarts
 "Thirty-nine years this December,"[^200720-8] sometime in the beginning of fifth
 year, or 1995. That puts her start date in 1956.  Despite this, we are told that
 she intervened when [Leta Lestrange][LL2] was bullied at age 13 in
-1910,[^211018-1] and when  [Theseus][TS1] was a student.[^211018-2]
-This would require her to have either left Hogwarts for a time, or to have been
-a teacher for at least 85 years.[^211018-3]
+1910,[^211018-1] and when [Theseus][TS1] was a student.[^211018-2]  This would
+require her to have either left Hogwarts for a time, or to have been a teacher
+for at least 85 years.[^211018-3]
 
 [LL2]: <{{< ref "Harrypedia/people/Lestrange/Leta" >}}>
 
@@ -62,10 +64,12 @@ cause the rest of the house to shun them.  That is why she does not step in as
 people from three houses do not "trouble to lower their voices as they insulted
 him."[^210504-2]  McGonagall is *not* seeing [Harry][HJP1], small for his age (he
 has to be, see my page specifically on [Harry][HJP1]), shy, and uncertain.  No; she
-is seeing [[James]], bold, brash, almost cruel in his pranks.  She is
+is seeing [James][], bold, brash, almost cruel in his pranks.  She is
 purposefully going overboard to head off that type of behaviour.  Better that
 [Harry][HJP1] suffer rejection by his peers than mirror his father's early years in
 school.  
+
+[James]: <{{< ref "/Harrypedia/people/Potter/James" >}}>
 
 The exact situation in Worldmaker's _[Furious Angels][WMFA1]_ is different, but
 the description of McGonagall is spot on:
@@ -75,6 +79,10 @@ the description of McGonagall is spot on:
 > Transfiguration professor, chaos was to be avoided, and when it couldn't be
 > avoided, it was to be put down quickly, efficiently, and with as much of a
 > lesson to the chaos-maker as possible.[^210922-2]
+
+While the rest of her backstory is bogus in _[The Bonds of Blood][TBoB]_, that
+echos the characterisation of her as "a warrior of order" who "despised
+chaos."[^220729-2]
 
 The part that makes this questionable is twofold.  One, she knows full well that
 [James][] grew up spoiled and loved where [Harry][HJP1] grew up in a family she
@@ -175,6 +183,13 @@ incorporating non-magical classes no matter how needed or useful they might be.
 [CTB2]: https://archiveofourown.org/works/156533
 
 [WMFA1]: https://www.fanfiction.net/s/4175909
+
+[TBoB]: <https://www.fanfiction.net/s/5435295>
+
+[^220729-2]: Darth Mars.
+    _[The Bonds of Blood][TBoB]_
+    "[Chapter Twenty-Five: Glow In The Dark](https://www.fanfiction.net/s/5435295/25/The-Bonds-of-Blood)"
+    Published: 2009-10-11. Updated: 2011-01-15. Last Viewed: 2022-07-29.
 
 [^211103-1]: [The Harry Potter Lexicon](https://www.hp-lexicon.org/)
     "[Timelines > McGonagall](https://www.hp-lexicon.org/timeline/character-timelines/mcgonagall/)"
