@@ -40,10 +40,13 @@ type: "stories"
   represent instances of Divine Justice, sometimes mediated by the actual
   angels.  This is the primary idea pulled from that source.  I am going to be
   inconsistent in my language about this, because it is (and always has been)
-  unclear to the nephilim how much is something *they* did wrong (and was thus
-  avoidable), how much is something *God* caused to happen to them, and how
-  much is something that an angel, acting within the scope and authority
-  granted that angel by God, has caused of its own initiative.  
+  unclear to both the nephilim and the clergy how much is something *the
+  nephilim* did wrong (and was thus avoidable), how much is something *God*
+  caused to happen to them, and how much is something that an angel, acting
+  within the scope and authority granted that angel by God, has caused of its
+  own initiative.  To my mind, because I am also pulling from _Many Waters_
+  things in this third category are never *wrong* but might not represent the
+  *best possible* action in a given situation.
 
 
 #### Some Notable Differences from the actual Harry Potter universe
@@ -88,11 +91,15 @@ type: "stories"
   incompatible horse and eagle that is not fully one nor the other, the person
   who can use magic is a nephil, not a human. 
    * As a distortion of God's creation, nephilim do not, cannot fit cleanly into
-     either creation or Divine Law. [Soteriology][WP1], [Missiology][WP2], and
-     [Ecclesiology][WP3] get interesting (and fictional) curlicues and footnotes
-     trying to deal with the chaotic fallout of the interaction between the
-     angelic and the human in a nephil's nature.  This lets me do things to/with
-     the characters that would not otherwise be at all moral. 
+     either creation or Divine Law. 
+     * [Soteriology][WP1], [Missiology][WP2], and [Ecclesiology][WP3] get
+       interesting (and fictional) curlicues and footnotes trying to deal with
+       the chaotic fallout of the interaction between the angelic and the human
+       in a nephil's nature.  This lets me do things to/with the characters that
+       would not otherwise be at all moral. 
+     * I will somewhat compare the nephil to mules or <{{ wikipedia ligers }}>.
+       While in some ways they may appear to have advantages to one or both
+       parent species, they are an artificial, unnatural 'creation'. 
    * Just as a hippogriff is impossible by normal genetics, and cannot be
      explained by Mendelian inheritance patterns, children of either two nephil
      or one human and one nephil do not follow purely Mendelian inheritance
