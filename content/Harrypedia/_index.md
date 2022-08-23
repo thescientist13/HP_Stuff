@@ -23,7 +23,9 @@ I probably still need to revisit the main page and move some of its content here
 I will use the the following, in the following order of precedence.  That is, facts found in secondary sources cannot contradict facts found in primary sources, nor can facts found in tertiary sources contradict either of the previous two. 
 
 ### Primary Sources 
-Bloomsbury editions, [with corrections](Bloomsbury editions, with corrections)
+Bloomsbury editions, [with corrections][]
+
+[with corrections]: <https://www.hp-lexicon.org/differences-changes-text/>
 
 ### Secondary Sources
 American Kindle editions (because these are easier to search and cite)
