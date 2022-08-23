@@ -62,14 +62,19 @@ determine what happens to a given child.
    - Magic that aligns with a virtue *still corrupts*, it simply does so less
      severely, more slowly (and thus less likely to happen literally over
      night), and/or the change is less likely to be inheritable.
-   - Only magic that *requires* emotion tends to have very low, very real
+   - Magic that *requires* emotion tends to have very low, very real
      thresholds.  Magic that is merely *affected* by the user's emotions tends
      to allow for greater ranges of use without hitting thresholds.
    - It is theoretically possible, but in practice highly unlikely, that the
      changes induced by different magics requiring opposing emotional contexts
      might cancel each other out.
+   - Intent matters, if the threshold was crossed due to malicious intent, the
+     corruption tends to be more crippling, where the threshold was crossed
+     despite benign intent, or out of fear for self or others, the corruption
+     tends to be mitigated in odd unexpected ways.
    - While all emotional magic falls in this category of corrupting the user,
      there are other classes of magic that do as well.
+   - Magic that *decreases* free will of the *target* has *incredibly* low thresholds.
    - Use of a corrupting magic sufficient to reach a change threshold frequently
      predisposes the next generation to be susceptible to either that type of
      magic, the type of emotions that are required for that magic, or both, by 10%
@@ -161,7 +166,10 @@ determine what happens to a given child.
   this hybrid, something of each was lost. They are thus *slightly* lesser than
   humans, and *entirely* outside the intended, natural hierarchy. Despite
   having greater capabilities in some ways, they have deficits in others, most
-  notably, they are overall *less free.*
+  notably, they are overall *less free.*  Think of mules, they have advantages,
+  in certain circumstances, over both donkeys and horses, but they are not
+  really a stable species at all, and in some ways (specifically fertility)
+  less than either.
 
   In angelic beings, there is very little potentiality in knowledge, when they
   learn something, they learn it fully and completely, not gradually come to
@@ -188,7 +196,8 @@ determine what happens to a given child.
   souls and to magic used on *other nephilim* (or on races descending from
   nephilim, see below).  Things that would be temptations to a human can be
   overriding compulsions to a nephil, and they are vulnerable to each other (and
-  to others who can use similar powers) in ways that humans are not.
+  to others who can use similar powers) in ways that humans are not.  See the
+  notes on contracts.
 * At some point in history, each nephil descends from a witch.  This witch had
   magic of only one type, that of the angel that corrupted her.  The nephil
   inherited *only that type* of magic, and is called a "primordial" nephil.
@@ -199,8 +208,9 @@ determine what happens to a given child.
   a side effect of their magic, which, regardless of type, will offer some
   protection against disease and against the effects of entropy (and thus old
   age).  It does not halt the decay of old age, but it does retard it.  The
-  extend to which it extends the nephil's life depends on the nephil's average
-  power level.  
+  extent to which it extends the nephil's life depends on the nephil's
+  *average* (not highest) power level (only including power levels where
+  present at all).  
 * Per earlier sections, it takes approximately six consecutive generations of magical
   abuse for "truly bizarre" things to become not just possible but probable.
    * Recall the note from [Appendix A]({{< relref "Appendix_A" >}}) on _The
@@ -216,8 +226,8 @@ determine what happens to a given child.
    * mermen - These were once a magically powerful people who used inheritances
      from the Dominions to transmute themselves to survive [the great Flood]({{< relref "backstory/The_Flood" >}}).
    * dwarfs - I really dislike what Mrs. Rowling did with the dwarfs in _the
-     Chamber of Secrets_.[^20210518-1]  Since she says that goblins of all
-     things are expert craftsmen,[^20210518-2] my take is that nephil became
+     Chamber of Secrets_.[^210518-1]  Since she says that goblins of all
+     things are expert craftsmen,[^210518-2] my take is that nephil became
      dwarfs which in turn became goblins.  I will figure out something else for
      Lockhart's cupids if I ever get that far in writing.
    * goblins - people, descendant from the dwarfs, who are highly susceptible to
@@ -231,7 +241,7 @@ determine what happens to a given child.
      world as fiction.  Despite their flaws, these populations retained their
      intelligence and their magic.  They are particularly strong inheritors from
      the Virtues, Powers, and Archangels, with lesser inheritances from the
-     Principalities and angels.  Their creation of the trolls at the begining of
+     Principalities and angels.  Their creation of the trolls at the beginning of
      the [goblin wars]({{< relref "backstory/The_Dwarfs" >}}) explains why they
      were punished so harshly (as to have originally lost nearly all free will - 
      90% impact).
@@ -246,7 +256,7 @@ determine what happens to a given child.
      - Their form transmuted to a half animal form to reflect the fact that
        their free will is nearly gone.  They now have a herd instinct that rules
        much of their behaviour.
-     - They became nearly immune to the magic of the Thrones as practiced by
+     - They became nearly immune to the magic of the Thrones as practised by
        other mortals.  It is next to impossible to confound or imperious a
        centaur for example.  This is in part because they perceive the magic of
        the attempt.
@@ -264,23 +274,22 @@ determine what happens to a given child.
        either as individuals or in groups (since veela have no herd, or in their
        case flock, effect).
    * veela - For the purposes of this story, veela are "dark"
-     creatures[^20210126-4].  I have chosen to create a version of veela that
+     creatures[^210126-4].  I have chosen to create a version of veela that
      justifies the suspicion that [Molly]({{< ref "Molly" >}}), [Hermione]({{< ref "Hermione_Jean" >}}) 
      and [Ginny]({{< ref "Ginevra_Molly" >}}) view [Fleur]({{< ref "Fleur_Isabelle" >}}) 
      with.  Veela have some of the strongest inheritances from the Thrones of
      all humanoid magic users.  The pure veela is not an example of a
      primordial  people.  Rather,the veela race comes from an example of
-     true perfidy. Genetically the first veela's parents were a cross from a
-     really really strong primordial nephil of the Thrones type, with a
-     primordial nephil of the Dominions type on one side, and a primordial
-     nephil of the Powers type on the other.  This child grew up into a young
-     woman who viewed the men around her as easily manipulated means to her
-     ends.  She used her abilities to inflame their desires and bind their
-     wills, with little regard for not only the men, but also the impact on the
-     families they came from.  She was also responsible for the creation of
-     doxies and fairies.  Her crimes, particularly the creation of human-form
-     creatures, were so great that she was cursed with a Screwtape
-     style mutation of epic proportions:
+     true perfidy.  The first veela was a child whose mother was a Thrones
+     witch, and whose paternal grandparents were primordial nephilim of the
+     Dominions and Powers types.  This child grew up into a young woman who
+     viewed the men around her as easily manipulated means to her ends.  She
+     used her abilities to inflame their desires and bind their wills, with
+     little regard for not only the men, but also the impact on the families
+     they came from.  She was also responsible for the creation of doxies and
+     fairies.  Her crimes, particularly the creation of human-form creatures,
+     were so great that she was cursed with a Screwtape style mutation of epic
+     proportions:
      - All veela are female, a male child of a veela will inherit solely from
        the child's father in terms of magic.
      - A "half-veela" is a veela/nephil cross where either the veela nature was,
@@ -325,7 +334,7 @@ determine what happens to a given child.
        combine with her inheritance from the Dominions.  No full veela is
        capable of permanent transmutation, and a "half-veela" is capable of it
        only to the extent her male parent was.
-     - Her lifespan was reduced to half that of a full human's.[^20210916-1]
+     - Her lifespan was reduced to half that of a full human's.[^210916-1]
        A half-veela has a 16% chance of inheriting the greater of the two
        lifespans (her father's and her mother's), a 14% chance of inheriting the
        average of the two lifespans, and a 70% chance of simply being either
@@ -356,28 +365,28 @@ determine what happens to a given child.
        Combined with her weakened will power (see above), she is very poorly
        equipped to control the production of these pheromones, causing her own
        magic to essentially enslave her to the one she loves. This remains true
-       of the "half-veela."[^20210916-2]  This is the punishment for giving in
+       of the "half-veela."[^210916-2]  This is the punishment for giving in
        to the temptation of her locked powers.
      - *ALL* veela are female, despite the normal rules, only female children
        *ever* inherit veela powers or the physical and mental changes that now
        go with them.  It is *possible* though per the above *unlikely* that a
        veela will have a male child.  The child will *always* inherit either in
        a purely human fashion or *solely* from the father.  This is equally
-       true of half-veela.
+       true of half-veela.  A veela's child does not get its inheritance per-trait as is normal.
    * giants - the physical changes wrought on them by sin have become "mundane"
      and are now governed by Mendelian inheritance.  Church
-     [records]({{< ref "backstory/Giants" >}}) show that the giants come from the creators of
-     the house elves. Behold in them what man would be if left without his mind,
-     the only hope they have is that their intellects are so clouded that it is
-     nearly impossible for them to actually commit a mortal sin.  Should any be
-     willing to be missionary to the giants, the grace of baptism would be
-     nearly unopposed, because these beings have so little ability to freely
-     choose to do anything, and even less ability to understand something is
-     gravely wrong.
+     [records]({{< ref "backstory/Giants" >}}) show that the giants come from
+     the creators of the house elves. Behold in them what man would be if left
+     without his mind, the only hope they have is that their intellects are so
+     clouded that it is nearly impossible for them to actually commit a mortal
+     sin.  Should any be willing to be missionary to the giants, the grace of
+     baptism would be nearly unopposed, because these beings have so little
+     ability to freely choose to do anything, and even less ability to
+     understand something is gravely wrong.
 
-[^20210916-1]: Like in _[Maskirovat][knffnm]_.
+[^210916-1]: Like in _[Maskirovat][knffnm]_.
 
-[^20210916-2]: This idea resembles that from Jeconais'
+[^210916-2]: This idea resembles that from Jeconais'
     _[Hope](https://jeconais.fanficauthors.net/Hope)_
     Last Updated: 2007-05-30. Last Viewed: 2021-09-16.
     I have not copied it precisely as he came up with it, my version is
@@ -391,21 +400,21 @@ intelligence, but are all effectively the same as meeting different qualities of
 AI players, as if you were encountering cyborgs.
 
 The creation of these "races" is an abomination, and the more nearly human, or
-in other words the more perfectly the simulate free will, the greater the
-abomination.  This will definitely have had *Screwtape* style bizarre on the
-perpetrators of these crimes against creation and their descendants.  This is
-true because of the moral confusion it causes - these "races" do not have
-immortal souls the way humans, angels, nephil, or the nephil descended races do,
-and yet they appear as if they should.  It is true because their creation mocks
-the creation of man.  And lastly, it is true because their creation,
-particularly that of the house elves and the trolls, has created groups that
-exist at odds with true charity: in the case of the trolls a "race" that cannot
-rise above rage, and in the case of the house elves a "race" that can never be
-fully freed.
+in other words the more perfectly they simulate free will, the greater the
+abomination.  This will definitely have had *Screwtape* style bizarre effects
+on the perpetrators of these crimes against creation and their descendants.
+This is true because of the moral confusion it causes - these "races" do not
+have immortal souls the way humans, angels, nephil, or the nephil descended
+races do, and yet they appear as if they should.  It is true because their
+creation mocks the creation of man.  And lastly, it is true because their
+creation, particularly that of the house elves and the trolls, has created
+groups that exist at odds with true charity: in the case of the trolls a "race"
+that cannot rise above rage, and in the case of the house elves a "race" that
+can never be fully freed.
 
 * Acromantula - created from spiders (obviously) by an unknown nephil or group
   of nephilim.  Acromantula are capable of learning human speech, but do not
-  speak anything that could be defined as a language in the wild.[^20210916-3]
+  speak anything that could be defined as a language in the wild.[^210916-3]
 * Bowtruckle - created by the extreme use of magics on tree branches by an
   unknown agency (may be directly demonic).
 * fairies/imps/doxies - created by the extreme use of magics on (different)
@@ -415,9 +424,10 @@ fully freed.
   are guided by incredibly strong instinct rather than by reasoning. They are
   very like domesticated cats and dogs in this respect; a dog might remember its
   owner, but its behaviours will always be more governed by instinct than not.
-  It is known that fairies and doxies were created by the woman who became the
-  first veela.  It is unknown who first created imps.
-* ghoul - unknown origin. Often treated as a pet.[^20210916-4]
+  It is known that, in addition to her crimes of enslavement,  fairies and
+  doxies were created by the woman who became the first veela.  It is unknown
+  who first created imps.
+* ghoul - unknown origin. Often treated as a pet.[^210916-4]
 * gnomes - created by the extreme use of magics on clay figures, these beings
   have no long term memory at all.  It is unknown who created these.
 * house elves - created by the extreme use of magics on an unknown mammal (not a
@@ -430,7 +440,7 @@ fully freed.
   of 2 (age half a year for each year you live).  If the elf feels itself to be
   *part of the family*, the bond can slow ageing by an additional factor of 2
   (each year ages you a quarter of a year).  If the elf feels its contribution
-  is *critical*, then, independent of the feeling of family,(but not
+  is *critical*, then, independent of the feeling of family, (but not
   independent of being bound) the elf can gain a factor of 2.  If the elf feels
   that it is *fully utilised* (kept free from idleness), it gains a factor of
   *4*.  Where a human gets stressed by being overworked, an elf actually gets
@@ -449,8 +459,8 @@ fully freed.
   enough to need helpers with more nimble fingers.
   - a bound elf (1/2) who feels him/her self part of the family (divide by 2
     again), is critical to the family's welbeing (another 1/2 on top), and is
-    fully utilized (1/4) would thus age at a rate of 1/32nd normal.  In other
-    words they would live to on average 485 years old instead of 20 years(5
+    fully utilised (1/4) would thus age at a rate of 1/32nd normal.  In other
+    words they would live to on average 485 years old instead of 20 years (5
     years ageing at a normal rate before being bound, added to 15*32).
   - from this we can conclude that Dobby would be, in human terms, considered
     very nearly suicidal in his desire for freedom.  He was bound (factor of
@@ -460,7 +470,7 @@ fully freed.
 * Leprechaun - created by the use of extreme magics on an unknown mammal, by an
   unknown being.
   > More intelligent than the fairy and less malicious than the imp, the pixie
-  > or the Doxy, the leprechaun is nevertheless mischievous.[^20210916-5]
+  > or the Doxy, the leprechaun is nevertheless mischievous.[^210916-5]
 * Pixie - The pixie largely resembles an imp in behaviour and intelligence, but
   the fact that it bears live young suggests a different origin.  We have no
   true history of how they came to be.
@@ -479,27 +489,27 @@ fully freed.
 
 [knffnm]: <kokopelli.nsns.fanficauthors.net/Maskirovat/Maskirovat/>
 
-[^20210518-1]: Mrs. J. K. Rowling. _Harry Potter and the Chamber of Secrets_
+[^210518-1]: Mrs. J. K. Rowling. _Harry Potter and the Chamber of Secrets_
     Better citation needed.
 
-[^20210518-2]: Mrs. J. K. Rowling. _Hogwarts: An Incomplete and Unreliable
+[^210518-2]: Mrs. J. K. Rowling. _Hogwarts: An Incomplete and Unreliable
     Guide_ p. 69. Pottermore Publishing. American Kindle Edition.
 
-[^20210126-4]: Yanna N.
+[^210126-4]: Yanna N.
     "[Veelas – What Exactly Are The Slavic Seductresses From Harry Potter?](https://www.slavorum.org/veelas-what-exactly-are-the-slavic-seductresses-from-harry-potter/)"
     [The Official Slavorum](https://www.slavorum.org/) Last Viewed 2020-07-07.
 
-[^20210916-5]: Mrs. J. K. Rowling
+[^210916-5]: Mrs. J. K. Rowling
     _[Fantastic Beasts and Where to Find
     Them](https://www.goodreads.com/book/show/41899.Fantastic_Beasts_and_Where_to_Find_Them)_
     Kindle Locations 694-698. Pottermore. American Kindle Illustrated Edition.
 
-[^20210916-4]: Mrs. J. K. Rowling
+[^210916-4]: Mrs. J. K. Rowling
     _[Fantastic Beasts and Where to Find
     Them](https://www.goodreads.com/book/show/41899.Fantastic_Beasts_and_Where_to_Find_Them)_
     Kindle Location 564. Pottermore. American Kindle Illustrated Edition.
 
-[^20210916-3]: This is an exaggerated version of Mrs. J. K. Rowling's
+[^210916-3]: This is an exaggerated version of Mrs. J. K. Rowling's
     "Acromantula" _[Fantastic Beasts and Where to Find
     Them](https://www.goodreads.com/book/show/41899.Fantastic_Beasts_and_Where_to_Find_Them)_
     Kindle Locations 265-266. Pottermore. American Kindle Illustrated Edition.

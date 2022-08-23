@@ -5,6 +5,27 @@ toc: false
 type: "stories"
 ---
 
+#### Things you might have missed in Harry Potter that I am elaborating on
+
+* In _[Goblet of Fire][]_, Harry is unwillingly entered into a *binding magical
+  contract*.  I am making the assumption that Riddle and Crouch Jr. have Crouch
+  Sr. spout a viable theory for why Harry has to compete.  That is, if he is
+  *not* in fact in a binding magical contract, he *could be*, despite not
+  having entered.  Riddle and Crouch Jr. will have to assume that Dumbledore,
+  or another adult present, *might* do the responsible adult thing and object
+  otherwise.  Thus it is *possible* in Mrs. Rowling's world to create a binding
+  magical contract on unwilling participants.  There have to be *some* sort of
+  caveats/limitations here, but we do not know what they are.
+* The Unbreakable Vow as described in _[Deathly Hallows][]_ is essentially a
+  ritual.  The magic is coming in part from the bonder, but in part from the
+  two kneeling, which from earlier books, seems to be an essential component of
+  the magic.  Thus beyond the magic learned at Hogwarts, there *are* others,
+  including rituals.
+
+[Goblet of Fire]: <https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire>
+
+[Deathly Hallows]: <https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows>
+
 #### Things differing for those familiar with _Many Waters_
 
 * L'Engle calls the fallen angels the nephilim.  I'm using more orthodox

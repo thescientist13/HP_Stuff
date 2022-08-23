@@ -429,6 +429,31 @@ Occlumency
     Occlumency.  This story will offer magical defences to legilimency besides
     that of occlumency.
 
+Contracts
+:   As I said in the [Appendix A][], Mrs. Rowling set up a world in which you
+    can be unwillingly bound to obey a contract.  Any number of writers have
+    used this to set up Harry in a marriage contract.  I do not intend to go
+    there, not because I think it never happened, on the contrary, I think it
+    probably did happen.  [Wikipedia][] claims that arranged marriages were
+    common in much of the world as late as the 18th century.[^220823-1]  It
+    stands to reason that not every couple went to the alter willingly in every
+    case, and that some of the darker nephil parents would explore means to
+    coerce compliance.  Still, as I said, that is not one of the things I
+    intend to do to Harry here.  These contracts are, however, part of the
+    cultural history that pure bloods inherit, as well as part of the history
+    of the relationship between nephilim and the Catholic Church.  How would
+    the Church handle someone validly married who is now magically forced to
+    marry someone else?  
+:   Structurally speaking, these contracts are essentially just like Runes.
+    You use magic inherited from the Virtues to give your writing power, in
+    this case power inherited from the Thrones to compel the will of those
+    bound by the contract. 
+
+[Appendix A]: {{< relref Appendix_A >}}
+[^220823-1]: [Wikipedia][].  "{{< wikipedia Arranged_marriage >}}" Last edited: 2022-08-17.
+
+[Wikipedia]: <https://en.wikipedia.org/>
+
 [^20210902-5]: Mrs. J. K. Rowling.
     "[What is the significance of Neville being the other boy to whom the prophecy might have
     referred?](https://therowlinglibrary.com/jkrowling.com/textonly/en/faq_view_id=84.html)"

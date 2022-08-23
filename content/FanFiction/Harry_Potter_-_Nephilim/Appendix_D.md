@@ -24,7 +24,7 @@ Potter    |[James]({{< relref "#james" >}})      |8       |4       |9      |10  
 Potter    |[Euphemia]({{< relref "#euphemia" >}})|3       |1       |10     |10       |4      |9     |2             |9         |6     |6.00
 Potter    |[Fleamont]({{< relref "#fleamont" >}})|7       |8       |8      |4        |8      |7     |6             |9         |6     |7.00
 Prince    |[Eileen]({{< relref "#eileen" >}})    |2       |7       |3      |6        |5      |4     |3             |4         |4     |4.22
-Evans     |[Lily]({{< relref "#lily" >}})        |7       |7       |8      |6        |9      |6     |9             |6         |8     |7.33
+Evans     |[Lily]({{< relref "#lily" >}})        |7       |7       |7      |6        |9      |7     |9             |6         |8     |7.33
 Evans     |Mrs.                                  |1       |2       |1      |2        |3      |3     |3             |3         |3     |2.33
 Evans     |Mr.                                   |2       |1       |1      |2        |3      |3     |3             |2         |3     |2.22
 Evans     |Petunia                               |1       |1       |1      |0        |0      |1     |1             |0         |0     |0.55
@@ -40,6 +40,7 @@ Weasley   |[Percy]({{< relref "#percy" >}})      |3       |8       |3      |6   
 Weasley   |[Ginny]({{< relref "#ginny" >}})      |5       |8       |4      |9        |9      |8     |8             |9         |8     |7.55
 Weasley   |Arthur                                |5       |9       |6      |7        |7      |8     |8             |7         |9     |7.33
 Weasley   |[Molly]({{< relref "#molly" >}})      |4       |8       |2      |8        |8      |8     |8             |8         |8     |6.88
+Delacour  | [Fleur]({{< relref "#fleur" >}})     |5       |5       |10     |9*       |7      |8*    |8             |7         |8     |7.44
 
 ##### Molly
 Molly was born with a higher score for Thrones.  Her own behaviour cost her
@@ -70,6 +71,12 @@ If you look, Bill has pretty much the ceiling score of his brothers
     for him 9 times out of 10 (hence Fleur is the healer in the family).  Bill
     is not taking advantage of any real 1%s, he is simply getting nearly the
     best of two powerful parents.
+
+##### Fluer
+As you can see, Fluer is fairly strong, so it was no surprise that the Goblet
+    chose her. Several of her scores are qualified in that her ability to use
+    them is limited by her veela nature.  Unfortunately for her, the Goblet was
+    not designed to consider that.
 
 ##### Charlie
 Reading the magic in magical creatures is key to Charlie's work.  He
