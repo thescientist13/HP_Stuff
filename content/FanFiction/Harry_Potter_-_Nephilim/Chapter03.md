@@ -18,12 +18,12 @@ jealousy even as it enraged Vernon's bigotry.
 
 Lily was quickly realising that teaching Harry legilimency might not have been
 the best idea.  While he had been in school, it had been one thing.  The
-teachers mostly meant well, and you could feel the confusion the spells on Harry
-caused in their emotions.  Similarly, Harry was bright enough to realise, with
-only a little prompting, how much his classmates feared Dudley and his nascent
-gang of bullies.  During the summer however, Harry was exposed to a very
-different set of people.  Petunia occasionally hosted some of the other local
-ladies for tea, and Harry became all too aware of the undercurrent of
+teachers mostly meant well, and you could feel the confusion that the spells on
+Harry caused in their emotions.  Similarly, Harry was bright enough to realise,
+with only a little prompting, how much his classmates feared Dudley and his
+nascent gang of bullies.  During the summer however, Harry was exposed to a
+very different set of people.  Petunia occasionally hosted some of the other
+local ladies for tea, and Harry became all too aware of the undercurrent of
 satisfaction and even happiness that they felt beneath the false expressions of
 sympathy and dismay as they gossiped about the latest neighbourhood scandals.
 Harry correctly realised that these adults believed the worst of him not because

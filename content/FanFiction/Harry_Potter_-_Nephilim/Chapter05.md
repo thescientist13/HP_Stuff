@@ -5,26 +5,31 @@ author = "Luke Schierer"
 weight = 3
 +++
 
-At first the changes were subtle.  In prior years, the teacher would frequently
-notice something was off about that Potter child.  The oversized clothing, the
-odd high pitched whisper of a voice, the way he flinched if anyone came too
-close would all normally attract a conscientious educator's attention.  In that
-respect, this year started *almost* the same way - during morning
-attendance,[^210528-1] the teacher frowned and gave him an odd look, the kind
-that frequently meant a conversation after class, but then seamed to forget
-about him even faster than his other teachers had.  She seamed never to notice
-him sitting quietly the rest of the day.  
+At first the changes were subtle, and because Harry and Dudley were in
+different classes for the first time, Harry at first thought that Dudley's
+abcense was responsible for the changes at school.  In prior years, the teacher
+would frequently notice something was off about that Potter child.  The
+oversized clothing, the odd high pitched whisper of a voice, the way he
+flinched if anyone came too close would all normally attract a conscientious
+educator's attention.  In that respect, this year started *almost* the same way - 
+during morning attendance,[^210528-1] the teacher frowned and gave him an odd
+look, the kind that frequently meant a conversation after class, but then
+seamed to forget about him even faster than his other teachers had.  She seamed
+never to notice him sitting quietly the rest of the day.  Perhaps that was
+because Dudley did not draw attention to him?
 
 It was in the phys ed classes that Harry first noticed that something was
 significantly different.  Dudley disliked these classes, and frequently found
-ways to be disruptive.  Harry realised that unlike last year, he did not have to
-use his legilimency to redirect Dudley.  It was not that Dudley was behaving any
-better, rather, he was simply more random in his selection of a target.  It took
-rather longer for Harry to make the next realisation: in any activity where the
-teacher worked down a checklist, timed swimming trials for example,[^210810-1]
-he would be called on.  But in anything requiring teams, the teacher would
-somehow forget to assign him to *either* team unless he said something.  It was
-very confusing.
+ways to be disruptive.  Last year, he had used his legilimency to redirect
+Dudley.  The result was not that Dudley was behaving any better, rather, he was
+simply more random in his selection of a target.  That was not ideal, but
+again, sometimes Harry just needed a break.  Either way, this year it was not
+Dudley's behavior that determined his (Harry's) participation, it was something
+else.  It took a while for Harry to make the key connection:  in any activity
+where the teacher worked down a checklist, timed swimming trials for
+example,[^210810-1] he would be called on.  But in anything requiring teams,
+the teacher would somehow forget to assign him to *either* team unless he said
+something.  It was very confusing.
 
 For Harry, the overall results were not entirely positive.  On one hand, he
 found the school day more pleasant, he was learning more, and dodging less.  On
@@ -37,36 +42,37 @@ Dudley look bad somehow.  It was just as well that Harry could usually depend on
 getting a good meal at school, because he was getting less and less at home as
 Vernon took out his anger by locking him up more and more.  
 
-While Dudley seemed to pick on the easiest target available during class, on
-the way home from school it was a different story.  *Something* about heading home
-inevitably reminded Dudley that he had not pounded on the Freak in a while. This
-lead to Harry Hunting.  Since this had been one of Dudley's more consistent
-"games" for the past two years, Harry was already fairly familiar with the
-neighbourhood around Privet Drive.  Now, as the game moved towards a daily
-occurrence, he was quickly memorising every available hiding place on each of the
-various side streets he could take in his attempts to avoid his pursuers.  Once
-he was out of sight, no one except Dudley ever noticed him. Indeed, if Harry
-could have heard them, when Dudley was not around Gordon and Malcolm sometimes
-complained about how often Dudley "made" them search for "[Dudley's] imaginary
-cousin."  Unable to remember Harry without either his presence disrupting the
-spell or Dudley's subconscious magic protecting them from it, their minds
-convinced them that they had entirely imagined each encounter with Harry.  
+While Dudley was happy to pick on students from his own class during the day,
+the way home from school it was a different story.  *Something* about heading
+home inevitably reminded Dudley that he had not pounded on the Freak in a
+while. This lead to Harry Hunting.  Since this had been one of Dudley's more
+consistent "games" for the past two years, Harry was already fairly familiar
+with the neighbourhood around Privet Drive.  Now, as the game moved towards a
+daily occurrence, he was quickly memorising every available hiding place on
+each of the various side streets he could take in his attempts to avoid his
+pursuers.  Once he was out of sight, no one except Dudley ever noticed him.
+Indeed, if Harry could have heard them, when Dudley was not around Gordon and
+Malcolm sometimes complained about how often Dudley "made" them search for his
+(Dudley's) imaginary cousin.  Unable to remember Harry without either his
+presence disrupting the spell or Dudley's subconscious magic protecting them
+from it, their minds convinced them that they had entirely imagined each
+encounter with Harry.  
 
 Life thus settled into a pattern.  Harry found that he could avoid Uncle Vernon
 more easily than he remembered being able to do even a few months ago, and Mrs.
 Figg seemed to have all but forgotten him entirely.  Whatever was happening did
-not work nearly so well on Aunt Petunia or Dudley.  It was clear that neither
-of them could see him unless he made a noise, but both of them *remembered* him
-far more than Vernon, or his teachers ever did.  This was both good and bad.
-On the plus side, Aunt Petunia usually remembered to unlock the cupboard in the
-mornings.  On the down side, she remembered to give him chores, and follow up
-to see that they were completed.  Harry was not lazy, it was not the *work* he
-minded, but rather the results.  She gave him so much to do that it was hard to
-find time to do his homework.  Worse, if he did not get everything done, she
-would get upset, and her complaints were the one thing that would reliably
-cause Uncle Vernon to notice him.  Overall, it was best when she didn't notice
-him.  He learned to avoid making unnecessary noises, as that seemed to break or
-pause his invisibility.  
+not work nearly so well on Aunt Petunia or Dudley.  It was clear that Aunt
+Petunia could not *see* him unless he made a noise, but both she and Dudley
+*remembered* him far more than Vernon or his teachers ever did.  This was both
+good and bad.  On the plus side, Aunt Petunia usually remembered to unlock the
+cupboard in the mornings.  On the down side, she remembered to give him chores,
+and follow up to see that they were completed.  Harry was not lazy, it was not
+the *work* he minded, but rather the results.  She gave him so much to do that
+it was hard to find time to do his homework.  Worse, if he did not get
+everything done, she would get upset, and her complaints were the one thing
+that would reliably cause Uncle Vernon to notice him.  Overall, it was best
+when she didn't notice him.  He learned to avoid making unnecessary noises, as
+that seemed to break or pause his invisibility.  
 
 Like many children before him, he found that when no one notices you are there,
 adults say things that they would probably rather you not hear. It was this way
@@ -88,17 +94,17 @@ that the bearded man was apparently not letting those complaints come to
 anything.  Still, Harry figured it was better to know more than not; already
 habitually silent, he was now getting used to being invisible as well.  
 
-If only being invisible worked on Dudley.  Unlike everyone else, (even Aunt Petunia) Dudley
-*consistently* noticed when Harry was around.[^211219-3]  Worse, it was as if he
-had a sixth sense that helped him find Harry.  The other boys in the gang were
-easy to avoid, the slightest excuse for a hiding space was enough for them to
-walk right past him.  Dudley, however, would consistently focus on the right
-route home, no matter how random Harry tried to be.  Dudley seemed to know when
-Harry was home, versus when he stayed late at school.  It was endlessly annoying
-that the one person who could consistently remember him hated him.  With a great
-deal of very painful (when he did get caught) trial and error, Harry learned
-that while Dudley would *not* forget about him, there *were* limits to Dudley's
-inexplicable ability to find Harry.  
+If only being invisible worked on Dudley.  Unlike everyone else, (even Aunt
+Petunia) Dudley *consistently* noticed when Harry was around.[^211219-3]
+Worse, it was as if he had a sixth sense that helped him find Harry.  The other
+boys in the gang were easy to avoid, the slightest excuse for a hiding space
+was enough for them to walk right past him.  Dudley, however, would
+consistently focus on the right route home, no matter how random Harry tried to
+be.  Dudley seemed to know when Harry was home, versus when he stayed late at
+school.  It was endlessly annoying that the one person who could consistently
+remember him hated him.  With a great deal of very painful (when he did get
+caught) trial and error, Harry learned that while Dudley would *not* forget
+about him, there *were* limits to Dudley's inexplicable ability to find Harry.  
 
 If Dudley knew where Harry was, and Harry stayed there, then Dudley could always
 find him.  If Harry went somewhere Dudley expected Harry to go, Dudley could

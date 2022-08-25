@@ -31,26 +31,23 @@ Albania.  Harry's magic had changed.  He had longed for years to connect to
 someone alive the way he had felt connected to the bright soul when she taught
 him things.  Now, triggered by the chaotic mutations that come from excess
 exposure to active legilimency, his magic was actively seeking to make such a
-connection.  A young child's magic is generally called accidental for a reason
-though, something that is even worse before the child reaches the age of reason.
-Harry was not in control of this questing for connection, it was simply
-happening.  Awake, anytime his magic came even close to the soul shard, the
-sense of evil repelled him, but his sleeping mind, troubled by nightmares,
-sometimes sensed the shard's desire for Harry, and in part because Harry was
-asleep (and thus not thinking rationally at all) and in part because he was only
-four (and thus even more not capable of rational thought), mistaking the shard's
-desire to take over Harry's body for a desire to be *with* Harry.  
+connection.  Harry was not in control of this questing for connection, it was
+simply happening.  Intent matters greatly in magic, even when the nephilim are
+being punished for its abuse.  Thus while Harry (specifically his magic)
+changed, the changes did not leave him at the mercy of a random connection.
+Awake, anytime his magic came even close to the soul shard, the sense of evil
+repelled him, and even sleeping, while he might be confused enough to
+superficially connect, the essential incompatibility between Harry's desire for
+love and Riddle's desire to destroy Harry caused the connection be disrupted,
+break down, and result in nothing but some troubled dreams.
 
-Fortunately, at least for now, the bizarre connection was both short lived and only went
-one way.  Harry's dreaming self got lost in the mutilated soul of Tom Riddle.
-On waking however, the feeling of wrongness shattered the bridge forming between
-them before it could solidify into something permanent.  Meanwhile the part of
-Riddle in Harry was ignorant of the connection Harry's magic periodically
-attempted to form.  The shard in Harry was focused on Lily; the majority of it
-in the snake was limited by the snake's limited animal brain, and thus struggled
-with complex thought (for thought is always affected by the physical brain a
-soul inhabits).  Thus Riddle gained no extra knowledge of a sleeping boy in
-Surrey England.
+Thus fortunately, at least for now, the bizarre connection was both short lived
+and only went one way.  Even more importantly, Riddle remained ignorant of the
+connection Harry's magic periodically attempted to form.  The shard in Harry
+was focused on Lily; the majority of it in the snake was limited by the snake's
+limited animal brain, and thus struggled with complex thought (for thought is
+always affected by the physical brain a soul inhabits).  Thus Riddle gained no
+extra knowledge of a sleeping boy in Surrey England.
 
 - - - 
 

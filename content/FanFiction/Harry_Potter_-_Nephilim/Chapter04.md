@@ -7,9 +7,9 @@ weight = 3
 
 It was not until part way through Year 4, when Harry was eight, that an idea
 occurred to him that would, along with his skills in mind magic, drastically
-reshape his future.  Harry had tried, with no real hope, but rather with stubborn
-persistence that it *should* work because it it was right, to report his
-relatives' abuse to his newest teacher.[^20210412-2] As he returned to school
+reshape his future.  Harry had tried, with no real hope, but rather with
+stubborn persistence that it *should* work because it it was right, to report
+his relatives' abuse to his newest teacher.[^210412-2] As he returned to school
 the next day he observed that yet another teacher had, disappointingly but not
 unexpectedly, forgotten him and his report.  A little older, it occurred to
 Harry to wonder if there was something he could do to make himself less
@@ -17,37 +17,37 @@ forgettable.  Perhaps he could do more than just see into his teacher's head.
 Perhaps he could *make* his teacher remember him.  
 
 This started a new pattern.  Every day Harry would attempt to report his aunt
-and uncle, the fact that he lived in a cupboard, the frequent missed meals.  Each
-time he would try to use his legilimency (he did not know to call it this, but
-it was in fact legilimency) attempting to do *something* to make his teacher
-remember the conversation.  He spent months trying to directly force the memory
-to be, in fact, remembered, but eventually gave up.  Harry realised that the
-only people whose memories he could *see* were Aunt Petunia's, Dudley's, Mrs.
-Figg's and the random strange people who seemed to know him and disappear, like
-the tiny man in the violet top hat who had bowed to him once.[^20210412-3] If he
-could only see memories from a handful of people, only three of whom he saw more
-than once, it made sense that he could not make memories … more memorable for
-most people.  
+and uncle, the fact that he lived in a cupboard, the frequent missed meals.
+Each time he would try to use his legilimency (he did not know to call it this,
+but it was in fact legilimency) attempting to do *something* to make his
+teacher remember the conversation.  He spent months trying to directly force
+the memory to be, in fact, remembered, but eventually gave up.  Harry realised
+that the only people whose memories he could *see* were Aunt Petunia's,
+Dudley's, Mrs. Figg's and the random strange people who seemed to know him and
+disappear, like the tiny man in the violet top hat who had bowed to him
+once.[^210412-3] If he could only see memories from a handful of people, only
+three of whom he saw more than once, it made sense that he could not make
+memories … more memorable for most people.  
 
 Next he tried making the problem seem more memorable other ways.  He tried
 making his teacher angry about it, he tried making his teacher worried about
 him, he tried telling his teacher about no one remembering and making his
 teacher scared.  Each of these *seemed* to work, but each time, as soon as his
 teacher was out of sight, the whole thing would be forgotten.  Once he was left
-sitting out side the principal's office while the teacher went in to talk.  Five
-minutes later, both had walked out and neither remembered asking Harry to wait
-for them there.  They got upset when Harry tried to insist that he had just been
-talking to them.  Clearly whatever was at work was far more powerful (so Harry's
-thoughts went) than anything he could do.  
+sitting out side the principal's office while the teacher went in to talk.
+Five minutes later, both had walked out and neither remembered asking Harry to
+wait for them there.  They got upset when Harry tried to insist that he had
+just been talking to them.  Clearly whatever was at work was far more powerful
+(so Harry's thoughts went) than anything he could do.  
 
 Still, that did not mean he was powerless.  He had learned quite a bit with
 these months of experiments.  Perhaps, if he was going to be unable to get away
 from the Dursleys, he could make living with them more endurable?  Perhaps
-instead of being *less* forgettable, he should try to become *more* forgettable?
-If Dudley forgot about him, then he and his gang would probably pick some other
-target.  Harry disliked this solution, he would prefer that *no one* get picked
-on, but it would be nice to get a break now and then, to be able to relax and
-let his guard down at least some of the time. 
+instead of being *less* forgettable, he should try to become *more*
+forgettable?  If Dudley forgot about him, then he and his gang would probably
+pick some other target.  Harry disliked this solution, he would prefer that *no
+one* get picked on, but it would be nice to get a break now and then, to be
+able to relax and let his guard down at least some of the time. 
 
 This new approach was *almost* as frustrating as his attempts at being
 remembered.  Harry had just enough success that he kept trying, but not enough
@@ -106,7 +106,7 @@ were made into permanent hereditary changes, such as what happened with the
 merfolk.[^211219-2]  Harry had already experienced one subtle change in the way
 his mind and magic worked, now he would experience another.  Like the last,
 because Harry's use of this destabilising magic was not malicious, the worst
-effects of this destablization were avoided, still, exaggerated versions of
+effects of this destabilisation were avoided, still, exaggerated versions of
 things Harry was using the magic for became locked into place. 
 
 In the first change, Harry's desire to connect to someone the way he connected
@@ -114,36 +114,36 @@ to his mum's soul became realised as his magic started actively seeking and
 connecting him in profound ways.  So far this had resulted in only fleeting (and
 unwelcome) connections to Riddle.  In this second change, it was Harry's use of
 legilimency to hide that finally crossed the threshold and triggered change.
-Harry had spent the last two months enhancing the area magic that caused people
-to forget him.  Now he emitted a field that duplicated that magic.  Unlike the
-one he had lived under for the last eight years, this one did not have the built
-in exceptions that allowed the Dursleys or Mrs. Figg to remember him.  More,
-unlike that field that simply made him forgettable, this made him hard to see at
-all.[^20210918-1]
+Having abused legilimency (no matter how good the reason) to enhance the area
+magic that caused people to forget him, he started to emit a field that
+duplicated that magic.  Unlike the one he had lived under for the last eight
+years, this one did not have the built in exceptions that allowed the Dursleys
+or Mrs. Figg to remember him.  More, unlike that field that simply made him
+forgettable, this made him hard to see at all.[^210918-1]
 
-As Year 5 began, these changes were only starting to take hold, to find
-form, and to shape the kind of person that Harry would be.  The field that Harry
-was emitting was not yet as strong as it could be.  Someone who knew he was
-there could see past it. But then, Harry was only nine years old, and a nephil's
+As Year 5 began, these changes were only starting to take hold, to find form,
+and to shape the kind of person that Harry would be.  The field that Harry was
+emitting was not yet as strong as it could be.  Someone who knew he was there
+could see past it. But then, Harry was only nine years old, and a nephil's
 magic grows profoundly as he (or she) approaches his eleventh birthday. 
 
-[^211219-2]: See the short synopsys about [the Flood]({{< relref "backstory/The_Flood" >}}) and
+[^211219-2]: See the short synopsis about [the Flood]({{< relref "backstory/The_Flood" >}}) and
     about [Dwarfs]({{< relref "backstory/The_Dwarfs" >}}).
 
-[^20210918-1]: Harry has not seen what happens to people near the Leaky
+[^210918-1]: Harry has not seen what happens to people near the Leaky
     Cauldron.  If an observer saw what happened to non-magical people there, and
     what happened to people trying to look at Harry, the similarities would be
     profound.  The primary difference is that Harry's magic affects *everyone*. 
 
-[^20210412-2]: I think this is in character for Harry.  In the first book, Harry
+[^210412-2]: I think this is in character for Harry.  In the first book, Harry
     cannot actually expect fair treatment from his uncle.  It has to be pure
     stubborn instance in demanding just treatment that causes him to demand his
     letter the way he does.  
 
-[^20210412-3]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_
+[^210412-3]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_
     p. 30. Pottermore Limited. American Kindle Edition. 
 
-[^20210412-4]: This is not intended as Lily Potter bashing.  Lily was a good
+[^210412-4]: This is not intended as Lily Potter bashing.  Lily was a good
     parent, but Harry was too young to remember her when she was alive.  His
     experience of her is of a highly distracted dis-embodied soul who is so
     caught up in spiritual warfare that she barely has time for him.  It is not
