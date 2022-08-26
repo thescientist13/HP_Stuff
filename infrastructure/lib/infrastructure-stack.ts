@@ -38,7 +38,8 @@ export class InfrastructureStack extends cdk.Stack {
         }),
         installCommands: [
           'git submodule init',
-          'git submodule update --init --recursive',
+          'git submodule update --init --depth 1',
+          '(cd themes/docsy && npm i)',
           'npm ci',
         ],
         commands: [
