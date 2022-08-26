@@ -115,12 +115,12 @@ export class HPPerson extends LitElement {
     return html`
     <div class="mb-0" id="bio-info" .myGedId=${this.myGedId} >
       Birthday: <span>${when(
-        ((typeof(this.myBirthday) !== 'undefined') && (this.myBirthday !== null) && (this.myBirthday !== [null]) && ( this.myBirthday.length > 0)), 
+        ((typeof(this.myBirthday) !== 'undefined') && (this.myBirthday !== null) && ( this.myBirthday.length > 0)), 
         () => html`${this.myBirthday}`, 
         () => html`Unknown Birthday`
       )}</span><br/>
       Deathday: <span>${when(
-        ((typeof(this.myDeathday) !== 'undefined') && (this.myDeathday !== null) && (this.myDeathday !== [null])), 
+        ((typeof(this.myDeathday) !== 'undefined') && (this.myDeathday !== null) ), 
         () => html`${this.myDeathday}`, 
         () => html`Unknown date of death`
       )}</span><br/>
