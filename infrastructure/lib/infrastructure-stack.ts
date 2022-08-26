@@ -37,12 +37,12 @@ export class InfrastructureStack extends cdk.Stack {
           codeBuildCloneOutput: true,
         }),
         installCommands: [
+          'git submodule init',
+          'git submodule update --init --recursive',
           'npm ci',
         ],
         commands: [
           'npm run build',
-          'git submodule init',
-          'git submodule update --init --recursive',
           'echo $PWD',
           'npx hugo -v',
           'cd infrastructure',
