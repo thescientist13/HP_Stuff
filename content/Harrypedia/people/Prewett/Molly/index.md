@@ -28,35 +28,40 @@ good person.  That is not to say, as the above list of adjectives shows, to say
 she always succeeds, but unlike [Dumbledore][] I truly believe that Molly's
 heart is firmly in the right place.  While she does have the classic red head's
 temper, most of her vices are rooted in that she is "one that lov'd not wisely
-but too well."[^210818-7]
+but too well."[^210818-7]  Some of these thoughts are similar to those of the
+author of [Red Hen Publications][] in its article on [Molly][RHPMolly].
 
 I think my biggest objections to Molly are as follows:
 
 * I dislike the way she believes the press even when they write about people she
   knows.[^211104-1]
 * I dislike the way she treats [Sirius][] when living in his house.
-* I dislike the fact that we do not see any sort of birthday acknowledgement for
-  the [Weasley][] children, but do see her celebrating [Harry][HJP1]'s in several books.
-* I dislike the fact that she ignores [Ginny][GMW1] and the twins when commenting on Ron
-  becoming a prefect. 
+* I dislike the fact that other than some presents in book six, we do not see
+  any sort of birthday acknowledgement for the [Weasley][] children, but do see
+  her celebrating [Harry][HJP1]'s in several books.
+* I dislike the fact that she ignores [Ginny][GMW1] and the twins when
+  commenting on Ron becoming a prefect. 
 * I dislike the way she belittles the twin's dream of a joke shop.  I have
   experienced myself the hurt that comes when a parent dismisses your career as
   unimportant.  
-* I dislike the way she says that even in books six and seven, Molly will tell
-  you that the twins are *children.*  As a parent myself, I get wanting to
-  protect your children, but I also understand that you must let them grow up.
-  It is a hard thing to do, and must be even harder in a time of war, *but it
-  must be done* **for their own good**.  
+* I dislike the way that even in books six and seven, Molly will tell you that
+  the twins are *children.*  As a parent myself, I get wanting to protect your
+  children, but I also understand that you must let them grow up.  It is a hard
+  thing to do, and must be even harder in a time of war, *but it must be done* **for their own good**.  
 * I dislike the way she handled [Bill][] and [Fleur][]'s engagement.  I believe that
   she, like most of the women in the series, is irrational about [Fleur][].
+
+[Red Hen Publications]: <https://www.redhen-publications.com/>
+
+[RHPMolly]: <https://www.redhen-publications.com/molly.html>
 
 ## Speculations
 
 ### Platform 9¾
 
 Any number of writers have made a big deal of the way that Harry initially
-encounters the [Weasleys][].  So much so that it is easy to
-forget the actual details of that encounter.
+encounters the [Weasleys][].  So much so that it is easy to forget the actual
+details of that encounter.
 
 > At that moment a group of people passed just behind him and he caught a few
 > words of what they were saying. 
