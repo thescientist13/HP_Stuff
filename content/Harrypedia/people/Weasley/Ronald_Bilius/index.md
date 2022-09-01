@@ -36,7 +36,19 @@ Ron's jealousy and distrust is not appealing, and I would have trouble
 forgiving it.  Still, we cannot help but applaud when [Harry][HJP1] *does*
 forgive Ron.  [Harry][HJP1] has few friends, and when I was first reading the
 books I was more relieved to see [Harry][HJP1] get the support he needed, I was
-not worried about the deeper implications of what this says about Ron.
+not worried about the deeper implications of what this says about Ron.  Also
+note that what has Ron upset in _Goblet of Fire_ is not [Harry's][HJP1] fame
+(despite that being what Ron talks about most), but rather the one revealing
+comment "you can tell *me* the truth."[^220901=1]  He is hurt that he has been
+left out, but as a particularly immature  teen-aged boy, it is easier to be
+angry about [Harry's][HJP1] fame than to broach the emotion filled subjected of
+"I think you betrayed me." Not that this excuses him, because from *our*
+perspective, we know that [Harry][HJP1] *did not* betray him (Ron), and that
+Ron's distrust of [Harry][HJP1] is all that is actually standing between them. 
+
+[^220901=1]: Mrs. J. K. Rowling.
+    _[Harry Potter and the Goblet of Fire](https://www.librarything.com/work/113)_
+    © 2003 Pottermore Limited. American Kindle Edition Location 4318. 
 
 The anger with which Ron reacts when [Hermione][HJG1] goes to the Ball with Krum
 probably ought to have disturbed me more.  I do not expect a fourteen year old
