@@ -481,14 +481,14 @@ have known when, and his use of power.  I have only touched on his actual goals.
 If we agree with his goals, then his ineffectual leadership is a problem.  If we
 disagree with his goals then his ability to persuade and delude people is a
 problem.  There are few circumstances in which both are ever simultaneously a
-problem.  Arguably the two wars precipitated by Riddle are, unfortunately, just
-such an event.
+problem.  Arguably the two wars precipitated by [Riddle][TMR1] are,
+unfortunately, just such an event.
 
 We know very little about the actual authority of the Chief Warlock, the Supreme
 Mugwump, or the Hogwarts Headmaster.  What is the relationship, in modern times,
 between the Wizengamot and the Ministry of Magic?  Is the Chief Warlock like the
 Speaker in the Muggle House of Commons?  If so the power is real, minimal, and
-subtle.[^200812-1] In a similar vein, what is the relationship between the
+subtle.[^200812-1] i In a similar vein, what is the relationship between the
 Headmaster (or mistress) and the Hogwarts Board of Governors?  What powers does
 each have?  What discretion does each have?  Does each have distinct areas of
 authority, or is it more like the relationship between the president of a
@@ -532,13 +532,17 @@ Even if Grindelwald won the war, his government had no popular support, and
 would not stand.  Dumbledore could see that even if Grindelwald either could
 not or would not.  That is a far cry from actually disagreeing.  
 
-On the other hand Dumbledore himself was a half blood.[^200812-7]  I think
-despite his mother's pretensions, his blood status was too well known for him to
-get significant power in the pure blood dominated society of the early 1900s.  He
-wouldn't become Headmaster until the 1960s or early 1970s, I suspect he had been
-passed over at least once.  It was his defeat of Grindelwald that gave him the
-stature to overcome his background and gain ground in the Wizengamot, to have
-become Headmaster at all, to have become Supreme Mugwump.  
+On the other hand Dumbledore himself was a half blood.[^200812-7]  I think his
+blood status was too well known for him to get significant power in the pure
+blood dominated society of the early 1900s.[^220916-3]  He wouldi not become
+Headmaster until the 1960s or early 1970s, I suspect he had been passed over at
+least once.  It was his defeat of Grindelwald that gave him the stature to
+overcome his background and gain ground in the Wizengamot, to have become
+Headmaster at all, to have become Supreme Mugwump.  
+
+[^220916-3]: I am unsure I believe Muriel and Rita about Kendra having lied
+   about her blood status.  If she did, I am unsure it would have worked.  If
+   she did not, it only supports my argument.
 
 So if Dumbledore was going to advance the future that he and Grindelwald had
 mapped out in their youth, or at least the version of it that Dumbledore wanted
@@ -563,32 +567,34 @@ Why, they might want to give muggles rights!
 
 [FF]: <{{< relref "Filus" >}}>
 
-So what do we replace it with?  This is where fanfiction goes all over the
-place.  Has Dumbledore been removing classes from the Hogwarts curriculum? Has
-he used the ICW to ensure other schools do the same, or perhaps other longstanding agreements
-among European schools?  Has he manipulated the student population more
-directly?  Set up one student for failure, another for success?  A love potion
-here, a compulsion spell there?  Has he embezzled funds?  Blocked attempts at
-teaching muggleborns about the wizarding world, or the wizarding world about
-muggle society?  I think that is what I like most about _[Air
-Elemental](https://www.fanfiction.net/s/11995519/)_, Dumbledore is subtle,
-[McGonagall][MM], [Sprout][PS] and [Flitwick][FF] realise only after decades that
-Dumbledore is prejudiced and does not in fact want muggleborns to fit
+[Air Elemental]: <https://www.fanfiction.net/s/11995519/>
+
+So if not democracy, what do we replace it with?  This is where fan fiction
+goes all over the place.  Has Dumbledore been removing classes from the
+Hogwarts curriculum?  Has he used the ICW to ensure other schools do the same,
+or perhaps other longstanding agreements among European schools?  Has he
+manipulated the student population more directly?  Set up one student for
+failure, another for success?  A love potion here, a compulsion spell there?
+Has he embezzled funds?  Blocked attempts at teaching muggleborns about the
+wizarding world, or the wizarding world about muggle society?  I think that is
+what I like most about _[Air Elemental][]_, Dumbledore is subtle,
+[McGonagall][MM], [Sprout][PS] and [Flitwick][FF] realise only after decades
+that Dumbledore is prejudiced and does not in fact want muggleborns to fit
 in.[^200813-3]  He does not subvert the Goblins, he simply trusts their nature
 not to tell a wizard about something he or she does not ask about (other
-vaults).  [Harry][HJP] *is* missing critical information about the society around him,
-but its effects are such that you can see the connection to the way the books
-turned out (with a few exceptions like [Ron][RBW]).  There is a hidden (non-Gringotts)
-vault full of stuff that book [Harry][HJP] might well never have found, but which
-you can picture actually existing.  Subtle, understated manipulations that let
-people fool themselves.  That I think is a very very canonical representation of
-Dumbledore. 
+vaults).  [Harry][HJP] *is* missing critical information about the society
+around him, but its effects are such that you can see the connection to the way
+the books turned out (with a few exceptions like [Ron][RBW]).  There is a
+hidden (non-Gringotts) vault full of stuff that book [Harry][HJP] might well
+never have found, but which you can picture actually existing.  Subtle,
+understated manipulations that let people fool themselves.  That I think is a
+very very canonical representation of Dumbledore. 
 
 [RBW]: <{{< relref "Ronald_Bilius" >}}>
 
-What about the Wizengamot?  Has he really done nothing with his seat?  Or has he
-played off one faction against another, manipulated people behind the scenes?
-Is is public face at all related to his private goals? 
+What about the Wizengamot?  Has he really done nothing with his seat?  Or has
+he played off one faction against another, manipulated people behind the
+scenes?  Is his public face at all related to his private goals? 
 
 [^210706-1]: KafkaExMachina. 
     _[Divination is a Wooly Subject](https://www.fanfiction.net/s/5251162)_
@@ -597,7 +603,7 @@ Is is public face at all related to his private goals?
     synopsis of the view. 
 
 [^210706-2]: I've read this more than once, but I do not recall which
-    fanfictions off hand. 
+    fan fictions off hand. 
 
 [^200721-1]:  DisobedienceWriter. 
     _[Harry Potter's Life Lessons](https://www.fanfiction.net/s/3750393)_.

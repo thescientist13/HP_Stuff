@@ -53,34 +53,6 @@ Allowing himself to appear more fallible, more the victim, would endear him to
 make the next removal harder (thus I think he *was* in fact able to resist
 Fudge and Umbridge in Book 5 for most of the year).  
 
-Why would [Dumbledore][AD1] do this?  As I said on the main page, I do not
-think the man evil, just *wrong.*  As indications are that his mother is a
-first generation magical, it is unlikely that he is a true blood supremacist, but
-in his father's actions I *do* think we have the necessary clue.  I do not
-think that his conversations with [Grindelwald][GG] are the first time that
-[Dumbledore][AD1] has informally been introduced to thinking that has poor
-philosophical roots.  [Percival Dumbledore][PD]'s actions speak loudly of
-"might makes right."  He has the power to punish, so he will do so, and stand
-proudly in defiance daring the court to judge his actions.  We know this is at
-least partly to protect his daughter from a life in a hospital room, but *he
-ought not have attacked at all.*  What moral formation did [Albus][AD1] receive
-from such a man?
-
-One possibility, which I am not the first to come up with, though I do not
-recall where I first read it, is that [Dumbledore][AD1] is not a traditional
-purist, but *has* come to value magical lives over non-magical lives.  Couple
-this with the fact that he himself feels incredible amounts of guilt, and thus
-a powerful need to believe in the possibility of redemption.  Lastly, add in
-that he taught most of those involved in the series when they themselves came
-through [Hogwarts][] as students.  Such a man might well view these adults, so
-much younger than himself, not as fully formed personalities committed to a
-path, but as the children they once were, with the opportunities for change
-(redemption) he (internally) begs for himself.  If he can redeem them, maybe he
-is not himself damned?   The cost to the non-magical population is
-insignificant if he can ensure the continuation of a stronger, larger, magical
-society.  Such a man may (reluctantly) chose to sacrifice one family of three
-([James][JP1], [Lily][LE1] and [Harry][HJP1]) to achieve such an end. 
-
 [HJP1]: <{{< relref "Harry_James" >}}>
 
 [AD1]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
