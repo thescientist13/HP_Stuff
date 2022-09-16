@@ -28,7 +28,7 @@
 		"@ui5/webcomponents-fiori": "^1.6.0",
 		"@ui5/webcomponents-icons": "^1.6.0",
 		"autoprefixer": "^10.4.8",
-		"aws-cdk-lib": "^2.40.0",
+		"aws-cdk-lib": "^2.41.0",
 		"babel-loader": "^8.2.5",
 		"bootstrap-scss": "^4.6.2",
 		"css-loader": "^6.7.1",
@@ -50,7 +50,7 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-common-types": "^6.1.2",
 		"basicprimitives": "^6.5.1",
-		"cdk": "^2.40.0",
+		"cdk": "^2.41.0",
 		"constructs": "^10.1.87",
 		"d3-dtree": "^2.4.1",
 		"esbuild": "^0.15.5",
