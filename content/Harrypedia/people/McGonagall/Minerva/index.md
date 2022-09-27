@@ -33,10 +33,30 @@ for at least 85 years.[^211018-3]
 
 [TS1]: <{{< ref "Harrypedia/people/Scamander/Theseus" >}}>
 
-Perhaps the first problematic moment is the detention in the night she catches
-[Harry][HJP1] and [Hermione][HJG1] out after they deliver Norbert.[^210429-1] Earlier
-that night she had caught [Malfoy][Draco], and believed him to be telling lies
-about [Harry][HJP1] and a dragon.  This resulted in a detention and a loss of
+
+The first problematic moment is easy to miss.  Per the timeline above, she was
+already teaching at [Hogwarts][] in 1981, and yet, on November 1st 1981, she is
+able to spend the day on Privet Drive apparently waiting for [Dumbledore][AD1]
+to arrive any time all day, having heard from [Hagrid][] that he would at some
+point be there.[^220927-5]  As head of house, did she not have an obligation to
+be available to her students in this time of excitement?  As Deputy Head,
+should she not have stayed at the school to handle any emergencies there when
+the Headmaster was absent?  Keep in mind, we are told that she is doing this of
+on her own initiative, as she was "not inducted into the Order of the Phoenix
+during Voldemort's first climb to power."[^220927-6]
+
+[^220927-5]: Mrs. J. K. Rowling.
+   _[Harry Potter and the Sorcerer's Stone](https://www.librarything.com/work/5403381/book/225886281)_
+   © 2004 Pottermore Limited. American Kindle Edition. page 13.
+
+[^220927-6]: Mrs. J. K. Rowling. 
+   _[Short Stories From Hogwarts of Heroism, Hardship, and Dangerous Hobbies](https://www.librarything.com/work/18275508/book/226231606)
+   © 2016 Pottermore Limited. American Kindle Edition. page 17. 
+
+The next is more obvious, the detention in the night she catches [Harry][HJP1]
+and [Hermione][HJG1] out after they deliver Norbert.[^210429-1] Earlier that
+night she had caught [Malfoy][Draco], and believed him to be telling lies about
+[Harry][HJP1] and a dragon.  This resulted in a detention and a loss of
 twenty points.[^210429-2] On catching [Harry][HJP1], [Hermione][HJG1] and
 [Neville][], she asks for an explanation, and when one is not forthcoming,
 infers one from the facts available to her.  It is at this point that I believe
