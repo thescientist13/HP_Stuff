@@ -18,7 +18,7 @@ In explaining his decisions to Harry, Dumbledore says:
 He justifies this saying: 
 
 > My answer is that my priority was to keep you alive. You were in more danger
-> than perhaps anyone but myself realized. Voldemort had been vanquished hours
+> than perhaps anyone but myself realised. Voldemort had been vanquished hours
 > before, but his supporters and many of them are almost as terrible as he
 > were still at large, angry, desperate, and violent. And I had to make my
 > decision too with regard to the years ahead. Did I believe that Voldemort
@@ -37,7 +37,16 @@ First is the prophecy.  From her website FAQ,
 > Both Madam Trelawney and I worded the prophecy extremely carefully and that
 > is all I have to say on the subject![^20210912-5]
 
-I am speculating here, but everything I've read and heard about Mrs. Rowling suggests that for all the flaws that I and others have pointed out, she tried *really really* hard in planning the novels out.  I think her comment about wording the prophecy very carefully applies to more than just Harry's encounter with Riddle at the end.  She says that in her opinion this prophecy is like that in [Macbeth][WSM1], it is a catalyst a series of events, but that the characters retain free will.[^20210912-6]  I think that Harry's suffering, not just his death experience in the forest in book seven, are one of the things it triggered.  For all the prophesy does not name Dumbledore, it shapes his actions much as the one that Macbeth hears shapes his actions. 
+I am speculating here, but everything I've read and heard about Mrs. Rowling
+suggests that for all the flaws that I and others have pointed out, she tried
+*really really* hard in planning the novels out.  I think her comment about
+wording the prophecy very carefully applies to more than just Harry's encounter
+with Riddle at the end.  She says that in her opinion this prophecy is like
+that in [Macbeth][WSM1], it is a catalyst a series of events, but that the
+characters retain free will.[^20210912-6]  I think that Harry's suffering, not
+just his death experience in the forest in book seven, are one of the things it
+triggered.  For all the prophesy does not name Dumbledore, it shapes his
+actions much as the one that Macbeth hears shapes his actions. 
 
 In the fan fiction work _[The Sound of Silence][BW95TSS1]_ Dumbledore states:
 
@@ -47,11 +56,42 @@ In the fan fiction work _[The Sound of Silence][BW95TSS1]_ Dumbledore states:
 > except Voldemort. The Dursleys certainly did their level best to kill him.
 > They couldn't.
 > 
-> The stronger Harry is, the stronger Voldemort is. He will return. It is only through the actions that I have already taken that he hasn't already returned. As you judge me, remember the war. Remember what it was like.[^20210912-7]
+> The stronger Harry is, the stronger Voldemort is. He will return. It is only
+> through the actions that I have already taken that he hasn't already
+> returned. As you judge me, remember the war. Remember what it was
+> like.[^20210912-7]
 
-Mrs. Rowling does not allow her version of Dumbledore to admit any such thing, but I think there is some element of truth to this take on his character.  If, however, I am off base, it makes the next point even stronger. 
+Mrs. Rowling does not allow her version of Dumbledore to admit any such thing,
+but I think there is some element of truth to this take on his character.  If,
+however, I am off base, it makes the next point even stronger.  That being
+said, consider the following quote, this one from nonjon's _[Whatever Happened
+to the Likely Lad?][]_: 
 
-In the fan fiction work _[After Destiny][CAD1]_, cambangst presents a view of [Harry][HJP1], [Ginny][GMW1], and the other student fighters that is overly influenced by modern secular morality, but shows them struggling with the traumas they have faced in a way that I *do* find very realistic.  The following is part of an exchange between [Harry][HJP1] and [Ginny][GMW1].  
+> Harry nodded. "Now if he'd taken me to proper healers, they would have
+> recognized the taint and worked out a way to get it out of me. So naturally,
+> his plan calls for ensuring no one from the wizarding world can contact me or
+> ever find out just what's so special about the legendary curse scar. Because
+> he knows, left untreated it'll just become more ingrained as a part of
+> me."[^221006-1]
+
+[Whatever Happened to the Likely Lad?]: <https://www.fanfiction.net/s/7395979/1/Whatever-Happened-to-the-Likely-Lad>
+
+[^221006-1]: nonjon. _[Whatever Happened to the Likely Lad?][]_. Published 2011-09-19. 
+
+Here nonjon has Harry succinctly put forward the theory that the soul fragment
+that sought to attach itself to [Harry][HJP1] is only irrevocably attached to
+him *because [Dumbledore][AD1] delayed treatment.*  Had medical help been
+sought promptly, [Harry][HJP1] need not have faced that soul crushing walk into
+the forest at the end of book seven, there would already have been one fewer
+soul fragments to handle.  Is the *very limited* protection that
+[Harry's][HJP1] attempt at sacrifice provides worth that suffering?  Even if it
+is, is it *morally permissible* to *inflict* that on a child?
+
+In the fan fiction work _[After Destiny][CAD1]_, cambangst presents a view of
+[Harry][HJP1], [Ginny][GMW1], and the other student fighters that is overly
+influenced by modern secular morality, but shows them struggling with the
+traumas they have faced in a way that I *do* find very realistic.  The
+following is part of an exchange between [Harry][HJP1] and [Ginny][GMW1].  
 
 > "Training, Harry." She really wanted to smack him again, but settled for
 > doing her best Hermione, instead. "Do you know how long Charlie had to train
@@ -73,15 +113,35 @@ tragic, it is outweighed by the salvation it would bring to the rest of
 society when [Riddle][TMR1] is vanquished.  Thus [Harry][HJP1] must be programmed
 towards self-sacrifice.
 
-Again, Mrs. Rowling never allows her version of Dumbledore to admit that he has intentionally worked towards this end.  Her version of Dumbledore claims that the whole thing was, from beginning to end, entirely [Harry][HJP1]'s free choice, and in a sense that is true.  It is true in the sense that no one held a gun to his head and forced his action.  Dumbledore was much more subtle than that.  He allowed [Harry][HJP1] to spend ten years in an [[abusive environment|Dursleys]].  He allowed [Snape][SS1] to belittle and torment [Harry][HJP1].  He did nothing as the school as a whole turned on [Harry][HJP1] in first year,[^20210912-10] second year,[^20210912-11] fourth year,[^20210912-12] *and* fifth year.[^20210912-13]  
+Again, Mrs. Rowling never allows her version of Dumbledore to admit that he has
+intentionally worked towards this end.  Her version of Dumbledore claims that
+the whole thing was, from beginning to end, entirely [Harry][HJP1]'s free
+choice, and in a sense that is true.  It is true in the sense that no one held
+a gun to his head and forced his action.  Dumbledore was much more subtle than
+that.  He allowed [Harry][HJP1] to spend ten years in an [abusive
+environment][].  He allowed [Snape][SS1] to belittle and torment [Harry][HJP1].
+He did nothing as the school as a whole turned on [Harry][HJP1] in first
+year,[^20210912-10] second year,[^20210912-11] fourth year,[^20210912-12] *and*
+fifth year.[^20210912-13]  
 
-Even the lack of training fits into this.  Dumbledore tells [Harry][HJP1] that love is the "power" leaving [Harry][HJP1] confused at first, but knowing that when the final bits of the puzzle are revealed, it will all make sense - an untrained [Harry][HJP1] has no other weapon in his arsenal except the power of his self-sacrifice with which to protect his friends.  He even tells [Harry][HJP1] that he depended on [Hermione][HJG1] to *slow [Harry][HJP1] down*[^20210913-1] and while they were specifically talking about the Hallows, when you consider that [Hermione][HJG1] also slowed down the hunt for the [[horcruxes]] (see her page for details), I feel safe including this in my indictment. 
+Even the lack of training fits into this.  Dumbledore tells [Harry][HJP1] that
+love is the "power" leaving [Harry][HJP1] confused at first, but knowing that
+when the final bits of the puzzle are revealed, it will all make sense - an
+untrained [Harry][HJP1] has no other weapon in his arsenal except the power of
+his self-sacrifice with which to protect his friends.  He even tells
+[Harry][HJP1] that he depended on [Hermione][HJG1] to *slow [Harry][HJP1]
+down*[^20210913-1] and while they were specifically talking about the Hallows,
+when you consider that [Hermione][HJG1] also slowed down the hunt for the
+[[horcruxes]] (see her page for details), I feel safe including this in my
+indictment. 
 
 When you consider the potential cost if Riddle had not been stopped, and
 further consider the fact *that it worked*, it is very hard to argue with
 Dumbledore.  The fact that [Harry][HJP1] not only does not blame him, but feels
 great affection for him makes it even harder.  There is just one problem.
 [[Utilitarianism is wrong|Society/utilitarianism]]. 
+
+[abusive environment]: <{{< relref "Dursley" >}}>
 
 [AD1]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
 
