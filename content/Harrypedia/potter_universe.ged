@@ -2,8 +2,8 @@
 1 SOUR Gramps
 2 VERS 5.1.2
 2 NAME Gramps
-1 DATE 25 JUL 2022
-2 TIME 15:32:04
+1 DATE 16 SEP 2022
+2 TIME 17:46:17
 1 SUBM @SUBM@
 1 FILE /home/schierer/luke/src/HarryPotter/content/Harrypedia/potter_universe.ged
 1 COPR Copyright (c) 2022 .
@@ -232,11 +232,11 @@
 1 FAMC @F0004@
 2 PEDI birth
 1 FAMS @F0003@
-1 SOUR @S0003@
-2 PAGE https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/blacktree/
 1 CHAN
-2 DATE 27 JUN 2022
-3 TIME 17:49:37
+2 DATE 16 SEP 2022
+3 TIME 20:49:00
 0 @I0010@ INDI
 1 NAME Hesper /Gamp/
 2 GIVN Hesper
@@ -418,8 +418,8 @@
 2 DATE 8 SEP 2021
 3 TIME 19:10:03
 0 @I0020@ INDI
-1 NAME Arctrus /Black/
-2 GIVN Arctrus
+1 NAME Arctunus /Black/
+2 GIVN Arctunus
 2 SURN Black
 1 SEX M
 1 BIRT
@@ -433,11 +433,11 @@
 1 FAMC @F0005@
 2 PEDI birth
 1 FAMS @F0014@
-1 SOUR @S0003@
-2 PAGE https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/blacktree/
 1 CHAN
-2 DATE 8 SEP 2021
-3 TIME 19:10:03
+2 DATE 16 SEP 2022
+3 TIME 20:48:35
 0 @I0022@ INDI
 1 NAME Sirius /Black/
 2 GIVN Sirius
@@ -491,8 +491,8 @@
 1 SOUR @S0003@
 2 PAGE https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg
 1 CHAN
-2 DATE 11 SEP 2021
-3 TIME 01:53:35
+2 DATE 1 SEP 2022
+3 TIME 22:13:16
 0 @I0025@ INDI
 1 NAME Violetta /Bulstrode/
 2 GIVN Violetta
@@ -617,10 +617,9 @@
 2 DATE 9 SEP 2021
 3 TIME 18:22:31
 0 @I0032@ INDI
-1 NAME Cygnus /Black/ III
-2 GIVN Cygnus
+1 NAME Cirgnus /Black/
+2 GIVN Cirgnus
 2 SURN Black
-2 NSFX III
 1 SEX M
 1 BIRT
 2 DATE 1938
@@ -633,11 +632,11 @@
 1 FAMC @F0008@
 2 PEDI birth
 1 FAMS @F0009@
-1 SOUR @S0003@
-2 PAGE https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/blacktree/
 1 CHAN
-2 DATE 27 JUN 2022
-3 TIME 18:11:12
+2 DATE 16 SEP 2022
+3 TIME 20:51:06
 0 @I0033@ INDI
 1 NAME Druella /Rosier/
 2 GIVN Druella
@@ -893,8 +892,8 @@
 1 SOUR @S0003@
 2 PAGE https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg
 1 CHAN
-2 DATE 7 SEP 2021
-3 TIME 21:55:02
+2 DATE 16 SEP 2022
+3 TIME 20:56:07
 0 @I0049@ INDI
 1 NAME Cedrella /Black/
 2 GIVN Cedrella
@@ -1063,13 +1062,20 @@
 2 DATE 30 JUN 1997
 2 SOUR @S0035@
 3 PAGE https://web.archive.org/web/20170630110815/https://www.pottermore.com/explore-the-story/albus-dumbledore
+1 EVEN
+2 TYPE Hogwarts Sorting
+2 DATE 1 SEP 1892
+2 SOUR @S0004@
+3 PAGE https://harrypotter.fandom.com/wiki/Albus_Dumbledore
 1 FAMC @F0042@
+2 PEDI birth
+1 FAMC @F0075@
 2 PEDI birth
 1 SOUR @S0035@
 2 PAGE https://web.archive.org/web/20170630110815/https://www.pottermore.com/explore-the-story/albus-dumbledore
 1 CHAN
-2 DATE 18 OCT 2021
-3 TIME 02:57:59
+2 DATE 16 SEP 2022
+3 TIME 19:22:45
 0 @I0062@ INDI
 1 NAME Molly /Prewett/
 2 GIVN Molly
@@ -1152,6 +1158,7 @@
 3 PAGE https://www.hp-lexicon.org/character/mcgonagall-family/minerva-mcgonagall/
 1 FAMC @F0073@
 2 PEDI birth
+1 FAMS @F0076@
 1 SOUR @S0035@
 2 PAGE https://web.archive.org/web/20191002072017/https://www.pottermore.com/explore-the-story/minerva-mcgonagall
 1 SOUR @S0043@
@@ -1159,8 +1166,8 @@
 2 NOTE @N0028@
 1 NOTE @N0006@
 1 CHAN
-2 DATE 4 JAN 2022
-3 TIME 17:16:17
+2 DATE 16 SEP 2022
+3 TIME 20:39:07
 0 @I0066@ INDI
 1 NAME Frank /Longbottom/
 2 GIVN Frank
@@ -1327,7 +1334,7 @@
 2 SURN Weasley
 1 SEX M
 1 BIRT
-2 DATE AUG 22
+2 DATE 22 AUG 1976
 2 SOUR @S0035@
 3 PAGE https://web.archive.org/web/20191002072541/https://www.pottermore.com/explore-the-story/percy-weasley
 1 EVEN
@@ -1866,13 +1873,20 @@
 2 GIVN Aberforth
 2 SURN Dumbledore
 1 SEX M
+1 EVEN
+2 TYPE Hogwarts Sorting
+2 DATE 1 SEP 1895
+2 SOUR @S0002@
+3 PAGE 6
 1 FAMC @F0042@
+2 PEDI birth
+1 FAMC @F0075@
 2 PEDI birth
 1 SOUR @S0033@
 2 PAGE Location 2596
 1 CHAN
-2 DATE 18 OCT 2021
-3 TIME 02:57:59
+2 DATE 16 SEP 2022
+3 TIME 18:13:01
 0 @I0115@ INDI
 1 NAME Luna /Lovegood/
 2 GIVN Luna
@@ -4030,6 +4044,120 @@
 1 CHAN
 2 DATE 25 JUL 2022
 3 TIME 17:56:25
+0 @I0259@ INDI
+1 NAME Eduardus Limette /Black/
+2 GIVN Eduardus Limette
+2 SURN Black
+1 SEX M
+1 BIRT
+2 DATE EST BET 1920 AND 1929
+2 SOUR @S0004@
+3 PAGE https://harrypotter.fandom.com/wiki/Eduardus_Limette_Black
+3 QUAY 1
+3 DATA
+4 DATE 24 JUN 2022
+1 DEAT
+2 DATE 1899
+2 SOUR @S0004@
+3 PAGE https://harrypotter.fandom.com/wiki/Eduardus_Limette_Black
+3 QUAY 1
+3 DATA
+4 DATE 24 JUN 2022
+1 SOUR @S0004@
+2 PAGE https://harrypotter.fandom.com/wiki/Eduardus_Limette_Black
+2 QUAY 1
+2 DATA
+3 DATE 24 JUN 2022
+1 CHAN
+2 DATE 1 SEP 2022
+3 TIME 22:11:30
+0 @I0260@ INDI
+1 NAME Gellert /Grindelwald/
+2 GIVN Gellert
+2 SURN Grindelwald
+1 SEX M
+1 DEAT
+2 DATE MAR 1998
+2 SOUR @S0004@
+3 PAGE https://harrypotter.fandom.com/wiki/Gellert_Grindelwald
+1 SOUR @S0002@
+2 PAGE 121
+1 CHAN
+2 DATE 16 SEP 2022
+3 TIME 16:38:40
+0 @I0261@ INDI
+1 NAME Kendra /Dumbledore/
+2 TYPE married
+2 GIVN Kendra
+2 SURN Dumbledore
+1 SEX F
+1 DEAT
+2 DATE 1899
+2 SOUR @S0002@
+3 PAGE 6
+1 FAMS @F0075@
+1 SOUR @S0002@
+2 PAGE 52
+1 NOTE @N0032@
+1 CHAN
+2 DATE 16 SEP 2022
+3 TIME 17:57:32
+0 @I0262@ INDI
+1 NAME Percival /Dumbledore/
+2 GIVN Percival
+2 SURN Dumbledore
+1 SEX M
+1 FAMS @F0075@
+1 SOUR @S0002@
+2 PAGE 6, 73
+1 NOTE @N0033@
+1 CHAN
+2 DATE 16 SEP 2022
+3 TIME 17:57:32
+0 @I0263@ INDI
+1 NAME Ariana /Dumbledore/
+2 GIVN Ariana
+2 SURN Dumbledore
+1 SEX F
+1 DEAT
+2 DATE 1899
+2 SOUR @S0002@
+3 PAGE 7
+1 FAMC @F0075@
+2 PEDI birth
+1 SOUR @S0002@
+2 PAGE 7
+1 CHAN
+2 DATE 16 SEP 2022
+3 TIME 18:06:08
+0 @I0264@ INDI
+1 NAME Pomona /Sprout/
+2 GIVN Pomona
+2 SURN Sprout
+1 SEX F
+1 BIRT
+2 DATE 15 MAY 1933
+2 SOUR @S0038@
+3 PAGE https://www.therowlinglibrary.com/tag/sprout/
+1 EVEN
+2 TYPE Hogwarts Sorting
+2 DATE 1 SEP 1944
+2 SOUR @S0038@
+3 PAGE https://www.therowlinglibrary.com/tag/sprout/
+1 CHAN
+2 DATE 16 SEP 2022
+3 TIME 20:10:01
+0 @I0265@ INDI
+1 NAME Elphinstone /Urquart/
+2 GIVN Elphinstone
+2 SURN Urquart
+1 SEX M
+1 FAMS @F0076@
+1 SOUR @S0043@
+2 PAGE 15
+1 CHAN
+2 DATE 16 SEP 2022
+3 TIME 20:39:07
 0 @F0000@ FAM
 1 HUSB @I0001@
 1 WIFE @I0002@
@@ -4765,6 +4893,26 @@
 1 CHAN
 2 DATE 11 JUL 2022
 3 TIME 17:24:39
+0 @F0075@ FAM
+1 HUSB @I0262@
+1 WIFE @I0261@
+1 CHIL @I0061@
+1 CHIL @I0114@
+1 CHIL @I0263@
+1 SOUR @S0002@
+2 PAGE 6, 73
+1 NOTE @N0034@
+1 CHAN
+2 DATE 16 SEP 2022
+3 TIME 18:06:08
+0 @F0076@ FAM
+1 HUSB @I0265@
+1 WIFE @I0065@
+1 SOUR @S0043@
+2 PAGE 15
+1 CHAN
+2 DATE 16 SEP 2022
+3 TIME 20:39:07
 0 @S0000@ SOUR
 1 TITL Harry Potter and the Sorcerer's Stone
 1 AUTH J. K. Rowling
@@ -5178,4 +5326,17 @@
 1 CONT Rowling, J.K.. Short Stories from Hogwarts of Heroism, Hardship and Dang
 1 CONC erous Hobbies (Kindle Single) (Pottermore Presents) (p. 8). Pottermore P
 1 CONC ublishing. Kindle Edition. 
+0 @N0032@ NOTE The source material is somewhat unclear.  Muriel says that Kendra p
+1 CONC retended not to be muggleborn and Doge objects that *she did not pretend
+1 CONC * not that *she was not muggleborn.*  I think the falsehood were in th
+1 CONC e earlier part, the more natural objection would be to say "she *was* x
+1 CONC , she didn't have to pretend."  However, the falsehood is that she denie
+1 CONC d her heritage, thus "she didn't pretend."  
+0 @N0033@ NOTE The source text implies that it is believed that Percival was a sup
+1 CONC porter of blood purity due to his silence at his trial.  Assuming this w
+1 CONC idely held opinion is correct, it only makes sense if he is himself a pu
+1 CONC re-blood and his wife's blood status largely unknown despite my inferenc
+1 CONC e. 
+0 @N0034@ NOTE The Dumbledore family cannot have been a promenent one, or the bloo
+1 CONC d status of Kendra Dumbledore would have been widely known. 
 0 TRLR
