@@ -14,6 +14,9 @@ way.  If there is a victim, the results are harder or even impossible to
 reverse.  In some places there is an implication that it is also harder to even
 block. I need citations for this.
 
+Also note that there seems to be more "dark" magic than "light" magic, see my mini-rant on the [balance of power][].
+
+[balance of power]: <{{< relref "balance" >}}>
 
 ### Analysis
 
