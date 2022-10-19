@@ -43,10 +43,12 @@ that at least one female student was assaulted in an unknown way by [[dark
 magic|Magic]], that Severus calls it funny, and [Lily][] calls it evidence of
 Mulciber being "creepy."[^200806-3]  When it comes to Severus, [Sirius][] is
 hardly unbiased, but I think we *can* trust him when he says that Severus's
-interest in the [[Dark Arts|Magic]] was well known.[^210601-1]  I could go on,
+interest in the [Dark Arts][] was well known.[^210601-1]  I could go on,
 but you can see that, already, [McGonagall][] and [Dumbledore][] are allowing
 not just pranks, but actual evil to go unpunished.  In such an environment, the
 needs of victims are not going to be addressed.
+
+[Dark Arts]: <{{< relref "dark" >}}>
 
 [Lily]: <{{< relref "Lily_J." >}}>
 

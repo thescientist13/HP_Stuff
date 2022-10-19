@@ -81,7 +81,7 @@ wronged him.
   sorted.  We *infer* that this is fifth year. 
 * Mulciber has tried to do something to Mary Macdonald "the other day" that
   [Lily][] considers proof-positive that Mulciber is "creepy."
-  Whatever he tried to do involved [[Dark Magic|Magic]].  
+  Whatever he tried to do involved [Dark Magic][].  
 * [Snape][] dismisses [Lily][]'s concerns saying that Mulciber's actions are
   funny. 
 * When dismissing her concerns does not work, [Snape][] tries to redirect the
@@ -103,6 +103,8 @@ wronged him.
   essentially a selfish act. 
 * Once [Lily][] states that [James][] is "an arrogant toerag," [Snape][] stops
   listening to anything she says.  
+
+[Dark Magic]: <{{< relref "dark" >}}>
 
 ### Snape's second relevant memory, Order of the Phoenix version[^210921-8]
 
@@ -232,7 +234,7 @@ fails to do so.  In other words, the rational, reasonable thing is to criticise
 [Snape][] for *blaming* [James][] for the incident.  
 
 We do not know what happened to Mary Macdonald, but [Lily][] insists that it is
-[[Dark Magic|Magic]] and *Evil* (her emphasis).  Somehow that is *funny* but
+[Dark Magic][] and *Evil* (her emphasis).  Somehow that is *funny* but
 [James][]' actions are unforgivable.  Even if I entirely agreed with
 [Snape][]'s reading of events, I see only a difference in target.  Since I
 *don't* agree with [Snape][]'s reading, I see that any offence against
