@@ -21,6 +21,16 @@ _[Unintended Consequences](https://www.fanfiction.net/s/6365342)_
     * Published: 2010-10-01. Updated: 2011-02-20
     * Comments: In many ways this is how book seven *ought* to have gone.  
 
+_[Remember](https://www.fanfiction.net/s/4936039)_
+:   * Author: sbmcneil
+    * Published: 2009-03-20. Updated: 2012-06-14.
+    * Comments: This bond story is one of the longer ones.  I really like the
+      way it does Molly and Percy, and their opposition to Harry and Ginny.  I
+      dislike some of the other choices the author has made though.  There is a
+      bit of torturing characters to provide angst, and the setup to cause the
+      whole scenario is a bit chaotic.  The author attempted to fix this with a
+      prequel that, I think, actually managed to confuse things more.  
+
 _[Harry Potter and the Dimensional Trunk](https://www.fanfiction.net/s/2456938)_
 :   * Author: Ophiuchus
     * Published: 2005-06-27. Updated: 2005-08-07. 
