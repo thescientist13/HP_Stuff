@@ -149,93 +149,96 @@ wronged him.
 
 ### Snape's Third Relevant Memory[^210921-9]
 
-* [[Snape|adults/Snape]] apologies.
-* [[Lily|adults/Lily]] refuses to hear it. 
-* [[Snape|adults/Snape]] says he did not mean to call her Mudblood.
-* [[Lily|adults/Lily]] calls him out for his friends who all want to be Death Eaters.  She
-  further claims that [[Snape|adults/Snape]] wants to be one. 
-* [[Snape|adults/Snape]] opens his mouth to deny this, but then closes it without saying
+* [Snape][] apologies.
+* [Lily][] refuses to hear it. 
+* [Snape][] says he did not mean to call her Mudblood.
+* [Lily][] calls him out for his friends who all want to be Death Eaters.  She
+  further claims that [Snape][] wants to be one. 
+* [Snape][] opens his mouth to deny this, but then closes it without saying
   anything. 
-* [[Snape|adults/Snape]] again tries to protest he did not mean to call her names.
-* [[Lily|adults/Lily]] is having none of it, because he calls other people by the same
+* [Snape][] again tries to protest he did not mean to call her names.
+* [Lily][] is having none of it, because he calls other people by the same
   names.
-* [[Snape|adults/Snape]] has no response. 
+* [Snape][] has no response. 
 
 ## What does this mean
 
 ### Looking at the events themselves
 
-I do not doubt that [[James|adults/James]] was in fact fairly arrogant, and that
-was a barrier to any friendship between himself and [[Lily|adults/Lily]].  That
-being said, I do *not* think that [[Lily|adults/Lily]] disliked him as much as
-it sounds.  I am not the best at reading people, but I think [[Harry]] is worse,
-and, unfortunately, everything we know is filtered through his perceptions (or
-in this case lack thereof).  [[Snape|adults/Snape]] is inordinately focused on
-making sure that [[Lily|adults/Lily]] sees [[James|adults/James]] in a bad
-light.  *Some* of that is because *[[Snape|adults/Snape]]* is aware that
-[[James|adults/James]] is a rival for her affections.  
+I do not doubt that [James][] was in fact fairly arrogant, and that was a
+barrier to any friendship between himself and [Lily][].  That being said, I do
+*not* think that [Lily][] disliked him as much as it sounds.  I am not the best
+at reading people, but I think [Harry][] is worse, and, unfortunately,
+everything we know is filtered through his perceptions (or in this case lack
+thereof).  [Snape][] is inordinately focused on making sure that [Lily][] sees
+[James][] in a bad light.  *Some* of that is because *[Snap][]* is aware that
+[James][] is a rival for her affections.  
 
 There are, however, only two real possibilities here.  
 
-1. [[Snape|adults/Snape]] is irrationally jealous of the mere *possibility* that
-   [[Lily|adults/Lily]] *might* like [[James|adults/James]] merely because he
-   \([[James|adults/James]]\) is popular.  [[Snape|adults/Snape]] is so
-   irrational about [[Lily|adults/Lily]] that he actually undermines his own
-   position to reassure himself on this point. 
-1. To bastardise an overused quote, [[Lily|adults/Lily]] doth protest too much.
-   In other words, she *does* show signs of being attracted to
-   [[James|adults/James]], and [[Snape|adults/Snape]], being both jealous and
-   perceptive, picks up on these signs.  He does not know how to deal with the
-   fact, and undermines his own position trying to undo something he sees going
-   on. 
+1. [Snape][] is irrationally jealous of the mere *possibility* that [Lily][]
+   *might* like [James][] merely because he \([James][]\) is popular.
+   [Snape][] is so irrational about [Lily][] that he actually undermines his
+   own position to reassure himself on this point. 
+1. To bastardise an overused quote, [Lily][] doth protest too much.  In other
+   words, she *does* show signs of being attracted to [James][], and [Snape][],
+   being both jealous and perceptive, picks up on these signs.  He does not
+   know how to deal with the fact, and undermines his own position trying to
+   undo something he sees going on. 
 
-[[Snape|adults/Snape]] *is* ungrateful, though if he *truly* believes that
-[[James|adults/James]] was motivated by selfishness, *then and only then* is
-that attitude justified.  Assume [[Lupin|adults/Lupin]]'s account is accurate -
-[[James|adults/James]] neither knew about nor condoned [[Sirius|adults/Sirius]]'
-extremely poor idea of a "joke."  [[James|adults/James]] then himself risked the
-fully grown werewolf to save [[Snape|adults/Snape]].  There are a couple of
+[Snape][] *is* ungrateful, though if he *truly* believes that [James][] was
+motivated by selfishness, *then and only then* is that attitude justified.
+Assume [Lupin][]'s account is accurate - [James][] neither knew about nor
+condoned [Sirius][]' extremely poor idea of a "joke."  [James][] then himself
+risked the fully grown werewolf to save [Snape][].  There are a couple of
 possibilities:
 
-1. It has been suggested that [[Snape|adults/Snape]] had been speculating that
-   [[Lupin|adults/Lupin]] was a werewolf for some time prior to the incident.
-   Not only that, but that [[Sirius|adults/Sirius]] was aware that
-   [[Snape|adults/Snape]] had so speculated.  If this is true,
-   [[Snape|adults/Snape]] went down into that tunnel to investigate a suspected
-   werewolf on the night of a full moon, then blames [[James|adults/James]] and
-   [[Sirius|adults/Sirius]] for the fact that he \([[Snape|adults/Snape]]\)
-   found *precisely what he expected*.[^210921-10]  If this is true, then
-   [[Snape|adults/Snape]] is both a hypocrite and insanely stupid. 
-1. [[Snape|adults/Snape]] had no clue what to expect.  He did, however, know
-   that [[Sirius|adults/Sirius]] hates him.  He broke school rules because
-   [[Sirius|adults/Sirius]], who hates him, gave him a clue on how to get
-   [[Sirius|adults/Sirius]]' friend in trouble.  Because that does not sound at
-   all like a trap.  Whether or not you believe that [[James|adults/James]] was
-   in on it, [[Snape|adults/Snape]]'s behaviour is still insanely stupid.
-   Honestly though, we have no reason other than [[Snape|adults/Snape]]'s
-   irrational hatred to doubt [[James|adults/James]] innocence.  
+1. It has been suggested that [Snape][] had been speculating that [Lupin][] was
+   a werewolf for some time prior to the incident.  Not only that, but that
+   [Sirius][] was aware that [Snape][] had so speculated.  If this is true,
+   [Snape][] went down into that tunnel to investigate a suspected werewolf on
+   the night of a full moon, then blames [James][] and [Sirius][] for the fact
+   that he \([Snape][]\) found *precisely what he expected*.[^210921-10]  If
+   this is true, then [Snape][] is both a hypocrite and insanely stupid.  It
+   is, however, a *cunning* plan.
+1. [Snape][] had no clue what to expect.  He did, however, know that [Sirius][]
+   hates him.  He broke school rules because [Sirius][], who hates him, gave
+   him a clue on how to get [Sirius][]' friend in trouble.  Because that does
+   not sound at all like a trap.  Whether or not you believe that [James][] was
+   in on it, [Snape][]'s behaviour is still insanely stupid.  Honestly though,
+   we have no reason other than [Snape][]'s irrational hatred to doubt
+   [James][] innocence.  
 
-In either case, [[Snape|adults/Snape]] has been insanely stupid, and
-[[James|adults/James]] has saved his life.  [[Snape|adults/Snape]] has been told
-to keep silent, and is trying to find ways to ensure that the secret he has
-promised to keep gets out.  
+Given that in the first memory, Lily dismisses [Snape][]'s werewolf theory as
+essentially old well worn ground, I believe that the first possibility is more
+likely.  Thus [Snape][] *intended* to find a werewolf, but did not intended to
+either be saved, nor *need* saving.  He underestimated the danger involved in a
+werewolf encounter, overestimated the controls on [Lupin][] escaping restraint,
+or both.  [Snape][] *intended* to be a hero, exposing a danger to the school at
+great personal risk.  This cunning plan was spoiled by three things.  Firstly,
+in that, as I said, he underestimated the danger and required rescue.
+Secondly, because that rescuer was his own nemisis, and (according to [Snape])
+in on the whole thing anyway.  Thirdly, because [Dumbledore][] insisted on
+keeping the whole matter quiet, and prevented [Snape][] from actually exposing
+[Lupin][]. [Snape][] resents the fact that he is denied his moment of glory,
+and is trying to find ways to ensure that the secret he has promised to keep
+gets out.  
 
-Sure, [[James|adults/James]] hates [[Snape|adults/Snape]] and vice versa.  I
-doubt the event would have changed things even if both were reasonable rational
-and mature real-world adults (if such a thing exists).  In such a case, however,
-we would expect [[Snape|adults/Snape]] to give credit where credit is due, and
-would call him on it when he fails to do so.  In other words, the rational,
-reasonable thing is to criticise [[Snape|adults/Snape]] for *blaming*
-[[James|adults/James]] for the incident.  
+Sure, [James][] hates [Snape][] and vice versa.  I doubt the event would have
+changed things even if both were reasonable rational and mature real-world
+adults (if such a thing exists).  In such a case, however, we would expect
+[Snape][] to give credit where credit is due, and would call him on it when he
+fails to do so.  In other words, the rational, reasonable thing is to criticise
+[Snape][] for *blaming* [James][] for the incident.  
 
-We do not know what happened to Mary Macdonald, but [[Lily|adults/Lily]] insists
-that it is [[Dark Magic|Magic]] and *Evil* (her emphasis).  Somehow that is
-*funny* but [[James|adults/James]] actions are unforgivable.  Even if I entirely
-agreed with [[Snape|adults/Snape]]'s reading of events, I see only a difference
-in target.  Since I *don't* agree with [[Snape|adults/Snape]]'s reading, I see
-that any offence against [[Snape|adults/Snape]] is unforgivable, but *anything*
-[[Snape|adults/Snape]], or by extension is friends, does is justifiable.  We
-call such a person a hypocrite, and generally look down on him or her. 
+We do not know what happened to Mary Macdonald, but [Lily][] insists that it is
+[[Dark Magic|Magic]] and *Evil* (her emphasis).  Somehow that is *funny* but
+[James][]' actions are unforgivable.  Even if I entirely agreed with
+[Snape][]'s reading of events, I see only a difference in target.  Since I
+*don't* agree with [Snape][]'s reading, I see that any offence against
+[Snape][] is unforgivable, but *anything* [Snape][], or by extension his
+friends, does is justifiable.  We call such a person a hypocrite, and generally
+look down on him or her.  This is, however, classic villain behaviour. 
 
 ### Looking at the memories
 
@@ -244,23 +247,21 @@ I have some questions about the memories, in both books.
 #### The presentation
 
 Unfortunately our most detailed account of these events comes from the memories
-that [[Snape|adults/Snape]], a master [[Occlumens|The_Mind_Arts/Occlumency]].
-We know that when Slughorn tried to modify a memory to give to
-[[Dumbledore|adults/Dumbledore]], the result was painfully obvious in a
-pensieve.[^210921-1]  What we do not know is if it was obvious *because it was
-modified* or if it was obvious *because the modification was crudely
-done.*[^210921-2]  Thus we do not know if it is possible that
-[[Snape|adults/Snape]] modified these memories or not; we do not know how
-reliable a witness these memories represent.[^210921-3] 
+that [Snape][], a master [Occlumens][].  We know that when Slughorn tried to
+modify a memory to give to [Dumbledore][], the result was painfully obvious in
+a pensieve.[^210921-1]  What we do not know is if it was obvious *because it
+was modified* or if it was obvious *because the modification was crudely
+done.*[^210921-2]  Thus we do not know if it is possible that [Snape][]
+modified these memories or not; we do not know how reliable a witness these
+memories represent.[^210921-3] 
 
 The second memory, the one with the most discrepancies (see below), has some
-partial validation in that neither [[Sirius|adults/Sirius]] nor
-[[Lupin|adults/Lupin]] deny what happened, on the other hand, [[Harry]] only
-describes what he saw, they did not see the memory themselves.  If
-[[Snape|adults/Snape]] was smart enough to craft his lies on versions of the
-truth, if he distorted true memories rather than than inventing things out of
-whole cloth, [[Harry]] may not have included the details that would allow either
-listener to notice the discrepancies.  
+partial validation in that neither [Sirius][] nor [Lupin][] deny what happened,
+on the other hand, [Harry][] only describes what he saw, they did not see the
+memory themselves.  If [Snape][] was smart enough to craft his lies on versions
+of the truth, if he distorted true memories rather than than inventing things
+out of whole cloth, [Harry][] may not have included the details that would
+allow either listener to notice the discrepancies.  
 
 #### The content
 
@@ -269,38 +270,36 @@ be a cultural thing, the difference between American schools and British ones.
 
 The first is, as I note above, that the students take the exam paper with them
 when they leave the OWL exam.  Based on my experience of standardised exams,
-this seems incredibly odd.  I know that all of the *[[Hogwarts]]* students take
+this seems incredibly odd.  I know that all of the *[Hogwarts][]* students take
 the OWLS at the same time, but we also know that not everyone goes to
-[[Hogwarts]].  As corrupt as that culture is, surely the Wizarding Examinations
+[Hogwarts][].  As corrupt as that culture is, surely the Wizarding Examinations
 Authority has had to deal with people buying copies of a test before.
 Controlling access to the exact exam questions used should carry over to the
 magical world as well. 
 
-Second, as everyone is leaving the exam, we overhear [[James|adults/James]],
-[[Lupin|adults/Lupin]], Pettigrew and [[Sirius|adults/Sirius]] talking.  Keep in
-mind two things, this is *[[Snape|adults/Snape]]'s* memory.  He was close enough
-to at least subconsciously hear them. The book attempts to account for this by
-saying that [[Harry]] has to strain to hear them, but, the passage describes a
-"gang" of girls as having just left the boys' group, and then, when they start
-picking on [[Snape|adults/Snape]], we see that a number of students are able to
-quickly gather.  Why are they discussing [[Lupin|adults/Lupin]]'s status so
-openly at all?  Why does *[[Lupin|adults/Lupin]]* joke about answering that
-question in that way?  We see no indication of what volume most of the comments
-were said at, but it is still very odd that so much was said before
-[[Lupin|adults/Lupin]] became uncomfortable. 
+Second, as everyone is leaving the exam, we overhear [James][], [Lupin][],
+Pettigrew and [Sirius][] talking.  Keep in mind two things, this is
+*[Snape][]'s* memory.  He was close enough to at least subconsciously hear
+them. The book attempts to account for this by saying that [Harry][] has to
+strain to hear them, but, the passage describes a "gang" of girls as having
+just left the boys' group, and then, when they start picking on [Snape][], we
+see that a number of students are able to quickly gather.  Why are they
+discussing [Lupin][]'s status so openly at all?  Why does *[Lupin][]* joke
+about answering that question in that way?  We see no indication of what volume
+most of the comments were said at, but it is still very odd that so much was
+said before [Lupin][] became uncomfortable. 
 
-Third, [[Snape|adults/Snape]] settles down in fairly close range to
-[[James|adults/James]] and [[Sirius|adults/Sirius]] *at all.*  If this were
-anything other than a necessary plot device in fiction, this right here would be
-the single strongest indicator that the memories are fabricated.  As someone who
-has had trouble with school yard bullies, you simply do *not* relax around them.
-[[Snape|adults/Snape]] would have picked *anywhere* else on the grounds.  He
-would have *stayed inside* rather than willingly putting himself at risk that
-way.  
+Third, [Snape][] settles down in fairly close range to [James][] and [Sirius][]
+*at all.*  If this were anything other than a necessary plot device in fiction,
+this right here would be the single strongest indicator that the memories are
+fabricated.  As someone who has had trouble with school yard bullies, you
+simply do *not* relax around them.  [Snape][] would have picked *anywhere* else
+on the grounds.  He would have *stayed inside* rather than willingly putting
+himself at risk that way.  
 
 On a side note, in his work _[Toxic][]_, WitandAmbition makes very similar
-points, but focuses more on [[Lily]] and [[Snape]] starting further back in time
-to paint much the same picture.
+points, but focuses more on [Lily][] and [Snape][] starting further back in
+time to paint much the same picture.
 
 [Toxic]: https://www.fanfiction.net/s/12795425/2/Toxic
 
@@ -320,64 +319,64 @@ to paint much the same picture.
 [RPM1]: https://www.pottermore.com 
 
 [^210921-9]: Mrs. J. K. Rowling. 
-    _[Harry Potter and the Deathly Hallows](https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows)_
+    _[Harry Potter and the Deathly Hallows](https://www.librarything.com/work/3577382/book/225886820)_
     p. 279.  Pottermore Publishing.  American Kindle Edition. 
 
 [^210921-7]: Mrs. J. K. Rowling. 
-    _[Harry Potter and the Deathly Hallows](https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows)_
+    _[Harry Potter and the Deathly Hallows](https://www.librarything.com/work/3577382/book/225886820)_
     p. 278.  Pottermore Publishing.  American Kindle Edition. 
 
 [^210921-1]: Mrs. J. K. Rowling. 
-    _[Harry Potter and the Deathly Hallows](https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows)_
+    _[Harry Potter and the Deathly Hallows](https://www.librarything.com/work/3577382/book/225886820)_
     pp. 309-310.  Pottermore Publishing.  American Kindle Edition. 
 
 [^210921-2]: Mrs. J. K. Rowling. 
-    _[Harry Potter and the Deathly Hallows](https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows)_
+    _[Harry Potter and the Deathly Hallows](https://www.librarything.com/work/3577382/book/225886820)_
     pp. 309-310.  Pottermore Publishing.  American Kindle Edition. 
 
 ### Looking at the Fall-out
 
 #### Lily and Snape
 
-Some writers blame [[Lily|adults/Lily]] for the fact that [[Snape|adults/Snape]]
-became a Death Eater, pointing to this incident.  If she had forgiven him, her
-friendship would have given him the strength he needed to resist
-[[Riddle|adults/Riddle]]'s temptations.  I honestly disagree, and point to the
-first of [[Snape|adults/Snape]]'s memories as my proof.  If she had forgiven
-him, he would have remained in denial about the evil nature of the actions that
-Mulciber and his \([[Snape|adults/Snape]]'s\) other Death Eater friends were
-committing.  This would inevitably lead to facing the same temptations to
-joining [[Riddle|adults/Riddle]].  [[Snape|adults/Snape]] would then have rationalised things
-saying that by joining [[Riddle|adults/Riddle]], he would be in a *better*
-position to protect [[Lily|adults/Lily]].  He would figure that
-[[Riddle|adults/Riddle]] would spare a Death Eater's family even if she was a
-mudblood.  This would draw [[Snape|adults/Snape]] deeper and deeper into
-[[Riddle|adults/Riddle]] atrocities and soul corrupting influence.  You simply
-cannot be around such people without their evil rubbing off on you.  
+Some writers blame [Lily][] for the fact that [Snape][] became a Death Eater,
+pointing to this incident.  If she had forgiven him, her friendship would have
+given him the strength he needed to resist [Riddle][]'s temptations.  I
+honestly disagree, and point to the first of [Snape][]'s memories as my proof.
+If she had forgiven him, he would have remained in denial about the evil nature
+of the actions that Mulciber and his \([Snape][]'s\) other Death Eater friends
+were committing.  This would inevitably lead to facing the same temptations to
+joining [Riddle][].  [Snape][] would then have rationalised things saying that
+by joining [Riddle][], he would be in a *better* position to protect [Lily][].
+He would figure that [Riddle][] would spare a Death Eater's family even if she
+was a mudblood.  This would draw [Snape][] deeper and deeper into [Riddle][]'s
+atrocities and soul corrupting influence.  You simply cannot be around such
+people without their evil rubbing off on you.  
 
-People criticising [[Lily|adults/Lily]] are essentially pushing her towards
-missionary dating.  It is not *precisely* the same situation, but it is close
-enough.  Sure you can find anecdotal evidence that missionary dating works, but
-in general, it is a bad idea.[^211220-2]
+[Riddle]: <{{< relref "Tom_Marvolo" >}}> 
 
-Secondly, I remain unconvinced that [[Lily|adults/Lily]] was romantically
-inclined towards [[Snape|adults/Snape]] at all.  Certainly both
-[[Snape|adults/Snape]] and [[James|adults/James]] were both romantically
-interested in *her*, both aware of the other's interest in her, and both jealous
-of the other's perceived advantages.  It does not follow that just because
-[[Lily|adults/Lily]] was *friends* with someone who wanted that friendship to be
-more, that *she* **also** wanted that friendship to be more.  
+People criticising [Lily][] are essentially pushing her towards missionary
+dating.  It is not *precisely* the same situation, but it is close enough.
+Sure you can find anecdotal evidence that missionary dating works, but in
+general, it is a bad idea.[^211220-2]
 
-Lastly, [[!wikipedia Alan Rickman]] may be attractive (at least, I am told he
-is).  He is not however, the definitive rendition of [[Severus
-Snape|adults/Snape]].  Lets not read more into the text than is actually there
-just because you actually like the *actor* as opposed to the *character*.  
+Secondly, I remain unconvinced that [Lily][] was romantically inclined towards
+[Snape][] at all.  Certainly both [Snape][] and [James][] were both
+romantically interested in *her*, both aware of the other's interest in her,
+and both jealous of the other's perceived advantages.  It does not follow that
+just because [Lily][] was *friends* with someone who wanted that friendship to
+be more, that *she* **also** wanted that friendship to be more.  
+
+Lastly, {{< wikipedia "Alan Rickman" >}} may be attractive (at least, I am
+told he is).  He is not however, the definitive rendition of [Severus
+Snape][Snape].  Lets not read more into the text than is actually there just
+because you actually like the *actor* as opposed to the *character*.  
 
 [^211220-2]: The practice isn't condemned, you'll find only opinion articles on
     the subject.  
     * <https://marriagemissions.com/missionary-dating-lead-good-marriage/>
     * <https://thosecatholicmen.com/articles/love-em-before-you-date-em/>
     * <https://www.catholicsingles.com/blog/missionary-dating/> 
+
     Note quite on topic, but related: 
     * <https://bustedhalo.com/questionbox/what-does-the-catholic-church-have-to-say-about-a-catholic-dating-a-christian-of-another-denomination>
     * <https://gulfcoastcatholic.org/what-does-church-teach-about-dating-someone-who-different-faith>
