@@ -16,6 +16,12 @@ Rowling's descriptions about the decision process that, in the cannon material,
 lead to her marriage is incredibly vague and in some ways even suggestive.
 These stories take that vague suggestion and run with it. 
 
+_[Motivations](https://web.archive.org/web/20220330075436/https://jeconais.fanficauthors.net/Motivations/)_
+:   * Author: Jeconais
+    * Published: 2016-06-04
+    * Comments: Hogwarts forms a "extra curricular club" to study other
+      (non-magical) subjects, some Slytherins join, and history changes.
+
 _[Finding a Place to Call Home](https://www.fanfiction.net/s/9885609)_
 :   * Author: TheGirlWithFarTooManyIdeas
     * Published: 2013-11-29. Updated: 2015-02-07. 

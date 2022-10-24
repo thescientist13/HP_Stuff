@@ -16,3 +16,9 @@ _[The Magical Mark](https://www.fanfiction.net/s/12747756)_
       reasonably popular trope in fan fiction.  This story combines that with
       the Harry leaves Britain theme.
 
+_[What Magic?](https://www.fanfiction.net/s/14021041)_
+:   * Author: kb0
+    * Published: 2022-01-11
+    * Comments: Harry's acceptance to Hogwarts is revoked. 
+
+
