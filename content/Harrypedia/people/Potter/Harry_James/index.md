@@ -131,6 +131,53 @@ idea that I found really amusing, that Harry's hair was a prank that James
 played on Lily.[^200710-3]  As I said, the book 1 evidence probably contradicts
 the theory, but it is a great one.
 
+At the beginning of book 5, we read that Harry "was a skinny, black-haired,
+bespectacled boy who had the pinched, slightly unhealthy look of someone who
+has grown a lot in a short space of time."[^221024-1]  Since at the end of book
+four we know that James Potter was still taller than Harry,[^221024-2] either
+this growth spurt happened *after* the graveyard scene (despite Harry's poor
+diet at Privet Drive), or it was insufficient to make him taller than his
+father.  Either way, Harry observed that he is roughly the same height his
+father was at age 15/16.[^221024-3]  So either the effects of his childhood
+malnutrition have been healed, or Mrs. Rowling (possibly unconsciously) chose to
+utterly ignore the high probability of such effects.[^221024-4]  Either way, we
+*still* have no clear indication of exactly how tall this is.  All we know
+definitively is that by the beginning of book seven, Harry is taller than
+[Hermione][] and Mundungus, and shorter than [Ron][], [Fred][] and
+[George][].[^221024-5]  See my further comments on [growth][].
+
+[growth]: <{{< relref "growth" >}}>
+
+[Hermione]: <{{< relref "Hermione_Jean" >}}>
+
+[Ron]: <{{< relref "Ronald_Bilius" >}}>
+
+[Fred]: <{{< relref "Fred" >}}>
+
+[George]: <{{< relref "George" >}}>
+
+[^221024-4]: The research on this is somewhat mixed, and it would take more
+  work than I have time for to weed out infantile starvation versus adolescent
+  starvation versus starvation during puberty, and yes the difference clearly
+  matters. See the results at
+  <https://scholar.google.com/scholar?q=effects+of+childhood+starvation+on+height&hl=en&as_sdt=0&as_vis=1&oi=scholart>
+
+[^221024-5]: Mrs. J. K. Rowling.
+   _[Harry Potter and the Deathly Hallows](https://www.librarything.com/work/3577382/book/225886820)_
+   page 17. Pottermore Limited. American Kindle Edition.
+
+[^221024-3]: Mrs. J. K. Rowling.
+   _[Harry Potter and the Order of the Phoenix](https://www.librarything.com/work/115/book/225886709)_
+   Kindle Locations 9410-9411 . Pottermore Limited. American Kindle Edition.
+
+[^221024-2]: Mrs. J. K. Rowling.
+   _[Harry Potter and the Goblet of Fire](https://www.librarything.com/work/113/book/203684953)_
+   Kindle Location 9936. Pottermore Limited. American Kindle Edition.
+
+[^221024-1]: Mrs. J. K. Rowling. 
+    _[Harry Potter and the Goblet of Fire](https://www.librarything.com/work/113/book/203684953)_
+    Kindle Locations 11016-11017. Pottermore Limited. American Kindle Edition. 
+
 [SS1]: <{{< relref "Severus" >}}>
 
 [^200710-1]: Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_ Kindle Locations 9456-9457. Pottermore Limited. American Kindle Edition.

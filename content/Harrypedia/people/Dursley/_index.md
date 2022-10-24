@@ -68,7 +68,7 @@ her direction.
   > day. They let Harry out to use the bathroom morning and evening. Otherwise,
   > he was locked in his room around the clock.[^200513-3]
 * Vernon strangles Harry in _the Order of the Phoenix_[^200513-4]
-* [[Harry]] has some disturbing habits: 
+* [Harry][] has some disturbing habits: 
 
   > “You'd need more than a good sense of fun to liaise with my uncle,” said
   >  Harry darkly. “Good sense of when to duck, more like.”[^200513-5]
