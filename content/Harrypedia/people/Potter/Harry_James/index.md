@@ -141,14 +141,18 @@ father.  Either way, Harry observed that he is roughly the same height his
 father was at age 15/16.[^221024-3]  So either the effects of his childhood
 malnutrition have been healed, or Mrs. Rowling (possibly unconsciously) chose to
 utterly ignore the high probability of such effects.[^221024-4]  Either way, we
-*still* have no clear indication of exactly how tall this is.  All we know
-definitively is that by the beginning of book seven, Harry is taller than
-[Hermione][] and Mundungus, and shorter than [Ron][], [Fred][] and
-[George][].[^221024-5]  See my further comments on [growth][].
+*still* have no clear indication of exactly how tall this is.  We know only a few things definitively:
+ * that by the beginning of book seven, Harry is taller than [Hermione][] and Mundungus, and shorter than [Ron][], [Fred][] and
+   [George][].[^221024-5]  
+ * [James Potter][James] is described as tall by [Riddle][].[^221024-6] 
+
+See my further comments on [growth][].
 
 [growth]: <{{< relref "growth" >}}>
 
 [Hermione]: <{{< relref "Hermione_Jean" >}}>
+
+[James]: <{{< relref "James" >}}>
 
 [Ron]: <{{< relref "Ronald_Bilius" >}}>
 
@@ -156,11 +160,17 @@ definitively is that by the beginning of book seven, Harry is taller than
 
 [George]: <{{< relref "George" >}}>
 
+[Riddle]: <{{ relref "Tom_Marvolo" >}}>
+
 [^221024-4]: The research on this is somewhat mixed, and it would take more
   work than I have time for to weed out infantile starvation versus adolescent
   starvation versus starvation during puberty, and yes the difference clearly
   matters. See the results at
   <https://scholar.google.com/scholar?q=effects+of+childhood+starvation+on+height&hl=en&as_sdt=0&as_vis=1&oi=scholart>
+
+[^221024-6]: Mrs. J. K. Rowling.
+   _[Harry Potter and the Deathly Hallows](https://www.librarything.com/work/3577382/book/225886820)_
+   page 116. Pottermore Limited. American Kindle Edition.
 
 [^221024-5]: Mrs. J. K. Rowling.
    _[Harry Potter and the Deathly Hallows](https://www.librarything.com/work/3577382/book/225886820)_
