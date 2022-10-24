@@ -8,6 +8,15 @@ While [Ginny]({{< ref "Harrypedia/people/Weasley/Ginevra_Molly" >}}) has flaws,
 I remain partial to this pairing.  Unfortunately fan fiction rarely does it
 justice.  
 
+_[The Unknown Power](https://crys.fanficauthors.net/The_Unknown_Power/)_
+:  * Author: Crys
+   * Published: 2005-09-16. Updated: 2005-09-20.
+   * Comments: In this story, Harry does not trust Dumbledore after the
+     revelations at the end of 5th year.  Remus steps up to take an active role
+     in Harry's life, and Ginny doesn't date Dean.  One of the notable features
+     of this story is that amulets are made to allow Ginny to siphon power from
+     the other Weasleys.
+
 _[A Godfather's Love](https://archiveofourown.org/works/18216887)_
 :  * Author: sbmcneil
    * Published: 2019-03-24
