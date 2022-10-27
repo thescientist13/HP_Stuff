@@ -8,6 +8,14 @@ While [Ginny]({{< ref "Harrypedia/people/Weasley/Ginevra_Molly" >}}) has flaws,
 I remain partial to this pairing.  Unfortunately fan fiction rarely does it
 justice.  
 
+_Escape Artist](https://www.fanfiction.net/s/14109811)_
+:  * Author: Thor's Shadow
+   * Published: 2022-07-17. Updated: 2022-08-14
+   * Comments: In general the idea that Ron and Hermione are part of some plot
+     to deceive and monitor Harry 24/7 is ludicrous.  Children simply are not
+     capable of maintaining that level of deception.  This story however
+     provides a reasonable explanation for the senario.  
+
 _[The Unknown Power](https://crys.fanficauthors.net/The_Unknown_Power/)_
 :  * Author: Crys
    * Published: 2005-09-16. Updated: 2005-09-20.
