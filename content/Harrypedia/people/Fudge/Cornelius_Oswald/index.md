@@ -31,7 +31,7 @@ starts to misuse them?
 
 [Amelia Bones]: <{{< relref "Amelia_Susan" >}}>
 
-[Umbridge]: <{{< relref "Dolores_Jane" >}}>
+[Umbridge]: <{{< relref "Delores_Jane" >}}>
 
 Specifically looking at both the arrest of [Hagrid][] and the handling of
 [Sirius's][SB] escape, I strongly suspect that his actions are at best quasi-legal

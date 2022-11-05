@@ -17,6 +17,6 @@ _[Harry Potter: Air Elemental](https://www.fanfiction.net/s/11995519)_
 
 [Responsible Adult]: <{{< relref "ResponsibleAdults" >}}>
 
-[Amelia]: <{{< relref "Amelia" >}}>
+[Amelia]: <{{< relref "Amelia_Susan" >}}>
 
-[AB1]: <{{< relref "Amelia" >}}>
+[AB1]: <{{< relref "Amelia_Susan" >}}>

@@ -5,9 +5,11 @@ date = 2022-06-30T14:58:00-04:00
 
 There is no real doubt that most magical people consider themselves, their
 lifestyle, cultural institutions and so on superior to non-magical ones.  This
-is not just restricted to the bigots like the [Malfoy]({{< relref "Malfoy" >}})
-family.  Mr. Weasley is fascinated by non-magical things and people, but still
-talks about them as if they are clever children.[^220630-3]
+is not just restricted to the bigots like the [Malfoy][] family.  Mr. Weasley
+is fascinated by non-magical things and people, but still talks about them as
+if they are clever children.[^220630-3]
+
+[Malfoy]: <{{< relref "/Harrypedia/people/Malfoy" >}}>
 
 There are two common mistakes that fan fiction writers make dealing with this. 
 
