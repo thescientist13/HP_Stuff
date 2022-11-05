@@ -43,7 +43,7 @@ _[Remember](https://www.fanfiction.net/s/4936039)_
 _[Harry Potter and the Dimensional Trunk](https://www.fanfiction.net/s/2456938)_
 :   * Author: Ophiuchus
     * Published: 2005-06-27. Updated: 2005-08-07. 
-    * Comments: This story ignores the concept of [[Horcruxes|Notes/Horcruxes]],
+    * Comments: This story ignores the concept of [Horcruxes][],
       and all the messiness that goes with them.  It focuses in the locked room
       in the Department of Mysteries, the idea of multi-compartment, multi-room
       trunks, and magical animagus transformations.  I rarely like Harry as a
@@ -59,9 +59,13 @@ _[Hope for the Best, Plan for the Worst](https://siye.co.uk/viewstory.php?sid=13
       rather than the slower and mostly off "screen" build-up that we see in
       the canonical story line.  Here Ginny convinces and helps Harry to
       prepare for his trial rather than rely on [Dumbledore][HpediaD1].
-      This turns out to be for the best, as [Lucius]({{< ref "Harrypedia/people/Malfoy/Lucius_Abraxus" >}}) 
+      This turns out to be for the best, as [Lucius][]
       is rather more openly active in this version.  It is unfortunate that the
       author did not develop this concept further.
+
+[Lucius]: <{{< relref "Lucius_Abraxas" >}}>
+
+[Horcruxes]: <{{< relref "Horcruxes" >}}>
 
 [HpediaD1]: <{{< ref "Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
@@ -75,9 +79,9 @@ _[Walk Away Without Noticing](https://www.fanfiction.net/s/14040641/5/Walk-Away-
 _[The Harder Struggle](https://www.fanfiction.net/s/8326015)_
 :   * Author: Ericfmc
     * Published: 2012-07-16. Updated: 2012-12-19.
-    * Comments: This really focuses more on Ron and Hermione than it does on
+    * Comments: This really focuses more on Ron and [Hermione][] than it does on
       Harry and Ginny, and is one of the stories that, while sticking with
-      canonical couples, leans towards Hermione as world saviour and Harry as
+      canonical couples, leans towards [Hermione][] as world saviour and Harry as
       *her* side-kick.  Fortunately it only leans that way.  Still, I would
       prefer a stronger Ginny. 
 
@@ -114,7 +118,7 @@ _[Realizations](https://www.fanfiction.net/s/7875381)_
       said relationship up.  I suspect this remains true even if she would have
       otherwise approved of said relationship.  I also think that while Ron
       shows a fair amount of character growth across the latter chapters of
-      book seven, he and Hermione have a lot further to go than Harry.  This
+      book seven, he and [Hermione][] have a lot further to go than Harry.  This
       story gets all these things right. 
 
 [^220711-1]: Mrs. J. K. Rowling.
@@ -146,4 +150,7 @@ _[Without a Trace](https://www.fanfiction.net/s/11718442)_
 
 [G1]: <{{< relref "Ginevra_Molly" >}}>
 
-[H1]: <{{< relref "Hermione" >}}>
+[H1]: <{{< relref "Hermione_Jean" >}}>
+
+[Hermione]: <{{< relref "Hermione_Jean" >}}>
+

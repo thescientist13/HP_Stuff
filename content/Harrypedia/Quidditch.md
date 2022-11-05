@@ -18,11 +18,13 @@ incredibly violent sport.[^220628-6]  We read about fans, including children,
 rioting over changes, be it standardising on goal hoops (a disappointment to
 pyromaniacs),[^220628-7] or establishing penalties for violence.[^220628-8]  In
 both cases, quotes are provided in which fans claim that the violence is a key
-part of the sport.  Nor is this limited to history, [Ginny]({{< ref "people/Weasley/Ginevra" >}}) 
-writes in the one article at length about the life threatening problems that
-the national teams' mascots caused in the 2014 World Cup.[^220628-9]  Even at
-the school level, Quidditch has caused injury - Oliver Wood references "a
-couple of broken jaws".[^220628-10]  
+part of the sport.  Nor is this limited to history, [Ginny][] writes in the one
+article at length about the life threatening problems that the national teams'
+mascots caused in the 2014 World Cup.[^220628-9]  Even at the school level,
+Quidditch has caused injury - Oliver Wood references "a couple of broken
+jaws".[^220628-10]  
+
+[Ginny]: <{{< relref "Ginevra_Molly" >}}>
 
 Overall, I am reminded of the popularity of the gladiatorial games in the Roman
 Empire.  We see the remains of the fervour that these "entertainments" incited
@@ -66,10 +68,12 @@ throws.[^220705-1]  How hard is the penalty shot a chaser makes? Is it similar
 odds? Or does the keeper have an advantage? 
 
 What role does the team captain play?  We have examples of a captain in each of
-the available positions, Wood as keeper, Angelina as chaser, [Harry]({{< relref
-"Harry" >}}) as seeker, and Harpies captain [Gwenog Jones]({{< relref "Gwenog" >}}) 
+the available positions, Wood as keeper, Angelina as chaser, [Harry][] as
+seeker, and Harpies captain [Gwenog Jones]({{< relref "Gwenog" >}}) 
 as beater.  Are there advantages or disadvantages to the captain being one or
 more of these? Does the answer depend in any way on the team's playing style? 
+
+[Harry]: <{{< relref "Harry_James" >}}>
 
 Many authors have attempted to do something with this, sometimes by radically
 changing the game.[^220705-3]  Few have come up with compelling explanations
