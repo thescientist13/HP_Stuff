@@ -14,7 +14,7 @@ _Escape Artist](https://www.fanfiction.net/s/14109811)_
    * Comments: In general the idea that Ron and Hermione are part of some plot
      to deceive and monitor Harry 24/7 is ludicrous.  Children simply are not
      capable of maintaining that level of deception.  This story however
-     provides a reasonable explanation for the senario.  
+     provides a reasonable explanation for the scenario.  
 
 _[The Unknown Power](https://crys.fanficauthors.net/The_Unknown_Power/)_
 :  * Author: Crys
@@ -147,6 +147,12 @@ _[Without a Trace](https://www.fanfiction.net/s/11718442)_
       [Hermione][H1] does not actually get along with [Ginny][G1], and that
       [Percy][PW1] is not any more happy with his family's association with
       [Harry][HP1] after the war than he was during it. 
+
+_[Arthur Weasley Wasn't Always Sure of Ginny and Harry](https://www.fanfiction.net/s/11496613)_
+:   * Author: babybasschick96 
+    * Published: 2015-09-08
+    * Comment: This one shot is endearing in the super powered Harry genre.
+      Harry and Ginny just *fit*.
 
 [HP1]: <{{< relref "Harry_James" >}}> 
 
