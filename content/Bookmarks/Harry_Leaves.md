@@ -4,19 +4,30 @@ title = "HP Stories where Harry Leaves"
 author = "Luke Schierer"
 +++
 
-These stories are primarily notable in that [Harry]({{< ref "Harrypedia/people/Potter/Harry_James" >}}) 
-leaves Britain, the magical world, or both. 
+These stories are primarily notable in that [Harry][] leaves Britain, the
+magical world, or both. 
+
+_[Good Bye, Farewell, So Long …](https://www.fanfiction.net/s/14124126)_ (title redacted)
+:   * Author: Lady FoxFire
+    * Published: 2022-08-17
+    * Comments: This is primarily noteworthy for a couple reasons
+      * You rarely see [Professor Sprout][] get called out for her behavior in book four.
+      * This is the second work I have seen with {{< wikipedia "Baron Samedi" >}}.  The idea of using evil against evil is milding interesting.
+      * The idea that the tournament means that [Harry][] is an adult is used as a plot device.
+
+[Harry]: <{{< ref "Harrypedia/people/Potter/Harry_James" >}}>
+
+[Professor Sprout]: <{{< relref "Pomona" >}}>
 
 _[The Sniper](https://www.fanfiction.net/s/3918135)_
 :   * Author: DobbyElfLord
     * Published: 2007-11-28
     * Comments: This story leaves the question of [Horcruxes]({{< ref "Harrypedia/Horcruxes" >}})
       in an ambiguous state.  It is surprisingly complete picture of
-      [Harry]({{< ref "Harrypedia/people/Potter/Harry_James" >}}) for such a 
-      short one-shot, but at the expense of any real epilogue to give a sense
-      of closure.  There are a number of things I like in this that are
-      mentioned but not fully explored.  The author did write a sequel, but it
-      is not nearly as interesting.
+      [Harry][] for such a short one-shot, but at the expense of any real
+      epilogue to give a sense of closure.  There are a number of things I like
+      in this that are mentioned but not fully explored.  The author did write
+      a sequel, but it is not nearly as interesting.
       * [Harry]({{< ref "Harrypedia/people/Potter/Harry_James" >}}) realises 
         that many of his problems are self caused in one sense, but the root 
 	cause is the effectively random oscillation between expecting him to 
