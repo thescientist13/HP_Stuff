@@ -13,10 +13,4 @@ _[Toxic](https://www.fanfiction.net/s/12795425)_
     * Notes: Snape's relationship with Lily has never been a healthy one. Lily
       has always known this at some level.  
 
-_[Disillusionment](https://archiveofourown.org/works/14498490)_
-:   * Author: melian225
-    * Published: 2018-05-01
-    * Notes: Snape meets Lily in the afterlife.  They have an eye opening
-      conversation. 
-
-
+There are more stories dealing about them meeting when [Snape Dies]({{< relref "SnapeDies" >}}).
