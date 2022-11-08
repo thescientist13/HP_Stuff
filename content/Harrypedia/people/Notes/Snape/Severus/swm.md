@@ -3,7 +3,6 @@ type = "docs"
 date = "2022-10-14T15:19:19-04:00"
 title = "Snape's Worst Memory and Related Events"
 author = "Luke Schierer"
-weight = 5
 +++
 
 Any attempt to understand [Sirius][], [Lily][], [James][], [Snape][], the
