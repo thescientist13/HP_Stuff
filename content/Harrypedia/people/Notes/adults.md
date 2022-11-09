@@ -22,26 +22,28 @@ to her ability that so many of these characters never the less come across as
 *good people* struggling in *really bad situations.*  In these [Notes][], I
 intend to pull no punches.  I will expose these flaws for what they are.  I am
 going to try to show which characters are good people who do bad things, and
-which are bad people who do good things. If, however, any of the adults in Harry's
-life were really unreservedly praiseworthy, he or she, and not Harry, would be
-the main character from that point forward. 
+which are bad people who do good things. If, however, any of the adults in
+[Harry][]'s life were really unreservedly praiseworthy, he or she, and not
+[Harry][], would be the main character from that point forward. 
 
 I have read a few fan fictions that try to find a middle ground.  Essentially it
 consists of an evil, or at minimum a deeply misguided [Dumbledore][].  One who
-differs from Riddle only in that neither can handle the other being in control,
-and in some of the *details* but not the general shape of their vision of the
-world.  With two powerful forces acting against Harry, the competent adult is
-overwhelmed, and unable to fully shield him.  I cannot say that is is entirely
-unbelievable.  [Dumbledore][] does, or more often fails to do, a great many
-things that make him an incredibly ambiguous figure.  It is not a great leap to
-paint him as the Dark Lord of the prophecy, who has marked Harry, not
-physically, but metaphorically, as the one who could be his equal.[^210521-8]
+differs from [Riddle][] only in that neither can handle the other being in
+control, and in some of the *details* but not the general shape of their vision
+of the world.  With two powerful forces acting against [Harry][], the competent
+adult is overwhelmed, and unable to fully shield him.  I cannot say that is is
+entirely unbelievable.  [Dumbledore][] does, or more often fails to do, a great
+many things that make him an incredibly ambiguous figure.  It is not a great
+leap to paint him as the Dark Lord of the prophecy, who has marked [Harry][],
+not physically, but metaphorically, as the one who could be his equal.[^210521-8]
 
 [Molly]: <{{< relref "Molly" >}}>
 
 [Harry]: <{{< relref "Harry_James" >}}>
 
 [Dumbledore]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
+
+[Riddle]: <{{< relref "Tom_Marvolo" >}}>
 
 [Notes]: <{{< ref "/Harrypedia" >}}>
 
