@@ -24,8 +24,9 @@ They are blind, and yet navigate spaces presumably using some magical form of
 radar.  This magical navigation is apparently mostly blind to animals, but this
 causes them no problems in the wild. 
 
-They are described as [non-beings]({{< relref "non-beings" >}}) but have bodies
-that can hold onto you.
+They are described as [non-beings][] but have bodies that can hold onto you.
+
+[non-beings]: <{{< relref "non-beings" >}}>
 
 ### Imponderables
 
@@ -38,9 +39,11 @@ actually true, or is it that the Dementor causes depression, and *that* affects
 the ability to use magic?[^211021-9]
 
 It is said that they feed on positive emotions.  Why is it that the
-[[Patronus|spells]], which is the *embodiment* of those emotions, repels them?
-The explanation that it is because the [Patronus]({{< relref "spells" >}}) 
-cannot feel despair fails to satisfactorily explain. 
+[Patronus][], which is the *embodiment* of those emotions, repels them?  The
+explanation that it is because the [Patronus][] cannot feel despair fails to
+satisfactorily explain. 
+
+[Patronus]: <{{ relref "Patronus" >}}>
 
 [^211021-9]: [Harry Potter Wiki](https://harrypotter.fandom.com/wiki)
     "[Dementor](https://harrypotter.fandom.com/wiki/Dementor)"
@@ -54,7 +57,7 @@ cannot feel despair fails to satisfactorily explain.
     "[Dementor](https://harrypotter.fandom.com/wiki/Dementor)"
     Last Edited: 2021-10-12. Last Viewed: 2021-10-21.
 
-[^211021-6]: Find works that used this theory.
+[^211020-6]: Find works that used this theory.
 
 [^211021-5]: Mrs. J. K. Rowling.
     _[Harry Potter and the Prisoner of Azkaban](https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban)_
