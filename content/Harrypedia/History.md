@@ -28,3 +28,5 @@ gantt
 [^200816-1]: {{< wikipedia "Dip pen" >}} Last Edited 2020-07-24. Last Viewed 2020-08-16
 
 [^modeline]: # vim: shiftwidth=2:tabstop=2:expandtab 
+
+The {{< wikipedia "Criminal Law Act 1967" >}} deals with self defense, citizens arrest, and similar matters that affect events and situations in the books. 
