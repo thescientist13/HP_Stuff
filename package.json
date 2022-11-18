@@ -48,6 +48,7 @@
 		"url-loader": "^4.1.1"
 	},
 	"dependencies": {
+		"@bendera/vscode-webview-elements": "^0.8.0",
 		"@fortawesome/fontawesome-common-types": "^6.2.0",
 		"basicprimitives": "^6.5.1",
 		"bulma": "^0.9.4",
