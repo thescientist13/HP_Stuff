@@ -50,6 +50,7 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-common-types": "^6.2.0",
 		"basicprimitives": "^6.5.1",
+		"bulma-timeline": "^3.0.5",
 		"cdk": "^2.50.0",
 		"constructs": "^10.1.148",
 		"d3-dtree": "^2.4.1",
