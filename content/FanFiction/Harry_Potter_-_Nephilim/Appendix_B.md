@@ -17,7 +17,7 @@ characters, I have [mathematical notes on their power levels]({{< relref "Append
 | Power Level | Ability Estimate |
 | :---------: | :-------------- |
 | 1           | <ul><li>some single weak ability within this category</li> <li>no conscious control</li></ul>
-| 2           | <ul><li>either:<ul><li>multiple barely detectable abilities</li> <li>conscious control of a single weak ability</li></ul></li></ul>
+| 2           | <ul><li>**one** of the following:<ul><li>multiple barely detectable abilities</li> <li>conscious control of a single weak ability</li><li>single ability of moderate strength without conscious control</li></ul></li></ul>
 | 3           | <ul><li>able to manipulate this category of magic with great difficulty</li></ul>
 | 4           | <ul><li>able to achieve minimally acceptable levels of competence in this category of magic</li> <li>if some OWL test depended solely on this category of magic, expect to score in the P range.</li></ul>
 | 5           | <ul><li>expected to achieve acceptable levels of proficiency in this category of magic</li> <li>if some OWL test depended solely on this category of magic, expect to score in the A range.</li></ul>
@@ -27,7 +27,13 @@ characters, I have [mathematical notes on their power levels]({{< relref "Append
 | 9           | <ul><li>expected to learn OWL and NEWT level magics with relative ease.</li> <li>expected to learn magics beyond the NEWT level in this category of magic.</li> <li>instinctual (unconscious) use of magic in this category is extremely common.</li></ul>
 | 10          | <ul><li>learning this category of magic is more about finding out what is possible and fine-tuning abilities you already have.</li><li>OWL and NEWT practicals will be easy, but theory portions may be difficult for this person, because their magic is in fact instinctual in this area.</ul>
 
-This begs the question "What do you mean by expected?"  Obviously there is no standards body anywhere in the world that is grading students using these categories.  The nephil in this world have not accepted that they are descended from angels, and thus do not think of their abilities in terms of the angelic choirs.  What I mean is that someone who does not meet the stated goal is being lazy, suppressing their abilities, or both.  They are neglecting their own strengths.  
+This begs the question "What do you mean by expected?"  Obviously there is no
+standards body anywhere in the world that is grading students using these
+categories.  The nephil in this world have not accepted that they are descended
+from angels, and thus do not think of their abilities in terms of the angelic
+choirs.  What I mean is that someone who does not meet the stated goal is being
+lazy, suppressing their abilities, or both.  They are neglecting their own
+strengths.  
 
 #### abilities by type
 
@@ -72,7 +78,7 @@ From the Thrones
     *unlike cannon Harry Potter*, this ability has marginal *at best* affect on
     full humans. Things like the imperious curse or the confundus charm fit in
     here.  Thus fan fiction concepts like magical contracts are actually
-    possible.
+    possible.[^221119-1]
     
 Dominions
 :   These angels are responsible for ordering the work of all other angels.
@@ -101,7 +107,10 @@ From the Virtues
     levitation charms. The other thing that fits here is that when
     a nephil who inherits from the Virtues handles certain raw materials
     (potions ingredients), these become "charged" with extra properties.  This
-    is a deviation from Mrs. Rowling's explanation for potions.
+	is a deviation from Mrs. Rowling's explanation for potions.  Like the magic
+	inherited from the Dominions, the magic inherited from the Virtues is
+	highly temporary.  Indeed, these effects generally last only for the
+	duration the nephil is actively providing magic.  
 
 Powers
 :   Powers are the first of the overtly militant angelic orders (looking from
@@ -120,19 +129,20 @@ Powers
     that preserving/extending and/or shortening/ending magical effects is a
     good way to go.  Playing with Time to do so links them more closely with
     the Dominions and Virtues, and thus fits with the three groups of three
-    thing that traditional sources of information on angels give us. 
+    thing that traditional sources of information on angels give us.
 
 Principalities
 :   The principalities are concerned with groups of people - nations, cities,
     clubs, ethnic groups.  They are not concerned with the individual, but with
     the common good.  
 :   The nephil inherits the ability to create area effects on populations and
-    areas.  (unplottable, "muggle repelling", so on). This differs from the
+    places (unplottable, "muggle repelling", so on). This differs from the
     Thrones in that the gifts from the Thrones affect individuals regardless of
     location.  The gifts from the Principalities affect whoever, full human or
     nephil, is in the right location to be affected, and no one who is not in
     relationship to that location.  Your ability to see into a place, remember
-    a place, stay near a place, so on.
+	a place, stay near a place, so on.  This magic must be continuously powered
+	in some way.  See the Powers above, and Runes below.
 
 Archangels
 :   These angels are tasked with particular goals in particular times and
@@ -169,6 +179,11 @@ Angels
     puncturing my ear drums.   While the last is extreme, and only a crazy
     person would do it, well, remember that nephil do not always understand how
     their magic affects them.
+
+[^221119-1]: As stated elsewhere in these Appendices, I believe the existence
+   of magical contracts is actually *implied* by the canonical Harry Potter
+   books.  However, I am not going to debate their canonicity here.  For the
+   purposes of this work, they exist.
 
 [^220628-4]: Dr. Andrew Sulavik. _[All About Angels](https://www.kofc.org/en/resources/cis/cis303.pdf)_
     © 1999-2021 by Knights of Columbus Supreme Council. Pages 15-16.
@@ -209,22 +224,22 @@ charms
 
 transfiguration
 :   comes primarily from the Dominions, but is highly temporary unless you use
-    abilities from the Virtues to augment reality to make a permanent change
-    possible *as you make the change*.
+	abilities from the Powers to extend (perhaps infinitely) the duration *as
+	you make the change*.
     - Gramp's Law is problematic.  As noted in the [Harry Potter Wiki][HPW1],
       even Gramp's Law's exceptions seem to have exceptions, for example wine
       can be conjured.[^220718-1] For my purposes the problems are two fold: 
       * transfiguration is temporary by default.  Your transfigured food will
-	revert.  For something like water into wine, that is not actually a problem.  For
-	something like a sandwich, you would now have a block o wood (if you
-	transfigured it out of wood) instead of something digestible.
+		revert.  For something like water into wine, that is not actually a
+		problem.  For something like a sandwich, you would now have a block o
+		wood (if you transfigured it out of wood) instead of something digestible.
       * Successful *permanent* transfiguration means transmuting the actual
-	substance all the way down to the subatomic level.  Few of the nephilum
-	know *anything* to the level of detail required for this to be
-	successful, and where they do, it tends to be fairly pure elements,
-	like raw iron into raw gold.  But even then, combining your
-	transmutation with the Powers magic necessary to make it permanent is
-	poorly understood, thus poorly taught, and so see the prior point. 
+		substance all the way down to the subatomic level.  Few of the nephilum
+		know *anything* to the level of detail required for this to be
+		successful, and where they do, it tends to be fairly pure elements,
+		like raw iron into raw gold.  But even then, combining your
+		transmutation with the Powers magic necessary to make it permanent is
+		poorly understood, thus poorly taught, and so see the prior point. 
 
 [^220718-1]: [Harry Potter Wiki][HPW1]. 
     "[Gamp's Law of Elemental Transfiguration](https://harrypotter.fandom.com/wiki/Gamp%27s_Law_of_Elemental_Transfiguration)"
@@ -232,14 +247,14 @@ transfiguration
 
 [HPW1]: <https://harrypotter.fandom.com/wiki>
 
-Defense
+Defence
 :   I am mostly taking [Ishtar][]'s position from _[The Case of the Missing
     Wizard][TCMW1]_ but with a twist.  Much of the content in this class is, as 
     Ishtar would have it, a mix of Charms, Runes, Transfiguration, Care of Magical
     Creatures, and so on.  However, some of it, particularly as it comes to the
     study of specific counter curses and shields, comes from the Angels.  Some of
     it, where actual offensive spells are taught (such as the knockback jinx),
-    comes from the ArchAngels.  
+    comes from the Archangels.  
 :   As I see it, this class is a mishmash of content, part learning about
     "dark" creatures, part learning about the curses you are defending against
     (except not practising casting them), part learning about the counters to those
@@ -337,24 +352,40 @@ Potions
 Runes
 :   These are also complicated.  Runes are _created_ from powers inherited from
     the Virtues, you augment reality to give your writing not just meaning, but
-    power.  They are, however, *powered* by the inheritance from the Dominions
-    (ability to command magic).  Thus two people equally skilled at creating
-    runes might not be equally skilled at powering those runes, or vice versa.
-    This is also a deviation from the cannon Harry Potter universe.
-    Runes can also be created to *absorb* power from the surrounding area to
-    power connected sequences of runes, using abilities inherited from the
-    Principalities.  This in practice reduces the effect of any attempt to use
+	power.  They are, however, *powered* by the inheritance from the Powers,
+	(investing an element of long duration to the rune created).  Thus two
+	people equally skilled at creating runes might not be equally skilled at
+	powering those runes, or vice versa.  This is also a deviation from the
+	cannon Harry Potter universe.  Runes can also be created to *absorb* power
+	from the surrounding area to power connected sequences of runes, using
+	abilities inherited from the Principalities, instead of being pre-charged
+	via the Powers.  This in practice reduces the effect of any attempt to use
     other powers in any way not connected to that rune sequence.  For a school
     like Hogwarts, it would be safer to practice your magic because the effect
-    of each spell would be lessened.  The Hospital Wing would need to be
-    shielded from most of the runes protecting the rest of the castle to ensure
+	of each spell would be lessened.  The Hospital Wing would need to be
+	shielded from most of the runes protecting the rest of the castle to ensure
     that you could still be cured using magic at full efficacy.  Overall, this
     effect would bolster Hogwart's reputation for being one of the safest places
     in Britain.
 
+	Runes are an ancient form of magic dating from a period when most nephil
+	only had one or perhaps two of the different ranks of angels in his or her
+	ancestry, and thus access to only a subset of the abilities of a "modern"
+	(blended) nephil.  By acting cooperatively, one person crafting the rune
+	and another powering it, each specializing in the subset of runes that
+	matched their magic, they could together create affects that none could
+	create alone.  The use of runes persists into the modern era in part
+	because the effects created by these "primordial" nephilim are still
+	encountered by the "modern" magical society, and in part because they
+	remain an efficient and effective way of combinging one's own inheritance
+	from the Powers with Virtues, Dominions, Principalities, Angels, and/or
+	Thrones.  This is especially true when, as is almost universally the case,
+	the nephil in question does not even understand these as the true way to
+	classify magic.
+
 Divination
 :   This magic has two categories.
-    - prophesy is a morally suspect magic.  I am going to go with Biblical
+    - prophesy is a morally flawed magic.  I am going to go with Biblical
       theology here; in divination the nephil knowingly or unknowingly
       communicates with fallen angels.  If they ever tell anything truthful, it
       is only because they judge it useful to lead us further into sin. Thus
@@ -386,7 +417,7 @@ Arithmancy
     not actually understand the scientific method, nor agree on which
     mathematical system(s) they are using to do this in.  The field is dominated
     by people with only the vaguest idea of what the mundane world has done with
-    either numbers or science in the past 200 years.
+    either numbers or science in the past 400 years.
 
 Legilimency
 :   This requires both an inheritance from the Seraphim and the Thrones, for
@@ -397,7 +428,7 @@ Legilimency
       brain chemistry and things like pulse rates, but done automatically for
       you by the magic), energy level/alertness, and other purely physical
       things but _not_ about the person's actual thoughts or memories. A really
-      skilled user may be able to infer thoughts from a however with a fair
+      skilled user may be able to infer thoughts from this however with a fair
       degree of accuracy.
     - Unidirectionally Outbound, it adds in abilities from the Thrones, forcing
       the recipient to hear your thoughts. This is a bit of a grey area morally.
@@ -408,6 +439,7 @@ Legilimency
       transmutation of brain chemicals, it actually causes the brain to release
       the appropriate chemicals as if naturally in that emotional state. All
       active legilimency is morally repugnant, and comes at a magical cost.
+
       Excessive use of this form of legilimency will have bizarre effects.  The
       effects may be physical, spiritual, mental, or any combination thereof.
       Per the above, what constitutes "excessive" has not been quantified.  To
@@ -419,35 +451,32 @@ Legilimency
 
 Occlumency
 :   The magical suppression of emotion and with that access to thoughts comes at
-    a similar moral and magical cost to active legilimency. At first glance,
-    one would think this comes from the Guardian angels.  It does not.  It is
-    the use of force directed against oneself, regardless of if there is an
-    attack to negate or not.  This will require inheritance from the Cherubim
-    (for targeting), the Dominions (for transmuting brain chemicals), and the
-    Seraphim (dealing with the non-material parts of men/nephil).  Lacking
-    *any* of these will basically mean you are not going to succeed at
-    Occlumency.  This story will offer magical defences to legilimency besides
-    that of occlumency.
+	a similar moral and magical cost to active legilimency.  This is a prime
+	example of a defensive magic that harms the user.  This story will offer
+	magical defences to legilimency besides that of occlumency, these defenses
+	may or may not exist in and/or be implied by the canonical Harry Potter
+	books.
 
 Contracts
 :   As I said in the [Appendix A][], Mrs. Rowling set up a world in which you
     can be unwillingly bound to obey a contract.  Any number of writers have
-    used this to set up Harry in a marriage contract.  I do not intend to go
-    there, not because I think it never happened, on the contrary, I think it
-    probably did happen.  [Wikipedia][] claims that arranged marriages were
-    common in much of the world as late as the 18th century.[^220823-1]  It
-    stands to reason that not every couple went to the alter willingly in every
-    case, and that some of the darker nephil parents would explore means to
-    coerce compliance.  Still, as I said, that is not one of the things I
-    intend to do to Harry here.  These contracts are, however, part of the
-    cultural history that pure bloods inherit, as well as part of the history
-    of the relationship between nephilim and the Catholic Church.  How would
-    the Church handle someone validly married who is now magically forced to
-    marry someone else?  
+	used this to set up Harry in a marriage contract.  [Wikipedia][] claims
+	that arranged marriages were common in much of the world as late as the
+	18th century.[^220823-1]  It stands to reason that not every couple went to
+	the alter willingly in every case, and that some of the darker nephil
+	parents would explore means to coerce compliance.  These contracts are thus
+	part of the cultural history that pure bloods inherit, as well as part of
+	the history of the relationship between nephilim and the Catholic Church.
+	How would the Church handle someone validly married who is now magically
+	forced to marry someone else?  
 :   Structurally speaking, these contracts are essentially just like Runes.
     You use magic inherited from the Virtues to give your writing power, in
     this case power inherited from the Thrones to compel the will of those
-    bound by the contract. 
+	bound by the contract.  The contract may be further infused by the Powers
+	to give it duration, or may depend on the existence of the paper contract
+	to ensure its persistence.  Different subsets of nephilim may or may not
+	have realised that destroying the physical contract will (in some cases)
+	destroy the magical contract.
 
 [Appendix A]: {{< relref Appendix_A >}}
 [^220823-1]: [Wikipedia][].  "{{< wikipedia Arranged_marriage >}}" Last edited: 2022-08-17.

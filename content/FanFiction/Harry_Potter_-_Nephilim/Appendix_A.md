@@ -47,11 +47,16 @@ type: "stories"
   manifestations of the powers they retain from their angelic nature.  I'm
   extending this to say that some of these are inherited.  
 * All of the angels and nephil found in _Many Waters_ are, in Harry Potter
-  terms, animagi.  More, these animal forms are symbolic in some way of the
-  angel or nephil in question.  Again, per above, I am not using L'Engle's
-  definition of nephil, but I am keeping this aspect.  All nephil have the
-  ability to be an animagi, and this transformation is, when not specifically
-  suppressed, natural to them.  
+  terms, animagi.  
+  * These animal forms are symbolic in some way of the angel or nephil in
+  * question.  Again, per above, I am not using L'Engle's definition of nephil,
+    but I am keeping this aspect.  
+  * All nephil have the ability to be an animagi, and this transformation is,
+    when not specifically suppressed, natural to them.  
+  * A given nephil may make this transformation difficult (essentially suppress
+	the ability) by *believing it to be difficult*.  Thus some cultures have
+	developed rituals surrounding unlocking the ability (such as Mrs. Rowling's
+	canonical description of the process).
 
 #### Things Specifically Pulled from _Screwtape_
 

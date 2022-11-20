@@ -85,7 +85,7 @@ weekly report to the man with the beard, Harry noticed that her reports were
 starting to resemble the fantasy stories that she told the other guy, the one
 with the girl's hair and too many teeth.  He heard the man mention that the
 "obliv-somethings" would be making "their monthly visit because someone had
-complained about Potter's disgraceful clothing again."  He wondered what an
+complained about Harry's disgraceful clothing again."  He wondered what an
 "obliv-something" was and figured that it (they?) had something to do with the
 way nothing had happened the one time he had tried making an anonymous call to
 the local ACPCs.[^210902-9]  On one hand it was nice to know that someone had
