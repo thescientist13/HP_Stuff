@@ -61,131 +61,126 @@ influence and despite her paternal influence, she is merely minimally
 acceptable in the Thrones category, making her somewhat vulnerable to mental magics.
 
 ##### Percy
-Percy studied so hard because he, unlike Ron, is determined *not* to
-    under perform.  The characters do *not* know about these power levels, so
-    Percy does not know that he simply *isn't* as capable as his older brothers.
+Percy studied so hard because he, unlike Ron, is determined *not* to under
+perform.  The characters do *not* know about these power levels, so Percy does
+not know that he simply *isn't* as capable as his older brothers.
 
 ##### Bill
-If you look, Bill has pretty much the ceiling score of his brothers
-    in most categories, except virtues.  He needs someone else to brew potions
-    for him 9 times out of 10 (hence Fleur is the healer in the family).  Bill
-    is not taking advantage of any real 1%s, he is simply getting nearly the
-    best of two powerful parents.
+If you look, Bill has pretty much the ceiling score of his brothers in most
+categories, except virtues.  He needs someone else to brew potions for him 9
+times out of 10 (hence Fleur is the healer in the family).  Bill is not taking
+advantage of any real 1%s, he is simply getting nearly the best of two powerful
+parents.
 
 ##### Fluer
 As you can see, Fluer is fairly strong, so it was no surprise that the Goblet
-    chose her. Several of her scores are qualified in that her ability to use
-    them is limited by her veela nature.  Unfortunately for her, the Goblet was
-    not designed to consider that.
+chose her. Several of her scores are qualified in that her ability to use them
+is limited by her veela nature.  Unfortunately for her, the Goblet was not
+designed to consider that.
 
 ##### Charlie
-Reading the magic in magical creatures is key to Charlie's work.  He
-    is fortunate that he does not need to transfigure much, and reasonably
-    (though not stellar) scores in locality magic means that he can help with
-    the protections at the reserve. 
+Reading the magic in magical creatures is key to Charlie's work.  He is
+fortunate that he does not need to transfigure much, and reasonably (though not
+stellar) scores in locality magic means that he can help with the protections
+at the reserve. 
 
 ##### Fred
-I think Fred is slightly more perceptive than Ron.  Fred and George
-    understand how magic works, though they do not realise they do so.  Fred is
-    able to figure out potions but it takes a fair amount of trial and error to
-    get the application of his magic right as he creates them for the first
-    time. He does not have Ron's gift for locality based effects. 
+I think Fred is slightly more perceptive than Ron.  Fred and George understand
+how magic works, though they do not realise they do so.  Fred is able to figure
+out potions but it takes a fair amount of trial and error to get the
+application of his magic right as he creates them for the first time. He does
+not have Ron's gift for locality based effects. 
 
 ##### George
-George is average at reading people (for a nephil).  Slightly better
-    at transmutation, he is not quite as good at potions (as compared to Fred).
+George is average at reading people (for a nephil).  Slightly better at
+transmutation, he is not quite as good at potions (as compared to Fred).
 
 ##### Ronald
-Ron is an under-performer, he had the *ability* to do better than he
-    did in the cannon text (based on these non-canonical power levels).
-    That being said, Ron *is* under-powered as compared to his brothers.  If he
-    knew that, his inferiority complex would be even worse than it is. 
-    Interestingly, even though I was not trying, he and Hermione came out with
-    identical averages.  Of particular note with Ron, I do not see him as
-    particularly perceptive about people (low Seraphim).  I think his parents
-    might well both have had higher scores in the Thrones, but we know that
-    Molly dabbled in love potions.  This would be a type of magic that easily
-    has detrimental effects.  When, in the canon universe, Ron, Harry and
-    Hermione are on the run in book seven, Ron learns the spells to hide their
-    campsite easily because that is a type of magic that does in fact come
-    naturally to him. 
+Ron is an under-performer, he had the *ability* to do better than he did in the
+cannon text (based on these non-canonical power levels).  That being said, Ron
+*is* under-powered as compared to his brothers.  If he knew that, his
+inferiority complex would be even worse than it is. Interestingly, even though
+I was not trying, he and Hermione came out with identical averages.  Of
+particular note with Ron, I do not see him as particularly perceptive about
+people (low Seraphim).  I think his parents might well both have had higher
+scores in the Thrones, but we know that Molly dabbled in love potions.  This
+would be a type of magic that easily has detrimental effects.  When, in the
+canon universe, Ron, Harry and Hermione are on the run in book seven, Ron
+learns the spells to hide their campsite easily because that is a type of magic
+that does in fact come naturally to him. 
 
 ##### Hermione
-Hermione has very classic scores for the child of two squibs in the
-    Seraphim, Thrones, and Principalities categories.  Her scores in the
-    Cherubim, Archangels, and Angels categories suggest her parents may not in
-    fact *be* squibs however.  With these scores, my guess is that they are
-    themselves the children of squibs, but did not get the required scores to
-    get noticed by the magical world.  The key thing about Hermione though is
-    the Dominions, Virtues, and Powers categories.  These three scores all
-    suggest that Hermione benefited from that 1% base rate of something bizarre
-    happening.  
+Hermione has very classic scores for the child of two squibs in the Seraphim,
+Thrones, and Principalities categories.  Her scores in the Cherubim,
+Archangels, and Angels categories suggest her parents may not in fact *be*
+squibs however.  With these scores, my guess is that they are themselves the
+children of squibs, but did not get the required scores to get noticed by the
+magical world.  The key thing about Hermione though is the Dominions, Virtues,
+and Powers categories.  These three scores all suggest that Hermione benefited
+from that 1% base rate of something bizarre happening.  
 
 ##### Albus
-The canonical books talk about Dumbledore as the most powerful
-    wizard known, the only one Riddle fears, and yet Dumbledore cannot defeat
-    Riddle.  Why is this?  Here I provide a possible explanation that is not
-    simply lack of will to do so.  The devil is in the details.  Riddle is
-    exceptionally strong in both offensive and defensive magic (Archangels and
-    Angels), Dumbledore is only above average offensively, but is superlative in
-    transmutation, and the manipulation of physics and chemistry, he is also
-    hard to beat at binding the will and augmenting nature.
-    Unfortunately, Riddle actually equals or exceeds Dumbledore in the wand arts
-    *except* in transmutation and temporary augmentation (Virtues).  Neither of
-    these makes for an easy combat victory, and Riddle's strong offensive magic
-    means that it essentially becomes a stand-off between the two.  Dumbledore's
-    great intelligence lets him use transmutation and out-of-the-box thinking to
-    make up for a lack of directly offensive capability.  
+The canonical books talk about Dumbledore as the most powerful wizard known,
+the only one Riddle fears, and yet Dumbledore cannot defeat Riddle.  Why is
+this?  Here I provide a possible explanation that is not simply lack of will to
+do so.  The devil is in the details.  Riddle is exceptionally strong in both
+offensive and defensive magic (Archangels and Angels), Dumbledore is only above
+average offensively, but is superlative in transmutation, and the manipulation
+of physics and chemistry, he is also hard to beat at binding the will and
+augmenting nature.  Unfortunately, Riddle actually equals or exceeds Dumbledore
+in the wand arts *except* in transmutation and temporary augmentation
+(Virtues).  Neither of these makes for an easy combat victory, and Riddle's
+strong offensive magic means that it essentially becomes a stand-off between
+the two.  Dumbledore's great intelligence lets him use transmutation and
+out-of-the-box thinking to make up for a lack of directly offensive capability.  
     
 ##### Euphemia
-We have no canonical background information on Euphemia except for the
-    fact that she was either a pure-blood or a half-blood.  Thus, I have moulded
-    her to fit what I envision James to be.  She is an incredibly eclectic mix
-    of highs and lows, in terms of ability.  
+We have no canonical background information on Euphemia except for the fact
+that she was either a pure-blood or a half-blood.  Thus, I have moulded her to
+fit what I envision James to be.  She is an incredibly eclectic mix of highs
+and lows, in terms of ability.  
 
 ##### Fleamont
 Fleamont was an incredible duellist and a good potioneer. 
 
 ##### James
-James really should not have existed at all.  He was born, per cannon,
-    after his parents were already old. In some places he he inherited the average of
-    both parents, in others he inherited the sum total of both parents, and in a
-    few places he has the stronger power.  
+James really should not have existed at all.  He was born, per cannon, after
+his parents were already old. In some places he he inherited the average of
+both parents, in others he inherited the sum total of both parents, and in a
+few places he has the stronger power.  
 
 ##### Harry
-Harry is, as you can see, slightly above an average of his parents
-    except in a couple of key categories where he straight up inherited the more
-    powerful ability.  As the child of two exceptionally powerful parents, even a
-    partial inheritance can still result in someone really really powerful.
-    These represent Harry's numbers at birth.
+Harry is, as you can see, slightly above an average of his parents except in a
+couple of key categories where he straight up inherited the more powerful
+ability.  As the child of two exceptionally powerful parents, even a partial
+inheritance can still result in someone really really powerful.  These
+represent Harry's numbers at birth.
 
 ##### Lily
-Lily inherited the sum total of her parents, plus an unexpected
-    something extra.
+Lily inherited the sum total of her parents, plus an unexpected something
+extra.
 
 ##### Dudley
-Dudley is a male child from a human father and a squibbish nephil
-    mother.  He stood a good chance of being born pure human.  Unfortunately, I
-    need him to do a fair amount of "Harry Hunting."  He falls in that that 4%
-    chance of a partial inheritance from just his mother. He has a *minuscule*
-    ability to perceive that magic exists, and essentially one totally
-    uncontrolled ability from the Seraphim: Dudley is incredibly sensitive to
-    the use of legilimency, he is practically an antenna for it.  Since Harry is
-    nearly always using legilimency (to detect people around him if nothing
-    else), Dudley is *constantly* reminded of Harry's presence magically.  Since
-    being reminded of Harry breaks the spell, Dudley is effectively a bubble in
-    which Harry is detectable.  This bubble extends to anyone that *Dudley* is
-    paying attention to.  Dudley (unfortunately for Harry) rarely pays any
-    attention to teachers. 
+Dudley is a male child from a human father and a squibbish nephil mother.  He
+stood a good chance of being born pure human.  Unfortunately, I need him to do
+a fair amount of "Harry Hunting."  He falls in that that 4% chance of a partial
+inheritance from just his mother. He has a *minuscule* ability to perceive that
+magic exists, and essentially one totally uncontrolled ability from the
+Seraphim: Dudley is incredibly sensitive to the use of legilimency, he is
+practically an antenna for it.  Since Harry is nearly always using legilimency
+(to detect people around him if nothing else), Dudley is *constantly* reminded
+of Harry's presence magically.  Since being reminded of Harry breaks the spell,
+Dudley is effectively a bubble in which Harry is detectable.  This bubble
+extends to anyone that *Dudley* is paying attention to.  Dudley (unfortunately
+for Harry) rarely pays any attention to teachers. 
 
 ##### Eileen
-We have next to no canonical information about Eileen Prince.  We know
-    that she was either unable or unwilling to protect her sun from the muggle
-    Tobias Snape.  I am assuming unable.  With that in mind, I have given her a
-    range of abilities that left her week in the wand-based subjects,
-    particularly where it comes to the types of magic that would allow her to
-    protect her son most effectively.  She was probably good but not brilliant
-    at Potions.
+We have next to no canonical information about Eileen Prince.  We know that she
+was either unable or unwilling to protect her sun from the muggle Tobias Snape.
+I am assuming unable.  With that in mind, I have given her a range of abilities
+that left her week in the wand-based subjects, particularly where it comes to
+the types of magic that would allow her to protect her son most effectively.
+She was probably good but not brilliant at Potions.
 
 ##### Severus
 Snape is a potions prodigy.  He does his potions entirely instinctively, *and
@@ -210,10 +205,10 @@ Slughorn's class is because:
    so is not distracted by him.
 
 ##### Tom
-Riddle, as the male child of a near Squib, did not have great odds of
-    being a powerful wizard.  That he is means that he was that 1% chance.
-    These also represent numbers from at birth. Giving numbers from 1981 or
-    later would, I think, be too much of a spoiler. 
+Riddle, as the male child of a near Squib, did not have great odds of being a
+powerful wizard.  That he is means that he was that 1% chance.  These also
+represent numbers from at birth. Giving numbers from 1981 or later would, I
+think, be too much of a spoiler. 
 
 ## Implications
 
