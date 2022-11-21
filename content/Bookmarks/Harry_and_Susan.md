@@ -15,6 +15,21 @@ _[Harry Potter: Air Elemental](https://www.fanfiction.net/s/11995519)_
       one of the few with this pairing that is not dystopian, but still happens
       after [Amelia][AB1]'s canonical death.  
 
+_[Harry Potter and The Old Friend](https://www.fanfiction.net/s/12805587)_
+:   * Author: Sinyk
+    * Published: 2018-01-18. Updated: 2018-03-05.
+    * Comments: This one is most noticeable for its first scene and its last
+      scene.  Both make it number among my favourites, despite some less
+      desirable elements.  Most noticeably, I dislike the over the top handling
+      of [Ron][], and there are some inconsistencies in a few other places.  
+
+
+[Harry]: <{{< relref "Harry_James" >}}>
+
+[Susan]: <{{< relref "Susan_Amelia" >}}> 
+
+[Ron]: <{{< relref "Ronald_Bilius" >}}>
+
 [Responsible Adult]: <{{< relref "ResponsibleAdults" >}}>
 
 [Amelia]: <{{< relref "Amelia" >}}>
