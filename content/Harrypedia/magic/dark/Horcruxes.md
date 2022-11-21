@@ -24,9 +24,7 @@ is too little, too late.
 
 If Herpo did use a Horcrux, he would have lived somewhere between the 12th and
 9th century BC[^210323-11], which debunks the Chinese origin of the magic put
-forth in _[The Mandatory Marriage Contract Fic]_.[^210323-12] The Valley of
-the Kings, in Egypt, however, was in use from the 16th to the 11th century
-BC.[^210323-13]  For my purposes the overlap is actually useful. 
+forth in _[The Mandatory Marriage Contract Fic][]_.[^210323-12] 
 
 DisobedienceWriter wrote a fairly extensive one-shot, _[The Valley of the Kings
 Massacre][TVotKM]_, which focused a fair amount on horcruxes.  I dislike the
@@ -37,10 +35,12 @@ Curse."[^210323-14] In my mind both the killing curse and horcruxes are evil,
 the first requiring hatred, the second requiring the remorseless killing of an
 innocent.  DisobedianceWriter suggests that one could be created with any
 killing, I think Rowling's interview comments require something more
-gruesome.[^210323-15] 
+gruesome.[^210323-15]  Of particular note, the Valley of the Kings was in use
+from the 16th to the 11th century BC.[^210323-13]  For my purposes the overlap
+is actually useful. 
 
-Still, despite the parts I dislike, I *do* like the idea that the Egyptian
-priests played the ruling class, developed horcruxes, and that, unlike Itsme66's
+Despite the parts I dislike, I *do* like the idea that the Egyptian priests
+played the ruling class, developed horcruxes, and that, unlike Itsme66's
 theory, horcruxes do work.  It keeps me more in line with cannon, but gets rid
 of the over convenient root of all evil version of Herpo.  To mesh back in with
 cannon, it is my thought that, since Ancient Greece and Egypt had at least some
@@ -57,6 +57,8 @@ testimony to his overall dependence on the prophecy, and failure to act.
     _[The Mandatory Marriage Contract Fic](https://www.fanfiction.net/s/5695032)_
     [Chapter 2](https://www.fanfiction.net/s/5695032/2/The-Mandatory-Marriage-Contract-Fic)
     Last Updated: 2010-02-26. Published: 2010-01-25. Last Viewed 2021-03-23.
+
+[The Mandatory Marriage Contract Fic]: <https://www.fanfiction.net/s/5695032>
 
 [^210323-15]: Mrs. J. K. Rowling et al.
     "[Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, 
@@ -114,7 +116,7 @@ online do, I similarly do not recall seeing it.
   horcruxes are destroyed.[^220714-2]
 * Magical ability may be linked to the soul.  If your horcrux is destroyed, you
   may lose some portion of your ability to project magical power, your stamina
-  for so projecting, or both. 
+  for so projecting, or both.[^221118-1] 
 * What does it mean to "split" an immaterial soul?  Is such a split a 50/50
   spit, or is the horcrux a true "fragment" - that is a very small part of the
   whole?  If the former, how much of the soul must remain anchored to earth to
@@ -123,6 +125,10 @@ online do, I similarly do not recall seeing it.
 [^220714-2]: Works that posit this:
     * MK-ONE. _[The Weapon](https://www.fanfiction.net/s/7251416)_
       Published: 2011-08-04. Updated: 2012-02-12.
+
+[^221118-1]: Works that posit this:
+    * old-crow. _[An Inconvenient Truth](https://www.fanfiction.net/s/5084287)_
+      Published: 2009-05-24. Updated: 2016-06-22.
 
 [^210810-1]: Maher, Michael, and Joseph Bolland. "Soul." The Catholic
     Encyclopedia. Vol. 14. New York: Robert Appleton Company, 1912. 2021-08-10
