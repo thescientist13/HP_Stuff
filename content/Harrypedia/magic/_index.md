@@ -214,6 +214,10 @@ The question then becomes did the Weasleys not fix his eyesight because
   * I know of at least one where it is "extremely painful and very expensive, not to
     mention very hard, to make"[^210302-3] where "very expensive" means "a
     couple of thousand Galleons."[^210302-4]
+  * Simply costly:
+    * mymovingfingerwrites. _[A Study of Resonance](https://archiveofourown.org/works/38041177)_
+      [Chapter 2](https://archiveofourown.org/works/38041177/chapters/95298757)
+      Published: 2022-03-29. Updated: 2022-11-17. 
 * it is painful to do[^210923-1]
 * it is morally distasteful to do so (requires dark magic?)
 * it is not possible to do so (contradicts the above quote from the website)
