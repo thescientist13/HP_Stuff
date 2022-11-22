@@ -8,42 +8,62 @@ tags = ["family"]
   surn = "Black"
 +++
 
-Unlike the Longbottom family, we have at least one cannon reference for the
+Unlike the [Longbottom][] family, we have at least one cannon reference for the
 blacks as a "noble" family.  We do not know if that means they were in fact
 part of the peerage or not though.  A significant part of a ton of fanfiction
 out there assumes there is a "family vault" that is controlled by a "Lord
 Black." It also seems to be a reasonable supposition based on what the books do
-state.  Many such fanfiction works further speculate that the 
-[Malfoy]({{< ref "Malfoy" >}}) family expects to inherit that control and that
-title.  If you take Mrs. Rowling's Black family tree[^210122-26] as part of
-cannon, such speculation is baseless.  You have to be careful because she does
-not clearly distinguish the male and female children, and because she does not
-put the children in birth order on any given line, but if you work your way
-through it, once [Phineas Nigellus]({{< ref "Phineas_Nigellus" >}}) inherited,
-then the his son [Sirius II]({{< ref "Sirius_II" >}}) was heir.
-[Sirius III]({{< ref "Sirius_III" >}}), [Harry]({{< ref "Harry_James" >}})'s
-Godfather, descends from that line.  Assume that a godson cannot inherit -
-reasonable.  Next in line would be [Arcturus I]({{< ref "Arcturus" >}}), who
-had no male children, but decedents of [Harfang Longbottom]({{< ref "Harfang" >}}) 
-are unlisted, that might include Neville.  Secondly, since we know that [Sirius
-III]({{< ref "Sirius_III" >}}) was not properly disinherited because he *does*
-inherit Grimmauld Place, it is reasonable to suspect that [Cedrella]({{< ref "Cedrella" >}}) 
-Black might not have been either, despite her marriage to 
-[Septimus Weasley]({{< ref "Septimus" >}}).  If so, then the 
-[Weasleys]({{< ref "Weasley" >}}) would be in line after the Longbottoms
-(assuming it is a different and now extinct branch of the 
-[Longbottom]({{< ref "Longbottom" >}}) family that descends from 
-[Harfang]({{< ref "Harfang" >}})).  We *know* that [Arthur]({{< ref "Arthur" >}})
-[Weasley]({{< ref "Weasley" >}}), minimally, lives to inherit, so there would
-be no need to go to the third son of [Phineus Nigellus]({{< ref "Phineus_Nigellus" >}}) - 
-[Cygnus I]({{< ref "Cygnus" >}}), from whom [Draco][] is descended.  Remember,
-even if girls cannot inherit, their sons can.   If the Black family is
-following an absolute male only primogeniture, then [Draco][] would still be
-unable to inherit as he is in line via his mother, who would be disqualified by
-gender.  The dates for this line of speculation are in the [History]({{< ref
-"History" >}}) timeline.
+state.  Many such fanfiction works further speculate that the [Malfoy][] family
+expects to inherit that control and that title.  If you take Mrs. Rowling's
+Black family tree[^210122-26] as part of cannon, such speculation is baseless.
+You have to be careful because she does not clearly distinguish the male and
+female children, and because she does not put the children in birth order on
+any given line, but if you work your way through it, once [Phineus
+Nigellus]({{< ref "Phineus_Nigellus" >}}) inherited, then the his son [Sirius
+II]({{< ref "Sirius_II" >}}) was heir.  [Sirius III]({{< ref "Sirius_III" >}}),
+[Harry]({{< ref "Harry_James" >}})'s Godfather, descends from that line.
+Assume that a godson cannot inherit - reasonable.  Next in line would be
+[Arcturus I]({{< ref "Arcturus" >}}), who had no male children, but decedents
+of [Harfang Longbottom][Harfang] are unlisted, that might include Neville.
+Secondly, since we know that [Sirius III][] was not properly disinherited
+because he *does* inherit Grimmauld Place, it is reasonable to suspect that
+[Cedrella][] Black might not have been either, despite her marriage to
+[Septimus Weasley][Septimus].  If so, then the [Weasleys][] would be in line
+after the Longbottoms (assuming it is a different and now extinct branch of the 
+[Longbottom][] family that descends from [Harfang][].  We *know* that
+[Arthur][] [Weasley][], minimally, lives to inherit, so there would be no need
+to go to the third son of [Phineus Nigellus][] - [Cygnus I][], from whom
+[Draco][] is descended.  Remember, even if girls cannot inherit, their sons
+can.   If the Black family is following an absolute male only primogeniture,
+then [Draco][] would still be unable to inherit as he is in line via his
+mother, who would be disqualified by gender.  The dates for this line of
+speculation are in the [History][] timeline.
+
+[History]: <{{< relref "History" >}}>
 
 [Draco]: <{{< relref "Draco_Lucius" >}}>
+
+[Phineus Nigellus]: <{{< relref "Phineus_Nigellus" >}}>
+
+[Cygnus I]: <{{< relref "Black/Cygnus" >}}>
+
+[Malfoy]: <{{< relref "/Harrypedia/people/Malfoy" >}}>
+
+[Weasleys]: <{{< relref "/Harrypedia/people/Weasley" >}}>
+
+[Weasley]: <{{< relref "/Harrypedia/people/Weasley" >}}>
+
+[Harfang]: <{{< relref "Harfang" >}}>)
+
+[Arthur]: <{{< relref "Weasley/Arthur" >}}>
+
+[Cedrella]: <{{< relref "Cedrella" >}}>
+
+[Septimus]: <{{< relref "Septimus" >}}>
+
+[Sirius III]: <{{< relref "Sirius_III" >}}> 
+
+[Longbottom]: <{{< relref "/Harrypedia/people/Longbottom" >}}>
 
 On a side note, while it flies in the face of some of what I've written above,
 Tigerman has an interesting theory in his work [RuneMaster][RMff1].  He suggests

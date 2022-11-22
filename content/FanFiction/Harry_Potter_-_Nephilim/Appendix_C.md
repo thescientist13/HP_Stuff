@@ -259,7 +259,9 @@ determine what happens to a given child.
      - They became nearly immune to the magic of the Thrones as practised by
        other mortals.  It is next to impossible to confound or imperious a
        centaur for example.  This is in part because they perceive the magic of
-       the attempt.
+	   the attempt.  This is a mitigation of their curse, which happened
+	   because while divination is evil, their *intentions* were not, and their
+	   *understanding* of their act flawed.
      - While it is, per the above, almost impossible to affect individuals with
        magical effects on the mind or free will, the *herd* is massively
        influenced at a subconscious level by the moral state of the people in
@@ -275,19 +277,18 @@ determine what happens to a given child.
        case flock, effect).
    * veela - For the purposes of this story, veela are "dark"
      creatures[^210126-4].  I have chosen to create a version of veela that
-     justifies the suspicion that [Molly]({{< ref "Molly" >}}), [Hermione]({{< ref "Hermione_Jean" >}}) 
-     and [Ginny]({{< ref "Ginevra_Molly" >}}) view [Fleur]({{< ref "Fleur_Isabelle" >}}) 
-     with.  Veela have some of the strongest inheritances from the Thrones of
-     all humanoid magic users.  The pure veela is not an example of a
-     primordial  people.  Rather,the veela race comes from an example of
-     true perfidy.  The first veela was a child whose mother was a Thrones
-     witch, and whose paternal grandparents were primordial nephilim of the
-     Dominions and Powers types.  This child grew up into a young woman who
-     viewed the men around her as easily manipulated means to her ends.  She
-     used her abilities to inflame their desires and bind their wills, with
+	 justifies the suspicion that [Molly]({{< ref "Molly" >}}), [Hermione][]
+	 and [Ginny][] view [Fleur][] with.  Veela have some of the strongest
+	 inheritances from the Thrones of all humanoid magic users.  The pure veela
+	 is not an example of a primordial  people.  Rather, the veela race comes from an example of
+	 true perfidy.  The first veela was a child whose maternal grandmother was
+	 a Thrones witch, and whose paternal grandparents were primordial nephilim
+	 of the Dominions and Powers types.  This child grew up into a young woman
+	 who viewed the men around her as easily manipulated means to her ends.
+	 She used her abilities to inflame their desires and bind their wills, with
      little regard for not only the men, but also the impact on the families
      they came from.  She was also responsible for the creation of doxies and
-     fairies.  Her crimes, particularly the creation of human-form creatures,
+     fairies.  Her crimes, particularly the creation of humaniform creatures,
      were so great that she was cursed with a Screwtape style mutation of epic
      proportions:
      - All veela are female, a male child of a veela will inherit solely from
@@ -386,6 +387,8 @@ determine what happens to a given child.
 
 [^210916-1]: Like in _[Maskirovat][knffnm]_.
 
+[Hermione]: <{{< relref "Hermione_Jean" >}}>
+
 [^210916-2]: This idea resembles that from Jeconais'
     _[Hope](https://jeconais.fanficauthors.net/Hope)_
     Last Updated: 2007-05-30. Last Viewed: 2021-09-16.
@@ -424,7 +427,7 @@ can never be fully freed.
   are guided by incredibly strong instinct rather than by reasoning. They are
   very like domesticated cats and dogs in this respect; a dog might remember its
   owner, but its behaviours will always be more governed by instinct than not.
-  It is known that, in addition to her crimes of enslavement,  fairies and
+  It is known that, in addition to her crimes of enslavement, fairies and
   doxies were created by the woman who became the first veela.  It is unknown
   who first created imps.
 * ghoul - unknown origin. Often treated as a pet.[^210916-4]
