@@ -228,6 +228,9 @@ The question then becomes did the Weasleys not fix his eyesight because
       to leave an impact, which would only happen with a cursed or highly
       magical injury. Imagine! Cursing your own eyes to heal them, muggles are
       deranged\![^210302-5]
+  * as a subset of this, it *is* possible, but only under conditions.
+    * before a certain age[^221122-1]
+    * after a certain age[^221122-2]
 * it does not occur to British pure-blood society to do so 
   * You could take the above quote, and assume that the shop owner is actually
     only partially right.  Perhaps *most* healing magic returns you to "normal"
@@ -236,6 +239,12 @@ The question then becomes did the Weasleys not fix his eyesight because
     predisposition to better eyesight, nor would it preclude magic fixing the
     need for glasses caused by eye strain, head or eye trauma, or other things
     that a muggleborn might show up in his shop with. 
+
+[^221122-1]: Scarlet_Gryphon
+   _[For the Want of a Groundskeeper](https://archiveofourown.org/works/21541015)_
+   Published: 2019-11-24. Completed: 2019-11-24.
+
+[^221122-2]: I know I have read a story with this, need to refind.
 
 #### Lifespan
 
