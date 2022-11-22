@@ -46,3 +46,20 @@ and transfiguration that can be used to kill someone.
     Phoenix](https://www.goodreads.com/book/show/2.Harry_Potter_and_the_Order_of_the_Phoenix)_
     Locations 4842-4843. Pottermore Limited. American Kindle Edition.
 
+This definition is not universally agreed on.  A number of fan fiction authors
+prefer to draw a distinction between "dark" and "evil."[^221122-3]  While I
+have read a number of these, few of them have any kind of definition of what
+constitutes "dark" under such a three way split.  I am both morally disinclined
+and (given the limited mental resources I am willing to put into it)
+functionally unable to draw a meaningful distinction.  One work does stand out.
+[Amelia][] in one work essentially refuses to decide if "dark" is right or
+wrong, but instead worries if it is *legal or illegal*.  Given her role as head
+of the DMLE, I can understand and sympathize with this position. 
+
+[Amelia]: <{{< relref "Amelia_Susan" >}}>
+
+[^221122-3]: including but not limited to
+    * Scarlet_Gryphon
+      _[For the Want of a Groundskeeper](https://archiveofourown.org/works/21541015)_
+      Published: 2019-11-24. Completed: 2019-11-24.
+

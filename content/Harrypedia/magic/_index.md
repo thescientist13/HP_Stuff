@@ -724,5 +724,4 @@ more for muggle born witches and wizards rather than any real restriction. See
     [Chapter 3](https://www.fanfiction.net/s/13712386/3/Broken-Prophecy)
     Published 2020-10-04. Updated 2020-12-01. Last Viewed 2021-03-02.
 
-[[!tag "HP Notes"]]
 
