@@ -50,7 +50,12 @@ Over the next few weeks, Harry started to find refuge in St. John's more and
 more often.  He did not know why, but despite the fact that he was now going
 there nearly every other day, Dudley had not once found him there.  Once or
 twice Dudley had gone as far as looking in the outer room, but not once had he
-so much as peeked through the windows of the inner doors.  
+so much as peeked through the windows of the inner doors.  Harry didn't know
+why it never occurred to Dudley to look further into the Church, but he was
+safe, warm, and free to do his homework for one of the first times ever.  He
+was almost afraid to question it, almost superstitious that if he poked at it
+too deeply that the mysterious protection would evaporate and the Church would
+become just another building.
 
 
 [^220818-1]: I intentionally changing things here.  See [FSSP][] for details.

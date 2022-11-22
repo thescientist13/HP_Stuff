@@ -19,10 +19,10 @@ differently, but it was not until I was reading CmptrWz' _[For Want of
 an Outfit][FWoaO1]_ Chapters 30 through 35 that what I am trying for here
 *really* came clear.  Left unadulterated, Mrs. Rowling's Harry Potter universe
 has too few consequences.  I harp on that theme in my [[Harrypedia]].  This
-fanfiction is a harsher universe.  Magic, even if not "dark" and *intentionally*
-harmful, cannot always be undone or fixed.  There can be not only life-long
-repercussions, but *generational* repercussions from the spells and potions that
-are so often carelessly used.  
+fan fiction is a harsher universe.  Magic, even if not "dark" and
+*intentionally* harmful, cannot always be undone or fixed.  There can be not
+only life-long repercussions, but *generational* repercussions from the spells
+and potions that are so often carelessly used.  
 
 I am taking some things from _[Many Waters][MW2]_, some from C. S. Lewis' _[The
 Screwtape Letters][TSL]_, some from actual Catholic theology, some from various

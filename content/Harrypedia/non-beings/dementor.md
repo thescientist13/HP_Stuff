@@ -10,9 +10,11 @@ aliases = [
 ### Level of Intelligence 
 
 This "creature" has sufficient sentience that [Fudge]({{< relref "Cornelius_Oswald" >}}) 
-uses them as a bodyguard.[^211021-1]  Similarly, despite [Dumbledore]({{< relref "Albus" >}})'s 
+uses them as a bodyguard.[^211021-1]  Similarly, despite [Dumbledore][]'s
 warning that they will not differentiate between bystanders and targets, they
 *do* seem capable of following orders to some degree.[^211021-2] 
+
+[Dumbledore]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
 
 ### Inconsistencies
 

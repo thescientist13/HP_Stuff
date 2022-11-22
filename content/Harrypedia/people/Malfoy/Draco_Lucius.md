@@ -34,8 +34,7 @@ counting the epilogue, that we see him.
   > behind him, shoulder to shoulder, wands pointing right at Harry. Through the
   > small space between their jeering faces he saw Draco Malfoy.[^211025-3]
 
-  Here Draco *does* act as a restraining influence on [Crabbe]({{< ref "I0106" >}}) 
-  and [Goyle]({{< ref "Gregory" >}}), but they would not have been there at all
+  Here Draco *does* act as a restraining influence on [Crabbe][] and [Goyle]({{< ref "Gregory" >}}), but they would not have been there at all
   if not for him.  *He* is the instigating force behind this act, looking for
   revenge for the slight of having his wand taken from him.
 
@@ -59,4 +58,4 @@ not changed for the target ([Harry]({{< ref "Harry_James" >}})).
 
 [HPDH3]: https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows
 
-
+[Crabbe]: <{{< relref "Vincent" >}}>

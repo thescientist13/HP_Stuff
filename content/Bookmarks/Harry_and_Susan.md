@@ -32,6 +32,6 @@ _[Harry Potter and The Old Friend](https://www.fanfiction.net/s/12805587)_
 
 [Responsible Adult]: <{{< relref "ResponsibleAdults" >}}>
 
-[Amelia]: <{{< relref "Amelia" >}}>
+[Amelia]: <{{< relref "Amelia_Susan" >}}>
 
-[AB1]: <{{< relref "Amelia" >}}>
+[AB1]: <{{< relref "Amelia_Susan" >}}>
