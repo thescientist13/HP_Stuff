@@ -1,5 +1,5 @@
 +++
-title = "The_Trace"
+title = "The Trace"
 date = 2022-11-23T15:20:01-05:00
 author = "Luke Schierer"
 +++
