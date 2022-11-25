@@ -121,6 +121,9 @@ online do, I similarly do not recall seeing it.
   spit, or is the horcrux a true "fragment" - that is a very small part of the
   whole?  If the former, how much of the soul must remain anchored to earth to
   prevent the death of the whole? 
+* Along the same lines as the prior point, what would it take for a horcrux to
+  show up on the Marauder's Map?  It would be interesting to know, though of
+  course we do not, if Tom showed up during Harry's first year. 
 
 [^220714-2]: Works that posit this:
     * MK-ONE. _[The Weapon](https://www.fanfiction.net/s/7251416)_
