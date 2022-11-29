@@ -54,7 +54,21 @@ and (given the limited mental resources I am willing to put into it)
 functionally unable to draw a meaningful distinction.  One work does stand out.
 [Amelia][] in one work essentially refuses to decide if "dark" is right or
 wrong, but instead worries if it is *legal or illegal*.  Given her role as head
-of the DMLE, I can understand and sympathize with this position. 
+of the DMLE, I can understand and sympathise with this position.  
+
+_[A Study of Resonance][]_ on the other hand is fairly typical, fumbling with
+the distinction between light and dark.[^221122-6]  In places it comes fairly
+close to a straight forward good and evil.  In other places it veers towards
+merely light is legal and dark is illegal, but there is no true distinction.
+Some of this is narration bias, [Percy][], the main character, does not clearly
+understand the difference.
+
+[Percy]: <{{< relref "Percy_Ignatius" >}}>
+
+[A Study of Resonance]: <https://archiveofourown.org/works/38041177>
+
+[^221122-6]: mymovingfingerwrites. _[A Study of Resonance][]_
+    Published: 2022-03-29. Updated: 20222-11-17.
 
 [Amelia]: <{{< relref "Amelia_Susan" >}}>
 

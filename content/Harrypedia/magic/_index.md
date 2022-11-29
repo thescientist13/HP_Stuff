@@ -577,8 +577,8 @@ adopted a story in which Harry gets married at a young age.  What affect, if
 any, would such a marriage have on the wards?  In the non-magical world,
 [Wikipedia](https://en.wikipedia.org/) suggests that England does not have a
 concept of emancipation of minors.[^210329-12] If that is true, his marriage
-should have no effect on the wards (or on the Trace), particularly since, per
-the same article, this seems to be in line with older systems of law.  
+should have no effect on the wards (or on the [Trace][]), particularly since,
+per the same article, this seems to be in line with older systems of law.  
 
 Another possibility is that turning 17 is a magical event - literally. Because
 Harry never takes arithmancy in the books, we do not see much about magic
@@ -604,54 +604,11 @@ remembers living, that is a remarkable lack of attachment.
 #### The Trace
 
 A related question is The Trace, which also terminates at 17.  How does this
-operate?  As I said, I think it has to be a detection ward of some sort.  I have
-read number of different ideas about it.
+operate?  As I said, I think it has to be a detection ward of some sort.  I
+have read ia number of different ideas about it. See the full article on the
+[Trace].
 
-Things we know:
-
-* "small explosions from Fred and George’s bedroom were considered perfectly
-  normal."[^210618-1] They are certainly doing under-aged magic of some sort
-  (probably potions based). 
-* "they can detect magic, but not the perpetrator … They rely on witch and
-  wizard parents to enforce their offspring’s obedience while within their
-  walls.”[^210810-4]
-* Dobby's magic can trigger it.[^210618-2]
-* It is suggested that the Order is sneaking Harry out under the eyes of the
-  Ministry,[^210618-3] and yet Tonks' magic does not set it off in book five.[^210618-4]
-
-Things we speculate: 
-
-* One author suggested that it gets added to wands that ride the Hogwarts
-  Express.[^210329-13] The problem with this is that I believe it would effect
-  the wands of 7th year students, most if not all of whom are already 17. 
-* One author suggested it gets added (to either wands or students) as they ride
-  the boats on their way to Hogwarts for the first time.[^210329-14]
-* One author suggested there is a network of rune-engraved ward-stones across
-  the country.[^210329-15] 
-* One author suggests that monitoring devices are placed near the address of
-  witches and wizards known to be under-aged.[^210329-16] The Trace then only
-  works near such devices. 
-* A number of authors suggest that there is "equipment" at the Ministry that is used to
-  detect magic.  Some think that equipment can distinguish between under-aged and
-  over aged magic.[^210329-17] This would effectively be an example of 17 as a
-  magical number that effects the way magic operates at a fundamental level.
-  Some think that the equipment is "tuned" to detect certain magic, and could be
-  returned to detect different magic.[^210329-18] I am not sure that really differs. 
-* One interesting idea suggested that the trace, regardless of which of the
-  above, only worked for wands in which the person requesting the report had an
-  owning interest in, and thus the Ministry subsidised wand sales to
-  minors.[^210329-19] By paying for part of a child's wand, the Ministry has
-  partial ownership and could thus get magical reports on the wand's use. 
-
-In all of my stories, I need to figure out which approach I am going to take,
-either one of the above, or some other approach.  I dislike contradicting the
-text when it comes to world mechanics more than I have to.  However, I do have
-to some - wizarding households function on magic, so the Decree for the
-Reasonable Restriction of Underage Sorcery and the Trace either allows for
-supervised household charm or does not function at all in wizarding households,
-probably the latter.  The whole "do not use magic outside of school" thing is
-more for muggle born witches and wizards rather than any real restriction. See
-[[Culture]] for more on this. 
+[Trace]: <{{< relref "The_Trace" >}}>
 
 [^210810-4]: Mrs. J. K. Rowling. 
     _[Harry Potter and the Half-Blood Prince](https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince)_

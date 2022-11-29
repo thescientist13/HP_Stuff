@@ -84,7 +84,7 @@ eyes could blind.  We do not *know* that this is a dark curse that cannot be
 easily healed, but we know that such exist. Even a standard cutting spell could
 have killed before anyone could do anything if it hit the carotid artery or
 jugular vein.  James retaliates with humiliation; cruel yes, on the same scale
-as risk of death? Perhaps [Snape][] would say no, but most courts would say
+as risk of death? Perhaps [Snape][] would say yes, but most courts would say
 that [Snape][]'s crime is worse.
 
 ---
@@ -102,10 +102,13 @@ that [Snape][]'s crime is worse.
 > your saintly father and his friends played a highly amusing joke on me that would have resulted in my death if your father hadn’t got cold feet at the last moment. There was nothing brave about what he did. He was saving his own skin as much as mine.[^20210128-8]
 
 We have nothing but [Snape][]'s (untrustworthy) word to stay that James knew of
-[Sirius]({{< relref "Sirius_III" >}})' plans for [Snape][] in advance.
-According to Lupin, it was [Sirius]({{< relref "Sirius_III" >}}) alone who told
-Snape about the tree,[^20210511-2] it is typical of [Snape][] that he blames
-James for [Sirius]({{< relref "Sirius_III" >}})' actions.
+[Sirius][]' plans for [Snape][] in advance.  According to [Lupin][], it was
+[Sirius][] alone who told Snape about the tree,[^20210511-2] it is typical of
+[Snape][] that he blames James for [Sirius][]' actions.
+
+[Sirius]: <{{< relref "Sirius_III" >}}>
+
+[Lupin]: <{{< relref "Remus_John" >}}>
 
 ---
 
@@ -139,17 +142,21 @@ James for [Sirius]({{< relref "Sirius_III" >}})' actions.
 
 It is interesting that so many people assume that James was a total idiot.  I do
 not think that a realistic take on his character - I do not think anyone would
-say that [McGonagall]({{< relref "Minerva" >}}) is given to false or light
-praise.  We know he was good at transfiguration, but I think most people
-dismiss that because his only known accomplishment is the animagus
-transformation, and Pettigrew also accomplished that.  My take is that it is
-actually a testament to James' skills that he was able to coach the unskilled
-Pettigrew through the process.  I also wonder what other classes he took, and
-which ones he did how well at.  Did he take Ancient Runes or Arithmancy?  Who
-was top of the year at Defence?  James' father was famous for potion making,
-perhaps James did not inherit all of his father's skills, but it seems unlikely
-that he did *poorly* at the subject - his father would have tutored him over
-the summers should he have needed it.
+say that [McGonagall][] is given to false or light praise.  We know he was good
+at transfiguration, but I think most people dismiss that because his only known
+accomplishment is the animagus transformation, and [Pettigrew][] also
+accomplished that.  My take is that it is actually a testament to James' skills
+that he was able to coach the unskilled [Pettigrew][] through the process.  I
+also wonder what other classes he took, and which ones he did how well at.  Did
+he take Ancient Runes or Arithmancy?  Who was top of the year at Defence?
+James' father was famous for potion making, perhaps James did not inherit all
+of his father's skills, but it seems unlikely that he did *poorly* at the
+subject - his father would have tutored him over the summers should he have
+needed it.
+
+[McGonagall]: <{{< relref "Minerva" >}}>
+
+[Pettigrew]: <{{< relref "Peter_Pettigrew" >}}>
 
 ---
 
@@ -170,34 +177,35 @@ face of that.
 > “This’ll liven you up, Padfoot,” said James quietly. “Look who it is ...”[^20210128-12]
 
 I would have to find the citation, but I know I am not alone in wondering if
-this memory was tampered with.  The fact that [Lupin]({{< relref "Remus_John" >}}) and [Sirius]({{< relref "Sirius_III" >}}) would not
-deny anything in the brief fireplace conversation suggests that it is at best
-based on something factual, but then so too are the best lies.  It would be a
-more cunning and effective plan to subtlety twist the memory to put James in a
-worse light, portray [Snape][] as a more innocent victim, but leave the core
-events sufficiently in place so that when [Harry]({{< relref "Harry_James" >}})
-describes what he sees, it rings true to those who witnessed it.
+this memory was tampered with.  The fact that [Lupin][] and [Sirius][] would
+not deny anything in the brief fireplace conversation suggests that it is at
+best based on something factual, but then so too are the best lies.  It would
+be a more cunning and effective plan to subtlety twist the memory to put James
+in a worse light, portray [Snape][] as a more innocent victim, but leave the
+core events sufficiently in place so that when [Harry][] describes what he
+sees, it rings true to those who witnessed it.
+
+[Harry]: <{{< relref "Harry_James" >}}>
 
 ---
 
 > “You’re less like your father than I thought,” he said finally, a definite coolness in his voice. “The risk would’ve been what made it fun for James.”[^20210128-10]
 
-[Sirius]({{< relref "Sirius_III" >}}) implies that James was a daredevil.  Is
-that a true depiction, or a distortion due to his time in Azkaban?  Some of
-both is the most likely.  Even if true, I strongly suspect that the man who
-went into hiding to save his son would not have wanted his son to be as much a
-daredevil as he himself might have been in his youth.
+[Sirius][] implies that James was a daredevil.  Is that a true depiction, or a
+distortion due to his time in Azkaban?  Some of both is the most likely.  Even
+if true, I strongly suspect that the man who went into hiding to save his son
+would not have wanted his son to be as much a daredevil as he himself might
+have been in his youth.
 
 ---
 
 > Harry wondered why James didn’t tell Wormtail to get a grip on himself, but James seemed to be enjoying the attention. Harry noticed his father had a habit of rumpling up his hair as though to make sure it did not get too tidy, and also that he kept looking over at the girls by the water’s edge.[^20210128-11]
 
-[Harry]({{< relref "Harry_James" >}}) has not noticed at this point that his
-mother is one of those girls.  Is James enjoying the attention because he wants
-*anyone's* attention, or is he enjoying it as a (probably mistaken) indication
-that what he is doing might attract *[Lily][]'s*?  Perception is everything,
-and *[Snape]({{< relref "Severus" >}})'s* memory does not really tell us what
-is going on in *James'* head.
+[Harry][] has not noticed at this point that his mother is one of those girls.
+Is James enjoying the attention because he wants *anyone's* attention, or is he
+enjoying it as a (probably mistaken) indication that what he is doing might
+attract *[Lily][]'s*?  Perception is everything, and *[Snape][]'s* memory does
+not really tell us what is going on in *James'* head.
 
 ---
 
@@ -247,15 +255,14 @@ to behave that way to get the results she wants.
 >
 > “If we were sometimes arrogant little berks, you mean,” said Sirius.[^20210128-16]
 
-The book does not tell us exactly how detailed a description [Harry]({{< relref "Harry_James" >}}) 
-gave the two of what he say.  I really wish it gave us more, it would answer
-the question on how accurate the memory was.  The thing is that even
-[Sirius]({{< relref "Sirius_III" >}}) here can admit that at least some of what
-they did was wrong.  We cannot be sure how much, but admitting that you were an
-"arrogant little berk" means that [Sirius]({{< relref "Sirius_III" >}}) has
-matured at least some from what he was.  If [Sirius]({{< relref "Sirius_III" >}})
-can admit that despite his obvious desire to live in the past, then the change,
-the maturation, in James must have been still more profound.
+The book does not tell us exactly how detailed a description [Harry][] gave the
+two of what he say.  I really wish it gave us more, it would answer the
+question on how accurate the memory was.  The thing is that even [Sirius][]
+here can admit that at least some of what they did was wrong.  We cannot be
+sure how much, but admitting that you were an "arrogant little berk" means that
+[Sirius][] has matured at least some from what he was.  If [Sirius][] can admit
+that despite his obvious desire to live in the past, then the change, the
+maturation, in James must have been still more profound.
 
 ---
 
@@ -297,45 +304,50 @@ woods.[^20210511-3]
 
 ### When did he get the Cloak
 
-In book three, [Lupin]({{< relref "Remus_John" >}}) refers to seeing James use the cloak many
+In book three, [Lupin][] refers to seeing James use the cloak many
 times.[^20210318-4] At first I was inclined to disregard this, the fact that
-[Lupin]({{< relref "Remus_John" >}}) knows that you still show up on the
-Marauder's Map implies that it was at school, but does not prove that.  For all
-we know the two got curious when James inherited the cloak *after graduation*
-and tested the cloak against the charms they had used.  After all, while they
-had lost the map, as the creators, they could have recreated enough of its
-detection mechanisms to prove the test case, or alternately there may have been
-multiple copies of the map originally, only one of which was
-seized.[^20210318-5] However, further down, he definitively places the cloak in
-James' possession by at least their fifth year, as it was used to get out of
-the castle each full moon.[^20210318-6]
+[Lupin][] knows that you still show up on the Marauder's Map implies that it
+was at school, but does not prove that.  For all we know the two got curious
+when James inherited the cloak *after graduation* and tested the cloak against
+the charms they had used.  After all, while they had lost the map, as the
+creators, they could have recreated enough of its detection mechanisms to prove
+the test case, or alternately there may have been multiple copies of the map
+originally, only one of which was seized.[^20210318-5] However, further down,
+he definitively places the cloak in James' possession by at least their fifth
+year, as it was used to get out of the castle each full moon.[^20210318-6]
 
 Given that he would not officially inherit the Cloak until his father dies, why
 was such a valuable heirloom sent with an irresponsible child to school?  This
 is pure speculation, but one possibility is that James was *not* as irresponsible
-as he is made out to be.  By 1975 the Riddle's violence was no doubt ramping up,
-if not already in full swing.  We know, reference my discussion of James above,
-and my discussion of [Snape][], that some of the Slytherin students are
-experimenting with [dark magic]({{< relref "magic" >}}).  Perhaps  [Fleamont]({{< relref "Fleamont" >}}) sent his son to school with the cloak as
-an additional layer of protection for a beloved, and yes, somewhat spoiled
-heir, knowing the boy (James) was feuding with such evil already.  Despite his
-many illicit forays out after curfew, this supposedly irresponsible boy kept
-the Cloak out of larcenous[^20210318-7] enemy hands, despite the fact that he
-supposedly has no cunning or intelligence.
+as he is made out to be.  By 1975 the [Riddle][]'s violence was no doubt
+ramping up, if not already in full swing.  We know, reference my discussion of
+James above, and my discussion of [Snape][], that some of the Slytherin
+students are experimenting with [dark magic][].  Perhaps  [Fleamont][] sent his
+son to school with the cloak as an additional layer of protection for a
+beloved, and yes, somewhat spoiled heir, knowing the boy (James) was feuding
+with such evil already.  Despite his many illicit forays out after curfew, this
+supposedly irresponsible boy kept the Cloak out of larcenous[^20210318-7] enemy
+hands, despite the fact that he supposedly has no cunning or intelligence.
+
+[dark magic]: <{{< relref "dark" >}}>
+
+[Fleamont]: <{{< relref "Fleamont" >}}>
+
+[Riddle]: <{{< relref "Tom_Marvolo" >}}>
 
 ### Pure Speculation
 
-Consider some of the stuff [Harry]({{< relref "Harry_James" >}}) goes through in
-Books 1 and 2.  Given that, Ian Hycrest speculates that with [Dumbledore][D1]
-and [McGonagall]({{< relref "Minerva" >}}) even more distracted by the more active
-war that was then going on, and with [Slughorn][] trying to avoid [Riddle]({{< relref "Tom_Marvolo" >}})'s
-notice,[^20210629-2] there were probably students openly planning on becoming
-Death Eaters, and openly preparing for their proposed careers, probably with no
-real repercussions.[^20210629-3] In such an environment, James Potter, who
-hated the dark arts,[^20210629-4] may have had reasons for his pranks that
-[Snape][] and [Lily][] were unwilling to acknowledge.  He may, per Mr.
-Hycrest's theory, have been guilty of poor targeting and have occasionally
-over-reacted, but he was *reacting* not *instigating*.
+Consider some of the stuff [Harry][] goes through in Books 1 and 2.  Given
+that, Ian Hycrest speculates that with [Dumbledore][D1] and [McGonagall][] even
+more distracted by the more active war that was then going on, and with
+[Slughorn][] trying to avoid [Riddle][]'s notice,[^20210629-2] there were
+probably students openly planning on becoming Death Eaters, and openly
+preparing for their proposed careers, probably with no real
+repercussions.[^20210629-3] In such an environment, James Potter, who hated the
+dark arts,[^20210629-4] may have had reasons for his pranks that [Snape][] and
+[Lily][] were unwilling to acknowledge.  He may, per Mr. Hycrest's theory, have
+been guilty of poor targeting and have occasionally over-reacted, but he was
+*reacting* not *instigating*.
 
 [Slughorn]: <{{< relref "Horace_Eugene_Flaccus" >}}>
 
@@ -376,15 +388,20 @@ over-reacted, but he was *reacting* not *instigating*.
 [^20210318-4]: Mrs. J. K. Rowling. _Harry Potter and the Prisoner of Azkaban_
     p. 347. Pottermore Limited. American Kindle Edition.
 
-[^20210128-29]: Mrs. J. K. Rowling. "[The Potter Family](https://web.archive.org/web/20190331103342/https://www.pottermore.com/writing-by-jk-rowling/the-potter-family)" Archived version of [Pottermore](https://www.pottermore.com), archived 2019-03-31. Last Viewed 2021-01-28.
+[^20210128-29]: Mrs. J. K. Rowling. "[The Potter Family](https://web.archive.org/web/20190331103342/https://www.pottermore.com/writing-by-jk-rowling/the-potter-family)" 
+    Archived version of [Pottermore](https://www.pottermore.com), archived 2019-03-31. Last Viewed 2021-01-28.
 
-[^20210128-28]: Wizarding World characters, names and related indicia are ™ and © of Warner Bros. Entertainment Inc. All rights reserved. Archived version of [Pottermore](https://www.pottermore.com), article [In defense of young James Potter](https://web.archive.org/web/20190405052528/https://www.pottermore.com/features/in-defence-of-young-james-potter), archived 2019-041-05. Last Viewed 2021-01-28.
+[^20210128-28]: Wizarding World characters, names and related indicia are ™ and © of Warner Bros. Entertainment Inc. All rights reserved. 
+    Archived version of [Pottermore](https://www.pottermore.com), article [In defense of young James Potter](https://web.archive.org/web/20190405052528/https://www.pottermore.com/features/in-defence-of-young-james-potter), archived 2019-041-05. Last Viewed 2021-01-28.
 
-[^20210128-27]: Wizarding World characters, names and related indicia are ™ and © of Warner Bros. Entertainment Inc. All rights reserved. Archived version of [Pottermore](https://www.pottermore.com), article [In defense of young James Potter](https://web.archive.org/web/20190405052528/https://www.pottermore.com/features/in-defence-of-young-james-potter), archived 2019-041-05. Last Viewed 2021-01-28.
+[^20210128-27]: Wizarding World characters, names and related indicia are ™ and © of Warner Bros. Entertainment Inc. All rights reserved. 
+    Archived version of [Pottermore](https://www.pottermore.com), article [In defense of young James Potter](https://web.archive.org/web/20190405052528/https://www.pottermore.com/features/in-defence-of-young-james-potter), archived 2019-041-05. Last Viewed 2021-01-28.
 
-[^20210128-25]: Wizarding World characters, names and related indicia are ™ and © of Warner Bros. Entertainment Inc. All rights reserved. Archived version of [Pottermore](https://www.pottermore.com), article on [James Potter](https://web.archive.org/web/20190108143612/https://www.pottermore.com/explore-the-story/james-potter), archived 2019-01-08. Last Viewed 2021-01-28.
+[^20210128-25]: Wizarding World characters, names and related indicia are ™ and © of Warner Bros. Entertainment Inc. All rights reserved. 
+    Archived version of [Pottermore](https://www.pottermore.com), article on [James Potter](https://web.archive.org/web/20190108143612/https://www.pottermore.com/explore-the-story/james-potter), archived 2019-01-08. Last Viewed 2021-01-28.
 
-[^20210128-26]: Wizarding World characters, names and related indicia are ™ and © of Warner Bros. Entertainment Inc. All rights reserved. Archived version of [Pottermore](https://www.pottermore.com), article on [James Potter](https://web.archive.org/web/20190108143612/https://www.pottermore.com/explore-the-story/james-potter), archived 2019-01-08. Last Viewed 2021-01-28.
+[^20210128-26]: Wizarding World characters, names and related indicia are ™ and © of Warner Bros. Entertainment Inc. All rights reserved. 
+    Archived version of [Pottermore](https://www.pottermore.com), article on [James Potter](https://web.archive.org/web/20190108143612/https://www.pottermore.com/explore-the-story/james-potter), archived 2019-01-08. Last Viewed 2021-01-28.
 
 [^20210920-1]: Mrs. J. K. Rowling.
     _[Harry Potter and the Deathly Hallows](https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows)_
