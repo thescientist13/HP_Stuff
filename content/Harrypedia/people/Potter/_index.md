@@ -10,20 +10,16 @@ weight = 5
 
 #### facts
 
-* Linfred left a "significant" pile of gold to *each* of his seven children on his death.[^221121-2]
-* Each generation added "to the family coffers"[^221121-3]
-* Fleamont quadrupled the family gold.[^221121-4]
+* The Potter family had [wealth][].
 
-[^221121-2]: Mrs. J. K. Rowling.
-    "[The Potter Family](https://www.rowlingindex.org/work/pmpfam/)"
-    _[The J.K. Rowling Index](https://www.rowlingindex.org)_ 2015-09-22.
-
-[^221121-3]: Mrs. J. K. Rowling.
-    "[The Potter Family](https://www.rowlingindex.org/work/pmpfam/)"
-    _[The J.K. Rowling Index](https://www.rowlingindex.org)_ 2015-09-22.
-
-[^221121-4]: Mrs. J. K. Rowling.
-    "[The Potter Family](https://www.rowlingindex.org/work/pmpfam/)"
-    _[The J.K. Rowling Index](https://www.rowlingindex.org)_ 2015-09-22.
+[wealth]: <{{< ref "/Harrypedia/people/Potter/Wealth/" >}}>
 
 #### speculation
+
+* What happened to that [wealth][]?  Is the vault we see [Harry][] use truly
+  all that remains of it? Is that really a lot of money, or is that merely the
+  perception of a boy who has never had anything, and a family who is
+  notoriously poor? The above page on [wealth][] goes into some depth on this.
+
+
+[Harry]: <{{< relref "Harry_James" >}}>
