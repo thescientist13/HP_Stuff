@@ -2,8 +2,8 @@
 1 SOUR Gramps
 2 VERS 5.1.2
 2 NAME Gramps
-1 DATE 16 SEP 2022
-2 TIME 17:46:17
+1 DATE 30 NOV 2022
+2 TIME 14:40:25
 1 SUBM @SUBM@
 1 FILE /home/schierer/luke/src/HarryPotter/content/Harrypedia/potter_universe.ged
 1 COPR Copyright (c) 2022 .
@@ -1055,9 +1055,11 @@
 2 SURN Dumbledore
 1 SEX M
 1 BIRT
-2 DATE 1881
+2 DATE AUG 1881
 2 SOUR @S0035@
 3 PAGE https://web.archive.org/web/20170630110815/https://www.pottermore.com/explore-the-story/albus-dumbledore
+2 SOUR @S0004@
+3 PAGE https://harrypotter.fandom.com/wiki/Albus_Dumbledore
 1 DEAT
 2 DATE 30 JUN 1997
 2 SOUR @S0035@
@@ -1074,8 +1076,8 @@
 1 SOUR @S0035@
 2 PAGE https://web.archive.org/web/20170630110815/https://www.pottermore.com/explore-the-story/albus-dumbledore
 1 CHAN
-2 DATE 16 SEP 2022
-3 TIME 19:22:45
+2 DATE 29 NOV 2022
+3 TIME 02:10:05
 0 @I0062@ INDI
 1 NAME Molly /Prewett/
 2 GIVN Molly
@@ -1851,11 +1853,20 @@
 2 GIVN Dolores Jane
 2 SURN Umbridge
 1 SEX F
+1 BIRT
+2 DATE 26th August
+2 SOUR @S0038@
+3 PAGE https://www.rowlingindex.org/work/dupm/
+3 QUAY 2
+3 DATA
+4 DATE 31 OCT 2014
+1 FAMC @F0077@
+2 PEDI birth
 1 SOUR @S0033@
 2 PAGE Location 2192
 1 CHAN
-2 DATE 9 SEP 2021
-3 TIME 16:17:57
+2 DATE 21 NOV 2022
+3 TIME 23:28:02
 0 @I0113@ INDI
 1 NAME Edgar /Bones/
 2 GIVN Edgar
@@ -2122,14 +2133,19 @@
 2 DATE 9 SEP 2021
 3 TIME 18:00:48
 0 @I0133@ INDI
-1 NAME  /Dawlish/
+1 NAME John /Dawlish/
+2 GIVN John
 2 SURN Dawlish
 1 SEX M
 1 SOUR @S0033@
 2 PAGE Location 9099
+1 SOUR @S0048@
+2 QUAY 2
+2 DATA
+3 DATE 17 DEC 2007
 1 CHAN
-2 DATE 9 SEP 2021
-3 TIME 18:05:46
+2 DATE 18 NOV 2022
+3 TIME 20:27:11
 0 @I0134@ INDI
 1 NAME  /Bradley/
 2 SURN Bradley
@@ -4158,6 +4174,165 @@
 1 CHAN
 2 DATE 16 SEP 2022
 3 TIME 20:39:07
+0 @I0266@ INDI
+1 NAME Gwenog /Jones/
+2 GIVN Gwenog
+2 SURN Jones
+1 SEX F
+1 BIRT
+2 DATE 1968
+2 SOUR @S0004@
+3 PAGE https://harrypotter.fandom.com/wiki/Main_Page?file=Gwenog-Jones-CFC-WOTC.jpg
+1 EVEN
+2 TYPE Hogwarts Sorting
+2 DATE 1 SEP 1979
+2 SOUR @S0004@
+3 PAGE https://harrypotter.fandom.com/wiki/Gwenog_Jones
+1 CHAN
+2 DATE 5 NOV 2022
+3 TIME 22:16:29
+0 @I0267@ INDI
+1 NAME Mordicus /Egg/
+2 GIVN Mordicus
+2 SURN Egg
+1 SEX M
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/pmpbl/
+2 QUAY 2
+2 DATA
+3 DATE 18 OCT 2012
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 22:05:00
+0 @I0268@ INDI
+1 NAME Cantankerus /Nott/
+2 GIVN Cantankerus
+2 SURN Nott
+1 SEX M
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/pmpbl/
+2 QUAY 2
+2 DATA
+3 DATE 18 OCT 2012
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 22:06:01
+0 @I0269@ INDI
+1 NAME Godric /Gryffindor/
+2 GIVN Godric
+2 SURN Gryffindor
+1 SEX M
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/ppshat/
+2 QUAY 3
+2 DATA
+3 DATE 6 SEP 2016
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 22:13:48
+0 @I0270@ INDI
+1 NAME Silvanus /Kettleburn/
+2 GIVN Silvanus
+2 SURN Kettleburn
+1 SEX M
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/ppsket/
+2 DATA
+3 DATE 6 SEP 2016
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 22:22:53
+0 @I0271@ INDI
+1 NAME Gormlaith /Gaunt/
+2 GIVN Gormlaith
+2 SURN Gaunt
+1 SEX F
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/pmilv/
+2 QUAY 2
+2 DATA
+3 DATE 29 JUN 2016
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 22:24:17
+0 @I0272@ INDI
+1 NAME Libatius /Borage/
+2 GIVN Libatius
+2 SURN Borage
+1 SEX M
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/pmcbruxo/
+2 QUAY 2
+2 DATA
+3 DATE 31 JAN 2016
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 22:29:53
+0 @I0273@ INDI
+1 NAME Adrian /Tutley/
+2 GIVN Adrian
+2 SURN Tutley
+1 SEX M
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/pmuag/
+2 QUAY 2
+2 DATA
+3 DATE 31 JAN 2016
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 22:31:41
+0 @I0274@ INDI
+1 NAME Orford /Umbridge/
+2 GIVN Orford
+2 SURN Umbridge
+1 SEX M
+1 FAMS @F0077@
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/dupm/
+2 QUAY 2
+2 DATA
+3 DATE 31 OCT 2014
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 23:28:02
+0 @I0275@ INDI
+1 NAME Ellen /Cracknell/
+2 GIVN Ellen
+2 SURN Cracknell
+1 SEX F
+1 FAMS @F0077@
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/dupm/
+2 QUAY 2
+2 DATA
+3 DATE 31 OCT 2014
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 23:28:02
+0 @I0276@ INDI
+1 NAME Rolf /Scamander/
+2 GIVN Rolf
+2 SURN Scamander
+1 SEX M
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/pmqwcdpr/
+2 QUAY 2
+2 DATA
+3 DATE 11 JUL 2014
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 23:35:24
+0 @I0277@ INDI
+1 NAME Peter /Pettigrew/
+2 GIVN Peter
+2 SURN Pettigrew
+1 SEX M
+1 EVEN
+2 TYPE Hogwarts Sorting
+2 DATE 1 SEP 1970
+1 CHAN
+2 DATE 30 NOV 2022
+3 TIME 19:38:34
 0 @F0000@ FAM
 1 HUSB @I0001@
 1 WIFE @I0002@
@@ -4913,6 +5088,18 @@
 1 CHAN
 2 DATE 16 SEP 2022
 3 TIME 20:39:07
+0 @F0077@ FAM
+1 HUSB @I0274@
+1 WIFE @I0275@
+1 CHIL @I0112@
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/dupm/
+2 QUAY 2
+2 DATA
+3 DATE 31 OCT 2014
+1 CHAN
+2 DATE 21 NOV 2022
+3 TIME 23:28:02
 0 @S0000@ SOUR
 1 TITL Harry Potter and the Sorcerer's Stone
 1 AUTH J. K. Rowling
@@ -5091,6 +5278,13 @@
 1 CHAN
 2 DATE 25 JUL 2022
 3 TIME 15:38:39
+0 @S0048@ SOUR
+1 TITL "PotterCast Interviews J.K. Rowling, part one."
+1 AUTH Anelli, Melissa, John Noe and Sue Upton.
+1 PUBL PotterCast #130, 17 December 2007.
+1 CHAN
+2 DATE 18 NOV 2022
+3 TIME 20:26:24
 0 @R0000@ REPO
 1 NAME https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTr
 2 CONC ee.jpg
