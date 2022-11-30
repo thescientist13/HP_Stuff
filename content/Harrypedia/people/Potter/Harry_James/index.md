@@ -73,9 +73,9 @@ them speaks more strongly of Hufflepuff than any of his actual actions do of
 Slytherin.
 
 Originally I thought that Rowling tried too hard to force the parallel between
-Harry and Riddle, playing up that Harry could have been in Slytherin but for his
-choices.  A different theory was presented in an interview.[^200731-3]  The
-Sorting Hat accidentally attempted to sort *Riddle* and not *Harry* in
+Harry and [Riddle][], playing up that Harry could have been in Slytherin but
+for his choices.  A different theory was presented in an interview.[^200731-3]
+The Sorting Hat accidentally attempted to sort *[Riddle][]* and not *Harry* in
 attempting the placement in Slytherin.  The Sorting Hat was not intended to sort
 a person with a bit of someone else's soul in them.  This confused the hat, and
 as a result it wasn't sure which person's traits to sort based on.  The hat, not
@@ -115,14 +115,42 @@ This is a problem because it is in these non-significant times that Harry would
 be growing in relationship with all the rest of his classmates, year mates, and
 housemates.  He would be at meals with them, in the library working on
 assignments around them, in the common room hanging out.  They are living in
-close proximity for ten months of each year, it is really unrealistic to
-decide that Harry knows nothing of them beyond the supper superficial stuff
-that *we* know of them.
+close proximity for ten months of each year, it is really interesting that
+despite this, at the formational meeting for the DA, Harry is apparently unsure
+of Susan's name, despite the fact that she has been in his herbology class for
+*four years* (not counting the bit of fifth year) at that point.[^221130-1]  I
+had 280 people in my high school class, and by the end of senior year, I
+probably had a few that I did not immediately recognize by name, even though
+many I knew nothing else about them, but *most* of them I knew at least that
+much.  It is *crazy* to think that, with only forty people in his class, Harry
+did not learn at least their last names and faces (since the professors mostly
+use last names). 
+
+I almost put this in the section about affects of abuse, because I think it
+*does* partly come down to that, but more, I think it is partly a reaction to
+the way Harry is treated after he starts at Hogwarts.  He is not *really* a
+*person* to most of his fellow students.  He is "The Boy Who Lived" and they go
+out of their way to see him in the halls while making no effort to disguise the
+fact that they are talking about him *incessantly*.[^221130-2]  Even if this
+persisted only a short time, it made a profound impression on Harry, who *does*
+come from an abusive background where attention is associated with pain.  He is
+not used to it, nor comfortable being the focus of it. *This* I think, is why
+he so profoundly self-isolates that he doesn't even learn the names of his
+classmates.  He is not really a *classmate* to them, and so they in turn do not
+settle into distict individuals in *his* mind either. 
+
+[^221130-2]: Mrs. J. K. Rowling.
+    _Harry Potter and the Philosopher's Stone](https://www.librarything.com/work/5403381/book/225886281)_
+    Bloomsbury Pub Ltd (2004). page 131. 
+
+[^221130-1]: Mrs. J. K. Rowling.
+    _[Harry Potter and the Order of the Phoenix](https://www.librarything.com/work/115/book/225886709)_
+    Bloomsbury UK (2003), Kindle Locations 4953-4954,5010-5014.
 
 ### Appearance
 
-On a truly trivial note, the scene from [Snape][SS1]'s memory showing
-the confrontation after the OWL tests shows that James purposefully messed up
+On a truly trivial note, the scene from [Snape][SS1]'s memory showing the
+confrontation after the OWL tests shows that James purposefully messed up
 his hair.[^200710-1]  Harry's hair is unfix-ably messy.  Unfortunately, we know
 that while James did mess up his hair, it was also unfix-ably untidy.[^200710-2]
 The most likely explanation of this is that it is purely genetic, but lots of
@@ -141,8 +169,10 @@ father.  Either way, Harry observed that he is roughly the same height his
 father was at age 15/16.[^221024-3]  So either the effects of his childhood
 malnutrition have been healed, or Mrs. Rowling (possibly unconsciously) chose to
 utterly ignore the high probability of such effects.[^221024-4]  Either way, we
-*still* have no clear indication of exactly how tall this is.  We know only a few things definitively:
- * that by the beginning of book seven, Harry is taller than [Hermione][] and Mundungus, and shorter than [Ron][], [Fred][] and
+*still* have no clear indication of exactly how tall this is.  We know only a
+few things definitively:
+ * that by the beginning of book seven, Harry is taller than [Hermione][] and
+   Mundungus, and shorter than [Ron][], [Fred][] and
    [George][].[^221024-5]  
  * [James Potter][James] is described as tall by [Riddle][].[^221024-6] 
 
@@ -160,7 +190,7 @@ See my further comments on [growth][].
 
 [George]: <{{< relref "George" >}}>
 
-[Riddle]: <{{ relref "Tom_Marvolo" >}}>
+[Riddle]: <{{< relref "Tom_Marvolo" >}}>
 
 [^221024-4]: The research on this is somewhat mixed, and it would take more
   work than I have time for to weed out infantile starvation versus adolescent

@@ -7,34 +7,35 @@ author = "Luke Schierer"
 ## Misc notes on height
 
 Any number of fan fiction authors will come up with some alternate description
-of what [Harry][] looks like.  This may be because he had a better childhood, took a
-healing potion, participated in a healing ritual, or underwent some other form
-of magical transformation.  The results will vary considerably, and no doubt
-reflect that, generally female, author's personal idea of what is attractive in
-a male.  Many of these are fairly unrealistic, especially when they place [Harry][]
-at something over six feet tall somewhere in his teens.  
+of what [Harry][] looks like.  This may be because he had a better childhood,
+took a healing potion, participated in a healing ritual, or underwent some
+other form of magical transformation.  The results will vary considerably, and
+no doubt reflect that, generally female, author's personal idea of what is
+attractive in a male.  Many of these are fairly unrealistic, especially when
+they place [Harry][] at something over six feet tall somewhere in his teens.  
 
 [Harry]: <{{< relref "Harry_James" >}}>
 
 Eventually this bugged me enough that I wanted to document the unrealistic
 nature of these descriptions, so I looked up a "growth chart."[^220622-1] This
-particular chart includes percentile information based on data partly
-specific to the UK, and partly generalised from WHO.[^220622-2]  While the data
-is from 1990, so are our characters, so the time frame is even reasonably
-accurate. Looking at the chart, [Harry][] would have to be in roughly the 90th
-percentile to hit 6"1' by age 17, and unless I am crossing lines, as much as the
-98th percentile to hit that by age 15.  So while it is not *impossible* that the
+particular chart includes percentile information based on data partly specific
+to the UK, and partly generalised from WHO.[^220622-2]  While the data is from
+1990, so are our characters, so the time frame is even reasonably accurate.
+Looking at the chart, [Harry][] would have to be in roughly the 90th percentile
+to hit 6"1' by age 17, and unless I am crossing lines, as much as the 98th
+percentile to hit that by age 15.  So while it is not *impossible* that the
 speculated healing ritual or potion has helped him to gain this height, in all
 likelihood both parents would have to be noticeably very tall people.[^220622-3]
 
 Given that we hear over and over again that [Harry][] *without* extraordinary height
 looks just like [James][], this seems … unlikely.  We ought to be reading that he
 "looks just like [James][], except shorter."  Since we do not, my guess is that
-[James][] was *not* exceptionally tall.  While [James][] *is* described as tall, and it
-is common for children to be taller than their parents, record breaking height
-is almost always commented on when describing someone.  [James][] would need to be
-truly exceptionally tall to produce this six foot [Harry][], not simply "tall."
-Notice for example how both [Hagrid][] and [Flitwick][] are described.
+[James][] was *not* exceptionally tall.  While [James][] *is* described as
+tall, and it is common for children to be taller than their parents, record
+breaking height is almost always commented on when describing someone.
+[James][] would need to be truly exceptionally tall to produce this six foot
+[Harry][], not simply "tall."  Notice for example how both [Hagrid][] and
+[Flitwick][] are described.
 
 [James]: <{{< relref "James" >}}>
 
@@ -46,7 +47,7 @@ Interestingly, I have noted a similar issue with girls in at least one fan
 fiction.[^220726-8] The key consideration is that girls' growth drastically
 slows in their 15th year and is essentially flat-lined by 16.[^220726-9]
 Interestingly, for UK Girls, the 9th percentile of height at age 16 is
-approximately 5'1".[^220726-10]  Depending on how short percentile-wise someone
+approximtely 5'1".[^220726-10]  Depending on how short percentile-wise someone
 has to be before being generally described *as* "short," authors need to be
 really careful with their descriptions.  On the other hand, a girl's waist size
 apparently increases every year through out her teen years.[^220726-11]  If the
