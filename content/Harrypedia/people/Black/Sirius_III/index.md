@@ -142,7 +142,27 @@ we do not know.  This *might* be simply [Dumbledore][] not caring to use
 political capital to ensure a trial that should not change anything (Sirius if
 guilty would have still gone to Azkaban). 
 
+Lastly, it is entirely possible that there *was* other evidence beyond
+[Dumbledore][]'s testimony against Sirius.  Sirius was imprisoned not just for
+the betrayal of the Potters, but primarily for the murder of *[Peter
+Pettigrew][]*.  **If** Sirius *did* cast a spell during that confrontation, he
+might well have *thought* he *had* succeeded.  In other words, [Peter][] might
+well have tricked not only the Ministry, but Sirius as well.[^221202-4]  Sirius
+says that [Peter][] cut off the finger and blew up the street,[^221202-5] but
+that could mean before his curse *landed* rather than before it was *cast*.
+
+[Peter Pettigrew]: <{{< relref "Peter" >}}>
+
 [^210517-3]: See my notes on the [History][] page.
+
+[^221202-5]: Mrs. J. K. Rowling.
+   _[Harry Potter and the Prisoner of Azkaban](https://www.librarything.com/work/2742161/book/225886376)_
+   Bloomsbury Press (2004). page 363. 
+
+[^221202-4]: This line of reasoning from comes from "[Abandoning
+    Ship](https://www.redhen-publications.com/abandoningShip.html)" by Red Hen
+    Publications.  I am not sure how much I am convinced by it, but it does have
+    a certain persuasiveness.
 
 [History]: <{{< relref "History" >}}>
 
