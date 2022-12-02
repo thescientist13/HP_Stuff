@@ -51,9 +51,64 @@ I think my biggest objections to Molly are as follows:
 * I dislike the way she handled [Bill][] and [Fleur][]'s engagement.  I believe that
   she, like most of the women in the series, is irrational about [Fleur][].
 
+On the other hand, it is easy to be over sensitive.  
+
+* Some people have pointed out that Molly is parental towards [Harry][], but we
+  see no indication of [Luna][], who recently lost the only female influence in
+  her life *and* lives near by, ever coming over.  Indeed, the fact that
+  [Ginny][] refers to [Luna][] as "Loony" in book five[^221202-1] suggests that
+  the two are only classmates, not yet friends.  There are possible responses:
+  * [Ginny][] may be over compensating, trying to appear cool and knowing that
+    [Luna][] is called "Loony" by her brother. 
+  * [Xeno][] may not have been receptive to [Luna][] visiting the [Weasleys][]
+  * Along similar lines, if the [Weasleys][] were not close to the
+    [Lovegoods][], [Molly][] may not even have been aware of the extent to
+    which [Luna][] was in need of a moderating influence on [Xeno][]'s unique
+    parenting.
+* A number of people have picked up on the above mentioned comment about
+  [Luna][], as well as the way the twins and [Ron][] talk about her temper, to
+  infer that [Ginny][], under Molly's influence, has grown up to be the
+  stereotypical fake-nice-actually-nasty highly social pretty girl.
+  Considering that all we know of [Ginny][] is from [Harry][]'s perceptions of
+  her, and only those that Mrs. Rowling chose to consider plot relevant, I will
+  assert that they are reading more of their *own* past into this than what is
+  actually in the text.  Certainly our first meeting [Luna][] is not a shining
+  moment for [Ginny][], but as per above, there are a number of possible
+  explanations.
+* There is evidence that Ron and the twins (and perhaps Percy?) are
+  male-chauvinistists.  It seems more likely they learned this from their
+  mother than their father.[^221202-2]  I had noted [Ron][]'s attitude myself,
+  and once pointed out, the way the twins exclude [Ginny][] from flying with
+  them is much the same way of thinking. This one may have some validity.  Any
+  belief taken to an extreme will end up becoming a parody of the truth, but
+  [Molly][] probably *has* embrased a overly rigid and stereotyped distortion
+  of the truth of gender and gender roles.  See my own objection about her
+  reliance on public perception, this really fits in with that.
+
+[Ron]: <{{< relref "Ronald_Bilius" >}}>
+
+[Lovegoods]: <{{< relref "../../Lovegood" >}}>
+
+[Weasleys]: <{{< relref "../../Weasley" >}}>
+
+[Ginny]: <{{< relref "Ginevra_Molly" >}}>
+
+[Luna]: <{{< relref "../../Lovegood/Luna/index.md" >}}>
+
+[Harry]: <{{< relref "Harry_James" >}}>
+
+[Xeno]: <{{< relref "Xenophilius" >}}>
+
 [Red Hen Publications]: <https://www.redhen-publications.com/>
 
 [RHPMolly]: <https://www.redhen-publications.com/molly.html>
+
+[^221202-1]: Mrs. J. K. Rowling. 
+    _[Harry Potter and the Order of the Phoenix](https://www.librarything.com/work/115/book/225886709)_
+    Bloomsbury Publishing (2003). Kindle Location 2746. 
+
+[^221202-2]: [Red Hen Publications](https://www.redhen-publications.com/whohen.html).
+    "[Molly](https://www.redhen-publications.com/molly.html)" Last viewed 2022-12-02.
 
 ## Speculations
 
