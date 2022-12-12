@@ -39,8 +39,8 @@ damage. We have no true picture of what [Hogwarts][] looked like while the
 Marauders, [Lily][] and Severus were there, but that much we can be fairly
 certain of.  We know that some of the Slytherins students are either openly
 Death Eaters, or are openly vying to become Death Eaters.[^200806-2]  We know
-that at least one female student was assaulted in an unknown way by [[dark
-magic|Magic]], that Severus calls it funny, and [Lily][] calls it evidence of
+that at least one female student was assaulted in an unknown way by [dark
+magic][], that Severus calls it funny, and [Lily][] calls it evidence of
 Mulciber being "creepy."[^200806-3]  When it comes to Severus, [Sirius][] is
 hardly unbiased, but I think we *can* trust him when he says that Severus's
 interest in the [Dark Arts][] was well known.[^210601-1]  I could go on,
@@ -49,6 +49,8 @@ not just pranks, but actual evil to go unpunished.  In such an environment, the
 needs of victims are not going to be addressed.
 
 [Dark Arts]: <{{< relref "dark" >}}>
+
+[Dark Magic]: <{{< relref "dark" >}}>
 
 [Lily]: <{{< relref "Lily_J." >}}>
 
@@ -69,11 +71,21 @@ forgive him, apparently because she does not believe his protestations.  Unlike
 reform.  Alternately, some writers have speculated that [Lily][] was seeing
 parallels between Severus' behaviour and his father's.[^210106-2]  The whole
 fifth year thing is really complicated, and ultimately worth a [deeper
-look][swm].
+look][swm].  Either way, if you accept statements made in interviews, we know
+that Severus did not *really* understand the depth of the disagreement.  He
+refused to believe [Lily][]'s aversion to the [Dark Arts][] was real or well
+founded, and believed that she would find membership in the Death Eaters
+*impressive*.[^221206-1]
 
 [swm]: <{{< relref "swm" >}}>
 
 [James]: <{{< relref "James" >}}> 
+
+[^221206-1]: Ms. Melissa Anelli and Mrs. J. K. Rowling.
+    "[J.K. Rowling Web Chat Transcript][LCRWC]"
+    [The Leaky Cauldron](http://www.the-leaky-cauldron.org) 2007-07-30
+
+[LCRWC]: <http://www.the-leaky-cauldron.org/2007/07/30/j-k-rowling-web-chat-transcript/>
 
 Coming out of [Hogwarts][], Severus joins the Death Eaters, while continuing
 his studies in potions.  We do not know what the balance of his time is; we do

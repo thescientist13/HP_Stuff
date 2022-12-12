@@ -14,11 +14,13 @@ _[It's Always The Quiet Ones](https://www.fanfiction.net/s/11636560)_
     * Published: 2015-11-27
     * Comments: This one has no particular pairing, and avoids names in a few
       places that is both odd and slightly annoying.  I have never read any of
-      [[!wikipedia H. P. Lovecraft]]'s works, as I do not in general like
+      [H. P. Lovecraft][]'s works, as I do not in general like
       horror, but I *am* vaguely familiar with his body of work.  Here Luna is
-      descended from the [Marsh Family][MFLC], from [[!wikipedia H. P.
-      Lovecraft]]'s stories.  When pushed too far one day, that heritage comes
+      descended from the [Marsh Family][MFLC], from [H. P. Lovecraft][]'s
+      stories.  When pushed too far one day, that heritage comes
       out…
+
+[H. P. Lovecraft]: <https://wikipedia.org/H._P._Lovecraft>
 
 _[When Is It a Contract](https://www.fanfiction.net/s/7382549)_
 :   * Author: Aealket 
