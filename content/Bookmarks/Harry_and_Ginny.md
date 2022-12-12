@@ -158,6 +158,28 @@ _[Arthur Weasley Wasn't Always Sure of Ginny and Harry](https://www.fanfiction.n
     * Comment: This one shot is endearing in the super powered Harry genre.
       Harry and Ginny just *fit*.
 
+_[Disembodied](https://www.siye.co.uk/viewstory.php?sid=129752)_
+:   * Author: V for Vendetta
+    * Published: 2013-09-05. Updated: 2013-09-27.
+    * Comments: This short and entirely alternate universe work is amusing.
+      [Harry][] has magiced himself *out of his body* and [Ginny][] decides to
+      take him in for no real reason?  Totally doesn't make much sense, but
+      highly amusing.
+
+_[Forced Maturity Part I: The Chamber of
+    Secrets](https://www.siye.co.uk/viewstory.php?sid=127442)_
+:   * Author: pseudonym
+    * Published: 2007-11-20. Updated: 2010-01-22.
+    * Comments: I have always wished this were the first of a series.  In this,
+      [James][] and [Lily][] are able, despite being dead, to induce a dream of
+      what *might be* in [Harry][], said dream being the six books covering
+      years two through seven.  The alternate universe kicks in because in this
+      story, trama causes magical children to mature faster in odd ways.
+
+[James]: <{{< relref "James" >}}>
+
+[Lily]: <{{< relref "Lily_J." >}}>
+
 [HP1]: <{{< relref "Harry_James" >}}> 
 
 [PW1]: <{{< relref "Percy_Ignatius" >}}>
