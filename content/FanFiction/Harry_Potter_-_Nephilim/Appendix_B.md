@@ -11,8 +11,16 @@ weight = 21
 #### power levels
 
 Nephil can be rated on a scale of 1 (low) to 10 (high) for access to each class
-of [angelic abilities]({{< relref "#abilities-by-type" >}}). This naturally means that for many of the pivotal
-characters, I have [mathematical notes on their power levels]({{< relref "Appendix_D" >}}).  For the purposes of this work:
+of [angelic abilities]({{< relref "#abilities-by-type" >}}).[^221216-2] This
+naturally means that for many of the pivotal characters, I have [mathematical
+notes on their power levels]({{< relref "Appendix_D" >}}).  For the purposes of
+this work:
+
+[^221216-2]: I have seen other fan fiction authors rate magical power on a
+    mathematical scale, but not in the granular way I am.  These works include,
+    but may not be limited to:
+    * old-crow. _[Dan Granger](https://www.fanfiction.net/s/10775872)_ Published: 2014-10-23. Updated: 2019-10-14. 
+    * kb0. _[The Lost Year](https://www.fanfiction.net/s/13815274)_ Published: 2021-02-09. Updated: 2021-03-24. 
 
 | Power Level | Ability Estimate |
 | :---------: | :-------------- |
