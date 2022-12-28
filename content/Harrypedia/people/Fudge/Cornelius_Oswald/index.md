@@ -62,3 +62,18 @@ resulted in his election to Minister of Magic.
     _[Harry Potter and the Prisoner of Azkaban](https://www.librarything.com/work/2742161)_
     © 2000 Pottermore Limited. American Kindle Edition. p 208. 
 
+### Criticising Other Authors
+
+It is *extremely* common to portray [Bagnold][] as having retired almost
+immediately after [Riddle][]'s first fall.  Depending on the author, Fudge was
+either a dark horse candidate because the government was otherwise gridlocked
+between opposing parties, he was [Dumbledore][]'s hand picked choice, or
+[Malfoy][]'s equally hand picked choice.  None of these fits the facts.  As
+noted above, Fudge did not become Minister until 1990, which explains why he
+was so unsure of himself in his role as minister throughout the first book.
+
+[Riddle]: <{{< relref "Tom_Marvolo" >}}>
+
+[Bagnold]: <{{< relref "../../Bagnold/Millicent" >}}>
+
+[Malfoy]: <{{< relref "Lucius_Abraxas" >}}>
