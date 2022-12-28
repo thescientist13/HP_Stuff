@@ -251,3 +251,19 @@ influenced by the various depictions I have read.
     Pottermore Publishing. American Kindle Edition. 
 
 [^210818-11]: At least, I am fairly sure that is real and not just fanfiction. Citation needed. 
+
+## Criticizing Other Authors
+
+It is extremely common for more conspiracy minded authors to state that Molly
+held onto [Harry][]'s [Gringotts][] key for most of his school career.  This
+contradicts the facts.  [Harry][] visited [Gringotts][] on his own in his time
+in the alley before third year[^221213-6], and while we do not know who paid
+for his supplies fifth year, it was [Bill][], not Molly, who retrieved
+[Harry][]'s gold before sixth year.  Moreover, he did so as employee of the
+bank, not as the holder of [Harry][]'s key.  It is only in the summer before
+fourth year that she seems to have his key, when she asks him to leave his
+school list out and then leaves a bag of his gold on his bed for him.
+
+[^221213-6]: Mrs. J. K. Rowling.
+    _[Harry Potter and the Prisoner of Azkaban](https://www.librarything.com/work/2742161/book/225886376)
+    Bloomsbury UK (2004). page 50.

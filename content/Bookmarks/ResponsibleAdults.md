@@ -88,4 +88,19 @@ _[The Three Professors Visit No 4 PrivetDrive](https://www.fanfiction.net/s/1193
       really is some silver by realising that much of what is happening is
       deserved on all sides.  
 
+_[Defending Sirius Black](https://www.fanfiction.net/s/7911105/)_
+:     * Author: Luiz4200
+      * Published: 2021-03-10. Updated: 2012-04-21.
+      * Comments: This is one of several works by this author in which [Vernon][]
+	directly or indirectly pushes for [Sirius][] to have a trial as a means
+	of getting rid of [Harry][].  I include in it in this section because
+	he is, whatever his motives, forcing the other adults to act
+	responsibly, however unwillingly they do so.
+
 [HpediaD1]: <{{< ref "Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
+
+[Sirius]: <{{< relref "Sirius_III" >}}>
+
+[Harry]: <{{< relref "Harry_James" >}}>
+
+[Vernon]: <{{< relref "Vernon" >}}>
