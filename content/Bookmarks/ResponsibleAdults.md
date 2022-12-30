@@ -88,16 +88,28 @@ _[The Three Professors Visit No 4 PrivetDrive](https://www.fanfiction.net/s/1193
       really is some silver by realising that much of what is happening is
       deserved on all sides.  
 
+_[Justice, Justice Shall You Pursue](https://www.fanfiction.net/s/11961978)_
+:     * Author: White Squirrel
+      * Published 2016-05-23. 
+      * Comments: Considering British Common Law does not have a concept of
+        Emancipated Minors, I rather doubt that either Wizarding Law or Goblin
+        law does.[^221214-2]  Other than that Americanism, much of this work is
+        a very much needed critical look of what would happen if the non-magical
+        world actually *did* decide to intervene in the Harry Potter books.
+        Overall, I suspect it is reasonably accurate. 
+
 _[Defending Sirius Black](https://www.fanfiction.net/s/7911105/)_
 :     * Author: Luiz4200
       * Published: 2021-03-10. Updated: 2012-04-21.
       * Comments: This is one of several works by this author in which [Vernon][]
-	directly or indirectly pushes for [Sirius][] to have a trial as a means
-	of getting rid of [Harry][].  I include in it in this section because
-	he is, whatever his motives, forcing the other adults to act
-	responsibly, however unwillingly they do so.
+        directly or indirectly pushes for [Sirius][] to have a trial as a means
+        of getting rid of [Harry][].  I include in it in this section because
+        he is, whatever his motives, forcing the other adults to act
+        responsibly, however unwillingly they do so.
 
 [HpediaD1]: <{{< ref "Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
+
+[^221214-2] [Wikipedia](https://wikipedia.org).  {{< wikipedia "Emancipation of minors" >}} Last edited 2022-10-12.
 
 [Sirius]: <{{< relref "Sirius_III" >}}>
 

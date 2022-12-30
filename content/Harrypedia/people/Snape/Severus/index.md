@@ -87,6 +87,34 @@ founded, and believed that she would find membership in the Death Eaters
 
 [LCRWC]: <http://www.the-leaky-cauldron.org/2007/07/30/j-k-rowling-web-chat-transcript/>
 
+These interview statements give credence to statements made by [Lupin][] and
+[Sirius][], who are in and of themselves, perhaps not the most unbiased of
+witnesses.  Sirius states that even in school, Severus was "up to his eyes in
+the Dark Arts."[^221220-4]  The man who thinks that [Lily][] would find
+membership in the Death Eaters impressive, and who invented the
+[sectumsempra][] curse[^221220-5] no doubt really *was* using [dark][] magic
+regularly - just not in front of [Lily][], who objected to it (for some strange
+irrational reason - or so Severus thinks).  When he says that [James][] used
+spells that Severus invented against him (Severus), how did [James][] learn
+these?  Only because Severus *used* them against [James][].  Which of Severus'
+spells do we see [James][] use though?  Not the [dark][] slashing curse, but
+the prank spell.   [James][] may frequently have used superior numbers, and his
+pranks may certainly have crossed the line into bullying behaviour (which is
+deplorable), but *Severus* returned fire with [dark][] magic, whenever [Lily][]
+was not around.
+
+[dark]: <{{< relref "dark" >}}>
+
+[sectumsempra]: <{{< relref "Sectumsempra" >}}>
+
+[^221220-4]: Mrs. J. K. Rowling.
+    _[Harry Potter and the Order of the Phoenix][]_
+    Pottermore Limited. American Kindle Edition. Kindle Locations 9824-9825. 
+
+[^221220-5]: Mrs. J. K. Rowling.
+    _[Harry Potter and the Half-Blood Prince][]_
+    Pottermore Limited. American Kindle Edition. page 431. 
+
 Coming out of [Hogwarts][], Severus joins the Death Eaters, while continuing
 his studies in potions.  We do not know what the balance of his time is; we do
 not know what (if any) atrocities he participated in.  We do know that he gets
@@ -376,3 +404,6 @@ Oracle][ffnvo2]_.[^210603-1]
 
 [SnapeDies]: <{{< relref "SnapeDies" >}}>
 
+[Harry Potter and the Order of the Phoenix]: <https://www.librarything.com/work/115/book/225886709>
+
+[Harry Potter and the Half-Blood Prince]: <https://www.librarything.com/work/1133624/book/203684961>

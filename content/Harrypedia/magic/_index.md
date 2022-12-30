@@ -32,26 +32,26 @@ We seem to have:
 
 * [Magical Animals]({{< relref "animals" >}})
 * [Spells]({{< relref "spells" >}}) - curses, hexes, jinks, charms, transfiguration
-   * > The wand is a European invention, and while African witches and wizards
-     > have adopted it as a useful tool in the last century, many spells are
-     > cast simply by pointing the finger or through hand gestures.[^210304-5]
+   * [wands][]
+       > The wand is a European invention, and while African witches and wizards
+       > have adopted it as a useful tool in the last century, many spells are
+       > cast simply by pointing the finger or through hand gestures.[^210304-5]
    * Mrs. Rowling published a Book of Spells only available on
      Playstation.[^210406-44]  There seems to be a [transcript
      available][BoST], and mentions a fair number of [spells]({{< relref "spells" >}}).
    * I am putting together my own book of spells [here]({{< relref "spells" >}}).  I am not
      trying to build a useful spell book, but rather a reference of names and
      sources.  
-   * Transfiguration is troubling on a few levels.
+   * [Transfiguration][] is troubling on a few levels.
       * Are transfiguration permanent or temporary?
       * Are you changing the form, the substance, or both? [Gamp’s Law][hpl1]
         suggests that this is a complicated answer. 
       * The vanishing spell on living things is *really* disturbing.  If you
         master this on a mammal, you essentially have the perfect murder weapon. 
    * Fidelius Charm has contradictory information available. 
-     * When Hermione disapperates from the Ministry in book 7, bringing Yaxley
-       along, she claims that since [[Dumbledore|adults/Dumbledore]] died, they
-       are *each* secret keepers, and so she has effectively told Yaxley the
-       secret.[^210902-3]
+     * When [Hermione][] disapperates from the Ministry in book 7, bringing Yaxley
+       along, she claims that since [Dumbledore][] died, they are *each* secret
+       keepers, and so she has effectively told Yaxley the secret.[^210902-3]
      * Mrs. Rowling, writing in her web page FAQ, writes 
        > When a Secret-Keeper dies, their secret dies with them, or, to put it
        > another way, the status of their secret will remain as it was at the
@@ -60,7 +60,7 @@ We seem to have:
      * The FAQ page exists *after* the publishing of book 7: 
        * Book Seven is copyright 2007
        * [Archive.org][AO1] shows the FAQ page up on 2012-02-04
-     * Either Hermione and Harry are wrong or the FAQ is wrong. 
+     * Either [Hermione][] and [Harry][] are wrong or the FAQ is wrong. 
      * If the FAQ is correct, then any use of the spell is really rather
        dangerous.  You set up a situation where locations can be totally lost,
        once the secret keeper dies, no one can learn the information, including
@@ -71,20 +71,20 @@ We seem to have:
        Rowling's descriptions.  How does the secret move into the other souls
        after the death of the first secret keeper? What is the mechanism that
        makes untransmittable knowledge now something "stored in your soul"? 
-   * [Serpensortia]({{< relref "Serpensortia" >}})
+   * [Serpensortia]({{< ref "spells/Serpensortia" >}})
    * turning vinegar into wine is taught in charms class.[^210820-1]
      * some speculate that this only works with wine based vinegar, because the
        spell is reversing oxidation, not actually transfiguring.  Under this
        view, transfiguration changes form but not substance.  Since the
        substance *really is wine*, it cannot be true transfiguration. 
-* Potions 
+* [Potions][]
    * What role do the ingredients play in potions? 
    * > It is often asked whether a Muggle could create a magic potion, given a
      > Potions book and the right ingredients. The answer, unfortunately, is no.
      > There is always some element of wandwork necessary to make a
      > potion[^210702-4]
    * I am compiling of [list of these as well]({{< relref "potions" >}}).
-* Runes
+* [Runes][]
 * Divination - tea cups, horoscopes, star charts, crystal balls, so on.
 * Arithmancy - Per Google, this should be part of Divination, but is apparently
    something different. 
@@ -97,6 +97,16 @@ We seem to have:
 [hpl1]: https://www.hp-lexicon.org/thing/gamps-law-of-elemental-transfiguration/
 
 [AO1]: https://web.archive.org/
+
+[Hermione]: <{{< relref "Hermione_Jean" >}}>
+
+[Harry]: <{{< relref "Harry_James" >}}>
+
+[Dumbledore]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
+
+[Potions]: <{{< relref "potions" >}}>
+
+[Transfiguration]: <{{< relref "transfiguration" >}}>
 
 [^210902-3]: Mrs. J. K. Rowling. 
     _[Harry Potter and the Deathly Hallows](https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows)_
@@ -281,30 +291,17 @@ examinations are conducted by at least one examiner who also conducted
 
 ### Dark magic
 
-Some magic is classified as being "dark."  Things so classified are harmful to
-the caster, the victim, or both in some way.  If there is a victim, the results
-are harder or even impossible to reverse.  In some places there is an
-implication that it is also harder to even block. I need citations for this. 
+Some magic is classified as being "dark."  How this relates to the Christian
+concept of "evil" is unclear, and is further discussed [on it's own
+page][dark].
 
-Beyond these vague generalisations, what constitutes "dark" magic? You can
-after all kill someone with a sufficiently well placed cutting spell, regardless
-of whether or not it is technically a curse.  You can similarly kill with a
-tripping jinx, though that one requires that it be timed such that the person
-trip such that the fall is fatal.  Levitation, taught in charms, can be fatal,
-if the person is released from high enough, or if something heavy enough is
-first levitated then released.  Not to mention that if you can vanish a mammal,
-you can vanish a human.[^210914-1]  A sufficiently creative mind can, no
-doubt, find dozens of other spells from each of charms and transfiguration that
-can be used to kill someone.
-
-[^210914-1]: Mrs. J. K. Rowling. 
-    _[Harry Potter and the Order of the
-    Phoenix](https://www.goodreads.com/book/show/2.Harry_Potter_and_the_Order_of_the_Phoenix)_
-    Locations 4842-4843. Pottermore Limited. American Kindle Edition. 
+[dark]: <{{< relref "dark" >}}>
 
 #### Horcrux
 
-These are a huge topic, and need their own [[page|Horcruxes]].
+These are a huge topic, and need their own [page][Horcruxes] as well.
+
+[Horcruxes]: <{{< relref "Horcruxes" >}}>
 
 #### Unforgivables
 
@@ -316,11 +313,14 @@ this, but there are a couple of key points.
 
 Fake professor Moody tells the class that the killing curse requires true hate
 as well as power.  He asserts that the class could cast it, but that he would be
-unlikely to get so much as a nose bleed.[^200731-4]  You do not hate an animal
-you are trying to kill painlessly.  There is no obvious derivation from a spell
-used for animal slaughter to one that _requires_ this kind of hatred to work.
-The addition of emotion may make a spell stronger, perhaps harder to block, but
-the spell as described does not overpower shields, it goes right through them.  
+unlikely to get so much as a nose bleed.[^200731-4]  While it is *possible* he
+is implying that the entire class, even together, lacks the power to cast the
+curse successfully, the implication is that school children lack the *hate*.
+You do not hate an animal you are trying to kill painlessly.  There is no
+obvious derivation from a spell used for animal slaughter to one that
+_requires_ this kind of hatred to work.  The addition of emotion may make a
+spell stronger, perhaps harder to block, but the spell as described does not
+overpower shields, it goes right through them.  
 
 Bellatrix tells Harry much the same thing when he fails to cast the cruciatus
 curse on her.[^200731-5]  There is no medical application for hating someone,
@@ -338,8 +338,8 @@ that is a different debate), not at all the hate these spells require.
 
 In both cases these two curses are unforgivable in part because they are
 difficult to shield against (I am assuming conjuration of stone is, for most
-people, very hard, very draining, or very slow) and in part because of the mind
-set required to cast them. 
+people, very hard, very draining, and/or very slow) and in part because of the
+mind set required to cast them. 
 
 We know less about the third, the imperious, and if the intent required is
 merely to override someone's will, then it is easier to see situations where you
@@ -351,9 +351,9 @@ have civilisation.
 
 I have read in one fan fiction that, while it has some very troubling elements,
 also has some really compelling world building elements, a view of unforgivables
-and perhaps dark magic in general that is not wholly incompatible with the
-above, but extends beyond it.  I am not sure it how cannon compatible it is, but
-it certainly allows for a lot of flexibility.
+and perhaps [dark magic][dark] in general that is not wholly incompatible with
+the above, but extends beyond it.  I am not sure it how cannon compatible it
+is, but it certainly allows for a lot of flexibility.
 
 > "Those spells require the right mind set to work as intended," Nicholas said.
 > "I dare say any magic user of moderate ability could cast one, but it would
@@ -381,174 +381,12 @@ to judge the cost.
     * Nigelcat1. _[Exodus](https://www.fanfiction.net/s/11460241)_
       Published: 2015-08-20.
 
-#### Vampires
-
-How much blood do you have to lose before you become a vampire? 
-
-In _Dracula_, any bite causes a lose of willpower, but only actually dying will
-cause you to become one.[^210513-6]  Is that true here?  If so, is anything
-left of the original person when you change? 
-
-It seems to be implied that vampires may not be beings of pure
-evil.[^210513-7] Is this a true or false impression? 
-
-
-
-[^210513-7]: Mrs. J. K. Rowling. _Harry Potter and the Half-Blood Prince_
-    Better citation needed. 
-
-[^210513-6]: citation needed. 
-
-#### Werewolves
-
-Can a non-magical person get infected? If so, can they then use magic? 
-I have seen speculation that a non-magical person infected would die on the
-first change,[^210513-4] and speculation that *most* werewolves are
-non-magical.[^210513-5]
-
-Overall, Werewolf-ism is a virus, it *might* cross the placental wall, but it
-would not be inherited from father to child.  It does seem clear that this virus
-shortens the person's lifespan noticeably. 
-
-Is the werewolf more or less susceptible to
-[Legilimency][]?  Does the virus create a "wolf" personality in his/her mind?
-Would fracturing your mind that way make it harder to attack, or harder to
-defend? 
-
-[Legilimency]: <{{< ref "Harrypedia/magic/spells/Legilimens" >}}>
-
-Does the werewolf experience physical changes that persist the rest of the time?
-Enhanced sense of smell, or strength? 
-
-Exactly how "full" does the moon need to be for a werewolf to turn? Is it
-precisely one night a month, or several? 
-
-Can the werewolf change at will, or only involuntarily? 
-
-The moon is up during the day sometimes.  How would a solar eclipse affect a
-werewolf? 
-
-
-[^210513-4]: citation needed
-
-[^210513-5]: citation needed
-
 ### Wands
 
-* There is a fascinating article on [wand wood][20210126-1] and the
-  personality traits and skills that go along with each.[^200723-1]
-* Mr. Ollivander's notes in the above article are incomplete: 
-  * Umbridge has a birch wand,[^210511-4] and is also
-    on her original list of Celtic woods when she talks about
-    wands.[^210511-7]
-  * [[James Potter|adults/James]] had a mahogany wand.[^210511-5]
-  * ivy is on the list of Celtic woods that Mrs. Rowling posted when she first
-    talked about wand woods.[^210511-6] 
-  * Fleur had a rosewood wand.[^210511-8] 
-  * various other woods appear to be introduced by the Fantastic Beasts prequel
-    stuff.  [WizardingWorld][ww] seems to mention some of them, and has been
-    mined for information in [this article][20210511-9].
-* The one on [size and flexibility][20210126-2] is more abbreviated, but points 
-  out that you must not be too literal.[^200723-2]
-* Mr. Ollivander has researched wand cores and will use only three of
-  them.[^200723-3]  
-* Others are possible, but [the article on cores][20210126-3]
-  was, like the other two, written as if by him and so focuses on those three.
-  * Most of Mrs. Rowling's own writing almost acts as if the current Mr.
-    Ollivander is the only Mr. Ollivander despite the fact that the sign
-    outside the shop door states that the family has been making wands since 382
-    B.C.[^210512-1]  I am willing to accept that wizards live longer than
-    non-magical persons, but not by that much.  For there to only be one Mr.
-    Ollivander would require that he be approximately 2373 years old! If such
-    were true, then Nicholas Flamel's mere 665 years[^210512-2] would not
-    really be noteworthy at all, and the philosopher's stone entirely
-    unnecessary.  
-  * Indeed, [the article on cores][20210126-3] directly states that the current
-    Mr. Garrick Ollivander inherited the business from his father.[^210512-4]
-  * Given there have been an entire succession of Ollivanders making and selling
-    wands, which "Garrick Ollivander"[^210512-3] actually did the research and
-    published the notes we are relying on? 
-  * Earlier Ollivanders were less fastidious about their wand cores.[^210512-5]
-    Does the shop still hold wands made by these earlier Ollivanders?  If so, is
-    the current Mr. Ollivander willing to sell these wands, or only ones that
-    meet his (higher) bar for quality? 
+While these are a staple of the universe, and have a [page][wands] dedicated to
+them, we have no mention of staves. 
 
-Given the above articles I talk some about [[Harry]]'s wand on the page
-dedicated to him.  Riddle's wand, I think it is fairly inevitable that he would
-have a yew wand, but I am somewhat surprised that he would have a phoenix
-feather core.  While it does say it is the most capable, in a sense, it says
-dragon heartstring is the most powerful.  Would Riddle value range and or power
-more?  He would certainly dislike that the phoenix feather wand might sometimes
-act of its own accord.[^200806-5]  Naturally eleven year old Riddle knows
-nothing of wand lore and so is not deciding this, yet still, the wand must sense
-something of the wizard it is bonding with…
-
-[ww]: https://www.wizardingworld.com
-    "WizardingWorld"
-
-[20210126-1]: https://www.wizardingworld.com/writing-by-jk-rowling/wand-woods 
-    "WizardingWorld article on Wand Woods"
-
-[20210126-2]: https://www.wizardingworld.com/writing-by-jk-rowling/wand-lengths-and-flexibility
-    "WizardingWorld article on Wand length"
-
-[20210126-3]: https://www.wizardingworld.com/writing-by-jk-rowling/wand-cores
-    "WizardingWorld article on Wand Cores"
-
-[20210511-9]: https://harrypotter.fandom.com/wiki/Wand_wood
-    "Harry Potter wiki article on Wand Wood"
-
-[^210512-1]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_
-    p. 82. Pottermore Limited. American Kindle Edition. 
-
-[^210512-2]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_
-    p. 220. Pottermore Limited. American Kindle Edition. 
-
-[^210512-3]: Garrick Ollivander is the purported author of all 3 Pottermore
-    articles I have referenced here. 
-
-[^210511-8]: Mrs. J. K. Rowling. _Harry Potter and the Goblet of Fire_
-    Kindle Locations 4642-4643. Pottermore Limited. American Kindle Edition. 
-
-[^210511-7]: Mrs. J. K. Rowling. 
-    "[Wands](https://web.archive.org/web/20060316221102/http://www.jkrowling.com/textonly/en/extrastuff_view.cfm?id=18)"
-    Snapshot from 2006-03-16. Snapshot Viewed 2021-05-11.
-
-[^210511-6]: Mrs. J. K. Rowling. 
-    "[Wands](https://web.archive.org/web/20060316221102/http://www.jkrowling.com/textonly/en/extrastuff_view.cfm?id=18)"
-    Snapshot from 2006-03-16. Snapshot Viewed 2021-05-11.
-
-[^210511-5]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_
-    p. 82. Pottermore Limited. American Kindle Edition. 
-
-[^210511-4]: Mrs. J. K. Rowling. _Short Stories from Hogwarts of Power,
-    Politics, and Pesky Poltergeists_ Pottermore Publishing American Kindle
-    Edition, © 2016. Page 7. 
-
-[^200723-1]: Mrs. J. K. Rowling. 
-    "[Wand Woods](https://www.wizardingworld.com/writing-by-jk-rowling/wand-woods)"
-    Originally published 2015-08-10.  Last Viewed 2020-07-23.
-
-[^200723-2]: Mrs. J. K. Rowling. 
-    "[Wand Lengths & Flexibility](https://www.wizardingworld.com/writing-by-jk-rowling/wand-lengths-and-flexibility)"
-    Originally published 2015-08-10.  Last Viewed 2020-07-23.
-
-[^210512-5]: Mrs. J. K. Rowling. 
-    "[Wand Cores](https://www.wizardingworld.com/writing-by-jk-rowling/wand-cores)"
-    Originally published 2015-08-10.  Last Viewed 2021-05-12.
-
-[^210512-4]: Mrs. J. K. Rowling. 
-    "[Wand Cores](https://www.wizardingworld.com/writing-by-jk-rowling/wand-cores)"
-    Originally published 2015-08-10.  Last Viewed 2021-05-12.
-
-[^200723-3]: Mrs. J. K. Rowling. 
-    "[Wand Cores](https://www.wizardingworld.com/writing-by-jk-rowling/wand-cores)"
-    Originally published 2015-08-10.  Last Viewed 2020-07-23.
-
-[^200806-5]: Mrs. J. K. Rowling. 
-    "[Wand Cores](https://www.wizardingworld.com/writing-by-jk-rowling/wand-cores)"
-    Originally published 2015-08-10.  Last Viewed 2020-08-06.
-
+[wands]: <{{< relref "wands" >}}>
 
 ### The Wards around Privet Drive and The Trace
 
