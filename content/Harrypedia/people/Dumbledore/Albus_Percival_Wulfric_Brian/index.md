@@ -94,7 +94,45 @@ his flaws in the right context.
 
 Musings of Apathy, in writing the original version of [Family Inseparable][FI], 
 envisions Dumbledore as (my words) misguided, and perhaps ruthless, but not
-evil.[^180702-2] One of the things that really struck me as I started to really
+evil.[^180702-2]  There is some truth to this.  Personally, I am convinced that
+Dumbledore believes some form of [Utilitarianism][IEPU2].  Whether he absorbed
+this from [Gellert Grindelwald][GG],[^221221-6] or learned it from his own
+parents is more than I am perpared to say.  It even is possible that
+[Grindelwald][GG] got the idea from *Dumbledore*.  Moreover, for all that "the
+Greater Good" would become [Grindelwald][GG]'s slogan,[^221221-7] I do not
+believe that Dumbledore ever, if at all, fully abandoned his internal
+commitment to [Utilitarian][IEPU2] philosophy.  Dumbledore may have had to learn to
+live with the "price of [his] shame,"[^210912-8] but I cannot find anywhere that
+says he actually came to believe his moral reasoning had been flawed. 
+
+[^221221-6]: Mrs. J. K. Rowling. _[Harry Potter and the Deathly Hallows][]_
+    Pottermore Publishing Limited. American Kindle Edition. Page 243.
+
+[Harry Potter and the Deathly Hallows]: <https://www.librarything.com/work/3577382/book/225886820>
+
+[^221221-7]: Mrs. J. K. Rowling. _[Harry Potter and the Deathly Hallows][]_
+    Pottermore Publishing Limited. American Kindle Edition. Page 173.
+
+Dumbledore's father went to prison for unilaterally using magic to punish some
+non-magical boys who so tramatized [Ariana][] Dumbledore that she lost control
+of her mental facualties, and with that, her control over her magic.[^221220-8]
+This belief that he had the right to vengance speaks to a belief in superiority
+that seems common to the wizarding world, we see it in the [Weasleys][] as well
+for example.[^221221-9]  Dumbledore no doubt grew up seeing the world this way,
+instinctively believing those without magic to be lesser than him.  I believe
+he took it a step further.  I believe he saw those with lesser magical ability
+as lesser than him as well.  He is a kind of ivory tower intelectual who views
+those who lack his achievements as perpetual children, irregardless of their
+actual age relative to himself.  As he grows older, this is exacerbated  Many
+of the adult decision makers he now works with were once his students, not his
+peers, far less ever adults over him.  
+
+[^221221-8]: Mrs. J. K. Rowling. _[Harry Potter and the Deathly Hallows][]_
+    Pottermore Publishing Limited. American Kindle Edition. Pages 191-192.
+
+[^221221-9]: citation needed for Mr. Weasley's paternalistic attitude towards non-magic people
+
+One of the things that really struck me as I started to really
 think about the Harry Potter books (as opposed to just enjoying them as
 stories), is just how valid some of the common fan fiction criticisms of
 Dumbledore are.  In no particular order:
@@ -182,21 +220,6 @@ whether or not someone is acting morally or not. If you do convince me that the
 phoenix *should* be a moral indicator, then I would be forced to conclude that
 either Fawkes is held in bondage in some way[^210914-3], or that Mrs. Rowling
 has misrepresented phoenix-kind. 
-
-Dumbledore, in his youth, was very taken by [Gellert Grindelwald][GG]'s talk of
-"the Greater Good", a version of [Utilitarianism][IEPU2] that Mrs. Rowling
-fleshes out just enough to identify as such.  While he implies that he turned
-away from these views, he never outright states as much.  He says he learned
-that he was not to be trusted with power, and that he learned to live with the
-"price of [his] shame."[^210912-8]  I believe that while Dumbledore did realise
-the evil that [Grindelwald][GG] represented, he continued to be guided by the
-same fundamental utilitarianism that he (Dumbledore) used to justify the plans
-they had made during their time together.  This makes sense if the moral
-philosophy originated from Dumbledore, if [Grindelwald][GG] tolerated it, but
-did not actually care one way or another about the justification for actions he
-intended to take either way.  
-
-[GG]: <{{< relref "Gellert" >}}>
 
 Ms. Richa Venkatraman wrote a defence of Dumbledore on MuggleNet[^190301-1] in
 which she seems to express well the view that [Harry][HJP] himself has in the book,
@@ -704,5 +727,6 @@ scenes?  Is his public face at all related to his private goals?
     _["For the Greater Good:" In Defense of Albus Dumbledore](http://www.mugglenet.com/2017/08/greater-good-defense-albus-dumbledore/)_
     Published 2017-08-02.  Last viewed 2019-03-01.
 
+[GG]: <{{< relref "Gellert" >}}>
 
 
