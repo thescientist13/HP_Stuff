@@ -42,6 +42,7 @@ Contracts can be agreed to by proxy.  Your proxy must be related to you
         * the nature of the contract
         * the method of binding me
         * the reason for binding me
+* A contract by a proxy cannot force you to commit mortal sin. See below. 
 
 Contracts can be implicitly agreed to.  Harry, but walking to the front of the
 hall, joining the other champions in the side room, and staying for the
@@ -127,6 +128,7 @@ ones include, but are not limited to:
   * engagement rings
   * being sorted by the Sorting Hat
 
+Contracts do *something*.  Person A agrees to do something or be something for Person B.  The contract may or may not be one sided.  The contract may or may not have penalties.  
 
 [ac]: <{{< relref "Appendix_C" >}}>
 
