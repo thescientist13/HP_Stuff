@@ -32,7 +32,7 @@ Contracts can be agreed to by proxy.  Your proxy must be related to you
     * the limits of a teacher acting in loco parientis are poorly defined
     * except that a parent can overrule or override said teacher's decisions. 
   * government officials have authority delegated to them only to the extent they are a legitimate government.
-    * I might successfully rebel against a contract foisted on my by a government official if *all* of the following are true:
+    * I might successfully rebel against a contract foisted on me by a government official if *all* of the following are true:
       * I *honestly and sincerely* believe the contract unjust
       * I *honestly and sincerely* believe the government corrupt, illegitimate, or simply not mine. 
     * A government contract might fail to bind similarly if *any* of the following are true
