@@ -116,7 +116,7 @@ _[A Romance In Reverse](https://www.fanfiction.net/s/12413357)_
       so his wish at the Sorting is for a friend, and thus Hufflepuff.... and
       it all flows from there. 
 
-_[Realizations](https://www.fanfiction.net/s/7875381)_
+_[Realizations][]_
 :   * Author: sbmcneil
     * Published: 2012-02-26. Updated: 2017-07-15.
     * Comments: Despite its unfinished state, this is one of my favourite after
@@ -131,6 +131,19 @@ _[Realizations](https://www.fanfiction.net/s/7875381)_
       shows a fair amount of character growth across the latter chapters of
       book seven, he and [Hermione][] have a lot further to go than [Harry][].
       This story gets all these things right. 
+
+
+[Realizations]: <https://www.fanfiction.net/s/7875381>
+
+_[An Open Secret](https://www.fanfiction.net/s/12195421)_
+:   * Author: CharmHazel
+    * Published: 2016-10-18. Updated: 2016-10-20.
+    * Comments: In many ways this is a shorter version of _[Realizations][]_.
+      The Weasleys think of [Ginny][] as a little girl, therefore she cannot be
+      in a serious relationship, therefore she isn't in one. [Harry][] broke up
+      with her, therefore he isn't interested in her, so why would they be
+      together?  These two statements sum up all the energy that is left when
+      you are lost in grief.
 
 [^220711-1]: Mrs. J. K. Rowling.
     _[Harry Potter and the Prisoner of Azkaban](https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban)_
@@ -184,7 +197,7 @@ _[Forced Maturity Part I: The Chamber of
       [James][] and [Lily][] are able, despite being dead, to induce a dream of
       what *might be* in [Harry][], said dream being the six books covering
       years two through seven.  The alternate universe kicks in because in this
-      story, trama causes magical children to mature faster in odd ways.
+      story, trauma causes magical children to mature faster in odd ways.
 
 [James]: <{{< relref "James" >}}>
 
