@@ -27,6 +27,9 @@ fundamentally unbalanced towards evil.
   draught of living death.  
 * While mandrakes might be useful, there seems to be more plants that harm you
   than plants that conspicuously help you. 
+* [Occlumency][] is dependant on "shut[ting] down" and "deny[ing] essential
+  parts" of oneself.[^230109-1]  As I discuss further on the page dedicated to
+  it, this is not healthy.
 
 Why do we not have shields that cannot be breached, or can only be cast to
 protect someone else, but are stronger than standard shields?  Why do we not
@@ -41,7 +44,31 @@ needs its own balance.  And yes, Buckbeak shows up a few times, but so too do
 Acromantula, which, again, are mostly evil.  
 
 In short, magic seems to have massively escalated the fallen nature of the
-world.  
+world.  If love is so powerful, why is [Lily][]'s self sacrifice the only
+example of its power that we see?[^230109-2]  This is perhaps not amply clear
+from [Snape]'s poor description of the whole thing, but fan fiction authors
+have more or less worked it out to my satisfaction.  Read _[Brumous][]_ by
+SeriouslySam, where this whole empty your mind thing is actually explored.  To
+protect those you love from the danger of being possessed by [Riddle][],
+[Harry][] must *show love less*, compartmentalise his love for others, to the
+point that people *cannot tell he loves them.*  Does this even *sound* like
+authentic love at this point?  When you cannot even show it properly?  The only
+defence against possession, mind reading, and other mental invasions that take
+your will away is to become a cold emotionally distant person who borders on a
+trying to split their own personality?  I'm sorry, if that is true, evil has
+won.
+
+[Lily]: <{{< relref "Lily_J." >}}>
+
+[Snape]: <{{< relref "Severus" >}}>
+
+[Riddle]: <{{< relref "Tom_Marvolo" >}}>
+
+[Harry]: <{{< relref "Harry_James" >}}>
+
+[Brumous]: <https://archiveofourown.org/works/42882966>
+
+[Occlumency]: <{{< relref "Occlumency" >}}>
 
 [^211020-11]: [Harry Potter Wiki](https://harrypotter.fandom.com/wiki/) 
     "[Phoenix](https://harrypotter.fandom.com/wiki/Phoenix)"
@@ -51,3 +78,12 @@ world.
     "[Poltergeist](https://harrypotter.fandom.com/wiki/Poltergeist)"
     Last Edited: 2021-08-18. Last Viewed: 2021-10-20. 
 
+[^230109-1]: Mrs. J. K. Rowling. "[Draco Malfoy][]" [The J.K. Rowling Index][] 2014-12-22. 
+
+[Draco Malfoy]: <https://www.rowlingindex.org/work/dmpm/>
+
+[The J.K. Rowling Index]: <https://www.rowlingindex.org>
+
+[^230109-2]: Brennus in _[The Thorny Rose 3: A Spring Clean for the May Queen][] also complains about this.
+
+[The Thorny Rose 3: A Spring Clean for the May Queen]: <https://www.fanfiction.net/s/10288020>
