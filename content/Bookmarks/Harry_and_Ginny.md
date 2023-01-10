@@ -189,8 +189,7 @@ _[Disembodied](https://www.siye.co.uk/viewstory.php?sid=129752)_
       take him in for no real reason?  Totally doesn't make much sense, but
       highly amusing.
 
-_[Forced Maturity Part I: The Chamber of
-    Secrets](https://www.siye.co.uk/viewstory.php?sid=127442)_
+_[Forced Maturity Part I: The Chamber of Secrets](https://www.siye.co.uk/viewstory.php?sid=127442)_
 :   * Author: pseudonym
     * Published: 2007-11-20. Updated: 2010-01-22.
     * Comments: I have always wished this were the first of a series.  In this,
@@ -199,9 +198,22 @@ _[Forced Maturity Part I: The Chamber of
       years two through seven.  The alternate universe kicks in because in this
       story, trauma causes magical children to mature faster in odd ways.
 
+_[Backward With Purpose Part I: Always and Always][]_
+:   * Author: deadwoodpecker
+    * Published: 2008-02-28. Updated: 2018-09-28.
+    * Comments: I do not often like either redeamed [Snape][] nor books with
+      Albus Severus, and this book and its sequel contain both.  Despite that,
+      I do enjoy it.  This book has one plot element that I particularly like,
+      [Harry][] crafts runes that amplify the power of the sacrifice he makes when
+      he allows [Riddle][] to kill him.
+
+[Backward With Purpose Part I: Always and Always]: <https://www.fanfiction.net/s/4101650>
+
 [James]: <{{< relref "James" >}}>
 
 [Lily]: <{{< relref "Lily_J." >}}>
+
+[Snape]: <{{< relref "Severus" >}}>
 
 [HP1]: <{{< relref "Harry_James" >}}> 
 
