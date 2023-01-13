@@ -4,9 +4,8 @@ title = "HP Stories with Harry and Ginny"
 author = "Luke Schierer"
 +++
 
-While [Ginny]({{< ref "Harrypedia/people/Weasley/Ginevra_Molly" >}}) has flaws,
-I remain partial to this pairing.  Unfortunately fan fiction rarely does it
-justice.  
+While [Ginny][] has flaws, I remain partial to this pairing.  Unfortunately fan
+fiction rarely does it justice.  
 
 _[Escape Artist](https://www.fanfiction.net/s/14109811)_
 :  * Author: Thor's Shadow
@@ -25,10 +24,6 @@ _[The Unknown Power](https://crys.fanficauthors.net/The_Unknown_Power/)_
      of this story is that amulets are made to allow [Ginny][] to siphon power from
      the other Weasleys.
 
-[Ginny]: <{{< relref "Ginevra_Molly" >}}>
-
-[Ron]: <{{< relref "Ronald_Bilius" >}}>
-
 _[A Godfather's Love](https://archiveofourown.org/works/18216887)_
 :  * Author: sbmcneil
    * Published: 2019-03-24
@@ -46,11 +41,12 @@ _[Remember](https://www.fanfiction.net/s/4936039)_
 :   * Author: sbmcneil
     * Published: 2009-03-20. Updated: 2012-06-14.
     * Comments: This bond story is one of the longer ones.  I really like the
-      way it does Molly and Percy, and their opposition to [Harry][] and [Ginny][].  I
-      dislike some of the other choices the author has made though.  There is a
-      bit of torturing characters to provide angst, and the setup to cause the
-      whole scenario is a bit chaotic.  The author attempted to fix this with a
-      prequel that, I think, actually managed to confuse things more.  
+      way it does [Molly][] and Percy, and their opposition to [Harry][] and
+      [Ginny][].  I dislike some of the other choices the author has made
+      though.  There is a bit of torturing characters to provide angst, and the
+      setup to cause the whole scenario is a bit chaotic.  The author attempted
+      to fix this with a prequel that, I think, actually managed to confuse
+      things more.  
 
 _[Harry Potter and the Dimensional Trunk](https://www.fanfiction.net/s/2456938)_
 :   * Author: Ophiuchus
@@ -68,7 +64,7 @@ _[Hope for the Best, Plan for the Worst](https://siye.co.uk/viewstory.php?sid=13
     * Comments: This story pre-dates [Ginny][]'s confidence around [Harry][]
       to his time in [Grimmauld Place]({{< ref "Harrypedia/Grimmauld_Place" >}}) 
       rather than the slower and mostly off "screen" build-up that we see in
-      the canonical story line.  Here Ginny convinces and helps Harry to
+      the canonical story line.  Here [Ginny][] convinces and helps [Harry][] to
       prepare for his trial rather than rely on [Dumbledore][HpediaD1].
       This turns out to be for the best, as [Lucius][] is rather more openly
       active in this version.  It is unfortunate that the author did not
@@ -94,7 +90,7 @@ _[The Harder Struggle](https://www.fanfiction.net/s/8326015)_
       [Harry][] and [Ginny][], and is one of the stories that, while sticking with
       canonical couples, leans towards [Hermione][] as world saviour and [Harry][] as
       *her* side-kick.  Fortunately it only leans that way.  Still, I would
-      prefer a stronger Ginny. 
+      prefer a stronger [Ginny][]. 
 
 _[Harry Potter and Godric's Legacy](https://www.fanfiction.net/s/5270746)_
 :   * Author: hermyd
@@ -140,10 +136,10 @@ _[Perilous Journey](https://www.fanfiction.net/s/8281675)_
 :   * Author: sbmcneil
     * Published: 2012-07-03. Updated: 2017-05-06.
     * Comments: also unfortunately unfinished, this story is another great
-      example of Harry and Ginny's mutually supporting relationship.  This one
-      is AU in that they get together sooner, and Umbridge is able to expel
-      them.  This also show cases [Dumbledore][D2]'s distrust of [Harry]({{< relref "Harry_James" >}}) 
-      and [Molly]({{< relref "Molly" >}}) as overprotective.
+      example of [Harry][] and [Ginny][]'s mutually supporting relationship.
+      This one is AU in that they get together sooner, and Umbridge is able to
+      expel them.  This also show cases [Dumbledore][D2]'s distrust of [Harry][] 
+      and [Molly][] as overprotective.
 
 [D2]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
 
@@ -151,7 +147,7 @@ _[Without a Trace](https://www.fanfiction.net/s/11718442)_
 :   * Author: sbmcneil
     *  Published: 2016-01-06. Updated: 2016-01-10.
     * Comments: Yet another work by this author, this one has the premise that
-      [Hermione][H1] does not actually get along with [Ginny][G1], and that
+      [Hermione][] does not actually get along with [Ginny][], and that
       [Percy][PW1] is not any more happy with his family's association with
       [Harry][] after the war than he was during it. 
 
@@ -184,7 +180,17 @@ _[Forced Maturity Part I: The Chamber of
       [James][] and [Lily][] are able, despite being dead, to induce a dream of
       what *might be* in [Harry][], said dream being the six books covering
       years two through seven.  The alternate universe kicks in because in this
-      story, trama causes magical children to mature faster in odd ways.
+      story, trauma causes magical children to mature faster in odd ways.
+
+_[Learning To Fly](https://fictionhunt.com/stories/18vxmr3)_
+:   * Author: hgfan1111
+    * Published: 2008-06-01. Updated: 2022-08-26.
+    * Comments: I think what I like about this one is that I can see where it
+      comes from.  I sincerely believe that [Ron][] and his brothers *would*
+      have reacted poorly to the idea of [Harry][] and [Ginny][] dating if
+      [Harry][] had not utterly surprised them with his show of affecting for
+      her after the quidditch match in book six.  I believe the intervention is
+      entirely realistic, as is [Harry][]'s response to it.
 
 [James]: <{{< relref "James" >}}>
 
@@ -198,10 +204,13 @@ _[Forced Maturity Part I: The Chamber of
 
 [PW1]: <{{< relref "Percy_Ignatius" >}}>
 
-[G1]: <{{< relref "Ginevra_Molly" >}}>
+[Ginny]: <{{< relref "Ginevra_Molly" >}}>
+
+[Molly]: <{{< relref "Molly" >}}>
 
 [H1]: <{{< relref "Hermione_Jean" >}}>
 
 [Hermione]: <{{< relref "Hermione_Jean" >}}>
 
+[Ron]: <{{< relref "Ronald_Bilius" >}}>
 
