@@ -164,6 +164,13 @@ _[Teatime in the Garden](https://www.siye.co.uk/siye/viewstory.php?sid=8935)_
       permanently hurt in the final confrontation with [Riddle][].  This
       story does.
 
+_[His Motivation](https://www.siye.co.uk/viewstory.php?sid=12615)_
+:   * Author: _kb_ 
+    * Published: 2007-03-04.
+    * Comment: This one is slightly more optimistic about the ability to use
+      magic to help [Harry][] recover.  Memories are used as a form of therapy
+      to assist in recovery from catastrophic brain injury.
+
 _[Disembodied](https://www.siye.co.uk/viewstory.php?sid=129752)_
 :   * Author: V for Vendetta
     * Published: 2013-09-05. Updated: 2013-09-27.
