@@ -26,7 +26,7 @@ type: "stories"
 
 [Deathly Hallows]: <https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows>
 
-#### Things differing for those familiar with _Many Waters_
+#### Things differing for those familiar with _[Many Waters][MW]_
 
 * L'Engle calls the fallen angels the nephilim.  I'm using more orthodox
   theology and calling the progeny of the union of an angel and a human a nephil
@@ -37,7 +37,7 @@ type: "stories"
   positing that fallen angels continued to seduce women during the Old Testament
   times. 
 
-#### Things Specifically Pulled from _Many Waters_
+#### Things Specifically Pulled from _[Many Waters][MW]_
 
 * Being seduced by a fallen angel is not just a matter of falling in love with
   the wrong person, the fallen angel also seduces you into an evil ritual that
@@ -46,7 +46,7 @@ type: "stories"
 * The fallen angels directly interact with humanity and have visible
   manifestations of the powers they retain from their angelic nature.  I'm
   extending this to say that some of these are inherited.  
-* All of the angels and nephil found in _Many Waters_ are, in Harry Potter
+* All of the angels and nephil found in _[Many Waters][MW]_ are, in Harry Potter
   terms, animagi.  
   * These animal forms are symbolic in some way of the angel or nephil in
   * question.  Again, per above, I am not using L'Engle's definition of nephil,
@@ -62,18 +62,24 @@ type: "stories"
 
 * Lewis describes the effect of sin on the fallen angles in _[The Screwtape
   Letters][TSL2]_.[^210408-1]  At various places I talk about "bizarre" things
-  happening to nephil.  This is more or less what I envision.  Essentially these
-  represent instances of Divine Justice, sometimes mediated by the actual
-  angels.  This is the primary idea pulled from that source.  I am going to be
-  inconsistent in my language about this, because it is (and always has been)
-  unclear to both the nephilim and the clergy how much is something *the
-  nephilim* did wrong (and was thus avoidable), how much is something *God*
-  caused to happen to them, and how much is something that an angel, acting
-  within the scope and authority granted that angel by God, has caused of its
-  own initiative.  To my mind, because I am also pulling from _Many Waters_
-  things in this third category are never *wrong* but might not represent the
-  *best possible* action in a given situation.
+  happening to nephil.  This is more or less what I envision.  However, I will
+  use language really loosely here, intentionally.
+  * Sometimes this represents instances of Divine Justice, that is, God has so
+    ordered the world (in this fictional universe) such that using magic a
+    certain way has consequences. 
+  * Sometimes this represents the power God has given actual angels.  Using
+    _[Many Waters][MW]_ as the source concept angels have a fair amount of
+    autonomy and sometimes a lack of clarity in how best to execute their
+    duties.  For those angels who did not rebel, their choices are never
+    sinful, but sometimes suboptimal (see the intro about this being bad
+    theology but good fiction). 
+  * Sometimes it represents something the nephil has him/her self done
+    unintentionally that cannot be (or at least has not been) distinquished
+    from the above categories.
 
+  I am *intentionally* going to *frequently* be vague and downright
+  inconsistent in my language about this, because it is (and always has been)
+  unclear to both the nephilim and the clergy which of the three is happening.
 
 #### Some Notable Differences from the actual Harry Potter universe
 
@@ -133,9 +139,9 @@ type: "stories"
    * Per the above, all nephil are animagi.  However, normally a child, growing
      up around those who either do not have or do not use this power, begins to
      instinctively suppress the ability. This suppression thing is how I am
-     merging the Harry Potter concept with the _Many Waters_ concept, and is
-     thus found in neither original work.  Some traditions, like that described
-     in _Short Stories of Heroism_ are time consuming, difficult, and
+     merging the Harry Potter concept with the _[Many Waters][MW]_ concept, and
+     is thus found in neither original work.  Some traditions, like that
+     described in _Short Stories of Heroism_ are time consuming, difficult, and
      exacting.[^220628-1]  In this work this is not because of the inherent
      difficulty of the actual magic, but rather the drawn out ritual is,
      functionally but unknowingly to the nephil population (who largely have
@@ -151,8 +157,13 @@ type: "stories"
      innate form.  They disregard the repercussions this has on the student's
      core personality, and sometimes even on the person's ability to function
      in normal human society.
+   * Per the above I believe that Mrs. Rowling set up a universe in which
+     binding magical contracts can be forced on someone in at least some
+     circumstances.  I am setting [some rules][af] on this.
 * I intended this long before I read this in any other work: faith, prayer, the
   Sacraments, and sacramentals will all have actual effects.[^210412-5]
+
+[af]: <{{< relref "Appendix_F" >}}>
 
 [FWoaO1]: <https://archiveofourown.org/works/28507302>
 

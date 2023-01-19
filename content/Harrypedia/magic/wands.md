@@ -44,6 +44,15 @@ author = "Luke Schierer"
     Does the shop still hold wands made by these earlier Ollivanders?  If so, is
     the current Mr. Ollivander willing to sell these wands, or only ones that
     meet his (higher) bar for quality? 
+* old-crow in his fan fiction _[The Core Wars][]_ speculates that perhaps as
+  many as ¾ of witches and wizards used what he terms "legacy"
+  wands.[^230103-1]  How common is it in fact to buy one's own wand?  This
+  story correctly points out that the wand maker's opinion on the subject may
+  not be unbiased.
+
+[^230103-1]: old-crow. _[The Core Wars][]_ Published: 2022-11-04. Updated: 2023-01-03.
+
+[The Core Wars]: <https://www.fanfiction.net/s/14156962>
 
 [^221219-1]: This debunked idea was used in, possibly among others,
     * old-crow. _[The Core Wars](https://www.fanfiction.net/s/14156962)_

@@ -112,7 +112,7 @@ _[A Romance In Reverse](https://www.fanfiction.net/s/12413357)_
       so his wish at the Sorting is for a friend, and thus Hufflepuff.... and
       it all flows from there. 
 
-_[Realizations](https://www.fanfiction.net/s/7875381)_
+_[Realizations][]_
 :   * Author: sbmcneil
     * Published: 2012-02-26. Updated: 2017-07-15.
     * Comments: Despite its unfinished state, this is one of my favourite after
@@ -127,6 +127,19 @@ _[Realizations](https://www.fanfiction.net/s/7875381)_
       shows a fair amount of character growth across the latter chapters of
       book seven, he and [Hermione][] have a lot further to go than [Harry][].
       This story gets all these things right. 
+
+
+[Realizations]: <https://www.fanfiction.net/s/7875381>
+
+_[An Open Secret](https://www.fanfiction.net/s/12195421)_
+:   * Author: CharmHazel
+    * Published: 2016-10-18. Updated: 2016-10-20.
+    * Comments: In many ways this is a shorter version of _[Realizations][]_.
+      The Weasleys think of [Ginny][] as a little girl, therefore she cannot be
+      in a serious relationship, therefore she isn't in one. [Harry][] broke up
+      with her, therefore he isn't interested in her, so why would they be
+      together?  These two statements sum up all the energy that is left when
+      you are lost in grief.
 
 [^220711-1]: Mrs. J. K. Rowling.
     _[Harry Potter and the Prisoner of Azkaban](https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban)_
@@ -179,8 +192,7 @@ _[Disembodied](https://www.siye.co.uk/viewstory.php?sid=129752)_
       take him in for no real reason?  Totally doesn't make much sense, but
       highly amusing.
 
-_[Forced Maturity Part I: The Chamber of
-    Secrets](https://www.siye.co.uk/viewstory.php?sid=127442)_
+_[Forced Maturity Part I: The Chamber of Secrets](https://www.siye.co.uk/viewstory.php?sid=127442)_
 :   * Author: pseudonym
     * Published: 2007-11-20. Updated: 2010-01-22.
     * Comments: I have always wished this were the first of a series.  In this,
@@ -199,9 +211,22 @@ _[Learning To Fly](https://fictionhunt.com/stories/18vxmr3)_
       her after the quidditch match in book six.  I believe the intervention is
       entirely realistic, as is [Harry][]'s response to it.
 
+_[Backward With Purpose Part I: Always and Always][]_
+:   * Author: deadwoodpecker
+    * Published: 2008-02-28. Updated: 2018-09-28.
+    * Comments: I do not often like either redeamed [Snape][] nor books with
+      Albus Severus, and this book and its sequel contain both.  Despite that,
+      I do enjoy it.  This book has one plot element that I particularly like,
+      [Harry][] crafts runes that amplify the power of the sacrifice he makes when
+      he allows [Riddle][] to kill him.
+
+[Backward With Purpose Part I: Always and Always]: <https://www.fanfiction.net/s/4101650>
+
 [James]: <{{< relref "James" >}}>
 
 [Lily]: <{{< relref "Lily_J." >}}>
+
+[Snape]: <{{< relref "Severus" >}}>
 
 [HP1]: <{{< relref "Harry_James" >}}> 
 
