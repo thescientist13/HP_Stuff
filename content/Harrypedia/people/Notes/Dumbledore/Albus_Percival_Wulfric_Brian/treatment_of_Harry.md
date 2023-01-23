@@ -52,7 +52,7 @@ shapes his actions much as the one that Macbeth hears shapes his actions.
 
 [Harry]: <{{< relref "Harry_James" >}}>
 
-[Dumbledore]: <{{< ref "/Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/" >}}>
+[Dumbledore]: <{{< relref "../../../Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
 In the fan fiction work _[The Sound of Silence][BW95TSS1]_ [Dumbledore][]
 states:
@@ -206,9 +206,9 @@ complicated nature of the thorny problem to confuse the listener.
 
 [Malfoys]: <{{< ref "/Harrypedia/people/Malfoy" >}}>
 
-[Dursleys]: <{{< ref "/Harrypedia/people/Dursley" >}}>
+[Dursleys]: <{{< ref "../../../Dursley" >}}>
 
-[abusive environment]: <{{< relref "Dursley" >}}>
+[abusive environment]: <{{< relref "../../../Dursley" >}}>
 
 [AD1]: <{{< relref "Albus_Percival_Wulfric_Brian" >}}>
 

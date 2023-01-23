@@ -6,20 +6,27 @@ date = "2022-06-27T15:51:54-04:00"
 author = "Luke Schierer"
 +++
 
-One of the curious things is how few works pair [Harry]({{< ref "Harry" >}}) 
-with Hannah Abbott.  The Abbott family is listed as one of the so-called
-"Sacred Twenty-Eight",[^211004-10] and yet Mrs. Rowling seems to have had a
-fair amount of trouble settling on Hannah's [blood 
-status]({{< ref "Class_and_Blood">}}).[^211004-11]  Hannah appears in the books
-only a few times, the first is a very ineffectual defence of [Harry]({{< ref "Harry" >}})
-where she initially states he cannot be the heir of 
-[Slytherin]({{< ref "Salazar" >}}) but backs down in the face of [Ernie
-Macmillan]({{< ref "Ernie" >}})'s assured intransigence.[^211004-12]  The next,
-we see her wearing a "Support Cedric" badge, but it does not say anything about
-her interacting with [Harry]({{< ref "Harry" >}}) directly.[^211004-13]  We
-then hear that she is pulled from school because her mother is killed in an
-attack by either [Riddle]({{< ref "Tom_Marvolo" >}}) or his Death
-Eaters.[^211004-14]  Lastly, we know she fought in the last battle.[^211004-15]
+One of the curious things is how few works pair [Harry][] with Hannah Abbott.
+The Abbott family is listed as one of the so-called "Sacred
+Twenty-Eight",[^211004-10] and yet Mrs. Rowling seems to have had a fair amount
+of trouble settling on Hannah's [blood status]({{< relref
+"Class_and_Blood">}}).[^211004-11]  Hannah appears in the books only a few
+times, the first is a very ineffectual defence of [Harry][] where she initially
+states he cannot be the heir of [Slytherin][Salazar] but backs down in the face
+of [Ernie Macmillan][Ernie]'s assured intransigence.[^211004-12]  The next, we
+see her wearing a "Support Cedric" badge, but it does not say anything about
+her interacting with [Harry] directly.[^211004-13]  We then hear that she is
+pulled from school because her mother is killed in an attack by either
+[Riddle][] or his Death Eaters.[^211004-14]  Lastly, we know she fought in the
+last battle.[^211004-15]
+
+[Harry]: <{{< relref "Harry_James" >}}>
+
+[Salazar] <{{< relref "Salazar" >}}>
+
+[Ernie]: <{{< relref "../Macmillan" >}}>
+
+[Riddle]: <{{< relref "Tom_Marvolo" >}}>
 
 [^211004-15]: Mrs. J. K. Rowling.
     _[Harry Potter and the Deathly Hallows](https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows)_

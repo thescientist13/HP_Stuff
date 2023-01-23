@@ -95,7 +95,7 @@ such as [McGonagall][] and [Sprout][] might well pick up on that distrust.
 
 [Harry]: <{{< relref "Harry_James" >}}>
 
-[Dumbledore]: <{{< ref "/Harrypedia/people/Dumbledore/Albus_Percival_Wulfric" >}}>
+[Dumbledore]: <{{< relref "../../../Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
 
 [McGonagall]: <{{< relref "Minerva" >}}>
 

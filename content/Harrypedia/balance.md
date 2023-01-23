@@ -37,11 +37,13 @@ protect someone else, but are stronger than standard shields?  Why do we not
 health problems irrelevant?  Harry should be healed of his vision problems,
 someone else cured after being crushed by a giant (since that is, in essence a
 mundane injury), or after a catastrophic fall from a broom (explaining why
-[Madam Pomfrey]({{< relref "Pomfrey" >}}) hates Quidditch).  Since dementors
-play an important role, so to should some of the more benevolent creatures.
-Sure, Fawkes is critical with the basilisk, but that creature is so evil it
-needs its own balance.  And yes, Buckbeak shows up a few times, but so too do
-Acromantula, which, again, are mostly evil.  
+[Madam Pomfrey][] hates Quidditch).  Since dementors play an important role, so
+to should some of the more benevolent creatures.  Sure, Fawkes is critical with
+the basilisk, but that creature is so evil it needs its own balance.  And yes,
+Buckbeak shows up a few times, but so too do Acromantula, which, again, are
+mostly evil.  
+
+[Madam Pomfrey]: <{{< relref "people/Pomfrey" >}}>
 
 In short, magic seems to have massively escalated the fallen nature of the
 world.  If love is so powerful, why is [Lily][]'s self sacrifice the only

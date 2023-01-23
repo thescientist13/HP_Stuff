@@ -12,9 +12,9 @@ association between hair length and societal status in Europe.[^220719-3]  Thus
 if true, this would be something unique to the magical world, and more over, a
 uniqueness not substantiated by the cannonical works.
 
-[LM1]: <{{< ref "Harrypedia/people/Malfoy/Lucius" >}}>
+[LM1]: <{{< relref "Lucius_Abraxas" >}}>
 
-[DLM1]: <{{< ref "Harrypedia/people/Malfoy/Draco_Lucius" >}}>
+[DLM1]: <{{< relref "Draco_Lucius" >}}>
 
 [^220719-1]: This may be a movie thing, and may not be supported by the written works.
 
