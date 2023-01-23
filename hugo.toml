@@ -9,6 +9,9 @@ enableRobotsTXT = true
 theme = "docsy"
 enableGitInfo = true
 
+[frontmatter]
+-  date = [":git", "date", ":filename", "publishDate", "lastmod"]
+
 disablePathToLower = true
 
 refLinksErrorLevel = "WARNING"
