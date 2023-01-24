@@ -78,5 +78,22 @@ understand the difference.
       _[For the Want of a Groundskeeper](https://archiveofourown.org/works/21541015)_
       Published: 2019-11-24. Completed: 2019-11-24.
 
+One work does have what may be a workable definition.  It says that "dark" and
+"light" are categories of emotions that power magic.[^230124-1]  "Dark" magic is
+powered by anger, sadness, and fear under this theory.  The work rightly points
+out that these emotions are not inherently sinful.  Anger can be righteous
+anger.  Fear can be justifiable.  As of writing this, I have not finished the
+work to find out how well the author pulls this off, but I can see some
+potential problems.  There is a difference in *kind* between righteous anger and
+the hatred that powers the killing curse or the [cruciatus][].  I strongly
+suspect, from the brief bit that I *have* read, that the author does not grasp
+this difference.  If so, it will prove a fatal flaw to the theory, for it means
+that there will be no examples of "dark" magic that do not strongly tend towards
+evil, and my overall thoughts on the matter will stand essentially uncontested. 
 
+[^230124-1]: AliceMoonflowyr. _[The Black Wind][]_ Published 2022-01-10. Updated: 2022-09-21.
+
+[The Black Wind]: <https://archiveofourown.org/works/36341272>
+
+[cruciatus]: <{{< relref "../spells/Cruciatus" >}}>
 
