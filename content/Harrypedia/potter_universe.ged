@@ -2,11 +2,11 @@
 1 SOUR Gramps
 2 VERS 5.1.2
 2 NAME Gramps
-1 DATE 30 NOV 2022
-2 TIME 14:40:25
+1 DATE 23 JAN 2023
+2 TIME 17:52:25
 1 SUBM @SUBM@
 1 FILE /home/schierer/luke/src/HarryPotter/content/Harrypedia/potter_universe.ged
-1 COPR Copyright (c) 2022 .
+1 COPR Copyright (c) 2023 .
 1 GEDC
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
@@ -1317,10 +1317,19 @@
 2 NICK Bill
 1 SEX M
 1 BIRT
-2 DATE 29 NOV 1970
+2 DATE 29 NOV 1971
 2 SOUR @S0035@
 3 PAGE https://web.archive.org/web/20191002071503/https://www.pottermore.com/explore-the-story/bill-weasley
 2 SOUR @S0030@
+3 PAGE https://www.hp-lexicon.org/2004/05/02/the-age-of-the-weasleys/
+2 SOUR @S0044@
+3 PAGE https://www.hp-lexicon.org/2007/07/18/quidditch-through-the-weasleys-ages-or-the-unusual-career-of-charles-weasley/
+1 EVEN
+2 TYPE Hogwarts Sorting
+2 DATE 2 SEP 1983
+2 SOUR @S0044@
+3 PAGE https://www.hp-lexicon.org/2004/05/02/the-age-of-the-weasleys/
+2 SOUR @S0044@
 3 PAGE https://www.hp-lexicon.org/2004/05/02/the-age-of-the-weasleys/
 1 FAMC @F0019@
 2 PEDI birth
@@ -1328,8 +1337,8 @@
 1 SOUR @S0035@
 2 PAGE https://web.archive.org/web/20191002071503/https://www.pottermore.com/explore-the-story/bill-weasley
 1 CHAN
-2 DATE 10 SEP 2021
-3 TIME 19:25:12
+2 DATE 2 DEC 2022
+3 TIME 20:22:11
 0 @I0074@ INDI
 1 NAME Percy Ignatius /Weasley/
 2 GIVN Percy Ignatius
@@ -1375,7 +1384,11 @@
 3 PAGE https://web.archive.org/web/20191002072152/https://www.pottermore.com/explore-the-story/nymphadora-tonks
 1 EVEN
 2 TYPE Hogwarts Sorting
-2 DATE 1 SEP 1984
+2 DATE 1 SEP 1985
+2 SOUR @S0044@
+3 PAGE https://www.hp-lexicon.org/2004/05/02/the-age-of-the-weasleys/
+2 SOUR @S0044@
+3 PAGE https://www.hp-lexicon.org/2007/07/18/quidditch-through-the-weasleys-ages-or-the-unusual-career-of-charles-weasley/
 1 FAMC @F0022@
 2 PEDI birth
 1 FAMS @F0034@
@@ -1597,12 +1610,18 @@
 2 SURN Weasley
 1 SEX M
 1 BIRT
-2 DATE 12 DEC 1972
+2 DATE 12 DEC 1973
 2 SOUR @S0030@
 3 PAGE https://www.hp-lexicon.org/2004/05/02/the-age-of-the-weasleys/
+2 SOUR @S0044@
+3 PAGE https://www.hp-lexicon.org/2007/07/18/quidditch-through-the-weasleys-ages-or-the-unusual-career-of-charles-weasley/
 1 EVEN
 2 TYPE Hogwarts Sorting
-2 DATE 1 SEP 1984
+2 DATE 1 SEP 1985
+2 SOUR @S0044@
+3 PAGE https://www.hp-lexicon.org/2004/05/02/the-age-of-the-weasleys/
+2 SOUR @S0044@
+3 PAGE https://www.hp-lexicon.org/2007/07/18/quidditch-through-the-weasleys-ages-or-the-unusual-career-of-charles-weasley/
 1 FAMC @F0019@
 2 PEDI birth
 1 SOUR @S0030@
@@ -4333,6 +4352,22 @@
 1 CHAN
 2 DATE 30 NOV 2022
 3 TIME 19:38:34
+0 @I0278@ INDI
+1 NAME Kingsley /Shacklebolt/
+2 GIVN Kingsley
+2 SURN Shacklebolt
+1 SEX M
+1 SOUR @S0049@
+1 SOUR @S0038@
+2 PAGE https://www.rowlingindex.org/work/msmpm/
+2 QUAY 2
+2 DATA
+3 DATE 31 OCT 2014
+1 SOUR @S0004@
+2 PAGE https://harrypotter.fandom.com/wiki/Main_Page?file=KingsleyFile.png
+1 CHAN
+2 DATE 5 DEC 2022
+3 TIME 22:44:15
 0 @F0000@ FAM
 1 HUSB @I0001@
 1 WIFE @I0002@
@@ -5285,6 +5320,13 @@
 1 CHAN
 2 DATE 18 NOV 2022
 3 TIME 20:26:24
+0 @S0049@ SOUR
+1 TITL Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists…
+1 AUTH J. K. Rowling
+1 PUBL Pottermore Publishing (2016)
+1 CHAN
+2 DATE 5 DEC 2022
+3 TIME 19:14:33
 0 @R0000@ REPO
 1 NAME https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTr
 2 CONC ee.jpg
