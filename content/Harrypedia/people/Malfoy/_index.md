@@ -23,10 +23,10 @@ since.[^210330-5]
 [Longbottom]: <{{< relref "../Longbottom" >}}>
 
 On a side note, "Malfoy" is essentially "Bad faith" in French.  I highly doubt
-that Mrs. Rowling intended this to have any real meaning except foreshadowing the
-role that the family would play.  It would, however, be incredibly fun if it
-*did* have meaning.  In a world where [Astoria Greengrass][Astoria] can have a
-hereditary curse,[^210421-1] this should certainly be possible.  Considering
+that Mrs. Rowling intended this to have any real meaning except foreshadowing
+the role that the family would play.  It would, however, be incredibly fun if
+it *did* have meaning.  In a world where [Astoria Greengrass][Astoria] can have
+a hereditary curse,[^210421-1] this should certainly be possible.  Considering
 that French was a fairly well known language in the upper classes, I cannot
 imagine that the name "Bad faith" did the Malfoy family any good mixing with
 the upper crust of either society.  Sure they may have kept it out of stubborn
@@ -36,7 +36,16 @@ name.[^210421-2]
 Interestingly, based on the timelines I can piece together, Abraxus Malfoy
 should have been alive for most if not all of the first war.[^210816-1] At
 least, I can find no indication that he himself was a known death
-eater,[^210816-2] or that he died before Lucius graduated school.[^210816-3]
+eater,[^210816-2] or that he died before [Lucius][] graduated
+school.[^210816-3]  This overlap is probably the reason why some authors have
+chosen to state that [Lucius][] may have inherited the relationship with
+[Riddle][] rather than having fostered it.
+
+[Riddle]: <{{< relref "Tom_Marvolo" >}}>
+
+[Lucius]: <{{< relref "Lucius_Abraxas" >}}>
+
+[History]: <{{< relref "History" >}}>
 
 [^210816-3]: I cannot exactly document a negative for this one.
 
