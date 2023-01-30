@@ -22,7 +22,7 @@ _[Hope][]_
       1. The gap is a problem for [Harry][], but magic is not always kind, nor
 	 always able to be undone.
 
-[Hope]: <https://web.archive.org/web/20210620143920/https://jeconais.fanficauthors.net/Hope/index/>
+[Hope]: <https://web.archive.org/web/20170308183611/http://jeconais.fanficauthors.net/Hope/index/>
 
 _[Happily Ever After][HEA]_
 :   * Author: Jeconais
