@@ -184,6 +184,15 @@ _[His Motivation](https://www.siye.co.uk/viewstory.php?sid=12615)_
       magic to help [Harry][] recover.  Memories are used as a form of therapy
       to assist in recovery from catastrophic brain injury.
 
+_[Mutant Storm][]_
+:   * Author: [Bobmin](https://www.fanfiction.net/u/777540/Bobmin356)
+    * Published: 2011-09-22. Updated: 2011-09-26.
+	* Comment: This is an {{< wikipedia "X-Men" >}} crossover story, and while
+	  I do not think the author *quite* pulled off the bit about despair as a
+	  trigger for mutant powers, it remains a story I keep coming back to.
+
+[Mutant Storm]: <https://www.fanfiction.net/s/7404056>
+
 _[Disembodied](https://www.siye.co.uk/viewstory.php?sid=129752)_
 :   * Author: V for Vendetta
     * Published: 2013-09-05. Updated: 2013-09-27.
