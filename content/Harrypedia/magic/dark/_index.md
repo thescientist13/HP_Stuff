@@ -97,3 +97,26 @@ evil, and my overall thoughts on the matter will stand essentially uncontested.
 
 [cruciatus]: <{{< relref "../spells/Cruciatus" >}}>
 
+Another line of speculation is the effects of this "dark" magic, not just on
+the victim, but on the person who casts it.  In _[How?][]_, it is speculated
+that dark magic leaves behind … residue in the body of both the caster and the
+victim.[^230201-1]  If not purged, this residue will have both physical,
+emotional, and psychological effects on the person.  Another theory is that it
+is addictive and personality warping, but not quite so … tangible as _[How?][]_
+would have it..[^230201-2]  Others of course would have it be that the whole
+thing is just bias and prejudice,[^230201-3] while yet others attempt to walk
+some sort of line - it can be abused, and its abuse can have effects on your
+personality, but properly used it is fine.[^230201-4]  I could deal with the
+idea that it is morally wrong but safe to use (except for the moral effects on
+your soul), but this last theory to me is not really tenable.
+
+[^230201-1]: Labgasod. _[How?][]_ Published: 2023-01-03 Updated:2023-02-01. 
+
+[^230201-2]: I recall reading this, but not which work I read it in. 
+
+[^230201-3]: I know I have hit this more than once, but not which works I read it in. 
+
+[^230201-4]: I know I have hit this more than once, but not which works I read it in. 
+
+[How?]: <https://archiveofourown.org/works/44041816/>
+
