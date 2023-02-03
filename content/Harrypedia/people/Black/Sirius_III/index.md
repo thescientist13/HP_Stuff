@@ -7,7 +7,7 @@ date = "2021-05-17T12:21:34-04:00"
 author = ""
 +++
 
-### facts
+### Facts
 
 * Sirius did not, as he is often accused, give Harry to [Hagrid][]; he (Sirius)
   arrived second.[^210517-1]
@@ -55,6 +55,13 @@ One possibility:
 > "I am not sure. He'll be unconscious for most of the treatment so he might
 > spend the next three months in an induced coma while the potions do their
 > magic," the older witch said[^210630-4]
+
+A second possibility:
+> Dementors fed on happy memories. That was what they did. When you spent any amount of time in Azkaban, they sucked your happy memories out of you. You could recover them, of course. It was possible to entirely recover from even an extended trip to Azkaban, in fact, given time and support and a great deal of chocolate, but the key word there was time. Nearly a full year had passed between when Sirius escaped from Azkaban and when Harry had met him, during which time Sirius had been propelled entirely or almost entirely by hatred of Wormtail. Harry's parents were probably the subject of Sirius' worst memory, the image of them lying dead which (having been among Snape's memories) haunted Harry as well. Them he could not forget, any more than he could forget his raging need for Peter Pettigrew to be dead. That wasn't a happy memory. But Harry? Harry had been one year old when Sirius lost him, a tiny ball of green-eyed joy who chased James' cat on his toy broomstick and couldn't pronounce 'Moony' properly. Harry would probably have been, in his entirety, a happy memory ...[^230203-1]
+
+[^230203-1]: slythernim. _[Messing With Time][]_ Published: 2019-06-23. Updated: 2023-01-17. 
+
+[Messing With Time]: <https://archiveofourown.org/works/19334905>
 
 [^210630-4]: VonPelt.
     _[No Longer Alone](https://www.fanfiction.net/s/12745758)_
@@ -159,10 +166,11 @@ that could mean before his curse *landed* rather than before it was *cast*.
    _[Harry Potter and the Prisoner of Azkaban](https://www.librarything.com/work/2742161/book/225886376)_
    Bloomsbury Press (2004). page 363. 
 
-[^221202-4]: This line of reasoning from comes from "[Abandoning
-    Ship](https://www.redhen-publications.com/abandoningShip.html)" by Red Hen
-    Publications.  I am not sure how much I am convinced by it, but it does have
-    a certain persuasiveness.
+[^221202-4]: This line of reasoning from comes from "[Abandoning Ship][]" by
+    Red Hen Publications.  I am not sure how much I am convinced by it, but it
+    does have a certain persuasiveness.
+
+[Abandoning Ship]: <https://www.redhen-publications.com/abandoningShip.html>
 
 [History]: <{{< relref "History" >}}>
 
@@ -181,7 +189,10 @@ about dangerous situations?  Is the antagonism with [Snape][] due to hatred for
 one whose loyalty he suspects might in fact be towards [Riddle][], or is it
 evidence that he remains the immature bully he admits he was a
 youth?[^210519-11]  In short, does Sirius deserve the censure that [Molly][]
-and [Hermione][] at times level upon him?
+and [Hermione][] at times level upon him?  Much of this hinges on the [effects
+of Azkaban][].
+
+[effects of Azkaban]: <{{< ref "#effects-of-azkaban" >}}>
 
 [Pettigrew]: <{{< relref "Peter" >}}>
 
