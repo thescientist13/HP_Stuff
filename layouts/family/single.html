@@ -19,7 +19,7 @@
     {{ end }}
   </header>    
 
-	{{ $GedFile := printf "%s" (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
+	{{ $GedFile := printf "%s" (resources.GetMatch "potter_universe.ged").Permalink }}
 	{{ $id := printf "%s" .Params.surn }}
 	{{ with $GedFile }}
 	  <hp-gc myGedUrl="{{.}}">

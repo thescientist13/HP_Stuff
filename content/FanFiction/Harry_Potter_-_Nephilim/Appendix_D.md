@@ -255,12 +255,11 @@ them:
    protection augmenting his capabilities.  Riddle never fully understood that
    protection, and taking Harry's blood does not fully bypass it. 
 1. Lily's protection aside, you need to decide what theory of
-   [horcruxes]({{< ref "Harrypedia/Horcruxes" >}}) you are using, and what
-   affect that theory has on Riddle's powers after the destruction of the
-   diary.  For this work, I think that both the audience and the characters are
-   in the dark about that answer, but suffice to say that one way or another,
-   you cannot suffer the destruction of a [horcrux]({{< ref "Harrypedia/Horcruxes" >}}) 
-   you have created without *suffering.* 
+   [horcruxes][] you are using, and what affect that theory has on Riddle's
+   powers after the destruction of the diary.  For this work, I think that both
+   the audience and the characters are in the dark about that answer, but
+   suffice to say that one way or another, you cannot suffer the destruction of
+   a [horcrux][] you have created without *suffering.* 
 1. In the books, Harry *learns* to resist the Imperius Curse, the fake Moody
    uses it several times on him before he can resist it easily.  Even then, it
    takes Harry noticeable effort to resist Riddle's when they meet in the
@@ -271,4 +270,6 @@ them:
    Dumbledore, and Snape at a level where they need not fear Riddle overwhelming
    them in the mind arts. 
 
+[horcruxes]: <{{< relref "Horcruxes" >}}>
 
+[horcrux]: <{{< relref "Horcruxes" >}}>

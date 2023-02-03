@@ -26,7 +26,7 @@ _[Harry Potter and The Old Friend](https://www.fanfiction.net/s/12805587)_
 
 [Harry]: <{{< relref "Harry_James" >}}>
 
-[Susan]: <{{< relref "Susan" >}}> 
+[Susan]: <{{< relref "../Harrypedia/people/Bones/Susan" >}}> 
 
 [Ron]: <{{< relref "Ronald_Bilius" >}}>
 

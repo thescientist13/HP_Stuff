@@ -45,7 +45,7 @@ speculation are in the [History][] timeline.
 
 [Phineus Nigellus]: <{{< relref "Phineus_Nigellus" >}}>
 
-[Cygnus I]: <{{< relref "Black/Cygnus" >}}>
+[Cygnus I]: <{{< relref "../Black/Cygnus" >}}>
 
 [Malfoy]: <{{< relref "/Harrypedia/people/Malfoy" >}}>
 
@@ -55,7 +55,7 @@ speculation are in the [History][] timeline.
 
 [Harfang]: <{{< relref "Harfang" >}}>)
 
-[Arthur]: <{{< relref "Weasley/Arthur" >}}>
+[Arthur]: <{{< relref "../Weasley/Arthur" >}}>
 
 [Cedrella]: <{{< relref "Cedrella" >}}>
 

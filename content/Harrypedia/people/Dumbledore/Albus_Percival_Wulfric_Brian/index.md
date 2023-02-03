@@ -189,7 +189,7 @@ Dumbledore are.  In no particular order:
 
 [HJP]: <{{< relref "Harry_James" >}}>
 
-[DMH1]: <{{< relref "Horcrux" >}}>
+[DMH1]: <{{< relref "Horcruxes" >}}>
 
 [^220916-1]: Mrs. J. K. Rowling. 
     _[Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists…](https://www.librarything.com/work/18275514)_

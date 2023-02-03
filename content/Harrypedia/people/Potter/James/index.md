@@ -156,7 +156,7 @@ needed it.
 
 [McGonagall]: <{{< relref "Minerva" >}}>
 
-[Pettigrew]: <{{< relref "Peter_Pettigrew" >}}>
+[Pettigrew]: <{{< relref "../../Pettigrew/Peter" >}}>
 
 ---
 

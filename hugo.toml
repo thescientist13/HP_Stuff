@@ -9,6 +9,9 @@ enableRobotsTXT = true
 theme = "docsy"
 enableGitInfo = true
 
+[frontmatter]
+  date = [":git", ":filename", "publishDate", "lastmod", "date" ]
+
 disablePathToLower = true
 
 refLinksErrorLevel = "WARNING"
@@ -27,7 +30,7 @@ refLinksErrorLevel = "WARNING"
     urls = ['.*']
 
 [outputs]
-  home = ["HTML", "RSS","JSON"]
+  home = ["HTML", "RSS"]
 
 # Language settings
 contentDir = "content"

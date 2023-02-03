@@ -27,7 +27,7 @@ author = "Luke Schierer"
 
 #### Wizengamot
 
-* We know there are about 50 members at [Harry][HJP1]'s trial,[^210329-4] when it sits
+* We know there are about 50 members at [Harry][]'s trial,[^210329-4] when it sits
   in a "full criminal trial"[^210329-6] or in other words, "the full
   court."[^210329-7]
 * We do not know if "the full court" is the same as "the full Wizengamot," it is
@@ -58,8 +58,8 @@ relatively minor, but you also have to rewrite the [Potter][] and [Black][]
 histories.  You are essentially ignoring *all* genealogical information not
 just from secondary canonical sources like [Pottermore][], you are even
 ignoring some from the books.  If the Wizengamot is based on noble titles, then
-[Harry][HJP1]'s status as [Sirius][]' godson is insufficient to explain
-inheritance, [Harry][HJP1] must also be biologically related to the
+[Harry][]'s status as [Sirius][]' godson is insufficient to explain
+inheritance, [Harry][] must also be biologically related to the
 [Blacks][Black].  The problem is that there is no Euphemia Black in the
 [Black][] tree, and no reasonable [Black][] who might have married [Henry
 Potter][Henry].
@@ -78,9 +78,9 @@ Hallows.  Lastly, it does not solve the problem of voting inheritance between
 the [Black][] and [Potter][] families (though this might be considered part of
 my statement that it contradicts the origin stories).
 
-[HJP1]: <{{< ref "Harrypedia/people/Harry_James" >}}>
+[Harry]: <{{< relref "/Harry_James" >}}>
 
-[Henry]: <{{< ref "Harrypedia/people/Potter/Henry" >}}>
+[Henry]: <{{< relref "Henry" >}}>
 
 [Sirius]: <{{< ref "Harrypedia/people/Black/Sirius_III" >}}>
 
