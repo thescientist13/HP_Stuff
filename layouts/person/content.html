@@ -26,7 +26,7 @@
 				</div>
 				<div class="card-body">
 					<p class="card-text">
-					  {{ $GedFile := printf "%s" (.FirstSection.Resources.GetMatch "potter_universe.ged").Permalink }}
+					  {{ $GedFile := printf "%s" (resources.GetMatch "potter_universe.ged").Permalink }}
 						{{ $id := printf "@%s@" .Params.id }}
 						{{ with $GedFile }}
 						  <hp-gc myGedUrl="{{.}}">

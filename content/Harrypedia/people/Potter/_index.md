@@ -12,7 +12,7 @@ weight = 5
 
 * The Potter family had [wealth][].
 
-[wealth]: <{{< ref "/Harrypedia/people/Potter/Wealth/" >}}>
+[wealth]: <{{< relref "../Notes/Potter/wealth" >}}>
 
 #### speculation
 

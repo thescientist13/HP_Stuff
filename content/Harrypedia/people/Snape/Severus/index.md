@@ -105,7 +105,7 @@ was not around.
 
 [dark]: <{{< relref "dark" >}}>
 
-[sectumsempra]: <{{< relref "Sectumsempra" >}}>
+[sectumsempra]: <{{< relref "../../../magic/spells/Sectumsempra" >}}>
 
 [^221220-4]: Mrs. J. K. Rowling.
     _[Harry Potter and the Order of the Phoenix][]_

@@ -1,5 +1,6 @@
-[[!tag "HP Notes"]]
-[[!meta title="Relationships between Characters"]]
++++
+title = "Relationships between Characters"
++++
 
 ### Overview
 

@@ -98,6 +98,8 @@ wronged him.
 * [Lily][] defends [James][] and Co saying "They don't use Dark Magic."  
 * [Lily][] calls [Snape][] ungrateful, because [James][] saved [Snape][]'s
   life.
+* The events where [James][] saves [Snape][] in the tunnel are *also* refereed
+  to as "the other day".
 * [Snape][] claims that [James][] was saving himself, that saving [Snape][] was
   essentially a selfish act. 
 * Once [Lily][] states that [James][] is "an arrogant toerag," [Snape][] stops
@@ -218,7 +220,7 @@ werewolf encounter, overestimated the controls on [Lupin][] escaping restraint,
 or both.  [Snape][] *intended* to be a hero, exposing a danger to the school at
 great personal risk.  This cunning plan was spoiled by three things.  Firstly,
 in that, as I said, he underestimated the danger and required rescue.
-Secondly, because that rescuer was his own nemisis, and (according to [Snape])
+Secondly, because that rescuer was his own nemesis, and (according to [Snape])
 in on the whole thing anyway.  Thirdly, because [Dumbledore][] insisted on
 keeping the whole matter quiet, and prevented [Snape][] from actually exposing
 [Lupin][]. [Snape][] resents the fact that he is denied his moment of glory,

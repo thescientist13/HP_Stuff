@@ -120,7 +120,7 @@ despite this, at the formational meeting for the DA, Harry is apparently unsure
 of Susan's name, despite the fact that she has been in his herbology class for
 *four years* (not counting the bit of fifth year) at that point.[^221130-1]  I
 had 280 people in my high school class, and by the end of senior year, I
-probably had a few that I did not immediately recognize by name, even though
+probably had a few that I did not immediately recognise by name, even though
 many I knew nothing else about them, but *most* of them I knew at least that
 much.  It is *crazy* to think that, with only forty people in his class, Harry
 did not learn at least their last names and faces (since the professors mostly
@@ -137,7 +137,7 @@ come from an abusive background where attention is associated with pain.  He is
 not used to it, nor comfortable being the focus of it. *This* I think, is why
 he so profoundly self-isolates that he doesn't even learn the names of his
 classmates.  He is not really a *classmate* to them, and so they in turn do not
-settle into distict individuals in *his* mind either. 
+settle into distinct individuals in *his* mind either. 
 
 [^221130-2]: Mrs. J. K. Rowling.
     _Harry Potter and the Philosopher's Stone](https://www.librarything.com/work/5403381/book/225886281)_
@@ -156,7 +156,7 @@ that while James did mess up his hair, it was also unfix-ably untidy.[^200710-2]
 The most likely explanation of this is that it is purely genetic, but lots of
 authors have had fun speculating a magical origin for this hair.  I read one
 idea that I found really amusing, that Harry's hair was a prank that James
-played on Lily.[^200710-3]  As I said, the book 1 evidence probably contradicts
+played on [Lily][].[^200710-3]  As I said, the book 1 evidence probably contradicts
 the theory, but it is a great one.
 
 At the beginning of book 5, we read that Harry "was a skinny, black-haired,
@@ -166,11 +166,11 @@ four we know that James Potter was still taller than Harry,[^221024-2] either
 this growth spurt happened *after* the graveyard scene (despite Harry's poor
 diet at Privet Drive), or it was insufficient to make him taller than his
 father.  Either way, Harry observed that he is roughly the same height his
-father was at age 15/16.[^221024-3]  So either the effects of his childhood
-malnutrition have been healed, or Mrs. Rowling (possibly unconsciously) chose to
-utterly ignore the high probability of such effects.[^221024-4]  Either way, we
-*still* have no clear indication of exactly how tall this is.  We know only a
-few things definitively:
+father was at age 15/16 by the *end* of that year.[^221024-3]  So either the
+effects of his childhood malnutrition have been healed, or Mrs. Rowling
+(possibly unconsciously) chose to utterly ignore the high probability of such
+effects.[^221024-4]  Either way, we *still* have no clear indication of exactly
+how tall this is.  We know only a few things definitively:
  * that by the beginning of book seven, Harry is taller than [Hermione][] and
    Mundungus, and shorter than [Ron][], [Fred][] and
    [George][].[^221024-5]  
@@ -178,9 +178,20 @@ few things definitively:
 
 See my further comments on [growth][].
 
+While some authors highly object to Harry looking so very like [James][], I
+have seen families where one or more children take *very* strongly after one of
+the two parents.  Thus, this does not bother me.  What does is the repeated
+emphasis on him having [Lily]'s eyes, yet he has *[James][]'* vision.  That, to
+me, *does* require explanation.  Fortunately for the over analytical reader,
+there are reasonable, if unconfirmed, explanations available.  Harry's need for
+glasses is probably either an effect of from his scar, or an effect from living
+in the cupboard.  Since both are speculation, we do not know which.
+
 [growth]: <{{< relref "growth" >}}>
 
 [Hermione]: <{{< relref "Hermione_Jean" >}}>
+
+[Lily]: <{{< relref "Lily_J." >}}>
 
 [James]: <{{< relref "James" >}}>
 

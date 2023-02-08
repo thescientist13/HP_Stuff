@@ -366,7 +366,7 @@ to work, [Riddle][] ought to have been at [eleven][], or [thirteen][] parts.
 
 [Riddle]: <{{< relref "Tom_Marvolo" >}}>
 
-[stable number]: <{{< ref "/Harrypedia/magic/arithmancy/RealWorld/" >}}>
+[stable number]: <{{< relref "../arithmancy/RealWorld" >}}>
 
 [HJP1]: <{{< relref "Harry_James" >}}>
 

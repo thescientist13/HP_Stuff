@@ -7,7 +7,7 @@ date = "2021-05-17T12:21:34-04:00"
 author = ""
 +++
 
-### facts
+## Facts
 
 * Sirius did not, as he is often accused, give Harry to [Hagrid][]; he (Sirius)
   arrived second.[^210517-1]
@@ -20,9 +20,66 @@ author = ""
 
 [^210517-2]: See my notes on the [History][] page.
 
-### Speculation
+[Hagrid]: <{{< relref "Rubeus" >}}>
 
-#### Effects of Azkaban
+## Speculation
+
+### Sending [Snape][] to the Shack
+
+I cannot count nor even begin to compile a list of references to the many
+places I have read that one or another character justified distrust of Sirius
+on the fact that Sirius sent [Snape][] to his death down the tunnel between the
+Whomping Willow and the Shrieking Shack.  Everyone acts as if [Snape][] was
+tricked into a life or death situation.  If that were true, then Sirius
+certainly bears heavy responsibility. *But is that credible?*
+
+As I discuss in my extended look at [Snape's Worst Memory][SWM], I do not
+believe that it *is* credible.  [Lupin][] admits that [Snape][] had been
+investigating the trips out out of the castle for some time.  [Lily][] states
+that she "knows [his] theories" connecting [Lupin][] and the full moon
+*despite* knowing only rumours of [Snape][] having met a life threatening
+situation in the tunnel.  Given this is all happening in the space of a few
+days, we have one of two options.
+
+1. Despite being constrained to keep secret about [Lupin][]'s status, [Snape][]
+   has gone on at such length that in one or two days [Lily][] is already sick
+   and tired of hearing his *theories* **_plural_** about his "supposed" status
+   as a werewolf.  Note, she distinctly said "theories" not "theory" in the
+   book.  [Snape][] has developed *multiple* theories connecting [Lupin][] to a
+   full moon. and [Lily][] is tired of hearing about it.
+2. [Snape][] has been developing these *multiple* theories **for some time**.
+   Presenting them to [Lily][] has gained some urgency in the last few days now
+   that at least one of them has been proven right, but this is not a new
+   topic.  [Lily][] is still tired of hearing about it.
+
+I find the second of these far more likely, though admittedly, both fit the
+canonical facts.  So the most likely scenario is something like this:
+
+[Snape][] started insinuating that he already knows what is going on.  He is
+goading Sirius precisely the way we see happen during Order of the Phoenix
+meetings.[^230206-1]  Sirius made a comment along the lines of "if you want to
+meet one, go down and ..." giving directions to access the tunnel.  The thing
+is, if [Snape][] believed his own theories, *why did he go?*  Why would you
+take advice from an enemy about meeting a dangerous creature?  Conversely from
+Sirius' perspective, who would think that [Snape][] *would* actually go down
+the tunnel the night of a full moon?
+
+Sure, I can believe that Sirius was probably not very *upset* that [Snape][]
+almost died, but that would be in part because of his own dark upbringing, and
+in part because Sirius would *blame [Snape][]* for the situation.  More, Sirius
+would *resent* being blamed, when he, rightly, would question who in their
+right mind, having made comments similar to those [Snape][] had been making,
+would have ever gone down the tunnel!
+
+[Lily]: <{{< relref "Lily_J." >}}>
+
+[SWM]: <{{< relref "swm" >}}>
+
+[^230206-1]: For one example, see Kindle Location 7647, Mrs. J. K. Rowling. _[Harry Potter and the Order of the Phoenix][]_ Bloomsbury UK (2003)
+
+[Harry Potter and the Order of the Phoenix]: <https://www.librarything.com/work/115/book/225886709>
+
+### Effects of Azkaban
 
 Sirius spent twelve years in Azkaban.  We are told that most prisoners go mad
 within weeks, and to drain a wizard of his/her powers.[^210630-1]  What effects
@@ -56,6 +113,13 @@ One possibility:
 > spend the next three months in an induced coma while the potions do their
 > magic," the older witch said[^210630-4]
 
+A second possibility:
+> Dementors fed on happy memories. That was what they did. When you spent any amount of time in Azkaban, they sucked your happy memories out of you. You could recover them, of course. It was possible to entirely recover from even an extended trip to Azkaban, in fact, given time and support and a great deal of chocolate, but the key word there was time. Nearly a full year had passed between when Sirius escaped from Azkaban and when Harry had met him, during which time Sirius had been propelled entirely or almost entirely by hatred of Wormtail. Harry's parents were probably the subject of Sirius' worst memory, the image of them lying dead which (having been among Snape's memories) haunted Harry as well. Them he could not forget, any more than he could forget his raging need for Peter Pettigrew to be dead. That wasn't a happy memory. But Harry? Harry had been one year old when Sirius lost him, a tiny ball of green-eyed joy who chased James' cat on his toy broomstick and couldn't pronounce 'Moony' properly. Harry would probably have been, in his entirety, a happy memory ...[^230203-1]
+
+[^230203-1]: slythernim. _[Messing With Time][]_ Published: 2019-06-23. Updated: 2023-01-17. 
+
+[Messing With Time]: <https://archiveofourown.org/works/19334905>
+
 [^210630-4]: VonPelt.
     _[No Longer Alone](https://www.fanfiction.net/s/12745758)_
     [Chapter 3](https://www.fanfiction.net/s/12745758/3/No-Longer-Alone)
@@ -73,7 +137,7 @@ One possibility:
     _[Harry Potter and the Prisoner of Azkaban](https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban)_
     p. 188. Pottermore Limited. American Kindle Edition. 
 
-#### Lack of a trial
+### Lack of a trial
 
 Why was Sirius denied a trial?  More, how was it *possible* to deny him a
 trial?  It is reasonable to accept that [Lupin][] both believed him guilty and
@@ -159,10 +223,11 @@ that could mean before his curse *landed* rather than before it was *cast*.
    _[Harry Potter and the Prisoner of Azkaban](https://www.librarything.com/work/2742161/book/225886376)_
    Bloomsbury Press (2004). page 363. 
 
-[^221202-4]: This line of reasoning from comes from "[Abandoning
-    Ship](https://www.redhen-publications.com/abandoningShip.html)" by Red Hen
-    Publications.  I am not sure how much I am convinced by it, but it does have
-    a certain persuasiveness.
+[^221202-4]: This line of reasoning from comes from "[Abandoning Ship][]" by
+    Red Hen Publications.  I am not sure how much I am convinced by it, but it
+    does have a certain persuasiveness.
+
+[Abandoning Ship]: <https://www.redhen-publications.com/abandoningShip.html>
 
 [History]: <{{< relref "History" >}}>
 
@@ -173,7 +238,7 @@ that could mean before his curse *landed* rather than before it was *cast*.
 [^210517-5]: Mrs. J. K. Rowling. _Harry Potter and the Deathly Hallows_
     better citation needed. 
 
-#### Sirius as Godparent
+### Sirius as Godparent
 
 Does Sirius recognise that [Harry][] is not [James][] reincarnated?  Is he an
 adrenaline junkie, or can he help [Harry][] learn to make mature decisions
@@ -181,7 +246,10 @@ about dangerous situations?  Is the antagonism with [Snape][] due to hatred for
 one whose loyalty he suspects might in fact be towards [Riddle][], or is it
 evidence that he remains the immature bully he admits he was a
 youth?[^210519-11]  In short, does Sirius deserve the censure that [Molly][]
-and [Hermione][] at times level upon him?
+and [Hermione][] at times level upon him?  Much of this hinges on the [effects
+of Azkaban][].
+
+[effects of Azkaban]: <{{< ref "#effects-of-azkaban" >}}>
 
 [Pettigrew]: <{{< relref "Peter" >}}>
 

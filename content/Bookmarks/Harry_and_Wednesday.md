@@ -20,3 +20,14 @@ _[The Student](https://archiveofourown.org/works/27520378)_
       end, and is rather a capstone to the work.  Despite that, I think it fits
       in this category, because it *feels* like an Addams story.
 
+_[Perfect Slytherins](https://web.archive.org/web/20210620143920/https://jeconais.fanficauthors.net/Perfect_Slytherins__Tales_From_The_First_Year/index/)_
+:   * Author: Jeconais
+    * Published: 2008-08-07. Updated: 2015-12-23.
+    * Comments: Actually four separate stories (for the first four years), this
+      unfinished work makes you fall in love with the Addams family.  There is
+      this weird "good and evil do not exist" thing, but you can sort of see
+      how the author decided on that from the original Addams material.  If you
+      can get past that, this is an excellent read that will leave you wishing
+      for more.
+
+

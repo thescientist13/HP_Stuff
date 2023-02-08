@@ -165,7 +165,7 @@ stand out.
 
 [Fleur]: <{{< relref "Fleur_Isabelle" >}}>
 
-[Bill]: <{{< relref "William" >}}>
+[Bill]: <{{< relref "William_Arthur" >}}>
 
 Hermione researches *everything* impulsively.  She might not have known much
 about Veela at the world cup, but after seeing the guys react to them there,

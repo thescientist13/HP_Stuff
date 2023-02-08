@@ -10,7 +10,7 @@ author = "Luke Schierer"
 
 Removes boils, such as those produced by the [Pimple Jinx][].
 
-[Pimple Jinx]: <{{< relref "Pimple" >}}>
+[Pimple Jinx]: <{{< relref "../spells/Pimple" >}}>
 
 ## Found in
 
