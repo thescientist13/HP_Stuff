@@ -119,7 +119,13 @@ _[Blindsided](https://www.fanfiction.net/s/13455367)_
         and the honest look at [Hermione][] is refreshing, especially for an
         author who features her so prominently. 
 
-[HpediaD1]: <{{< ref "Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
+_[Downfall of Snape](https://www.fanfiction.net/s/13338897/1/Downfall-of-Snape)_
+:     * Author: cornholio4
+      * Published: 2019-07-16.
+      * Comments: This one-shot shows that things could have been quite
+        different if nearly any adult had been willing to take responsibility
+        for dealing with [Snape][]'s behavior towards students.
+
 
 [^221214-2] [Wikipedia](https://wikipedia.org).  {{< wikipedia "Emancipation of minors" >}} Last edited 2022-10-12.
 
@@ -139,3 +145,4 @@ _[Blindsided](https://www.fanfiction.net/s/13455367)_
 
 [Dursleys]: <{{< relref "../Harrypedia/people/Dursley" >}}>
 
+[HpediaD1]: <{{< ref "Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian" >}}>
