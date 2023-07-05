@@ -136,7 +136,7 @@ _[I object!](https://www.fanfiction.net/s/13230876)_
        [Elle Woods][] and [Umbridge][] is incredibly funny.  I have seen this
        tried a few other times, but none do it quite so well.
 
--[A Wizarding Reckoning](https://archiveofourown.org/works/38570640)_
+_[A Wizarding Reckoning](https://archiveofourown.org/works/38570640)_
 :    * Author: [Anafandom](https://archiveofourown.org/users/Anafandom/pseuds/Anafandom)
      * Published: 2022-04-24. Updated: 2023-01-01.
      * Comments: This is yet another collection of one-shots.  In fact, several
@@ -156,7 +156,7 @@ _[I object!](https://www.fanfiction.net/s/13230876)_
 
 [Umbrdige]: <{{< relref "../Harrypedia/people/Umbridge/Delores_Jane" >}}> 
 
-[^221214-2] [Wikipedia](https://wikipedia.org).  {{< wikipedia "Emancipation of minors" >}} Last edited 2022-10-12.
+[^221214-2]: [Wikipedia](https://wikipedia.org).  {{< wikipedia "Emancipation of minors" >}} Last edited 2022-10-12.
 
 [Hermione]: <{{< relref "Hermione_Jean" >}}>
 
