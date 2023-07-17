@@ -2,7 +2,7 @@
 title = "Chapter 10"
 date = 2022-06-28T17:31:53-04:00
 author = "Luke Schierer"
-weight = 4
+weight = 11
 +++
 
 Cannon Chapter Seven, and parts of Cannon Chapter Eight, since Harry will not

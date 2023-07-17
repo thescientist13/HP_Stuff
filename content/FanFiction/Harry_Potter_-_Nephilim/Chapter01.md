@@ -1,7 +1,6 @@
 ---
 title: "Chapter 1"
-date: 2022-02-14T23:32:49-05:00
-weight: 2
+weight: 3
 ---
 
 Vernon Dursley was a huge walrus of a man, with a large moustache and hardly

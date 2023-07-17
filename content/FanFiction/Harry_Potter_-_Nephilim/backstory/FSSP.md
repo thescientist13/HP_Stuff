@@ -1,7 +1,6 @@
 +++
 title= "Backstory - The FSSP"
-date = 2022-06-28T17:31:53-04:00
-toc = true
+weight = 34
 author = "Luke Schierer"
 +++
 

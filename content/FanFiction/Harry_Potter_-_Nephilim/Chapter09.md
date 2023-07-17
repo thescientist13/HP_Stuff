@@ -2,7 +2,7 @@
 title = "Chapter 9"
 date = 2022-06-28T17:31:53-04:00
 author = "Luke Schierer"
-weight = 3
+weight = 10
 +++
 
 In the cannon world, Chapter Six (the train) is 25 pages and Chapter Seven (the

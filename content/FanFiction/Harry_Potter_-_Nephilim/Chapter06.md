@@ -1,8 +1,7 @@
 +++
 title = "Chapter 6"
-date = 2022-06-28T17:31:53-04:00
 author = "Luke Schierer"
-weight = 3
+weight = 7
 +++
 
 Like many towns in England, the historical churches in town had long ago been

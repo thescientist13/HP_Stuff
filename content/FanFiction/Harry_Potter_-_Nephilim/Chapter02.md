@@ -1,7 +1,6 @@
 ---
 title: "Chapter 2"
-date: 2022-02-14T23:32:49-05:00
-weight: 2
+weight: 4
 ---
 
 Harry's prioritisation of the spiritual over the physical exposed him to his

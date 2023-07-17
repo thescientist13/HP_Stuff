@@ -1,7 +1,5 @@
 +++
 title = "Appendix D - Relative Power Levels"
-date = 2022-06-28T17:31:53-04:00
-toc = false
 author = "Luke Schierer"
 weight = 23
 +++
@@ -233,7 +231,7 @@ around him.  However, he will not find out that is happening until he has
 travelled far enough to see what it looks like when people are *not* affected by
 this magic. 
 
-f you stack rank Riddle against Lily and James, the there are really four things
+If you stack rank Riddle against Lily and James, the there are really four things
 that make Riddle so scary. 
 
 1. With an inheritance of 9 from the Seraphim, few people can defend against his

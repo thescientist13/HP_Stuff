@@ -2,7 +2,7 @@
 title = "Chapter 7"
 date = 2022-06-28T17:31:53-04:00
 author = "Luke Schierer"
-weight = 3
+weight = 8
 +++
 
 Harry is now in Year 6, his final year of Primary School.  The FSSP priest

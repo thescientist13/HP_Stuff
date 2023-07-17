@@ -1,7 +1,6 @@
 +++
 title = "Backstory - The Dwarfs"
-date = 2022-06-28T17:31:53-04:00
-toc = true
+weight = 32
 author = "Luke Schierer"
 +++
 
@@ -19,12 +18,13 @@ surface, the dwarfish people split along clan lines, and some left their homes
 and migrated north.  Dissatisfied with the inhospitable climate they found,
 their descendants became determined to retake their ancestral lands.  To ensure
 their victory, they had the idea of creating a subservient race.  They chose as
-the base "material" the great apes of Africa, for while hard to obtain (due to
-the distance from their new homes), these northern dwarfs reasoned that the
-resulting size and strength of their servants would make for excellent berserkers.
-Thus the trolls were created, but not without great cost.  The northern dwarfs
-found themselves made hideous, misshapen without and within.  Those that saw
-them no longer recognised them as dwarfs at all, but rather called them goblins.
+the base "material" the great apes of Africa (the nephilim have always been great 
+travellers), for while hard to obtain (due to the distance from their new homes), 
+these northern dwarfs reasoned that the resulting size and strength of their 
+servants would make for excellent berserkers.  Thus the trolls were created, but 
+not without great cost.  The northern dwarfs found themselves made hideous, 
+misshapen without and within.  Those that saw them no longer recognised them as 
+dwarfs at all, but rather called them goblins.
 
 Thus the goblin wars started.  Dwarfs and goblins would wage subterranean warfare
 until at last the true dwarfs were wiped out.  In the process of this however,
@@ -33,7 +33,7 @@ two things would happen.
 First, the goblins lost control over the trolls, who now range free.  Lacking
 immortal souls and true free will, the trolls never rose above the level of
 wandering tribes.  They have only the most rudimentary of languages, and some
-experts even refuse to grant that tallish communication is in fact true language.
+experts even refuse to grant that trollish communication is in fact true language.
 They opine that "language" requires more than nouns and verbs (trolls lack all
 concepts of adjectives and adverbs except a highly simplistic concept of
 amount).  Only the most intelligent of trolls are capable of learning to wield a
@@ -47,4 +47,3 @@ children were viable and even fertile.  A few of them were sufficiently
 less hideous than Tolkien (for example) describes, and are capable of sufficient
 civilisation that the nephilim of today no longer remember the dwarfs at all,
 but rather ascribe to the goblins the full history of both peoples. 
-

@@ -1,7 +1,5 @@
 +++
 title = "Prologue"
-date = 2022-06-28T17:31:53-04:00
-toc = false
 author = "Luke Schierer"
 weight = 2
 +++

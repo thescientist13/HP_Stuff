@@ -1,7 +1,5 @@
 +++
 title = "Appendix C - Magical Inheritance"
-toc = false
-date = 2022-06-28T15:36:08-04:00
 author = "Luke Schierer"
 weight = 22
 +++
@@ -55,6 +53,9 @@ determine what happens to a given child.
    on) fits in this category.
    - by corrupting, I do not necessarily mean that it tends the user towards
      evil, I mean that it tends to change (corrupt) the nature of the user.
+   - This corruption is *caused* not necessarily by the magic itself, but 
+     because angels regularly act to ensure that magical rules they themselves 
+     have created are followed. See [Appendix F] and [Appendix G]. 
    - magic where the required emotion closely aligns with one or more of the
      seven deadly sins tends to corrupt the user more severely and more rapidly
      (both) than magic where the required emotion is either neutral or closely
@@ -75,10 +76,13 @@ determine what happens to a given child.
    - While all emotional magic falls in this category of corrupting the user,
      there are other classes of magic that do as well.
    - Magic that *decreases* free will of the *target* has *incredibly* low thresholds.
+     - The [Imperius] curse
+     - the Confundus curse
+     - some uses of memory charms
    - Use of a corrupting magic sufficient to reach a change threshold frequently
      predisposes the next generation to be susceptible to either that type of
      magic, the type of emotions that are required for that magic, or both, by 10%
-     _per ancestor_.  That is, the next generation has *stronger concupiscence*
+     _per ancestor_.  That is, the next generation might have *stronger concupiscence*
      and in fact *less free will.*
    - The thresholds involved for each kind of magic are very poorly researched
      and not at all understood.
@@ -126,14 +130,15 @@ determine what happens to a given child.
      - A child with a power level of 2 or below on all categories will be called
        a squib.
      - A child with 3 or below on all categories will not be invited to any
-       magical school, but might be able to effectively use some magic.  A
-       program like Kwick Spell might prey on such people.
-     Hogwarts requires at least a 4 in each of the following categories:
-     Dominions, Virtues, and Powers; at least a 4 in *one* of Archangels or
-     angels and at least a 3 in the other; and at least a 3 in each of
-     Cherubim and Principalities.  However, a child who got in just barely
-     meeting these minimums would be very unlikely to get into NEWT level
-     classes.
+       magical school, but might be able to effectively use some magic.  
+       - A program like Kwick Spell might prey on such people.
+       - Such a child might still be called a squib despite actually being able to use magic.
+       Hogwarts requires at least a 4 in each of the following categories:
+       Dominions, Virtues, and Powers; at least a 4 in *one* of Archangels or
+       angels and at least a 3 in the other; and at least a 3 in each of
+       Cherubim and Principalities.  However, a child who got in just barely
+       meeting these minimums would be very unlikely to get into NEWT level
+       classes.
    * Because it is possible (16% chance) for the parents' abilities to
      recombine, these "squibs" who are actually extremely low powered nephilim,
      can eventually produce higher powered children.  These children will
@@ -154,6 +159,14 @@ determine what happens to a given child.
      course, no one lost the magic the witch gained from her unholy union, but
      most magic users do not believe in angels, much less fallen angels, and
      have a strong distrust for the Church.
+
+[Appendix F]: <{{< relref "Appendix_F" >}}>
+
+[Appendix G]: <{{< relref "Appendix_G" >}}>
+
+[Imperius]: <{{< relref "../../../Harrypedia/magic/spells/Imperio" >}}>
+
+[Confundus]: <{{< relref "../../../Harrypedia/magic/spells/Confundus" >}}>
 
 ### Specifically human/nephil
 
@@ -197,9 +210,9 @@ determine what happens to a given child.
   nephilim, see below).  Things that would be temptations to a human can be
   overriding compulsions to a nephil, and they are vulnerable to each other (and
   to others who can use similar powers) in ways that humans are not.  See the
-  notes on contracts.
+  notes on [contracts].
 * At some point in history, each nephil descends from a witch.  This witch had
-  magic of only one type, that of the angel that corrupted her.  The nephil
+  magic of only one type, that of the angel that seduced her.  The nephil
   inherited *only that type* of magic, and is called a "primordial" nephil.
 * Per the above, in practice, most modern nephil have mixed inheritances, and
   thus magic in a broad range of categories.
@@ -224,7 +237,7 @@ determine what happens to a given child.
      This list is essentially ordered from most nearly equal to the nephilim to
      least nearly equal.
    * mermen - These were once a magically powerful people who used inheritances
-     from the Dominions to transmute themselves to survive [the great Flood]({{< relref "backstory/The_Flood" >}}).
+     from the Dominions to transmute themselves to survive [the great Flood].
    * dwarfs - I really dislike what Mrs. Rowling did with the dwarfs in _the
      Chamber of Secrets_.[^210518-1]  Since she says that goblins of all
      things are expert craftsmen,[^210518-2] my take is that nephil became
@@ -242,9 +255,8 @@ determine what happens to a given child.
      intelligence and their magic.  They are particularly strong inheritors from
      the Virtues, Powers, and Archangels, with lesser inheritances from the
      Principalities and angels.  Their creation of the trolls at the beginning of
-     the [goblin wars]({{< relref "backstory/The_Dwarfs" >}}) explains why they
-     were punished so harshly (as to have originally lost nearly all free will - 
-     90% impact).
+     the [goblin wars] explains why they were punished so harshly (as to have 
+     originally lost nearly all free will - 90% impact).
    * hags - a people who are consumed by envy and lust.  They have particularly
      strong inheritances from the Thrones, reasonable inheritances from the
      Virtues and Powers.  Some have partial inheritances of random other types.
@@ -266,7 +278,7 @@ determine what happens to a given child.
        magical effects on the mind or free will, the *herd* is massively
        influenced at a subconscious level by the moral state of the people in
        surrounding areas.  Whenever the societies around them take a turn for
-       the worse, so do they, whenever the societies they live near turn towards
+       the worse, so do they; whenever the societies they live near turn towards
        God, the centaur populations become more friendly.
      - they remain addicted to divination, as such they perpetuate these effects
        to the next generation endlessly.
@@ -277,10 +289,10 @@ determine what happens to a given child.
        case flock, effect).
    * veela - For the purposes of this story, veela are "dark"
      creatures[^210126-4].  I have chosen to create a version of veela that
-	 justifies the suspicion that [Molly]({{< ref "Molly" >}}), [Hermione][]
-	 and [Ginny][] view [Fleur][] with.  Veela have some of the strongest
-	 inheritances from the Thrones of all humanoid magic users.  The pure veela
-	 is not an example of a primordial  people.  Rather, the veela race comes from an example of
+	 justifies the suspicion that [Molly], [Hermione][] and [Ginny][] view 
+     [Fleur][] with.  Veela have some of the strongest inheritances from the 
+     Thrones of all humanoid magic users.  The pure veela is not an example of 
+     a primordial people.  Rather, the veela race comes from an example of
 	 true perfidy.  The first veela was a child whose maternal grandmother was
 	 a Thrones witch, and whose paternal grandparents were primordial nephilim
 	 of the Dominions and Powers types.  This child grew up into a young woman
@@ -292,7 +304,8 @@ determine what happens to a given child.
      were so great that she was cursed with a Screwtape style mutation of epic
      proportions:
      - All veela are female, a male child of a veela will inherit solely from
-       the child's father in terms of magic.
+       the child's father in terms of magic.  This is a control placed on the 
+       punishment to ensure it does not itself become an uncontrolled problem. 
      - A "half-veela" is a veela/nephil cross where either the veela nature was,
        against the odds, only partially inherited; or the 16% chance that the
        veela nature is inherited in addition to a full nephil inheritance.  All
@@ -307,10 +320,11 @@ determine what happens to a given child.
        them.  What type of bird she most resembles seems to vary from veela
        community to veela community.  This almost always applies to half-veela
        as well.
-     - Her inheritance from the Dominions was restricted
-       * in human form she *always* produces pheromones.  She cannot *not*
-         produce them, though with considerable effort she can control *how
-         much* she produces.  This is true of half-veela as well.
+     - Her inheritance from the Dominions was restricted (leading some scholars
+       to mistakenly think that veela are descendent from a primordial population) 
+       * in human form she *always* produces a super-abundance of pheromones.  
+         She cannot *not* produce them, though with considerable effort she can 
+         control *how much* she produces.  This is true of half-veela as well.
        * in avian form, she can *only* produce a form of naphtha that catches
          fire instantly when exposed to oxygen, though fortunately (for
          everyone else) she has *some* control over this (unlike the
@@ -328,9 +342,7 @@ determine what happens to a given child.
          tend to spend much more time in human form.  In a sense, the full veela
          is becoming an animal.  Had that process completed, if any veela ever
          did live her entire life as a bird, it is doubtful that her descendants
-         would have an immortal soul at all.  The veela are harshly punished,
-         but the transformation is also a warning, both for them, and for all
-         able to use magic.
+         would have an immortal soul at all.  
      - Her inheritance from the Powers was restricted such that it *cannot*
        combine with her inheritance from the Dominions.  No full veela is
        capable of permanent transmutation, and a "half-veela" is capable of it
@@ -359,7 +371,9 @@ determine what happens to a given child.
        accelerated physical growth, putting a mentally young girl in an adult's
        body for a period of years (with all the extra self control issues
        adding adult hormone levels to that lack of mental maturity would
-       imply).  
+       imply).  This is why [Fleur]'s classmates dislike her so much - people
+       tend to expect someone who appears older to behave older.  They remember 
+       the brat. 
      - If a veela falls in love, her pheromone ability inverts, instead of
        producing pheromones that bewitch others, she produces pheromones that
        perfectly mimic those produced by the person she has fallen in love with.
@@ -374,18 +388,34 @@ determine what happens to a given child.
        veela will have a male child.  The child will *always* inherit either in
        a purely human fashion or *solely* from the father.  This is equally
        true of half-veela.  A veela's child does not get its inheritance per-trait as is normal.
+     - The veela are harshly punished, but the transformation is also a warning,
+       both for them, and for all able to use magic.  That this punishment
+       actually *be* a warning, the angels acting to punish the veela also
+       ensured that the reasons (creation of humaniform animals) for the especial
+       harshness of this punishment where revealed to every nephilim community.  
+       At one point this was common knowledge, but the nephilim are remarkably
+       good at ignoring things they do not want to know.  See [Appendix G] on
+       Original Sin.
    * giants - the physical changes wrought on them by sin have become "mundane"
-     and are now governed by Mendelian inheritance.  Church
-     [records]({{< ref "backstory/Giants" >}}) show that the giants come from
-     the creators of the house elves. Behold in them what man would be if left
-     without his mind, the only hope they have is that their intellects are so
-     clouded that it is nearly impossible for them to actually commit a mortal
-     sin.  Should any be willing to be missionary to the giants, the grace of
-     baptism would be nearly unopposed, because these beings have so little
-     ability to freely choose to do anything, and even less ability to
-     understand something is gravely wrong.
+     and are now governed by Mendelian inheritance.  Church [records][Giants] 
+     show that the giants come from the creators of the house elves. Behold in 
+     them what man would be if left without his mind, the only hope they have 
+     is that their intellects are so clouded that it is nearly impossible for 
+     them to actually commit a mortal sin.  Should any be willing to be 
+     missionary to the giants, the grace of baptism would be nearly unopposed, 
+     because these beings have so little ability to freely choose to do 
+     anything, and even less ability to understand something is gravely wrong.
+     
 
 [^210916-1]: Like in _[Maskirovat][knffnm]_.
+
+[Flood]: <{{< relref "../backstory/The_Flood" >}}>
+
+[goblin wars]: <{{< relref "../backstory/The_Dwarfs" >}}>
+
+[Giants]: <{{< ref "../backstory/Giants" >}}>
+
+[Molly]: <{{< relref "Molly" >}}>
 
 [Hermione]: <{{< relref "Hermione_Jean" >}}>
 

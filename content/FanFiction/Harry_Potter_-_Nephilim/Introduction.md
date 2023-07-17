@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 weight: 1
-Toc: true
+Toc: false
 type: "stories"
 ---
 

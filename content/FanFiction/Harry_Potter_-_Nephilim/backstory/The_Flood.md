@@ -1,7 +1,6 @@
 +++
 title = "Backstory - The Flood"
-date = 2022-06-28T17:31:53-04:00
-toc = true
+weight = 31
 author = "Luke Schierer"
 +++
 > When people began to multiply on the face of the ground, and daughters were
@@ -44,7 +43,7 @@ that their spells would not fade, and stripping from them the ability to ever
 again transmute their own form intentionally.  This is the origin of the
 merpeople - selkies, sirens, and merrows.  
 
-The sirens are the oldest race of merpeople, and from them the other two descend.
+The sirens are the oldest race of merpeople, and from them the others descend.
 Many of them refused to accept their punishment, and in their jealousy of those
 who can still walk on two legs, they developed a mix of music and magic that
 could compel the minds of those who heard it without having to focus on each

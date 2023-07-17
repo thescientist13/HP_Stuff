@@ -1,8 +1,7 @@
 +++
 title = "Chapter 3"
-date = 2022-06-28T17:31:53-04:00
 author = "Luke Schierer"
-weight = 3
+weight = 4
 +++
 
 The summer after Year 1 of Primary School, when Harry turned 6, was particularly

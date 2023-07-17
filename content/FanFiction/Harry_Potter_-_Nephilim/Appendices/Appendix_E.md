@@ -1,6 +1,5 @@
 +++
 title = "Appendix E - Life Expectancy"
-date = 2022-06-28T18:18:30-04:00
 author = "Luke Schierer"
 weight = 24
 +++
@@ -33,8 +32,8 @@ a = x-29.9+29.9e^0.183y
 ```
 where a is their estimated average lifespan, x is the
 life expectancy for a non-magical person, e is Euler's number, and y is the
-average of their nine power levels. For females, using the same variables, I
-settled on the formula 
+average of their nine power levels (excluding any zeros). For females, using 
+the same variables, I settled on the formula 
 ```
 a = x-22.39+22.39e^0.205y
 ```
