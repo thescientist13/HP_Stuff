@@ -1,9 +1,8 @@
-+++
-title = "Chapter 4"
-date = 2022-06-28T17:31:53-04:00
-author = "Luke Schierer"
-weight = 5
-+++
+---
+title: "Chapter 4"
+author: "Luke Schierer"
+tableOfContents: false
+---
 
 It was not until part way through Year 4, when Harry was eight, that an idea
 occurred to him that would, along with his skills in mind magic, drastically
@@ -127,8 +126,11 @@ emitting was not yet as strong as it could be.  Someone who knew he was there
 could see past it. But then, Harry was only nine years old, and a nephil's
 magic grows profoundly as he (or she) approaches his eleventh birthday. 
 
-[^211219-2]: See the short synopsis about [the Flood]({{< relref "backstory/The_Flood" >}}) and
-    about [Dwarfs]({{< relref "backstory/The_Dwarfs" >}}).
+[^211219-2]: See the short synopsis about [the Flood] and about [Dwarfs].
+
+[Dwarfs]: <../../backstory/the_dwarfs>
+
+[the Flood]: <../../backstory/the_flood>
 
 [^210918-1]: Harry has not seen what happens to people near the Leaky
     Cauldron.  If an observer saw what happened to non-magical people there, and

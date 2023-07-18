@@ -1,6 +1,6 @@
 ---
 title: "Chapter 1"
-weight: 3
+tableOfContents: false
 ---
 
 Vernon Dursley was a huge walrus of a man, with a large moustache and hardly
@@ -207,7 +207,11 @@ one) had made it clear, without words, that he would find it someday.
     _[Justice Served With A Side Of Fries](https://www.fanfiction.net/s/6300111)_ 
     though I think I came up with my version before I read that story. 
 
-[^210902-6]: Per my [Notes]({{< relref "Appendix_A" >}}) on this fanfiction, I am
+[^210902-6]: Per my [Notes] on this fanfiction, I am
     making Petunia a Squib. Vernon is purely non-magically, but nephil traits
     are sometimes remarkably persistent, so Dudley is, just barely, a nephil.
-    See my notes on [relative power levels]({{< relref "Appendix_D" >}}).
+    See my notes on [relative power levels][rpl].
+
+[rpl]: <../../appendices/appendix_d>
+
+[Notes]: <../../appendices/appendix_a>

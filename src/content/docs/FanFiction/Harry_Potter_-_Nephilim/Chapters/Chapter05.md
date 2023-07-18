@@ -1,8 +1,8 @@
-+++
-title = "Chapter 5"
-author = "Luke Schierer"
-weight = 6
-+++
+---
+title: "Chapter 5"
+author: "Luke Schierer"
+tableOfContents: false
+---
 
 At first the changes were subtle, and because Harry and Dudley were in
 different classes for the first time, Harry at first thought that Dudley's
@@ -128,7 +128,9 @@ there rarely used corners or benches out of sight of the doors and windows, but
 in close proximity to them, where a mostly invisible boy would not get bumped
 into by someone who did not notice him?  
 
-[^211219-3]: See [Appendix D]({{< relref "Appendix_D" >}}). 
+[^211219-3]: See [Appendix D].
+
+[Appendix D]: <../../appendices/appendix_d>
 
 [^210528-1]: being an American, I do not actually know much about British
     schools, and have done only the most cursory research into them. Please
@@ -136,4 +138,6 @@ into by someone who did not notice him?
 
 [^210810-1]: <https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/239040/PRIMARY_national_curriculum_-_Physical_education.pdf> states that students should be taught to swim, and that performance should be compared, for each student, over time.  Timed laps seems like one way a school would implement these two directives. 
 
-[^210902-9]: See the [History]({{< ref "/Harrypedia/History" >}}) page, The Children Act of 1989 was not in effect yet. Again, please forgive my butchering of actual British law. 
+[^210902-9]: See the [History] page, The Children Act of 1989 was not in effect yet. Again, please forgive my butchering of actual British law. 
+
+[History]: </harrypedia/history>

@@ -1,9 +1,7 @@
-+++
-title = "About My Writing"
-type = "docs"
-date = 2022-01-07T20:12:01-05:00
-weight = 1
-+++
+---
+title: "About My Writing"
+weight: 1
+---
 
 # My Harry Potter Fan Fiction 
 

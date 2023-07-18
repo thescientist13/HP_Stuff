@@ -1,8 +1,8 @@
-+++
-title = "Chapter 3"
-author = "Luke Schierer"
-weight = 4
-+++
+---
+title: "Chapter 3"
+tableOfContents: false
+author: "Luke Schierer"
+---
 
 The summer after Year 1 of Primary School, when Harry turned 6, was particularly
 hard for Harry.  Dudley's school friends were starting to come over
@@ -121,4 +121,6 @@ fundamentally.
     right now. I do not want to give just who it is away here though if you can't
     figure it out from the fairly obvious reference. 
 
-[^210412-1]: See my notes on [relative power levels]({{< relref "Appendix_D" >}}).
+[^210412-1]: See my notes on [relative power levels][rpl].
+
+[rpl]: <../../appendices/appendix_d>

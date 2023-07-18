@@ -1,8 +1,8 @@
-+++
-title = "Chapter 6"
-author = "Luke Schierer"
-weight = 7
-+++
+---
+title: "Chapter 6"
+author: "Luke Schierer"
+tableOfContents: false
+---
 
 Like many towns in England, the historical churches in town had long ago been
 turned over to the Anglican Church.  As the Catholics emerged out of hiding and
@@ -59,6 +59,6 @@ become just another building.
 
 [^220818-1]: I intentionally changing things here.  See [FSSP][] for details.
 
-[FSSP]: <{{< relref FSSP >}}>
+[FSSP]: <../../backstory/FSSP>
 
 [^220818-2]: Who is a real person, but much younger than in this story. 

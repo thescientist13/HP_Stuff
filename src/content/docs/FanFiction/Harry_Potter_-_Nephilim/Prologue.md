@@ -1,16 +1,17 @@
-+++
-title = "Prologue"
-author = "Luke Schierer"
-weight = 2
-+++
+---
+title: "Prologue"
+author: "Luke Schierer"
+weight: 2
+tableOfContents: false
+---
 
 While Lily Potter had excelled in potions, she had been a charms
-prodigy.[^20210902-6]  Her husband, James, had been as skilled at
+prodigy.[^202109026]  Her husband, James, had been as skilled at
 transfiguration as she had been at charms, and the two of them had competed
-for top honours in Defence against the Dark arts.[^20210902-7]  James had
+for top honours in Defence against the Dark arts.[^202109027]  James had
 struggled in Ancient Runes, which had come naturally to Lily, and so it was that
 she took the lead in researching protective measures when they learned that
-Voldemort[^20210902-8] was targeting their infant son.  The accepted wisdom is
+Voldemort[^202109028] was targeting their infant son.  The accepted wisdom is
 that there is no defence against the killing curse, and having faced *him* three
 times, both knew the "unforgivable" curses to be particular favourites of his.
 There was no doubt in either mind it was this curse they needed to defend their
@@ -40,7 +41,7 @@ those who have come before.  The magical world works quite differently,
 which perhaps explains why it so often stagnates.  In the magical world,
 families hoard knowledge and share it out with schools like Hogwarts only
 when there is a clear benefit to do so, usually a quid pro quo between
-some of the great families.[^20210420-1] The Potters may be just barely old
+some of the great families.[^202104201] The Potters may be just barely old
 enough to be respectable, but the Peverells are *ancient*.  The Potters have
 eight centuries of accumulated knowledge; the Peverell family was old and famous
 when it *ended* as the Potters *began*.  No one outside the family knows how
@@ -103,15 +104,17 @@ against her.  The shard, eager to take control of her son's body, hijacked
 the runes.  It was all she could do to stay in between - to ensure that the
 shard could not possess her son.  A battle of wills and of magic began.
 
-[^20210218-2]: See my notes on the [Peverells]({{< ref "Harrypedia/people/Peverell" >}})
+[^20210218-2]: See my notes on the [Peverells][]
 
-[^20210420-1]: See my notes on [Culture]({{< ref "Harrypedia/Culture" >}})
+[Peverells]: < "../../Harrypedia/people/Peverell">
 
-[^20210902-8]: See the author's notes on [power levels]({{< relref "Appendix_D" >}}).
+[^202104201]: See my notes on [Culture]({{< ref "Harrypedia/Culture" >}})
 
-[^20210902-7]: See the author's notes on [power levels]({{< relref "Appendix_D" >}}).
+[^202109028]: See the author's notes on [power levels]({{< relref "Appendix_D" >}}).
 
-[^20210902-6]: Per my initial [notes]({{< relref "Appendix_A" >}}), one of the key
+[^202109027]: See the author's notes on [power levels]({{< relref "Appendix_D" >}}).
+
+[^202109026]: Per my initial [notes]({{< relref "Appendix_A" >}}), one of the key
     aspects of this universe is that I was fairly mathematical about magic.
     Thus the most pivotal characters need a breakdown of their abilities.
     See the author's notes on [power levels]({{< relref "Appendix_D" >}}).

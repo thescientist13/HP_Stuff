@@ -1,78 +1,6 @@
-+++
-title = "Appendix G - Soteriology, Missiology and Ecclesiology"
-author = "Luke Schierer"
-weight = 27
-+++
-
-## historical origin of the nephilim
-
-This section is pure AU fiction unique to this work.
-
-For my purposes, remember that per [Appendix A] a nephil is a descendant of the union
-of a human and a fallen angel.  What was the angel's motives in this?  I am of course
-building off of the more supernatural interpretation of the concept of nephilim that
-some biblical scholars have proposed.[^230714-1]  But remember, we are also building off
-of _[Many Waters][MW]_.  So, with those thoughts in mind, let's build a story around
-this.
-
-The basic premise is that the fallen angels wanted to mock God.  They are unable to
-create from nothing as God does, so they are limited in what they can do.  They
-take themselves, and they take humanity as their 'base material' and *make* (not
-*create*) something of this 'material' but call the result their 'creation'.
-
-* They are mocking God in that they have created something visually indistinguishable
-  from man, the centrepiece of His creation.
-* They are mocking God in that by giving their 'creation' some of their own abilities
-  and powers, they claim to have created something superior to God's creation.  As we
-  have seen, they failed: the nephilim have less free will than either humanity or
-  angels because their being contains some of the limitations of each. They retain
-  some of the inability to change that an angel has, residing at once in a being that
-  is susceptible *to* change.
-* They are mocking God by mocking marriage, in which humanity in a symbolic way
-  mirrors the inner life of the Trinity, and thus God himself.  See below in the
-  Marriage and debt sections for details. Here they fail only in part.  They do
-  succeed in creating a being that, because it can be forced into relationship,
-  can only conditionally give self to self.  The Nephilim struggle to make a total,
-  free, faithful, and fruitful gift of self.  It is possible for magic to be used on
-  them, or even accidentally by them, in ways that would violate any or all of these
-  conditions.  However the unfallen angels did not simply sit back and allow this to
-  happen entirely unchallenged.
-* The fallen angels desired to make their mockery still more complete.  Unfallen angels
-  intervened to ensure
-    * that ensure the restrictions on [magical contracts] exist.
-    * that the angelic nature's tendency to the absolute and the permanent does not prevent
-      the nephilim, who exist within time, from experiencing free will.
-    * that the abuse of the angelic power comes with equally magical consequences
-      * See my notes below on on Free Will, angels do not always act wisely here however well-intentioned.
-      * Angels have had to intervene to correct their own mistakes (not sins, honest mistakes)
-    * that these consequences tend to self limit abuses across generations
-      * so that free will is preserved
-      * so that justice is served
-      * so that redemption is both possible and desirable to each generation
-    * many other ways that frequently *appear* arbitrary and/or capricious - see again that point about not always being wise.
-
-Modern nephilim are the result of very mixed heritage, and thus have a wide variety 
-of the powers defined in [Appendix B].  *In a first generation nephil, that is not 
-so.*  Such a nephil has powers stemming from only one kind of angel.  Thus (for example) 
-'contracts' can affect these nephilim in only very narrow ways.  The fallen angels, being angels, 
-perfectly understand future implications of present states.  The hybrid nephilim are 
-in fact the intended mockery, the first generation ones were and are a means to that end.
-
-[Appendix B]: <{{< relref "Appendix_B" >}}>
-
-[magical contracts]: <{{< relref "Appendix_F" >}}>
-
-[^230714-1]: Ms. Melissa Petruzzello. "[Nephilim]" [Britannica]. Last Updated 2023-07-04.
-
-[Nephilim]: <https://www.britannica.com/topic/Nephilim>
-
-[Britannica]: <https://www.britannica.com>
-
-[Appendix A]: <{{< relref "Appendix_A" >}}>
-
-[MW]: <https://en.wikipedia.org/wiki/Many_Waters>
-
-
+---
+title: "Appendix G: Soteriology, Missiology and Ecclesiology"
+---
 
 ## Free Will
 
@@ -80,13 +8,13 @@ Because I am starting with _[Many Waters][MW]_ as one of my base sources for mat
 constrained by the choices made in that work.  It also happens that being so constrained allows me
 somewhat more flexibility in designing my concept of nephilim.  
 
-In _[Many Waters][MW]_ we see clearly that the unfallen angels have a limited perspective on Devine
+In _[Many Waters][MW]_ we see clearly that the unfallen angels have a limited perspective on Divine
 Providence and Will, and thus make choices based on limited information.  More, they are aware
 that their perspective is limited, and their information incomplete.  They thus struggle with
 choices.  Not like humanity does - humanity struggles with _if_ they should do right.  Angels
 struggle with the question *what is right*.  The unfallen angel always does what that angel
 perceives as right, but per _[Many Waters][MW]_ *may perceive poorly*.  The resulting choices may
-thus be suboptimal.
+thus be sub-optimal.
 
 While the sanctified soul is thought to be, through grace, elevated above the angels, I believe
 this same limited perception would apply, *particularly* before the final judgement.  I will use
@@ -94,10 +22,24 @@ that fact.
 
 [MW]: <https://en.wikipedia.org/wiki/Many_Waters>
 
+## Revelation
+
+In real theology, we of course know that Revelation is complete, closed, and unalterable with 
+the Ascension.  In this universe there is a single exception.  Angels have been somewhat willing
+to reveal to Church officials some details of how nephilim work that nephilim themselves, and,
+by extension, humanity, would be otherwise unable to discover.  
+
+I do not consider this a real exception, in that this information is not relevant to the work
+of humanity's salvation.  It *is* relevant to the ability of *particular* persons of nephilim
+decent to survive encounters with Church officials.  However, the principle of infallibility has
+held without deviation from the real world in this universe, and the official magisterium of the
+Church has (in this universe) made few if any official pronouncements on or about nephilim, and
+none that depend on this extra information.  
+
 ## Original Sin
 
 Humanity inherits the effects of Adam's first sin, in that we are born already deprived from 
-grace.[^230717-1]  There is remarkably little verifiably known about angels, and the Church
+grace.[^230717-1]  There is remarkably little verifiable known about angels, and the Church
 Fathers themselves debate about the proper translation of the the word "nephilim" that I am
 misusing in this story.  I am left with far too wide a field in which to speculate.
 
@@ -110,11 +52,19 @@ all access to the power given them with the fall.  However, there must have been
 Whatever this effect is, the nephilim of my story would inherit that as well.  Thus in
 a sense they would inherit two "original" sins.  One from their human ancestor, and one from
 their angelic ancestor(s).  This dual lack would further incline the nephilim away from God, 
-temptation and concupiscense is far greater for the nephilim than for humanity.  
+temptation and concupiscence is far greater for the nephilim than for humanity.  
 
 [^230717-1]: Harent, Stéphane. "[Original Sin](http://www.newadvent.org/cathen/11312a.htm)." [The Catholic Encyclopedia](https://www.newadvent.org/cathen/). Vol. 11. New York: Robert Appleton Company, 1911. 17 Jul. 2023 
 
 ## Sacraments
+
+I intended this long before I read this in any other work: faith, prayer, the
+Sacraments, and sacramentals will often have actual effects.[^210412-5]
+
+[^210412-5]: Darth Drafter.
+_[The Little Veela that Could](https://www.fanfiction.net/s/5490079)_
+[Chapter Six](https://www.fanfiction.net/s/5490079/7/The-Little-Veela-that-Could)
+Published: 2009-11-05. Updated: 2012-06-28. Last Viewed: 2021-04-12.
 
 ### Baptism and Confirmation
 
@@ -145,9 +95,9 @@ or her to avoid sin far more powerfully in part *because* the reduced
 freedom will make the remaining choices more black and white to this enhanced
 perception.
 
-[giants]: <{{< relref "../backstory/Giants" >}}>
+[giants]: <../../backstory/giants>
 
-[goblins]: <{{< relref "../backstory/The_Dwarfs" >}}>
+[goblins]: <../../backstory/the_dwarfs>
 
 [^230714-2]: Based on Fr. John Hardon's Modern Catholic Dictionary, © Eternal Life. "[Gift of Understanding]" _[Catholic Dictionary]_
 
@@ -162,9 +112,9 @@ perception.
 Because of the implications of [magical contracts], the Church has been forced
 to question whether nor not being a nephil is inherently an impediment to a
 sacramental marriage.  Most theologians (in this story) believe this to be the
-case, but (again in this story) the Church has not ruled infalliby on the matter.
+case, but (again in this story) the Church has not ruled infallibly on the matter.
 
-[magical contracts]: <{{< relref "Appendix_F" >}}>
+[magical contracts]: <../appendix_f>
 
 ### Holy Orders
 

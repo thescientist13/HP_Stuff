@@ -1,8 +1,6 @@
-+++
-title = "Appendix D - Relative Power Levels"
-author = "Luke Schierer"
-weight = 23
-+++
+---
+title: "Appendix D: Relative Power Levels"
+---
 
 Per the inheritance rules, you can follow a different rule for inheritance in
 each column.  As an author this maximises my flexibility in one sense.  As a

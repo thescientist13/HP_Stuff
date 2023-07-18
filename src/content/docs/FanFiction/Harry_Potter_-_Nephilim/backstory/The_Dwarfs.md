@@ -1,17 +1,16 @@
-+++
-title = "Backstory - The Dwarfs"
-weight = 32
-author = "Luke Schierer"
-+++
+---
+title: "Backstory: The Dwarfs"
+tableOfContents: false
+author: "Luke Schierer"
+---
 
-The Nephilim unknowingly locked in the underground refuge during [The
-Flood]({{< relref "The_Flood" >}}) did not immediately become dwarfs.  Rather,
-this was a gradual process as the few clans intermarried and their isolated
-lifestyle gradually turned in on itself.  As a people, they became very very
-greedy, consumed, in fact, with avarice.  They learned much of the use of their
-power to work metal and gems in wondrous ways, such that when they *did*
-rediscover the surface, they would quickly develop a well deserved reputation
-as craftsmen without peer.  
+The Nephilim unknowingly locked in the underground refuge during [the
+Flood] did not immediately become dwarfs.  Rather, this was a gradual process
+as the few clans intermarried and their isolated lifestyle gradually turned in 
+on itself.  As a people, they became very very greedy, consumed, in fact, with 
+avarice.  They learned much of the use of their power to work metal and gems 
+in wondrous ways, such that when they *did* rediscover the surface, they would 
+quickly develop a well deserved reputation as craftsmen without peer.  
 
 At some point in the distant past, not long after their re-introduction to the
 surface, the dwarfish people split along clan lines, and some left their homes
@@ -47,3 +46,5 @@ children were viable and even fertile.  A few of them were sufficiently
 less hideous than Tolkien (for example) describes, and are capable of sufficient
 civilisation that the nephilim of today no longer remember the dwarfs at all,
 but rather ascribe to the goblins the full history of both peoples. 
+
+[the Flood]: <../the_flood>

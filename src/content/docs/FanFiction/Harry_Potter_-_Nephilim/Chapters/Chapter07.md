@@ -1,9 +1,8 @@
-+++
-title = "Chapter 7"
-date = 2022-06-28T17:31:53-04:00
-author = "Luke Schierer"
-weight = 8
-+++
+---
+title: "Chapter 7"
+author: "Luke Schierer"
+tableOfContents: false
+---
 
 Harry is now in Year 6, his final year of Primary School.  The FSSP priest
 cannot put Harry in a normal RCIC class: 1) Harry is a nephil, not a human 2)
@@ -20,5 +19,6 @@ starts Hogwarts.*  This can thus cover Year 6, but no formal
 conversion.  Like Chesterton, Harry must delay his conversion for some time
 after he has converted in his thinking. 
 
-[^20210604-8]: See the [History]({{< ref "/Harrypedia/History" >}}) page, The Children
-    Act 1989 was not in effect yet.  
+[^20210604-8]: See the [History] page, The Children Act 1989 was not in effect yet.  
+
+[History]: </harrypedia/history>

@@ -1,8 +1,8 @@
-+++
-title= "Backstory - Giants"
-weight = 33
-author = "Luke Schierer"
-+++
+---
+title: "Backstory: Giants"
+tableOfContents: false
+author: "Luke Schierer"
+---
 
 For all that mythological accounts of giants go back beyond history, the
 reality is that giants are the newest of the races descendant from the
@@ -40,6 +40,6 @@ cannot be undone.
 
 [^230717-4]: See the notes on [Original Sin].
 
-[Original Sin]: <{{< relref "../Appendices/Appendix_G" >}}>
+[Original Sin]: <../../appendices/appendix_g>
 
-[House Elves]: <{{< relref "../Appendices/Appendix_C" >}}>
+[House Elves]: <../../appendices/appendix_c>

@@ -1,9 +1,8 @@
-+++
-title = "Chapter 8"
-date = 2022-06-28T17:31:53-04:00
-author = "Luke Schierer"
-weight = 9
-+++
+---
+title: "Chapter 8"
+author: "Luke Schierer"
+tableOfContents: false
+---
 
 The summer after Year 6 needs to bring some reconciliation with the cannon
 universe.  This will thus have to be Chapters 3-5 of the [first book][grfb1].

@@ -1,8 +1,6 @@
-+++
-title = "Appendix C - Magical Inheritance"
-author = "Luke Schierer"
-weight = 22
-+++
+---
+title: "Appendix C: Magical Inheritance"
+---
 
 ### Overview
 
@@ -55,7 +53,7 @@ determine what happens to a given child.
      evil, I mean that it tends to change (corrupt) the nature of the user.
    - This corruption is *caused* not necessarily by the magic itself, but 
      because angels regularly act to ensure that magical rules they themselves 
-     have created are followed. See [Appendix F] and [Appendix G]. 
+     have created are followed. See [Appendix F][AF] and [Appendix G][AG]. 
    - magic where the required emotion closely aligns with one or more of the
      seven deadly sins tends to corrupt the user more severely and more rapidly
      (both) than magic where the required emotion is either neutral or closely

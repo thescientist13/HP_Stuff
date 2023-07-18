@@ -1,8 +1,8 @@
-+++
-title= "Backstory - The FSSP"
-weight = 34
-author = "Luke Schierer"
-+++
+---
+title: "Backstory: The FSSP"
+weight: 34
+author: "Luke Schierer"
+---
 
 The Priestly Fraternity of St Peter is real,[^211219-4] as is the Parish of St
 John Fisher.[^211219-5]  I am asserting a couple of historical fictions.  I have
@@ -14,7 +14,7 @@ This is problematic in a couple of senses, but necessary for the story.
 1. The real FSSP was not established until 1988.[^211219-6]
 2. The real FSSP was not active in the UK until 1998.[^211219-7]
 
-However, given my [AU Rules]({{< relref "Appendix_A" >}}) it makes much
+However, given my [AU Rules][AA] it makes much
 more sense that it would be an order dedicated to things traditional that would
 remember the (fictional) nephilim.  
 
@@ -27,6 +27,8 @@ bulk of their British activity will not start until a later date more in line
 with real history.  This will also explain why the FSSP priests in this story
 feel constrained in their ability to deal with Harry's situation.  They do not
 want to make waves before they are formally established in the diocese.
+
+[AA]: <../../appendices/appendix_a>
 
 [^211219-4]: <https://fssp.org.uk/about-the-fssp/>
 

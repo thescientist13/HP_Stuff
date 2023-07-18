@@ -1,9 +1,8 @@
-+++
-title = "Chapter 10"
-date = 2022-06-28T17:31:53-04:00
-author = "Luke Schierer"
-weight = 11
-+++
+---
+title: "Chapter 10"
+author: "Luke Schierer"
+tableOfContents: false
+---
 
 Cannon Chapter Seven, and parts of Cannon Chapter Eight, since Harry will not
 actually attend class at first.  Harry is sorted to Hufflepuff because the Hat

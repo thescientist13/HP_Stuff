@@ -1,8 +1,6 @@
-+++
-title = "Appendix F - Magical Contracts"
-author = "Luke Schierer"
-weight = 26
-+++
+---
+title: "Appendix F: Magical Contracts"
+---
 
 As I state in [Points of Divergence][AA], Mrs. Rowling has set up a world
 in which magical contracts exist, and in which they can have unwilling
@@ -91,7 +89,31 @@ Common ones include, but are not limited to:
   * Contracts cannot require the use of a type of magic you do not have, either
     for their performance, *or in their penalties*.[^230717-4]  
 * 'Contracts' cannot act as an [Imperius] curse or similar.  That would come
-  too close to a manipulation of the Will.[^230717-5]
+  too close to a manipulation of the Will.[^230717-5]  
+  * There is an exception to this, unknown to the nephil, but not to the Church,
+    that has caused great confusion through history.  You can bind someone to do 
+    something that *they would have done anyway*.
+  * Normally contracts operate through applying force.
+    * Do something and you become ill, or even die immediately (the ritual of the
+      Unbreakable Vow creates a contract which, if the contract is violated,
+      results in the death of the violator).
+    * Agree to the contract, and no matter your will, your body does not operate
+      against the contract.  This is a bit of a gray area - it is relatively
+      easy for a nephil to contract something _not_ to happen.  It is next to
+      impossible to contract something _to_ happen.  It will not absorb food, or
+      your hand will not close (or your libido will not react).
+  * There is some moral ambiguity here that the Church struggles with.  A 
+    contract can trigger consequences that *preasure* but do not *force*
+    the nephil's Will, and *if* the nephil is sufficiently weak Willed, he
+    or she might give in to the preasure.  If that happens, the contract can
+    make it impossible to back out or change his/her mind - the nephil is now
+    doing something agreed to anyway.[^230718-1] 
+
+[^230718-1]: It simply has not occurred to the various unfallen angels to fix
+   this.  Angels are beings of absolutes, a decision once made, by their very
+   nature, cannot be changed.  In this aspect of contracts, nephilim are more
+   like angels, it does not strike them as an aberration that angelic power 
+   would act … less angelic.
 
 [^230717-5]: per [Appendix G], angels interfering to create these restrictions
    act with good intentions, but not always wisely.  You might think 'contracts'
@@ -104,10 +126,10 @@ Common ones include, but are not limited to:
 
 ## Effects
 
-'Contracts' cannot force you to do something the way the [Imperius][] curse
-does.  Rather, it forces behaviour through the existence of penalties.  You
-can break an "Unbreakable Vow" but you die as a result.  When a secret
-keeper "contracts" to keep a secret, in a sense _everyone else_ is bound
+With the one odd loophole noted above, 'Contracts' cannot force you to do something 
+the way the [Imperius][] curse does.  Rather, they force behaviour through the 
+existence of penalties.  You can break an "Unbreakable Vow" but you die as a result.  When 
+a secret keeper "contracts" to keep a secret, in a sense _everyone else_ is bound
 not to know something yes.  But I think that's why James and Lily had to go
 to the cottage in Godric's Hollow.  They had to go to a house that was
 *not* known to be theirs to hide the location of their house.  Otherwise
@@ -215,7 +237,7 @@ children may have made themselves liable to.
 
 [ac]: <{{< relref "Appendix_C" >}}>
 
-[Imperius]: <{{< relref "../../../Harrypedia/magic/spells/Imperio" >}}>
+[Imperius]: </harrypedia/magic/spells/Imperio>
 
 [AA]: <{{< relref "Appendix_A" >}}>
 

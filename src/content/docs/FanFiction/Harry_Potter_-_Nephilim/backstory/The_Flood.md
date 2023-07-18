@@ -1,8 +1,9 @@
-+++
-title = "Backstory - The Flood"
-weight = 31
-author = "Luke Schierer"
-+++
+---
+title: "Backstory: The Flood"
+weight: 31
+author: "Luke Schierer"
+---
+
 > When people began to multiply on the face of the ground, and daughters were
 > born to them, the sons of God saw that they were fair; and they took wives
 > for themselves of all that they chose.  Then the Lord said, “My spirit shall

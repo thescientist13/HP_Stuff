@@ -1,8 +1,7 @@
 ---
 title: "Introduction"
 weight: 1
-Toc: false
-type: "stories"
+tableOfContents: false
 ---
 
 On reading _[Many Waters][MW]_ by Madeleine L'Engle, a number of ideas came

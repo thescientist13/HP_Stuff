@@ -1,9 +1,8 @@
-+++
-title = "Chapter 11"
-date = 2022-06-28T17:31:53-04:00
-author = "Luke Schierer"
-weight = 12
-+++
+---
+title: "Chapter 11"
+author: "Luke Schierer"
+tableOfContents: false
+---
 
 Cannon Chapter Eight introduces the teachers, and the robbery.  Cannon Chapter
 Nine has Draco, Hermione, the fake duel, and the Cerberus.  Here we are going AU
