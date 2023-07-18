@@ -10,8 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/lit": "^2.1.0",
     "@astrojs/starlight": "^0.5.3",
-    "astro": "2.8.4",
+    "@webcomponents/template-shadowroot": "^0.2.1",
+    "astro": "2.7.0",
+    "lit": "^2.7.0",
     "sharp": "^0.32.3"
+  },
+  "devDependencies": {
+    "is-stream": "^3.0.0"
   }
 }
