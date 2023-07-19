@@ -12,6 +12,7 @@ export default defineConfig({
         src: './src/assets/LukeHPSite.svg',
         replacesTitle: true,
       },
+      lastUpdated: true,
       sidebar: [{
         label: 'Guides',
         items: [
