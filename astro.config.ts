@@ -26,40 +26,40 @@ export default defineConfig({
           label: 'Fan Fiction',
           collapsed: true,
           items: [
-              {
-                label: 'Harry Potter - Nephilim',
-                items:[
-              {
-                label: 'Introduction',
-                link: '/fanfiction/harry_potter_-_nephilim/introduction/'
-              },
-              {
-                label: 'Prologue',
-                link: '/fanfiction/harry_potter_-_nephilim/prologue/'
-              },
-              {
-                label: 'Chapters',
-                autogenerate: {
-                  directory: 'FanFiction/Harry_Potter_-_Nephilim/Chapters',
+            {
+              label: 'Harry Potter - Nephilim',
+              items:[
+                {
+                  label: 'Introduction',
+                  link: '/fanfiction/harry_potter_-_nephilim/introduction/'
                 },
-              },
-              {
-                label: 'Back Story',
-                autogenerate: {
-                  directory: 'FanFiction/Harry_Potter_-_Nephilim/backstory',
+                {
+                  label: 'Prologue',
+                  link: '/fanfiction/harry_potter_-_nephilim/prologue/'
                 },
-                collapsed: true,
-              },
-              {
-                label: 'Appendices',
-                autogenerate: {
-                  directory: 'FanFiction/Harry_Potter_-_Nephilim/Appendices',
+                {
+                  label: 'Chapters',
+                  autogenerate: {
+                    directory: 'FanFiction/Harry_Potter_-_Nephilim/Chapters',
+                  },
                 },
-              },
-            ]
-          }
-        ]
-      }]
+                {
+                  label: 'Back Story',
+                  autogenerate: {
+                    directory: 'FanFiction/Harry_Potter_-_Nephilim/backstory',
+                  },
+                  collapsed: true,
+                },
+                {
+                  label: 'Appendices',
+                  autogenerate: {
+                    directory: 'FanFiction/Harry_Potter_-_Nephilim/Appendices',
+                  },
+                },
+              ]
+            }
+          ]
+        }]
     }),
     lit()
   ],
