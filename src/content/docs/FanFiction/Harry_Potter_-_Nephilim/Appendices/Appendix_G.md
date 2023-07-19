@@ -2,6 +2,30 @@
 title: "Appendix G: Soteriology, Missiology and Ecclesiology"
 ---
 
+## Metaphysical Overview
+
+The nephilim should not exist.  By way of analogy:  The child born out of
+wedlock has right to a married mother and father.  His/her parents, however,
+are *not* married, and God does not intervene in human history to fix this.
+Occasionally God rectifies this, in part, by giving the child adoptive
+parents who take the place of the biological parents who were not able to
+do so.  That is not guaranteed however, and even when it does happen, is
+sometimes not a perfect solution.  Analogy is always suspect - it always
+fails to explain at least as much as it explains.  My point is that the
+just as the child in my example did not experience justice, in this life,
+the nephilim stand even further outside of the direct path of salvation history,
+in this life. God will deal with them separately from humanity.
+
+Do the nephilim have a future looking forward to salvation, united with God?
+History shows that some are capable of heroic virtue, and reason tells
+us that a just God will reward this.  God has not, however, chosen to
+reveal to us what He intends for to be the common, or average, fate of the 
+nephilim.  Certainly He has allowed His angels to deal with them much 
+more harshly than He allows any in the spiritual world, fallen or unfallen, 
+to deal with humanity.  This work of fiction is not intended to be a work 
+of theology, if it were, it would fail utterly, as much of it would be 
+*really bad* theology. It is meant to entertain, not instruct. 
+
 ## Free Will
 
 Because I am starting with _[Many Waters][MW]_ as one of my base sources for material, I feel somewhat

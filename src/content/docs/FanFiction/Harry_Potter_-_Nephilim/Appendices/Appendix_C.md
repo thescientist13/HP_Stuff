@@ -149,7 +149,7 @@ determine what happens to a given child.
      background, being of "pure" blood is basically ignoring the 19.5% chance of
      being under powered as compared to your parents. Illogical, but considering
      other human prejudices, not unreasonable.
-   * Per my [base assumptions]({{< relref "Appendix_A" >}}), it is possible for
+   * Per my [base assumptions][AA], it is possible for
      a pure human to gain magic through the union with a fallen angel.  In
      practice, this has not happened in centuries, but magical society
      remembers adults suddenly having magic where none had been present before.
@@ -158,13 +158,9 @@ determine what happens to a given child.
      most magic users do not believe in angels, much less fallen angels, and
      have a strong distrust for the Church.
 
-[Appendix F]: <{{< relref "Appendix_F" >}}>
+[Imperius]: </harrypedia/magic/spells/imperio>
 
-[Appendix G]: <{{< relref "Appendix_G" >}}>
-
-[Imperius]: <{{< relref "../../../Harrypedia/magic/spells/Imperio" >}}>
-
-[Confundus]: <{{< relref "../../../Harrypedia/magic/spells/Confundus" >}}>
+[Confundus]: </harrypedia/magic/spells/Confundus>
 
 ### Specifically human/nephil
 
@@ -215,16 +211,15 @@ determine what happens to a given child.
 * Per the above, in practice, most modern nephil have mixed inheritances, and
   thus magic in a broad range of categories.
 * nephil do get one straight up advantage over humans in addition to using
-  magic - they [live longer]({{< relref "Appendix_E" >}}).  This is *actually*
-  a side effect of their magic, which, regardless of type, will offer some
-  protection against disease and against the effects of entropy (and thus old
-  age).  It does not halt the decay of old age, but it does retard it.  The
-  extent to which it extends the nephil's life depends on the nephil's
-  *average* (not highest) power level (only including power levels where
-  present at all).  
+  magic - they [live longer][AE].  This is *actually* a side effect of their 
+  magic, which, regardless of type, will offer some protection against disease 
+  and against the effects of entropy (and thus old age).  It does not halt 
+  the decay of old age, but it does retard it.  The extent to which it 
+  extends the nephil's life depends on the nephil's *average* (not highest) 
+  power level (only including power levels where present at all).  
 * Per earlier sections, it takes approximately six consecutive generations of magical
   abuse for "truly bizarre" things to become not just possible but probable.
-   * Recall the note from [Appendix A]({{< relref "Appendix_A" >}}) on _The
+   * Recall the note from [Appendix A][AA] on _The
      Screwtape Letters_.
    * Building on what I wrote above comparing "standard humans" to nephil,
      beings in these categories are even more corrupted by the combination of
@@ -392,7 +387,7 @@ determine what happens to a given child.
        ensured that the reasons (creation of humaniform animals) for the especial
        harshness of this punishment where revealed to every nephilim community.  
        At one point this was common knowledge, but the nephilim are remarkably
-       good at ignoring things they do not want to know.  See [Appendix G] on
+       good at ignoring things they do not want to know.  See [Appendix G][AG] on
        Original Sin.
    * giants - the physical changes wrought on them by sin have become "mundane"
      and are now governed by Mendelian inheritance.  Church [records][Giants] 
@@ -406,16 +401,6 @@ determine what happens to a given child.
      
 
 [^210916-1]: Like in _[Maskirovat][knffnm]_.
-
-[Flood]: <{{< relref "../backstory/The_Flood" >}}>
-
-[goblin wars]: <{{< relref "../backstory/The_Dwarfs" >}}>
-
-[Giants]: <{{< ref "../backstory/Giants" >}}>
-
-[Molly]: <{{< relref "Molly" >}}>
-
-[Hermione]: <{{< relref "Hermione_Jean" >}}>
 
 [^210916-2]: This idea resembles that from Jeconais'
     _[Hope](https://jeconais.fanficauthors.net/Hope)_
@@ -517,6 +502,33 @@ can never be fully freed.
   human is suffering from a disability; the troll is performing with unusual
   *capability.*  Believed to be created by the ancestors of the goblins.
 
+[AA]: <../appendix_a>
+
+[AB]: <../appendix_b>
+
+[AC]: <../appendix_c>
+
+[AD]: <../appendix_d>
+
+[AE]: <../appendix_e>
+
+[AF]: <../appendix_f>
+
+[AG]: <../appendix_g>
+
+[AH]: <../appendix_h>
+
+[Flood]: <../backstory/The_Flood>
+
+[goblin wars]: <../backstory/the_dwarfs>
+
+[Giants]: <../backstory/giants>
+
+[Molly]: </harrypedia/people/prewett/molly>
+
+[Hermione]: </harrypedia/people/granger/hermione_jean>
+
+[Fleur]: </harrypedia/people/delacour/fleur/>
 
 [knffnm]: <kokopelli.nsns.fanficauthors.net/Maskirovat/Maskirovat/>
 

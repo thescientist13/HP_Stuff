@@ -11,7 +11,9 @@ many distortions of true Catholic thought, makes for interesting fiction.  This
 is not really a cross-over, you will not see the characters from any of the
 non-Rowling works I am taking ideas from here.  Similarly, much of the
 "theology" in this work is more like a comic book's depiction of Catholicism
-than a true representation.
+than a true representation.  Mark Twain famously wrote that _[Huckleberry Finn]_
+has neither motive nor moral,[^230719-1] I will allow that I have the motive
+of entertaining at least myself. 
 
 As I said, that book caused a me to think about the Harry Potter universe
 differently, but it was not until I was reading CmptrWz' _[For Want of
@@ -22,8 +24,6 @@ fan fiction is a harsher universe.  Magic, even if not "dark" and
 *intentionally* harmful, cannot always be undone or fixed.  There can be not
 only life-long repercussions, but *generational* repercussions from the spells
 and potions that are so often carelessly used.  
-
-[Harrypedia]: <{{< relref "Harrypedia" >}}>
 
 I am taking some things from _[Many Waters][MW2]_, some from C. S. Lewis' _[The
 Screwtape Letters][TSL]_, some from actual Catholic theology, some from various
@@ -43,7 +43,16 @@ the stage and provide some of the world building in the form of appendices that
 authors generally do not publish.  These world building notes are useful to
 understand the story, but are hopefully not truly necessary.  That being said,
 I am not going to go out of my way to explain in depth the way some authors do
-since an interested reader *can* find it in this extra information. 
+since an interested reader *can* find it in this extra information.
+
+[Huckleberry Finn]: <https://www.gutenberg.org/files/76/76-h/76-h.htm>
+
+[^230719-1]: Mark Twain. _[Adventures of Huckleberry Finn][Huckleberry Finn]_
+    Author's Notice.  [Project Gutenberg] text #76. 
+
+[Project Gutenberg]: <https://www.gutenberg.org/>
+
+[Harrypedia]: </harrypedia>
 
 [FWoaO1]: <https://archiveofourown.org/works/28507302>
 

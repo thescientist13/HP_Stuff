@@ -106,15 +106,15 @@ shard could not possess her son.  A battle of wills and of magic began.
 
 [^20210218-2]: See my notes on the [Peverells][]
 
-[Peverells]: < "../../Harrypedia/people/Peverell">
+[Peverells]: <../../Harrypedia/people/Peverell>
 
-[^202104201]: See my notes on [Culture]({{< ref "Harrypedia/Culture" >}})
+[^202104201]: See my notes on [Culture](/harrypedia/culture)
 
-[^202109028]: See the author's notes on [power levels]({{< relref "Appendix_D" >}}).
+[^202109028]: See the author's notes on [power levels](appendices/appendix_d).
 
-[^202109027]: See the author's notes on [power levels]({{< relref "Appendix_D" >}}).
+[^202109027]: See the author's notes on [power levels](appendices/appendix_d>).
 
-[^202109026]: Per my initial [notes]({{< relref "Appendix_A" >}}), one of the key
+[^202109026]: Per my initial [notes](appendices/appendix_a), one of the key
     aspects of this universe is that I was fairly mathematical about magic.
     Thus the most pivotal characters need a breakdown of their abilities.
-    See the author's notes on [power levels]({{< relref "Appendix_D" >}}).
+    See the author's notes on [power levels](appendices/appendix_d).

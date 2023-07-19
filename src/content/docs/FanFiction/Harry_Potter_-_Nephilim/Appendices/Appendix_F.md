@@ -115,13 +115,13 @@ Common ones include, but are not limited to:
    like angels, it does not strike them as an aberration that angelic power 
    would act … less angelic.
 
-[^230717-5]: per [Appendix G], angels interfering to create these restrictions
+[^230717-5]: per [Appendix G][AG], angels interfering to create these restrictions
    act with good intentions, but not always wisely.  You might think 'contracts'
    already do too much.  You might be right. 
 
-[^230717-3]: per [Appendix G], many of the restrictions appear arbitrary.
+[^230717-3]: per [Appendix G][AG], many of the restrictions appear arbitrary.
 
-[^230717-4]: per [Appendix G], 'contract' magic was nearly useless until nephilim
+[^230717-4]: per [Appendix G][AG], 'contract' magic was nearly useless until nephilim
    started to have widely mixed heritages. 
 
 ## Effects
@@ -174,9 +174,7 @@ In summary, a contract can, effectively, *coerce*, but not *force* sin.  But
 in Catholic theology, the level of coercion a contract can easily induce is easily
 more than sufficient to meet the bar for impairing free will.  Thus a contract can
 cause *serious*, but not *mortal* sin.  That being said, the Church has struggled
-with this topic, some of which is summarised in [Appendix G].
-
-[Appendix G]: <{{< relref "Appendix_G" >}}>
+with this topic, some of which is summarised in [Appendix G][AG].
 
 ### Debt
 
@@ -233,13 +231,23 @@ Irma Crabbe at 13 years old.[^230711-1]  These two families with their
 history of dark dealings neither one wanted to risk the penalties that the
 children may have made themselves liable to.
 
+[AA]: <../appendix_a>
 
+[AB]: <../appendix_b>
 
-[ac]: <{{< relref "Appendix_C" >}}>
+[AC]: <../appendix_c>
+
+[AD]: <../appendix_d>
+
+[AE]: <../appendix_e>
+
+[AF]: <../appendix_f>
+
+[AG]: <../appendix_g>
+
+[AH]: <../appendix_h>
 
 [Imperius]: </harrypedia/magic/spells/Imperio>
-
-[AA]: <{{< relref "Appendix_A" >}}>
 
 [^230103-2]: these include, 
     but are not limited to:
