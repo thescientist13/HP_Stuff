@@ -13,20 +13,22 @@ export default defineConfig({
         replacesTitle: true,
       },
       lastUpdated: true,
-      sidebar: [{
-        label: 'Guides',
-        items: [
-          // Each item here is one entry in the navigation menu.
-          {
-            label: 'Example Guide',
-            link: '/guides/example/'
-          }]
-      }, {
-        label: 'Fan Fiction',
-        items: [
-          {
-            label: 'Harry Potter - Nephilim',
-            items:[
+      sidebar: [
+        {
+          label: "Bookmarks",
+          autogenerate: {
+            directory: 'Bookmarks',
+            collapsed: true,
+          },
+          collapsed: true,
+        },
+        {
+          label: 'Fan Fiction',
+          collapsed: true,
+          items: [
+              {
+                label: 'Harry Potter - Nephilim',
+                items:[
               {
                 label: 'Introduction',
                 link: '/fanfiction/harry_potter_-_nephilim/introduction/'
