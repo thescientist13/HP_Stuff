@@ -15,6 +15,14 @@ export default defineConfig({
       lastUpdated: true,
       sidebar: [
         {
+          label: "Encyclopedic Reference",
+          autogenerate: {
+            directory: 'Harrypedia',
+            collapsed: true,
+          },
+          collapsed: true,
+        },
+        {
           label: "Bookmarks",
           autogenerate: {
             directory: 'Bookmarks',
