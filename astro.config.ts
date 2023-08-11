@@ -5,6 +5,7 @@ import lit from "@astrojs/lit";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://hpfan.schierer.org/",
   integrations: [
     starlight({
       title: "Luke's HP Site",
