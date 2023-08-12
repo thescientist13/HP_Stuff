@@ -28,18 +28,26 @@ export class PersonBio extends LitElement {
     private gedDataAvailable: boolean;
 
     @state()
-    private birthday: string | null;
+    private gedcomIndividual: rgc.SelectionIndividualRecord | null;
 
     @state()
-    private names: string | string[];
+    private birthday: string | (Date | null)[] | null;
+
+    @state()
+    private deathday: string | (Date | null)[] | null;
+
+    @state()
+    private names: rgc.SelectionName | null ;
 
     public constructor(prop?: Props) {
         super();
 
         this.gedid = "0";
 
-        this.names = "";
+        this.gedcomIndividual = null;
+        this.names = null;
         this.birthday = null;
+        this.deathday = null;
 
         this.gcDB = null;
 
@@ -78,19 +86,15 @@ export class PersonBio extends LitElement {
             let g = (this.GedData.value as unknown as GedcomDb).GedData;
             if(g){
                 this.gcDB = g;
-                console.log(`in PersonBio gedDefined;`);
-                let i = g.getIndividualRecord(`{this.id}`);
-                if (!i) {
+                console.log(`in PersonBio gedDefined looking for "${this.gedid}"`);
+                let i = g.getIndividualRecord(`${this.gedid}`);
+                if (!i || (i.length === 0)) {
                     console.log(`person not found in db`);
                     return;
                 } else {
-                    console.log(`person found in db`);
-                    console.log();
-                    this.gedDataAvailable = true;
-                    let b = this._birthday();
-                    if(b) {
-                        this.birthday = b;
-                    }
+                    console.log(`person ${this.gedid} found in db`);
+                    this.gedcomIndividual = i;
+                    console.log(`${i.toString()}`)
                     let n = this._names();
                     if( n ) {
                         this.names = n;
@@ -98,10 +102,21 @@ export class PersonBio extends LitElement {
                         console.log(`no names for this person!!!`)
                         return;
                     }
+                    let b = this._birthday();
+                    console.log(`got back ${b}`)
+                    if(b && ((!Array.isArray(b)) || (Array.isArray(b) && b.length ))) {
+                        this.birthday = b;
+                        console.log(`person ${this.gedid} birthday set to ${this.birthday}`)
+                    }
+                    let d = this._deathday();
+                    if(d && ((!Array.isArray(d)) || (Array.isArray(d) && d.length ))) {
+                        this.deathday = d;
+                    }
+                    this.gedDataAvailable = true;
                     this.requestUpdate();
 
                 }
-                console.log(g.getHeader().toString());
+
 
             } else {
                 console.log(`in PersonBio; getDefined called with GedData but value unreachable`)
@@ -113,45 +128,60 @@ export class PersonBio extends LitElement {
 
     private _birthday() {
         console.log(`in birthday, ged id is ${this.gedid}`);
-        if(this.gcDB) {
-            const v = this.gcDB;
-            if(v) {
-                v.getIndividualRecord(`{this.id}`)
-                    .getEventBirth()
-                    .getDate()
-                    .valueAsDate()
-                    .map(d =>{
-                        if(d && d.isDatePunctual) {
-                            const datePart = (d as rgc.ValueDatePunctual).date;
-                            const j = toJsDate(datePart);
-                            console.log(`in birthday returning ${j}`);
-                            return j;
-                        } else {
-                            console.log(`no birthday to return`)
-                            return null;
-                        }
-                    })
-            } else {
-                return "Waiting for Database to be populated"
-            }
+        if(this.gedcomIndividual) {
+            let r = this.gedcomIndividual.getEventBirth()
+                .getDate()
+                .valueAsDate()
+                .map(d =>{
+                    if(d && d.isDatePunctual) {
+                        const datePart = (d as rgc.ValueDatePunctual).date;
+                        const j = toJsDate(datePart);
+                        console.log(`in birthday returning ${j}`);
+                        return j;
+                    } else {
+                        return null;
+                    }
+                })
+            r = r.filter((e,i) => {
+                return (e !== null);
+            })
+            return r;
         } else {
-            return "Waiting for Database to be available"
+            return "Unknown";
+        }
+    }
+
+    private _deathday() {
+        console.log(`in deathday, ged id is ${this.gedid}`);
+        if(this.gedcomIndividual) {
+            let r = this.gedcomIndividual.getEventDeath()
+                .getDate()
+                .valueAsDate()
+                .map(d =>{
+                    if(d && d.isDatePunctual) {
+                        const datePart = (d as rgc.ValueDatePunctual).date;
+                        const j = toJsDate(datePart);
+                        console.log(`in birthday returning ${j}`);
+                        return j;
+                    } else {
+                        return null;
+                    }
+                })
+            r = r.filter((e,i) => {
+                return (e !== null);
+            })
+            return r;
+        } else {
+            return "Waiting for Database to be populated";
         }
     }
 
     private _names() {
         console.log(`in names, ged id is ${this.gedid}`);
-        if(this.gcDB) {
-            const v = this.gcDB;
-            if (v) {
-                const n =  v.getIndividualRecord(`{this.id}`)
-                    .getName()
-                    .valueAsParts();
-                console.log(`n with length ${n.length} and content ${n}`);
-                return n;
-            } else {
-                console.log( `_names 2`)
-            }
+        if(this.gedcomIndividual) {
+            const n =  this.gedcomIndividual.getName()
+            console.log(`n with length ${n.length} and content ${n.toString()}`);
+            return n;
         } else { console.log(`names 1`)}
 
     }
@@ -163,10 +193,25 @@ export class PersonBio extends LitElement {
             console.log(`in PersonBio render, url is ${this.url}`);
             let t = html`
                 <gedcom-db url="${this.url}" ${ref(this.GedData)} ></gedcom-db>
-                Name: ${this.names}<br/>
             `;
-            if(this.birthday){
+            if(this.gedDataAvailable && this.names ) {
+                console.log(`in render ${this.names.toString()}`)
+                const gn = this.names.getGivenName().valueNonNull();
+                const nn = this.names.getNickname().valueNonNull();
+                const sn = this.names.getSurname().valueNonNull();
+                const ns = this.names.getNameSuffix().valueNonNull();
+                t = html`
+                    ${t}
+                    Name: ${gn} ${(nn.length) ? `(${nn.toString()}` : '' } ${(ns.length) ? ns.toString() : '' } <br/>
+                    Surname(s): ${sn.map((s) => html`${s}<br/>`)} 
+                `
+            }
+
+            if(this.gedDataAvailable && this.birthday){
                 t = html`${t}Birthday: ${this.birthday}<br/>`
+            }
+            if(this.gedDataAvailable && this.deathday){
+                t = html`${t}Deathday: ${this.deathday}<br/>`
             }
             return html`${t}`;
         } else {
