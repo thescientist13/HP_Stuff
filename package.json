@@ -15,7 +15,7 @@
     "@nanostores/lit": "^0.1.5",
     "@nanostores/query": "^0.2.4",
     "@webcomponents/template-shadowroot": "^0.2.1",
-    "astro": "2.10.5",
+    "astro": "2.10.7",
     "boolbase": "^1.0.0",
     "gedcom-ts": "^1.1.1",
     "genealogit": "^1.2.3",
