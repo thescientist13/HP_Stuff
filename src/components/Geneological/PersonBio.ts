@@ -42,7 +42,7 @@ export class PersonBio extends LitElement {
     public constructor(prop?: Props) {
         super();
 
-        this.gedid = "0";
+        this.gedid = "I0";
 
         this.gedcomIndividual = null;
         this.names = null;
@@ -73,7 +73,7 @@ export class PersonBio extends LitElement {
     }
 
     public disconnectedCallback() {
-        window.removeEventListener('GedLoaded', (e: Event) => this.gedDefined((e.target as Element)));
+        this.removeEventListener('GedLoaded', (e: Event) => this.gedDefined((e.target as Element)));
         console.log('disconnected callback');
         super.disconnectedCallback();
     };
