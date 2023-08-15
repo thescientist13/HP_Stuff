@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/lit": "^2.1.1",
-    "@astrojs/starlight": "^0.7.1",
+    "@astrojs/starlight": "^0.7.2",
     "@nanostores/lit": "^0.1.5",
     "@nanostores/query": "^0.2.4",
     "@webcomponents/template-shadowroot": "^0.2.1",
