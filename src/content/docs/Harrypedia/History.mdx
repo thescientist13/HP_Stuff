@@ -1,22 +1,20 @@
 ---
 title: "History"
 ---
+import Mermaid from "../../../components/Mermaid.astro";
 
-```mermaid
-gantt
-  dateFormat YYYY-MM-DD
-
-  Roman Pullout[^d1]  :d1, 0410-01-01, 365
-  Norse Invasion[^d2] :d2, 0800-01-01, 365
-
-```
+<Mermaid>
+timeline
+    0410-01-01: Romans pulled out of Britain.[^200623-1]  While Hadrian's wall isn't technically the furthest north they ever went, it seems to be the furthest consistently controlled, and probably represents the northern bounds of Christianity. Note, that bit about Christianity is pure speculation on my part.  Interestingly, the oldest known "split-nib metal dip pen" dates from around then.[^200816-1]
+    0800-01-01: Norse Invasion[^d2]
+</Mermaid>
 
 [^d1]: Romans pulled out of Britain.[^200623-1]  While Hadrian's wall isn't
     technically the furthest north they ever went, it seems to be the furthest
     consistently controlled, and probably represents the northern bounds of
     Christianity. Note, that bit about Christianity is pure speculation on my
     part.  Interestingly, the oldest known "split-nib metal dip pen" dates
-    fromaround then.[^200816-1]   
+    from around then.[^200816-1]
 
 [^d2]: The Norse raiders imposed paganism in the areas they controlled,
     starting sometime around 800 through apparently the 10th
