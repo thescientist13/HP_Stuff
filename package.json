@@ -17,9 +17,11 @@
     "@webcomponents/template-shadowroot": "^0.2.1",
     "astro": "2.10.5",
     "boolbase": "^1.0.0",
+    "d2lang-js": "^0.2.0",
     "gedcom-ts": "^1.1.1",
     "genealogit": "^1.2.3",
     "lit": "^2.8.0",
+    "mermaid": "^10.3.1",
     "nanostores": "^0.9.3",
     "read-gedcom": "^0.3.2",
     "sharp": "^0.32.4"
