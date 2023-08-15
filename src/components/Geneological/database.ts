@@ -1,5 +1,6 @@
 import {LitElement, html } from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
+import {unsafeHTML} from 'lit/directives/unsafe-html.js';
 import { readGedcom } from 'read-gedcom';
 import type * as rgc from 'read-gedcom';
 import { atom } from 'nanostores';
@@ -84,12 +85,10 @@ export class GedcomDb extends LitElement  {
         if(this.GedData) {
             const g = this.GedData;
             if(g) {
-                const h = g.getHeader().toString();
-                return html`
-                <!--
-                ${h}
-                -->
-            `
+                const re = /(\r\n|\n|\r)/gm;
+                const h = 'Raw Gedcom: '.concat(g.getHeader().toString()).concat(' ').replace(re,';')
+                console.log(`h is ${h}`)
+                return html`<script>{/* ${h} */}</script>`
             } else {
                 return html`
                     <!-- GedData is _something_ but not gettable -->

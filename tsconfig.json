@@ -3,5 +3,7 @@
   "compilerOptions": {
     "experimentalDecorators": true,
     "useDefineForClassFields": false,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": false,
   },
 }
