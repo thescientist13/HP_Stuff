@@ -1,27 +1,24 @@
-import { LitElement, html, TemplateResult } from 'lit';
-import {customElement, property, state} from 'lit/decorators.js';
-import {createRef, ref } from 'lit/directives/ref.js'
-import { unsafeSVG } from 'lit/directives/unsafe-svg.js';
-import type { Ref } from 'lit/directives/ref';
-import mermaid, { ExternalDiagramDefinition, MermaidConfig } from "mermaid";
+import type {ChildPart, TemplateResult} from 'lit';
+import {html, LitElement, noChange} from 'lit';
+import {AsyncDirective, directive} from 'lit/async-directive.js';
+import type {PartInfo} from 'lit/directive.js';
+import {customElement, queryAssignedNodes, state} from 'lit/decorators.js';
+import {createRef, ref} from 'lit/directives/ref.js'
+import {until} from 'lit/directives/until.js';
+import type {Ref} from 'lit/directives/ref';
+import mermaid from "mermaid";
 
-@customElement('mermaid-diagram')
-export class MermaidDiagram extends LitElement {
 
-    @state()
-    private allText: string;
+class DiagramSlotDirective extends AsyncDirective {
+    private promise: boolean;
 
     private config
 
-    private slotRef: Ref<HTMLInputElement> = createRef();
+    protected mdc
 
-    @state()
-    renderedSvg: string | null;
-
-    public constructor() {
-        super();
-
-        this.allText = '';
+    constructor(partInfo: PartInfo) {
+        super(partInfo );
+        this.promise = false;
         this.config = {
             htmlLabels: true,
             logLevel: 'debug',
@@ -30,49 +27,81 @@ export class MermaidDiagram extends LitElement {
             wrap: true,
 
         }
-        this.renderedSvg = null;
+        this.mdc = [];
+        mermaid.initialize(this.config);
     }
 
-    connectedCallback() {
+    update(part: ChildPart) {
+        console.log(`DiagramSlotDirective update function called on `)
+        console.log(`promise is ${this.promise}`)
+        return this.render();
+    }
+
+    protected async handleSlotChange(e) {
+        console.log(`slotchange Callback for mermaid-diagram`)
+        const children = e.target.assignedNodes({flatten: true});
+        if(!children) {
+            console.error(`missing target`)
+            return;
+        }
+        this.mdc = children.map((node) => {
+            return node.cloneNode();
+        })
+        console.log(`mdc has length ${this.mdc.length}`)
+        console.log(`found ${children}`)
+        this.promise = true;
+        this.update(e);
+    }
+
+    render () {
+        console.log(`render for DiagramSlotDirective with promise state ${this.promise}`)
+        if (!this.promise) {
+            console.log(`top render`)
+            let c = html`
+                <div class="mermaid" >
+                    <slot @slotchange=${this.handleSlotChange} ></slot>
+                </div>               
+            `
+            return c;
+        } else {
+            console.log(`promise is defined`)
+            console.log(`in final render, children now ${this.mdc}`)
+                return html`
+                    <div class="mermaid" >
+                        
+                    </div>
+                    `
+
+        }
+
+    }
+
+
+
+}
+
+@customElement('mermaid-diagram')
+export class MermaidDiagram extends LitElement {
+
+    private mermaidSlot = directive(DiagramSlotDirective);
+
+    public constructor() {
+        super();
+
+    }
+
+    async connectedCallback() {
         super.connectedCallback();
         console.log(`connected Callback for mermaid-diagram`)
-
-        mermaid.initialize(this.config);
-
-    }
-
-    protected async handleSlotchange(e) {
-        if(!this.renderedSvg) {
-            const childNodes = e.target.assignedElements({flatten: true});
-            console.log(`slotchange Callback for mermaid-diagram`)
-            this.allText = childNodes.map((node) => {
-                console.log(`found node with name ${node.localName}`)
-                return node.innerHTML ? node.innerHTML : '';
-            }).join ('\n');
-            console.log(`found text ${this.allText}`)
-            const { svg } = await mermaid.render('graphDiv',this.allText.replace(/#/g,'aaa'));
-            this.renderedSvg = svg.replace(/aaa/g, '#');
-            console.log(`resulting svg is\n${svg}`)
-        }
 
     }
 
     render() {
-        if(!this.renderedSvg) {
-            return html`
-            <div class="mermaid">
-                <slot @slotchange=${this.handleSlotchange} ${ref(this.slotRef)}/>
+        return html`
+            <div class="MermaidDiagram">
+                    ${this.mermaidSlot()}
             </div>
         `
-        } else {
-
-            return html`
-                <div class="mermaid">
-                    ${unsafeSVG(this.renderedSvg)}
-                </div>
-            `
-        }
-
     }
 
 }

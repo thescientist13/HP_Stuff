@@ -24,10 +24,11 @@
     "mermaid": "^10.3.1",
     "nanostores": "^0.9.3",
     "read-gedcom": "^0.3.2",
-    "sharp": "^0.32.4"
+    "sharp": "^0.32.5"
   },
   "devDependencies": {
     "@types/boolbase": "^1.0.1",
+    "@types/jquery": "^3.5.16",
     "execa": "^7.2.0",
     "is-stream": "^3.0.0",
     "unist-util-visit-parents": "^6.0.1"
