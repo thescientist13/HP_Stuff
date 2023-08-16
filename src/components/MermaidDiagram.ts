@@ -1,105 +1,128 @@
-import type {ChildPart, TemplateResult} from 'lit';
-import {html, LitElement, noChange} from 'lit';
-import {AsyncDirective, directive} from 'lit/async-directive.js';
-import type {PartInfo} from 'lit/directive.js';
+import type {  ChildPart, TemplateResult} from 'lit';
+import { html,  LitElement, noChange, nothing} from 'lit';
+import {AsyncDirective,  directive} from 'lit/async-directive.js';
+import type { PartInfo} from 'lit/directive.js';
 import {customElement, queryAssignedNodes, state} from 'lit/decorators.js';
 import {createRef, ref} from 'lit/directives/ref.js'
 import {until} from 'lit/directives/until.js';
-import type {Ref} from 'lit/directives/ref';
+import {unsafeHTML} from 'lit/directives/unsafe-html.js';
+import {when} from 'lit/directives/when.js';
+import type {Ref, RefOrCallback} from 'lit/directives/ref';
+import {provide, createContext} from '@lit-labs/context';
+import type { ReactiveController, ReactiveControllerHost } from 'lit';
+import type { Observable, Subscription } from 'rxjs';
+import { AsyncSubject, from } from 'rxjs';
 import mermaid from "mermaid";
-
-
-class DiagramSlotDirective extends AsyncDirective {
-    private promise: boolean;
-
-    private config
-
-    protected mdc
-
-    constructor(partInfo: PartInfo) {
-        super(partInfo );
-        this.promise = false;
-        this.config = {
-            htmlLabels: true,
-            logLevel: 'debug',
-            securityLevel: 'antiscript',
-            startOnLoad: false,
-            wrap: true,
-
-        }
-        this.mdc = [];
-        mermaid.initialize(this.config);
-    }
-
-    update(part: ChildPart) {
-        console.log(`DiagramSlotDirective update function called on `)
-        console.log(`promise is ${this.promise}`)
-        return this.render();
-    }
-
-    protected async handleSlotChange(e) {
-        console.log(`slotchange Callback for mermaid-diagram`)
-        const children = e.target.assignedNodes({flatten: true});
-        if(!children) {
-            console.error(`missing target`)
-            return;
-        }
-        this.mdc = children.map((node) => {
-            return node.cloneNode();
-        })
-        console.log(`mdc has length ${this.mdc.length}`)
-        console.log(`found ${children}`)
-        this.promise = true;
-        this.update(e);
-    }
-
-    render () {
-        console.log(`render for DiagramSlotDirective with promise state ${this.promise}`)
-        if (!this.promise) {
-            console.log(`top render`)
-            let c = html`
-                <div class="mermaid" >
-                    <slot @slotchange=${this.handleSlotChange} ></slot>
-                </div>               
-            `
-            return c;
-        } else {
-            console.log(`promise is defined`)
-            console.log(`in final render, children now ${this.mdc}`)
-                return html`
-                    <div class="mermaid" >
-                        
-                    </div>
-                    `
-
-        }
-
-    }
-
-
-
-}
+import type {RenderResult} from "mermaid";
 
 @customElement('mermaid-diagram')
 export class MermaidDiagram extends LitElement {
 
-    private mermaidSlot = directive(DiagramSlotDirective);
+    private mermaidSubject = new AsyncSubject();
+
+    private mermaidDivRef = createRef();
+
+    private result: Observable<RenderResult> | null = null;
+
+    private slotHtml: string | null = null;
+
+    @state()
+    protected mdc: Node | Node[] | null | undefined;
 
     public constructor() {
         super();
 
+        this.mdc = null;
     }
 
     async connectedCallback() {
         super.connectedCallback();
         console.log(`connected Callback for mermaid-diagram`)
 
+
     }
 
+    protected handleSlotChange(e) {
+        console.log(`handleSlotChange called`)
+        const childNodes = e.target.assignedNodes({flatten: true});
+        if(this.mdc !== undefined) {
+            console.log(`in handleSlotChange, I found slot children`)
+            this.mdc = childNodes;
+            this.renderMermaid(this.mermaidDivRef.value)
+        } else {
+            console.error(`in handleSlotChange, I found no children`)
+            this.mdc = null;
+        }
+    }
+
+    protected renderMermaid(div?: Element) {
+
+        if(div) {
+            const config = {
+                htmlLabels: true,
+                logLevel: 'debug',
+                securityLevel: 'antiscript',
+                startOnLoad: false,
+                wrap: true,
+
+            };
+            mermaid.initialize(config);
+            let CP_slot = div.querySelector('slot');
+            if(CP_slot) {
+                console.log(`I found the slot`)
+                const sc = CP_slot.assignedNodes({flatten: true});
+                if(sc && sc.length) {
+                    console.log(`I found ${sc.length} slot children`)
+                    if(sc[0] && sc[0].parentElement) {
+                        const para = sc[0].parentElement.querySelector('p')
+                        let result: Promise<RenderResult>
+                        if(para) {
+                            this.result = from(mermaid.render('graph',para.innerHTML));
+                        } else {
+                            this.result = from(mermaid.render('graph',sc[0].parentElement.innerHTML));
+                        }
+                    } else {
+                        console.error (`my slot child had no parent`)
+
+                    }
+
+                } else {
+                    if(sc) {
+                        console.error(`sc has no length`)
+                    } else {
+                        console.error(`there was no sc`)
+                    }
+                }
+            } else {
+                console.error(`no slot found`)
+            }
+        } else {
+            console.error(`I have no div`)
+        }
+        if(this.result) {
+            console.log(`setting subscribe`)
+            this.result.subscribe((s) => {
+                console.log(`setting slotHtml`)
+                const { svg } = s;
+                this.slotHtml = svg;
+                this.requestUpdate()
+            });
+        }
+        console.log(`end of renderMermaid`)
+   }
+
     render() {
+
         return html`
-            <div class="MermaidDiagram">
-                    ${this.mermaidSlot()}
+            <div class="MermaidDiagram" ${ref(this.mermaidDivRef)} >
+                
+                <div class="mermaid">
+                    ${when(this.slotHtml, () => {
+                            return html`${unsafeHTML(this.slotHtml)}`
+                        }, () => { 
+                          return html`<slot @slotchange=${this.handleSlotChange} ></slot>`
+                        })}
+                </div>
             </div>
         `
     }

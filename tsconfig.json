@@ -4,6 +4,16 @@
     "experimentalDecorators": true,
     "useDefineForClassFields": false,
     "verbatimModuleSyntax": true,
+    "importsNotUsedAsValues": "error",
     "isolatedModules": false,
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin"
+      },
+    ],
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"]
+    }
   },
 }

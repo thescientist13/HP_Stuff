@@ -5,17 +5,19 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro check && tsc --noEmit &&astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/lit": "^2.1.1",
     "@astrojs/starlight": "^0.7.2",
+    "@lit-labs/context": "^0.4.0",
+    "@lit-labs/ssr": "^3.1.5",
     "@nanostores/lit": "^0.1.5",
     "@nanostores/query": "^0.2.4",
     "@webcomponents/template-shadowroot": "^0.2.1",
-    "astro": "2.10.7",
+    "astro": "2.10.9",
     "boolbase": "^1.0.0",
     "d2lang-js": "^0.2.0",
     "gedcom-ts": "^1.1.1",
@@ -24,6 +26,7 @@
     "mermaid": "^10.3.1",
     "nanostores": "^0.9.3",
     "read-gedcom": "^0.3.2",
+    "rxjs": "^7.8.1",
     "sharp": "^0.32.5"
   },
   "devDependencies": {
@@ -31,6 +34,7 @@
     "@types/jquery": "^3.5.16",
     "execa": "^7.2.0",
     "is-stream": "^3.0.0",
+    "type-mermaid": "^1.0.3",
     "unist-util-visit-parents": "^6.0.1"
   }
 }
