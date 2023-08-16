@@ -45,28 +45,28 @@ export class MermaidDiagram extends LitElement {
     protected handleSlotChange(e) {
         console.log(`handleSlotChange called`)
         const childNodes = e.target.assignedNodes({flatten: true});
-        if(this.mdc !== undefined) {
+        const me = this.mermaidDivRef.value?.querySelector('slot');
+        if(childNodes && me) {
             console.log(`in handleSlotChange, I found slot children`)
             this.mdc = childNodes;
             this.renderMermaid(this.mermaidDivRef.value)
         } else {
-            console.error(`in handleSlotChange, I found no children`)
+            console.log(`in handleSlotChange, I found no children`)
             this.mdc = null;
         }
     }
 
     protected renderMermaid(div?: Element) {
-
+        console.log(`in renderMermaid`)
         if(div) {
-            const config = {
+            mermaid.initialize({
                 htmlLabels: true,
                 logLevel: 'debug',
                 securityLevel: 'antiscript',
                 startOnLoad: false,
                 wrap: true,
 
-            };
-            mermaid.initialize(config);
+            });
             let CP_slot = div.querySelector('slot');
             if(CP_slot) {
                 console.log(`I found the slot`)
