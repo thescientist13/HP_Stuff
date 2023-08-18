@@ -60,12 +60,14 @@ export class MermaidDiagram extends LitElement {
         console.log(`in renderMermaid`)
         if(div) {
             mermaid.initialize({
-                htmlLabels: true,
+                flowchart: {
+                    htmlLabels: true
+                },
                 logLevel: 'debug',
                 securityLevel: 'antiscript',
                 startOnLoad: false,
                 wrap: true,
-
+                fontSize: 14,
             });
             let CP_slot = div.querySelector('slot');
             if(CP_slot) {
@@ -75,12 +77,19 @@ export class MermaidDiagram extends LitElement {
                     console.log(`I found ${sc.length} slot children`)
                     if(sc[0] && sc[0].parentElement) {
                         const para = sc[0].parentElement.querySelector('p')
+                        let innerHtml: string = '';
                         let result: Promise<RenderResult>
                         if(para) {
-                            this.result = from(mermaid.render('graph',para.innerHTML));
+                            console.log(mermaid.mermaidAPI.getConfig());
+
+                            innerHtml = para.innerHTML;
+
                         } else {
-                            this.result = from(mermaid.render('graph',sc[0].parentElement.innerHTML));
+                            innerHtml = sc[0].parentElement.innerHTML;
                         }
+                        innerHtml = innerHtml.replace(/—&gt;/g, '-->')
+                        console.log(innerHtml.toString())
+                        this.result = from(mermaid.render('graph',innerHtml));
                     } else {
                         console.error (`my slot child had no parent`)
 
