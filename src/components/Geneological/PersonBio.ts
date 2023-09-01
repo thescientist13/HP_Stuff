@@ -16,7 +16,7 @@ export class PersonBio extends LitElement {
     @property({type: String, reflect: true})
     public gedid: string;
 
-    @property()
+    @property({type: String, reflect: true})
     public url: string | null;
 
     @state()

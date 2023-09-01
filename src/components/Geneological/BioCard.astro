@@ -6,11 +6,6 @@ import { PersonBio } from './PersonBio';
 const props = {url: Astro.url};
 console.log(`BioCard props url is ${props.url}`)
 ---
-<script>
-    import { PersonBio } from './PersonBio.js';
-    import { GedcomDb } from './database.js';
-</script>
 <Card title="Biographical Information">
-
-    <person-bio gedid={id} url={Astro.url} />
+    <PersonBio gedid={id} url={Astro.url} />
 </Card>
