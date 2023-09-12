@@ -26,6 +26,7 @@
     "gedcom-ts": "^1.1.1",
     "genealogit": "^1.2.3",
     "lit": "^2.8.0",
+    "luxon": "^3.4.3",
     "mermaid": "^10.4.0",
     "nanostores": "^0.9.3",
     "read-gedcom": "^0.3.2",
@@ -36,6 +37,7 @@
   "devDependencies": {
     "@types/boolbase": "^1.0.1",
     "@types/jquery": "^3.5.18",
+    "@types/luxon": "^3.3.2",
     "execa": "^8.0.1",
     "is-stream": "^3.0.0",
     "type-mermaid": "^1.0.3",
