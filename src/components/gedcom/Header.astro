@@ -2,9 +2,9 @@
 import { Card } from '@astrojs/starlight/components';
 import { GedcomHeader } from './header';
 let { file } = Astro.props;
-const GedUrl = new URL(file, Astro.site );
+const GedUrl = new URL('/' + file, Astro.url );
 console.log(`Gedcom url is ${GedUrl}`)
 ---
 <Card title="Gedcom Header Information">
-    <GedcomHeader file={GedUrl} client:only />
+    <GedcomHeader url={GedUrl} client:only />
 </Card>

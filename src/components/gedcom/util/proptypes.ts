@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types';
+import { z } from "zod";
 
-export const GedcomTreeNodeType = PropTypes.shape({
-    tag: PropTypes.string,
-    pointer: PropTypes.string,
-    value: PropTypes.string,
-    children: PropTypes.array.isRequired, // Lose type
+export const GedcomTreeNodeType = z.object({
+    tag: z.string().optional(),
+    pointer: z.string().optional(),
+    value: z.string().optional(),
+    children: z.any().array(), // Lose type
 });

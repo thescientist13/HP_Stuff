@@ -1,10 +1,11 @@
 import { LitElement, html, css} from 'lit';
+import type { PropertyValues } from 'lit'
 import {property, state} from 'lit/decorators.js';
 import {createRef, ref } from 'lit/directives/ref.js';
 import type { Ref } from 'lit/directives/ref.js';
 import {when} from 'lit/directives/when.js';
-import { StoreController } from '@nanostores/lit'
-import { $database } from './state/database';
+import { StoreController,withStores } from '@nanostores/lit'
+import { gedcomDataControler } from './state/database';
 import type { SelectionGedcom } from 'read-gedcom';
 import type * as rgc from "read-gedcom";
 import {toJsDate, parseNameParts} from "read-gedcom";
@@ -23,16 +24,25 @@ import "@ui5/webcomponents/dist/Title";
 
 export class GedcomHeader extends LitElement {
   
-  @property({type: String})
-  file: string | null;
+  @property()
+  public url: URL | string | null;
   
-  
+  private gedcomDataController = new gedcomDataControler(this);
   
   constructor() {
     super();
     
-    this.file = null;
+    this.url = null;
     
+  }
+  
+  public async willUpdate(changedProperties: PropertyValues<this>) {
+    super.willUpdate(changedProperties)
+    console.log(`in willUpdate callback, url is ${this.url}`)
+    if(this.url && (this.url.toString().localeCompare(this.gedcomDataController.getUrl().toString()))) {
+      console.log(`setting gedcomDataController url`)
+      this.gedcomDataController.setUrl(new URL(this.url));
+    }
   }
   
   static styles = css`
@@ -45,6 +55,10 @@ export class GedcomHeader extends LitElement {
     }
   `
   
+  private renderRootIndividual() {
+  
+  }
+  
   render() {
     
     return html`
@@ -54,7 +68,7 @@ export class GedcomHeader extends LitElement {
                 <tr>
                     <td>
                         <ui5-title level="H3" style="padding-block-end: 1rem;"><ui5-icon name="home"></ui5-icon> Root Individual</ui5-title>
-                        test 1
+                        
                     </td>
                     <td>
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
@@ -82,7 +96,8 @@ export class GedcomHeader extends LitElement {
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
                             Tools
                         </ui5-title>
-                        file is ${this.file}
+                        file is ${this.url}
+                        ${this.gedcomDataController.render()}
                     </td>
                 </tr>
                 </tbody>
