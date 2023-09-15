@@ -24,15 +24,15 @@ type gedcomData = {
     data: SelectionGedcom | null,
 }
 
-export const gedData = atom<SelectionGedcom | null>(null);
+const gedData = atom<SelectionGedcom | null>(null);
 
-export class gedcomDataControler implements ReactiveController {
+export class gedcomDataController implements ReactiveController {
     private host: ReactiveControllerHost;
     private url: URL | null;
 
     private dataFetcher!: Task<[WritableAtom<SelectionGedcom | null>, URL]>;
 
-    protected gedcomDataController
+    readonly gedcomStoreController
 
     private Storelogger;
 
@@ -42,7 +42,7 @@ export class gedcomDataControler implements ReactiveController {
       this.Storelogger = logger({
         'Gedcom Data': gedData,
       });
-      this.gedcomDataController = new StoreController(host, gedData);
+      this.gedcomStoreController = new StoreController(host, gedData);
       host.addController(this as ReactiveController);
 
       this.dataFetcher = new Task<[WritableAtom<SelectionGedcom | null>, URL | null]>(host, async ([store, url]) => {
@@ -55,7 +55,6 @@ export class gedcomDataControler implements ReactiveController {
                   let rootSelection = this.readGedcomFromBuffer(b);
                   if (rootSelection) {
                     console.log(`root successfully populated in loadGedcomUrl`)
-                    const other = this.initializeAllFields(rootSelection);
                   } else {
                     console.log(`root not populated`)
                   }
@@ -99,15 +98,15 @@ export class gedcomDataControler implements ReactiveController {
       return sg;
     });
 
-    protected initializeAllFields = (root: SelectionGedcom) => {
+    public initializeAllFields(root: SelectionGedcom) {
       console.log(`in initializeAllFields, root is type ${typeof root}; ${JSON.stringify(root).toString()}`)
       const settings = createInitialSettings(root);
       const {topologicalArray, topologicalOrdering} = topologicalSort(root);
       const inbreedingMap = new Map(), relatednessMap = new Map();
       const dependant = this.computeDependantFields(root, settings.rootIndividual);
-      return {settings, topologicalArray, topologicalOrdering, inbreedingMap, relatednessMap, ...dependant};
+      return {settings, topologicalArray, topologicalOrdering, inbreedingMap, relatednessMap, dependant};
     };
-    protected computeDependantFields = (root: SelectionGedcom, rootIndividual: SelectionIndividualRecord | null) => {
+    protected computeDependantFields(root: SelectionGedcom, rootIndividual: SelectionIndividualRecord | null) {
       const ancestors = rootIndividual ? computeAncestors(root, rootIndividual) : null;
       const descendants = rootIndividual ? computeDescendants(root, rootIndividual) : null;
       const related = rootIndividual ? ancestors ? computeRelated(root, ancestors) : null : null;
@@ -115,7 +114,7 @@ export class gedcomDataControler implements ReactiveController {
       return {ancestors, descendants, related, statistics};
     };
 
-    protected computeStatistics = (root: SelectionGedcom, ancestors: Set<string|null>| null, descendants: Set<string|null>| null, related: Set<string|null>| null) => {
+    public computeStatistics (root: SelectionGedcom, ancestors: Set<string|null>| null, descendants: Set<string|null>| null, related: Set<string|null>| null) {
       const totalIndividuals = root.getIndividualRecord().length;
       const totalAncestors = ancestors !== null ? ancestors.size - 1 : null;
       const totalDescendants = descendants !== null ? descendants.size - 1 : null;

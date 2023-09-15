@@ -1,11 +1,11 @@
-import { LitElement, html, css} from 'lit';
-import type { PropertyValues } from 'lit'
+import {LitElement, html, css, nothing} from 'lit';
+import type { PropertyValues, TemplateResult } from 'lit'
 import {property, state} from 'lit/decorators.js';
 import {createRef, ref } from 'lit/directives/ref.js';
 import type { Ref } from 'lit/directives/ref.js';
 import {when} from 'lit/directives/when.js';
 import { StoreController,withStores } from '@nanostores/lit'
-import { gedcomDataControler } from './state/database';
+import { gedcomDataController } from './state/database';
 import type { SelectionGedcom } from 'read-gedcom';
 import type * as rgc from "read-gedcom";
 import {toJsDate, parseNameParts} from "read-gedcom";
@@ -27,7 +27,7 @@ export class GedcomHeader extends LitElement {
   @property()
   public url: URL | string | null;
   
-  private gedcomDataController = new gedcomDataControler(this);
+  private gcDataController = new gedcomDataController(this);
   
   constructor() {
     super();
@@ -39,9 +39,9 @@ export class GedcomHeader extends LitElement {
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
     console.log(`in willUpdate callback, url is ${this.url}`)
-    if(this.url && (this.url.toString().localeCompare(this.gedcomDataController.getUrl().toString()))) {
+    if(this.url && (this.url.toString().localeCompare(this.gcDataController.getUrl().toString()))) {
       console.log(`setting gedcomDataController url`)
-      this.gedcomDataController.setUrl(new URL(this.url));
+      this.gcDataController.setUrl(new URL(this.url));
     }
   }
   
@@ -59,7 +59,59 @@ export class GedcomHeader extends LitElement {
   
   }
   
+  private renderStats() {
+    if(this.gcDataController) {
+      const rootIndividual = this.gcDataController.gedcomStoreController.value;
+      if(rootIndividual) {
+        const {dependant} = this.gcDataController.initializeAllFields(rootIndividual);
+        const statistics = dependant.statistics;
+        let ta: TemplateResult<1> | boolean = false;
+        if (statistics.totalAncestors !== null) {
+          ta = html`
+              <tr>
+                  <td>Ancestors:</td>
+                  <td><strong>${statistics.totalAncestors}</strong></td>
+              </tr>
+          `
+        }
+        let td: TemplateResult<1> | boolean = false;
+        if (statistics.totalDescendants !== null) {
+          td = html`
+              <tr>
+                  <td>Descendants:</td>
+                  <td><strong>${statistics.totalDescendants}</strong></td>
+              </tr>
+          `
+        }
+        let tr: TemplateResult<1> | boolean = false;
+        if (statistics.totalRelated !== null) {
+          tr = html`
+              <tr>
+                  <td>Related:</td>
+                  <td><strong>${statistics.totalRelated}</strong></td>
+              </tr>
+          `
+        }
+         return html`
+           <table>
+               <tbody>
+               <tr>
+                   <td>Individuals:</td>
+                   <td><strong>${statistics.totalIndividuals}</strong></td>
+               </tr>
+               ${ta ?? nothing}
+               ${ td ?? nothing}
+               ${ tr ?? nothing}
+               </tbody>
+           </table>
+         `
+      }
+    }
+    return null;
+  }
+  
   render() {
+    
     
     return html`
         <ui5-card >
@@ -74,7 +126,7 @@ export class GedcomHeader extends LitElement {
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
                             <ui5-icon name="vertical-bar-chart-2"></ui5-icon> % Statistics
                         </ui5-title>
-                        test 2
+                        ${this.renderStats()}
                     </td>
                 </tr>
                 <tr>
@@ -97,7 +149,7 @@ export class GedcomHeader extends LitElement {
                             Tools
                         </ui5-title>
                         file is ${this.url}
-                        ${this.gedcomDataController.render()}
+                        ${this.gcDataController.render()}
                     </td>
                 </tr>
                 </tbody>
