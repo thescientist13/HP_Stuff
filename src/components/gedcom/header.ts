@@ -59,43 +59,67 @@ export class GedcomHeader extends LitElement {
   `
   
   private renderRootIndividual() {
-  
+    this.gcDataController.initializeAllFields()
+    const  rootSelection = this.gcDataController.gedcomStoreController.value;
+    if(rootSelection) {
+      const allFields = this.gcDataController.initializeAllFields();
+      if(allFields){
+        const rootIndividual = allFields.settings.rootIndividual;
+        if(rootIndividual) {
+          return html`
+              <table>
+                  <tbody>
+                  <tr>
+                      <td>
+                          ${rootIndividual.toString()}
+                      </td>
+                  </tr>
+                  </tbody>
+              </table>
+              
+          `
+        }
+      }
+    }
+    return null;
   }
   
   private renderStats() {
     if(this.gcDataController) {
       const rootIndividual = this.gcDataController.gedcomStoreController.value;
       if(rootIndividual) {
-        const {dependant} = this.gcDataController.initializeAllFields(rootIndividual);
-        const statistics = dependant.statistics;
-        let ta: TemplateResult<1> | boolean = false;
-        if (statistics.totalAncestors !== null) {
-          ta = html`
+        const allFields = this.gcDataController.initializeAllFields();
+        if(allFields){
+          const dependant = allFields.dependant;
+          const statistics = dependant.statistics;
+          let ta: TemplateResult<1> | boolean = false;
+          if (statistics.totalAncestors !== null) {
+            ta = html`
               <tr>
                   <td>Ancestors:</td>
                   <td><strong>${statistics.totalAncestors}</strong></td>
               </tr>
           `
-        }
-        let td: TemplateResult<1> | boolean = false;
-        if (statistics.totalDescendants !== null) {
-          td = html`
+          }
+          let td: TemplateResult<1> | boolean = false;
+          if (statistics.totalDescendants !== null) {
+            td = html`
               <tr>
                   <td>Descendants:</td>
                   <td><strong>${statistics.totalDescendants}</strong></td>
               </tr>
           `
-        }
-        let tr: TemplateResult<1> | boolean = false;
-        if (statistics.totalRelated !== null) {
-          tr = html`
+          }
+          let tr: TemplateResult<1> | boolean = false;
+          if (statistics.totalRelated !== null) {
+            tr = html`
               <tr>
                   <td>Related:</td>
                   <td><strong>${statistics.totalRelated}</strong></td>
               </tr>
           `
-        }
-         return html`
+          }
+          return html`
            <table>
                <tbody>
                <tr>
@@ -108,6 +132,7 @@ export class GedcomHeader extends LitElement {
                </tbody>
            </table>
          `
+        }
       }
     }
     return null;
@@ -179,7 +204,7 @@ export class GedcomHeader extends LitElement {
           e = html`${name}`;
         }
         return html`
-              <Table borderless>
+              <table borderless>
                   <tbody>
                   <tr>
                       <td>Name:</td>
@@ -188,7 +213,7 @@ export class GedcomHeader extends LitElement {
                       </td>
                   </tr>
                   </tbody>
-              </Table>
+              </table>
             `
       }
     }
@@ -204,8 +229,10 @@ export class GedcomHeader extends LitElement {
                 <tbody class="header=body">
                 <tr>
                     <td>
-                        <ui5-title level="H3" style="padding-block-end: 1rem;"><ui5-icon name="home"></ui5-icon> Root Individual</ui5-title>
-                        
+                        <ui5-title level="H3" style="padding-block-end: 1rem;">
+                            <ui5-icon name="home"></ui5-icon> Root Individual
+                        </ui5-title>
+                        ${this.renderRootIndividual()}
                     </td>
                     <td>
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
@@ -233,7 +260,6 @@ export class GedcomHeader extends LitElement {
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
                             Tools
                         </ui5-title>
-                        
                         ${this.gcDataController.render()}
                     </td>
                 </tr>

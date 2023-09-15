@@ -98,13 +98,17 @@ export class gedcomDataController implements ReactiveController {
       return sg;
     });
 
-    public initializeAllFields(root: SelectionGedcom) {
-      console.log(`in initializeAllFields, root is type ${typeof root}; ${JSON.stringify(root).toString()}`)
-      const settings = createInitialSettings(root);
-      const {topologicalArray, topologicalOrdering} = topologicalSort(root);
-      const inbreedingMap = new Map(), relatednessMap = new Map();
-      const dependant = this.computeDependantFields(root, settings.rootIndividual);
-      return {settings, topologicalArray, topologicalOrdering, inbreedingMap, relatednessMap, dependant};
+    public initializeAllFields() {
+      const root = gedData.value;
+      if(root) {
+        console.log(`in initializeAllFields, root is type ${typeof root}; ${JSON.stringify(root).toString()}`)
+        const settings = createInitialSettings(root);
+        const {topologicalArray, topologicalOrdering} = topologicalSort(root);
+        const inbreedingMap = new Map(), relatednessMap = new Map();
+        const dependant = this.computeDependantFields(root, settings.rootIndividual);
+        return {settings, topologicalArray, topologicalOrdering, inbreedingMap, relatednessMap, dependant};
+      }
+      return null;
     };
     protected computeDependantFields(root: SelectionGedcom, rootIndividual: SelectionIndividualRecord | null) {
       const ancestors = rootIndividual ? computeAncestors(root, rootIndividual) : null;
