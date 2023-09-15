@@ -110,18 +110,18 @@ export class gedcomDataControler implements ReactiveController {
     protected computeDependantFields = (root: SelectionGedcom, rootIndividual: SelectionIndividualRecord | null) => {
       const ancestors = rootIndividual ? computeAncestors(root, rootIndividual) : null;
       const descendants = rootIndividual ? computeDescendants(root, rootIndividual) : null;
-      const related = rootIndividual ? computeRelated(root, ancestors) : null;
+      const related = rootIndividual ? ancestors ? computeRelated(root, ancestors) : null : null;
       const statistics = this.computeStatistics(root, ancestors, descendants, related);
       return {ancestors, descendants, related, statistics};
     };
 
-    protected computeStatistics = action(gedData, 'computeStatistics', (store, root, ancestors, descendants, related) => {
+    protected computeStatistics = (root: SelectionGedcom, ancestors: Set<string|null>| null, descendants: Set<string|null>| null, related: Set<string|null>| null) => {
       const totalIndividuals = root.getIndividualRecord().length;
       const totalAncestors = ancestors !== null ? ancestors.size - 1 : null;
       const totalDescendants = descendants !== null ? descendants.size - 1 : null;
       const totalRelated = related !== null ? related.size - 1 : null;
       return {totalIndividuals, totalAncestors, totalDescendants, totalRelated};
-    });
+    };
 
     hostConnected() {
       console.log(`gedcomDataController url is ${this.url}`)
