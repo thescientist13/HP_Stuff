@@ -6,8 +6,8 @@ import type { Ref } from 'lit/directives/ref.js';
 import {when} from 'lit/directives/when.js';
 import { StoreController,withStores } from '@nanostores/lit'
 import { gedcomDataController } from './state/database';
-import type { SelectionGedcom } from 'read-gedcom';
-import {toJsDate, parseNameParts} from "read-gedcom";
+import type { SelectionGedcom,  } from 'read-gedcom';
+import {toJsDate, parseNameParts, SelectionIndividualRecord} from "read-gedcom";
 import "@ui5/webcomponents-icons/dist/home.js";
 import "@ui5/webcomponents-icons/dist/vertical-bar-chart-2.js";
 import "@ui5/webcomponents-icons/dist/document-text.js";
@@ -20,8 +20,10 @@ import "@ui5/webcomponents/dist/TableColumn.js";
 import "@ui5/webcomponents/dist/TableRow.js";
 import "@ui5/webcomponents/dist/TableCell.js";
 import "@ui5/webcomponents/dist/Title";
+import "@ui5/webcomponents-icons/dist/email.js";
 
-import {displayDateExact} from './util/event';
+
+import {displayDateExact, displayName} from './util';
 
 export class GedcomHeader extends LitElement {
   
@@ -158,6 +160,41 @@ export class GedcomHeader extends LitElement {
     return null;
   }
   
+  private renderSubmitter () {
+    if (this.gcDataController) {
+      const rootSelection = this.gcDataController.gedcomStoreController.value;
+      if (rootSelection) {
+        const submitter = rootSelection.getSubmitterRecord();
+        const name = displayName(submitter.as(SelectionIndividualRecord), '?'); // Same API, but beware of changes
+        const email = submitter.get(['EMAIL', '_MAIL']).value()[0];
+        let e;
+        if(email) {
+          e =  html`
+            <a href="mailto:${email}" target="_blank" rel="noreferrer">
+                ${name}
+                <ui5-icon name="email"></ui5-icon>
+            </a>
+          `
+        } else {
+          e = html`${name}`;
+        }
+        return html`
+              <Table borderless>
+                  <tbody>
+                  <tr>
+                      <td>Name:</td>
+                      <td>
+                          ${e}
+                      </td>
+                  </tr>
+                  </tbody>
+              </Table>
+            `
+      }
+    }
+  }
+  
+  
   render() {
     
     
@@ -188,7 +225,7 @@ export class GedcomHeader extends LitElement {
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
                             <ui5-icon name="person-placeholder"></ui5-icon> Author Details
                         </ui5-title>
-                        test 4
+                        ${this.renderSubmitter()}
                     </td>
                 </tr>
                 <tr>
