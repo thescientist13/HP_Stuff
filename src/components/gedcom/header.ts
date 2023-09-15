@@ -7,7 +7,6 @@ import {when} from 'lit/directives/when.js';
 import { StoreController,withStores } from '@nanostores/lit'
 import { gedcomDataController } from './state/database';
 import type { SelectionGedcom } from 'read-gedcom';
-import type * as rgc from "read-gedcom";
 import {toJsDate, parseNameParts} from "read-gedcom";
 import "@ui5/webcomponents-icons/dist/home.js";
 import "@ui5/webcomponents-icons/dist/vertical-bar-chart-2.js";
@@ -21,6 +20,8 @@ import "@ui5/webcomponents/dist/TableColumn.js";
 import "@ui5/webcomponents/dist/TableRow.js";
 import "@ui5/webcomponents/dist/TableCell.js";
 import "@ui5/webcomponents/dist/Title";
+
+import {displayDateExact} from './util/event';
 
 export class GedcomHeader extends LitElement {
   
@@ -110,6 +111,53 @@ export class GedcomHeader extends LitElement {
     return null;
   }
   
+  private renderProvider(selection: SelectionGedcom) {
+    const source = selection.getHeader().getSourceSystem();
+    const provider = source.value()[0];
+    const webAltTag = '_ADDR';
+    const url = source.getCorporation().getWebAddress().value()[0] || source.getCorporation().get(webAltTag).value()[0];
+    if(provider && url) {
+      return html`
+          <a href=${url} target="_blank" rel="noreferrer">
+              ${provider}
+          </a>
+        `
+    } else {
+      return provider;
+    }
+  }
+  
+  private renderFileInfo() {
+    if (this.gcDataController) {
+      const rootSelection = this.gcDataController.gedcomStoreController.value;
+      if (rootSelection) {
+        return html`
+            <table>
+                <tbody>
+                <tr>
+                    <td>Name:</td>
+                    <td>${this.url}</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>${this.renderProvider(rootSelection)}</td>
+                </tr>
+                <tr>
+                    <td>Version:</td>
+                    <td>${rootSelection.getHeader().getSourceSystem().getVersion().value()[0]}</td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td>${rootSelection.getHeader().getFileCreationDate().length ? displayDateExact(rootSelection.getHeader().getFileCreationDate(), true) : nothing}</td>
+                </tr>
+                </tbody>
+            </table>
+        `
+      }
+    }
+    return null;
+  }
+  
   render() {
     
     
@@ -134,7 +182,7 @@ export class GedcomHeader extends LitElement {
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
                             <ui5-icon name="document-text"></ui5-icon> File metadata
                         </ui5-title>
-                        test 3
+                        ${this.renderFileInfo()}
                     </td>
                     <td>
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
@@ -148,7 +196,7 @@ export class GedcomHeader extends LitElement {
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
                             Tools
                         </ui5-title>
-                        file is ${this.url}
+                        
                         ${this.gcDataController.render()}
                     </td>
                 </tr>
