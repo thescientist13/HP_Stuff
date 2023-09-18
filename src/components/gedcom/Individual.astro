@@ -1,0 +1,15 @@
+---
+import { Card } from '@astrojs/starlight/components';
+import { GedcomIndividual } from './individual';
+import { file } from './config';
+const GedUrl = new URL('/' + file, Astro.url );
+
+let { id } = Astro.props;
+id = `@${id}@`;
+
+console.log(`Gedcom url is ${GedUrl}`)
+---
+
+<Card title="Biographical Information">
+    <GedcomIndividual  gedId={id} url={GedUrl} client:only />
+</Card>

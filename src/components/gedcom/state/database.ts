@@ -19,12 +19,16 @@ import {
     topologicalSort,
 } from '../util';
 
+import {createContext} from '@lit-labs/context';
+
 type gedcomData = {
     url: URL,
     data: SelectionGedcom | null,
 }
 
 const gedData = atom<SelectionGedcom | null>(null);
+
+export const gcDataContext = createContext<gedcomDataController>('gedcomDataController');
 
 export class gedcomDataController implements ReactiveController {
     private host: ReactiveControllerHost;
@@ -110,7 +114,7 @@ export class gedcomDataController implements ReactiveController {
       }
       return null;
     };
-    protected computeDependantFields(root: SelectionGedcom, rootIndividual: SelectionIndividualRecord | null) {
+    public computeDependantFields(root: SelectionGedcom, rootIndividual: SelectionIndividualRecord | null) {
       const ancestors = rootIndividual ? computeAncestors(root, rootIndividual) : null;
       const descendants = rootIndividual ? computeDescendants(root, rootIndividual) : null;
       const related = rootIndividual ? ancestors ? computeRelated(root, ancestors) : null : null;

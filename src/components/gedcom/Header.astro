@@ -1,7 +1,7 @@
 ---
 import { Card } from '@astrojs/starlight/components';
 import { GedcomHeader } from './header';
-let { file } = Astro.props;
+import { file } from './config';
 const GedUrl = new URL('/' + file, Astro.url );
 console.log(`Gedcom url is ${GedUrl}`)
 
