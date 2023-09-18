@@ -48,15 +48,6 @@ export class GedcomHeader extends LitElement {
     }
   }
   
-  static styles = css`
-    .header-table {
-   
-      width: 100%;
-    }
-    .header-body {
-      width: 100%;
-    }
-  `
   
   private renderRootIndividual() {
     this.gcDataController.initializeAllFields()
@@ -97,7 +88,7 @@ export class GedcomHeader extends LitElement {
             ta = html`
               <tr>
                   <td>Ancestors:</td>
-                  <td><strong>${statistics.totalAncestors}</strong></td>
+                  <td>${statistics.totalAncestors}</td>
               </tr>
           `
           }
@@ -106,7 +97,7 @@ export class GedcomHeader extends LitElement {
             td = html`
               <tr>
                   <td>Descendants:</td>
-                  <td><strong>${statistics.totalDescendants}</strong></td>
+                  <td>${statistics.totalDescendants}</td>
               </tr>
           `
           }
@@ -115,16 +106,16 @@ export class GedcomHeader extends LitElement {
             tr = html`
               <tr>
                   <td>Related:</td>
-                  <td><strong>${statistics.totalRelated}</strong></td>
+                  <td>${statistics.totalRelated}</td>
               </tr>
           `
           }
           return html`
-           <table>
-               <tbody>
+           <table class="ht-2">
+               <tbody class="ht-2">
                <tr>
                    <td>Individuals:</td>
-                   <td><strong>${statistics.totalIndividuals}</strong></td>
+                   <td>${statistics.totalIndividuals}</td>
                </tr>
                ${ta ?? nothing}
                ${ td ?? nothing}
@@ -219,22 +210,34 @@ export class GedcomHeader extends LitElement {
     }
   }
   
+  static styles = css`
+    .ht-1 {
+      vertical-align: top;
+      width: 100%;
+    }
+    
+    
+    .ht-2{
+      height: 100%;
+    }
+  `
+  
   
   render() {
     
     
     return html`
         <ui5-card >
-            <table class="header-table">
-                <tbody class="header=body">
+            <table class="ht-1">
+                <tbody class="ht-1">
                 <tr>
-                    <td>
+                    <td >
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
                             <ui5-icon name="home"></ui5-icon> Root Individual
                         </ui5-title>
                         ${this.renderRootIndividual()}
                     </td>
-                    <td>
+                    <td >
                         <ui5-title level="H3" style="padding-block-end: 1rem;">
                             <ui5-icon name="vertical-bar-chart-2"></ui5-icon> % Statistics
                         </ui5-title>
