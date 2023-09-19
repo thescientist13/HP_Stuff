@@ -28,6 +28,14 @@ import "@ui5/webcomponents/dist/TableCell.js";
 import "@ui5/webcomponents/dist/Title";
 import "@ui5/webcomponents-icons/dist/email.js";
 
+import {
+  computeAncestors,
+  computeDescendants,
+  computeInbreedingCoefficient, computeRelated, computeRelatednessCoefficient,
+  displayDate,
+  displayName,
+  isEventEmpty, setIntersectionSize,
+} from '../util';
 
 import { IndividualName } from './IndividualName'
 //import { IndividualRich} from "./IndividualRich";
@@ -87,6 +95,88 @@ export class GedcomIndividual extends LitElement {
       } else {
         console.log(`individual willUpdate: store has no value`)
       }
+    }
+  }
+  
+  private renderParents(individual: SelectionIndividualRecord) {
+    const familyAsChild = individual.getFamilyAsChild(); // TODO filter adoptive
+    return html`
+                <h6>Parents</h6>
+                <ul>
+                    <li><IndividualRich individual={familyAsChild.getHusband().getIndividualRecord()} /></li>
+                    <li><IndividualRich individual={familyAsChild.getWife().getIndividualRecord()} /></li>
+                </ul>
+    `
+  };
+  
+  private renderUnion(individual: SelectionIndividualRecord, family) {
+    const otherRef = family.getHusband().value()[0] === individual[0].pointer ? family.getWife() : family.getHusband();
+    const other = otherRef.getIndividualRecord();
+    const marriage = family.getEventMarriage();
+    const children = family.getChild().getIndividualRecord();
+    const hadChildren = children.length > 0;
+    let spouseData = html`
+        <IndividualRich individual={other} simpleDate noPlace simpleRange/>
+    `;
+    if (marriage.length > 0) {
+      spouseData = html`
+          ${spouseData},
+          <EventName event=${marriage} name="married"/>
+      `
+    }
+    if (hadChildren) {
+      return html`
+          With ${spouseData}:
+          <ul>
+              ${children.arraySelect().map((child: SelectionIndividualRecord, i: number) => {
+                  return html`
+                      <li key={i}>
+                          <IndividualRich individual={child} gender simpleDate noPlace simpleRange/>
+                      </li>`
+              })}
+          </ul>
+      `
+    } else {
+      return spouseData;
+    }
+  }
+  
+  private renderUnions(individual: SelectionIndividualRecord, familiesFilter, title = true) {
+    const familiesAsSpouse = individual.getFamilyAsSpouse().filterSelect(familiesFilter);
+    const orderIfSpecified = individual.getSpouseFamilyLink().value();
+    let ordered: any[] = [];
+    if (familiesAsSpouse.length === 0) {
+      return null;
+    } else {
+      // Sort the families in the order of the FAMS tags (rather than in the order of their ids)
+      const available = Object.fromEntries(familiesAsSpouse.arraySelect().map(family => [family[0].pointer, family]));
+      const processed = new Set();
+      
+      orderIfSpecified.forEach(id => {
+        if (!processed.has(id)) { // Weird but could happen
+          if (id) {
+            const family = available[id];
+            if (family) {
+              ordered.push(family);
+              processed.add(id);
+            }
+          }
+        }
+      });
+      Object.entries(available).forEach(([id, family]) => {
+        if (!processed.has(id)) {
+          ordered.push(family);
+        }
+      });
+      return html`
+          <h6>Unions & children</h6>
+          ${ordered.map((family, i) => {
+              return html`
+                  <li key=${i}>${this.renderUnion(individual, family)}</li>
+              `
+          })}
+          </ul>
+      `
     }
   }
   

@@ -1,4 +1,4 @@
-import {action, atom, computed, task} from 'nanostores'
+import {action, atom, map as nanoMap, computed, onMount, task} from 'nanostores'
 import type {WritableAtom} from 'nanostores';
 import {StoreController, withStores} from "@nanostores/lit";
 import {logger} from '@nanostores/logger'
@@ -7,6 +7,9 @@ import {html} from 'lit';
 import type {ReactiveController, ReactiveControllerHost} from 'lit';
 import {Task, initialState} from "@lit-labs/task";
 import type {TaskStatus, StatusRenderer} from "@lit-labs/task";
+import {provide} from '@lit-labs/context';
+
+import { SelectionIndividualRecordContext } from '../contexts/SelectionIndividualRecord';
 
 import {parseGedcom, readGedcom, selectGedcom, SelectionGedcom, SelectionIndividualRecord} from 'read-gedcom';
 import type {TreeNodeRoot, GedcomReadingPhase, GedcomReadingOptions} from "read-gedcom";
@@ -28,6 +31,21 @@ type gedcomData = {
 
 const gedData = atom<SelectionGedcom | null>(null);
 
+const gedIndividualsStore = computed(gedData, data => {
+  if(data) {
+    const tn = new Map<string, SelectionIndividualRecord>();
+    data.getIndividualRecord().arraySelect().forEach(i=> {
+      const id = i.pointer().toString();
+      if(id){
+        tn.set(id, i );
+      } else {
+        console.error(`state/database gedIndividualsStore; null id`)
+      }
+    });
+    return tn;
+  }
+})
+
 export const gcDataContext = createContext<gedcomDataController>('gedcomDataController');
 
 export class gedcomDataController implements ReactiveController {
@@ -38,14 +56,26 @@ export class gedcomDataController implements ReactiveController {
 
     readonly gedcomStoreController
 
+    private gedIndividuals: Map<string, SelectionIndividualRecord> | null;
+    
+    private gedIndividualsListener
+  
     private Storelogger;
-
+   
     constructor(host: ReactiveControllerHost) {
       this.host = host;
       this.url = null;
       this.Storelogger = logger({
         'Gedcom Data': gedData,
+        'IndividualRecords': gedIndividualsStore,
       });
+      
+      this.gedIndividualsListener = gedIndividualsStore.subscribe(value => {
+        if (value) {
+          this.host.requestUpdate();
+        }
+      });
+      
       this.gedcomStoreController = new StoreController(host, gedData);
       host.addController(this as ReactiveController);
 
@@ -78,7 +108,7 @@ export class gedcomDataController implements ReactiveController {
     public getUrl() {
       return this.url ? this.url : '';
     }
-
+    
     public loadGedcomUrl = action(gedData, 'loadUrl', async (store, url: URL | string) => {
       try {
         const result = await fetch(url);
@@ -99,7 +129,6 @@ export class gedcomDataController implements ReactiveController {
       const treeRoot = parseGedcom(buffer);
       const sg = selectGedcom(treeRoot);
       store.set(sg);
-      this.host.requestUpdate();
       return sg;
     });
 
@@ -131,6 +160,23 @@ export class gedcomDataController implements ReactiveController {
       return {totalIndividuals, totalAncestors, totalDescendants, totalRelated};
     };
 
+    public getIndividualRecord(id: string) {
+      console.log(`state/database getIndividualRecord; entering getIndividualRecord`)
+      if(gedIndividualsStore){
+        console.log(`state/database getIndividualRecord; and the store is defined`)
+        const m = gedIndividualsStore.value;
+        if(m) {
+          const i = m.get(id)
+          if(i) {
+            console.log(`state/database getIndividualRecord; found ${i.toString()}`)
+            return i;
+          }
+        }
+        console.error(`state/database getIndividualRecord; gedIndividualsStore.value undefined or null `)
+      }
+     return null;
+    }
+  
     hostConnected() {
       console.log(`gedcomDataController url is ${this.url}`)
       return;

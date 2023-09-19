@@ -80,7 +80,7 @@ export class IndividualName extends LitElement {
         console.log(`I have new id ${newId}`)
         if(this.gcDataController && this.gcDataController.gedcomStoreController && this.gcDataController.gedcomStoreController.value) {
           console.log(`individualName willUpdate; setting individual`)
-          this.individual = this.gcDataController.gedcomStoreController.value.getIndividualRecord(newId);
+          this.individual = this.gcDataController.getIndividualRecord(newId)
         } else {
           console.log(`individualName willUpdate; I need to set the indiviuual, but cannot because the controller is not set`)
           if(!this.gcDataController) {
@@ -94,7 +94,7 @@ export class IndividualName extends LitElement {
       } else if(this.gedId) {
         if(this.gcDataController && this.gcDataController.gedcomStoreController && this.gcDataController.gedcomStoreController.value) {
           console.log(`in willUpdate for individualName, setting individual based on prior id`)
-          this.individual = this.gcDataController.gedcomStoreController.value.getIndividualRecord(this.gedId);
+          this.individual = this.gcDataController.getIndividualRecord(this.gedId)
         }
       }
     }
@@ -163,10 +163,8 @@ export class IndividualName extends LitElement {
       return html`
         ${genderIcon} ${content}<br/>${this.gedId}
     `
-    } else {
-      return html`pending individual`
     }
-
+    return html`pending individual`
   }
   
 };
