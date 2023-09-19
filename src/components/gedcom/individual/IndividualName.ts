@@ -1,13 +1,23 @@
-import {LitElement, html, css} from 'lit';
+import {LitElement, html, nothing, css} from 'lit';
 import {property, state} from 'lit/decorators.js';
 import {consume} from '@lit-labs/context';
 import { allTasks } from 'nanostores'
 
-import { SelectionIndividualRecord, type ValueSex } from 'read-gedcom';
+import type { SelectionIndividualRecord} from 'read-gedcom';
+// @ts-ignore
+import { ValueSex } from 'read-gedcom';
 import { GenderFemale, GenderMale } from '../icons';
 
 import { type gedcomDataController, gcDataContext } from '../state/database';
-import {PropertyValues} from "lit/development";
+import type {PropertyValues} from "lit";
+
+declare enum ValueSex {
+  Male = 'M',
+  Female = 'F',
+  Intersex = 'X',
+  Unknown = 'U',
+  NotRecorded = 'N'
+}
 
 export class IndividualName extends LitElement {
   
@@ -34,16 +44,16 @@ export class IndividualName extends LitElement {
   noAncestry;
   
   @state()
-  settings;
+  settings: any;
   
   @state()
-  ancestors;
+  ancestors: any;
   
   @state()
-  descendants;
+  descendants: any;
   
   @state()
-  related;
+  related: any;
   
   constructor() {
     super();
@@ -62,13 +72,29 @@ export class IndividualName extends LitElement {
   
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    if(changedProperties.has('gedId')) {
-      const newId = changedProperties['gedId'];
-      if(this.gedId.localeCompare(newId)) {
+    if((changedProperties.has('gedId')) || ((this.gedId) && (this.gedId !== undefined))) {
+      console.log(`individualName willUpdate; changedProperties has gedId `);
+      const newId = changedProperties.get('gedId');
+      console.log(`individualName willUpdate; found newID ${newId}`)
+      if(newId !== undefined && this.gedId.localeCompare(newId)) {
         console.log(`I have new id ${newId}`)
         if(this.gcDataController && this.gcDataController.gedcomStoreController && this.gcDataController.gedcomStoreController.value) {
+          console.log(`individualName willUpdate; setting individual`)
           this.individual = this.gcDataController.gedcomStoreController.value.getIndividualRecord(newId);
-          this.requestUpdate();
+        } else {
+          console.log(`individualName willUpdate; I need to set the indiviuual, but cannot because the controller is not set`)
+          if(!this.gcDataController) {
+            console.log(`individualName willUpdate; problem is the top controller`)
+          } else if(!this.gcDataController.gedcomStoreController) {
+            console.log(`individualName willUpdate; problem is the inner controller`)
+          } else {
+            console.log(`individualName willUpdate; problem is the value`)
+          }
+        }
+      } else if(this.gedId) {
+        if(this.gcDataController && this.gcDataController.gedcomStoreController && this.gcDataController.gedcomStoreController.value) {
+          console.log(`in willUpdate for individualName, setting individual based on prior id`)
+          this.individual = this.gcDataController.gedcomStoreController.value.getIndividualRecord(this.gedId);
         }
       }
     }
@@ -76,40 +102,71 @@ export class IndividualName extends LitElement {
   }
   
   public displayName(individual: SelectionIndividualRecord, placeholder = '') {
-    const name = individual.getName().valueAsParts();
-    
-    /*  .getName()
-      .valueAsParts()
-      .filter(v => v != null)
-      
-      .map(v =>{
-        if(v){
-            v.filter(s => s).map(s => {
-                if(s !== undefined) {
-                    s.replace(/_+/g, ' ')
-                }
-            })
-        }
-      }).join(' ')[0]; */
-    
-    return name ? name : placeholder;
+    console.log(`individualName displayName; individual: ${individual.toString()}`)
+    const name = individual.getName();
+    console.log(`individualName displayName; name: ${name.toString()}`);
+    const parts = name.valueAsParts();
+    return parts.filter((v) => {
+      return v !=null;
+    }).map((v) => {
+      if(v) {
+        const r2 = v.filter((s) => {
+          if(s){
+            return s;
+          } else {
+            return null;
+          }
+        })
+        return r2.map((s) => {
+          if(s) {
+            return s.toString().replace(/_+/g, ' ')
+          } else {
+            return null;
+          }
+        }).join(' ')
+      } else {
+        return null;
+      }
+
+    })[0];
   }
-  
+
+  static style=css`
+    .color-male {
+      color: #006657;
+    }
+
+    .color-female {
+      color: #380097;
+    }
+
+  `
   
   render() {
-    
-    if (this.individual && (typeof this.individual !== 'string')) {
-      console.log(`individual is of type ${typeof this.individual}`)
+    let genderIcon = html``;
+    if (this.individual) {
+      console.log(`individualName render; individual is of type ${typeof this.individual}`)
+      console.log(`individualName render; individual: ${this.individual.toString()}`)
       const name = this.displayName(this.individual);
+      console.log(`individualName render; name: ${name}`)
       const content = name ? name : this.placeholder;
       const id = this.individual.pointer()[0];
       const genderValue = this.individual.getSex().value()[0];
-      return html`id`
-    } else if (typeof this.individual === 'string') {
-      return html`${this.individual}`
+      if(genderValue){
+        this.gender = true;
+        if(genderValue === ValueSex.Male) {
+          genderIcon = GenderMale('color-male' );
+        } else {
+          genderIcon = GenderFemale('color-female');
+        }
+      }
+      return html`
+        ${genderIcon} ${content}<br/>${this.gedId}
+    `
     } else {
       return html`pending individual`
     }
+
   }
   
 };

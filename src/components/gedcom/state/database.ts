@@ -58,7 +58,8 @@ export class gedcomDataController implements ReactiveController {
                 if (typeof b !== 'undefined') {
                   let rootSelection = this.readGedcomFromBuffer(b);
                   if (rootSelection) {
-                    console.log(`root successfully populated in loadGedcomUrl`)
+                    console.log(`root successfully populated in loadGedcomUrl`);
+                    this.host.requestUpdate();
                   } else {
                     console.log(`root not populated`)
                   }
@@ -72,7 +73,6 @@ export class gedcomDataController implements ReactiveController {
     }
     public setUrl(url: URL) {
       this.url = url;
-      this.host.requestUpdate();
     }
 
     public getUrl() {
@@ -99,6 +99,7 @@ export class gedcomDataController implements ReactiveController {
       const treeRoot = parseGedcom(buffer);
       const sg = selectGedcom(treeRoot);
       store.set(sg);
+      this.host.requestUpdate();
       return sg;
     });
 

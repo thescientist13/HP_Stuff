@@ -28,7 +28,6 @@ import "@ui5/webcomponents/dist/TableCell.js";
 import "@ui5/webcomponents/dist/Title";
 import "@ui5/webcomponents-icons/dist/email.js";
 
-import {displayDateExact, displayName} from '../util';
 
 import { IndividualName } from './IndividualName'
 //import { IndividualRich} from "./IndividualRich";
@@ -44,7 +43,7 @@ export class GedcomIndividual extends LitElement {
   
   @provide({context: gcDataContext})
   @state()
-  gcDataController = new gedcomDataController(this);
+  public gcDataController = new gedcomDataController(this);
   
   @state()
   protected individual:  SelectionIndividualRecord | null;
@@ -59,33 +58,34 @@ export class GedcomIndividual extends LitElement {
   
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    console.log(`in willUpdate callback, url is ${this.url}`)
+    console.log(`individual willUpdate callback, url is ${this.url}`)
     if(this.url && this.gcDataController && (this.url.toString().localeCompare(this.gcDataController.getUrl().toString()))) {
       console.log(`setting gedcomDataController url`)
       this.gcDataController.setUrl(new URL(this.url));
     }
     if((!this.individual) && (this.gedId !== '') && (this.gcDataController && this.gcDataController.gedcomStoreController && this.gcDataController.gedcomStoreController.value)) {
-      console.log(`detected need to set this.individual from willUpdate`)
+      console.log(`individual willUpdate; detected need to set this.individual`)
       const store = this.gcDataController.gedcomStoreController.value;
       this.individual = store.getIndividualRecord(this.gedId);
       if(typeof(this.individual) === 'string') {
         console.log(`retrieved a string for the individual ${this.individual}`)
       } else {
-        console.log(`individual was not a string`)
+        console.log(`individual willUpdate; individual was not a string`)
+        this.requestUpdate();
       }
     }else {
       if(this.gedId === '') {
-        console.log(`gedId is blank`);
+        console.log(`individual willUpdate; gedId is blank`);
       }
       if(this.individual) {
-        console.log(`this.individual is set already`)
+        console.log(`individual willUpdate; this.individual is set already`)
       }
       if(!this.gcDataController){
-        console.log(`I have no gcDataController`)
+        console.log(`individual willUpdate; I have no gcDataController`)
       } else if (!this.gcDataController.gedcomStoreController) {
-        console.log(`I have no gedcomStoreController`)
+        console.log(`individual willUpdate; I have no gedcomStoreController`)
       } else {
-        console.log(`store has no value`)
+        console.log(`individual willUpdate: store has no value`)
       }
     }
   }
@@ -141,7 +141,13 @@ export class GedcomIndividual extends LitElement {
 
         {renderStatisticsCard(individualOpt)}
     `*/
-    return html`<individual-name gedid=${this.gedId} ></individual-name>`
+    if(this.gedId && this.individual) {
+      console.log(`individual render; this.gedId is ${this.gedId}`)
+      return html`<individual-name gedid=${this.gedId} ></individual-name>`
+    } else {
+      return html`No Gramps ID set`
+    }
+
   }
   
 }

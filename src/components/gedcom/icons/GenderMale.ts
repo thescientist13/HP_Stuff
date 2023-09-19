@@ -1,6 +1,6 @@
 import {html} from 'lit';
 
-export const GenderMale = ({ color, size, ...rest }: {color: string, size:string|number}) => {
+export const GenderMale = ( color: string, size:string|number='1em', ...rest: (string|number)[] ) => {
     return html`
         <svg
             xmlns="http://www.w3.org/2000/svg"

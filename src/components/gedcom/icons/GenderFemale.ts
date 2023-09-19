@@ -1,6 +1,6 @@
 import {html} from 'lit';
 
-export const GenderFemale = ({ color, size,  ...restParam }: {color: string, size: string|number}) => {
+export const GenderFemale = (color: string, size: number|string='1em',  ...restParam: (string|number)[]) => {
   const others = restParam.toString();
   
     return html`
