@@ -6,7 +6,6 @@ import { allTasks } from 'nanostores'
 import type { SelectionIndividualRecord} from 'read-gedcom';
 // @ts-ignore
 import { ValueSex } from 'read-gedcom';
-import { GenderFemale, GenderMale } from '../icons';
 
 import { type gedcomDataController, gcDataContext } from '../state/database';
 import type {PropertyValues} from "lit";

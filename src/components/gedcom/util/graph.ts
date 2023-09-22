@@ -101,16 +101,20 @@ function computeCoefficient(root: SelectionGedcom, topologicalOrdering, inbreedi
             return `${id2}${id1}`;
         }
     }
-    function memoizedInbreeding(individual1, individual2) {
+    function memoizedInbreeding(individual1: SelectionIndividualRecord, individual2: SelectionIndividualRecord) {
         if(individual1.length === 0 || individual2.length === 0) {
             return 0.0;
         }
         const id1 = individual1[0].pointer, id2 = individual2[0].pointer;
         const key = keyFor(id1, id2);
+        if(!id1 || !id2) {
+            console.error(`graph memoizedInbreeding; no index for individuals sent`)
+            return null;
+        }
         if(inbreedingMap.has(key)) {
             return inbreedingMap.get(key);
         }
-        let value;
+        let value: number;
         if(id1 === id2) {
             if(isModeInbreed) {
                 const family = individual1.getFamilyAsChild();
