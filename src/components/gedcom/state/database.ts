@@ -54,8 +54,6 @@ export class gedcomDataController implements ReactiveController {
 
     readonly gedcomStoreController
 
-    private gedIndividuals: Map<string, SelectionIndividualRecord> | null;
-    
     private gedIndividualsListener
   
     private Storelogger;
