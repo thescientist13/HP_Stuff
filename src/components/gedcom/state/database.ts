@@ -9,8 +9,6 @@ import {Task, initialState} from "@lit-labs/task";
 import type {TaskStatus, StatusRenderer} from "@lit-labs/task";
 import {provide} from '@lit-labs/context';
 
-import { SelectionIndividualRecordContext } from '../contexts/SelectionIndividualRecord';
-
 import {parseGedcom, readGedcom, selectGedcom, SelectionGedcom, SelectionIndividualRecord} from 'read-gedcom';
 import type {TreeNodeRoot, GedcomReadingPhase, GedcomReadingOptions} from "read-gedcom";
 

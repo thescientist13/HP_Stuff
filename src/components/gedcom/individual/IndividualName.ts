@@ -1,4 +1,4 @@
-import {LitElement, html, nothing, css} from 'lit';
+import {LitElement, html, nothing, css, unsafeCSS} from 'lit';
 import {property, state} from 'lit/decorators.js';
 import {consume} from '@lit-labs/context';
 import { allTasks } from 'nanostores'
@@ -10,6 +10,12 @@ import { GenderFemale, GenderMale } from '../icons';
 
 import { type gedcomDataController, gcDataContext } from '../state/database';
 import type {PropertyValues} from "lit";
+
+import { library, dom as fontAwesomeDom } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
 
 declare enum ValueSex {
   Male = 'M',
@@ -58,6 +64,9 @@ export class IndividualName extends LitElement {
   constructor() {
     super();
     
+    //fontawesome
+    library.add(fas, far, fab)
+    
     this.gedId = '';
     this.individual = null;
     this.placeholder = '?';
@@ -67,6 +76,17 @@ export class IndividualName extends LitElement {
     this.descendants = null;
     this.ancestors = null;
     this.related = null;
+    
+  }
+  
+  connectedCallback() {
+    super.connectedCallback()
+    
+    // @ts-ignore
+    fontAwesomeDom.watch({
+      autoReplaceSvgRoot: this.renderRoot,
+      observeMutationsRoot: this.renderRoot,
+    });
     
   }
   
@@ -131,7 +151,8 @@ export class IndividualName extends LitElement {
     })[0];
   }
 
-  static style=css`
+  static styles=css`
+    ${unsafeCSS(fontAwesomeDom.css())}
     .color-male {
       color: #006657;
     }
@@ -155,9 +176,9 @@ export class IndividualName extends LitElement {
       if(genderValue){
         this.gender = true;
         if(genderValue === ValueSex.Male) {
-          genderIcon = GenderMale('color-male' );
+          genderIcon = html`<i class="fa-solid fa-mars fa-1x color-male"></i>`;
         } else {
-          genderIcon = GenderFemale('color-female');
+          genderIcon = html`<i class="fa-solid fa-venus fa-1x color-female"></i>`;
         }
       }
       return html`

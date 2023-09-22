@@ -1,27 +1,20 @@
-import {LitElement, html, css, nothing} from 'lit';
+import {LitElement, html, css,unsafeCSS, svg, nothing} from 'lit';
 import type { PropertyValues, TemplateResult } from 'lit'
 import {property, state} from 'lit/decorators.js';
 import {createRef, ref } from 'lit/directives/ref.js';
 import type { Ref } from 'lit/directives/ref.js';
 import {when} from 'lit/directives/when.js';
+import {unsafeSVG} from 'lit/directives/unsafe-svg.js';
+
 import { StoreController,withStores } from '@nanostores/lit'
 import { gedcomDataController } from './state/database';
 import type { SelectionGedcom,  } from 'read-gedcom';
 import {toJsDate, parseNameParts, SelectionIndividualRecord} from "read-gedcom";
-import "@ui5/webcomponents-icons/dist/home.js";
-import "@ui5/webcomponents-icons/dist/vertical-bar-chart-2.js";
-import "@ui5/webcomponents-icons/dist/document-text.js";
-import "@ui5/webcomponents-icons/dist/person-placeholder.js";
-import "@ui5/webcomponents/dist/Card";
-import "@ui5/webcomponents/dist/CardHeader.js";
-import "@ui5/webcomponents/dist/Label";
-import "@ui5/webcomponents/dist/Table.js";
-import "@ui5/webcomponents/dist/TableColumn.js";
-import "@ui5/webcomponents/dist/TableRow.js";
-import "@ui5/webcomponents/dist/TableCell.js";
-import "@ui5/webcomponents/dist/Title";
-import "@ui5/webcomponents-icons/dist/email.js";
 
+import { library, dom as fontAwesomeDom } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 import {displayDateExact, displayName} from './util';
 
@@ -34,8 +27,20 @@ export class GedcomHeader extends LitElement {
   
   constructor() {
     super();
+    library.add(fas, far, fab)
     
     this.url = null;
+    
+  }
+  
+  connectedCallback() {
+    super.connectedCallback()
+    
+    // @ts-ignore
+    fontAwesomeDom.watch({
+      autoReplaceSvgRoot: this.renderRoot,
+      observeMutationsRoot: this.renderRoot,
+    });
     
   }
   
@@ -188,14 +193,14 @@ export class GedcomHeader extends LitElement {
           e =  html`
             <a href="mailto:${email}" target="_blank" rel="noreferrer">
                 ${name}
-                <ui5-icon name="email"></ui5-icon>
+                <i class="fa-solid fa-envelope-open-text fa-2xs"></i>
             </a>
           `
         } else {
           e = html`${name}`;
         }
         return html`
-              <table borderless>
+              <table >
                   <tbody>
                   <tr>
                       <td>Name:</td>
@@ -211,6 +216,7 @@ export class GedcomHeader extends LitElement {
   }
   
   static styles = css`
+    ${unsafeCSS(fontAwesomeDom.css())}
     .ht-1 {
       vertical-align: top;
       width: 100%;
@@ -224,51 +230,50 @@ export class GedcomHeader extends LitElement {
   
   
   render() {
-    
-    
+  
     return html`
-        <ui5-card >
+        
             <table class="ht-1">
                 <tbody class="ht-1">
                 <tr>
                     <td >
-                        <ui5-title level="H3" style="padding-block-end: 1rem;">
-                            <ui5-icon name="home"></ui5-icon> Root Individual
-                        </ui5-title>
+                        <h3>
+                            <i class="fa-solid fa-house fa-2xs"></i> Root Individual
+                        </h3>
                         ${this.renderRootIndividual()}
                     </td>
                     <td >
-                        <ui5-title level="H3" style="padding-block-end: 1rem;">
-                            <ui5-icon name="vertical-bar-chart-2"></ui5-icon> % Statistics
-                        </ui5-title>
+                        <h3>
+                            <i class="fa-solid fa-calculator fa-2xs"></i> Statistics
+                        </h3>
                         ${this.renderStats()}
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <ui5-title level="H3" style="padding-block-end: 1rem;">
-                            <ui5-icon name="document-text"></ui5-icon> File metadata
-                        </ui5-title>
+                        <h3>
+                            <i class="fa-solid fa-file-lines fa-2xs"></i> File metadata
+                        </h3>
                         ${this.renderFileInfo()}
                     </td>
                     <td>
-                        <ui5-title level="H3" style="padding-block-end: 1rem;">
-                            <ui5-icon name="person-placeholder"></ui5-icon> Author Details
-                        </ui5-title>
+                        <h3>
+                            <i class="fa-solid fa-user-pen fa-2xs"></i> Author Details
+                        </h3>
                         ${this.renderSubmitter()}
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <ui5-title level="H3" style="padding-block-end: 1rem;">
-                            Tools
-                        </ui5-title>
+                        <h3>
+                            <i class="fa-solid fa-gear fa-2xs"></i> Tools
+                        </h3>
                         ${this.gcDataController.render()}
                     </td>
                 </tr>
                 </tbody>
             </table>
-        </ui5-card>
+        
     `
   }
   

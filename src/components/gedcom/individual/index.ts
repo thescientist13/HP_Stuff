@@ -10,23 +10,9 @@ import {createContext, provide} from '@lit-labs/context';
 
 import { gedcomDataController, gcDataContext } from '../state/database';
 
-import type { SelectionIndividualRecord } from 'read-gedcom';
+import type { SelectionIndividualRecord, SelectionFamilyRecord, SelectionAny } from 'read-gedcom';
 
 import { z } from "zod";
-
-import "@ui5/webcomponents-icons/dist/home.js";
-import "@ui5/webcomponents-icons/dist/vertical-bar-chart-2.js";
-import "@ui5/webcomponents-icons/dist/document-text.js";
-import "@ui5/webcomponents-icons/dist/person-placeholder.js";
-import "@ui5/webcomponents/dist/Card";
-import "@ui5/webcomponents/dist/CardHeader.js";
-import "@ui5/webcomponents/dist/Label";
-import "@ui5/webcomponents/dist/Table.js";
-import "@ui5/webcomponents/dist/TableColumn.js";
-import "@ui5/webcomponents/dist/TableRow.js";
-import "@ui5/webcomponents/dist/TableCell.js";
-import "@ui5/webcomponents/dist/Title";
-import "@ui5/webcomponents-icons/dist/email.js";
 
 import {
   computeAncestors,
@@ -109,7 +95,7 @@ export class GedcomIndividual extends LitElement {
     `
   };
   
-  private renderUnion(individual: SelectionIndividualRecord, family) {
+  private renderUnion(individual: SelectionIndividualRecord, family: SelectionFamilyRecord) {
     const otherRef = family.getHusband().value()[0] === individual[0].pointer ? family.getWife() : family.getHusband();
     const other = otherRef.getIndividualRecord();
     const marriage = family.getEventMarriage();
@@ -140,8 +126,7 @@ export class GedcomIndividual extends LitElement {
       return spouseData;
     }
   }
-  
-  private renderUnions(individual: SelectionIndividualRecord, familiesFilter, title = true) {
+  private renderUnions(individual: SelectionIndividualRecord, familiesFilter: (s: SelectionAny) => boolean, title = true) {
     const familiesAsSpouse = individual.getFamilyAsSpouse().filterSelect(familiesFilter);
     const orderIfSpecified = individual.getSpouseFamilyLink().value();
     let ordered: any[] = [];
@@ -180,11 +165,64 @@ export class GedcomIndividual extends LitElement {
     }
   }
   
+  private renderGeneral(individual: SelectionIndividualRecord) {
+    const birth = individual.getEventBirth(), death = individual.getEventDeath();
+    const occupationValue = individual.getAttributeOccupation().value().filter(s => s).join(', ');
+    const gender = individual.getSex().value()[0];
+    const events = [
+      { event: birth, name: "Born", silent: true },
+      { event: death, name: "Deceased", silent: true }
+    ].filter(({ event, silent }) => event.length > 0 && (!silent || !isEventEmpty(event)));
+    return  html`
+      <ul>
+          ${events.map(({event, name, silent}, i) => {
+              return html`<li key=${i}><EventName event=${event} name=${name}  /></li>`;
+          })}
+          ${occupationValue ? html`<li>${occupationValue}</li>` : nothing}
+      </ul>
+      
+    `;
+  };
+  
+  private renderSiblings (individual: SelectionIndividualRecord){
+    const siblings = individual.getFamilyAsChild().getChild().getIndividualRecord().filter(s => s.pointer !== individual[0].pointer);
+    if (siblings.length === 0) {
+      return null;
+    } else {
+      return html`
+          <h6>Siblings</h6>
+          <ul>
+              ${siblings.filter(child => child.pointer !== individual[0].pointer).arraySelect().map((child, i) => {
+                return html`<li key=${i}><IndividualRich individual=${child} gender simpleDate noPlace simpleRange /></li>)`;
+              })}
+          </ul>
+      `;
+    }
+  };
+  
+  private renderHalfSiblingSide (individual: SelectionIndividualRecord, parent: SelectionIndividualRecord) {
+    const originalFamilyId = individual.getFamilyAsChild().pointer()[0];
+    if (originalFamilyId) {
+      const filter = (family: SelectionAny) => {
+        const f = family as SelectionFamilyRecord;
+        return ((f.pointer()[0] !== originalFamilyId) && (f.getChild().getIndividualRecord().length > 0));
+      }
+      
+      if (parent.getFamilyAsSpouse().filterSelect(filter).length > 0) {
+        return html`
+          On the side of <IndividualName individual={$parent} />:<br/>
+          ${this.renderUnions(parent,filter, false)}
+      `
+      }
+    }
+    return nothing
+  };
+  
+  
   
   public render() {
     /*const t = html`
-        <ui5-card>
-            <ui5-card-header slot="header" interactive={true} >
+        
                 <Card.Title>
                     <Person className="icon mr-2"/>
                     <IndividualName individual={individualOpt} gender noLink />
@@ -223,7 +261,6 @@ export class GedcomIndividual extends LitElement {
                 {renderSiblings(individualOpt)}
                 {renderHalfSiblings(individualOpt)}
             </Card.Body>
-        </ui5-card>
 
         {renderAncestorsCard(individualOpt)}
 
