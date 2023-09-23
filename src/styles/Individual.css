@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.color-male {
+    color: #006657;
+}
+
+.color-female {
+    color: #380097;
+}

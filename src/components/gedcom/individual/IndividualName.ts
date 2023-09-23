@@ -12,10 +12,9 @@ import { ValueSex } from 'read-gedcom';
 import { gedcomDataController, gcDataContext } from '../state/database';
 import type {PropertyValues} from "lit";
 
-import { library, dom as fontAwesomeDom } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import {TailwindMixin} from "../../tailwind.element";
+
+import style from '../../../styles/Individual.css?inline'
 
 declare enum ValueSex {
   Male = 'M',
@@ -25,7 +24,7 @@ declare enum ValueSex {
   NotRecorded = 'N'
 }
 
-export class IndividualName extends LitElement {
+export class IndividualName extends TailwindMixin(LitElement,style) {
   
   @state()
   public gcDataController = new gedcomDataController(this);
@@ -67,8 +66,7 @@ export class IndividualName extends LitElement {
     super();
     
     //fontawesome
-    library.add(fas, far, fab)
-    
+
     this.rootId = 0;
     this.gedId = '';
     this.individual = null;
@@ -82,16 +80,7 @@ export class IndividualName extends LitElement {
     
   }
   
-  connectedCallback() {
-    super.connectedCallback()
-   
-    // @ts-ignore
-    fontAwesomeDom.watch({
-      autoReplaceSvgRoot: this.renderRoot,
-      observeMutationsRoot: this.renderRoot,
-    });
-    
-  }
+
   
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
@@ -145,17 +134,7 @@ export class IndividualName extends LitElement {
     })[0];
   }
 
-  static styles=css`
-    ${unsafeCSS(fontAwesomeDom.css())}
-    .color-male {
-      color: #006657;
-    }
 
-    .color-female {
-      color: #380097;
-    }
-
-  `
   
   render() {
     let genderIcon = html``;
@@ -203,7 +182,7 @@ export class IndividualName extends LitElement {
         } else {
           t = html`${t}${genderIcon} ${content}`
         }
-        t = html`${t}<br/>${this.gedId}`
+        t = html`${t}`
         return t;
       }
     }
