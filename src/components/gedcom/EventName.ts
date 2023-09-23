@@ -10,36 +10,43 @@ export function EventName(params: EventNameProps) {
         throw new Error('Event cannot be empty'); // TODO
     }
     const eventDate = !noDate && event.getDate().arraySelect().map(date => displayDate(date, simpleDate))[0];
-    const eventPlace = !noPlace && event.getPlace().value().map(place => place.split(',').map(s => s.trim()).filter(s => s)).map(parts => simplePlace ? parts[0] : parts.join(', '))[0]; // TODO improve
+    const eventPlace = !noPlace && event.getPlace().value().map(place => {
+        //the noPlace flag is supposed to prevent this from being false, but check
+        if(place) {
+            return place.split(',').map(s => s.trim()).filter(s => s)
+        } else {
+            throw new Error('Event place unset and noPlace flag set to false')
+        }
+    }).map(parts => {
+        if(simplePlace && parts) {
+            return parts[0]
+        } else {
+            return parts.join(', ')
+        }
+    })[0]; // TODO improve
     const space = name ? ' ' : '';
     let strEvent;
     if (eventDate && eventPlace) {
-        strEvent = (
-            <>
-                {space}
-                {eventDate}
-                {' - '}
-                {eventPlace}
-            </>
-        );
+        strEvent = html`
+            ${space}
+            ${eventDate}
+            ${' - '}
+            ${eventPlace}
+          `
     } else if (eventDate) {
-        strEvent = (
-            <>
-                {space}
-                {eventDate}
-            </>
-        );
+        strEvent = html`
+            ${space}
+            ${eventDate}
+          `
     } else if (eventPlace) {
         strEvent = `${space}- ${eventPlace}`;
     } else {
         strEvent = '';
     }
-    return (
-        <>
-            {strEvent || nameAlt === null ? name : nameAlt}
-            {strEvent}
-        </>
-    );
+    return html`
+        ${strEvent || nameAlt === null ? name : nameAlt}
+        ${strEvent}
+    `
 }
 
 const eventName = z.object({

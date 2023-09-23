@@ -15,11 +15,11 @@ export function IndividualRich(params: IndividualRichParams) {
   const showBirth = visible && !isEventEmpty(birth, !noDate, !noPlace), showDeath = visible && (simpleRange ? !isEventEmpty(death, !noDate, !noPlace) : death.length > 0); // Birth is not shown if fruitless
   const hasSuffix = showBirth || showDeath;
   const sex = individual.getSex().value()[0];
-  let t = html`<IndividualName individual=${individual} gender=${gender} />`;
+  let t = html`<individual-name individual=${individual} gender=${gender} />`;
   if(hasSuffix) {
     t = html`${t}<br/>`
     if(showBirth) {
-      t = html`${t}<EventName event=${birth} name=${simpleRange ? '' : 'born'} ${props} />`
+      t = html`${t} ${EventName({event: birth, name: (simpleRange ? '' : 'born'), ...props })} `
       if(showDeath) {
         t = html`${t}${simpleRange ? ' - ' : ', '}`;
       }
@@ -27,7 +27,7 @@ export function IndividualRich(params: IndividualRichParams) {
       if(simpleRange) {
         t = html`? - `;
       }
-      t = html`${t}<EventName event=${death} name=${simpleRange ? '' : 'deceased'} {...props}  />`
+      t = html`${t} ${EventName({event: death, name: (simpleRange ? '' : 'deceased'), ...props})  }`
     }
   }
   return t;
