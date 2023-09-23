@@ -10,6 +10,5 @@ id = `@${id}@`;
 console.log(`Gedcom url is ${GedUrl}`)
 ---
 
-<Card title="Biographical Information">
-    <GedcomIndividual gedid={id} url={GedUrl} client:only />
-</Card>
+<GedcomIndividual gedid={id} url={GedUrl} client:only />
+

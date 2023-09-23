@@ -36,6 +36,7 @@
     "@ui5/webcomponents-icons": "^1.17.2",
     "@webcomponents/template-shadowroot": "^0.2.1",
     "astro": "3.1.2",
+    "autoprefixer": "^10.4.16",
     "boolbase": "^1.0.0",
     "comlink": "^4.4.1",
     "d2lang-js": "^0.2.0",

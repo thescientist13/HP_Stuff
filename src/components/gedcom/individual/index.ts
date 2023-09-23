@@ -7,12 +7,17 @@ import {when} from 'lit/directives/when.js';
 import { StoreController,withStores } from '@nanostores/lit'
 import {createContext, provide} from '@lit-labs/context';
 
+import {TailwindMixin} from "../../tailwind.element";
+
 
 import { gedcomDataController, gcDataContext } from '../state/database';
 
 import type { SelectionIndividualRecord, SelectionFamilyRecord, SelectionAny } from 'read-gedcom';
 
+import {ButtonMenu} from '../../ButtonMenu';
+
 import { z } from "zod";
+
 
 import {
   computeAncestors,
@@ -26,16 +31,16 @@ import {
 import { IndividualName } from './IndividualName'
 //import { IndividualRich} from "./IndividualRich";
 
+import style from '../../../styles/Individual.css?inline';
 
-export class GedcomIndividual extends LitElement {
+export class GedcomIndividual extends TailwindMixin(LitElement, style) {
   
   @property()
   public url: URL | string | null;
   
   @property({type: String})
   public gedId: string;
-  
-  @provide({context: gcDataContext})
+
   @state()
   public gcDataController = new gedcomDataController(this);
   
@@ -228,7 +233,7 @@ export class GedcomIndividual extends LitElement {
     return nothing
   };
   
-  
+
   
   public render() {
     /*const t = html`
@@ -280,7 +285,22 @@ export class GedcomIndividual extends LitElement {
     `*/
     if(this.gedId && this.individual) {
       console.log(`individual render; this.gedId is ${this.gedId}`)
-      return html`<individual-name gedid="${this.gedId}" ></individual-name>`
+      return html`
+        <!-- component -->
+          <div class="grid grid-cols-12 grid-rows-5">
+            <div class="col-span-11 col-end-12 row-span-1">
+              <individual-name gedid="${this.gedId}" ></individual-name>
+            </div>
+            <div class="col-span-1 row-span-1">
+              <button-menu></button-menu>
+            </div>
+            <div class="col-span-12 row-span-4">
+
+            </div>
+          </div>  
+
+              
+      `
     } else {
       return html`No Gramps ID set`
     }
