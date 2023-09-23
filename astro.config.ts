@@ -13,6 +13,13 @@ export default defineConfig({
             customCss: [
                 './src/styles/tailwind.css',
             ],
+            defaultLocale: 'root',
+            locales: {
+              root: {
+                  label: 'English',
+                  lang: 'en',
+              },
+            },
             logo: {
                 src: './src/assets/LukeHPSite.svg',
                 replacesTitle: true
