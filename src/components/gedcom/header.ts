@@ -6,6 +6,7 @@ import type { Ref } from 'lit/directives/ref.js';
 import {when} from 'lit/directives/when.js';
 import {unsafeSVG} from 'lit/directives/unsafe-svg.js';
 
+import { allTasks } from 'nanostores'
 import { StoreController,withStores } from '@nanostores/lit'
 import { gedcomDataController } from './state/database';
 import type { SelectionGedcom,  } from 'read-gedcom';
@@ -17,6 +18,7 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
 import {displayDateExact, displayName} from './util';
+import { IndividualName } from './individual/IndividualName'
 
 export class GedcomHeader extends LitElement {
   
@@ -46,38 +48,47 @@ export class GedcomHeader extends LitElement {
   
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    console.log(`in willUpdate callback, url is ${this.url}`)
+    console.log(`header willUpdate; url is ${this.url}`)
     if(this.url && (this.url.toString().localeCompare(this.gcDataController.getUrl().toString()))) {
-      console.log(`setting gedcomDataController url`)
+      console.log(`header willUpdate; setting gedcomDataController url`)
       this.gcDataController.setUrl(new URL(this.url));
     }
   }
   
   
   private renderRootIndividual() {
-    this.gcDataController.initializeAllFields()
     const  rootSelection = this.gcDataController.gedcomStoreController.value;
     if(rootSelection) {
       const allFields = this.gcDataController.initializeAllFields();
       if(allFields){
         const rootIndividual = allFields.settings.rootIndividual;
-        if(rootIndividual) {
+        const gedId = this.gcDataController.getRootIndividual();
+        if(rootIndividual && gedId) {
+          console.log(`header renderRootIndividual; gedId is ${gedId} `)
           return html`
               <table>
                   <tbody>
                   <tr>
                       <td>
-                          ${rootIndividual.toString()}
+                          <individual-name gedid=${gedId} link ></individual-name>
                       </td>
                   </tr>
                   </tbody>
               </table>
               
           `
+        } else if(rootIndividual){
+          return html`${rootIndividual.toString()}`
+        } else if(gedId) {
+          return html`${gedId}`
         }
       }
     }
     return null;
+  }
+  
+  public async tasksComlete(){
+    await allTasks()
   }
   
   private renderStats() {

@@ -42,6 +42,7 @@ export class GedcomIndividual extends LitElement {
   @state()
   protected individual:  SelectionIndividualRecord | null;
   
+
   constructor() {
     super();
     this.individual = null;
@@ -52,34 +53,43 @@ export class GedcomIndividual extends LitElement {
   
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    console.log(`individual willUpdate callback, url is ${this.url}`)
-    if(this.url && this.gcDataController && (this.url.toString().localeCompare(this.gcDataController.getUrl().toString()))) {
-      console.log(`setting gedcomDataController url`)
-      this.gcDataController.setUrl(new URL(this.url));
-    }
-    if((!this.individual) && (this.gedId !== '') && (this.gcDataController && this.gcDataController.gedcomStoreController && this.gcDataController.gedcomStoreController.value)) {
-      console.log(`individual willUpdate; detected need to set this.individual`)
-      const store = this.gcDataController.gedcomStoreController.value;
-      this.individual = store.getIndividualRecord(this.gedId);
-      if(typeof(this.individual) === 'string') {
-        console.log(`retrieved a string for the individual ${this.individual}`)
+    console.log(`individual willUpdate; url is ${this.url}`)
+    if(!this.gcDataController) {
+      console.log(`individual willUpdate; no gcDataController`)
+      return null;
+    } else {
+      if(this.url) {
+        if (this.url.toString().localeCompare(this.gcDataController.getUrl().toString())) {
+          console.log(`individual willUpdate; setting gedcomDataController url`)
+          this.gcDataController.setUrl(new URL(this.url));
+        }
+        if(this.gcDataController.gedcomStoreController) {
+          if(this.gcDataController.gedcomStoreController.value) {
+            if(this.gedId && (this.gedId !== '')) {
+              if(!this.individual) {
+                console.log(`individual willUpdate; detected need to set this.individual`)
+                const store = this.gcDataController.gedcomStoreController.value;
+                this.individual = store.getIndividualRecord(this.gedId);
+                if(typeof(this.individual) === 'string') {
+                  console.log(`individual willUpdate; retrieved a string for the individual ${this.individual}`)
+                } else {
+                  console.log(`individual willUpdate; individual was ${this.individual.toString()}`)
+                  this.requestUpdate();
+                }
+              } else {
+                console.log(`individual willUpdate; individual already set`)
+              }
+            } else {
+              console.log(`individual willUpdate; no gedId`)
+            }
+          } else {
+            console.log(`individual willUpdate; no gedcomStoreController value`)
+          }
+        } else {
+          console.log(`individual willUpdate; no gedcomStoreController`)
+        }
       } else {
-        console.log(`individual willUpdate; individual was not a string`)
-        this.requestUpdate();
-      }
-    }else {
-      if(this.gedId === '') {
-        console.log(`individual willUpdate; gedId is blank`);
-      }
-      if(this.individual) {
-        console.log(`individual willUpdate; this.individual is set already`)
-      }
-      if(!this.gcDataController){
-        console.log(`individual willUpdate; I have no gcDataController`)
-      } else if (!this.gcDataController.gedcomStoreController) {
-        console.log(`individual willUpdate; I have no gedcomStoreController`)
-      } else {
-        console.log(`individual willUpdate: store has no value`)
+        console.log(`individual willUpdate; no url`)
       }
     }
   }
@@ -270,7 +280,7 @@ export class GedcomIndividual extends LitElement {
     `*/
     if(this.gedId && this.individual) {
       console.log(`individual render; this.gedId is ${this.gedId}`)
-      return html`<individual-name gedid=${this.gedId} ></individual-name>`
+      return html`<individual-name gedid="${this.gedId}" ></individual-name>`
     } else {
       return html`No Gramps ID set`
     }

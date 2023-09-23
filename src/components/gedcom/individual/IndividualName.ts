@@ -1,20 +1,21 @@
-import {LitElement, html, nothing, css, unsafeCSS} from 'lit';
+import {LitElement, html, nothing, css, unsafeCSS, } from 'lit';
 import {property, state} from 'lit/decorators.js';
 import {consume} from '@lit-labs/context';
 import { allTasks } from 'nanostores'
+
+import { delay } from 'nanodelay'
 
 import type { SelectionIndividualRecord} from 'read-gedcom';
 // @ts-ignore
 import { ValueSex } from 'read-gedcom';
 
-import { type gedcomDataController, gcDataContext } from '../state/database';
+import { gedcomDataController, gcDataContext } from '../state/database';
 import type {PropertyValues} from "lit";
 
 import { library, dom as fontAwesomeDom } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-
 
 declare enum ValueSex {
   Male = 'M',
@@ -26,9 +27,8 @@ declare enum ValueSex {
 
 export class IndividualName extends LitElement {
   
-  @consume({context: gcDataContext})
-  @property({attribute: false})
-  public gcDataController?: gedcomDataController;
+  @state()
+  public gcDataController = new gedcomDataController(this);
   
   @property({type: String})
   public gedId;
@@ -42,8 +42,8 @@ export class IndividualName extends LitElement {
   @property()
   gender;
   
-  @property()
-  noLink;
+  @property({type: Boolean})
+  link;
   
   @property()
   noAncestry;
@@ -60,17 +60,21 @@ export class IndividualName extends LitElement {
   @state()
   related: any;
   
+  @state()
+  rootId: number| string;
+  
   constructor() {
     super();
     
     //fontawesome
     library.add(fas, far, fab)
     
+    this.rootId = 0;
     this.gedId = '';
     this.individual = null;
     this.placeholder = '?';
     this.gender = false;
-    this.noLink = false;
+    this.link = false;
     this.noAncestry = false;
     this.descendants = null;
     this.ancestors = null;
@@ -80,7 +84,7 @@ export class IndividualName extends LitElement {
   
   connectedCallback() {
     super.connectedCallback()
-    
+   
     // @ts-ignore
     fontAwesomeDom.watch({
       autoReplaceSvgRoot: this.renderRoot,
@@ -91,34 +95,25 @@ export class IndividualName extends LitElement {
   
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    if((changedProperties.has('gedId')) || ((this.gedId) && (this.gedId !== undefined))) {
-      console.log(`individualName willUpdate; changedProperties has gedId `);
-      const newId = changedProperties.get('gedId');
-      console.log(`individualName willUpdate; found newID ${newId}`)
-      if(newId !== undefined && this.gedId.localeCompare(newId)) {
-        console.log(`I have new id ${newId}`)
-        if(this.gcDataController && this.gcDataController.gedcomStoreController && this.gcDataController.gedcomStoreController.value) {
-          console.log(`individualName willUpdate; setting individual`)
-          this.individual = this.gcDataController.getIndividualRecord(newId)
+    if (changedProperties.has('gedId')) {
+      console.log(`individualName willUpdate; detected value ${this.gedId}`)
+      if (this.gcDataController && this.gcDataController.gedcomStoreController && this.gcDataController.gedcomStoreController.value) {
+        console.log(`individualName willUpdate; setting individual`)
+        this.individual = this.gcDataController.getIndividualRecord(this.gedId)
+        this.requestUpdate();
+      } else {
+        console.log(`individualName willUpdate; I need to set the indiviuual, but cannot because the controller is not set`)
+        if (!this.gcDataController) {
+          console.log(`individualName willUpdate; problem is the top controller`)
+        } else if (!this.gcDataController.gedcomStoreController) {
+          console.log(`individualName willUpdate; problem is the inner controller`)
         } else {
-          console.log(`individualName willUpdate; I need to set the indiviuual, but cannot because the controller is not set`)
-          if(!this.gcDataController) {
-            console.log(`individualName willUpdate; problem is the top controller`)
-          } else if(!this.gcDataController.gedcomStoreController) {
-            console.log(`individualName willUpdate; problem is the inner controller`)
-          } else {
-            console.log(`individualName willUpdate; problem is the value`)
-          }
-        }
-      } else if(this.gedId) {
-        if(this.gcDataController && this.gcDataController.gedcomStoreController && this.gcDataController.gedcomStoreController.value) {
-          console.log(`in willUpdate for individualName, setting individual based on prior id`)
-          this.individual = this.gcDataController.getIndividualRecord(this.gedId)
+          console.log(`individualName willUpdate; problem is the value`)
         }
       }
     }
-    
   }
+  
   
   public displayName(individual: SelectionIndividualRecord, placeholder = '') {
     console.log(`individualName displayName; individual: ${individual.toString()}`)
@@ -164,30 +159,58 @@ export class IndividualName extends LitElement {
   
   render() {
     let genderIcon = html``;
+    let t = html``;
     if (this.individual) {
-      console.log(`individualName render; individual is of type ${typeof this.individual}`)
-      console.log(`individualName render; individual: ${this.individual.toString()}`)
-      const name = this.displayName(this.individual);
-      console.log(`individualName render; name: ${name}`)
-      const content = name ? name : this.placeholder;
-      const id = this.individual.pointer()[0];
-      const genderValue = this.individual.getSex().value()[0];
-      if(genderValue){
-        this.gender = true;
-        if(genderValue === ValueSex.Male) {
-          genderIcon = html`<i class="fa-solid fa-mars fa-1x color-male"></i>`;
-        } else {
-          genderIcon = html`<i class="fa-solid fa-venus fa-1x color-female"></i>`;
+      if (this.gcDataController) {
+        t = html`${t}<i class="fa-regular fa-user fa-1x"></i>`
+        console.log(`individualName render; individual is of type ${typeof this.individual}`)
+        console.log(`individualName render; individual: ${this.individual.toString()}`)
+        const name = this.displayName(this.individual);
+        console.log(`individualName render; name: ${name}`)
+        const content = name ? name : this.placeholder;
+        console.log(`individualName render; content is ${content}`)
+        const id = this.individual.pointer()[0];
+        const genderValue = this.individual.getSex().value()[0];
+        if (genderValue) {
+          this.gender = true;
+          if (genderValue === ValueSex.Male) {
+            genderIcon = html`<i class="fa-solid fa-mars fa-1x color-male"></i>`;
+          } else {
+            genderIcon = html`<i class="fa-solid fa-venus fa-1x color-female"></i>`;
+          }
         }
+        if (this.link) {
+          let u = this.gcDataController.getUrl();
+          console.log(`individualName render; u is ${u}`)
+          if (u) {
+            let l: string | string[] = this.individual.getName().getSurname().valueNonNull()
+            if (l && l.length > 0) {
+              l = l[0].replace(/ /g, '_').toLowerCase();
+              console.log(`link l is ${l.toString()}`)
+              let f: string | string[] = this.individual.getName().getGivenName().valueNonNull()
+              if (f) {
+                f = f[0].replace(/ /g, '_').toLowerCase();
+                console.log(`individualName render; f is ${f}`)
+                const s = '/harrypedia/people/'.concat(l).concat('/').concat(f).concat('/');
+                console.log(`individualName render;  s is ${s}`)
+                u = new URL(s, u);
+                t = html`${t}${genderIcon} <a href="${u}">${content}</a>`
+              }
+            }
+          } else {
+            t = html`${t}${genderIcon} ${content}`
+          }
+        } else {
+          t = html`${t}${genderIcon} ${content}`
+        }
+        t = html`${t}<br/>${this.gedId}`
+        return t;
       }
-      return html`
-        ${genderIcon} ${content}<br/>${this.gedId}
-    `
     }
-    return html`pending individual`
+    return html`pending individual ${this.gedId}`
   }
   
-};
+}
 
 customElements.define('individual-name', IndividualName);
 
