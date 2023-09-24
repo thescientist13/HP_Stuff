@@ -11,11 +11,14 @@ export function IndividualRich(params: IndividualRichParams) {
   const { individual, gender, simpleDate, simplePlace, simpleRange, noDate, noPlace } = params;
   const props = { simpleDate, simplePlace, noDate, noPlace };
   const visible = !noDate || !noPlace;
+
+  console.log(`IndividualRich; individual has id ${individual.pointer()}`)
+
   const birth = individual.getEventBirth(), death = individual.getEventDeath();
   const showBirth = visible && !isEventEmpty(birth, !noDate, !noPlace), showDeath = visible && (simpleRange ? !isEventEmpty(death, !noDate, !noPlace) : death.length > 0); // Birth is not shown if fruitless
   const hasSuffix = showBirth || showDeath;
   const sex = individual.getSex().value()[0];
-  let t = html`<individual-name individual=${individual} gender=${gender} />`;
+  let t = html`<individual-name gedId=${individual.pointer()} link gender=${gender} />`;
   if(hasSuffix) {
     t = html`${t}<br/>`
     if(showBirth) {
@@ -35,12 +38,12 @@ export function IndividualRich(params: IndividualRichParams) {
 
 const individualRich  = z.object({
   individual: z.instanceof(SelectionIndividualRecord),
-  gender: z.boolean().default(false),
-  simpleDate: z.boolean().default(false),
-  simplePlace: z.boolean().default(false),
-  simpleRange: z.boolean().default(false),
-  noDate: z.boolean().default(false),
-  noPlace: z.boolean().default(false)
+  gender: z.boolean().default(false).optional(),
+  simpleDate: z.boolean().default(false).optional(),
+  simplePlace: z.boolean().default(false).optional(),
+  simpleRange: z.boolean().default(false).optional(),
+  noDate: z.boolean().default(false).optional(),
+  noPlace: z.boolean().default(false).optional()
 });
 
 type IndividualRichParams = z.infer<typeof individualRich>;

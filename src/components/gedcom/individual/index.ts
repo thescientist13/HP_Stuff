@@ -9,12 +9,12 @@ import {createContext, provide} from '@lit-labs/context';
 
 import {TailwindMixin} from "../../tailwind.element";
 
-
 import { gedcomDataController, gcDataContext } from '../state/database';
 
-import type { SelectionIndividualRecord, SelectionFamilyRecord, SelectionAny } from 'read-gedcom';
+import type {SelectionIndividualRecord, SelectionFamilyRecord, SelectionAny, SelectionEvent} from 'read-gedcom';
 
 import {ButtonMenu} from '../../ButtonMenu';
+import {EventName} from '../EventName';
 
 import { z } from "zod";
 
@@ -32,6 +32,7 @@ import { IndividualName } from './IndividualName'
 //import { IndividualRich} from "./IndividualRich";
 
 import style from '../../../styles/Individual.css?inline';
+import {IndividualRich} from "./IndividualRich";
 
 export class GedcomIndividual extends TailwindMixin(LitElement, style) {
   
@@ -104,8 +105,8 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     return html`
                 <h6>Parents</h6>
                 <ul>
-                    <li><IndividualRich individual={familyAsChild.getHusband().getIndividualRecord()} /></li>
-                    <li><IndividualRich individual={familyAsChild.getWife().getIndividualRecord()} /></li>
+                    <li>${IndividualRich({individual: familyAsChild.getHusband().getIndividualRecord(), noPlace: true})}</li>
+                    <li>${IndividualRich({individual: familyAsChild.getWife().getIndividualRecord(), noPlace: true})}</li>
                 </ul>
     `
   };
@@ -117,12 +118,12 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     const children = family.getChild().getIndividualRecord();
     const hadChildren = children.length > 0;
     let spouseData = html`
-        <IndividualRich individual={other} simpleDate noPlace simpleRange/>
+      ${IndividualRich({individual: other, noPlace: true})}
     `;
     if (marriage.length > 0) {
       spouseData = html`
           ${spouseData},
-          <EventName event=${marriage} name="married"/>
+          ${EventName({event: marriage,noPlace: true, name: "married"})}
       `
     }
     if (hadChildren) {
@@ -131,8 +132,8 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
           <ul>
               ${children.arraySelect().map((child: SelectionIndividualRecord, i: number) => {
                   return html`
-                      <li key={i}>
-                          <IndividualRich individual={child} gender simpleDate noPlace simpleRange/>
+                      <li>
+                        ${IndividualRich({individual: child, noPlace: true})}
                       </li>`
               })}
           </ul>
@@ -141,11 +142,16 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
       return spouseData;
     }
   }
-  private renderUnions(individual: SelectionIndividualRecord, familiesFilter: (s: SelectionAny) => boolean, title = true) {
-    const familiesAsSpouse = individual.getFamilyAsSpouse().filterSelect(familiesFilter);
+  private renderUnions(individual: SelectionIndividualRecord, familiesFilter?: (s: SelectionAny) => boolean, title = true) {
+    let familiesAsSpouse: SelectionFamilyRecord | null = null;
+    if(familiesFilter) {
+      familiesAsSpouse = individual.getFamilyAsSpouse().filterSelect(familiesFilter);
+    } else {
+      familiesAsSpouse = individual.getFamilyAsSpouse();
+    }
     const orderIfSpecified = individual.getSpouseFamilyLink().value();
     let ordered: any[] = [];
-    if (familiesAsSpouse.length === 0) {
+    if (familiesAsSpouse &&  familiesAsSpouse.length === 0) {
       return null;
     } else {
       // Sort the families in the order of the FAMS tags (rather than in the order of their ids)
@@ -172,7 +178,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
           <h6>Unions & children</h6>
           ${ordered.map((family, i) => {
               return html`
-                  <li key=${i}>${this.renderUnion(individual, family)}</li>
+                  <li >${this.renderUnion(individual, family)}</li>
               `
           })}
           </ul>
@@ -183,6 +189,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
   private renderGeneral(individual: SelectionIndividualRecord) {
     const birth = individual.getEventBirth(), death = individual.getEventDeath();
     const occupationValue = individual.getAttributeOccupation().value().filter(s => s).join(', ');
+    //gender is used for i18n formatted strings
     const gender = individual.getSex().value()[0];
     const events = [
       { event: birth, name: "Born", silent: true },
@@ -191,7 +198,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     return  html`
       <ul>
           ${events.map(({event, name, silent}, i) => {
-              return html`<li key=${i}><EventName event=${event} name=${name}  /></li>`;
+              return html`<li >${EventName({event: event as SelectionEvent, name: name, nameAlt: (silent ? '' : false)})}</li>`;
           })}
           ${occupationValue ? html`<li>${occupationValue}</li>` : nothing}
       </ul>
@@ -208,7 +215,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
           <h6>Siblings</h6>
           <ul>
               ${siblings.filter(child => child.pointer !== individual[0].pointer).arraySelect().map((child, i) => {
-                return html`<li key=${i}><IndividualRich individual=${child} gender simpleDate noPlace simpleRange /></li>)`;
+                return html`<li >${IndividualRich({individual: child, noPlace: true})}</li>`;
               })}
           </ul>
       `;
@@ -287,15 +294,24 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
       console.log(`individual render; this.gedId is ${this.gedId}`)
       return html`
         <!-- component -->
-          <div class="grid grid-cols-12 grid-rows-5">
-            <div class="col-span-11 col-end-12 row-span-1">
-              <individual-name gedid="${this.gedId}" ></individual-name>
+          <div class="grid grid-flow-row grid-cols-12 grid-rows-10">
+            <div class="col-span-12 row-span-2 grid grid-cols-12 grid-rows-2">
+              <div class="col-span-11 col-end-12 row-span-1">
+                <individual-name gedid="${this.gedId}" ></individual-name>
+              </div>
+              <div class="col-span-1 row-span-1">
+                <button-menu></button-menu>
+              </div>
+              <div class="col-span-1 row-span-1">
+                ${this.gedId}
+              </div>
             </div>
-            <div class="col-span-1 row-span-1">
-              <button-menu></button-menu>
-            </div>
-            <div class="col-span-12 row-span-4">
-
+            <div class="col-span-12 row-span-8 ">
+              ${this.renderGeneral(this.individual)}
+              ${this.renderParents(this.individual)}
+              ${this.renderUnions(this.individual)}
+              ${this.renderSiblings(this.individual)}
+              
             </div>
           </div>  
 
@@ -308,6 +324,6 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
   }
   
 }
-  customElements.define('gedcom-individual', GedcomIndividual)
+customElements.define('gedcom-individual', GedcomIndividual)
 
 

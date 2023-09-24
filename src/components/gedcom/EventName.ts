@@ -52,11 +52,11 @@ export function EventName(params: EventNameProps) {
 const eventName = z.object({
     event: z.instanceof(SelectionEvent),
     name: z.any().default(''),
-    nameAlt: z.any().default(null),
-    simpleDate: z.boolean().default(false),
-    simplePlace: z.boolean().default(false),
-    noDate: z.boolean().default(false),
-    noPlace: z.boolean().default(false),
+    nameAlt: z.any().default(null).optional(),
+    simpleDate: z.boolean().default(false).optional(),
+    simplePlace: z.boolean().default(false).optional(),
+    noDate: z.boolean().default(false).optional(),
+    noPlace: z.boolean().default(false).optional(),
 });
 
 type EventNameProps = z.infer<typeof eventName>;
