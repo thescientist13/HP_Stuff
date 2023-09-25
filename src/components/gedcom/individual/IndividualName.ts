@@ -1,4 +1,4 @@
-import {LitElement, html, nothing, css, unsafeCSS, } from 'lit';
+import {LitElement, html, type PropertyValues } from 'lit';
 import {property, state} from 'lit/decorators.js';
 import {consume} from '@lit-labs/context';
 import { allTasks } from 'nanostores'
@@ -10,7 +10,6 @@ import type { SelectionIndividualRecord} from 'read-gedcom';
 import { ValueSex } from 'read-gedcom';
 
 import { gedcomDataController, gcDataContext } from '../state/database';
-import type {PropertyValues} from "lit";
 
 import {TailwindMixin} from "../../tailwind.element";
 
@@ -163,30 +162,31 @@ export class IndividualName extends TailwindMixin(LitElement,style) {
           let u = this.gcDataController.getUrl();
           console.log(`individualName render; u is ${u}`)
           if (u) {
-            let l: string | string[] = this.individual.getName().getSurname().valueNonNull()
+            //returns an array, I need the first one
+            let l = this.individual.getName().getSurname().valueNonNull()[0]
             if (l && l.length > 0) {
-              l = l[0].replace(/ /g, '_').toLowerCase();
+              l = l.replace(/ /g, '_').toLowerCase();
               console.log(`link l is ${l.toString()}`)
-              let f: string | string[] = this.individual.getName().getGivenName().valueNonNull()
-              if (f) {
-                f = f[0].replace(/ /g, '_').toLowerCase();
-                console.log(`individualName render; f is ${f}`)
-                const s = '/harrypedia/people/'.concat(l).concat('/').concat(f).concat('/');
-                console.log(`individualName render;  s is ${s}`)
-                u = new URL(s, u);
-                t = html`${t}${genderIcon} <a href="${u}">${content}</a>`
-              }
             }
-          } else {
-            t = html`${t}${genderIcon} ${content}`
+            //returns an array, I need the first one
+            let f = this.individual.getName().getGivenName().valueNonNull()[0]
+            if (f && f.length > 0) {
+              f = f.replace(/ /g, '_').toLowerCase();
+              console.log(`individualName render; f is ${f}`)
+            }
+            const s = '/harrypedia/people/'.concat(l).concat('/').concat(f).concat('/');
+            console.log(`individualName render;  s is ${s}`)
+            u = new URL(s, u);
+            t = html`${t}${genderIcon} <a href="${u}">${content}</a>`
           }
         } else {
           t = html`${t}${genderIcon} ${content}`
         }
-        t = html`${t}`
-        return t;
       }
+      t = html`${t}`
+      return t;
     }
+   
     return html`pending individual ${this.gedId}`
   }
   

@@ -2,7 +2,7 @@ import {LitElement, html, } from 'lit';
 import type { PropertyValues, TemplateResult } from 'lit'
 import {property, state} from 'lit/decorators.js';
 
-import type {SelectionIndividualRecord, SelectionFamilyRecord, SelectionAny, SelectionEvent} from 'read-gedcom';
+import { ValueEvent, type TreeNode, type SelectionIndividualRecord, type SelectionFamilyRecord, type SelectionAny, SelectionIndividualEvent, type SelectionEvent} from 'read-gedcom';
 
 import { z } from "zod";
 
@@ -23,6 +23,9 @@ import {ButtonMenu} from '../../ButtonMenu';
 import { IndividualName } from './IndividualName'
 import {IndividualEvents} from "./IndividualEvents";
 import {IndividualRich, type IndividualRichParams} from "./IndividualRich";
+import {AncestorsTreeChart} from "../AncestorsTreeChart";
+import {Tag} from '../tag';
+
 
 import style from '../../../styles/Individual.css?inline';
 
@@ -115,7 +118,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     if (marriage.length > 0) {
       console.log(`individual renderUnion; other.pointer is ${other.pointer()[0]}`)
       spouseData = html`
-          ${spouseData}     
+          ${spouseData}
           Married: <individual-events showMarriage gedId=${this.gedId} gedId2=${other.pointer()[0]}></individual-events>
       `
     }
@@ -178,6 +181,35 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
           </ul>
       `
     }
+  }
+  
+  public renderAncestorsCard (individual: SelectionIndividualRecord) {
+    const family = individual.getFamilyAsChild();
+    if(family.length > 0) {
+      return html`
+          <div class="AncestorsCard rounded border-2">
+              <div class="CardBody">
+                  <h4 class="my-0">
+                      <i class="fa-solid fa-code-fork"></i>
+                      Ancestors chart
+                  </h4>
+                  <div class="flex basis-0 flex-col">
+                      <div class="block sm:hidden">
+                          <ancestorstree-chart gedId=${individual.pointer()} maxDepth="1" />
+                      </div>
+                      <div class="hidden sm:max-lg:block lg:hidden">
+                          <ancestorstree-chart gedId=${individual.pointer()} maxDepth="2" />
+                      </div>
+                      <div class="hidden lg:block ">
+                          <ancestorstree-chart gedId=${individual.pointer()} maxDepth="3" />
+                      </div>
+                  </div>
+              </div>
+          </div>
+        `
+      
+    }
+    return null;
   }
   
   private renderGeneral(individual: SelectionIndividualRecord) {
@@ -244,6 +276,39 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     return html``;
   }
   
+  private renderTimelineCard(individual: SelectionIndividualRecord) {
+    const ;
+    
+    const events = individual.get().filter((node: TreeNode) => {
+      if (node) {
+        const t = node.tag;
+        if(t) {
+          const e = eventsWithKeys[t];
+          return (eventsWithKeys[t] !== undefined)
+        }
+      }
+      return false;
+    }).as(SelectionIndividualEvent);
+    if(events.length === 0 || !events.array().some(event => ![Tag.Birth, Tag.Death, Tag.Occupation].includes(event.tag))) {
+      return null;
+    }
+    return (
+      <Card className="mt-3">
+      <Card.Body>
+        <Card.Title>
+          <CalendarWeek className="icon mr-2"/>
+      <FormattedMessage id="page.individual.events.title"/>
+        </Card.Title>
+        <ul className="timeline">
+      {events.arraySelect().map((event, i) => (
+          renderTimelineEvent(event, i, eventsWithKeys[event[0].tag])
+        ))}
+      </ul>
+      </Card.Body>
+      </Card>
+  );
+  }
+  
   public render() {
     /*const t = html`
         
@@ -295,37 +360,40 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     if(this.gedId && this.individual) {
       console.log(`individual render; this.gedId is ${this.gedId}`)
       return html`
-          <div class="flex-auto">
-              <div class="grid grid-cols-12 grid-rows-2">
-                  <div class="col-span-11 col-end-12 row-span-1">
-                      <individual-name gedid="${this.gedId}"></individual-name>
+          <div class="flex-auto gap-1  ">
+              <div class="flex-auto ">
+                  <div class="grid grid-cols-12 grid-rows-2 bg-gray-100">
+                      <div class="col-span-11 col-end-12 row-span-1 ">
+                          <individual-name gedid="${this.gedId}"></individual-name>
+                      </div>
+                      <div class="col-span-1 row-span-1">
+                          <button-menu></button-menu>
+                      </div>
+                      <div class="col-span-1 row-span-1">
+                          ${this.gedId}
+                      </div>
                   </div>
-                  <div class="col-span-1 row-span-1">
-                      <button-menu></button-menu>
-                  </div>
-                  <div class="col-span-1 row-span-1">
-                      ${this.gedId}
+                  <div class="flex-auto basis-0 flex-col gap-0 rounded border-2 ">
+                      <div class="flex-auto flex-col ">
+                          ${this.renderGeneral(this.individual)}
+                      </div>
+                      <div class="flex-auto flex-col my-0 gap-0">
+                          ${this.renderParents(this.individual)}
+                      </div>
+                      <div class="flex-auto flex-col gap-0">
+                          ${this.renderUnions(this.individual)}
+                      </div>
+                      <div class="flex-auto flex-col">
+                          ${this.renderSiblings(this.individual)}
+                      </div>
+                      <div class="flex-auto flex-col">
+                          ${this.renderHalfSiblings(this.individual)}
+                      </div>
                   </div>
               </div>
-              <div class="flex-auto basis-0 flex-col gap-0">
-                  <div class="flex-auto flex-col ">
-                      ${this.renderGeneral(this.individual)}
-                  </div>
-                  <div class="flex-auto flex-col my-0 gap-0">
-                      ${this.renderParents(this.individual)}
-                  </div>
-                  <div class="flex-auto flex-col gap-0">
-                      ${this.renderUnions(this.individual)}
-                  </div>
-                  <div class="flex-auto flex-col">
-                      ${this.renderSiblings(this.individual)}
-                  </div>
-                  <div class="flex-auto flex-col">
-                      ${this.renderHalfSiblings(this.individual)}
-                  </div>
-              </div>
+              ${this.renderAncestorsCard(this.individual)}
           </div>
-      
+          
       `
     } else {
       return html`No Gramps ID set`
