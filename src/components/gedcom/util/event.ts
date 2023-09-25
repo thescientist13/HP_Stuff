@@ -19,7 +19,7 @@ export function displayDate(dateGedcom: SelectionDate, isShort = false) {
               if (obj.isDateApproximated) {
                 template = html`about `;
               }
-              template = html`${template}<time datetime=${luxDate.toISO()} >${luxDate.toRelative()}</time>`;
+              template = html`${template}<time datetime=${luxDate.toISO()} >${isShort ? luxDate.year : luxDate.toISODate()}</time>`;
               return template;
             } else {
                 return html`first[0].value`;

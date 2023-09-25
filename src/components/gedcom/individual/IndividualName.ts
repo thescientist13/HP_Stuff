@@ -14,6 +14,8 @@ import type {PropertyValues} from "lit";
 
 import {TailwindMixin} from "../../tailwind.element";
 
+import {IndividualEvents} from "./IndividualEvents";
+
 import style from '../../../styles/Individual.css?inline'
 
 declare enum ValueSex {
@@ -87,7 +89,6 @@ export class IndividualName extends TailwindMixin(LitElement,style) {
     if (changedProperties.has('gedId')) {
       console.log(`individualName willUpdate; detected value ${this.gedId}`)
       if (this.gcDataController && this.gcDataController.gedcomStoreController && this.gcDataController.gedcomStoreController.value) {
-        console.log(`individualName willUpdate; setting individual`)
         this.individual = this.gcDataController.getIndividualRecord(this.gedId)
         this.requestUpdate();
       } else {
