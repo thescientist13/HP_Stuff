@@ -1,19 +1,8 @@
-import {LitElement, html, css, nothing} from 'lit';
+import {LitElement, html, } from 'lit';
 import type { PropertyValues, TemplateResult } from 'lit'
 import {property, state} from 'lit/decorators.js';
-import {createRef, ref } from 'lit/directives/ref.js';
-import type { Ref } from 'lit/directives/ref.js';
-import {when} from 'lit/directives/when.js';
-import { StoreController,withStores } from '@nanostores/lit'
-import {createContext, provide} from '@lit-labs/context';
-
-import {TailwindMixin} from "../../tailwind.element";
-
-import { gedcomDataController, gcDataContext } from '../state/database';
 
 import type {SelectionIndividualRecord, SelectionFamilyRecord, SelectionAny, SelectionEvent} from 'read-gedcom';
-
-import {ButtonMenu} from '../../ButtonMenu';
 
 import { z } from "zod";
 
@@ -27,12 +16,15 @@ import {
   isEventEmpty, setIntersectionSize,
 } from '../util';
 
+import {TailwindMixin} from "../../tailwind.element";
+import { gedcomDataController, gcDataContext } from '../state/database';
+
+import {ButtonMenu} from '../../ButtonMenu';
 import { IndividualName } from './IndividualName'
-//import { IndividualRich} from "./IndividualRich";
 import {IndividualEvents} from "./IndividualEvents";
+import {IndividualRich, type IndividualRichParams} from "./IndividualRich";
 
 import style from '../../../styles/Individual.css?inline';
-import {IndividualRich, type IndividualRichParams} from "./IndividualRich";
 
 export class GedcomIndividual extends TailwindMixin(LitElement, style) {
   
@@ -103,8 +95,8 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
   private renderParents(individual: SelectionIndividualRecord) {
     const familyAsChild = individual.getFamilyAsChild(); // TODO filter adoptive
     return html`
-                <h6>Parents</h6>
-                <ul>
+                <h4 class="my-0">Parents</h4>
+                <ul class="my-0">
                     <li>${IndividualRich({individual: familyAsChild.getHusband().getIndividualRecord(), noPlace: true})}</li>
                     <li>${IndividualRich({individual: familyAsChild.getWife().getIndividualRecord(), noPlace: true})}</li>
                 </ul>
@@ -130,7 +122,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     if (hadChildren) {
       return html`
           With ${spouseData}:
-          <ul>
+          <ul class="my-0">
               ${children.arraySelect().map((child: SelectionIndividualRecord, i: number) => {
                   return html`
                       <li>
@@ -176,10 +168,11 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
         }
       });
       return html`
-          <h6>Unions & children</h6>
+          <h4 class="my-0">Unions & children</h4>
+          <ul class="my-0">
           ${ordered.map((family, i) => {
               return html`
-                  <li >${this.renderUnion(individual, family)}</li>
+                  <li>${this.renderUnion(individual, family)}</li>
               `
           })}
           </ul>
@@ -189,7 +182,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
   
   private renderGeneral(individual: SelectionIndividualRecord) {
     return  html`
-      <ul>
+      <ul class="my-0">
         <li>Birth: <individual-events gedId=${this.gedId} showBirth ></individual-events></li>
         <li>Death: <individual-events gedId=${this.gedId} showDeath ></individual-events></li>
       </ul>
@@ -204,8 +197,8 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     } else {
 
       return html`
-          <h6>Siblings</h6>
-          <ul>
+          <h4 class="my-0">Siblings</h4>
+          <ul class="my-0">
               ${siblings.filter(child => child.pointer !== individual[0].pointer).arraySelect().map((child, i) => {
                 const params: IndividualRichParams = {individual: child, simpleDate: true, simpleRange: true};
                 return html`<li >${IndividualRich(params)}</li>`;
@@ -225,15 +218,31 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
       
       if (parent.getFamilyAsSpouse().filterSelect(filter).length > 0) {
         return html`
-          On the side of <IndividualName individual={$parent} />:<br/>
+          On the side of <IndividualName gedId={$parent.pointer()} />:<br/>
           ${this.renderUnions(parent,filter, false)}
       `
       }
     }
-    return nothing
+    return null;
   };
   
-
+  private renderHalfSiblings(individual: SelectionIndividualRecord) {
+    const familyAsChild = individual.getFamilyAsChild();
+    const father = familyAsChild.getHusband().getIndividualRecord();
+    const mother = familyAsChild.getWife().getIndividualRecord();
+    const left = this.renderHalfSiblingSide(individual, father),
+      right = this.renderHalfSiblingSide(individual, mother);
+    if (left || right) {
+      return html`
+          <h4 class="my-0">Half-siblings</h4>
+          <div class="col-span-11 col-end-12 row-span-1">
+              ${left}
+              ${right}
+          </div>
+      `;
+    }
+    return html``;
+  }
   
   public render() {
     /*const t = html`
@@ -286,29 +295,37 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     if(this.gedId && this.individual) {
       console.log(`individual render; this.gedId is ${this.gedId}`)
       return html`
-        <!-- component -->
-          <div class="grid grid-flow-row grid-cols-12 grid-rows-10">
-            <div class="col-span-12 row-span-2 grid grid-cols-12 grid-rows-2">
-              <div class="col-span-11 col-end-12 row-span-1">
-                <individual-name gedid="${this.gedId}" ></individual-name>
+          <div class="flex-auto">
+              <div class="grid grid-cols-12 grid-rows-2">
+                  <div class="col-span-11 col-end-12 row-span-1">
+                      <individual-name gedid="${this.gedId}"></individual-name>
+                  </div>
+                  <div class="col-span-1 row-span-1">
+                      <button-menu></button-menu>
+                  </div>
+                  <div class="col-span-1 row-span-1">
+                      ${this.gedId}
+                  </div>
               </div>
-              <div class="col-span-1 row-span-1">
-                <button-menu></button-menu>
+              <div class="flex-auto basis-0 flex-col gap-0">
+                  <div class="flex-auto flex-col ">
+                      ${this.renderGeneral(this.individual)}
+                  </div>
+                  <div class="flex-auto flex-col my-0 gap-0">
+                      ${this.renderParents(this.individual)}
+                  </div>
+                  <div class="flex-auto flex-col gap-0">
+                      ${this.renderUnions(this.individual)}
+                  </div>
+                  <div class="flex-auto flex-col">
+                      ${this.renderSiblings(this.individual)}
+                  </div>
+                  <div class="flex-auto flex-col">
+                      ${this.renderHalfSiblings(this.individual)}
+                  </div>
               </div>
-              <div class="col-span-1 row-span-1">
-                ${this.gedId}
-              </div>
-            </div>
-            <div class="col-span-12 row-span-8 ">
-              ${this.renderGeneral(this.individual)}
-              ${this.renderParents(this.individual)}
-              ${this.renderUnions(this.individual)}
-              ${this.renderSiblings(this.individual)}
-              
-            </div>
-          </div>  
-
-              
+          </div>
+      
       `
     } else {
       return html`No Gramps ID set`

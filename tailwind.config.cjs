@@ -1,6 +1,7 @@
 const {tailwindTransform} = require('postcss-lit');
 const starlightPlugin = require('@astrojs/starlight-tailwind');
 const fontawesome = require('tailwind-fontawesome');
+const typography = require('@tailwindcss/typography');
 
 // Generated color palettes
 const accent = { 200: '#a2ccff', 600: '#006bc6', 900: '#003262', 950: '#002449' };
@@ -36,8 +37,9 @@ module.exports = {
   },
   plugins: [
     starlightPlugin(),
+		typography(),
     fontawesome({
       version: 6
-    })
+    }),
   ],
 };

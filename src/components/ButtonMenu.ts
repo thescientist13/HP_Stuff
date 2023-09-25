@@ -20,13 +20,14 @@ export class ButtonMenu extends TailwindMixin(LitElement,style) {
     private buttonClasses = {
         'items-center': true,
         'rounded-full': true,
-        'bg-lochmara-500': true,
+        'bg-transparent': true,
         'hover:bg-lochmara-600': true,
         'focus:outline-none': true,
-        'focus:ring-2': true,
+        'ring-2': true,
         'focus:ring-indigo-500': true,
         'focus:ring-offset-2': true,
         'focus:ring-offset-gray-100': true,
+        'space-x-1': true,
     }
 
     render() {
@@ -34,7 +35,7 @@ export class ButtonMenu extends TailwindMixin(LitElement,style) {
             <div class="relative inline-block text-left">
                 <div>
                     <button type="button" class="flex ${classMap(this.buttonClasses)}" id="menu-button" aria-expanded="true" aria-haspopup="true">
-                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i> <i class="fa-solid fa-caret-down"></i>
                     </button>
                 </div>
             </div>

@@ -31,6 +31,7 @@
     "@nanostores/logger": "^0.2.3",
     "@nanostores/query": "^0.2.4",
     "@openui5/sap.ui.core": "^1.118.0",
+    "@tailwindcss/typography": "^0.5.10",
     "@ui5/webcomponents": "^1.17.2",
     "@ui5/webcomponents-fiori": "^1.17.2",
     "@ui5/webcomponents-icons": "^1.17.2",
