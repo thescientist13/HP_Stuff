@@ -16,13 +16,11 @@ export const TailwindMixin = <T extends Constructor<LitElement>>(superClass: T, 
         constructor() {
             super();
             library.add(fas, far, fab)
-            console.log(`tailwind mixin constructor`)
 
         }
 
         connectedCallback() {
             super.connectedCallback()
-            console.log(`tailwind mixing connectedCallback`)
             // @ts-ignore
             fontAwesomeDom.watch({
                 autoReplaceSvgRoot: this.renderRoot,
