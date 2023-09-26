@@ -301,9 +301,16 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
   }
 
   public renderTimelineCard(individual: SelectionIndividualRecord) {
-    const events = individual.get().filter((e: TreeNode) => {
-      if (e) {
-        const t = e.tag;
+    const events = individual.get().filter((tn: TreeNode) => {
+      if (tn) {
+        const tag = tn.tag();
+        switch (tag) {
+          case
+          default
+            return false;
+        }
+        
+        const t = e.tag();
         if(t) {
           const k = eventsWithKeys(e);
           return (k !== undefined)
@@ -327,7 +334,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
                 if(event[0] && event[0].tag) {
                   let etag = eventsWithKeys(event[0]);
                   etag = etag ? etag : '';
-                  return html`${this.renderTimelineEvent(event, i, etag)}`  
+                  return html`${this.renderTimelineEvent(event, i, etag)}`
                 }
               })}
             </ul>
