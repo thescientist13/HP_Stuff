@@ -1,4 +1,3 @@
-const {tailwindTransform} = require('postcss-lit');
 const starlightPlugin = require('@astrojs/starlight-tailwind');
 const fontawesome = require('tailwind-fontawesome');
 const typography = require('@tailwindcss/typography');
@@ -26,9 +25,6 @@ module.exports = {
   syntax: 'postcss-lit',
   content: {
     files: ['./src/components/**/*.{js,ts}'],
-    transform: {
-      ts: tailwindTransform
-    }
   },
   theme: {
     extend: {
