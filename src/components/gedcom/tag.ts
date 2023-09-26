@@ -1,11 +1,11 @@
 // https://wiki-en.genealogy.net/GEDCOM-Tags
 
-import type { SelectionEvent} from "read-gedcom";
+import type { SelectionEvent, TreeNode} from "read-gedcom";
 
 /**
  * All the standard Gedcom tags.
  */
-export declare enum Tag {
+export enum Tag {
   Abbreviation = 'ABBR',
   Address = 'ADDR',
   Address1 = 'ADR1',
@@ -187,47 +187,62 @@ export declare enum Tag {
   Web = 'WWW',
   Wife = 'WIFE',
   Will = 'WILL',
-};
+}
 
-export function eventsWithKeys(e: SelectionEvent) {
-  if(e && e.tag) {
+export function eventsWithKeys(e: TreeNode) {
+  if (e && e.tag) {
     const t = e.tag.toString();
     switch (t) {
       case Tag.Birth:
         return 'birth';
       case Tag.Christening:
         return 'christening';
-        case Tag.Death:
-          return 'death';
-        case Tag.Burial:
-          return 'burial';
-        case Tag.Cremation:
-          return 'cremation';
-        case Tag.Adoption:
-          return 'adoption';
-        [Tag.Baptism]: 'baptism',
-        [Tag.BarMitzvah]: 'bar_mitzvah',
-        [Tag.BatMitzvah]: 'bat_mitzvah',
-        [Tag.AdultChristening]: 'adult_christening',
-        [Tag.Confirmation]: 'confirmation',
-        [Tag.FirstCommunion]: 'first_communion',
-        [Tag.Naturalization]: 'naturalization',
-        [Tag.Emigration]: 'emigration',
-        [Tag.Immigration]: 'immigration',
-        [Tag.Census]: 'census',
-        [Tag.Probate]: 'probate',
-        [Tag.Will]: 'will',
-        [Tag.Graduation]: 'graduation',
-        [Tag.Retirement]: 'retirement',
-        [Tag.Occupation]: 'occupation', // While originally defined as an attribute it is used as an event
-        [Tag.Residence]: 'residence', // Same here
-        [Tag.Event]: 'event',
+      case Tag.Death:
+        return 'death';
+      case Tag.Burial:
+        return 'burial';
+      case Tag.Cremation:
+        return 'cremation';
+      case Tag.Adoption:
+        return 'adoption';
+      case Tag.Baptism:
+        return 'baptism';
+      case Tag.BarMitzvah:
+        return 'bar_mitzvah';
+      case Tag.BatMitzvah:
+        return 'bat_mitzvah';
+      case Tag.AdultChristening:
+        return 'adult_christening';
+      case Tag.Confirmation:
+        return 'confirmation';
+      case Tag.FirstCommunion:
+        return 'first_communion';
+      case Tag.Naturalization:
+        return 'naturalization';
+      case Tag.Emigration:
+        return 'emigration';
+      case Tag.Immigration:
+        return 'immigration';
+      case Tag.Census:
+        return 'census';
+      case Tag.Probate:
+        return 'probate';
+      case Tag.Will:
+        return 'will';
+      case Tag.Graduation:
+        return 'graduation';
+      case Tag.Retirement:
+        return 'retirement';
+      case Tag.Occupation:
+        return 'occupation'; // While originally defined as an attribute it is used as an event
+      case Tag.Residence:
+        return 'residence'; // Same here
+      case Tag.Event:
+        return 'event';
       default:
         return null;
     }
-    return null;
   }
-  
-  Birth: 'birth',
-  
-};
+  return null;
+}
+

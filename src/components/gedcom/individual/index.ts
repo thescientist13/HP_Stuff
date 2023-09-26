@@ -24,7 +24,7 @@ import { IndividualName } from './IndividualName'
 import {IndividualEvents} from "./IndividualEvents";
 import {IndividualRich, type IndividualRichParams} from "./IndividualRich";
 import {AncestorsTreeChart} from "../AncestorsTreeChart";
-import {Tag} from '../tag';
+import {Tag, eventsWithKeys} from '../tag';
 
 
 import style from '../../../styles/Individual.css?inline';
@@ -183,35 +183,6 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     }
   }
   
-  public renderAncestorsCard (individual: SelectionIndividualRecord) {
-    const family = individual.getFamilyAsChild();
-    if(family.length > 0) {
-      return html`
-          <div class="AncestorsCard rounded border-2">
-              <div class="CardBody">
-                  <h4 class="my-0">
-                      <i class="fa-solid fa-code-fork"></i>
-                      Ancestors chart
-                  </h4>
-                  <div class="flex basis-0 flex-col">
-                      <div class="block sm:hidden">
-                          <ancestorstree-chart gedId=${individual.pointer()} maxDepth="1" />
-                      </div>
-                      <div class="hidden sm:max-lg:block lg:hidden">
-                          <ancestorstree-chart gedId=${individual.pointer()} maxDepth="2" />
-                      </div>
-                      <div class="hidden lg:block ">
-                          <ancestorstree-chart gedId=${individual.pointer()} maxDepth="3" />
-                      </div>
-                  </div>
-              </div>
-          </div>
-        `
-      
-    }
-    return null;
-  }
-  
   private renderGeneral(individual: SelectionIndividualRecord) {
     return  html`
       <ul class="my-0">
@@ -275,49 +246,135 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     }
     return html``;
   }
-  
-  /*private renderTimelineCard(individual: SelectionIndividualRecord) {
-    const ;
-    
-    const events = individual.get().filter((node: TreeNode) => {
-      if (node) {
-        const t = node.tag;
+
+  private renderTimelineEvent(event: SelectionEvent, i: number, translationKey: string) {
+    const value = event.value()[0];
+    const date = event.getDate().length > 0 && displayDate(event.getDate());
+    const place = event.getPlace().value().map((place) => {
+      if (place) {
+        return place.split(',').map(s => s.trim()).filter(s => s)
+      }
+      return [''];
+    }).map(parts => parts.join(', '))[0];
+    const type = event[0].tag === Tag.Event && event.getType().value()[0];
+    let t = html`
+      <span class="small-header">
+        ${translationKey}
+      </span>
+    `;
+    if(type) {
+      t = html`${t} - ${type}`
+    }
+    if(date) {
+      t = html`
+        <span class="text-muted">, ${date}</span>
+      `
+    }
+    t = html`
+      <div>
+        ${t}
+      </div>
+    `
+    if(value && value !== 'Y' ) {
+      t = html`
+        ${t}
+        <div>
+          ${value}
+        </div>
+      `
+    }
+    if(place) {
+      t = html`
+      ${t}
+      <div>
+        <span class="text-muted">
+          ${place}
+        </span>
+      </div>
+      `
+    }
+    return html`
+      <li value="${i}">
+        ${t}
+      </li>
+    `
+  }
+
+  public renderTimelineCard(individual: SelectionIndividualRecord) {
+    const events = individual.get().filter((e: TreeNode) => {
+      if (e) {
+        const t = e.tag;
         if(t) {
-          const e = eventsWithKeys[t];
-          return (eventsWithKeys[t] !== undefined)
+          const k = eventsWithKeys(e);
+          return (k !== undefined)
         }
       }
       return false;
     }).as(SelectionIndividualEvent);
-    if(events.length === 0 || !events.array().some(event => ![Tag.Birth, Tag.Death, Tag.Occupation].includes(event.tag))) {
+    if(events.length === 0 ) {
       return null;
     }
-    return (
-      <Card className="mt-3">
-      <Card.Body>
-        <Card.Title>
-          <CalendarWeek className="icon mr-2"/>
-      <FormattedMessage id="page.individual.events.title"/>
-        </Card.Title>
-        <ul className="timeline">
-      {events.arraySelect().map((event, i) => (
-          renderTimelineEvent(event, i, eventsWithKeys[event[0].tag])
-        ))}
-      </ul>
-      </Card.Body>
-      </Card>
-  );
-  }*/
-  
+    return html`
+      <div class="TimelineCard rounded border-2">
+        <div class="CardBody">
+          <h4 class="my-0">
+            <CalendarWeek class="icon mr-2"/>
+            Events
+          </h4>
+          <div class="flex basis-0 flex-col">
+            <ul class="timeline">
+              ${events.arraySelect().map((event, i) => {
+                if(event[0] && event[0].tag) {
+                  let etag = eventsWithKeys(event[0]);
+                  etag = etag ? etag : '';
+                  return html`${this.renderTimelineEvent(event, i, etag)}`  
+                }
+              })}
+            </ul>
+          </div>
+        </div>
+      </div>
+        `;
+  }
+
+  public renderAncestorsCard (individual: SelectionIndividualRecord) {
+    const family = individual.getFamilyAsChild();
+    if(family.length > 0) {
+      return html`
+          <div class="AncestorsCard rounded border-2">
+              <div class="CardBody">
+                  <h4 class="my-0">
+                      <i class="fa-solid fa-code-fork"></i>
+                      Ancestors chart
+                  </h4>
+                  <div class="flex basis-0 flex-col">
+                      <div class="block sm:hidden">
+                          <ancestorstree-chart gedId=${individual.pointer()} maxDepth="1" />
+                      </div>
+                      <div class="hidden sm:max-lg:block lg:hidden">
+                          <ancestorstree-chart gedId=${individual.pointer()} maxDepth="2" />
+                      </div>
+                      <div class="hidden lg:block ">
+                          <ancestorstree-chart gedId=${individual.pointer()} maxDepth="3" />
+                      </div>
+                  </div>
+              </div>
+          </div>
+        `
+
+    }
+    return null;
+  }
+
   public render() {
     /*const t = html`
         
                 <Card.Title>
-                    <Person className="icon mr-2"/>
+                    <Person class="icon mr-2"/>
                     <IndividualName individual={individualOpt} gender noLink />
-                    <DropdownButton title={<ThreeDotsVertical className="icon" />} variant="outline-secondary" size="sm" style={{ position: 'absolute', right: '0.5rem', top: '0.5rem' }}>
+                    <DropdownButton title={<ThreeDotsVertical class="icon" />} variant="outline-secondary" size="sm" style={{ position: 'absolute', right: '0.5rem', top: '0.5rem' }}>
                     <Dropdown.Item href="#" disabled={rootIndividual !== null && individualOpt[0].pointer === rootIndividual[0].pointer} onClick={() => setRootIndividualDispatch(file, individualOpt)}>
-                    <HouseDoor className="icon mr-2" />
+                    <HouseDoor class="icon mr-2" />
                     <FormattedMessage id="page.individual.actions.define_root"/>
                     </Dropdown.Item>
                     <Dropdown.Divider />
@@ -326,20 +383,20 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
                                    state: { initialIndividualId: individualOpt[0].pointer },
                                    }}>
                         <Dropdown.Item disabled>
-                            <Printer className="icon mr-2" />
+                            <Printer class="icon mr-2" />
                             <FormattedMessage id="page.individual.actions.print"/>
                         </Dropdown.Item>
                     </LinkContainer>
                     <Dropdown.Divider />
                     <DebugGedcom triggerComponent={({ onClick }) =>
                         <Dropdown.Item href="#" onClick={onClick}>
-                            <Bug className="icon mr-2" />
+                            <Bug class="icon mr-2" />
                             <FormattedMessage id="page.individual.actions.debug"/>
                         </Dropdown.Item>
                         } node={individualOpt[0]} root={file} />
                         </DropdownButton>
                 </Card.Title>
-                <Card.Subtitle className="text-muted text-monospace">
+                <Card.Subtitle class="text-muted text-monospace">
                     {individualId}
                 </Card.Subtitle>
             </Card.Header>
@@ -392,6 +449,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
                   </div>
               </div>
               ${this.renderAncestorsCard(this.individual)}
+              ${this.renderTimelineCard(this.individual)}
           </div>
           
       `
@@ -403,5 +461,4 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
   
 }
 customElements.define('gedcom-individual', GedcomIndividual)
-
 
