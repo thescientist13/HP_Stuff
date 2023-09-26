@@ -1,0 +1,10 @@
+---
+import { Card } from '@astrojs/starlight/components';
+import { GenealogicalData } from './index';
+import { file } from './config';
+const Url = new URL('/' + file, Astro.url );
+console.log(`Gramps url is ${Url}`)
+---
+<Card title="Statistics on People from Gramps">
+    <GenealogicalData url={Url} client:only />
+</Card>
