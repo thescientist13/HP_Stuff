@@ -1,0 +1,14 @@
+---
+import { Card } from '@astrojs/starlight/components';
+import { GrampsIndividual} from './individual';
+import { file } from './config';
+const Url = new URL('/' + file, Astro.url );
+
+let { id } = Astro.props;
+id = `${id}`;
+
+console.log(`Gedcom url is ${Url}`)
+---
+
+<GrampsIndividual grampsId={id} url={Url} client:only />
+

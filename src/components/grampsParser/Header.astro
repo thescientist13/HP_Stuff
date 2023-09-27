@@ -5,6 +5,6 @@ import { file } from './config';
 const Url = new URL('/' + file, Astro.url );
 console.log(`Gramps url is ${Url}`)
 ---
-<Card title="Statistics on People from Gramps">
+<Card title="Statistics from Gramps">
     <GenealogicalData url={Url} client:only />
 </Card>

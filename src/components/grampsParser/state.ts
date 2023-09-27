@@ -9,9 +9,21 @@ import {initialState} from "@lit-labs/task";
 
 import { XMLParser, XMLValidator} from 'fast-xml-parser';
 
+import { Convert, type Export } from './GrampsTypes.ts';
+
 const grampsUrl = atom<URL | null>(null);
 
 const grampsData = atom<any | null>(null);
+
+const parsedData = computed(grampsData, (v) => {
+  if(v) {
+    const e: Export = Convert.toExport(v);
+    if(e) {
+      return e;
+    }
+  }
+  return null;
+})
 
 export const gcDataContext = createContext<grampsDataController>('grampsDataController');
 
@@ -24,12 +36,15 @@ export class grampsDataController implements ReactiveController {
   
   readonly grampsStoreController
 
+  readonly  parsedStoreController
+  
   constructor(host: ReactiveControllerHost) {
     this.host = host;
 
     this.Storelogger = logger({
       'Gramps URL': grampsUrl,
       'Gramps Data': grampsData,
+      'Parsed Data': parsedData,
     });
     
     this.grampsUrlListener = grampsUrl.listen((value) => {
@@ -41,6 +56,8 @@ export class grampsDataController implements ReactiveController {
     
     this.grampsStoreController = new StoreController(host, grampsData);
 
+    this.parsedStoreController = new StoreController(host, parsedData);
+    
     host.addController(this as ReactiveController);
   }
   
@@ -60,8 +77,8 @@ export class grampsDataController implements ReactiveController {
             const parser = new XMLParser(options);
             let jObj = parser.parse(t);
             if (jObj) {
-              console.log(`state dataFetcher jObj populated`);
-              grampsData.set(jObj.database);
+              console.log(`state dataFetcher jObj populated ${JSON.stringify(jObj)}`);
+              grampsData.set(JSON.stringify(jObj));
               this.host.requestUpdate();
             } else {
               console.log(`state dataFetcher jObj not populated`)
