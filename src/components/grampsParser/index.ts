@@ -15,10 +15,14 @@ export class GenealogicalData extends TailwindMixin(LitElement, style) {
   public url: URL | string | null;
   
   private grampsController = new grampsDataController(this);
-  
+
+  @state()
+  private controllersReady: boolean
+
   constructor() {
     super();
-    
+
+    this.controllersReady = false;
     this.url = null;
     
   }
@@ -30,18 +34,33 @@ export class GenealogicalData extends TailwindMixin(LitElement, style) {
       console.log(`header willUpdate; setting grampsController url`)
       this.grampsController.setUrl(new URL(this.url));
     }
+    if (this.grampsController && this.grampsController.grampsStoreController && this.grampsController.grampsStoreController.value) {
+      this.controllersReady = true;
+    } else {
+      this.controllersReady = false;
+    }
+
   }
   
   render() {
-    if (this.grampsController && this.grampsController.grampsStoreController && this.grampsController.grampsStoreController.value) {
-      return html`
-          <pre>
-              ${JSON.stringify(this.grampsController.grampsStoreController.value.database.people.person, null, 2)}
-          </pre>
-          
-      `
+    if(this.controllersReady) {
+      console.log(`grampsParser/index render; controllersReady is true`)
+      const jObj = this.grampsController.grampsStoreController.value;
+      if(jObj ) {
+        console.log(`grampsParser/index render; confirm jObj set`)
+        const k = Object.keys(jObj);
+        let t = html``
+        if(k.includes('people')) {
+          const p = (jObj.people.person[0])
+          t = html`${t}people: ${Object.keys(p)}`
+        } else {
+        }
+
+        return html`${t}`
+      }
+
     }
-    
+    return html``;
   }
 }
 

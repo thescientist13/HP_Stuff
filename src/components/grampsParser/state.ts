@@ -11,7 +11,7 @@ import { XMLParser, XMLValidator} from 'fast-xml-parser';
 
 const grampsUrl = atom<URL | null>(null);
 
-const grampsData = atom<any>(null);
+const grampsData = atom<any | null>(null);
 
 export const gcDataContext = createContext<grampsDataController>('grampsDataController');
 
@@ -23,9 +23,10 @@ export class grampsDataController implements ReactiveController {
   private grampsUrlListener
   
   readonly grampsStoreController
-  
+
   constructor(host: ReactiveControllerHost) {
     this.host = host;
+
     this.Storelogger = logger({
       'Gramps URL': grampsUrl,
       'Gramps Data': grampsData,
@@ -39,6 +40,7 @@ export class grampsDataController implements ReactiveController {
     })
     
     this.grampsStoreController = new StoreController(host, grampsData);
+
     host.addController(this as ReactiveController);
   }
   
@@ -56,10 +58,10 @@ export class grampsDataController implements ReactiveController {
               allowBooleanAttributes: true
             };
             const parser = new XMLParser(options);
-            const jObj = parser.parse(t);
+            let jObj = parser.parse(t);
             if (jObj) {
               console.log(`state dataFetcher jObj populated`);
-              grampsData.set(jObj);
+              grampsData.set(jObj.database);
               this.host.requestUpdate();
             } else {
               console.log(`state dataFetcher jObj not populated`)
