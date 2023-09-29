@@ -1,21 +1,28 @@
-import {html, LitElement, PropertyValues, type TemplateResult} from 'lit';
+import {html, LitElement, type PropertyValues, type TemplateResult} from 'lit';
 import {property, state} from 'lit/decorators.js';
 
 import { z} from "zod";
+import {DateTime} from 'luxon';
 
 import { grampsDataController } from './state';
 
-import {type Database, type Event, type NameElement, type Person} from './GrampsTypes';
+import {type Database, type Event, type EventrefElement, type NameElement, type Person} from './GrampsTypes';
 
 import {TailwindMixin} from "../tailwind.element";
 
-import style from '../../../styles/Individual.css?inline'
+import style from '../../styles/Event.css?inline'
 
-export class IndividualEvents extends TailwindMixin(LitElement,style) {
+export class GrampsEvent extends TailwindMixin(LitElement,style) {
 
     @state()
-    public gcDataController = new grampsDataController(this);
+    public gController = new grampsDataController(this);
 
+    @property({type: String})
+    public eventId: string;
+    
+    @state()
+    private _event: Event | null;
+    
     @property({type: String})
     public grampsId: string;
 
@@ -47,18 +54,20 @@ export class IndividualEvents extends TailwindMixin(LitElement,style) {
     public showMarriage: boolean
 
     @state()
-    private individual: Person | null;
+    private _i1: Person | null;
 
     @state()
-    private i2: Person | null;
+    private _i2: Person | null;
 
     constructor() {
         super();
 
+        this.eventId = '';
+        this._event  = null;
         this.grampsId = '';
         this.grampsId2 = '';
-        this.individual = null;
-        this.i2 = null;
+        this._i1 = null;
+        this._i2 = null;
         this.showBirth = false;
         this.showDeath = false;
         this.showMarriage = false;
@@ -69,137 +78,148 @@ export class IndividualEvents extends TailwindMixin(LitElement,style) {
         this.showPlace = false;
 
     }
-
-    private renderEventPlace(event: Event, t: TemplateResult<1>) {
-        if(this.showPlace) {
-            const eventPlace =  event.getPlace().value().map(place => {
-                //the noPlace flag is supposed to prevent this from being false, but check
-                if(place) {
-                    return place.split(',').map(s => s.trim()).filter(s => s)
-                } else {
-                    throw new Error('Event place unset and noPlace flag set to false')
-                }
-            }).map(parts => {
-                if(this.simplePlace && parts) {
-                    return parts[0]
-                } else {
-                    return parts.join(', ')
-                }
-            })[0];
-            t = html`${t} - ${eventPlace}`
-        }
-        return t;
-    }
-
+   
     public async willUpdate(changedProperties: PropertyValues<this>) {
         super.willUpdate(changedProperties)
 
     }
+    
+    private findDeathByPerson(individual: Person) {
+        console.log(`events findBirthByPerson; start`)
+        const db = this.gController.parsedStoreController.value;
+        if(db) {
+            const events = this.findEventsByPerson(individual);
+            if(events) {
+                console.log(`events findBirthByPerson; person has ${events.length} events`)
+                return events.filter(e => {
+                    return (e.type === 'Death')
+                }).shift();
+            }
+        }
+        return null;
+    }
+    
+    private findBirthByPerson(individual: Person) {
+        console.log(`events findBirthByPerson; start`)
+        const db = this.gController.parsedStoreController.value;
+        if(db) {
+            const events = this.findEventsByPerson(individual);
+            if(events) {
+                console.log(`events findBirthByPerson; person has ${events.length} events`)
+                return events.filter(e => {
+                    return (e.type === 'Birth')
+                }).shift();
+            }
+        }
+        return null;
+    }
+    
+    private findEventsByPerson(individual: Person) {
+        console.log(`events findEventsByPerson; start`)
+        const refs:EventrefElement[] | EventrefElement | undefined = individual.eventref;
+        const db = this.gController.parsedStoreController.value;
+        if(db) {
+            if(refs) {
+                console.log(`events findEventsByPerson; I have refs to search`)
+                const r = [refs].flat()
+                return db.database.events.event.filter((e) => {
+                    const _id = e.handle;
+                    if(_id) {
+                        let result = false;
+                        r.forEach((ref) => {
+                            const link = ref.hlink;
+                            if(!_id.localeCompare(link)) {
+                                console.log(`events findBirthByPerson; found event for person`)
+                                result = true;
+                            }
+                        })
+                        return result;
+                    }
+                    return false;
+                })
+            }
+            
+        }
+        return null;
+    }
+    
+    private displayDate(event: Event) {
+        let t = html``
+        if(event.dateval) {
+            if(event.dateval.type) {
+                t = html`${event.dateval.type} `
+            }
+            t = html`${t}${event.dateval.val}`
+        } else if (event.datestr) {
+            t = html`${t}${event.datestr}`
+        }else if (event.daterange) {
+            t = html`{t}${event.daterange.start} - ${event.daterange.stop}`
+        }else if(event.datespan) {
+            t = html`${t}spanning ${event.datespan.start} - ${event.datespan.stop}`
+        }
+        return html`${t}`
+    }
 
     render() {
-        if (this.gcDataController && this.gcDataController.grampsStoreController && this.gcDataController.grampsStoreController.value) {
-            if(this.showMarriage){
-                if(this.grampsId && this.grampsId2) {
-                    this.individual = this.gcDataController.getIndividualRecord(this.grampsId);
-                    this.i2 = this.gcDataController.getIndividualRecord(this.grampsId2);
-                    if(this.individual && this.i2) {
-                        console.log(`IndividualEvents render; both people found`)
-                        const family = this.individual.getFamilyAsSpouse().filterSelect(f => {
-                            const h = f.getHusband();
-                            const w = f.getWife();
-                            if((h.getIndividualRecord().pointer()[0] === this.grampsId) || (w.getIndividualRecord().pointer()[0] === this.grampsId)) {
-                                if((h.getIndividualRecord().pointer()[0] === this.grampsId2) || (w.getIndividualRecord().pointer()[0] === this.grampsId2)) {
-                                    return true;
+        let t = html``
+    
+        if (this.gController && this.gController.parsedStoreController && this.gController.parsedStoreController.value) {
+            console.log(`events render; controlers are ready to render`)
+            const db: Database = this.gController.parsedStoreController.value.database;
+            if(this.eventId) {
+                console.log(`events render; I know which event to work with`)
+            } else {
+                console.log(`events render; I first need to find the envent`)
+                if(this.showBirth) {
+                    console.log(`events render; I am looking for a birth record`)
+                    if(this.grampsId) {
+                        const filterResult = db.people.person.filter((v) => {
+                            return v.id === this.grampsId
+                        })
+                        if (filterResult && filterResult.length > 0) {
+                            console.log(`events render; filter returned people`)
+                            const first = filterResult.shift();
+                            if (first) {
+                                console.log(`events render; and the first was valid`);
+                                this._i1 = first;
+                                const e = this.findBirthByPerson(this._i1);
+                                if(e) {
+                                    t= html`${t}${this.displayDate(e)}`
                                 }
                             }
-                            return false;
-                        })
-                        const marriage = family.getEventMarriage();
-                        if(marriage.length > 0) {
-                            console.log(`IndividualEvents render Marriage; marriage length > 0`)
-                            if(marriage.getDate().valueNonNull().length > 0) {
-                                let md = marriage.getDate().arraySelect().map(date => {
-                                    console.log(`IndividualEvents render Marriage; date is ${date.valueNonNull().toString()}`);
-                                    return displayDate(date, this.simpleDate)
-                                })[0];
-                                let t = html`${md}`
-                                t = this.renderEventPlace(marriage,t);
-                                return t;
-                            } else {
-                                console.log(`IndividualEvents render Marriage; getDate valueNonNull size 0`);
-                            }
-                        } else {
-                            console.log(`IndividualEvents render Marriage; no marraige found`)
                         }
-
-                    }
-                }
-                return html`Unknown Date`;
-            }
-        }
-        if(this.grampsId) {
-            this.individual = this.gcDataController.getIndividualRecord(this.grampsId);
-            if(this.individual) {
-                console.log(`IndividualEvents render; individual found`)
-                if(this.showBDRange) {
-                    let t = html`(`;
-                    const b = this.individual.getEventBirth();
-                    const d = this.individual.getEventDeath();
-                    if(b.length !== 0) {
-                        let birthDate = b.getDate().arraySelect().map(date => {
-                            console.log(`IndividualEvent Birthday render; date is ${date.valueNonNull().toString()}`);
-                            return displayDate(date,true);
-                        })[0]
-                        t = html`${t}${birthDate}`
                     } else {
-                        t = html`${t} `
+                        console.error(`events render; Cannot find a birth record without an individual`)
                     }
-                    t = html`${t} - `
-                    if(d.length !== 0 ) {
-                        let birthDate = d.getDate().arraySelect().map(date => {
-                            console.log(`IndividualEvent Birthday render; date is ${date.valueNonNull().toString()}`);
-                            return displayDate(date,true)
-                        })[0];
-                        t = html`${t}${birthDate}`
-                    }
-                    return html`${t})`
-                }
-                let ta: TemplateResult<1>[] = [];
-                if(this.showBirth) {
-                    let t = html``;
-                    const e = this.individual.getEventBirth()
-                    if(e.length !== 0) {
-                        let birthDate = e.getDate().arraySelect().map(date => {
-                            console.log(`IndividualEvent Birthday render; date is ${date.valueNonNull().toString()}`);
-                            return displayDate(date,this.simpleDate)
-                        })[0];
-                        t = html`${t}${birthDate}`
-                        t = this.renderEventPlace(e,t);
-                    }
-                    ta.push(t);
                 }
                 if(this.showDeath) {
-                    let t = html``;
-                    const e = this.individual.getEventDeath()
-                    if(e.length !== 0) {
-                        let deathDate = e.getDate().arraySelect().map(date => {
-                            console.log(`IndividualEvent DeathDate render; date is ${date.valueNonNull().toString()}`);
-                            return displayDate(date,this.simpleDate)
-                        })[0];
-                        t = html`${t}${deathDate}`
-                        t = this.renderEventPlace(e,t);
+                    console.log(`events render; I am looking for a birth record`)
+                    if(this.grampsId) {
+                        const filterResult = db.people.person.filter((v) => {
+                            return v.id === this.grampsId
+                        })
+                        if (filterResult && filterResult.length > 0) {
+                            console.log(`events render; filter returned people`)
+                            const first = filterResult.shift();
+                            if (first) {
+                                console.log(`events render; and the first was valid`);
+                                this._i1 = first;
+                                const e = this.findDeathByPerson(this._i1);
+                                if(e) {
+                                    t= html`${t}${this.displayDate(e)}`
+                                }
+                            }
+                        }
+                    } else {
+                        console.error(`events render; Cannot find a birth record without an individual`)
                     }
-                    ta.push(t)
                 }
-                return ta;
             }
-            console.error(`could not find individual`);
-
         }
-        return html``;
-
+        
+        return html`${t}`;
     }
 
 }
-customElements.define('individual-events', IndividualEvents);
+customElements.define('gramps-event', GrampsEvent);
 

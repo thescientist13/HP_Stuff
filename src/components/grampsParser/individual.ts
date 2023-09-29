@@ -11,7 +11,7 @@ import {type Database, type Person} from './GrampsTypes';
 import style from '../../styles/Gramps.css?inline';
 
 import {IndividualName} from './individualName';
-import {SelectionIndividualRecord} from "read-gedcom";
+import {GrampsEvent} from "./events";
 
 export class GrampsIndividual extends TailwindMixin(LitElement, style) {
   
@@ -44,11 +44,11 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
     }
   }
   
-  private renderGeneral(individual: SelectionIndividualRecord) {
+  private renderGeneral(individual: Person) {
     return  html`
       <ul class="my-0">
-        <li>Birth: <individual-events gedId=${this.gedId} showBirth ></individual-events></li>
-        <li>Death: <individual-events gedId=${this.gedId} showDeath ></individual-events></li>
+        <li>Birth: <gramps-event grampsId=${this.grampsId} showBirth ></gramps-event></li>
+        <li>Death: <gramps-event grampsId=${this.grampsId} showDeath ></gramps-event></li></li>
       </ul>
       
     `;
