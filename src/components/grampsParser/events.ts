@@ -78,7 +78,19 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
         this.showPlace = false;
 
     }
-   
+
+    public setEvent(e: Event | null | undefined) {
+        if(e) {
+            this._event = e;
+        } else {
+            this._event = null;
+        }
+    }
+
+    public getEvent() {
+        return this._event;
+    }
+
     public async willUpdate(changedProperties: PropertyValues<this>) {
         super.willUpdate(changedProperties)
 
@@ -99,7 +111,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
         return null;
     }
     
-    private findBirthByPerson(individual: Person) {
+    public findBirthByPerson(individual: Person) {
         console.log(`events findBirthByPerson; start`)
         const db = this.gController.parsedStoreController.value;
         if(db) {
@@ -114,7 +126,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
         return null;
     }
     
-    private findEventsByPerson(individual: Person) {
+    public findEventsByPerson(individual: Person) {
         console.log(`events findEventsByPerson; start`)
         const refs:EventrefElement[] | EventrefElement | undefined = individual.eventref;
         const db = this.gController.parsedStoreController.value;
@@ -184,7 +196,8 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
                                 this._i1 = first;
                                 const e = this.findBirthByPerson(this._i1);
                                 if(e) {
-                                    t= html`${t}${this.displayDate(e)}`
+                                    this._event = e;
+                                    t= html`${t}${this.displayDate(this._event)}`
                                 }
                             }
                         }
@@ -206,6 +219,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
                                 this._i1 = first;
                                 const e = this.findDeathByPerson(this._i1);
                                 if(e) {
+                                    this._event = e;
                                     t= html`${t}${this.displayDate(e)}`
                                 }
                             }

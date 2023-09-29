@@ -6,12 +6,21 @@ import {TailwindMixin} from "../tailwind.element";
 
 import {grampsDataController} from './state';
 
-import {type Database, type Person} from './GrampsTypes';
+import {
+  type ChildrefElement,
+  type PurpleChildref,
+  type Database,
+  type Family,
+  type Person,
+  type Noteref,
+} from './GrampsTypes';
 
 import style from '../../styles/Gramps.css?inline';
 
 import {IndividualName} from './individualName';
 import {GrampsEvent} from "./events";
+import {SimpleIndividual} from "./simpleIndividual";
+
 
 export class GrampsIndividual extends TailwindMixin(LitElement, style) {
   
@@ -53,7 +62,78 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
       
     `;
   };
-  
+
+  private renderParents(individual: Person) {
+    console.log(`individual renderParents; starting`)
+    let t = html``;
+    if(individual) {
+      if(this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+        console.log(`individual renderParents; indivudal and controller set`)
+        const db: Database = this.grampsController.parsedStoreController.value.database;
+        const family = [this.getFamilyAsChild()].flat().shift();
+        if(family) {
+          console.log(`individual renderParents; family found`)
+          let f = html``
+          let m = html``
+          const fatherLink = family.father?.hlink;
+          if(fatherLink) {
+            const father = db.people.person.filter(p => {
+              return (!p.handle.localeCompare(fatherLink))
+            }).shift();
+            if(father) {
+              f = html`<simple-individual grampsId=${father.id}></simple-individual>`
+            }
+          }
+
+          t = html`${t}
+            <h4 class="my-0">Parents</h4>
+            <ul class="my-0">
+              <li>Father: ${f}</li>
+              <li>IndividualRich({individual: familyAsChild.getWife().getIndividualRecord(), noPlace: true})</li>
+            </ul>
+          `
+        }
+      }
+    }
+    return html`${t}`;
+  };
+
+  public getFamilyAsChild() {
+    console.log(`individual getFamilyAsChild; starting`)
+    if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+      const db: Database = this.grampsController.parsedStoreController.value.database;
+      let result = Array<Family>();
+      if (this.grampsId) {
+        if (this.individual) {
+          console.log(`individual getFamilyAsChild; with an individual`)
+          let familyRefs: Noteref[] | Noteref | undefined = this.individual.childof;
+          let familyLinks = Array<string>();
+          if(familyRefs) {
+            console.log(`individual getFamilyAsChild; found refs`);
+            [familyRefs].flat().forEach(r => {
+              familyLinks.push(r.hlink);
+            })
+          }
+          console.log(`individual getFamilyAsChild; I have ${familyLinks.length} links`)
+          result = db.families.family.filter((f) => {
+            const handle = f.handle;
+            let r = false;
+            familyLinks.forEach(l => {
+              if(!handle.localeCompare(l)) {
+                r = true;
+              }
+            })
+            return r;
+          })
+        }
+      }
+      if(result.length > 0) {
+        return result
+      }
+    }
+    return null;
+  }
+
   public render() {
     let t = html``
     if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
@@ -85,19 +165,19 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
                       </div>
                   </div>
                   <div class="flex-auto basis-0 flex-col gap-0 rounded border-2 ">
-                      <div class="flex-auto flex-col ">
+                      <div class="General flex-auto flex-col ">
                           ${this.renderGeneral(this.individual)}
                       </div>
-                      <div class="flex-auto flex-col my-0 gap-0">
-                          this.renderParents(this.individual)
+                      <div class="Parents flex-auto flex-col my-0 gap-0">
+                          ${this.renderParents(this.individual)}
                       </div>
-                      <div class="flex-auto flex-col gap-0">
+                      <div class="Unions flex-auto flex-col gap-0">
                           this.renderUnions(this.individual)
                       </div>
-                      <div class="flex-auto flex-col">
+                      <div class="Sibilings flex-auto flex-col">
                           this.renderSiblings(this.individual)
                       </div>
-                      <div class="flex-auto flex-col">
+                      <div class="HalfSiblings flex-auto flex-col">
                           this.renderHalfSiblings(this.individual)
                       </div>
                   </div>
