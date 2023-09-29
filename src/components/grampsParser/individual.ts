@@ -106,6 +106,100 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
     return html`${t}`;
   };
 
+  private renderUnion(f: Family ) {
+    console.log(`individual renderUnion; start`)
+    let t = html``
+    if (this.individual) {
+      if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+        console.log(`individual renderUnion; indivudal and controller set`)
+        const db: Database = this.grampsController.parsedStoreController.value.database;
+        const ih = this.individual.handle;
+        if(ih) {
+          let hlink = ''
+          if(f.mother && f.mother.hlink && ih.localeCompare(f.mother.hlink)) {
+            //mother exists, and the person being rendered is NOT the mother
+            hlink = f.mother.hlink;
+          } else if (f.father && f.father.hlink && ih.localeCompare(f.father.hlink)) {
+            //father exists and the person being rendered is NOT the father
+            hlink = f.father.hlink;
+          }
+          const parent = db.people.person.filter((p) => {
+            return (p.handle && (!p.handle.localeCompare(hlink)))
+          }).shift();
+          if (parent) {
+            if (f.childref) {
+              t = html`${t}With `
+            }
+            t = html`${t}<simple-individual grampsId=${parent.id} asLink showBirth showDeath asRange></simple-individual>`
+          }
+        }
+      }
+    }
+    return html`${t}`
+  }
+  
+  private renderUnions(individual: Person){
+    console.log(`individual renderUnions; starting`);
+    let t = html``;
+    if(individual){
+      if(this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+        console.log(`individual renderUnions; indivudal and controller set`)
+        const db: Database = this.grampsController.parsedStoreController.value.database;
+        const unions = this.getFamilyAsSpouse();
+        if (unions) {
+          if(unions.length === 0) {
+            // apparently this can happen
+            return null
+          }
+          t = html`${t} ${unions.length}`
+          /*unions.sort((a, b) => {
+            if(a) {}
+          })*/
+          return html`
+          <h4 class="my-0">Unions & children</h4>
+          <ul class="my-0">
+          ${unions.map((u) => {
+            return html`
+                  <li>${this.renderUnion(u)}</li>
+              `
+          })}
+          </ul>
+          `
+          
+        }
+      }
+    }
+    return html`${t}`;
+  }
+  
+  public getFamilyAsSpouse() {
+    console.log(`individual getFamilyAsSpouse; starting`);
+    let result = Array<Family>();
+    if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+      const db: Database = this.grampsController.parsedStoreController.value.database;
+      if(this.grampsId && this.individual && this.individual.handle) {
+        console.log(`individual getFamilyAsSpouse; with an individual`)
+        result = db.families.family.filter((f) => {
+          if(f.mother && f.mother.hlink) {
+            if(!this.individual?.handle.localeCompare(f.mother.hlink)) {
+              return true;
+            }
+          }
+          if(f.father && f.father.hlink) {
+            if(!this.individual?.handle.localeCompare(f.father.hlink)) {
+              return true;
+            }
+          }
+          return false;
+        });
+      }
+    }
+    if(result.length > 0) {
+      return result
+    }
+    return null;
+  }
+  
   public getFamilyAsChild() {
     console.log(`individual getFamilyAsChild; starting`)
     if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
@@ -180,7 +274,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
                           ${this.renderParents(this.individual)}
                       </div>
                       <div class="Unions flex-auto flex-col gap-0">
-                          this.renderUnions(this.individual)
+                          ${this.renderUnions(this.individual)}
                       </div>
                       <div class="Sibilings flex-auto flex-col">
                           this.renderSiblings(this.individual)
