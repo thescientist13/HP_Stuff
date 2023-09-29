@@ -1,4 +1,4 @@
-import {LitElement, html,} from 'lit';
+import {LitElement, html, nothing} from 'lit';
 import type {PropertyValues, TemplateResult} from 'lit'
 import {property, state} from 'lit/decorators.js';
 
@@ -33,6 +33,12 @@ export class SimpleIndividual extends TailwindMixin(LitElement, style) {
     @property({type: Boolean})
     public showGender: boolean;
 
+    @property({type: Boolean})
+    public asLink: boolean;
+    
+    @property({type: Boolean})
+    public showPlace: boolean;
+    
     @state()
     private individual: Person |  null;
 
@@ -41,13 +47,16 @@ export class SimpleIndividual extends TailwindMixin(LitElement, style) {
     constructor() {
         super();
 
-        this.individual = null;
         this.grampsId = '';
+        this.individual = null;
         this.showBirth = false;
         this.showDeath = false;
         this.showDate = false;
-        this.asRange = false;
         this.showGender = false;
+        this.showPlace = false;
+        this.asLink = false;
+        this.asRange = false;
+        
     }
 
     public async willUpdate(changedProperties: PropertyValues<this>) {
@@ -71,7 +80,25 @@ export class SimpleIndividual extends TailwindMixin(LitElement, style) {
                     if (first) {
                         console.log(`simpleIndividual render; and the first was valid`);
                         this.individual = first;
-                        t = html`${t}<individual-name grampsId=${this.grampsId}></individual-name>`
+                        t = html`${t}<individual-name grampsId=${this.grampsId} link=${this.asLink || nothing} ></individual-name>`
+                        const eventRefs = this.individual.eventref;
+                        if(this.asRange) {
+                            t = html`${t} ( `
+                        }
+                        if(this.showBirth && this.grampsId && eventRefs) {
+                            console.log(`simpleIndividual render; birth is true and I have events`);
+                            t = html`${t} <gramps-event grampsId=${this.grampsId} showBirth ></gramps-event>`
+                        }
+                        if(this.asRange) {
+                            t = html`${t} -`
+                        }
+                        if(this.showDeath && this.grampsId && eventRefs ) {
+                            console.log(`simpleIndividual render; death is true and I have events`);
+                            t = html`${t} <gramps-event grampsId=${this.grampsId} showDeath ></gramps-event>`
+                        }
+                        if(this.asRange) {
+                            t = html`${t} )`
+                        }
                     }
                 }
             }

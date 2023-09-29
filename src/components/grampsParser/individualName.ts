@@ -1,4 +1,4 @@
-import {LitElement, html,} from 'lit';
+import {LitElement, html, nothing} from 'lit';
 import type {PropertyValues, TemplateResult} from 'lit'
 import {property, state} from 'lit/decorators.js';
 
@@ -50,31 +50,31 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
     let t: string = ''
     if(Array.isArray(names)) {
       let m = names.filter((n) => {
-        if(!n.type.localeCompare("Birth Name")) {
+        if (!n.type.localeCompare("Birth Name")) {
           return true;
         }
-        if(!m) {
-          m = [];
-          do {
-            let n = names.shift();
-            if(n && n.first) {
-              m.push(n);
-            }
-            if(n && (((typeof n.surname === 'string') && n.surname.length > 0)) || ((typeof n?.surname === 'object') && (n.surname['#text']).length > 0 )) {
-              m.push(n)
-            }
-          }while(names.length > 0);
-        }
-        if(!m) {
-          t = `${t}`;
-        } else {
-          t = `${t}/${(typeof m[0].surname === 'string') ? m[0].surname : m[0].surname['#text']}/${m[0].first}`
-          if(m && m[0] && m[0].suffix && m[0].suffix.length > 0) {
-            t = `${t}/${m[0].suffix}/`
-          }
-          
-        }
+        return false;
       })
+      if(!m) {
+        m = [];
+        do {
+          let n = names.shift();
+          if(n && n.first) {
+            m.push(n);
+          }
+          if(n && (((typeof n.surname === 'string') && n.surname.length > 0)) || ((typeof n?.surname === 'object') && (n.surname['#text']).length > 0 )) {
+            m.push(n)
+          }
+        }while(names.length > 0);
+      }
+      if(!m) {
+        t = `${t}`;
+      } else {
+        t = `${t}/${(typeof m[0].surname === 'string') ? m[0].surname : m[0].surname['#text']}/${m[0].first}`
+        if(m && m[0] && m[0].suffix && m[0].suffix.length > 0) {
+          t = `${t}/${m[0].suffix}/`
+        }
+      }
     } else {
       if(names.surname) {
         if(typeof(names.surname) === 'string') {
@@ -108,7 +108,7 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
         return false;
       })
       if(!m) {
-        console.log(`individualName displayName; filter for birth name returned something`)
+        console.log(`individualName displayName; filter for birth name failed`)
         m = [];
         do {
           let n = names.shift();
@@ -125,9 +125,12 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
         t = html`${t}`;
       } else {
         console.log(`individualName displayName; I have an m in my else from the second attempt`)
-        t = html`${t} ${m[0].first} ${(typeof m[0].surname === 'string') ? m[0].surname : m[0].surname['#text']}`
-        if(m && m[0] && m[0].suffix && m[0].suffix.length > 0) {
-          t = html`${t} ${m[0].suffix}`
+        const n = m.shift();
+        if(n) {
+          t = html`${t} ${n.first ? n.first : nothing} ${(typeof n.surname === 'string') ? n.surname : n.surname['#text']}`
+          if(n && n.suffix && n.suffix.length > 0) {
+            t = html`${t} ${n.suffix}`
+          }
         }
       }
     } else {

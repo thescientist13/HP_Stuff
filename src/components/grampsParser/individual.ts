@@ -81,15 +81,23 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
               return (!p.handle.localeCompare(fatherLink))
             }).shift();
             if(father) {
-              f = html`<simple-individual grampsId=${father.id}></simple-individual>`
+              f = html`<simple-individual grampsId=${father.id} asLink showBirth showDeath asRange></simple-individual>`
             }
           }
-
+          const momLink = family.mother?.hlink;
+          if(momLink) {
+            const mom = db.people.person.filter(p => {
+              return (!p.handle.localeCompare(momLink))
+            }).shift()
+            if(mom) {
+              m = html`<simple-individual grampsId=${mom.id} asLink showBirth showDeath asRange></simple-individual>`
+            }
+          }
           t = html`${t}
             <h4 class="my-0">Parents</h4>
             <ul class="my-0">
               <li>Father: ${f}</li>
-              <li>IndividualRich({individual: familyAsChild.getWife().getIndividualRecord(), noPlace: true})</li>
+              <li>Mother: ${m}</li>
             </ul>
           `
         }

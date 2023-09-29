@@ -1,8 +1,8 @@
-import {html, LitElement, type PropertyValues, type TemplateResult} from 'lit';
+import {html, LitElement, type PropertyValues, type TemplateResult, nothing} from 'lit';
 import {property, state} from 'lit/decorators.js';
 
 import { z} from "zod";
-import {DateTime} from 'luxon';
+import {DateTime, Interval} from 'luxon';
 
 import { grampsDataController } from './state';
 
@@ -93,6 +93,26 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
 
     public async willUpdate(changedProperties: PropertyValues<this>) {
         super.willUpdate(changedProperties)
+        
+        if (this.gController && this.gController.parsedStoreController && this.gController.parsedStoreController.value) {
+            console.log(`events render; controlers are ready to render`)
+            const db: Database = this.gController.parsedStoreController.value.database;
+            if (changedProperties.has('grampsId') && this.grampsId) {
+                const filterResult = db.people.person.filter((v) => {
+                    return v.id === this.grampsId
+                })
+                if (filterResult && filterResult.length > 0) {
+                    console.log(`events willUpdate; filter returned people`)
+                    const first = filterResult.shift();
+                    if (first) {
+                        console.log(`events willUpdate; and the first was valid`);
+                        this._i1 = first;
+                    }
+                } else {
+                    console.error(`cannont find person for ${this.grampsId}`)
+                }
+            }
+        }
 
     }
     
@@ -157,24 +177,54 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
     
     private displayDate(event: Event) {
         let t = html``
+        let d: DateTime | null = null;
+        let i: Interval | null = null;
         if(event.dateval) {
             if(event.dateval.type) {
                 t = html`${event.dateval.type} `
             }
-            t = html`${t}${event.dateval.val}`
+            if(typeof event.dateval.val === 'string') {
+                d = DateTime.fromISO(event.dateval.val)
+            } else{
+                d = DateTime.fromISO(event.dateval.val.toString())
+            }
         } else if (event.datestr) {
-            t = html`${t}${event.datestr}`
+            d = DateTime.fromISO(event.datestr.val)
         }else if (event.daterange) {
-            t = html`{t}${event.daterange.start} - ${event.daterange.stop}`
+            let d2: DateTime;
+            if(typeof event.daterange.start === 'string') {
+                d = DateTime.fromISO(event.daterange.start)
+            } else  {
+                d = DateTime.fromISO(event.daterange.start.toString())
+            }
+            if(typeof event.daterange.stop === 'number') {
+                d2 = DateTime.fromISO(event.daterange.stop.toString())
+            } else  {
+                d2 = DateTime.fromJSDate(event.daterange.stop)
+            }
+            i = Interval.fromDateTimes(d, d2);
         }else if(event.datespan) {
-            t = html`${t}spanning ${event.datespan.start} - ${event.datespan.stop}`
+            let d2: DateTime;
+            if(typeof event.datespan.start === 'string') {
+                d = DateTime.fromISO(event.datespan.start)
+            } else {
+                d = DateTime.fromISO(event.datespan.start.toString())
+            }
+            if(typeof event.datespan.stop === 'number') {
+                d2 = DateTime.fromISO(event.datespan.stop.toString())
+            } else {
+                d2 = DateTime.fromJSDate(event.datespan.stop)
+            }
+            i = Interval.fromDateTimes(d, d2);
         }
-        return html`${t}`
+        if(i) {
+            return html`${t} ${d ? this.simpleDate ? i.toFormat('YYYY') : i.toISODate() : nothing}`
+        }
+        return html`${t} ${d ? this.simpleDate ? d.get('year') : d.toISODate() : nothing}`
     }
 
-    render() {
+    public render() {
         let t = html``
-    
         if (this.gController && this.gController.parsedStoreController && this.gController.parsedStoreController.value) {
             console.log(`events render; controlers are ready to render`)
             const db: Database = this.gController.parsedStoreController.value.database;
@@ -182,50 +232,30 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
                 console.log(`events render; I know which event to work with`)
             } else {
                 console.log(`events render; I first need to find the envent`)
-                if(this.showBirth) {
-                    console.log(`events render; I am looking for a birth record`)
-                    if(this.grampsId) {
-                        const filterResult = db.people.person.filter((v) => {
-                            return v.id === this.grampsId
-                        })
-                        if (filterResult && filterResult.length > 0) {
-                            console.log(`events render; filter returned people`)
-                            const first = filterResult.shift();
-                            if (first) {
-                                console.log(`events render; and the first was valid`);
-                                this._i1 = first;
-                                const e = this.findBirthByPerson(this._i1);
-                                if(e) {
-                                    this._event = e;
-                                    t= html`${t}${this.displayDate(this._event)}`
-                                }
-                            }
+                if(this.showBirth && this.grampsId) {
+                    console.log(`events render; looking for a birth record for ${this.grampsId}`)
+                    if(this._i1) {
+                        const e = this.findBirthByPerson(this._i1);
+                        if(e) {
+                            this._event = e;
+                            t= html`${t}${this.displayDate(this._event)}`
                         }
                     } else {
                         console.error(`events render; Cannot find a birth record without an individual`)
                     }
+                } else {
+                    console.error(`events render; asked to show a birth record with no gramps id`);
                 }
                 if(this.showDeath) {
-                    console.log(`events render; I am looking for a birth record`)
-                    if(this.grampsId) {
-                        const filterResult = db.people.person.filter((v) => {
-                            return v.id === this.grampsId
-                        })
-                        if (filterResult && filterResult.length > 0) {
-                            console.log(`events render; filter returned people`)
-                            const first = filterResult.shift();
-                            if (first) {
-                                console.log(`events render; and the first was valid`);
-                                this._i1 = first;
-                                const e = this.findDeathByPerson(this._i1);
-                                if(e) {
-                                    this._event = e;
-                                    t= html`${t}${this.displayDate(e)}`
-                                }
-                            }
+                    console.log(`events render; I am looking for a death record`)
+                    if(this._i1) {
+                        const e = this.findDeathByPerson(this._i1);
+                        if(e) {
+                            this._event = e;
+                            t= html`${t}${this.displayDate(e)}`
                         }
                     } else {
-                        console.error(`events render; Cannot find a birth record without an individual`)
+                        console.error(`events render; Cannot find a death record without an individual`)
                     }
                 }
             }
