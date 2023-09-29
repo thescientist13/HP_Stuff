@@ -300,49 +300,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
     `
   }
 
-  public renderTimelineCard(individual: SelectionIndividualRecord) {
-    const events = individual.get().filter((tn: TreeNode) => {
-      if (tn) {
-        const tag = tn.tag();
-        switch (tag) {
-          case
-          default
-            return false;
-        }
-        
-        const t = e.tag();
-        if(t) {
-          const k = eventsWithKeys(e);
-          return (k !== undefined)
-        }
-      }
-      return false;
-    }).as(SelectionIndividualEvent);
-    if(events.length === 0 ) {
-      return null;
-    }
-    return html`
-      <div class="TimelineCard rounded border-2">
-        <div class="CardBody">
-          <h4 class="my-0">
-            <CalendarWeek class="icon mr-2"/>
-            Events
-          </h4>
-          <div class="flex basis-0 flex-col">
-            <ul class="timeline">
-              ${events.arraySelect().map((event, i) => {
-                if(event[0] && event[0].tag) {
-                  let etag = eventsWithKeys(event[0]);
-                  etag = etag ? etag : '';
-                  return html`${this.renderTimelineEvent(event, i, etag)}`
-                }
-              })}
-            </ul>
-          </div>
-        </div>
-      </div>
-        `;
-  }
+
 
   public renderAncestorsCard (individual: SelectionIndividualRecord) {
     const family = individual.getFamilyAsChild();
@@ -456,7 +414,7 @@ export class GedcomIndividual extends TailwindMixin(LitElement, style) {
                   </div>
               </div>
               ${this.renderAncestorsCard(this.individual)}
-              ${this.renderTimelineCard(this.individual)}
+              this.renderTimelineCard(this.individual)
           </div>
           
       `
