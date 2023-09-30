@@ -1,5 +1,6 @@
 import {html, LitElement, type PropertyValues, type TemplateResult, nothing} from 'lit';
 import {property, state} from 'lit/decorators.js';
+import {when} from 'lit/directives/when.js';
 
 import { z} from "zod";
 import {DateTime, Interval} from 'luxon';
@@ -17,7 +18,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
     @state()
     public gController = new grampsDataController(this);
 
-    @property({type: String})
+    @property({type: String, reflect: true})
     public eventId: string;
     
     @state()
@@ -28,6 +29,9 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
 
     @property({type: String})
     public grampsId2: string;
+
+    @property({type: String})
+    public familyId: string;
 
     @property({type: Boolean})
     public simpleDate: boolean;
@@ -64,6 +68,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
 
         this.eventId = '';
         this._event  = null;
+        this.familyId = '';
         this.grampsId = '';
         this.grampsId2 = '';
         this._i1 = null;
@@ -95,34 +100,72 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
         super.willUpdate(changedProperties)
         
         if (this.gController && this.gController.parsedStoreController && this.gController.parsedStoreController.value) {
-            console.log(`events render; controlers are ready to render`)
+            console.log(`willUpdate; controlers are ready to render`)
             const db: Database = this.gController.parsedStoreController.value.database;
             if (changedProperties.has('grampsId') && this.grampsId) {
                 const filterResult = db.people.person.filter((v) => {
                     return v.id === this.grampsId
                 })
                 if (filterResult && filterResult.length > 0) {
-                    console.log(`events willUpdate; filter returned people`)
+                    console.log(`willUpdate; filter returned people`)
                     const first = filterResult.shift();
                     if (first) {
-                        console.log(`events willUpdate; and the first was valid`);
+                        console.log(`willUpdate; and the first was valid`);
                         this._i1 = first;
+                        console.log(`willUpdate; I first need to find the envent`)
+                        if(this.showBirth ) {
+                            console.log(`willUpdate; looking for a birth record for ${this.grampsId}`)
+                            if(this._i1) {
+                                const e = this.findBirthByPerson(this._i1);
+                                if(e) {
+                                    this.eventId = e.id;
+                                    this._event = e;
+                                }
+                            }
+                        }
+                        if(this.showDeath) {
+                            console.log(`willUpdate; I am looking for a death record`)
+                            if(this._i1) {
+                                const e = this.findDeathByPerson(this._i1);
+                                if(e) {
+                                    this.eventId = e.id;
+                                    this._event = e;
+                                }
+                            }
+                        }
                     }
                 } else {
-                    console.error(`cannont find person for ${this.grampsId}`)
+                    console.error(`willUpdate; cannot find person for ${this.grampsId}`)
+                }
+            }
+            if(changedProperties.has('familyId') && this.familyId) {
+                if(this.showMarriage) {
+                    console.log(`render; looking for marriage event of ${this.familyId}`);
+                    const family = db.families.family.filter((f) => {
+                        return (!f.id.localeCompare(this.familyId))
+                    }).shift();
+                    if(family && family.eventref) {
+                        const fer = family.eventref.hlink;
+                        const gme = db.events.event.filter((f) => {
+                            return (!f.handle.localeCompare(fer))
+                        }).shift();
+                        if(gme) {
+                            this.eventId = gme.id;
+                            this._event = gme;
+                        }
+                    }
                 }
             }
         }
-
     }
-    
+
     private findDeathByPerson(individual: Person) {
-        console.log(`events findBirthByPerson; start`)
+        console.log(`findBirthByPerson; start`)
         const db = this.gController.parsedStoreController.value;
         if(db) {
             const events = this.findEventsByPerson(individual);
             if(events) {
-                console.log(`events findBirthByPerson; person has ${events.length} events`)
+                console.log(`findBirthByPerson; person has ${events.length} events`)
                 return events.filter(e => {
                     return (e.type === 'Death')
                 }).shift();
@@ -132,12 +175,12 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
     }
     
     public findBirthByPerson(individual: Person) {
-        console.log(`events findBirthByPerson; start`)
+        console.log(`findBirthByPerson; start`)
         const db = this.gController.parsedStoreController.value;
         if(db) {
             const events = this.findEventsByPerson(individual);
             if(events) {
-                console.log(`events findBirthByPerson; person has ${events.length} events`)
+                console.log(`findBirthByPerson; person has ${events.length} events`)
                 return events.filter(e => {
                     return (e.type === 'Birth')
                 }).shift();
@@ -147,12 +190,12 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
     }
     
     public findEventsByPerson(individual: Person) {
-        console.log(`events findEventsByPerson; start`)
+        console.log(`findEventsByPerson; start`)
         const refs:EventrefElement[] | EventrefElement | undefined = individual.eventref;
         const db = this.gController.parsedStoreController.value;
         if(db) {
             if(refs) {
-                console.log(`events findEventsByPerson; I have refs to search`)
+                console.log(`findEventsByPerson; I have refs to search`)
                 const r = [refs].flat()
                 return db.database.events.event.filter((e) => {
                     const _id = e.handle;
@@ -161,7 +204,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
                         r.forEach((ref) => {
                             const link = ref.hlink;
                             if(!_id.localeCompare(link)) {
-                                console.log(`events findBirthByPerson; found event for person`)
+                                console.log(`findBirthByPerson; found event for person`)
                                 result = true;
                             }
                         })
@@ -226,38 +269,18 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
     public render() {
         let t = html``
         if (this.gController && this.gController.parsedStoreController && this.gController.parsedStoreController.value) {
-            console.log(`events render; controlers are ready to render`)
+            console.log(`render; controllers are ready to render`)
             const db: Database = this.gController.parsedStoreController.value.database;
             if(this.eventId) {
-                console.log(`events render; I know which event to work with`)
-            } else {
-                console.log(`events render; I first need to find the envent`)
-                if(this.showBirth && this.grampsId) {
-                    console.log(`events render; looking for a birth record for ${this.grampsId}`)
-                    if(this._i1) {
-                        const e = this.findBirthByPerson(this._i1);
-                        if(e) {
-                            this._event = e;
-                            t= html`${t}${this.displayDate(this._event)}`
-                        }
-                    } else {
-                        console.error(`events render; Cannot find a birth record without an individual`)
-                    }
-                } else {
-                    console.error(`events render; asked to show a birth record with no gramps id`);
+                console.log(`render; I know which event to work with`)
+                const e = db.events.event.filter((e) => {
+                    return (!e.id.localeCompare(this.eventId))
+                }).shift();
+                if(e && !this._event) {
+                    this.eventId = e.id;
+                    this._event = e;
                 }
-                if(this.showDeath) {
-                    console.log(`events render; I am looking for a death record`)
-                    if(this._i1) {
-                        const e = this.findDeathByPerson(this._i1);
-                        if(e) {
-                            this._event = e;
-                            t= html`${t}${this.displayDate(e)}`
-                        }
-                    } else {
-                        console.error(`events render; Cannot find a death record without an individual`)
-                    }
-                }
+                t = html`${t}${this.displayDate(this._event!)}`
             }
         }
         

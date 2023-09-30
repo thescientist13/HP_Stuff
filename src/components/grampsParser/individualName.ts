@@ -38,9 +38,9 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
   
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    console.log(`IndividualName willUpdate; url is ${this.url}`)
+    console.log(`willUpdate; url is ${this.url}`)
     if (this.url && (this.url.toString().localeCompare(this.grampsController.getUrl().toString()))) {
-      console.log(`IndividualName willUpdate; setting grampsController url`)
+      console.log(`willUpdate; setting grampsController url`)
       this.grampsController.setUrl(new URL(this.url));
     }
   }
@@ -78,7 +78,7 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
     } else {
       if(names.surname) {
         if(typeof(names.surname) === 'string') {
-          t = `${t}/${names.surname}`
+          t = `${t}${names.surname}`
         } else {
           const r: string = names.surname['#text']
           t = `${t}/${r}`
@@ -92,7 +92,7 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
       }
     }
     
-    return `${t}/`;
+    return new URL(`/harrypedia/people/${t.toLowerCase()}/`, this.grampsController.getUrl());
   }
   
   
@@ -100,7 +100,7 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
     const names: NameElement[] | NameElement = individual.name;
     let t = html``
     if(Array.isArray(names)) {
-      console.log(`individualName displayName; names is an Array ${JSON.stringify(names)}`)
+      console.log(`displayName; names is an Array ${JSON.stringify(names)}`)
       let m = names.filter((n) => {
         if (!n.type.localeCompare("Birth Name")) {
           return true;
@@ -108,7 +108,7 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
         return false;
       })
       if(!m) {
-        console.log(`individualName displayName; filter for birth name failed`)
+        console.log(`displayName; filter for birth name failed`)
         m = [];
         do {
           let n = names.shift();
@@ -121,10 +121,10 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
         }while(names.length > 0);
       }
       if(!m) {
-        console.log(`individualName displayName; second attempt at populating m failed`);
+        console.log(`displayName; second attempt at populating m failed`);
         t = html`${t}`;
       } else {
-        console.log(`individualName displayName; I have an m in my else from the second attempt`)
+        console.log(`displayName; I have an m in my else from the second attempt`)
         const n = m.shift();
         if(n) {
           t = html`${t} ${n.first ? n.first : nothing} ${(typeof n.surname === 'string') ? n.surname : n.surname['#text']}`
@@ -160,18 +160,18 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
   public render() {
     let t = html``
     if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
-      console.log(`IndividualName render; validated controller`)
+      console.log(`render; validated controller`)
       const db: Database = this.grampsController.parsedStoreController.value.database;
       if (this.grampsId) {
-        console.log(`IndividualName render; and I have an id`)
+        console.log(`render; and I have an id`)
         const filterResult = db.people.person.filter((v) => {
           return v.id === this.grampsId
         })
         if (filterResult && filterResult.length > 0) {
-          console.log(`IndividualName render; filter returned people`)
+          console.log(`render; filter returned people`)
           const first = filterResult.shift();
           if (first) {
-            console.log(`IndividualName render; and the first was valid`);
+            console.log(`render; and the first was valid`);
             this.individual = first;
             t = html`${t}
             <i class="fa-regular fa-user fa-1x"></i>

@@ -1,6 +1,7 @@
 import {LitElement, html,} from 'lit';
 import type {PropertyValues, TemplateResult} from 'lit'
 import {property, state} from 'lit/decorators.js';
+import {when} from 'lit/directives/when.js';
 
 import {TailwindMixin} from "../tailwind.element";
 
@@ -13,6 +14,7 @@ import {
   type Family,
   type Person,
   type Noteref,
+  type ChildrefUnion,
 } from './GrampsTypes';
 
 import style from '../../styles/Gramps.css?inline';
@@ -46,9 +48,9 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
   
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    console.log(`grampsIndividual willUpdate; url is ${this.url}`)
+    console.log(`willUpdate; url is ${this.url}`)
     if (this.url && (this.url.toString().localeCompare(this.grampsController.getUrl().toString()))) {
-      console.log(`grampsIndividual willUpdate; setting grampsController url`)
+      console.log(`willUpdate; setting grampsController url`)
       this.grampsController.setUrl(new URL(this.url));
     }
   }
@@ -64,15 +66,15 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
   };
 
   private renderParents(individual: Person) {
-    console.log(`individual renderParents; starting`)
+    console.log(`renderParents; starting`)
     let t = html``;
     if(individual) {
       if(this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
-        console.log(`individual renderParents; indivudal and controller set`)
+        console.log(`renderParents; indivudal and controller set`)
         const db: Database = this.grampsController.parsedStoreController.value.database;
         const family = [this.getFamilyAsChild()].flat().shift();
         if(family) {
-          console.log(`individual renderParents; family found`)
+          console.log(`renderParents; family found`)
           let f = html``
           let m = html``
           const fatherLink = family.father?.hlink;
@@ -107,11 +109,11 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
   };
 
   private renderUnion(f: Family ) {
-    console.log(`individual renderUnion; start`)
+    console.log(`renderUnion; start`)
     let t = html``
     if (this.individual) {
       if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
-        console.log(`individual renderUnion; indivudal and controller set`)
+        console.log(`renderUnion; indivudal and controller set`)
         const db: Database = this.grampsController.parsedStoreController.value.database;
         const ih = this.individual.handle;
         if(ih) {
@@ -133,17 +135,50 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
             t = html`${t}<simple-individual grampsId=${parent.id} asLink showBirth showDeath asRange></simple-individual>`
           }
         }
+        if(f.eventref) {
+          const efh = f.eventref.hlink;
+          const gme = db.events.event.filter((e) => {
+            if(e && e.handle) {
+              return (!e.handle.localeCompare(efh))
+            }
+          }).shift();
+          t = html`${t} Married: <gramps-event familyId=${f.id} showMarriage simpleDate ></gramps-event>`
+        }
+        if(f.childref) {
+          console.log(`renderUnion; starting search for children`)
+          let crs:  ChildrefElement[] | PurpleChildref = f.childref;
+          crs = [crs].flat();
+          console.log(`renderUnion; I have ${crs.length} children`)
+          t = html`${t}
+          <ul class="my-0">
+            ${crs.map((cr) => {
+            let clink = cr.hlink;
+            const c = db.people.person.filter((p) => {
+              return (p.handle && (!p.handle.localeCompare(clink)))
+            }).shift();
+            if (c) {
+              console.log(`renderUnion; found child ${c.id}`)
+              return html`
+                <li>
+                  <simple-individual grampsId=${c.id} asLink showBirth showDeath asRange></simple-individual>
+                </li>`
+            }
+          })}
+          </ul>
+          `
+
+        }
       }
     }
     return html`${t}`
   }
   
   private renderUnions(individual: Person){
-    console.log(`individual renderUnions; starting`);
+    console.log(`renderUnions; starting`);
     let t = html``;
     if(individual){
       if(this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
-        console.log(`individual renderUnions; indivudal and controller set`)
+        console.log(`renderUnions; indivudal and controller set`)
         const db: Database = this.grampsController.parsedStoreController.value.database;
         const unions = this.getFamilyAsSpouse();
         if (unions) {
@@ -173,12 +208,12 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
   }
   
   public getFamilyAsSpouse() {
-    console.log(`individual getFamilyAsSpouse; starting`);
+    console.log(`getFamilyAsSpouse; starting`);
     let result = Array<Family>();
     if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
       const db: Database = this.grampsController.parsedStoreController.value.database;
       if(this.grampsId && this.individual && this.individual.handle) {
-        console.log(`individual getFamilyAsSpouse; with an individual`)
+        console.log(`getFamilyAsSpouse; with an individual`)
         result = db.families.family.filter((f) => {
           if(f.mother && f.mother.hlink) {
             if(!this.individual?.handle.localeCompare(f.mother.hlink)) {
@@ -201,22 +236,22 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
   }
   
   public getFamilyAsChild() {
-    console.log(`individual getFamilyAsChild; starting`)
+    console.log(`getFamilyAsChild; starting`)
     if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
       const db: Database = this.grampsController.parsedStoreController.value.database;
       let result = Array<Family>();
       if (this.grampsId) {
         if (this.individual) {
-          console.log(`individual getFamilyAsChild; with an individual`)
+          console.log(`getFamilyAsChild; with an individual`)
           let familyRefs: Noteref[] | Noteref | undefined = this.individual.childof;
           let familyLinks = Array<string>();
           if(familyRefs) {
-            console.log(`individual getFamilyAsChild; found refs`);
+            console.log(`getFamilyAsChild; found refs`);
             [familyRefs].flat().forEach(r => {
               familyLinks.push(r.hlink);
             })
           }
-          console.log(`individual getFamilyAsChild; I have ${familyLinks.length} links`)
+          console.log(`getFamilyAsChild; I have ${familyLinks.length} links`)
           result = db.families.family.filter((f) => {
             const handle = f.handle;
             let r = false;
@@ -239,18 +274,18 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
   public render() {
     let t = html``
     if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
-      console.log(`grampsIndividual render; validated controller`)
+      console.log(`render; validated controller`)
       const db: Database = this.grampsController.parsedStoreController.value.database;
       if (this.grampsId) {
-        console.log(`grampsIndividual render; and I have an id`)
+        console.log(`render; and I have an id`)
         const filterResult = db.people.person.filter((v) => {
           return v.id === this.grampsId
         })
         if (filterResult && filterResult.length > 0) {
-          console.log(`grampsIndividual render; filter returned people`)
+          console.log(`render; filter returned people`)
           const first = filterResult.shift();
           if (first) {
-            console.log(`grampsIndividual render; and the first was valid`);
+            console.log(`render; and the first was valid`);
             this.individual = first;
             t = html`
               <div class="flex-auto gap-1  ">
@@ -268,10 +303,10 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
                   </div>
                   <div class="flex-auto basis-0 flex-col gap-0 rounded border-2 ">
                       <div class="General flex-auto flex-col ">
-                          ${this.renderGeneral(this.individual)}
+                          ${when(this.individual, () => this.renderGeneral(this.individual!))}
                       </div>
                       <div class="Parents flex-auto flex-col my-0 gap-0">
-                          ${this.renderParents(this.individual)}
+                          ${when(this.individual, () => this.renderParents(this.individual!))}
                       </div>
                       <div class="Unions flex-auto flex-col gap-0">
                           ${this.renderUnions(this.individual)}

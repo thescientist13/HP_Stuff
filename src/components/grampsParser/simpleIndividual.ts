@@ -61,24 +61,24 @@ export class SimpleIndividual extends TailwindMixin(LitElement, style) {
 
     public async willUpdate(changedProperties: PropertyValues<this>) {
         super.willUpdate(changedProperties)
-        console.log(`simpleIndividual willUpdate; `)
+        console.log(`willUpdate; `)
 
     }
 
     public render() {
         let t = html``
         if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
-            console.log(`simpleIndividual render; validated controller`)
+            console.log(`render; validated controller`)
             const db: Database = this.grampsController.parsedStoreController.value.database;
             if (this.grampsId) {
                 const filterResult = db.people.person.filter((v) => {
                     return v.id === this.grampsId
                 })
                 if (filterResult && filterResult.length > 0) {
-                    console.log(`simpleIndividual render; filter returned people`)
+                    console.log(`render; filter returned people`)
                     const first = filterResult.shift();
                     if (first) {
-                        console.log(`simpleIndividual render; and the first was valid`);
+                        console.log(`render; and the first was valid`);
                         this.individual = first;
                         t = html`${t}<individual-name grampsId=${this.grampsId} link=${this.asLink || nothing} ></individual-name>`
                         const eventRefs = this.individual.eventref;
@@ -86,14 +86,14 @@ export class SimpleIndividual extends TailwindMixin(LitElement, style) {
                             t = html`${t} ( `
                         }
                         if(this.showBirth && this.grampsId && eventRefs) {
-                            console.log(`simpleIndividual render; birth is true and I have events`);
+                            console.log(`render; birth is true and I have events`);
                             t = html`${t} <gramps-event grampsId=${this.grampsId} showBirth ></gramps-event>`
                         }
                         if(this.asRange) {
                             t = html`${t} -`
                         }
                         if(this.showDeath && this.grampsId && eventRefs ) {
-                            console.log(`simpleIndividual render; death is true and I have events`);
+                            console.log(`render; death is true and I have events`);
                             t = html`${t} <gramps-event grampsId=${this.grampsId} showDeath ></gramps-event>`
                         }
                         if(this.asRange) {
