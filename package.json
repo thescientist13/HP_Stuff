@@ -14,7 +14,7 @@
     "@adobe/lit-mobx": "^2.2.0",
     "@astrojs/check": "^0.2.0",
     "@astrojs/lit": "^3.0.0",
-    "@astrojs/starlight": "^0.10.2",
+    "@astrojs/starlight": "^0.10.3",
     "@astrojs/starlight-tailwind": "^2.0.0",
     "@astrojs/tailwind": "^5.0.0",
     "@formatjs/intl": "^2.9.3",
