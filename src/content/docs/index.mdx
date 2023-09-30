@@ -30,19 +30,20 @@ There will thus be three main sections to this site.
 [HPL2]: https://www.hp-lexicon.org/
 
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 ## Next steps
 
 <CardGrid stagger>
-  <Card title="Encyclopedic Reference" icon="pencil">
-    My [notes and speculation][notes] about the series.
-  </Card>
-  <Card title="Bookmarks" icon="add-document">
-      [Bookmarks] for works I find particularly memorable, worth re-reading,
+  <LinkCard title="Encyclopedic Reference"  href="/harrypedia/"
+  description="My notes and speculation about the series.">
+
+  </LinkCard>
+  <LinkCard title="Bookmarks" href="/bookmarks/"
+      description="Bookmarks for works I find particularly memorable, worth re-reading,
       the source of good ideas, or want to keep track of for some other
-      reason.
-  </Card>
+      reason.">
+  </LinkCard>
   <Card title="Configure your site" icon="setting">
     Edit your `sidebar` and other config in `astro.config.mjs`.
   </Card>
@@ -51,6 +52,5 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
   </Card>
 </CardGrid>
 
-[notes]: <harrypedia/>
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/small.svg)](https://starlight.astro.build)
 
-[Bookmarks]: <bookmarks/>
