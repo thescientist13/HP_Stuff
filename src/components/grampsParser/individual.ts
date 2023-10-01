@@ -19,6 +19,7 @@ import {
 
 import style from '../../styles/Gramps.css?inline';
 
+import {AncestorsTreeChart} from './AncestorsTreeChart'
 import {IndividualName} from './individualName';
 import {GrampsEvent} from "./events";
 import {SimpleIndividual} from "./simpleIndividual";
@@ -319,6 +320,36 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
     return null;
   }
 
+  public renderAncestorsCard () {
+    console.log(`renderAncestorsCard; start`)
+    const family = this.getFamilyAsChild();
+    if(family && family.length > 0) {
+      console.log(`renderAncestorsCard; family identified`)
+      return html`
+          <div class="AncestorsCard rounded border-2">
+              <div class="CardBody">
+                  <h4 class="my-0">
+                      <i class="fa-solid fa-code-fork"></i>
+                      Ancestors chart
+                  </h4>
+                  <div class="flex basis-0 flex-col">
+                      <div class="block sm:hidden">
+                          <ancestorstree-chart grampsId=${this.grampsId} maxDepth="1" />
+                      </div>
+                      <div class="hidden sm:max-lg:block lg:hidden">
+                          <ancestorstree-chart grampsId=${this.grampsId} maxDepth="2" />
+                      </div>
+                      <div class="hidden lg:block ">
+                          <ancestorstree-chart grampsId=${this.grampsId} maxDepth="3" />
+                      </div>
+                  </div>
+              </div>
+          </div>
+        `
+    }
+    return null;
+  }
+
   public render() {
     let t = html``
     if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
@@ -364,7 +395,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
                       </div>
                   </div>
               </div>
-              this.renderAncestorsCard(this.individual)
+              ${this.renderAncestorsCard()}
               this.renderTimelineCard(this.individual)
           </div>
             `
