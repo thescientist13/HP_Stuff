@@ -108,6 +108,54 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
     return html`${t}`;
   };
 
+  private renderSiblings(individual: Person) {
+    console.log(`renderSiblings; start`)
+    let t = html``
+    let c_template = html``;
+    if(this.individual) {
+      if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+        console.log(`renderUnion; indivudal and controller set`)
+        const db: Database = this.grampsController.parsedStoreController.value.database;
+        const families = this.getFamilyAsChild();
+        if(families) {
+          families.map((f) => {
+            if(f.childref) {
+              const allChildren = [f.childref].flat();
+
+              allChildren.map((c) => {
+                if(c) {
+                  const child = db.people.person.filter((p) => {
+                    const handle = p.handle;
+                    if(handle) {
+                      return (!handle.localeCompare(c.hlink))
+                    }
+                  }).shift();
+                  if(child && (child.id !== this.grampsId)) {
+                    c_template = html`${c_template}
+                    <li>
+                      <simple-individual grampsId=${child.id} asLink showBirth showDeath asRange></simple-individual>
+                    </li>
+                    `
+                  }
+                }
+              })
+
+            }
+          })
+          if(c_template.toString().length > 0) {
+            t = html`
+                  <h4 class="my-0">Siblings (and Half-Siblings)</h4>
+                  <ul class="my-0">
+                    ${c_template}
+                  </ul>
+                `
+          }
+        }
+      }
+    }
+    return html`${t}`
+  }
+
   private renderUnion(f: Family ) {
     console.log(`renderUnion; start`)
     let t = html``
@@ -312,10 +360,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
                           ${this.renderUnions(this.individual)}
                       </div>
                       <div class="Sibilings flex-auto flex-col">
-                          this.renderSiblings(this.individual)
-                      </div>
-                      <div class="HalfSiblings flex-auto flex-col">
-                          this.renderHalfSiblings(this.individual)
+                          ${this.renderSiblings(this.individual)}
                       </div>
                   </div>
               </div>
