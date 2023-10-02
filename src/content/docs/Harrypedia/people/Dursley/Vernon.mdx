@@ -5,10 +5,11 @@ title: "Vernon"
 id: "I0096"
 author: "Luke Schierer"
 ---
-import BioCard from '../../../../../components/Geneological/BioCard.astro';
-
-<BioCard id={frontmatter.id} ></BioCard>
 ### Facts
+import Individual from '../../../../../components/grampsParser/Individual.astro';
+
+<Individual id={frontmatter.id} ></Individual>
+
 
 * Married [Petunia Evans][PD]
 * Director of Grunnings.[^220927-1] As best I can tell, this is a board of
@@ -23,6 +24,8 @@ import BioCard from '../../../../../components/Geneological/BioCard.astro';
 [^220927-1]: Mrs. J. K. Rowling. 
     _[Harry Potter and the Sorcerer's Stone](https://www.librarything.com/work/5403381/book/225886281)_
     © 2004 Pottermore Limited. American Kindle Edition. page 1. 
+
+### Analysis
 
 ### Speculation
 
