@@ -9,12 +9,14 @@ import {grampsDataController} from './state';
 
 import {
   type ChildrefElement,
-  type PurpleChildref,
+  type Event,
+  type EventType,
   type Database,
   type Family,
   type Person,
+  type PurpleChildref,
   type Noteref,
-  type ChildrefUnion,
+  type EventrefElement,
 } from './GrampsTypes';
 
 import style from '../../styles/Gramps.css?inline';
@@ -60,7 +62,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
     return  html`
       <ul class="my-0">
         <li>Birth: <gramps-event grampsId=${this.grampsId} showBirth ></gramps-event></li>
-        <li>Death: <gramps-event grampsId=${this.grampsId} showDeath ></gramps-event></li></li>
+        <li>Death: <gramps-event grampsId=${this.grampsId} showDeath ></gramps-event></li>
       </ul>
       
     `;
@@ -350,6 +352,68 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
     return null;
   }
 
+  private renderTimelineCard() {
+    let t = html``
+    if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+      console.log(`renderTimelineCard; validated controller`)
+      const db: Database = this.grampsController.parsedStoreController.value.database;
+      if (this.grampsId && this.individual) {
+        if(this.individual.eventref) {
+          console.log(`renderTimelineCard; I have event refs`)
+          const eventRefs: EventrefElement[] | EventrefElement = this.individual.eventref;
+          const eRArray = [eventRefs].flat()
+          if(eRArray.length > 0) {
+            t = html`${t}
+            <div class="TimelineCard rounded border-2">
+              <div class="CardBody">
+                <h4 class="my-0">
+                  <i class="fa-solid fa-calendar-days"></i>
+                  Events
+                </h4>
+                <ul class="timeline">
+                  ${eRArray.map((er) => {
+                    const e = db.events.event.filter((e) => {
+                      if(e && e.handle) {
+                        return (!e.handle.localeCompare(er.hlink))
+                      }
+                      return false;
+                    }).shift();
+                    if(e) {
+                      switch (e?.type) {
+                        case 'Birth':
+                          return html`
+                            <li>
+                              Birth: <gramps-event grampsId=${this.grampsId} showBirth></gramps-event>
+                            </li>`;
+                        case 'Death':
+                          return html`
+                            <li>
+                              Death: <gramps-event grampsId=${this.grampsId} showDeath></gramps-event>
+                            </li>`
+                        case 'Marriage':
+                          const f = this.getFamilyAsSpouse();
+                          if (f && f.length > 0) {
+                            return html`
+                              <li>
+                                Married: <gramps-event familyId=${f[0].id} showMarriage simpleDate></gramps-event>
+                              </li>`
+                          }
+                        default:
+                          console.log(`I do not handle ${e.type} yet`)
+                      }
+                    }
+                  })}
+                </ul>
+              </div>
+            </div>
+            `
+          }
+        }
+      }
+    }
+    return html`${t}`
+  }
+
   public render() {
     let t = html``
     if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
@@ -396,7 +460,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
                   </div>
               </div>
               ${this.renderAncestorsCard()}
-              this.renderTimelineCard(this.individual)
+              ${this.renderTimelineCard()}
           </div>
             `
           }

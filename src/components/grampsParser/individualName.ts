@@ -70,7 +70,7 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
       if(!m) {
         t = `${t}`;
       } else {
-        t = `${t}/${(typeof m[0].surname === 'string') ? m[0].surname : m[0].surname['#text']}/${m[0].first}`
+        t = `${t}/${(typeof m[0].surname === 'string') ? m[0].surname : m[0].surname['#text']}/${m[0].first.replaceAll(/\s/g, '_')}`
         if(m && m[0] && m[0].suffix && m[0].suffix.length > 0) {
           t = `${t}/${m[0].suffix}/`
         }
