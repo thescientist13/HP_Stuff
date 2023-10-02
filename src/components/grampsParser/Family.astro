@@ -4,11 +4,8 @@ import { GrampsFamily} from './family';
 import { file } from './config';
 const Url = new URL('/' + file, Astro.url );
 
-let { id } = Astro.props;
-id = `${id}`;
-
 console.log(`Gramps Export url is ${Url}`)
 ---
 
-<GrampsFamily grampsId={id} url={Url} client:only />
+<GrampsFamily url={Url} client:only />
 

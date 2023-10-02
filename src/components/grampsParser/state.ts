@@ -115,7 +115,7 @@ export class grampsDataController implements ReactiveController {
   
   public getUrl() {
     const url = grampsUrl.value;
-    return url ? url : '';
+    return url ? url : null;
   }
   
   hostConnected() {

@@ -52,7 +52,8 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
     console.log(`willUpdate; url is ${this.url}`)
-    if (this.url && (this.url.toString().localeCompare(this.grampsController.getUrl().toString()))) {
+    const u = this.grampsController.getUrl();
+    if (this.url && (!u || (u && (this.url.toString().localeCompare(u.toString()))))) {
       console.log(`willUpdate; setting grampsController url`)
       this.grampsController.setUrl(new URL(this.url));
     }
