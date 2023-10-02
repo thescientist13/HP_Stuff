@@ -28,7 +28,7 @@ import {AncestorsTreeChart} from './AncestorsTreeChart'
 import {IndividualName} from './individualName';
 import {GrampsEvent} from "./events";
 import {SimpleIndividual} from "./simpleIndividual";
-import {GrampsIndividual} from "@components/grampsParser/individual.ts";
+import {GrampsIndividual} from "./individual";
 
 type Params = InferGetStaticParamsType<typeof GrampsFamily.getStaticPaths>;
 type Props = InferGetStaticPropsType<typeof GrampsFamily.getStaticPaths>;
