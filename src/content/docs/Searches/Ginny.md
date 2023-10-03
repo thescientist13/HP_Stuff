@@ -1,8 +1,7 @@
-+++
-title = "Harry paired with Ginny"
-author = "Luke Schierer"
-date = "2022-04-08T23:15:10-04:00"
-+++
+---
+title: "Harry paired with Ginny"
+author: "Luke Schierer"
+---
 
 [AO3
 Harry/Ginny](

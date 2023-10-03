@@ -43,6 +43,14 @@ export default defineConfig({
                     collapsed: true
                 },
                 {
+                    label: "Searches",
+                    autogenerate: {
+                      directory: 'Searches',
+                      collapsed: true
+                    },
+                    collapsed: true
+                },
+                {
                     label: 'Fan Fiction',
                     collapsed: true,
                     items: [

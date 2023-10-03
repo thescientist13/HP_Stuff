@@ -1,8 +1,7 @@
-+++
-title = "Characters Reading The Books"
-author = "Luke Schierer"
-date = "2021-11-22T15:55:29-04:00"
-+++
+---
+title: "Characters Reading The Books"
+author: "Luke Schierer"
+---
 
 [AO3 Characters Reading Harry Potter
 Books](
