@@ -4,7 +4,6 @@ import { GrampsFamily} from './family';
 import { file } from './config';
 const Url = new URL('/' + file, Astro.url );
 
-console.log(`Gramps Export url is ${Url}`)
 ---
 
 <GrampsFamily url={Url} client:only />
