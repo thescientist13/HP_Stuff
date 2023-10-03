@@ -2,10 +2,13 @@
 import {getCollection} from "astro:content";
 import type { HTMLAttributes } from 'astro/types'
 
+
+const {slug} = Astro.params;
+
 const allPages = await getCollection('docs');
 let searchPages = allPages.filter((p) => {
-  if(!(p.slug === 'searches')) {
-    return p.id.startsWith('Searches/');
+  if(p.slug.localeCompare(slug,'en', {sensitivity: 'base'})) {
+    return p.id.toLocaleLowerCase().startsWith(slug);
   }
 })
 
@@ -17,14 +20,19 @@ searchPages = searchPages.sort((a,b) => {
   } else if (b.data.sidebar.order) {
     return b.data.sidebar.order - 0
   } else {
-    return (a.data.title.localeCompare(b.data.title, {sensitivity: 'base'}))
+    return (a.data.title.localeCompare(b.data.title, 'en', {sensitivity: 'base'}))
   }
 })
+
 
 const count = searchPages.length
 const test = ["one", "two", "three"]
 
 ---
+<!--
+count is {count}<br/>
+slug is {slug}<br/>
+-->
 <ul>
   { searchPages.map((p) => (
     <li><a href={p.slug}>{p.data.title}</a></li>
