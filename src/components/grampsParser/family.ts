@@ -123,7 +123,7 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
               return this.checkMatchingName(p);
             }
             return false;
-          });
+          }); //only people with the right last name
           console.log(`getPersonsChildren; stage1 ${stage1 ? stage1.length : 0} people`)
           const stage2 = stage1.filter((p) =>{
             if(p && p.childof) {
@@ -132,7 +132,7 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
               return false;
             }
             return false;
-          });
+          }); //only people who are children of *someone*
           console.log(`getPersonsChildren; stage2 ${stage2 ? stage2.length : 0} people`)
           const stage3 = stage2.filter((p) => {
             if(p && p.childof) {
@@ -141,7 +141,8 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
               const childFamArray = [familyRef].flat()
               const childLinks = childFamArray.map((c) => {
                 return c.hlink;
-              })
+              }); //this should be only children of the right parent.
+              // I need *at least* blocks one and three because otherwise I end up grabbing children of marriages who really belong on other pages
               const results = childLinks.filter(x => familyLinks.includes(x))
               if (results.length > 0) {
                 return true;
@@ -242,7 +243,7 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
   }
 
   render() {
-    return html`${when((this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value && this._persons), 
+    return html`${when((this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value && this._persons),
         () => {
       return html`
         <ul>
