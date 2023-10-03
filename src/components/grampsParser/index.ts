@@ -31,10 +31,14 @@ export class GenealogicalData extends TailwindMixin(LitElement, style) {
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
     console.log(`header willUpdate; url is ${this.url}`)
-    if(this.url && (this.url.toString().localeCompare(this.grampsController.getUrl().toString()))) {
-      console.log(`header willUpdate; setting grampsController url`)
-      this.grampsController.setUrl(new URL(this.url));
+    if(this.grampsController) {
+      const currentUrl = this.grampsController.getUrl();
+      if(this.url && ((currentUrl && (currentUrl.toString().localeCompare(this.url.toString()))) || !currentUrl)) {
+        console.log(`header willUpdate; setting grampsController url`)
+        this.grampsController.setUrl(new URL(this.url));
+      }
     }
+    
     if (this.grampsController && this.grampsController.grampsStoreController && this.grampsController.grampsStoreController.value) {
       if(this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
         this.controllersReady = true;
