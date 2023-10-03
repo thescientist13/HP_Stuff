@@ -45,6 +45,8 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
   
   @state()
   private _name: string;
+
+  private _renderedPersons: string[] ;
   
   constructor() {
     super();
@@ -52,6 +54,7 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
     this._name = ''
     this.url = null;
     this._persons = null;
+    this._renderedPersons = new Array<string>();
   }
   
   public async willUpdate(changedProperties: PropertyValues<this>) {
@@ -87,7 +90,80 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
       console.log(`name set to ${this._name}`)
     }
   }
-  
+
+  private checkMatchingName(person: Person) {
+    if(person && person.name) {
+      const nameParts: NameElement[] | NameElement = person.name;
+      const last = [nameParts].flat().map((n) => {
+        const s: SurnameClass | string = n.surname;
+        if (typeof s === 'string') {
+          return s.toLowerCase();
+        } else {
+          return s['#text'].toLowerCase();
+        }
+      })
+      return last.includes(this._name.toLowerCase());
+    }
+    return false;
+  }
+
+  private getPersonsChildren(person: Person) {
+    if (person && this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+      const db = this.grampsController.parsedStoreController.value.database;
+      const familyRef: Noteref[] | Noteref | undefined = person.parentin;
+      if (familyRef) {
+        const familyArray = [familyRef].flat();
+        const familyLinks = familyArray.map((f) => {
+          return f.hlink;
+        });
+        if(familyLinks.length > 0) {
+          console.log(`getPersonsChildren; I have families to search`)
+          const stage1 = db.people.person.filter((p) => {
+            if (p && p.name) {
+              return this.checkMatchingName(p);
+            }
+            return false;
+          });
+          console.log(`getPersonsChildren; stage1 ${stage1 ? stage1.length : 0} people`)
+          const stage2 = stage1.filter((p) =>{
+            if(p && p.childof) {
+              return true;
+            } else  {
+              return false;
+            }
+            return false;
+          });
+          console.log(`getPersonsChildren; stage2 ${stage2 ? stage2.length : 0} people`)
+          const stage3 = stage2.filter((p) => {
+            if(p && p.childof) {
+              console.log(`getPersonsChildren stage3; p is a child`)
+              const familyRef:Noteref[] | Noteref = p.childof;
+              const childFamArray = [familyRef].flat()
+              const childLinks = childFamArray.map((c) => {
+                return c.hlink;
+              })
+              const results = childLinks.filter(x => familyLinks.includes(x))
+              if (results.length > 0) {
+                return true;
+              }
+            }
+            return false;
+          });
+          console.log(`getPersonsChildren; stage3 ${stage3 ? stage3.length : 0} people`)
+          if(stage3 && stage3.length > 0) {
+            console.log(`getPersonsChildren; returning ${stage3.length} people`)
+            return stage3;
+          }
+          console.log(`getPersonsChildren; no families`)
+        }
+      }
+    } else {
+      console.error(`no controller`)
+    }
+    console.log(`found no people`)
+    return null;
+  }
+
   private getPersons() {
     if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
       console.log(`getPersons; controllers are set`)
@@ -96,16 +172,7 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
         const db = this.grampsController.parsedStoreController.value.database;
         const people = db.people.person.filter((p) => {
           if (p && p.name) {
-            const nameParts: NameElement[] | NameElement = p.name;
-            const last = [nameParts].flat().map((n) => {
-              const s: SurnameClass | string = n.surname;
-              if (typeof s === 'string') {
-                return s.toLowerCase();
-              } else {
-                return s['#text'].toLowerCase();
-              }
-            })
-            return last.includes(this._name.toLowerCase());
+            return this.checkMatchingName(p);
           }
           return false;
         }).filter((p) =>{
@@ -121,131 +188,73 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
           return people;
         }
       }
-      return null;
     }
+    return null;
   }
   
-  private renderChildrenTree(props: renderChildrenTreeProps ) {
-    console.log(`renderUnion; start`)
-    let t = html``
-    
+  private renderChildLine(person: Person) {
+    let t = html`No Child`
+    if(person ) {
+      if(this._renderedPersons && this._renderedPersons.includes(person.id)) {
+        return html``;
+      }
+      this._renderedPersons.push(person.id);
       if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
-        console.log(`renderUnion; controller set`)
-        const db: Database = this.grampsController.parsedStoreController.value.database;
-        
-        const {family, root } = props;
-        const familyLink = family.handle;
-        const children = db.people.person.filter((p) => {
-          if(p && p.childof) {
-            const famRef: Noteref[] | Noteref = p.childof;
-            const famRefA = [famRef].flat().map((h) => {
-              return h.hlink;
-            });
-            return famRefA.includes(familyLink);
-          }
-        })
-        if(children && children.length > 0) {
-          console.log(`renderChildrenTree; I have ${children.length} children to show`)
-          let childT = html``;
-          children.forEach((c) => {
-            if(c) {
-              if(c.name && c.parentin) {
-                let childT = html``;
-                console.log(`I may need to recurse ${c.id}`)
-                const nameParts: NameElement[] | NameElement = c.name;
-                const nameArray = [nameParts].flat();
-                const last = nameArray.map((s) => {
-                  if(s.surname) {
-                    if(typeof  s.surname === 'string') {
-                      if(!s.surname.toLowerCase().localeCompare(this._name.toLowerCase())) {
-                        return true;
-                      }
-                    } else {
-                      if(!s.surname['#text'].toLowerCase().localeCompare(this._name.toLowerCase())) {
-                        return true;
-                      }
-                    }
-                  }
-                  return false;
-                }).includes(true);
-                if(last) {
-                  console.log(`I need to recurse ${c.id}`)
-                  const p2Ref:Noteref[] | Noteref = c.parentin;
-                  const p2A = [p2Ref].flat();
-                  p2A.forEach((fam2R) => {
-                    const fam = db.families.family.filter((f) => {
-                      if(f && f.handle) {
-                        return (!f.handle.localeCompare(fam2R.hlink))
-                      }
-                    }).shift();
-                    if(fam && fam.childref) {
-                      console.log(`recursing into family ${fam.id}`)
-                      childT = html`${childT}${this.renderChildrenTree({family: fam, root: c})}`
-                    }
-                  })
-                }
-              }
+        t = html``; //erase the temp content
+        const db = this.grampsController.parsedStoreController.value.database;
+        let family: Family | undefined;
+        if(person.parentin) {
+          console.log(`renderChildLine; person is a parent`)
+          const citation:Noteref[] | Noteref = person.parentin;
+          const cArray = [citation].flat();
+          family = db.families.family.filter((f) => {
+            if(f && f.handle) {
+              const links = cArray.map((c) => {
+                return c.hlink;
+              })
+              return (links.includes(f.handle))
             }
-            t = html`${t}
-                    <li>
-                        <simple-individual grampsId=${c.id} asLink showBirth showDeath asRange></simple-individual>
-                        <ul>${childT}</ul>
-                    </li>
-            `
-          })
-        }
-      }
-    
-    return html`${t}`
-  }
-  
-  render() {
-    let t = html``
-    if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
-      const db = this.grampsController.parsedStoreController.value.database;
-      if(this._persons) {
-        console.log(`render; I have persons`)
-        t = html`
-            <uL>
-                ${this._persons?.map((p) => {
-                  if(p) {
-                    console.log(`render persons map; p was set`)
-                    let childT = html``;
-                    if(p.parentin) {
-                      const famRef = p.parentin;
-                      const famA = [famRef].flat();
-                      famA.forEach((famR) => {
-                        const hlink = famR.hlink;
-                        const fam = db.families.family.filter((f) => {
-                          if(f && f.handle) {
-                            return (!f.handle.localeCompare(hlink))
-                          }
-                        }).shift();
-                        if(fam && fam.childref) {
-                          childT = html`${childT}${this.renderChildrenTree({family: fam, root: p})}`
-                        }
-                      });
-                      childT = html`<ul>${childT}</ul>`
-                    }
-                    return html`
-                    <li>
-                        <simple-individual grampsId=${p.id} asLink showBirth showDeath asRange></simple-individual>
-                        ${childT}
-                    </li>
-                    `
-                  }
+            return false;
+          }).shift();
+          if(family && family.childref) {
+            const children = this.getPersonsChildren(person);
+            if(children) {
+              t = html`${t}
+              <uL>
+                ${children.map((p) => {
+                  console.log(`renderChildLine; map iteration ${p.id}`)
+                  return html`${this.renderChildLine(p)}`
                 })}
-            </uL>
+              </uL>
+              `
+            }
+          }
+        }
+        t = html`
+          <li>
+            <simple-individual grampsId=${person.id} asLink showBirth showDeath asRange></simple-individual>
+            ${t}
+          </li>
         `
-      } else {
-        console.log(`I had no persons`)
-        this.getPersons();
-        this.requestUpdate();
       }
-    } else {
-      t = html`Pending data`
     }
     return html`${t}`
+  }
+
+  render() {
+    return html`${when((this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value && this._persons), 
+        () => {
+      return html`
+        <ul>
+          ${this._persons!.map((p) => {
+            if(p) {
+              console.log(`render; map iteration ${p.id}`)
+              return html`${this.renderChildLine(p)}`
+            }
+          })}
+        </ul>
+      `
+    }, () => html`Pending Data`)}`
   }
   
 }
