@@ -70,9 +70,9 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
       if(!m) {
         t = `${t}`;
       } else {
-        t = `${t}/${(typeof m[0].surname === 'string') ? m[0].surname : m[0].surname['#text']}/${m[0].first.replaceAll(/\s/g, '_')}`
+        t = `${t}/${(typeof m[0].surname === 'string') ? m[0].surname : m[0].surname['#text']}/${m[0].first}`
         if(m && m[0] && m[0].suffix && m[0].suffix.length > 0) {
-          t = `${t}/${m[0].suffix}/`
+          t = `${t}_${m[0].suffix}/`
         }
       }
     } else {
@@ -88,11 +88,11 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
         t = `${t}/${names.first}`
       }
       if(names.suffix) {
-        t = `${t}/${names.suffix}`
+        t = `${t}_${names.suffix}`
       }
     }
     
-    return new URL(`/harrypedia/people/${t.toLowerCase()}/`, this.grampsController.getUrl());
+    return new URL(`/harrypedia/people/${t.toLowerCase().replaceAll(/\s/g, '_')}/`, this.grampsController.getUrl());
   }
   
   
