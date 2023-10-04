@@ -15,9 +15,23 @@ const grampsUrl = atom<URL | null>(null);
 
 const grampsData = atom<any | null>(null);
 
+import {type Export as zodExport, type Database, ExportSchema, type People} from './GrampsZodTypes';
+
+const zodData = computed(grampsData, (v) => {
+  if(v ){
+    const result = ExportSchema.safeParse(v);
+    if(result.success) {
+      return (result.data.database as Database);
+    } else {
+      console.error(`zod safeParse failed ${result.error}` )
+    }
+  }
+  return null;
+})
+
 const parsedData = computed(grampsData, (v) => {
   if(v) {
-    const e: Export = Convert.toExport(v);
+    const e: Export = Convert.toExport(JSON.stringify(v));
     if(e) {
       return e;
     }
@@ -29,38 +43,43 @@ export const gcDataContext = createContext<grampsDataController>('grampsDataCont
 
 export class grampsDataController implements ReactiveController {
   private host: ReactiveControllerHost;
-  
-  private Storelogger;
-  
-  private grampsUrlListener
-  
-  readonly grampsStoreController
 
-  readonly  parsedStoreController
-  
+  private Storelogger;
+
+  private grampsUrlListener
+
+  readonly grampsStoreController;
+
+  readonly  parsedStoreController;
+
+  readonly zodStoreController;
+
   constructor(host: ReactiveControllerHost) {
     this.host = host;
 
     this.Storelogger = logger({
-      'Gramps URL': grampsUrl,
-      'Gramps Data': grampsData,
-      'Parsed Data': parsedData,
+        'Gramps URL': grampsUrl,
+        'Gramps Data': grampsData,
+        'Parsed Data': parsedData,
+        'zod Data': zodData,
     });
-    
+
     this.grampsUrlListener = grampsUrl.listen((value) => {
       console.log(`state grampsUrlListener listen; with url ${value}`)
       if (value) {
         this.dataFetcher(value);
       }
     })
-    
+
     this.grampsStoreController = new StoreController(host, grampsData);
 
     this.parsedStoreController = new StoreController(host, parsedData);
-    
+
+    this.zodStoreController = new StoreController(host, zodData);
+
     host.addController(this as ReactiveController);
   }
-  
+
   private async dataFetcher (url: URL) {
     console.log(`state dataFetcher started`);
     if (url) {
@@ -78,7 +97,7 @@ export class grampsDataController implements ReactiveController {
             let jObj = parser.parse(t);
             if (jObj) {
               console.log(`state dataFetcher jObj populated ${JSON.stringify(jObj)}`);
-              grampsData.set(JSON.stringify(jObj));
+              grampsData.set(jObj);
               this.host.requestUpdate();
             } else {
               console.log(`state dataFetcher jObj not populated`)
@@ -89,7 +108,7 @@ export class grampsDataController implements ReactiveController {
       return initialState;
     }
   }
-  
+
   public loadGedcomUrl (url: URL | string){
     return task(async () => {
       try {
@@ -99,7 +118,7 @@ export class grampsDataController implements ReactiveController {
           .then(rs => new Response((rs)))
           .then(response => response.text())
           .catch(console.error);
-        
+
         return await result
       } catch (error) {
         console.error(error);
@@ -107,30 +126,30 @@ export class grampsDataController implements ReactiveController {
       }
     })
   };
-  
+
   public setUrl(url: URL) {
     console.log(`state setUrl; new Url is ${url}`)
     grampsUrl.set(url);
   }
-  
+
   public getUrl() {
     const url = grampsUrl.value;
     return url ? url : null;
   }
-  
+
   hostConnected() {
     console.log(`state hostConnected; grampsDataController url is ${this.getUrl()}`)
     return;
   }
-  
+
   hostDisconnected() {
     return;
   }
-  
+
   render() {
     return html``;
-    
+
   }
-  
+
 }
 

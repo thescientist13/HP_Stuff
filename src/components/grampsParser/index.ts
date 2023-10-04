@@ -10,11 +10,17 @@ import style from '../../styles/Gramps.css?inline';
 
 import {type Export } from './GrampsTypes.ts';
 
+import {
+  type Export as zodExport,
+    type Database,
+    type People,
+} from './GrampsZodTypes';
+
 export class GenealogicalData extends TailwindMixin(LitElement, style) {
-  
+
   @property()
   public url: URL | string | null;
-  
+
   private grampsController = new grampsDataController(this);
 
   @state()
@@ -25,9 +31,9 @@ export class GenealogicalData extends TailwindMixin(LitElement, style) {
 
     this.controllersReady = false;
     this.url = null;
-    
+
   }
-  
+
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
     console.log(`header willUpdate; url is ${this.url}`)
@@ -38,7 +44,7 @@ export class GenealogicalData extends TailwindMixin(LitElement, style) {
         this.grampsController.setUrl(new URL(this.url));
       }
     }
-    
+
     if (this.grampsController && this.grampsController.grampsStoreController && this.grampsController.grampsStoreController.value) {
       if(this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
         this.controllersReady = true;
@@ -50,20 +56,22 @@ export class GenealogicalData extends TailwindMixin(LitElement, style) {
     }
 
   }
-  
+
   render() {
     if(this.controllersReady) {
       console.log(`grampsParser/index render; controllersReady is true`)
       const pObj: Export | null = this.grampsController.parsedStoreController.value;
+      const gramps = this.grampsController.zodStoreController.value;
+
       let t = html``
-      if(pObj) {
+      if(pObj && gramps) {
         console.log(`grampsParser/index render; confirmed I have parsed data`)
-        t = html`${t}Gramps Data exported ${pObj.database.header.created.date.toDateString()}<br/>`
-        const psize = pObj.database.people.person.length;
+        t = html`${t}Gramps Data exported ${gramps.header.created.date}<br/>`
+        const psize = gramps.people.person.length;
         t = html`${t}There are ${psize} people<br/>`;
-        const fsize = pObj.database.families.family.length;
+        const fsize = gramps.families.family.length;
         t = html`${t}There are ${fsize} families<br/>`;
-        const esize = pObj.database.events.event.length;
+        const esize = gramps.events.event.length;
         t = html`${t}There are ${esize} events<br/>`;
       }
       return html`${t}`

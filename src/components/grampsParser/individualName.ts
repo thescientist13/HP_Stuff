@@ -6,45 +6,51 @@ import {TailwindMixin} from "../tailwind.element";
 
 import {grampsDataController} from './state';
 
-import {type Database, type Derivation, type NameElement, type Person} from './GrampsTypes';
+
+import {type Database,
+    type NameElement,
+  type Person,
+  SurnameClassSchema,
+} from './GrampsZodTypes';
 
 import style from '../../styles/Gramps.css?inline';
 
 export class IndividualName extends TailwindMixin(LitElement, style) {
-  
+
   @property()
   public url: URL | string | null;
-  
+
   @property({type: String})
   public grampsId: string;
-  
+
   @property({type: Boolean})
   public link: boolean;
-  
+
   @state()
   private individual: Person |  null;
-  
+
   private grampsController = new grampsDataController(this);
-  
+
   constructor() {
     super();
-    
+
     this.link = false;
     this.url = null;
     this.individual = null;
     this.grampsId = '';
-    
+
   }
-  
+
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
     console.log(`willUpdate; url is ${this.url}`)
-    if (this.url && (this.url.toString().localeCompare(this.grampsController.getUrl().toString()))) {
+    const currentUrl = this.grampsController.getUrl();
+    if (this.url && (!currentUrl || (currentUrl && this.url.toString().localeCompare(currentUrl.toString())))) {
       console.log(`willUpdate; setting grampsController url`)
       this.grampsController.setUrl(new URL(this.url));
     }
   }
-  
+
   private buildLinkTarget(individual: Person) {
     const names: NameElement[] | NameElement = individual.name;
     let t: string = ''
@@ -91,11 +97,11 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
         t = `${t}_${names.suffix}`
       }
     }
-    
-    return new URL(`/harrypedia/people/${t.toLowerCase().replaceAll(/\s/g, '_')}/`, this.grampsController.getUrl());
+    const currentUrl = this.grampsController.getUrl();
+    return new URL(`/harrypedia/people/${t.toLowerCase().replaceAll(/\s/g, '_')}/`, (currentUrl ? currentUrl : ''));
   }
-  
-  
+
+
   private displayName(individual: Person) {
     const names: NameElement[] | NameElement = individual.name;
     let t = html``
@@ -112,11 +118,15 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
         m = [];
         do {
           let n = names.shift();
-          if(n && n.first) {
-            m.push(n);
-          }
-          if(n && (((typeof n.surname === 'string') && n.surname.length > 0)) || ((typeof n?.surname === 'object') && (n.surname['#text']).length > 0 )) {
-            m.push(n)
+          let sTest
+          if(n) {
+            if(n.first) {
+              m.push(n);
+            }
+            let sTest = SurnameClassSchema.safeParse(n.surname);
+            if(sTest.success){
+              m.push(n)
+            }
           }
         }while(names.length > 0);
       }
@@ -152,19 +162,19 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
         t = html`${t} ${names.suffix}`
       }
     }
-    
+
     return html`${t}`;
   }
-  
-  
+
+
   public render() {
     let t = html``
-    if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+    if (this.grampsController && this.grampsController.zodStoreController && this.grampsController.zodStoreController.value) {
       console.log(`render; validated controller`)
-      const db: Database = this.grampsController.parsedStoreController.value.database;
+      const gramps = this.grampsController.zodStoreController.value;
       if (this.grampsId) {
         console.log(`render; and I have an id`)
-        const filterResult = db.people.person.filter((v) => {
+        const filterResult = gramps.people.person.filter((v) => {
           return v.id === this.grampsId
         })
         if (filterResult && filterResult.length > 0) {
@@ -195,10 +205,10 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
         }
       }
     }
-    
+
     return html`${t}`;
   }
-  
+
 }
 
 customElements.define('individual-name', IndividualName);

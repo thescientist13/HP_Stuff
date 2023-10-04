@@ -111,6 +111,11 @@ export const TagsSchema = z.object({
 });
 export type Tags = z.infer<typeof TagsSchema>;
 
+export const SourcerefSchema = z.object({
+    "hlink": z.string(),
+});
+export type Sourceref = z.infer<typeof SourcerefSchema>;
+
 export const ReporefElementSchema = z.object({
     "hlink": z.string(),
     "medium": MediumSchema,
@@ -216,6 +221,12 @@ export const AddressSchema = z.object({
 });
 export type Address = z.infer<typeof AddressSchema>;
 
+export const EventrefElementSchema = z.object({
+    "hlink": z.string(),
+    "role": RoleSchema,
+});
+export type EventrefElement = z.infer<typeof EventrefElementSchema>;
+
 export const PersonSchema = z.object({
     "gender": GenderSchema,
     "name": z.union([z.array(NameElementSchema), NameElementSchema]),
@@ -274,12 +285,6 @@ export const RelSchema = z.object({
     "type": RelTypeSchema,
 });
 export type Rel = z.infer<typeof RelSchema>;
-
-export const EventrefElementSchema = z.object({
-    "hlink": z.string(),
-    "role": RoleSchema,
-});
-export type EventrefElement = z.infer<typeof EventrefElementSchema>;
 
 export const PurpleChildrefSchema = z.object({
     "hlink": z.string(),
@@ -365,10 +370,6 @@ export const EventsSchema = z.object({
 });
 export type Events = z.infer<typeof EventsSchema>;
 
-export const SourcerefSchema = z.object({
-    "hlink": z.string(),
-});
-export type Sourceref = z.infer<typeof SourcerefSchema>;
 
 export const CitationDatevalSchema = z.object({
     "val": z.union([z.number(), z.string()]),
