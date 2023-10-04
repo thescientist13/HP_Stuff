@@ -118,7 +118,7 @@ export interface Families {
 
 export interface Family {
   rel:          Rel;
-  father?:      Father;
+  father?:      Noteref;
   mother?:      Noteref;
   eventref?:    EventrefElement;
   childref?:    ChildrefUnion;
@@ -152,11 +152,6 @@ export interface EventrefElement {
 
 export type Role = "Family" | "Primary" | "Groom" | "Bride";
 
-export interface Father {
-  hlink:   string;
-  mother?: Noteref;
-}
-
 export interface Rel {
   type: RelType;
 }
@@ -165,12 +160,17 @@ export type RelType = "Married" | "Unknown" | "Unmarried" | "Civil Union";
 
 export interface Header {
   created:    Created;
-  researcher: string;
+  researcher: Researcher;
 }
 
 export interface Created {
   date:    Date;
   version: string;
+}
+
+export interface Researcher {
+  resname:  string;
+  resemail: string;
 }
 
 export interface Notes {
@@ -336,7 +336,7 @@ export class Convert {
   public static toExport(json: string): Export {
     return cast(JSON.parse(json), r("Export"));
   }
-  
+
   public static exportToJson(value: Export): string {
     return JSON.stringify(uncast(value, r("Export")), null, 2);
   }
@@ -386,7 +386,7 @@ function transform(val: any, typ: any, getProps: any, key: any = '', parent: any
     if (typeof typ === typeof val) return val;
     return invalidValue(typ, val, key, parent);
   }
-  
+
   function transformUnion(typs: any[], val: any): any {
     // val must validate against one typ in typs
     const l = typs.length;
@@ -398,18 +398,18 @@ function transform(val: any, typ: any, getProps: any, key: any = '', parent: any
     }
     return invalidValue(typs, val, key, parent);
   }
-  
+
   function transformEnum(cases: string[], val: any): any {
     if (cases.indexOf(val) !== -1) return val;
     return invalidValue(cases.map(a => { return l(a); }), val, key, parent);
   }
-  
+
   function transformArray(typ: any, val: any): any {
     // val must be an array with no invalid elements
     if (!Array.isArray(val)) return invalidValue(l("array"), val, key, parent);
     return val.map(el => transform(el, typ, getProps));
   }
-  
+
   function transformDate(val: any): any {
     if (val === null) {
       return null;
@@ -420,7 +420,7 @@ function transform(val: any, typ: any, getProps: any, key: any = '', parent: any
     }
     return d;
   }
-  
+
   function transformObject(props: { [k: string]: any }, additional: any, val: any): any {
     if (val === null || typeof val !== "object" || Array.isArray(val)) {
       return invalidValue(l(ref || "object"), val, key, parent);
@@ -438,7 +438,7 @@ function transform(val: any, typ: any, getProps: any, key: any = '', parent: any
     });
     return result;
   }
-  
+
   if (typ === "any") return val;
   if (typ === null) {
     if (val === null) return val;
@@ -453,9 +453,9 @@ function transform(val: any, typ: any, getProps: any, key: any = '', parent: any
   if (Array.isArray(typ)) return transformEnum(typ, val);
   if (typeof typ === "object") {
     return typ.hasOwnProperty("unionMembers") ? transformUnion(typ.unionMembers, val)
-      : typ.hasOwnProperty("arrayItems")    ? transformArray(typ.arrayItems, val)
-        : typ.hasOwnProperty("props")         ? transformObject(getProps(typ), typ.additional, val)
-          : invalidValue(typ, val, key, parent);
+        : typ.hasOwnProperty("arrayItems")    ? transformArray(typ.arrayItems, val)
+            : typ.hasOwnProperty("props")         ? transformObject(getProps(typ), typ.additional, val)
+                : invalidValue(typ, val, key, parent);
   }
   // Numbers can be parsed by Date but shouldn't be.
   if (typ === Date && typeof val !== "number") return transformDate(val);
@@ -577,7 +577,7 @@ const typeMap: any = {
   ], false),
   "Family": o([
     { json: "rel", js: "rel", typ: r("Rel") },
-    { json: "father", js: "father", typ: u(undefined, r("Father")) },
+    { json: "father", js: "father", typ: u(undefined, r("Noteref")) },
     { json: "mother", js: "mother", typ: u(undefined, r("Noteref")) },
     { json: "eventref", js: "eventref", typ: u(undefined, r("EventrefElement")) },
     { json: "childref", js: "childref", typ: u(undefined, u(a(r("ChildrefElement")), r("PurpleChildref"))) },
@@ -603,20 +603,20 @@ const typeMap: any = {
     { json: "hlink", js: "hlink", typ: "" },
     { json: "role", js: "role", typ: r("Role") },
   ], false),
-  "Father": o([
-    { json: "hlink", js: "hlink", typ: "" },
-    { json: "mother", js: "mother", typ: u(undefined, r("Noteref")) },
-  ], false),
   "Rel": o([
     { json: "type", js: "type", typ: r("RelType") },
   ], false),
   "Header": o([
     { json: "created", js: "created", typ: r("Created") },
-    { json: "researcher", js: "researcher", typ: "" },
+    { json: "researcher", js: "researcher", typ: r("Researcher") },
   ], false),
   "Created": o([
     { json: "date", js: "date", typ: Date },
     { json: "version", js: "version", typ: "" },
+  ], false),
+  "Researcher": o([
+    { json: "resname", js: "resname", typ: "" },
+    { json: "resemail", js: "resemail", typ: "" },
   ], false),
   "Notes": o([
     { json: "note", js: "note", typ: a(r("Note")) },
