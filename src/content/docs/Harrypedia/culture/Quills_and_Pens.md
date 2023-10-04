@@ -1,21 +1,28 @@
 ---
-title: "Parchment and Quills in the Magical World"
+title: "Quills and Pens in the Magical World"
 author: "Luke Schierer"
 ---
 
-## Parchment
+## Quills
 
-I think the use of parchment and quills is a an example of Wizarding culture
-being deliberately antiquarian.  There may also be an element of exclusivity -
-it takes practice to use a quill with any degree of skill that pure-blood
-children will have but that first generation children will utterly lack.  There
-may also be a sense of exclusivity in a second sense, parchment is *expensive*
-and the extensive use of parchment even stupid little notes and homework
-assignments will help keep poor families away from magical knowledge.  If you
-cannot afford parchment, your children cannot do as well at Hogwarts, and thus
-cannot do as well in later life. This came to me when I was reading a fanfiction
-that talked about not just [Harry] using a fountain pen, but that many pure-blood
-wives "secretly" did the same for their (extensive) correspondence.[^200816-3]
+The use of quills for writing is another seemingly deliberately antiquated choice 
+made by the wizarding world.  While the quill would be a common writing instrument
+in non-magical Europe until the early 1800s,[^200816-5] they were the *common* 
+writing utensil, whereas the wizarding world seems to have particularly chosen the
+more exclusive [parchment] as its writing surface.  
+
+Some writers have speculated that the reason for the sustained use of the quill
+may be magical in nature.  That the quill may channel the writer's magic in some
+way that matters when writing on magical topics.[^231004-1]  If this is true,
+then the magical population of China, Japan, and similar cultures where writing 
+with brushes is common must have precise and magical requirements for the nature
+of the brushes used when writing on these topics.  This is not impossible, as the
+traditional brushes used are *usually* made of bamboo with natural fibers, 
+generally animals' hair, for the bristles.[^231004-2]  
+
+The counter argument is the lack of variety.  Matching a user to a wand requires
+a range of wood types and at least 3 types of core materials to embed within that
+wood.[^231004-3]
 
 ## Dip Pens
 
@@ -102,6 +109,12 @@ there is no canonical basis for this line of thought; it is pure speculation.
 
 [Wikipedia]: https://en.wikipedia.org/
 
+[^231004-3]: See [wands]
+
+[wands]: <../../magic/wands/>
+
+[^231004-1]: citation needed. 
+
 [^230804]: citation needed.
 
 [^200819-1]: AndrewWolfe. _[The Ghost of Privet Drive](https://archiveofourown.org/works/21500365)_
@@ -110,6 +123,11 @@ there is no canonical basis for this line of thought; it is pure speculation.
 [^200816-3]: Sinyk. _[Angry Harry and the Seven](https://www.fanfiction.net/s/9750991)_
     [FanFiction](https://www.fanfiction.net/). Last Updated 2013-10-22. Last Viewed
     2020-08-16.
+
+[Ink brush]: https://en.wikipedia.org/wiki/Ink_brush
+
+[^231004-2]: [Wikipedia](https://en.wikipedia.org/).
+   "[Ink brush]" Last Edited: 2023-07-11. Last Viewed: 2023-10-04. 
 
 [^200816-4]: [Wikipedia](https://en.wikipedia.org/).
     "[Dip pen]" Last Edited 2020-07-24. Last Viewed 2020-08-16
