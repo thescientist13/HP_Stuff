@@ -81,7 +81,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
           console.log(`renderParents; family found`)
           let f = html``
           let m = html``
-          const fatherLink = family.father?.hlink;
+          const fatherLink = family.father ? family.father.hlink : null;
           if(fatherLink) {
             const father = db.people.person.filter(p => {
               return (!p.handle.localeCompare(fatherLink))
@@ -90,7 +90,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
               f = html`<simple-individual grampsId=${father.id} asLink showBirth showDeath asRange></simple-individual>`
             }
           }
-          const momLink = family.mother?.hlink;
+          const momLink = family.mother ? family.mother.hlink : null;
           if(momLink) {
             const mom = db.people.person.filter(p => {
               return (!p.handle.localeCompare(momLink))
@@ -99,13 +99,17 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
               m = html`<simple-individual grampsId=${mom.id} asLink showBirth showDeath asRange></simple-individual>`
             }
           }
-          t = html`${t}
+          if(fatherLink || momLink) {
+            t = html`${t}
             <h4 class="my-0">Parents</h4>
             <ul class="my-0">
               <li>Father: ${f}</li>
               <li>Mother: ${m}</li>
             </ul>
           `
+          } else {
+            console.log(`renderParents; family detected but no parent found at all`)
+          }
         }
       }
     }
