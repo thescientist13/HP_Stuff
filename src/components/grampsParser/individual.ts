@@ -28,27 +28,27 @@ import {SimpleIndividual} from "./simpleIndividual";
 
 
 export class GrampsIndividual extends TailwindMixin(LitElement, style) {
-  
+
   @property()
   public url: URL | string | null;
-  
+
   @property({type: String})
   public grampsId: string;
-  
+
   @state()
   private individual: Person |  null;
-  
+
   private grampsController = new grampsDataController(this);
-  
+
   constructor() {
     super();
-    
+
     this.url = null;
     this.individual = null;
     this.grampsId = '';
-    
+
   }
-  
+
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
     console.log(`willUpdate; url is ${this.url}`)
@@ -58,7 +58,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
       this.grampsController.setUrl(new URL(this.url));
     }
   }
-  
+
   private renderGeneral(individual: Person) {
     return  html`
       <ul class="my-0">
@@ -228,7 +228,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
     }
     return html`${t}`
   }
-  
+
   private renderUnions(individual: Person){
     console.log(`renderUnions; starting`);
     let t = html``;
@@ -256,13 +256,13 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
           })}
           </ul>
           `
-          
+
         }
       }
     }
     return html`${t}`;
   }
-  
+
   public getFamilyAsSpouse() {
     console.log(`getFamilyAsSpouse; starting`);
     let result = Array<Family>();
@@ -290,7 +290,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
     }
     return null;
   }
-  
+
   public getFamilyAsChild() {
     console.log(`getFamilyAsChild; starting`)
     if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
@@ -336,7 +336,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
           <div class="AncestorsCard rounded border-2">
               <div class="CardBody">
                   <h4 class="my-0">
-                      <i class="fa-solid fa-code-fork"></i>
+                    <iconify-icon icon="material-symbols:family-history-outline"></iconify-icon>
                       Ancestors chart
                   </h4>
                   <div class="flex basis-0 flex-col">
@@ -372,7 +372,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
             <div class="TimelineCard rounded border-2">
               <div class="CardBody">
                 <h4 class="my-0">
-                  <i class="fa-solid fa-calendar-days"></i>
+                  <iconify-icon icon="zondicons:calendar"></iconify-icon>
                   Events
                 </h4>
                 <ul class="timeline">
@@ -472,10 +472,10 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
         }
       }
     }
-    
+
     return html`${t}`;
   }
-  
+
 }
 
 customElements.define('gramps-individual', GrampsIndividual);

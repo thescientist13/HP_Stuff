@@ -184,14 +184,14 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
             console.log(`render; and the first was valid`);
             this.individual = first;
             t = html`${t}
-            <i class="fa-regular fa-user fa-1x"></i>
+            <iconify-icon inline icon="uil:user" ></iconify-icon>
             `
             const gender = this.individual.gender;
             if(gender) {
               if(gender === 'F') {
-                t = html`${t}<i class="fa-solid fa-venus fa-1x color-female"></i>`;
+                t = html`${t}<iconify-icon inline icon="ion:female" class="color-female"></iconify-icon>`;
               } else if(gender === 'M') {
-                t = html`${t}<i class="fa-solid fa-mars fa-1x color-male"></i>`;
+                t = html`${t}<iconify-icon inline icon="ion:male" class="color-male"></iconify-icon>`;
               }
             }
             const _name = this.displayName(this.individual);

@@ -35,7 +35,7 @@ export class ButtonMenu extends TailwindMixin(LitElement,style) {
             <div class="relative inline-block text-left">
                 <div>
                     <button type="button" class="flex ${classMap(this.buttonClasses)}" id="menu-button" aria-expanded="true" aria-haspopup="true">
-                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i> <i class="fa-solid fa-caret-down"></i>
+                        <iconify-icon icon="uil:ellipsis-v"></iconify-icon> <iconify-icon icon="mdi:caret-down-outline"></iconify-icon>
                     </button>
                 </div>
             </div>
