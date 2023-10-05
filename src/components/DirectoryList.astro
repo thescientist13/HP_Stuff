@@ -1,5 +1,6 @@
 ---
 import {getCollection} from "astro:content";
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 import type { HTMLAttributes } from 'astro/types'
 
 
@@ -33,8 +34,8 @@ const test = ["one", "two", "three"]
 count is {count}<br/>
 slug is {slug}<br/>
 -->
-<ul>
+<CardGrid>
   { searchPages.map((p) => (
-    <li><a href={p.slug}>{p.data.title}</a></li>
+    <LinkCard href={p.slug} title={p.data.title}></LinkCard>
   ))}
-</ul>
+</CardGrid>
