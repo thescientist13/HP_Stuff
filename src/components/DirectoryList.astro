@@ -41,6 +41,6 @@ slug is {slug}<br/>
 
 <CardGrid>
   { searchPages.map((p) => (
-    <LinkCard href={p.slug} title={p.data.title}></LinkCard>
+    <LinkCard href={p.slug} title={p.data.title} description={p.description}/>
   ))}
 </CardGrid>
