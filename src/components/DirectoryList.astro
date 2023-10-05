@@ -6,11 +6,15 @@ import type { HTMLAttributes } from 'astro/types'
 
 const {slug} = Astro.params;
 
+let count2 = 0;
 const allPages = await getCollection('docs');
 let searchPages = allPages.filter((p) => {
-  if(p.slug.localeCompare(slug,'en', {sensitivity: 'base'})) {
+    //using undefined because I do not know how to get the actual locale for the browser reliably.
+  if(p.slug.localeCompare(slug,undefined, {sensitivity: 'base'})) {
     return p.id.toLocaleLowerCase().startsWith(slug);
   }
+  count2++;
+  return false;
 })
 
 searchPages = searchPages.sort((a,b) => {
@@ -21,10 +25,9 @@ searchPages = searchPages.sort((a,b) => {
   } else if (b.data.sidebar.order) {
     return b.data.sidebar.order - 0
   } else {
-    return (a.data.title.localeCompare(b.data.title, 'en', {sensitivity: 'base'}))
+    return (a.data.title.localeCompare(b.data.title, undefined, {sensitivity: 'base'}))
   }
 })
-
 
 const count = searchPages.length
 const test = ["one", "two", "three"]
@@ -32,8 +35,10 @@ const test = ["one", "two", "three"]
 ---
 <!--
 count is {count}<br/>
+count2 is {count2}<br/>
 slug is {slug}<br/>
 -->
+
 <CardGrid>
   { searchPages.map((p) => (
     <LinkCard href={p.slug} title={p.data.title}></LinkCard>
