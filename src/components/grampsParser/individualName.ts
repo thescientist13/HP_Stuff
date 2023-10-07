@@ -11,7 +11,7 @@ import {type Database,
     type NameElement,
   type Person,
   SurnameClassSchema,
-} from './GrampsZodTypes';
+} from '@lib/GrampsZodTypes';
 
 import style from '../../styles/Gramps.css?inline';
 

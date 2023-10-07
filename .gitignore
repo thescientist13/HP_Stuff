@@ -1,4 +1,5 @@
 # build output
+src/lib/root.json
 dist/
 # generated types
 .astro/

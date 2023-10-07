@@ -1,12 +1,12 @@
 {
   "name": "hp-stuff",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "pnpx just dev",
     "start": "astro dev",
-    "check": "astro check && tsc --noEmit ",
-    "build": "astro build",
+    "check": "pnpx just check",
+    "build": "pnpx just build",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -51,15 +51,20 @@
     "sharp": "^0.32.6",
     "strnum": "^1.0.5",
     "tailwindcss": "^3.3.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2",
     "zlib": "^1.0.5",
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
     "@types/boolbase": "^1.0.1",
     "@types/luxon": "^3.3.2",
+    "@types/node": "^20.8.3",
     "execa": "^8.0.1",
     "is-stream": "^3.0.0",
+    "just-install": "^1.0.11",
     "type-mermaid": "^1.0.3",
     "unist-util-visit-parents": "^6.0.1"
   }

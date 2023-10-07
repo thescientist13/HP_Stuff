@@ -6,7 +6,7 @@ import {TailwindMixin} from "../tailwind.element";
 
 import {grampsDataController} from './state';
 
-import style from '../../styles/Gramps.css?inline';
+import style from '@styles/Gramps.css?inline';
 
 import {type Export } from './GrampsTypes.ts';
 
@@ -14,7 +14,7 @@ import {
   type Export as zodExport,
     type Database,
     type People,
-} from './GrampsZodTypes';
+} from '@lib/GrampsZodTypes';
 
 export class GenealogicalData extends TailwindMixin(LitElement, style) {
 

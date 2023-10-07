@@ -9,13 +9,13 @@ import {initialState} from "@lit-labs/task";
 
 import { XMLParser, XMLValidator} from 'fast-xml-parser';
 
-import { Convert, type Export } from './GrampsTypes.ts';
+import { Convert, type Export } from './GrampsTypes';
 
 const grampsUrl = atom<URL | null>(null);
 
 const grampsData = atom<any | null>(null);
 
-import {type Export as zodExport, type Database, ExportSchema, type People} from './GrampsZodTypes';
+import {type Export as zodExport, type Database, ExportSchema, type People} from '@lib/GrampsZodTypes';
 
 const zodData = computed(grampsData, (v) => {
   if(v ){
