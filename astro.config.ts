@@ -16,6 +16,9 @@ export default defineConfig({
             customCss: [
                 './src/styles/tailwind.css',
             ],
+            components: {
+              Hero: './src/components/PersonPage.astro'
+            },
             defaultLocale: 'root',
             locales: {
               root: {

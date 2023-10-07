@@ -477,5 +477,7 @@ export class GrampsIndividual extends TailwindMixin(LitElement, style) {
   }
 
 }
+if(!customElements.get('gramps-individual')) {
+  customElements.define('gramps-individual', GrampsIndividual);
+}
 
-customElements.define('gramps-individual', GrampsIndividual);
