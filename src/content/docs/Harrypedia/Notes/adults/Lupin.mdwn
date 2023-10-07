@@ -3,7 +3,6 @@
 [[!tag "HP Adult"]]
 [[!toc levels=2 startlevel=3]]
 
-### Facts
 
 * Lupin considers it so highly probable that his child will be a werewolf that
   "if, by some miracle, it is not like me, then it will be better off, a hundred
