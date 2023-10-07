@@ -3,11 +3,20 @@ import { XMLParser} from 'fast-xml-parser';
 import * as fs from 'fs';
 import * as path from 'path';
 import {unzip} from 'node:zlib';
-import {type ZodError} from 'zod';
+import {z, type ZodError} from 'zod';
 import { delay } from 'nanodelay'
 
 
-import {type Export as zodExport, type Database, ExportSchema, type People} from '../lib/GrampsZodTypes.js';
+import {
+    type Export as zodExport,
+    type Database,
+    ExportSchema,
+    type People,
+    DatabaseSchema
+} from '../lib/GrampsZodTypes.js';
+
+const partialDB = DatabaseSchema.deepPartial();
+type partialDBType = z.infer<typeof partialDB>;
 
 import root from '../lib/root.json' assert { type: "json" };
 import * as process from "process";
@@ -65,21 +74,61 @@ while(!data) {
 const db = (data as zodExport).database;
 
 db.people.person.forEach((p) => {
-    let toExport = new WeakSet();
-    toExport.add(p);
+
+    let toExport: Database = {
+        header: db.header,
+        tags: db.tags,
+        events: db.events,
+        families: {family: []},
+        people: {person: [p]},
+        citations: db.citations,
+        sources: db.sources,
+        places: db.places,
+        repositories: db.repositories,
+        notes: db.notes,
+        xmlns: db.xmlns
+    };
     if(p.handle) {
         if(p.childof ) {
-            const childof = [p.childof].flat();
+            const childof = [p.childof].flat().map((c) => {return c.hlink});
             childof.forEach((fref) => {
-                if(fref.hlink) {
+                if(fref) {
                     const families = db.families.family.filter((f) => {
                         if(f.handle) {
-                            return (!f.handle.localeCompare(fref.hlink, undefined, {sensitivity: 'base'}))
+                            return (!f.handle.localeCompare(fref, undefined, {sensitivity: 'base'}))
                         }
                         return false;
                     })
                     if(families.length > 0) {
-                        toExport.add(families)
+                        families.forEach((nf) => {
+                            if(nf.father) {
+                                const fatherRef = [nf.father].flat().shift()
+                                if(fatherRef && fatherRef.hlink) {
+                                    const hlink = fatherRef.hlink;
+                                    const toAdd = db.people.person.filter((p) => {
+                                        if(p && p.handle) {
+                                            return (!p.handle.localeCompare(hlink, undefined, {sensitivity: 'base'}));
+                                        }
+                                        return false;
+                                    })
+                                    toExport.people.person = toExport.people.person.concat(toAdd);
+                                }
+                            }
+                            if(nf.mother) {
+                                const motherRef = [nf.mother].flat().shift()
+                                if(motherRef && motherRef.hlink) {
+                                    const hlink = motherRef.hlink;
+                                    const toAdd = db.people.person.filter((p) => {
+                                        if(p && p.handle) {
+                                            return (!p.handle.localeCompare(hlink, undefined, {sensitivity: 'base'}));
+                                        }
+                                        return false;
+                                    })
+                                    toExport.people.person = toExport.people.person.concat(toAdd);
+                                }
+                            }
+                        })
+                        toExport.families.family = toExport.families.family.concat(families);
                     }
                 }
             })
@@ -95,34 +144,31 @@ db.people.person.forEach((p) => {
                         return false;
                     })
                     if(families.length > 0) {
-                        toExport.add(families)
+                        families.forEach((f) => {
+                            if(f.childref ) {
+                                const childref = [f.childref].flat().map((c) => {return c.hlink});
+                                if(childref && childref.length > 0) {
+                                    childref.forEach((c) => {
+                                        const nc = db.people.person.filter((p) => {
+                                            if(p && p.handle) {
+                                                return (!p.handle.localeCompare(c,undefined,{sensitivity: 'base'}));
+                                            }
+                                            return false;
+                                        })
+                                        if(nc  && nc.length > 0) {
+                                            toExport.people.person = toExport.people.person.concat(nc)
+                                        }
+                                    })
+                                }
+                            }
+                        })
+                        toExport.families.family = toExport.families.family.concat(families);
                     }
                 })
             }
         }
     }
-    if(db.events) {
-        toExport.add(db.events)
-    }
-    if(db.tags) {
-        toExport.add(db.tags)
-    }
-    if(db.citations) {
-        toExport.add(db.citations)
-    }
-    if(db.repositories) {
-        toExport.add(db.repositories)
-    }
-    if(db.places) {
-        toExport.add(db.places)
-    }
-    if(db.sources) {
-        toExport.add(db.sources)
-    }
-    if(db.notes) {
-        toExport.add(db.notes)
-    }
-    const personPath = path.join(root.CWD, 'src/content/gramps/people/', p.id, '.json');
+    const personPath = path.join(root.CWD, 'src/content/gramps/people/', p.id.concat('.json'));
     const personFile = fs.openSync(personPath, 'w', 0o600)
     fs.writeSync(personFile, JSON.stringify(toExport))
 })

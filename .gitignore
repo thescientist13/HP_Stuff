@@ -1,4 +1,5 @@
 # build output
+src/content/gramps/people/*.json
 src/lib/root.json
 dist/
 # generated types
