@@ -1,13 +1,33 @@
 ---
+import type { HTMLAttributes } from 'astro/types'
+interface Props {
+    personId: string;
+}
+
+import { getCollection, getEntry } from 'astro:content';
+
+
 import { Card } from '@astrojs/starlight/components';
 import { GrampsIndividual} from './individual';
-import { file } from './config';
-const Url = new URL('/' + file, Astro.url );
+import {z, ZodError} from 'zod'
+import {DatabaseSchema} from "../../lib/GrampsZodTypes";
+import {rawEntry} from './state';
 
-let { id } = Astro.props;
-id = `${id}`;
+let { personId } = Astro.props;
+const slug = `people/${personId}`
+console.log(`slug is ${slug}`);
 
+let grampsPeople = await getCollection('gramps');
+
+const thisPerson = await getEntry('gramps',slug )
 ---
 
-<GrampsIndividual grampsId={id} url={Url} client:only />
+<script >
+    import {rawEntry} from './state';
+
+    rawEntry.set({thisPerson})
+</script>
+{personId}<br/>
+astro props are <ul>{Object.keys(Astro.props).map((k) => (<li>{k}</li>))}</ul>
+<!--<GrampsIndividual personId={id} client:only />-->
 

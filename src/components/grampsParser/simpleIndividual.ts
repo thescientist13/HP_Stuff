@@ -4,16 +4,16 @@ import {property, state} from 'lit/decorators.js';
 
 import {TailwindMixin} from "../tailwind.element";
 
-import {grampsDataController} from './state';
+import {zodData} from './state';
 
 import {type Database, type Person} from './GrampsTypes';
 
-import style from '../../styles/Gramps.css?inline';
+import styles from '@styles/Gramps.css';
 
 import {IndividualName} from './individualName';
 import {GrampsEvent} from "./events";
 
-export class SimpleIndividual extends TailwindMixin(LitElement, style) {
+export class SimpleIndividual extends TailwindMixin(LitElement, styles) {
 
     @property({type: String})
     public grampsId: string;
@@ -42,8 +42,6 @@ export class SimpleIndividual extends TailwindMixin(LitElement, style) {
     @state()
     private individual: Person |  null;
 
-    private grampsController = new grampsDataController(this);
-
     constructor() {
         super();
 
@@ -67,10 +65,10 @@ export class SimpleIndividual extends TailwindMixin(LitElement, style) {
 
     public render() {
         let t = html``
-        if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+        if (zodData) {
             console.log(`render; validated controller`)
-            const db: Database = this.grampsController.parsedStoreController.value.database;
-            if (this.grampsId) {
+            const db: Database | null = zodData.get();
+            if (this.grampsId && db) {
                 const filterResult = db.people.person.filter((v) => {
                     return v.id === this.grampsId
                 })

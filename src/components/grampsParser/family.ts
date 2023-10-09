@@ -5,23 +5,65 @@ import {when} from 'lit/directives/when.js';
 
 import {TailwindMixin} from "../tailwind.element";
 
-import {grampsDataController} from './state';
+import {zodData} from './state';
 
 import {
-  type ChildrefElement,
-  type Event,
+  type Quality,
+  type DatevalType,
   type EventType,
-  type Database,
-  type Family,
-  type Person,
-  type PurpleChildref,
-  type Noteref,
-  type EventrefElement,
-  type NameElement,
+  type Role,
+  type RelType,
+  type Gender,
+  type Derivation,
+  type NameType,
+  type RepositoryType,
+  type UrlType,
+  type Medium,
+  type Xml,
+  type Tag,
+  type Tags,
+  type Sourceref,
+  type ReporefElement,
+  type Source,
+  type Sources,
+  type Url,
+  type Repository,
+  type Repositories,
+  type Pname,
+  type Coord,
+  type Placeobj,
+  type Places,
+  type Personref,
   type SurnameClass,
-} from './GrampsTypes';
+  type NameElement,
+  type Address,
+  type EventrefElement,
+  type Person,
+  type People,
+  type Note,
+  type Notes,
+  type Researcher,
+  type Created,
+  type Header,
+  type Rel,
+  type PurpleChildref,
+  type ChildrefElement,
+  type Family,
+  type Families,
+  type EventDateval,
+  type Datestr,
+  type DaterangeClass,
+  type Attribute,
+  type Event,
+  type Events,
+  type CitationDateval,
+  type Citation,
+  type Citations,
+  type Database,
+  type Export, SourcerefSchema
+} from '@lib/GrampsZodTypes';
 
-import style from '../../styles/Gramps.css?inline';
+import styles from '../../styles/Gramps.css?inline';
 
 import {AncestorsTreeChart} from './AncestorsTreeChart'
 import {IndividualName} from './individualName';
@@ -34,11 +76,9 @@ type renderChildrenTreeProps = {
   root: Person,
 };
 
-export class GrampsFamily extends TailwindMixin(LitElement, style) {
+export class GrampsFamily extends TailwindMixin(LitElement, styles) {
   @property()
   public url: URL | string | null;
-  
-  private grampsController = new grampsDataController(this);
   
   @state()
   private _persons: Person[] | null;
@@ -59,18 +99,13 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
   
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    console.log(`willUpdate; url is ${this.url}`)
-    const u = this.grampsController.getUrl();
-    if (this.url && (!u || (u && (this.url.toString().localeCompare(u.toString()))))) {
-      console.log(`willUpdate; setting grampsController url`)
-      this.grampsController.setUrl(new URL(this.url));
-    }
-    if(this.url && !this._name) {
+    if (!this._name) {
       this.setName();
     }
-  
-    if(!this._persons) {
+
+    if (!this._persons) {
       this.getPersons();
+
     }
   }
   
@@ -108,9 +143,9 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
   }
 
   private getPersonsChildren(person: Person) {
-    if (person && this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
-      const db = this.grampsController.parsedStoreController.value.database;
-      const familyRef: Noteref[] | Noteref | undefined = person.parentin;
+    const db = zodData.get();
+    if (person && db) {
+      const familyRef: Sourceref[] | Sourceref |null| undefined = person.parentin;
       if (familyRef) {
         const familyArray = [familyRef].flat();
         const familyLinks = familyArray.map((f) => {
@@ -137,7 +172,7 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
           const stage3 = stage2.filter((p) => {
             if(p && p.childof) {
               console.log(`getPersonsChildren stage3; p is a child`)
-              const familyRef:Noteref[] | Noteref = p.childof;
+              const familyRef:Sourceref[] | Sourceref = p.childof;
               const childFamArray = [familyRef].flat()
               const childLinks = childFamArray.map((c) => {
                 return c.hlink;
@@ -166,11 +201,11 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
   }
 
   private getPersons() {
-    if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+    const db = zodData.get();
+    if (db) {
       console.log(`getPersons; controllers are set`)
       if (this._name && this._name !== '') {
         console.log(`getPersons; name is set`)
-        const db = this.grampsController.parsedStoreController.value.database;
         const people = db.people.person.filter((p) => {
           if (p && p.name) {
             return this.checkMatchingName(p);
@@ -195,18 +230,18 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
   
   private renderChildLine(person: Person) {
     let t = html`No Child`
+    const db = zodData.get();
     if(person ) {
       if(this._renderedPersons && this._renderedPersons.includes(person.id)) {
         return html``;
       }
       this._renderedPersons.push(person.id);
-      if (this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
+      if (db) {
         t = html``; //erase the temp content
-        const db = this.grampsController.parsedStoreController.value.database;
         let family: Family | undefined;
         if(person.parentin) {
           console.log(`renderChildLine; person is a parent`)
-          const citation:Noteref[] | Noteref = person.parentin;
+          const citation: Sourceref[] | Sourceref = person.parentin;
           const cArray = [citation].flat();
           family = db.families.family.filter((f) => {
             if(f && f.handle) {
@@ -243,7 +278,7 @@ export class GrampsFamily extends TailwindMixin(LitElement, style) {
   }
 
   render() {
-    return html`${when((this.grampsController && this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value && this._persons),
+    return html`${when((zodData.get() && this._persons),
         () => {
       return html`
         <ul>

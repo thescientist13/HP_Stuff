@@ -1,14 +1,12 @@
 ---
 
 import Default from '@astrojs/starlight/components/Hero.astro';
-import {  GrampsIndividual} from './grampsParser/individual';
+import  Individual from './grampsParser/Individual.astro';
 
 const { data } = Astro.props.entry;
 let {hero} = data;
 hero = `${hero}`;
 const isPerson = Astro.props.slug.startsWith('harrypedia/people');
-import { file } from './grampsParser/config';
-const Url = new URL('/' + file, Astro.url );
 
 ---
 
@@ -16,7 +14,7 @@ const Url = new URL('/' + file, Astro.url );
     isPerson ? (
         <div class="content">
                 <h3 id="facts">Facts</h3>
-                <GrampsIndividual grampsId={hero} url={Url} client:only ></GrampsIndividual>
+                <Individual personId={hero} />
         </div>
 
     ) : (

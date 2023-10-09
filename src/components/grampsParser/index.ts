@@ -4,24 +4,67 @@ import {property, state} from 'lit/decorators.js';
 
 import {TailwindMixin} from "../tailwind.element";
 
-import {grampsDataController} from './state';
+import styles from '@styles/Gramps.css?inline';
 
-import style from '@styles/Gramps.css?inline';
-
-import {type Export } from './GrampsTypes.ts';
+import {zodData} from './state';
 
 import {
-  type Export as zodExport,
-    type Database,
-    type People,
+  type Quality,
+  type DatevalType,
+  type EventType,
+  type Role,
+  type RelType,
+  type Gender,
+  type Derivation,
+  type NameType,
+  type RepositoryType,
+  type UrlType,
+  type Medium,
+  type Xml,
+  type Tag,
+  type Tags,
+  type Sourceref,
+  type ReporefElement,
+  type Source,
+  type Sources,
+  type Url,
+  type Repository,
+  type Repositories,
+  type Pname,
+  type Coord,
+  type Placeobj,
+  type Places,
+  type Personref,
+  type SurnameClass,
+  type NameElement,
+  type Address,
+  type EventrefElement,
+  type Person,
+  type People,
+  type Note,
+  type Notes,
+  type Researcher,
+  type Created,
+  type Header,
+  type Rel,
+  type PurpleChildref,
+  type ChildrefElement,
+  type Family,
+  type Families,
+  type EventDateval,
+  type Datestr,
+  type DaterangeClass,
+  type Attribute,
+  type Event,
+  type Events,
+  type CitationDateval,
+  type Citation,
+  type Citations,
+  type Database,
+  type Export, SourcerefSchema
 } from '@lib/GrampsZodTypes';
 
-export class GenealogicalData extends TailwindMixin(LitElement, style) {
-
-  @property()
-  public url: URL | string | null;
-
-  private grampsController = new grampsDataController(this);
+export class GenealogicalData extends TailwindMixin(LitElement, styles) {
 
   @state()
   private controllersReady: boolean
@@ -30,41 +73,22 @@ export class GenealogicalData extends TailwindMixin(LitElement, style) {
     super();
 
     this.controllersReady = false;
-    this.url = null;
 
   }
 
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    console.log(`header willUpdate; url is ${this.url}`)
-    if(this.grampsController) {
-      const currentUrl = this.grampsController.getUrl();
-      if(this.url && ((currentUrl && (currentUrl.toString().localeCompare(this.url.toString()))) || !currentUrl)) {
-        console.log(`header willUpdate; setting grampsController url`)
-        this.grampsController.setUrl(new URL(this.url));
-      }
-    }
-
-    if (this.grampsController && this.grampsController.grampsStoreController && this.grampsController.grampsStoreController.value) {
-      if(this.grampsController.parsedStoreController && this.grampsController.parsedStoreController.value) {
-        this.controllersReady = true;
-      } else {
-        this.controllersReady = false;
-      }
-    } else {
-      this.controllersReady = false;
-    }
+    console.log(`header willUpdate; super complete`)
 
   }
 
   render() {
     if(this.controllersReady) {
       console.log(`grampsParser/index render; controllersReady is true`)
-      const pObj: Export | null = this.grampsController.parsedStoreController.value;
-      const gramps = this.grampsController.zodStoreController.value;
+      const gramps = zodData.get();
 
       let t = html``
-      if(pObj && gramps) {
+      if(gramps) {
         console.log(`grampsParser/index render; confirmed I have parsed data`)
         t = html`${t}Gramps Data exported ${gramps.header.created.date}<br/>`
         const psize = gramps.people.person.length;
@@ -76,7 +100,7 @@ export class GenealogicalData extends TailwindMixin(LitElement, style) {
       }
       return html`${t}`
     }
-    return html``;
+    return html`No Header Info Available`;
   }
 }
 

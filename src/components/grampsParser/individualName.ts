@@ -4,7 +4,7 @@ import {property, state} from 'lit/decorators.js';
 
 import {TailwindMixin} from "../tailwind.element";
 
-import {grampsDataController} from './state';
+import {zodData} from './state';
 
 
 import {type Database,
@@ -29,8 +29,6 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
   @state()
   private individual: Person |  null;
 
-  private grampsController = new grampsDataController(this);
-
   constructor() {
     super();
 
@@ -43,12 +41,7 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
 
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    console.log(`willUpdate; url is ${this.url}`)
-    const currentUrl = this.grampsController.getUrl();
-    if (this.url && (!currentUrl || (currentUrl && this.url.toString().localeCompare(currentUrl.toString())))) {
-      console.log(`willUpdate; setting grampsController url`)
-      this.grampsController.setUrl(new URL(this.url));
-    }
+
   }
 
   private buildLinkTarget(individual: Person) {
@@ -97,7 +90,7 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
         t = `${t}_${names.suffix}`
       }
     }
-    const currentUrl = this.grampsController.getUrl();
+    const currentUrl = import.meta.url;
     return new URL(`/harrypedia/people/${t.toLowerCase().replaceAll(/\s/g, '_')}/`, (currentUrl ? currentUrl : ''));
   }
 
@@ -169,10 +162,10 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
 
   public render() {
     let t = html``
-    if (this.grampsController && this.grampsController.zodStoreController && this.grampsController.zodStoreController.value) {
+    if (zodData) {
       console.log(`render; validated controller`)
-      const gramps = this.grampsController.zodStoreController.value;
-      if (this.grampsId) {
+      const gramps = zodData.get();
+      if (this.grampsId && gramps) {
         console.log(`render; and I have an id`)
         const filterResult = gramps.people.person.filter((v) => {
           return v.id === this.grampsId

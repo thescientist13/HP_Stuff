@@ -5,18 +5,68 @@ import {when} from 'lit/directives/when.js';
 import { z} from "zod";
 import {DateTime, Interval} from 'luxon';
 
-import { grampsDataController } from './state';
+import { zodData } from './state';
 
-import {type Database, type Event, type EventrefElement, type NameElement, type Person} from './GrampsTypes';
+import {type Quality,
+    type DatevalType,
+    type EventType,
+    type Role,
+    type RelType,
+    type Gender,
+    type Derivation,
+    type NameType,
+    type RepositoryType,
+    type UrlType,
+    type Medium,
+    type Xml,
+    type Tag,
+    type Tags,
+    type Sourceref,
+    type ReporefElement,
+    type Source,
+    type Sources,
+    type Url,
+    type Repository,
+    type Repositories,
+    type Pname,
+    type Coord,
+    type Placeobj,
+    type Places,
+    type Personref,
+    type SurnameClass,
+    type NameElement,
+    type Address,
+    type EventrefElement,
+    type Person,
+    type People,
+    type Note,
+    type Notes,
+    type Researcher,
+    type Created,
+    type Header,
+    type Rel,
+    type PurpleChildref,
+    type ChildrefElement,
+    type Family,
+    type Families,
+    type EventDateval,
+    type Datestr,
+    type DaterangeClass,
+    type Attribute,
+    type Event,
+    type Events,
+    type CitationDateval,
+    type Citation,
+    type Citations,
+    type Database,
+    type Export
+} from '@lib/GrampsZodTypes';
 
 import {TailwindMixin} from "../tailwind.element";
 
 import style from '../../styles/Event.css?inline'
 
 export class GrampsEvent extends TailwindMixin(LitElement,style) {
-
-    @state()
-    public gController = new grampsDataController(this);
 
     @property({type: String, reflect: true})
     public eventId: string;
@@ -99,10 +149,10 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
     public async willUpdate(changedProperties: PropertyValues<this>) {
         super.willUpdate(changedProperties)
         
-        if (this.gController && this.gController.parsedStoreController && this.gController.parsedStoreController.value) {
+        if (zodData) {
             console.log(`willUpdate; controlers are ready to render`)
-            const db: Database = this.gController.parsedStoreController.value.database;
-            if (changedProperties.has('grampsId') && this.grampsId) {
+            const db = zodData.get();
+            if (changedProperties.has('grampsId') && this.grampsId && db) {
                 const filterResult = db.people.person.filter((v) => {
                     return v.id === this.grampsId
                 })
@@ -138,7 +188,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
                     console.error(`willUpdate; cannot find person for ${this.grampsId}`)
                 }
             }
-            if(changedProperties.has('familyId') && this.familyId) {
+            if(changedProperties.has('familyId') && this.familyId && db) {
                 if(this.showMarriage) {
                     console.log(`render; looking for marriage event of ${this.familyId}`);
                     const family = db.families.family.filter((f) => {
@@ -161,7 +211,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
 
     private findDeathByPerson(individual: Person) {
         console.log(`findBirthByPerson; start`)
-        const db = this.gController.parsedStoreController.value;
+        const db = zodData.get();
         if(db) {
             const events = this.findEventsByPerson(individual);
             if(events) {
@@ -176,7 +226,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
     
     public findBirthByPerson(individual: Person) {
         console.log(`findBirthByPerson; start`)
-        const db = this.gController.parsedStoreController.value;
+        const db = zodData.get();
         if(db) {
             const events = this.findEventsByPerson(individual);
             if(events) {
@@ -189,15 +239,15 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
         return null;
     }
     
-    public findEventsByPerson(individual: Person) {
+    public findEventsByPerson(individual: Person):  Event[] | null {
         console.log(`findEventsByPerson; start`)
-        const refs:EventrefElement[] | EventrefElement | undefined = individual.eventref;
-        const db = this.gController.parsedStoreController.value;
+        const refs  = individual.eventref;
+        const db = zodData.get();
         if(db) {
             if(refs) {
                 console.log(`findEventsByPerson; I have refs to search`)
                 const r = [refs].flat()
-                return db.database.events.event.filter((e) => {
+                const returnable =  db.events.event.filter((e) => {
                     const _id = e.handle;
                     if(_id) {
                         let result = false;
@@ -243,7 +293,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
             if(typeof event.daterange.stop === 'number') {
                 d2 = DateTime.fromISO(event.daterange.stop.toString())
             } else  {
-                d2 = DateTime.fromJSDate(event.daterange.stop)
+                d2 = DateTime.fromISO(event.daterange.stop)
             }
             i = Interval.fromDateTimes(d, d2);
         }else if(event.datespan) {
@@ -256,7 +306,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
             if(typeof event.datespan.stop === 'number') {
                 d2 = DateTime.fromISO(event.datespan.stop.toString())
             } else {
-                d2 = DateTime.fromJSDate(event.datespan.stop)
+                d2 = DateTime.fromISO(event.datespan.stop)
             }
             i = Interval.fromDateTimes(d, d2);
         }
@@ -268,10 +318,10 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
 
     public render() {
         let t = html``
-        if (this.gController && this.gController.parsedStoreController && this.gController.parsedStoreController.value) {
+        if (zodData) {
             console.log(`render; controllers are ready to render`)
-            const db: Database = this.gController.parsedStoreController.value.database;
-            if(this.eventId) {
+            const db = zodData.get();
+            if(this.eventId && db) {
                 console.log(`render; I know which event to work with`)
                 const e = db.events.event.filter((e) => {
                     return (!e.id.localeCompare(this.eventId))
@@ -283,7 +333,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
                 t = html`${t}${this.displayDate(this._event!)}`
             }
         }
-        
+
         return html`${t}`;
     }
 

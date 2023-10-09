@@ -4,18 +4,62 @@ import {property, state} from 'lit/decorators.js';
 
 import { z } from "zod";
 
-import {
-    type ChildrefElement,
-    type PurpleChildref,
-    type Database,
-    type Family,
+import {type Quality,
+    type DatevalType,
+    type EventType,
+    type Role,
+    type RelType,
+    type Gender,
+    type Derivation,
+    type NameType,
+    type RepositoryType,
+    type UrlType,
+    type Medium,
+    type Xml,
+    type Tag,
+    type Tags,
+    type Sourceref,
+    type ReporefElement,
+    type Source,
+    type Sources,
+    type Url,
+    type Repository,
+    type Repositories,
+    type Pname,
+    type Coord,
+    type Placeobj,
+    type Places,
+    type Personref,
+    type SurnameClass,
+    type NameElement,
+    type Address,
+    type EventrefElement,
     type Person,
-    type Noteref,
-    type ChildrefUnion,
-} from '../GrampsTypes';
+    type People,
+    type Note,
+    type Notes,
+    type Researcher,
+    type Created,
+    type Header,
+    type Rel,
+    type PurpleChildref,
+    type ChildrefElement,
+    type Family,
+    type Families,
+    type EventDateval,
+    type Datestr,
+    type DaterangeClass,
+    type Attribute,
+    type Event,
+    type Events,
+    type CitationDateval,
+    type Citation,
+    type Citations,
+    type Database,
+    type Export
+} from '@lib/GrampsZodTypes';
 
-
-import {grampsDataController} from '../state';
+import {zodData} from '../state';
 import {IndividualName} from '../individualName';
 import {GrampsEvent} from "../events";
 import {SimpleIndividual} from "../simpleIndividual";
@@ -25,10 +69,7 @@ import {TailwindMixin} from "../../tailwind.element";
 import style from '../../../styles/AncestorsTreeChart.css?inline'
 
 export class AncestorsTreeChart extends TailwindMixin(LitElement,style) {
-    
-    @state()
-    public gcDataController = new grampsDataController(this);
-    
+
     @property({type: String})
     public grampsId: string;
     
@@ -47,43 +88,44 @@ export class AncestorsTreeChart extends TailwindMixin(LitElement,style) {
     }
     
     private renderTreeLi (individual: Person | undefined, maxDepth: number, isRoot: boolean = false):TemplateResult<1> | null  {
-        if(individual && this.gcDataController && this.gcDataController.parsedStoreController && this.gcDataController.parsedStoreController.value && this.gcDataController.parsedStoreController.value.database) {
-            const db = this.gcDataController.parsedStoreController.value.database
-            const family = db.families.family.filter((f) => {
-                if(individual.childof) {
-                    const handle = f.handle;
-                    const iHandle = [individual.childof].flat().shift()?.hlink
-                    if(iHandle) {
-                        return (!iHandle.localeCompare(handle))
-                    }
-                }
-                return false;
-            }).shift();
-            let child: TemplateResult<1> | null = null;
-            if (family) {
-                const husbandRef = family.father?.hlink;
-                const husband = db.people.person.filter((p) => {
-                    if(p.handle && husbandRef) {
-                        return (!p.handle.localeCompare(husbandRef))
+        if(individual && zodData) {
+            const db = zodData.get();
+            if(db) {
+                const family = db.families.family.filter((f) => {
+                    if(individual.childof) {
+                        const handle = f.handle;
+                        const iHandle = [individual.childof].flat().shift()?.hlink
+                        if(iHandle) {
+                            return (!iHandle.localeCompare(handle))
+                        }
                     }
                     return false;
                 }).shift();
-                const wifeRef = family.mother?.hlink;
-                const wife = db.people.person.filter((p) => {
-                    if(p.handle && wifeRef) {
-                        return (!p.handle.localeCompare(wifeRef))
-                    }
-                    return false;
-                }).shift();
-                const currentDepth = maxDepth - 1;
-                child = html`
+                let child: TemplateResult<1> | null = null;
+                if (family) {
+                    const husbandRef = family.father?.hlink;
+                    const husband = db.people.person.filter((p) => {
+                        if(p.handle && husbandRef) {
+                            return (!p.handle.localeCompare(husbandRef))
+                        }
+                        return false;
+                    }).shift();
+                    const wifeRef = family.mother?.hlink;
+                    const wife = db.people.person.filter((p) => {
+                        if(p.handle && wifeRef) {
+                            return (!p.handle.localeCompare(wifeRef))
+                        }
+                        return false;
+                    }).shift();
+                    const currentDepth = maxDepth - 1;
+                    child = html`
                 <ul>
                     ${this.renderTreeLi(husband, currentDepth, false)}
                     ${this.renderTreeLi(wife, currentDepth, false)}
                 </ul>
             `
-            }
-            return html`
+                }
+                return html`
             <li>
                 ${child}
                 <span>
@@ -91,6 +133,8 @@ export class AncestorsTreeChart extends TailwindMixin(LitElement,style) {
                 </span>
             </li>
         `
+            }
+
         }
         return null;
     }
@@ -98,17 +142,20 @@ export class AncestorsTreeChart extends TailwindMixin(LitElement,style) {
     public render() {
         console.log(`render; start`)
         if(this.grampsId ) {
-            if(this.gcDataController && this.gcDataController.parsedStoreController && this.gcDataController.parsedStoreController.value) {
-                this.individual = this.gcDataController.parsedStoreController.value.database.people.person.filter((p) => {
-                    return (!p.id.localeCompare(this.grampsId))
-                }).shift()
-                if(this.individual) {
-                    return html`
+            if(zodData) {
+                const db = zodData.get();
+                if(db) {
+                    this.individual = db.people.person.filter((p) => {
+                        return (!p.id.localeCompare(this.grampsId))
+                    }).shift()
+                    if(this.individual) {
+                        return html`
                         <ul class="ascending-tree">
                             ${this.renderTreeLi(this.individual, this.maxDepth,true)}
                         </ul>
                     `
-                
+
+                    }
                 }
             }
         }
