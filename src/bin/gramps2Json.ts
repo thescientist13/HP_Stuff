@@ -168,7 +168,12 @@ db.people.person.forEach((p) => {
             }
         }
     }
-    const personPath = path.join(root.CWD, 'src/content/gramps/people/', p.id.concat('.json'));
+    const personPath = path.join(root.CWD, 'src/content/gramps/', p.id.concat('.json'));
     const personFile = fs.openSync(personPath, 'w', 0o600)
-    fs.writeSync(personFile, JSON.stringify(toExport))
+    const validation = DatabaseSchema.safeParse(toExport);
+    if(validation.success) {
+        fs.writeSync(personFile, JSON.stringify(toExport))
+    } else {
+        console.error(`${validation.error.toString()}`)
+    }
 })
