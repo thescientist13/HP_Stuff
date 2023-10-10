@@ -12,7 +12,11 @@ import {
     type Database,
     ExportSchema,
     type People,
-    DatabaseSchema
+    type Person,
+    DatabaseSchema,
+    type Family,
+    type Sourceref,
+    PersonSchema, FamiliesSchema, FamilySchema
 } from '../lib/GrampsZodTypes.js';
 
 import * as process from "process";
@@ -84,103 +88,22 @@ db.people.person.forEach((p) => {
         notes: db.notes,
         xmlns: db.xmlns
     };
-    if(p.handle) {
-        if(p.childof ) {
-            const childof = [p.childof].flat().map((c) => {return c.hlink});
-            childof.forEach((fref) => {
-                if(fref) {
-                    const families = db.families.family.filter((f) => {
-                        if(f.handle) {
-                            return (!f.handle.localeCompare(fref, undefined, {sensitivity: 'base'}))
-                        }
-                        return false;
-                    })
-                    if(families.length > 0) {
-                        families.forEach((nf) => {
-                            if(nf.father) {
-                                const fatherRef = [nf.father].flat().shift()
-                                if(fatherRef && fatherRef.hlink) {
-                                    const hlink = fatherRef.hlink;
-                                    const toAdd = db.people.person.filter((p) => {
-                                        if(p && p.handle) {
-                                            return (!p.handle.localeCompare(hlink, undefined, {sensitivity: 'base'}));
-                                        }
-                                        return false;
-                                    })
-                                    toExport.people.person = toExport.people.person.concat(toAdd);
-                                }
-                            }
-                            if(nf.mother) {
-                                const motherRef = [nf.mother].flat().shift()
-                                if(motherRef && motherRef.hlink) {
-                                    const hlink = motherRef.hlink;
-                                    const toAdd = db.people.person.filter((p) => {
-                                        if(p && p.handle) {
-                                            return (!p.handle.localeCompare(hlink, undefined, {sensitivity: 'base'}));
-                                        }
-                                        return false;
-                                    })
-                                    toExport.people.person = toExport.people.person.concat(toAdd);
-                                }
-                            }
-                            if(nf.childref) {
-                                const childrefs = [nf.childref].flat().map(cr => {return cr.hlink;});
-                                if(childrefs !== undefined && childrefs.length > 0) {
-                                    const children = childrefs.map((cr) => {
-                                        if(cr && cr.length > 0) {
-                                            const c = db.people.person.filter((p) => {
-                                                if(p && p.handle) {
-                                                    return (!p.handle.localeCompare(cr, undefined, {sensitivity: 'base'}));
-                                                }
-                                                return false;
-                                            });
-                                            if(c !== undefined && c.length > 0) {
-                                                toExport.people.person = toExport.people.person.concat(c);
-                                            }
-                                        }
-                                    })
-                                }
-                            }
-                        })
-                        toExport.families.family = toExport.families.family.concat(families);
-                    }
+    //I need at most the 3rd generation above the current person
+    for (let gen = 0; gen <= 3; gen++) {
+        toExport.people.person.forEach((p) => {
+            const result = getRelations(p);
+            if(result !== null) {
+                const {people, families} = result;
+                if(people.length > 0) {
+                    toExport.people.person = toExport.people.person.concat(people);
                 }
-            })
-        }
-        if(p.parentin) {
-            const parentin = [p.parentin].flat().map((p) => {return p.hlink})
-            if(parentin && parentin.length > 0) {
-                parentin.forEach((pref) => {
-                    const families = db.families.family.filter((f) => {
-                        if(f.handle) {
-                            return (!f.handle.localeCompare(pref, undefined, {sensitivity: 'base'}))
-                        }
-                        return false;
-                    })
-                    if(families.length > 0) {
-                        families.forEach((f) => {
-                            if(f.childref ) {
-                                const childref = [f.childref].flat().map((c) => {return c.hlink});
-                                if(childref && childref.length > 0) {
-                                    childref.forEach((c) => {
-                                        const nc = db.people.person.filter((p) => {
-                                            if(p && p.handle) {
-                                                return (!p.handle.localeCompare(c,undefined,{sensitivity: 'base'}));
-                                            }
-                                            return false;
-                                        })
-                                        if(nc  && nc.length > 0) {
-                                            toExport.people.person = toExport.people.person.concat(nc)
-                                        }
-                                    })
-                                }
-                            }
-                        })
-                        toExport.families.family = toExport.families.family.concat(families);
-                    }
-                })
+                if(families.length > 0) {
+                    toExport.families.family = toExport.families.family.concat(families);
+                }
             }
-        }
+        })
+        toExport.people.person = Array.from(new Set(toExport.people.person.map((item) => item)));
+        toExport.families.family = Array.from(new Set(toExport.families.family.map((item) => item)));
     }
     const personPath = path.join(process.cwd(), 'src/content/gramps/', p.id.concat('.json'));
     const personFile = fs.openSync(personPath, 'w', 0o600)
@@ -191,3 +114,194 @@ db.people.person.forEach((p) => {
         console.error(`${validation.error.toString()}`)
     }
 })
+
+function getRelations(individual: Person) {
+    if (db && individual !== null && individual !== undefined) {
+        let peopleToExport = new Array<Person>();
+        let familiesToExport = new Array<Family>();
+        if (individual.handle) {
+            if (individual.childof) {
+                const families = getFamilyAsChild(individual);
+                if (families && families.length > 0) {
+                    console.log(`adding in ${families.length} families`);
+                    familiesToExport = familiesToExport.concat(families);
+                    families.forEach((nf) => {
+                        const parents = getParentsOfFamily(nf)
+                        if (parents !== null && parents.length > 0) {
+                            peopleToExport = peopleToExport.concat(parents);
+                        }
+                        const children = getChildrenOfFamily(nf);
+                        if (children != null && children.length > 0) {
+                            peopleToExport = peopleToExport.concat((children));
+                        }
+                    })
+                }
+            }
+            if (individual.parentin) {
+                const families = getFamilyAsSpouse(individual);
+                if (families && families.length > 0) {
+                    families.forEach((f) => {
+                        const parents = getParentsOfFamily(f)
+                        if (parents !== null && parents.length > 0) {
+                            peopleToExport = peopleToExport.concat(parents);
+                        }
+                        const children = getChildrenOfFamily(f);
+                        if (children != null && children.length > 0) {
+                            peopleToExport = peopleToExport.concat((children));
+                        }
+                    })
+                    familiesToExport = familiesToExport.concat(families);
+                }
+            }
+        }
+        if(peopleToExport.length > 0 || familiesToExport.length > 0) {
+            return {
+                people: peopleToExport,
+                families: familiesToExport,
+            }
+        }
+    }
+    return null;
+}
+
+function getChildrenOfFamily(family: Family) {
+    if(db && family !== null && family !== undefined) {
+        let result = new Array<Person>();
+        if(family.childref ) {
+            const childref = [family.childref].flat().map((c) => {return c.hlink});
+            if(childref && childref.length > 0) {
+                childref.forEach((c) => {
+                    const nc = db.people.person.filter((p) => {
+                        if(p && p.handle) {
+                            return (!p.handle.localeCompare(c,undefined,{sensitivity: 'base'}));
+                        }
+                        return false;
+                    })
+                    if(nc  && nc.length > 0) {
+                        result = result.concat(nc)
+                    }
+                })
+            }
+        }
+        if(result.length > 0) {
+            return result
+        }
+    }
+    return null;
+}
+
+function getFamilyAsSpouse(individual: Person) {
+    console.log(`getFamilyAsChild; starting`)
+    if(db) {
+        const personValidation = PersonSchema.safeParse(individual);
+        if(personValidation.success) {
+            console.log(`getFamilyAsChild; with an individual ${individual.id}`);
+            let results = new Set<Family>();
+            if(individual.parentin !== null && individual.parentin !== undefined) {
+                const familyRefs = [individual.parentin].flat().map((c) => {return c.hlink});
+                familyRefs.forEach((fref) => {
+                    if(fref) {
+                        const families = db.families.family.filter((f) => {
+                            if(f.handle) {
+                                return (!f.handle.localeCompare(fref, undefined, {sensitivity: 'base'}))
+                            }
+                            return false;
+                        });
+                        if(families !== null && families !== undefined && families.length > 0) {
+                            families.map((f) => {
+                                results.add(f);
+                            })
+                        }
+                    }
+                });
+            }
+            if(results.size > 0) {
+                return Array.from(results)
+            }
+        }
+    }
+    return null;
+}
+
+function getFamilyAsChild(individual: Person) {
+    console.log(`getFamilyAsChild; starting`)
+    if(db) {
+        const personValidation = PersonSchema.safeParse(individual);
+        if(personValidation.success) {
+            console.log(`getFamilyAsChild; with an individual ${individual.id}`);
+            let results = new Set<Family>();
+            if(individual.childof !== null && individual.childof !== undefined) {
+                const childof = [individual.childof].flat().map((c) => {return c.hlink});
+                childof.forEach((fref) => {
+                    if(fref) {
+                        const families = db.families.family.filter((f) => {
+                            if(f.handle) {
+                                return (!f.handle.localeCompare(fref, undefined, {sensitivity: 'base'}))
+                            }
+                            return false;
+                        });
+                        if(families !== null && families !== undefined && families.length > 0) {
+                            families.map((f) => {
+                                results.add(f);
+                            })
+                        }
+                    }
+                });
+            }
+            if(results.size > 0) {
+                return Array.from(results)
+            }
+        }
+    }
+    return null;
+}
+
+function getParentsOfFamily(family: Family) {
+    console.log(`getParentsOfFamily; started`)
+    if(db) {
+        const familyValidation = FamilySchema.safeParse(family);
+        if(familyValidation.success) {
+            console.log(`getParentsOfFamily; with a valid family`);
+            let result = new Array<Person>();
+            if(family.father !== null && family.father !== undefined) {
+                console.log(`filtering for father(s)`)
+                const fatherRef = [family.father].flat().map((f) => f.hlink)
+                if(fatherRef !== undefined && fatherRef.length > 0) {
+                    fatherRef.forEach((fr) => {
+                        const toAdd = db.people.person.filter((p) => {
+                            if(p && p.handle) {
+                                return (!p.handle.localeCompare(fr, undefined, {sensitivity: 'base'}));
+                            }
+                            return false;
+                        })
+                        result = result.concat(toAdd);
+                    })
+                }
+                if(family.mother !== null && family.mother !== undefined) {
+                    console.log(`filtering for mother(s)`)
+                    const motherRef = [family.mother].flat().map((m) => m.hlink)
+                    if(motherRef !== undefined && motherRef.length > 0) {
+                        motherRef.forEach((mr) => {
+                            const toAdd = db.people.person.filter((p) => {
+                                if(p && p.handle) {
+                                    return (!p.handle.localeCompare(mr, undefined, {sensitivity: 'base'}));
+                                }
+                                return false;
+                            })
+                            result = result.concat(toAdd);
+                        })
+                    }
+                }
+            }
+            if(result.length > 0) {
+                console.log(`getParentsOfFamily; returning ${result.length}`)
+                return result;
+            }
+        } else {
+            console.log(`getParentsOfFamily; family validation failed`)
+        }
+    } else {
+        console.log(`getParentsOfFamily; no db`)
+    }
+    return null;
+}
