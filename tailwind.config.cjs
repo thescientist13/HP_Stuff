@@ -2,8 +2,8 @@ const starlightPlugin = require('@astrojs/starlight-tailwind');
 const typography = require('@tailwindcss/typography');
 
 // Generated color palettes
-const accent = { 200: '#a2ccff', 600: '#006bc6', 900: '#003262', 950: '#002449' };
-const gray = { 100: '#f1f7fc', 200: '#e2f0f9', 300: '#b4c5cf', 400: '#7090a5', 500: '#3e5c6f', 700: '#1e3c4d', 800: '#0b2a3b', 900: '#0d1a22' };
+const accent = { 200: '#a2cef5', 600: '#0071b3', 900: '#003558', 950: '#002641' }; //hue 245 chroma 0.214
+const gray = { 100: '#f1f7fc', 200: '#e4eff8', 300: '#b7c4cf', 400: '#758fa3', 500: '#435b6e', 700: '#243b4c', 800: '#122939', 900: '#0f1921' }; //hue 241 chroma 0.042
 const transparent = 'transparent';
 const lochmara = {
   '50': '#f0f9ff',
@@ -22,6 +22,7 @@ const lochmara = {
 
 module.exports = {
   syntax: 'postcss-lit',
+  darkMode: 'class',
   content: {
     files: ['./src/components/**/*.{js,ts}'],
   },
@@ -35,3 +36,35 @@ module.exports = {
     typography(),
   ],
 };
+
+/*
+// Dark mode colors.
+:root {
+  --sl-color-accent-low: #002641;
+  --sl-color-accent: #006fb0;
+  --sl-color-accent-high: #a2cef5;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #e4eff8;
+  --sl-color-gray-2: #b7c4cf;
+  --sl-color-gray-3: #758fa3;
+  --sl-color-gray-4: #435b6e;
+  --sl-color-gray-5: #243b4c;
+  --sl-color-gray-6: #122939;
+  --sl-color-black: #0f1921;
+}
+// Light mode colors.
+:root[data-theme='light'] {
+  --sl-color-accent-low: #badbf8;
+  --sl-color-accent: #0071b3;
+  --sl-color-accent-high: #003558;
+  --sl-color-white: #0f1921;
+  --sl-color-gray-1: #122939;
+  --sl-color-gray-2: #243b4c;
+  --sl-color-gray-3: #435b6e;
+  --sl-color-gray-4: #758fa3;
+  --sl-color-gray-5: #b7c4cf;
+  --sl-color-gray-6: #e4eff8;
+  --sl-color-gray-7: #f1f7fc;
+  --sl-color-black: #ffffff;
+}
+ */
