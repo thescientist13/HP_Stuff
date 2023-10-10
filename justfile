@@ -17,7 +17,7 @@ check: install
 build: install parse
     ${PNPM} astro build
 
-parse: install
+parse: install pre-build
     ./bin/grampsParser.sh
 
 pre-build: install

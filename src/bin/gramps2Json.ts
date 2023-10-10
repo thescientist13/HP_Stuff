@@ -15,15 +15,11 @@ import {
     DatabaseSchema
 } from '../lib/GrampsZodTypes.js';
 
-const partialDB = DatabaseSchema.deepPartial();
-type partialDBType = z.infer<typeof partialDB>;
-
-import root from '../lib/root.json' assert { type: "json" };
 import * as process from "process";
 
-const grampsPath = path.join(root.CWD, 'public/potter_universe.gramps');
+const grampsPath = path.join(process.cwd(), 'public/potter_universe.gramps');
 
-console.log(`cwd is ${root.CWD}, path is ${grampsPath}`)
+console.log(`cwd is ${process.cwd()}, path is ${grampsPath}`)
 const buffer = fs.readFileSync(grampsPath);
 let data: zodExport | null = null;
 unzip(buffer, (err, buffer) => {
@@ -44,7 +40,7 @@ unzip(buffer, (err, buffer) => {
         const parser = new XMLParser(options);
         let jObj = parser.parse(gramps);
         if (jObj) {
-            console.log(`state dataFetcher jObj populated ${JSON.stringify(jObj)}`);
+            console.log(`state dataFetcher jObj populated `);
             const result: { success: true; data: zodExport; } | { success: false; error: ZodError; } = ExportSchema.safeParse(jObj);
             if(result.success) {
                 data = result.data;
@@ -127,6 +123,24 @@ db.people.person.forEach((p) => {
                                     toExport.people.person = toExport.people.person.concat(toAdd);
                                 }
                             }
+                            if(nf.childref) {
+                                const childrefs = [nf.childref].flat().map(cr => {return cr.hlink;});
+                                if(childrefs !== undefined && childrefs.length > 0) {
+                                    const children = childrefs.map((cr) => {
+                                        if(cr && cr.length > 0) {
+                                            const c = db.people.person.filter((p) => {
+                                                if(p && p.handle) {
+                                                    return (!p.handle.localeCompare(cr, undefined, {sensitivity: 'base'}));
+                                                }
+                                                return false;
+                                            });
+                                            if(c !== undefined && c.length > 0) {
+                                                toExport.people.person = toExport.people.person.concat(c);
+                                            }
+                                        }
+                                    })
+                                }
+                            }
                         })
                         toExport.families.family = toExport.families.family.concat(families);
                     }
@@ -168,7 +182,7 @@ db.people.person.forEach((p) => {
             }
         }
     }
-    const personPath = path.join(root.CWD, 'src/content/gramps/', p.id.concat('.json'));
+    const personPath = path.join(process.cwd(), 'src/content/gramps/', p.id.concat('.json'));
     const personFile = fs.openSync(personPath, 'w', 0o600)
     const validation = DatabaseSchema.safeParse(toExport);
     if(validation.success) {

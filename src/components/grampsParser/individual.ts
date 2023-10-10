@@ -146,6 +146,9 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
     if(validation.success) {
       console.log(`validation successful`)
       zodData.set(validation.data);
+      console.log(`retrieved data `)
+      console.log(`${validation.data.people.person.length} people`)
+      console.log(`${validation.data.families.family.length} familes`)
       return true;
     } else {
       console.log(`validation failed`)
@@ -222,35 +225,43 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
     console.log(`renderSiblings; start`)
     let t = html``
     let c_template = html``;
-    if(this.individual) {
+    if(this.individual !== null && this.individual !== undefined) {
       if (zodData) {
         const db: Database | null = zodData.get();
         if(db) {
-          console.log(`renderUnion; indivudal and controller set`)
-          const families = this.getFamilyAsChild();
-          if(families) {
+          console.log(`renderSiblings; indivudal ${this.individual.id} and controller set`)
+          const families: Family[] | null = this.getFamilyAsChild();
+          if(families !== null && families.length > 0) {
             families.map((f) => {
               if(f.childref) {
-                const allChildren = [f.childref].flat();
-
-                allChildren.map((c) => {
-                  if(c) {
-                    const child = db.people.person.filter((p) => {
-                      const handle = p.handle;
-                      if(handle) {
-                        return (!handle.localeCompare(c.hlink))
-                      }
-                    }).shift();
-                    if(child && (child.id !== this.personId)) {
-                      c_template = html`${c_template}
-                    <li>
-                      <simple-individual grampsId=${child.id} asLink showBirth showDeath asRange></simple-individual>
-                    </li>
-                    `
-                    }
+                const allChildren: (string | undefined)[] = [f.childref].flat().map(cr => {
+                  if(cr) {
+                    return cr.hlink;
                   }
-                })
-
+                });
+                if(allChildren !== null && allChildren !== undefined && allChildren.length > 0) {
+                  console.log(`renderSiblings; ${allChildren.length} to look through`)
+                  allChildren.map((cr) => {
+                    if(cr !== undefined) {
+                      console.log(`renderSiblings; child with handle ${cr} is real`)
+                      const child: Person | undefined = db.people.person.filter((p) => {
+                        if(p && p.handle) {
+                          console.log(`renderSiblings; comparing against ${p.handle}`)
+                          return (!p.handle.localeCompare(cr, undefined, {sensitivity: 'base'}))
+                        }
+                        return false;
+                      }).shift();
+                      if(child !== undefined && (child.id.localeCompare( this.personId, undefined, {sensitivity: 'base'}))) {
+                        console.log(`renderSiblings; templating child ${child.id}`);
+                        c_template = html`${c_template}
+                        <li>
+                          <simple-individual grampsId=${child.id} asLink showBirth showDeath asRange></simple-individual>
+                        </li>
+                        `
+                      }
+                    }
+                  })
+                }
               }
             })
             if(c_template.toString().length > 0) {
@@ -408,7 +419,7 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
       if(db) {
         if(this.personId !== null && this.personId !== undefined) {
           if(this.individual !== null && this.individual !== undefined) {
-            console.log(`getFamilyAsChild; with an individual`)
+            console.log(`getFamilyAsChild; with an individual ${this.individual.id}`)
             let result = Array<Family>();
             let familyRefs: (Sourceref | null)[] | null = (typeof this.individual.childof !== 'undefined')? [this.individual.childof].flat() : null;
             let familyLinks = Array<string>();
