@@ -8,7 +8,6 @@ import {TailwindMixin} from "./tailwind.element";
 import { z } from "zod";
 
 import style from '../styles/ButtonMenu.css?inline'
-import {dom as fontAwesomeDom} from "@fortawesome/fontawesome-svg-core";
 
 export class ButtonMenu extends TailwindMixin(LitElement,style) {
 
