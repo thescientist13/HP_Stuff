@@ -19,7 +19,10 @@
     "isolatedModules": false,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "module": "ESNext"
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ES2020",
+    "lib": ["es2020", "DOM"]
   },
   "include": [
     "./src/bin/**/*",

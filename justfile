@@ -12,10 +12,13 @@ dev: install
 
 check: install
     ${PNPM} astro check;
-    ${PNPM} tsc --noEmit;
+    ${PNPM} tsc -p tsconfig.node.json --noEmit;
 
-build: install
+build: install parse
     ${PNPM} astro build
 
-parse:
+parse: install
     ./bin/grampsParser.sh
+
+pre-build: install
+    ${PNPM} tsc -p tsconfig.node.json

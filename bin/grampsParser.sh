@@ -8,7 +8,7 @@ export CWD=`pwd`
 
 echo "{\"CWD\":\"./\"}" > $CWD/src/lib/root.json
 
-$PNPX ts-node -P tsconfig.node.json $CWD/src/bin/gramps2Json.ts
+$PNPX node  $CWD/src/bin/gramps2Json.js
 
 #$PNPX ts-node -P tsconfig.node.json -vv
 #$PNPX ts-node -P tsconfig.node.json --showConfig
