@@ -10,24 +10,14 @@ import { getCollection, getEntry } from 'astro:content';
 import { Card } from '@astrojs/starlight/components';
 import { GrampsIndividual} from './individual';
 import {z, ZodError} from 'zod'
-import {DatabaseSchema} from "../../lib/GrampsZodTypes";
+import {
+    type Database,
+    DatabaseSchema,
+    type Export,
+} from "@lib/GrampsZodTypes";
 import {rawEntry} from './state';
 
 let { personId } = Astro.props;
-const slug = `people/${personId}`
-console.log(`slug is ${slug}`);
 
-let grampsPeople = await getCollection('gramps');
-
-const thisPerson = await getEntry('gramps',slug )
 ---
-
-<script >
-    import {rawEntry} from './state';
-
-    rawEntry.set({thisPerson})
-</script>
-{personId}<br/>
-astro props are <ul>{Object.keys(Astro.props).map((k) => (<li>{k}</li>))}</ul>
-<!--<GrampsIndividual personId={id} client:only />-->
-
+<GrampsIndividual personId={Astro.props['personId']} client:only />
