@@ -73,9 +73,8 @@ import styles from  '@styles/Gramps.css?inline';
 import {IndividualName} from './individualName';
 import {SimpleIndividual} from "./simpleIndividual";
 import {GrampsEvent} from "./events";
+import {AncestorsTreeChart} from './AncestorsTreeChart'
 
-/*import {AncestorsTreeChart} from './AncestorsTreeChart'
-*/
 
 export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [primaryId, zodData]), styles) {
 
