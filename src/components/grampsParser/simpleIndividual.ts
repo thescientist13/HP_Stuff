@@ -6,14 +6,15 @@ import {TailwindMixin} from "../tailwind.element";
 
 import {zodData} from './state';
 
-import {type Database, type Person} from './GrampsTypes';
+import {type Database, type Person} from '@lib/GrampsZodTypes';
 
 import styles from '@styles/Gramps.css';
 
 import {IndividualName} from './individualName';
 import {GrampsEvent} from "./events";
+import {withStores} from "@nanostores/lit";
 
-export class SimpleIndividual extends TailwindMixin(LitElement, styles) {
+export class SimpleIndividual extends TailwindMixin(withStores(LitElement, [zodData]), styles) {
 
     @property({type: String})
     public grampsId: string;
@@ -35,10 +36,10 @@ export class SimpleIndividual extends TailwindMixin(LitElement, styles) {
 
     @property({type: Boolean})
     public asLink: boolean;
-    
+
     @property({type: Boolean})
     public showPlace: boolean;
-    
+
     @state()
     private individual: Person |  null;
 
@@ -54,7 +55,7 @@ export class SimpleIndividual extends TailwindMixin(LitElement, styles) {
         this.showPlace = false;
         this.asLink = false;
         this.asRange = false;
-        
+
     }
 
     public async willUpdate(changedProperties: PropertyValues<this>) {
@@ -66,17 +67,17 @@ export class SimpleIndividual extends TailwindMixin(LitElement, styles) {
     public render() {
         let t = html``
         if (zodData) {
-            console.log(`render; validated controller`)
             const db: Database | null = zodData.get();
             if (this.grampsId && db) {
+                console.log(`render; id is ${this.grampsId} && I have a db`)
                 const filterResult = db.people.person.filter((v) => {
-                    return v.id === this.grampsId
+                    return (!v.id.localeCompare(this.grampsId, undefined, {sensitivity: 'base'}))
                 })
                 if (filterResult && filterResult.length > 0) {
-                    console.log(`render; filter returned people`)
-                    const first = filterResult.shift();
-                    if (first) {
-                        console.log(`render; and the first was valid`);
+                    console.log(`render; filter returned ${filterResult.length} people`)
+                    const first: Person | undefined = filterResult.shift();
+                    if (first !== undefined) {
+                        console.log(`render; first has id ${first.id}`);
                         this.individual = first;
                         t = html`${t}<individual-name grampsId=${this.grampsId} link=${this.asLink || nothing} ></individual-name>`
                         const eventRefs = this.individual.eventref;

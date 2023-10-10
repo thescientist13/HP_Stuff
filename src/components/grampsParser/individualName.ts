@@ -1,10 +1,11 @@
 import {LitElement, html, nothing} from 'lit';
 import type {PropertyValues, TemplateResult} from 'lit'
+import { withStores } from "@nanostores/lit";
 import {property, state} from 'lit/decorators.js';
 
 import {TailwindMixin} from "../tailwind.element";
 
-import {zodData} from './state';
+import {primaryId, zodData} from './state';
 
 
 import {type Database,
@@ -15,10 +16,7 @@ import {type Database,
 
 import style from '../../styles/Gramps.css?inline';
 
-export class IndividualName extends TailwindMixin(LitElement, style) {
-
-  @property()
-  public url: URL | string | null;
+export class IndividualName extends TailwindMixin(withStores(LitElement,[primaryId, zodData]), style) {
 
   @property({type: String})
   public grampsId: string;
@@ -33,15 +31,39 @@ export class IndividualName extends TailwindMixin(LitElement, style) {
     super();
 
     this.link = false;
-    this.url = null;
     this.individual = null;
     this.grampsId = '';
 
   }
 
-  public async willUpdate(changedProperties: PropertyValues<this>) {
-    super.willUpdate(changedProperties)
+  connectedCallback() {
+    super.connectedCallback()
 
+  }
+
+
+public async willUpdate(changedProperties: PropertyValues<this>) {
+    super.willUpdate(changedProperties);
+    if(changedProperties.has('grampsId') && this.grampsId !== undefined) {
+      if(zodData) {
+        const db: Database | null = zodData.get();
+        if (db) {
+          console.log(`connectedCallback; and I have a db`)
+          const found = db.people.person.filter((p) => {
+            if(p) {
+              return (!p.id.localeCompare(this.grampsId, undefined, {sensitivity: 'base'}))
+            }
+          })
+          if(found) {
+            const first: Person | undefined = [found].flat().shift();
+            if(first !== undefined) {
+              console.log(`connectedCallback; person identified;`)
+              this.individual = first;
+            }
+          }
+        }
+      }
+    }
   }
 
   private buildLinkTarget(individual: Person) {

@@ -7,7 +7,8 @@ import {DateTime, Interval} from 'luxon';
 
 import { zodData } from './state';
 
-import {type Quality,
+import {
+    type Quality,
     type DatevalType,
     type EventType,
     type Role,
@@ -59,21 +60,23 @@ import {type Quality,
     type Citation,
     type Citations,
     type Database,
-    type Export
+    type Export,
+    PersonrefSchema
 } from '@lib/GrampsZodTypes';
 
 import {TailwindMixin} from "../tailwind.element";
 
-import style from '../../styles/Event.css?inline'
+import styles from '../../styles/Event.css?inline'
+import {withStores} from "@nanostores/lit";
 
-export class GrampsEvent extends TailwindMixin(LitElement,style) {
+export class GrampsEvent extends TailwindMixin(withStores(LitElement, [zodData]),styles) {
 
     @property({type: String, reflect: true})
     public eventId: string;
-    
+
     @state()
     private _event: Event | null;
-    
+
     @property({type: String})
     public grampsId: string;
 
@@ -148,7 +151,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
 
     public async willUpdate(changedProperties: PropertyValues<this>) {
         super.willUpdate(changedProperties)
-        
+
         if (zodData) {
             console.log(`willUpdate; controlers are ready to render`)
             const db = zodData.get();
@@ -157,17 +160,18 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
                     return v.id === this.grampsId
                 })
                 if (filterResult && filterResult.length > 0) {
-                    console.log(`willUpdate; filter returned people`)
-                    const first = filterResult.shift();
-                    if (first) {
+                    console.log(`willUpdate; filter returned ${filterResult.length} people`)
+                    const first: Person | undefined = filterResult.shift();
+                    if (first !== undefined) {
                         console.log(`willUpdate; and the first was valid`);
                         this._i1 = first;
-                        console.log(`willUpdate; I first need to find the envent`)
+                        console.log(`willUpdate; I first need to find the event`)
                         if(this.showBirth ) {
                             console.log(`willUpdate; looking for a birth record for ${this.grampsId}`)
                             if(this._i1) {
                                 const e = this.findBirthByPerson(this._i1);
                                 if(e) {
+                                    console.log(`willUpdate; e found with id ${e.id}`)
                                     this.eventId = e.id;
                                     this._event = e;
                                 }
@@ -213,6 +217,7 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
         console.log(`findBirthByPerson; start`)
         const db = zodData.get();
         if(db) {
+            console.log(`findDeathByPerson; I have a db`)
             const events = this.findEventsByPerson(individual);
             if(events) {
                 console.log(`findBirthByPerson; person has ${events.length} events`)
@@ -223,51 +228,55 @@ export class GrampsEvent extends TailwindMixin(LitElement,style) {
         }
         return null;
     }
-    
+
     public findBirthByPerson(individual: Person) {
         console.log(`findBirthByPerson; start`)
         const db = zodData.get();
         if(db) {
+            console.log(`findBirthByPerson; I have a db`)
             const events = this.findEventsByPerson(individual);
             if(events) {
                 console.log(`findBirthByPerson; person has ${events.length} events`)
                 return events.filter(e => {
+                    console.log(`e.type is ${e.type}`)
                     return (e.type === 'Birth')
                 }).shift();
             }
         }
         return null;
     }
-    
+
     public findEventsByPerson(individual: Person):  Event[] | null {
         console.log(`findEventsByPerson; start`)
-        const refs  = individual.eventref;
+        const refs: EventrefElement | EventrefElement[] | undefined | null = individual.eventref;
         const db = zodData.get();
-        if(db) {
-            if(refs) {
-                console.log(`findEventsByPerson; I have refs to search`)
-                const r = [refs].flat()
-                const returnable =  db.events.event.filter((e) => {
-                    const _id = e.handle;
-                    if(_id) {
-                        let result = false;
-                        r.forEach((ref) => {
-                            const link = ref.hlink;
-                            if(!_id.localeCompare(link)) {
-                                console.log(`findBirthByPerson; found event for person`)
-                                result = true;
-                            }
-                        })
-                        return result;
+        if(db && refs !== null && refs !== undefined) {
+            console.log(`findEventsByPerson; I have refs to search`)
+            const r: EventrefElement[] = [refs].flat()
+            const returnable =  db.events.event.filter((e) => {
+                const _id = e.handle;
+                if(_id) {
+                    let result = Array<boolean>();
+                    r.forEach((ref) => {
+                        const link = ref.hlink;
+                        if(!_id.localeCompare(link)) {
+                            console.log(`findEventsByPerson; found event for person`)
+                            result.push(true);
+                        }
+                    })
+                    if(result.includes(true)) {
+                        return true;
                     }
-                    return false;
-                })
+                }
+                return false;
+            })
+            if(returnable !== null && returnable !== undefined) {
+                return returnable;
             }
-            
         }
         return null;
     }
-    
+
     private displayDate(event: Event) {
         let t = html``
         let d: DateTime | null = null;

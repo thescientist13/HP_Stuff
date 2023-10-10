@@ -8,7 +8,7 @@ import {task, onSet, onMount} from "nanostores";
 
 import {TailwindMixin} from "../tailwind.element";
 
-import {zodData, rawEntry } from './state';
+import {zodData,  primaryId } from './state';
 
 import {type Quality,
   type DatevalType,
@@ -70,15 +70,15 @@ import {type Quality,
 // @ts-ignore
 import styles from  '@styles/Gramps.css?inline';
 
+import {IndividualName} from './individualName';
+import {SimpleIndividual} from "./simpleIndividual";
+import {GrampsEvent} from "./events";
 
 /*import {AncestorsTreeChart} from './AncestorsTreeChart'
-import {IndividualName} from './individualName';
-import {GrampsEvent} from "./events";
-import {SimpleIndividual} from "./simpleIndividual";
 */
 
-export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [zodData, rawEntry]), styles) {
-  
+export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [primaryId, zodData]), styles) {
+
   @property({type: String})
   public personId: string;
 
@@ -97,8 +97,9 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [zodD
     super.willUpdate(changedProperties)
     console.log(`willUpdate; id is ${this.personId}`)
     if(changedProperties.has('personId')) {
-      if(this.personId.length > 0 ) {
-        console.log(`calling getZodData for ${this.personId}`)
+      console.log(`${typeof this.personId}`)
+      if( this.personId !== undefined && this.personId.length > 0 ) {
+        console.log(`calling setIndividual for ${this.personId}`)
         this.setIndividual();
       }
     }
@@ -106,22 +107,54 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [zodD
 
 
 
+
   private setIndividual() {
-    if(this.personId.length > 0 ) {
-      const db: Database | null = zodData.get();
-      if(db && db.people) {
-        const result = db.people.person.filter((p) => {
-          if(p) {
-            return (!p.id.localeCompare(this.personId, undefined, {sensitivity: 'base'}))
+    if(primaryId && this.personId.length > 0 ) {
+      const personUrl = new URL('/gramps/'.concat(this.personId).concat('.json'),import.meta.url);
+      console.log(`setIndividual; url is ${personUrl.toString()}`)
+      onSet(primaryId,() => {
+        console.log(`setIndividual onSet; personUrl is ${personUrl.toString()}`)
+        task(async () => {
+          const status = await this.fetchData(personUrl);
+          if(status) {
+            const db = zodData.get();
+            if(db) {
+              const found = db.people.person.filter((p) => {
+                if(p) {
+                  return (!p.id.localeCompare(this.personId, undefined, {sensitivity: 'base'}))
+                }
+              })
+              if(found) {
+                const first: Person | undefined = [found].flat().shift();
+                if(first !== undefined) {
+                  this.individual = first;
+                }
+              }
+            }
           }
-          return false;
         })
-        if(result && result.length > 0) {
-          this.individual = [result].flat().shift();
-        }
-      }
+      });
+      primaryId.set(this.personId);
     }
   }
+
+  private async fetchData(personUrl: URL) {
+    console.log(`fetchData onSet task; personUrl is ${personUrl.toString()}`)
+    const response = await fetch(personUrl);
+    const data = await response.json();
+    const validation = DatabaseSchema.safeParse(data);
+    if(validation.success) {
+      console.log(`validation successful`)
+      zodData.set(validation.data);
+      return true;
+    } else {
+      console.log(`validation failed`)
+      console.log(JSON.stringify(validation.error))
+    }
+    return false;
+  }
+
+
 
   private renderGeneral(individual: Person) {
     return  html`
@@ -141,17 +174,19 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [zodD
         const db: Database | null = zodData.get();
         if(db) {
           console.log(`renderParents; indivudal and controller set`)
-          const family = [this.getFamilyAsChild()].flat().shift();
-          if(family) {
+          const family: Family | undefined | null = [this.getFamilyAsChild()].flat().shift();
+          if(family !== null && family !== undefined) {
             console.log(`renderParents; family found`)
             let f = html``
             let m = html``
             const fatherLink = family.father ? family.father.hlink : null;
             if(fatherLink) {
+              console.log(`renderParents; looking for father`)
               const father = db.people.person.filter(p => {
                 return (!p.handle.localeCompare(fatherLink))
               }).shift();
               if(father) {
+                console.log(`renderParents; found father with id ${father.id}`)
                 f = html`<simple-individual grampsId=${father.id} asLink showBirth showDeath asRange></simple-individual>`
               }
             }
@@ -371,33 +406,39 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [zodD
     if (zodData) {
       const db: Database | null = zodData.get();
       if(db) {
-        let result = Array<Family>();
-        if (this.personId) {
-          if (this.individual) {
+        if(this.personId !== null && this.personId !== undefined) {
+          if(this.individual !== null && this.individual !== undefined) {
             console.log(`getFamilyAsChild; with an individual`)
-            let familyRefs: Sourceref[] | Sourceref | null = (typeof this.individual.childof !== 'undefined')? this.individual.childof : null;
+            let result = Array<Family>();
+            let familyRefs: (Sourceref | null)[] | null = (typeof this.individual.childof !== 'undefined')? [this.individual.childof].flat() : null;
             let familyLinks = Array<string>();
-            if(familyRefs) {
-              console.log(`getFamilyAsChild; found refs`);
-              [familyRefs].flat().forEach(r => {
-                familyLinks.push(r.hlink);
-              })
-            }
-            console.log(`getFamilyAsChild; I have ${familyLinks.length} links`)
-            result = db.families.family.filter((f) => {
-              const handle = f.handle;
-              let r = false;
-              familyLinks.forEach(l => {
-                if(!handle.localeCompare(l)) {
-                  r = true;
+            if(familyRefs !== null && familyRefs.length > 0) {
+              familyRefs.forEach(r => {
+                if(r !== null) {
+                  familyLinks.push(r.hlink);
                 }
               })
-              return r;
-            })
+              console.log(`getFamilyAsChild; I have ${familyLinks.length} links`);
+              result = db.families.family.filter((f) => {
+                const handle = f.handle;
+                let r = Array<boolean>()
+                familyLinks.forEach(l => {
+                  if(!handle.localeCompare(l)) {
+                    r.push(true);
+                  }
+                  r.push(false);
+                })
+                if(r.includes(true)) {
+                  return true;
+                }
+                return false;
+              })
+            }
+            if(result.length > 0) {
+              console.log(`getFamilyAsChild; returning ${result.length} families`)
+              return result;
+            }
           }
-        }
-        if(result.length > 0) {
-          return result
         }
       }
     }
@@ -501,13 +542,8 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [zodD
   connectedCallback() {
     super.connectedCallback()
 
-    onMount(rawEntry, () => {
-      const result = DatabaseSchema.safeParse(rawEntry.get());
-      if(result.success) {
-        zodData.set(result.data)
-      }
-    })
   }
+
   public render() {
     let t = html``
     if (zodData) {

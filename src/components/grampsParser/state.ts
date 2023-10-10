@@ -14,12 +14,11 @@ import {type Export as zodExport,
   DatabaseSchema
 } from '@lib/GrampsZodTypes';
 
-export const rawEntry = atom<any | null>(null);
+export const primaryId = atom<string | null>(null);
 
 export const zodData = atom<Database | null>(null);
 
-
 const Storelogger = logger({
-  'raw Entry': rawEntry,
+  'primary id': primaryId,
   'zod Data': zodData,
 });
