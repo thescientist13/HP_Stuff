@@ -8,9 +8,9 @@ export CWD=`pwd`
 
 echo "{\"CWD\":\"./\"}" > $CWD/src/lib/root.json
 
+#this will set up a collection with
+#json files for both the full db
+#and optimized files for individual pages
 $PNPX node  $CWD/src/bin/gramps2Json.js
-
-#$PNPX ts-node -P tsconfig.node.json -vv
-#$PNPX ts-node -P tsconfig.node.json --showConfig
 
 rm -rf ${TEMPDIR}

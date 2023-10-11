@@ -1,5 +1,4 @@
-import {LitElement, html,} from 'lit';
-import type {PropertyValues, TemplateResult} from 'lit'
+import {LitElement, html, type PropertyValues} from 'lit';
 import {property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';
 
@@ -71,7 +70,9 @@ import {GrampsEvent} from "./events";
 import {SimpleIndividual} from "./simpleIndividual";
 import {GrampsIndividual} from "./individual";
 import {withStores} from "@nanostores/lit";
-import {task} from "nanostores";
+import {allTasks, task} from "nanostores";
+import {util} from "zod";
+import assertNever = util.assertNever;
 
 type renderChildrenTreeProps = {
   family: Family,
@@ -79,59 +80,49 @@ type renderChildrenTreeProps = {
 };
 
 export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData]), styles) {
+  @property()
+  public url: URL | string | null;
 
-  private url: URL = new URL('/gramps/I0000.json', document.URL);
-  
   @state()
   private _persons: Person[] | null;
-  
+
   @state()
   private _name: string;
 
   private _renderedPersons: string[] ;
-  
+
   constructor() {
     super();
-    
-    this._name = ''
+
+    this._name = '';
+    this.url = new URL('/gramps/gramps.json', document.URL );
     this._persons = null;
     this._renderedPersons = new Array<string>();
   }
+
   connectedCallback() {
     super.connectedCallback()
-    task(async () => {
-      const status = await this.fetchData(this.url);
-    })
+    console.log(`initial url is ${this.url}`)
+    if(this.url instanceof URL) {
+      this.fetchData(this.url);
+    }
+
   }
+
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
+    console.log(`willUpdate;`)
     if (!this._name) {
       this.setName();
     }
 
     if (!this._persons) {
+      console.log(`persons is not set, setting up listener`)
+      zodData.listen(() => {})
+      await allTasks();
+      console.log(`all tasks complete, calling getPersons`)
       this.getPersons();
-
     }
-  }
-
-  private async fetchData(dataUrl: URL) {
-    console.log(`fetchData onSet task; dataUrl is ${dataUrl.toString()}`)
-    const response = await fetch(dataUrl);
-    const data = await response.json();
-    const validation = DatabaseSchema.safeParse(data);
-    if(validation.success) {
-      console.log(`validation successful`)
-      zodData.set(validation.data);
-      console.log(`retrieved data `)
-      console.log(`${validation.data.people.person.length} people`)
-      console.log(`${validation.data.families.family.length} familes`)
-      return true;
-    } else {
-      console.log(`validation failed`)
-      console.log(JSON.stringify(validation.error))
-    }
-    return false;
   }
 
   private setName() {
@@ -149,6 +140,29 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
       this._name = name;
       console.log(`name set to ${this._name}`)
     }
+  }
+
+  private async fetchData(dbUrl: URL) {
+    console.log(`fetchData onSet task; dbUrl is ${dbUrl.toString()}`)
+    const result =  await task(async () => {
+      const response = await fetch(dbUrl);
+      const data = await response.json();
+      const validation = DatabaseSchema.safeParse(data);
+      if(validation.success) {
+        console.log(`validation successful`)
+        zodData.set(validation.data);
+        console.log(`retrieved data `)
+        console.log(`${validation.data.people.person.length} people`)
+        console.log(`${validation.data.families.family.length} familes`)
+        return true;
+      } else {
+        console.log(`validation failed`)
+        console.log(JSON.stringify(validation.error))
+      }
+      return false;
+    })
+    console.log(`fetchData result was ${result}`)
+    return result;
   }
 
   private checkMatchingName(person: Person) {
@@ -252,7 +266,7 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
     }
     return null;
   }
-  
+
   private renderChildLine(person: Person) {
     let t = html`No Child`
     const db = zodData.get();
@@ -317,7 +331,7 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
       `
     }, () => html`Pending Data`)}`
   }
-  
+
 }
 
 customElements.define('gramps-family', GrampsFamily);

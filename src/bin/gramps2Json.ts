@@ -74,6 +74,26 @@ while(!data) {
 
 const db = (data as zodExport).database;
 
+/*
+ * I will need two things.
+ * 1) I need a copy of the entire database for things like family tree pages
+ * 2) I need smaller files with subsets of the data that are easier to process for individual pages
+ *    the smaller files improve performance because there is less to iterate over when I have
+ *    to repeatedly filter the database.
+ */
+
+//first output, the full db
+const fullDBPath = path.join(process.cwd(), 'src/content/gramps/', 'gramps.json');
+const fullDBFile = fs.openSync(fullDBPath, 'w', 0o600)
+const validation = DatabaseSchema.safeParse(db);
+if(validation.success) {
+    fs.writeSync(fullDBFile, JSON.stringify(validation.data));
+    fs.closeSync(fullDBFile);
+} else {
+    console.error(`${validation.error.toString()}`)
+}
+
+//second split it up for individual pages
 db.people.person.forEach((p) => {
 
     let toExport: Database = {
@@ -110,81 +130,13 @@ db.people.person.forEach((p) => {
     const personFile = fs.openSync(personPath, 'w', 0o600)
     const validation = DatabaseSchema.safeParse(toExport);
     if(validation.success) {
-        fs.writeSync(personFile, JSON.stringify(toExport))
+        fs.writeSync(personFile, JSON.stringify(toExport));
+        fs.closeSync(personFile);
     } else {
         console.error(`${validation.error.toString()}`)
     }
 })
-//I need separate json files to support the family index pages.
-const familyStore = new Map<string, Set<Family>>()
-db.families.family.forEach((f) => {
-    //family records do not actually record the family name
-    const fatherRef = f.father;
-    if(fatherRef !== null && fatherRef !== undefined) {
-        const father = db.people.person.filter((p) => {
-            if(p && p.handle) {
-                return (!p.handle.localeCompare(fatherRef.hlink, undefined, {sensitivity: 'base'}))
-            }
-            return false;
-        })
-        if(father != null && father !== undefined) {
-            father.forEach((mpu) => {
-                if(mpu !== null && mpu !== undefined) {
-                    let last = '';
-                    if(mpu.name !== null && mpu.name !== undefined) {
-                        const surnameObject = (mpu.name as NameElement).surname
-                        if (surnameObject !== null && surnameObject !== undefined) {
-                            let surname: string = '';
-                            if(typeof surnameObject === 'string') {
-                                surname = surnameObject;
-                            } else {
-                                surname = surnameObject['#text'];
-                            }
-                            if(surname !== null && surname !== undefined && surname.length > 0) {
-                                let fs = familyStore.get(surname);
-                                if(fs !== undefined) {
-                                    fs.add(f);
-                                } else {
-                                    fs = new Set<Family>;
-                                    fs.add(f);
-                                }
-                                familyStore.set(surname, fs);
-                            }
-                        }
-                    }
-                }
-            })
-        }
-    }
-})
-for (let surname in familyStore.keys()) {
-    const fset = familyStore.get(surname);
-    let toExport = Array<Person>();
-    if(fset !== undefined && fset.size > 0) {
-        fset.forEach((family) => {
-            const parents = getParentsOfFamily(family);
-            if(parents !== null) {
-                toExport = toExport.concat(parents);
-            }
-            const children = getChildrenOfFamily(family);
-            if(children !== null) {
-                toExport = toExport.concat(children);
-            }
-            toExport = Array.from(new Set(toExport.map((item) => item)));
-        })
-    }
-    if(toExport.length > 0 ) {
-        const familyPath = path.join(process.cwd(), 'src/content/gramps/', surname.concat('.json'));
-        const familyFile = fs.openSync(familyPath, 'w', 0o600);
-        const validation = FamiliesSchema.safeParse({family: toExport})
-        if(validation.success) {
-            fs.writeSync(familyFile, JSON.stringify(validation.data))
-        } else {
-            console.log(`final family validation failed`)
-            console.log(`${JSON.stringify(validation.error)}`)
-        }
-    }
-}
+
 function getRelations(individual: Person) {
     if (db && individual !== null && individual !== undefined) {
         let peopleToExport = new Array<Person>();
