@@ -7,7 +7,8 @@ import {createRef, ref} from 'lit/directives/ref.js'
 import {until} from 'lit/directives/until.js';
 import {unsafeHTML} from 'lit/directives/unsafe-html.js';
 import {when} from 'lit/directives/when.js';
-import type {Ref, RefOrCallback} from 'lit/directives/ref';
+import { type Ref, type RefOrCallback } from 'lit/directives/ref.js';
+
 import {provide, createContext} from '@lit-labs/context';
 import type { ReactiveController, ReactiveControllerHost } from 'lit';
 import type { Observable, Subscription } from 'rxjs';
@@ -42,17 +43,19 @@ export class MermaidDiagram extends LitElement {
 
     }
 
-    protected handleSlotChange(e) {
+    protected handleSlotChange(e: Event) {
         console.log(`handleSlotChange called`)
-        const childNodes = e.target.assignedNodes({flatten: true});
-        const me = this.mermaidDivRef.value?.querySelector('slot');
-        if(childNodes && me) {
-            console.log(`in handleSlotChange, I found slot children`)
-            this.mdc = childNodes;
-            this.renderMermaid(this.mermaidDivRef.value)
-        } else {
-            console.log(`in handleSlotChange, I found no children`)
-            this.mdc = null;
+        if(e && e.target) {
+            const childNodes = (e.target as HTMLSlotElement).assignedNodes({flatten: true});
+            const me = this.mermaidDivRef.value?.querySelector('slot');
+            if(childNodes && me) {
+                console.log(`in handleSlotChange, I found slot children`)
+                this.mdc = childNodes;
+                this.renderMermaid(this.mermaidDivRef.value)
+            } else {
+                console.log(`in handleSlotChange, I found no children`)
+                this.mdc = null;
+            }
         }
     }
 
@@ -67,7 +70,6 @@ export class MermaidDiagram extends LitElement {
                 securityLevel: 'antiscript',
                 startOnLoad: false,
                 wrap: true,
-                fontSize: 14,
             });
             let CP_slot = div.querySelector('slot');
             if(CP_slot) {
