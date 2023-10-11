@@ -8,7 +8,7 @@ import {zodData} from './state';
 
 import {type Database, type Person} from '@lib/GrampsZodTypes';
 
-import styles from '@styles/Gramps.css';
+import styles from '@styles/Gramps.css?inline';
 
 import {IndividualName} from './individualName';
 import {GrampsEvent} from "./events";
