@@ -60,7 +60,7 @@ import {
   type Citation,
   type Citations,
   type Database,
-  type Export, SourcerefSchema
+  type Export, SourcerefSchema, DatabaseSchema
 } from '@lib/GrampsZodTypes';
 
 import styles from '../../styles/Gramps.css?inline';
@@ -70,15 +70,17 @@ import {IndividualName} from './individualName';
 import {GrampsEvent} from "./events";
 import {SimpleIndividual} from "./simpleIndividual";
 import {GrampsIndividual} from "./individual";
+import {withStores} from "@nanostores/lit";
+import {task} from "nanostores";
 
 type renderChildrenTreeProps = {
   family: Family,
   root: Person,
 };
 
-export class GrampsFamily extends TailwindMixin(LitElement, styles) {
-  @property()
-  public url: URL | string | null;
+export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData]), styles) {
+
+  private url: URL = new URL('/gramps/I0000.json', document.URL);
   
   @state()
   private _persons: Person[] | null;
@@ -92,11 +94,15 @@ export class GrampsFamily extends TailwindMixin(LitElement, styles) {
     super();
     
     this._name = ''
-    this.url = null;
     this._persons = null;
     this._renderedPersons = new Array<string>();
   }
-  
+  connectedCallback() {
+    super.connectedCallback()
+    task(async () => {
+      const status = await this.fetchData(this.url);
+    })
+  }
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
     if (!this._name) {
@@ -108,7 +114,26 @@ export class GrampsFamily extends TailwindMixin(LitElement, styles) {
 
     }
   }
-  
+
+  private async fetchData(dataUrl: URL) {
+    console.log(`fetchData onSet task; dataUrl is ${dataUrl.toString()}`)
+    const response = await fetch(dataUrl);
+    const data = await response.json();
+    const validation = DatabaseSchema.safeParse(data);
+    if(validation.success) {
+      console.log(`validation successful`)
+      zodData.set(validation.data);
+      console.log(`retrieved data `)
+      console.log(`${validation.data.people.person.length} people`)
+      console.log(`${validation.data.families.family.length} familes`)
+      return true;
+    } else {
+      console.log(`validation failed`)
+      console.log(JSON.stringify(validation.error))
+    }
+    return false;
+  }
+
   private setName() {
     const u = new URL(document.URL);
     const path = u.pathname;

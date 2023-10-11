@@ -11,12 +11,13 @@ import {
     type Export as zodExport,
     type Database,
     ExportSchema,
+    type NameElement,
     type People,
     type Person,
     DatabaseSchema,
     type Family,
     type Sourceref,
-    PersonSchema, FamiliesSchema, FamilySchema
+    PersonSchema, FamiliesSchema, FamilySchema, NameElementSchema
 } from '../lib/GrampsZodTypes.js';
 
 import * as process from "process";
@@ -114,7 +115,76 @@ db.people.person.forEach((p) => {
         console.error(`${validation.error.toString()}`)
     }
 })
-
+//I need separate json files to support the family index pages.
+const familyStore = new Map<string, Set<Family>>()
+db.families.family.forEach((f) => {
+    //family records do not actually record the family name
+    const fatherRef = f.father;
+    if(fatherRef !== null && fatherRef !== undefined) {
+        const father = db.people.person.filter((p) => {
+            if(p && p.handle) {
+                return (!p.handle.localeCompare(fatherRef.hlink, undefined, {sensitivity: 'base'}))
+            }
+            return false;
+        })
+        if(father != null && father !== undefined) {
+            father.forEach((mpu) => {
+                if(mpu !== null && mpu !== undefined) {
+                    let last = '';
+                    if(mpu.name !== null && mpu.name !== undefined) {
+                        const surnameObject = (mpu.name as NameElement).surname
+                        if (surnameObject !== null && surnameObject !== undefined) {
+                            let surname: string = '';
+                            if(typeof surnameObject === 'string') {
+                                surname = surnameObject;
+                            } else {
+                                surname = surnameObject['#text'];
+                            }
+                            if(surname !== null && surname !== undefined && surname.length > 0) {
+                                let fs = familyStore.get(surname);
+                                if(fs !== undefined) {
+                                    fs.add(f);
+                                } else {
+                                    fs = new Set<Family>;
+                                    fs.add(f);
+                                }
+                                familyStore.set(surname, fs);
+                            }
+                        }
+                    }
+                }
+            })
+        }
+    }
+})
+for (let surname in familyStore.keys()) {
+    const fset = familyStore.get(surname);
+    let toExport = Array<Person>();
+    if(fset !== undefined && fset.size > 0) {
+        fset.forEach((family) => {
+            const parents = getParentsOfFamily(family);
+            if(parents !== null) {
+                toExport = toExport.concat(parents);
+            }
+            const children = getChildrenOfFamily(family);
+            if(children !== null) {
+                toExport = toExport.concat(children);
+            }
+            toExport = Array.from(new Set(toExport.map((item) => item)));
+        })
+    }
+    if(toExport.length > 0 ) {
+        const familyPath = path.join(process.cwd(), 'src/content/gramps/', surname.concat('.json'));
+        const familyFile = fs.openSync(familyPath, 'w', 0o600);
+        const validation = FamiliesSchema.safeParse({family: toExport})
+        if(validation.success) {
+            fs.writeSync(familyFile, JSON.stringify(validation.data))
+        } else {
+            console.log(`final family validation failed`)
+            console.log(`${JSON.stringify(validation.error)}`)
+        }
+    }
+}
 function getRelations(individual: Person) {
     if (db && individual !== null && individual !== undefined) {
         let peopleToExport = new Array<Person>();
@@ -123,7 +193,6 @@ function getRelations(individual: Person) {
             if (individual.childof) {
                 const families = getFamilyAsChild(individual);
                 if (families && families.length > 0) {
-                    console.log(`adding in ${families.length} families`);
                     familiesToExport = familiesToExport.concat(families);
                     families.forEach((nf) => {
                         const parents = getParentsOfFamily(nf)
@@ -191,11 +260,9 @@ function getChildrenOfFamily(family: Family) {
 }
 
 function getFamilyAsSpouse(individual: Person) {
-    console.log(`getFamilyAsChild; starting`)
     if(db) {
         const personValidation = PersonSchema.safeParse(individual);
         if(personValidation.success) {
-            console.log(`getFamilyAsChild; with an individual ${individual.id}`);
             let results = new Set<Family>();
             if(individual.parentin !== null && individual.parentin !== undefined) {
                 const familyRefs = [individual.parentin].flat().map((c) => {return c.hlink});
@@ -224,11 +291,9 @@ function getFamilyAsSpouse(individual: Person) {
 }
 
 function getFamilyAsChild(individual: Person) {
-    console.log(`getFamilyAsChild; starting`)
     if(db) {
         const personValidation = PersonSchema.safeParse(individual);
         if(personValidation.success) {
-            console.log(`getFamilyAsChild; with an individual ${individual.id}`);
             let results = new Set<Family>();
             if(individual.childof !== null && individual.childof !== undefined) {
                 const childof = [individual.childof].flat().map((c) => {return c.hlink});
@@ -257,14 +322,11 @@ function getFamilyAsChild(individual: Person) {
 }
 
 function getParentsOfFamily(family: Family) {
-    console.log(`getParentsOfFamily; started`)
     if(db) {
         const familyValidation = FamilySchema.safeParse(family);
         if(familyValidation.success) {
-            console.log(`getParentsOfFamily; with a valid family`);
             let result = new Array<Person>();
             if(family.father !== null && family.father !== undefined) {
-                console.log(`filtering for father(s)`)
                 const fatherRef = [family.father].flat().map((f) => f.hlink)
                 if(fatherRef !== undefined && fatherRef.length > 0) {
                     fatherRef.forEach((fr) => {
@@ -278,7 +340,6 @@ function getParentsOfFamily(family: Family) {
                     })
                 }
                 if(family.mother !== null && family.mother !== undefined) {
-                    console.log(`filtering for mother(s)`)
                     const motherRef = [family.mother].flat().map((m) => m.hlink)
                     if(motherRef !== undefined && motherRef.length > 0) {
                         motherRef.forEach((mr) => {
@@ -294,7 +355,6 @@ function getParentsOfFamily(family: Family) {
                 }
             }
             if(result.length > 0) {
-                console.log(`getParentsOfFamily; returning ${result.length}`)
                 return result;
             }
         } else {
