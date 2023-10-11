@@ -4,7 +4,7 @@ import {when} from 'lit/directives/when.js';
 
 import {TailwindMixin} from "../tailwind.element";
 
-import {zodData} from './state';
+import {zodData, fetchData} from './state';
 
 import {
   type Quality,
@@ -104,7 +104,7 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
     super.connectedCallback()
     console.log(`initial url is ${this.url}`)
     if(this.url instanceof URL) {
-      this.fetchData(this.url);
+      fetchData(this.url);
     }
 
   }
@@ -140,29 +140,6 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
       this._name = name;
       console.log(`name set to ${this._name}`)
     }
-  }
-
-  private async fetchData(dbUrl: URL) {
-    console.log(`fetchData onSet task; dbUrl is ${dbUrl.toString()}`)
-    const result =  await task(async () => {
-      const response = await fetch(dbUrl);
-      const data = await response.json();
-      const validation = DatabaseSchema.safeParse(data);
-      if(validation.success) {
-        console.log(`validation successful`)
-        zodData.set(validation.data);
-        console.log(`retrieved data `)
-        console.log(`${validation.data.people.person.length} people`)
-        console.log(`${validation.data.families.family.length} familes`)
-        return true;
-      } else {
-        console.log(`validation failed`)
-        console.log(JSON.stringify(validation.error))
-      }
-      return false;
-    })
-    console.log(`fetchData result was ${result}`)
-    return result;
   }
 
   private checkMatchingName(person: Person) {

@@ -8,7 +8,7 @@ import {task, onSet, onMount} from "nanostores";
 
 import {TailwindMixin} from "../tailwind.element";
 
-import {zodData,  primaryId } from './state';
+import {zodData,  primaryId, fetchData } from './state';
 
 import {type Quality,
   type DatevalType,
@@ -114,7 +114,7 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
       onSet(primaryId,() => {
         console.log(`setIndividual onSet; personUrl is ${personUrl.toString()}`)
         task(async () => {
-          const status = await this.fetchData(personUrl);
+          const status = await fetchData(personUrl);
           if(status) {
             const db = zodData.get();
             if(db) {
@@ -136,27 +136,6 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
       primaryId.set(this.personId);
     }
   }
-
-  private async fetchData(personUrl: URL) {
-    console.log(`fetchData onSet task; personUrl is ${personUrl.toString()}`)
-    const response = await fetch(personUrl);
-    const data = await response.json();
-    const validation = DatabaseSchema.safeParse(data);
-    if(validation.success) {
-      console.log(`validation successful`)
-      zodData.set(validation.data);
-      console.log(`retrieved data `)
-      console.log(`${validation.data.people.person.length} people`)
-      console.log(`${validation.data.families.family.length} familes`)
-      return true;
-    } else {
-      console.log(`validation failed`)
-      console.log(JSON.stringify(validation.error))
-    }
-    return false;
-  }
-
-
 
   private renderGeneral(individual: Person) {
     return  html`

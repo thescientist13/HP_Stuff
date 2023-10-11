@@ -1,12 +1,13 @@
 import {LitElement, html,} from 'lit';
-import type {PropertyValues, TemplateResult} from 'lit'
-import {property, state} from 'lit/decorators.js';
+import { state} from 'lit/decorators.js';
 
 import {TailwindMixin} from "../tailwind.element";
 
 import styles from '@styles/Gramps.css?inline';
 
-import {zodData} from './state';
+import {zodData, fetchData} from './state';
+
+import {withStores} from "@nanostores/lit";
 
 import {
   type Quality,
@@ -61,31 +62,37 @@ import {
   type Citation,
   type Citations,
   type Database,
-  type Export, SourcerefSchema
+  type Export, SourcerefSchema, DatabaseSchema
 } from '@lib/GrampsZodTypes';
 
-export class GenealogicalData extends TailwindMixin(LitElement, styles) {
+
+export class GenealogicalData extends TailwindMixin(withStores(LitElement, [zodData]), styles) {
 
   @state()
-  private controllersReady: boolean
+  private url: URL | string | null;
 
   constructor() {
     super();
 
-    this.controllersReady = false;
+    this.url = new URL('/gramps/gramps.json', document.URL );
 
   }
 
-  public async willUpdate(changedProperties: PropertyValues<this>) {
-    super.willUpdate(changedProperties)
-    console.log(`header willUpdate; super complete`)
-
+  connectedCallback() {
+    super.connectedCallback()
+    console.log(`initial url is ${this.url}`)
+    if(this.url instanceof URL) {
+      fetchData(this.url);
+      zodData.listen(() => {
+        this.requestUpdate();
+      })
+    }
   }
 
   render() {
-    if(this.controllersReady) {
-      console.log(`grampsParser/index render; controllersReady is true`)
-      const gramps = zodData.get();
+    const gramps = zodData.get();
+    if(gramps !== null && gramps !== undefined) {
+      console.log(`grampsParser/index render; `)
 
       let t = html``
       if(gramps) {
