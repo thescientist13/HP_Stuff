@@ -1,5 +1,6 @@
 # build output
 src/content/gramps/*.json
+src/**/*.js
 src/lib/root.json
 dist/
 # generated types

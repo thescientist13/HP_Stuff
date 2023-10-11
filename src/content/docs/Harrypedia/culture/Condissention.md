@@ -48,20 +48,21 @@ around for *centuries*.  These two examples reiterate what I said discussing
 [clothing] - that magical society in fact wishes to be *different* regardless
 of what is available or better. 
 
-[paper]: <../parchment/>
+[paper]: <../parchment_and_paper/>
 
 [Harry]: <../../people/potter/harry_james>
 
-[Hermione]: <../../people/granger/hermione>
+[Hermione]: <../../people/granger/hermione_jean/>
 
 [Malfoy]: <../../people/malfoy>
 
 [Mr. Weasley]: <../../people/weasley/arthur>
 
-
 [pgO1]: https://www.fanfiction.net/s/12954205
 
 [pgO2]: https://www.fanfiction.net/s/12954205
+
+[clothing]: <../clothing/>
 
 [^220719-4]: Works include but are not limited to:
     * Bobmin356. 
@@ -74,7 +75,7 @@ of what is available or better.
    Published: 2018-05-31.  Last Viewed: 2022-06-30.
 
 [^220630-4]: I believe this is what Mrs. Rowling is, in part, attempting to
-   express in the latter half of her article on [Clothing](clothing)
+   express in the latter half of her article on [Clothing]
    which I go in to depth on separately. 
 
 [^220630-3]: at least one citation needed.
