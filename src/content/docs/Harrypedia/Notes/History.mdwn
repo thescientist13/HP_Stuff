@@ -1,19 +1,5 @@
 [[!meta title="History of the Harry Potter World"]]
 
-* Romans pulled out of Britain around 410[^20200623-1].  While Hadrian's wall
-  isn't technically the furthest north they ever went, it seems to be the
-  furthest consistently controlled, and probably represents the northern bounds
-  of Christianity. Note, that bit about Christianity is pure speculation on my
-  part.  Interestingly, the oldest known "split-nib metal dip pen" dates from
-  around then.[^20200816-1]
-
-* While the historical reality of King Arthur is uncertain, he would necessarily
-  exist in this timeline.  To the extent that King Arthur and Merlin are
-  historical, they are somewhere in the 500s.[^20200713-3]  Merlin could not have
-	been sorted into Slytherin, despite the Pottermore claims.[^20210111-1]
-
-* Augustine of Canterbury arrived in 597.[^20200623-2] He focused on Kent, so it
-  probably didn't impact northern Scotland till much later. 
 
 * Northumbria, the northern most of the English precursor kingdoms, converted in
   the 600s.[^20200623-3]
@@ -110,7 +96,7 @@
   wands, potions, and engraved runes and how much is ritual song, dance, chants,
   sacrifices, meals, and other elements of paganism.  It will also determine
   how, for lack of a better word, Victorian wizarding society can possibly
-  become. 
+  become.
 
 * 1216 - Henry III of England, his rule was briefly disputed by the French
   king.[^20210406-24]
@@ -129,7 +115,7 @@
 * 1284 - England conquers Wales.[^20210406-2]
 
 * 1286 - The Guardians of Scotland are regents who governed
-  Scotland.[^20210406-39]  There seems to be more than one at any given time. 
+  Scotland.[^20210406-39]  There seems to be more than one at any given time.
 
 * 1289 International Warlock Convention [^20200622-2]
 
@@ -169,13 +155,13 @@
 * 1603 - James VI of Scotland becomes James I of England and
   Ireland.[^20210406-7]
 
-* 1612-1652 Ralston Potter seated in the Wizengamot.  Statute of Secrecy being debated.[^20210122-24] 
+* 1612-1652 Ralston Potter seated in the Wizengamot.  Statute of Secrecy being debated.[^20210122-24]
 
 * 1618-1648 Witch hunting across Europe reaches its apex during the 30 years
   war.[^20200704-4]  If you assume that [MACUSA] did not actually form as Mrs.
   Rowling has posited, then you can take her comments on the Potter
   family[^20210614-2] and make some really interesting speculations about what
-  was happening in Europe. 
+  was happening in Europe.
 
 * 1644-1647 Witch hunting in England peaks during the English Civil
   War.[^20200704-5]
@@ -197,7 +183,7 @@
   fanfiction uses this as a partly goblin owned bank to get around the Statute
   of Secrecy.[^20200818-2]
 
-* 1693 - Mrs. Rowling would have The Magical Congress of the United States of America, known to American witches and wizards by the abbreviation [[MACUSA]], established here.[^20210228-7]  
+* 1693 - Mrs. Rowling would have The Magical Congress of the United States of America, known to American witches and wizards by the abbreviation [[MACUSA]], established here.[^20210228-7]
 
 * 1707 - The Acts of Union 1707 establish Great Britain.[^20210406-9]
 
@@ -211,11 +197,11 @@
 
 * 1726 - Perseus Parkinson elected Minister for Magic.[^20210330-11]
 
-* 1733 - Eldritch Diggory elected Minister for Magic.[^20210330-12]  
+* 1733 - Eldritch Diggory elected Minister for Magic.[^20210330-12]
 
-* 1747 - Albert Boot elected Minister for Magic.[^20210330-13]  
+* 1747 - Albert Boot elected Minister for Magic.[^20210330-13]
 
-* 1752 - Basil Flack elected Minister for Magic.[^20210330-14]  
+* 1752 - Basil Flack elected Minister for Magic.[^20210330-14]
 
 * 1752 - Goblin rebellion.[^20210330-16]
 
@@ -338,7 +324,7 @@
 * 1938 - Cygnus Black II born.[^20210122-13]
 
 * 1938 - September 1 - Tom Marvolo Riddle starts at Hogwarts (computed from his
-  birthday). 
+  birthday).
 
 * 1939 - Lenard Spencer-Moon elected Minister for Magic.[^20210330-34]
 
@@ -364,10 +350,10 @@
 
 * 1959 - Ignatius Tuft elected Minister for Magic.[^20210330-36]
 
-* 1959 - Regulus Black (Arcturus' brother) dies.[^20210122-15] 
+* 1959 - Regulus Black (Arcturus' brother) dies.[^20210122-15]
 * 1959 - Arcturus Black I dies.[^20210122-23]
 
-* 1960-03-27 - James Potter born[^20190611-1] 
+* 1960-03-27 - James Potter born[^20190611-1]
 
 * 1961 - Regulus Black born [^20210122-5]
 
@@ -388,11 +374,11 @@
 * 1968/9 - pure-blood riots during the Squib Rights marches in the late
   sixties.[^20210330-39]
 
-* 1968 - Firearms Act 1968: long barrelled shotguns controlled for the first time.[^20210301-6]  
+* 1968 - Firearms Act 1968: long barrelled shotguns controlled for the first time.[^20210301-6]
 
 * 1970 - Riddle is sufficiently active that Dumbledore will state, upon his
   first downfall: “We’ve had precious little to celebrate for
-  eleven years.”[^20210514-1] 
+  eleven years.”[^20210514-1]
 
 * 1970 - "Under the Local Authority Social Services Act 1970, local authority
   social work services and social care provision, including those for children,
@@ -400,7 +386,7 @@
 
 * 1970-11-29 - Approximate birthday of William (Bill) Weasley.[^20210813-1]
 
-* 1971 - September 1st thus [[James|adults/James]], Lily and [[Sirius|adults/Sirius]] start Hogwarts in 1971. 
+* 1971 - September 1st thus [[James|adults/James]], Lily and [[Sirius|adults/Sirius]] start Hogwarts in 1971.
 
 * 1971 - Lucius Malfoy is a prefect.[^20210223-2]
 
@@ -412,67 +398,14 @@
 
 * 1977 - Dorea Potter nee Black dies[^20210122-4]
 
-* 1977-1978 school year - [[James|adults/James]], Lily, [[Severus Snape|adults/Snape]], et al.  graduate. 
+* 1977-1978 school year - [[James|adults/James]], Lily, [[Severus Snape|adults/Snape]], et al.  graduate.
 
 * [[James|adults/James]] and Lily get married between June of 1978 and
   fall of 1979, a roughly 18 month window of time for them to get married and
   for any job he has.  Sources seem to indicate he may have lived off his
-  inheritance. 
+  inheritance.
 
 * 1979 - Orion Black dies[^20210122-6]
-
-* 1980 - Millicent Bagnold elected Minister for Magic.[^20210330-41]
-
-* Harry is born in July 1980. 
-* "little to celebrate" for 11 years prior. [^20190610-1]
-
-* 1981-10-31 Wednesday[^20210222-1] night Potters are attacked. 
-* Hagrid, not [[Sirius|adults/Sirius]], arrives first and gets Harry out of the
-  house.[^20200629-4]
-
-* 1981-11-01 Thursday Morning people are already talking about what happened to the Potters.
-* "Tiny old man" with a "squeaky voice that made passersby stare" - probably
-  Flitwick.
-* Dumbledore arrives at "nearly midnight." Where has Harry been all day? 
-* Hagrid says he flew over Bristol. There is very very little of the West
-  Country in which Godric's Hollow could be located for Bristol to be between it
-  and Surrey.  Instead, Bristol seems to indicate a detour to the north, or a
-  point of origin in Wales.  
-
-* 1981 - November - Slughorn resigns.[^20210514-7]
-
-* 1982 - [[Snape|adults/Snape]] becomes the Potions Professor in either fall of 1982.[^20200806-4]
-
-* 1985 - Walburga Black dies[^20210122-7]
-
-* 1988 - The Firearms (Amendment) Act 1988: no more pump action or other shotguns that have magazines.[^20210228-5]
-
-* 1989 - The NSPCC granted statutory powers under the Children Act 1989 to apply
-  for care and supervision orders for children at risk.[^211202-2]
-
-* 1990 - Cornelius Fudge elected Minister for Magic.[^20210330-42]
-
-* 1990 - Pollux Black ([[Sirius Orion's|adults/Sirius]] Maternal Grandfather) dies.[^20210122-8]
-
-* 1991 - Arcturus Black ([[Sirius Orion's|adults/Sirius]] Paternal Grandfather) dies.[^20210122-9]
-
-* 1991 - The Children Act 1989 comes into force in England and Wales.  Every
-  child has the right to protection from abuse and exploitation and the right to
-  have inquiries made to safeguard their welfare.[^20210604-7]
-
-* 1992 - Cygnus Black II dies.[^20210122-14]
-
-* 1996 - Rufus Scrimgeour elected Minister for Magic.[^20210330-43]
-
-* 1997 - 1997 Firearms (Amendment) Acts: nearly all guns banned.[^20210228-6]
-
-[^211202-2]: [[!wikipedia National Society for the Prevention of Cruelty to
-    Children]] 
-    Last Edited: 2021-11-30. Last Viewed: 2021-12-02.
-
-[^211202-1]: [[!wikipedia National Society for the Prevention of Cruelty to
-    Children]] 
-    Last Edited: 2021-11-30. Last Viewed: 2021-12-02.
 
 [^20210823-4]: [Wikipedia](https://en.wikipedia.org/)
     "[Direct current](https://en.wikipedia.org/wiki/Direct_current)"
@@ -492,25 +425,21 @@
 
 [^20210813-1]: See the [[Weasley|Families/Weasley]] family page for justification of this date.
 
-[^20210604-7]: Mr. David Batty. 
-    "[Timeline: the history of child protection](https://www.theguardian.com/society/2004/apr/23/childrensservices.childprotection)"
-    *[The Guardian](https://www.theguardian.com/)* 2004-04-23.  Last Viewed:
-    2021-06-04. 
 
-[^20210604-6]: Mr. David Batty. 
+[^20210604-6]: Mr. David Batty.
     "[Timeline: the history of child protection](https://www.theguardian.com/society/2004/apr/23/childrensservices.childprotection)"
     *[The Guardian](https://www.theguardian.com/)* 2004-04-23.  Last Viewed:
-    2021-06-04. 
+    2021-06-04.
 
-[^20210604-5]: Mr. David Batty. 
+[^20210604-5]: Mr. David Batty.
     "[Timeline: the history of child protection](https://www.theguardian.com/society/2004/apr/23/childrensservices.childprotection)"
     *[The Guardian](https://www.theguardian.com/)* 2004-04-23.  Last Viewed:
-    2021-06-04. 
+    2021-06-04.
 
-[^20210604-4]: Mr. David Batty. 
+[^20210604-4]: Mr. David Batty.
     "[Timeline: the history of child protection](https://www.theguardian.com/society/2004/apr/23/childrensservices.childprotection)"
     *[The Guardian](https://www.theguardian.com/)* 2004-04-23.  Last Viewed:
-    2021-06-04. 
+    2021-06-04.
 
 [^20210603-2]: I know the popular theory is to white-wash the druids, but I
     refuse to do so.  Mr. James Owen's "[Druids Committed Human Sacrifice,
@@ -521,19 +450,15 @@
     confirming piece of evidence like this really just makes the whole thing
     rather irrefutable.
 
-[^20210521-6]: Mrs. J. K. Rowling. 
+[^20210521-6]: Mrs. J. K. Rowling.
     "[Wizard of the Month Archive](https://therowlinglibrary.com/jkrowling.com/textonly/en/wotm.html)"
-    Last Viewed 2021-05-21. 
+    Last Viewed 2021-05-21.
 
-[^20210521-4]: Mrs. J. K. Rowling. 
+[^20210521-4]: Mrs. J. K. Rowling.
     "[Wizard of the Month Archive](https://therowlinglibrary.com/jkrowling.com/textonly/en/wotm.html)"
-    Last Viewed 2021-05-21. 
+    Last Viewed 2021-05-21.
 
 [^20210702-3]: Mrs. J. K. Rowling. _Short Stories from Hogwarts of Power,
-    Politics and Pesky Poltergeists_  Pottermore Publishing. American Kindle
-    Edition. © 2016. Page 34.
-
-[^20210514-7]: Mrs. J. K. Rowling. _Short Stories from Hogwarts of Power,
     Politics and Pesky Poltergeists_  Pottermore Publishing. American Kindle
     Edition. © 2016. Page 34.
 
@@ -557,8 +482,8 @@
     Politics and Pesky Poltergeists_  Pottermore Publishing. American Kindle
     Edition. © 2016. Page 31.
 
-[^20210514-1]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ 
-    p. 10. Pottermore Limited. American Kindle Edition. © 1998 
+[^20210514-1]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_
+    p. 10. Pottermore Limited. American Kindle Edition. © 1998
 
 [^20210406-46]: Mrs. J. K. Rowling.
     "[Hogwarts Ghosts](https://www.wizardingworld.com/writing-by-jk-rowling/hogwarts-ghosts)"
@@ -730,59 +655,39 @@
     [Wizarding World](https://www.wizardingworld.com/) Originally Published on
     Pottermore 2015-08-10. Last Visited 2021-03-30.
 
-[^20210330-41]: Mrs. J. K. Rowling.
-    "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
-    [Wizarding World](https://www.wizardingworld.com/) Originally Published on
-    Pottermore 2015-08-10. Last Visited 2021-03-30.
-
-[^20210330-42]: Mrs. J. K. Rowling.
-    "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
-    [Wizarding World](https://www.wizardingworld.com/) Originally Published on
-    Pottermore 2015-08-10. Last Visited 2021-03-30.
-
-[^20210330-43]: Mrs. J. K. Rowling.
-    "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
-    [Wizarding World](https://www.wizardingworld.com/) Originally Published on
-    Pottermore 2015-08-10. Last Visited 2021-03-30.
 
 [^20210406-45]: Mrs. J. K. Rowling.
     "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
     [Wizarding World](https://www.wizardingworld.com/) Originally Published on
     Pottermore 2015-08-10. Last Visited 2021-04-06.
 
-[^20210222-1]: Mrs. J. K. Rowling. _Harry Potter and the Prisoner of Azkaban_
-    [[Sirius|adults/Sirius]] mentions that he intended to check on Pettigrew on
-    "Wednesday" in Chapter 10. Never mind it should have been a Saturday that
-    day. 
 
 [^20190611-1]: © of Warner Bros. Entertainment Inc.
     "[James Potter](https://web.archive.org/web/20190108143612/https://www.pottermore.com/explore-the-story/james-potter)"
 	[Pottermore](https://www.Pottermore.com) as archived at [Internet
-	Archive](http://web.archive.org) Archive from 2019-01-08 14:36:12. 
+	Archive](http://web.archive.org) Archive from 2019-01-08 14:36:12.
 
 [^20200629-4]: Mrs. J. K. Rowling. _Harry Potter and the Prisoner of Azkaban_
-    (p. 212). Pottermore Limited. American Kindle Edition. 
+    (p. 212). Pottermore Limited. American Kindle Edition.
 
 [^20190610-1]: Mrs. J. K. Rowling  _Harry Potter and the Sorcerer's Stone_ American
     Kindle edition approx Location 179 of 3996.
 
 [^20210922-3]: Mrs. J. K. Rowling.
     _[Harry Potter and the Order of the Phoenix](https://www.goodreads.com/book/show/2.Harry_Potter_and_the_Order_of_the_Phoenix)_
-    Kindle Locations 2094-2095. Pottermore Limited. American Kindle Edition. 
+    Kindle Locations 2094-2095. Pottermore Limited. American Kindle Edition.
 
-[^20200806-4]: Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_ 
-    (Kindle Location 5323). Pottermore Limited. American Kindle Edition. 
-
+[^20200806-4]:
 [^20210223-2]: Mrs. J. K. Rowling. _Harry Potter and the Deathly Hallows_
     American Kindle edition approx location 8539 of 9604, approx page 278. Pottermore Publishing.
 
-[^20210319-2]: Mrs. J. K. Rowling. 
+[^20210319-2]: Mrs. J. K. Rowling.
     "[Remus Lupin](https://www.wizardingworld.com/writing-by-jk-rowling/remus-lupin)"
     [Wizarding World](https://www.wizardingworld.com/) Originally Published 2015-08-10.
     Last Seen 2021-03-19.
 
-[^20210319-3]: Mrs. J. K. Rowling. _Harry Potter and the Prisoner of Azkaban_ 
-    p. 353. Pottermore Limited. American Kindle Edition. 
+[^20210319-3]: Mrs. J. K. Rowling. _Harry Potter and the Prisoner of Azkaban_
+    p. 353. Pottermore Limited. American Kindle Edition.
 
 [^20210122-1]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
 
@@ -798,11 +703,7 @@
 
 [^20210122-6]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
 
-[^20210122-7]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
-
 [^20210122-8]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
-
-[^20210122-9]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
 
 [^20210122-10]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
 
@@ -811,8 +712,6 @@
 [^20210122-12]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
 
 [^20210122-13]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
-
-[^20210122-14]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
 
 [^20210122-15]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
 
@@ -834,22 +733,22 @@
 
 [^20210122-3]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
 
-[^20210122-24]: J. K. Rowling. [The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family) 2015-09-21. 
+[^20210122-24]: J. K. Rowling. [The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family) 2015-09-21.
 
-[^20210228-7]: Mrs. J. K. Rowling. "[The Magical Congress of the United States of America (MACUSA)](https://www.wizardingworld.com/writing-by-jk-rowling/macusa)" 
+[^20210228-7]: Mrs. J. K. Rowling. "[The Magical Congress of the United States of America (MACUSA)](https://www.wizardingworld.com/writing-by-jk-rowling/macusa)"
     Originally published on Pottermore; 2016-10-06.  © WIZARDING WORLD DIGITAL 2021 <https://www.wizardingworld.com/> Last Viewed 2021-02-28.
 
-[^20210614-2]: Mrs. J. K. Rowling. 
+[^20210614-2]: Mrs. J. K. Rowling.
     "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
     [Wizarding World](https://www.wizardingworld.com/) Originally Published on
     Pottermore: 2015-09-21. Last Viewed 2021-06-14.
 
-[^20210122-25]: Mrs. J. K. Rowling. 
+[^20210122-25]: Mrs. J. K. Rowling.
     "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
     [Wizarding World](https://www.wizardingworld.com/) Originally Published on
     Pottermore: 2015-09-21. Last Viewed 2021-03-30.
 
-[^20210330-44]: Mrs. J. K. Rowling. 
+[^20210330-44]: Mrs. J. K. Rowling.
     "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
     [Wizarding World](https://www.wizardingworld.com/) Originally Published on
     Pottermore: 2015-09-21. Last Viewed 2021-03-30.
@@ -867,38 +766,38 @@
     "[Magna Carta](https://en.wikipedia.org/wiki/Magna_Carta)" Last Viewed 2020-07-13.
 
 [^20200713-2]: Aaran St Vines. _["Great Scott, Potter, This is War!"](https://aaran-st-vines.nsns.fanficauthors.net/Great_Scott_Potter_This_is_War)_
-    Chapter 15. <http://fanficauthors.net> 2007-04-29. Last Viewed 2020-07-13. 
+    Chapter 15. <http://fanficauthors.net> 2007-04-29. Last Viewed 2020-07-13.
 
-[^20200810-1]: Mrs. J. K. Rowling. 
+[^20200810-1]: Mrs. J. K. Rowling.
     "[The Malfoy family](https://www.wizardingworld.com/writing-by-jk-rowling/the-malfoy-family)"
-    Pottermore 2015-08-10. Last Seen [Wizarding World](https://www.wizardingworld.com/) 2020-08-10. 
+    Pottermore 2015-08-10. Last Seen [Wizarding World](https://www.wizardingworld.com/) 2020-08-10.
 
-[^20200810-2]: Mrs. J. K. Rowling. 
+[^20200810-2]: Mrs. J. K. Rowling.
     "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
-    Pottermore 2015-09-21. Last Seen [Wizarding World]((https://www.wizardingworld.com/) 2020-08-10. 
+    Pottermore 2015-09-21. Last Seen [Wizarding World]((https://www.wizardingworld.com/) 2020-08-10.
 
-[^20200810-3]: Mrs. J. K. Rowling. 
+[^20200810-3]: Mrs. J. K. Rowling.
     "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
-    Pottermore 2015-09-21. Last Seen [Wizarding World]((https://www.wizardingworld.com/) 2020-08-10. 
+    Pottermore 2015-09-21. Last Seen [Wizarding World]((https://www.wizardingworld.com/) 2020-08-10.
 
-[^20200810-4]: Mrs. J. K. Rowling. 
+[^20200810-4]: Mrs. J. K. Rowling.
     "[The Malfoy family](https://www.wizardingworld.com/writing-by-jk-rowling/the-malfoy-family)"
-    Pottermore 2015-08-10. Last Seen [Wizarding World](https://www.wizardingworld.com/) 2020-08-10. 
+    Pottermore 2015-08-10. Last Seen [Wizarding World](https://www.wizardingworld.com/) 2020-08-10.
 
-[^20200810-5]: Mrs. J. K. Rowling. 
+[^20200810-5]: Mrs. J. K. Rowling.
     "[The Malfoy family](https://www.wizardingworld.com/writing-by-jk-rowling/the-malfoy-family)"
-    Pottermore 2015-08-10. Last Seen [Wizarding World](https://www.wizardingworld.com/) 2020-08-10. 
+    Pottermore 2015-08-10. Last Seen [Wizarding World](https://www.wizardingworld.com/) 2020-08-10.
 
-[^20200810-6]: Mrs. J. K. Rowling. 
+[^20200810-6]: Mrs. J. K. Rowling.
     "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
-    Pottermore 2015-09-21. Last Seen [Wizarding World]((https://www.wizardingworld.com/) 2020-08-10. 
+    Pottermore 2015-09-21. Last Seen [Wizarding World]((https://www.wizardingworld.com/) 2020-08-10.
 
 [^20200818-1]: © COPYRIGHT COUTTS & CO. "[OUR HISTORY](https://www.coutts.com/about/our-history.html)"
 
 [^20200818-2]: AndrewWolfe. _[The Ghost of Privet Drive](https://archiveofourown.org/works/21500365)_
-    [Archive of Our Own](https://archiveofourown.org/) Last Updated 2020-08-14. Last viewed 2020-08-18. 
+    [Archive of Our Own](https://archiveofourown.org/) Last Updated 2020-08-14. Last viewed 2020-08-18.
 
-[^20200713-3]: [Wikipedia](https://en.wikipedia.org/). 
+[^20200713-3]: [Wikipedia](https://en.wikipedia.org/).
     "[King Arthur](https://en.wikipedia.org/wiki/King_Arthur)" Last Viewed 2020-07-13.
 
 [^20210406-1]: [Wikipedia](https://en.wikipedia.org/).
@@ -911,7 +810,7 @@
 
 [^20210406-3]: [Wikipedia](https://en.wikipedia.org/).
     "[Parliament of England](https://en.wikipedia.org/wiki/Parliament_of_England)"
-    Last Edited: 2021-03-23. Last Viewed: 2021-04-06. 
+    Last Edited: 2021-03-23. Last Viewed: 2021-04-06.
 
 [^20210406-4]: [Wikipedia](https://en.wikipedia.org/).
     "[Kingdom of England](https://en.wikipedia.org/wiki/Kingdom_of_England)"
@@ -1080,43 +979,40 @@
     "[Guardian of Scotland](https://en.wikipedia.org/wiki/Guardian_of_Scotland)"
     Last Edited: 2021-02-13. Last Viewed: 2021-04-06.
 
-[^20210228-1]: [Wikipedia](https://en.wikipedia.org/). 
+[^20210228-1]: [Wikipedia](https://en.wikipedia.org/).
     "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
     Last Edited 2021-02-14. Last Viewed 2021-02-28.
 
-[^20210228-2]: [Wikipedia](https://en.wikipedia.org/). 
+[^20210228-2]: [Wikipedia](https://en.wikipedia.org/).
     "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
     Last Edited 2021-02-14. Last Viewed 2021-02-28.
 
-[^20210228-3]: [Wikipedia](https://en.wikipedia.org/). 
+[^20210228-3]: [Wikipedia](https://en.wikipedia.org/).
     "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
     Last Edited 2021-02-14. Last Viewed 2021-02-28.
 
-[^20210228-4]: [Wikipedia](https://en.wikipedia.org/). 
+[^20210228-4]: [Wikipedia](https://en.wikipedia.org/).
     "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
     Last Edited 2021-02-14. Last Viewed 2021-02-28.
 
-[^20210228-5]: [Wikipedia](https://en.wikipedia.org/). 
+
+[^20210228-6]: [Wikipedia](https://en.wikipedia.org/).
     "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
     Last Edited 2021-02-14. Last Viewed 2021-02-28.
 
-[^20210228-6]: [Wikipedia](https://en.wikipedia.org/). 
+[^20210301-6]: [Wikipedia](https://en.wikipedia.org/).
     "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
     Last Edited 2021-02-14. Last Viewed 2021-02-28.
 
-[^20210301-6]: [Wikipedia](https://en.wikipedia.org/). 
-    "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
-    Last Edited 2021-02-14. Last Viewed 2021-02-28.
-
-[^20200704-1]: [Wikipedia](https://en.wikipedia.org/). 
+[^20200704-1]: [Wikipedia](https://en.wikipedia.org/).
     "[Henry VIII](https://en.wikipedia.org/wiki/Henry_VIII)" Last Viewed 2020-07-04.
 
-[^20200704-2]: [Wikipedia](https://en.wikipedia.org/). 
-    "[Henry VIII](https://en.wikipedia.org/wiki/Henry_VIII#Reformation)" 
+[^20200704-2]: [Wikipedia](https://en.wikipedia.org/).
+    "[Henry VIII](https://en.wikipedia.org/wiki/Henry_VIII#Reformation)"
     Last Viewed 2020-07-04.
 
-[^20200704-3]: [Wikipedia](https://en.wikipedia.org/). 
-    "[Norman conquest of England](https://en.wikipedia.org/wiki/Norman_conquest_of_England)" 
+[^20200704-3]: [Wikipedia](https://en.wikipedia.org/).
+    "[Norman conquest of England](https://en.wikipedia.org/wiki/Norman_conquest_of_England)"
     Last Viewed 2020-07-04
 
 [^20200704-4]: [Wikipedia](https://en.wikipedia.org/).
@@ -1142,12 +1038,8 @@
 		Approx Kindle Location 9223 of 11332.
 
 [^20200623-1]: [Wikipedia](https://en.wikipedia.org/).
-    "[Hadrian's Wall](https://en.wikipedia.org/wiki/Hadrian%27s_Wall)" 
+    "[Hadrian's Wall](https://en.wikipedia.org/wiki/Hadrian%27s_Wall)"
     Last viewed 2020-06-23.
-
-[^20200623-2]: The Editors of Encyclopaedia Britannica. 
-    "[Saint Augustine of Canterbury](https://www.britannica.com/biography/Saint-Augustine-of-Canterbury)"
-    <https://britannica.com> Last Viewed 2020-06-23.
 
 [^20200623-3]: [Wikipedia](https://en.wikipedia.org/).
     "[Christianisation of Anglo-Saxon England](https://en.wikipedia.org/wiki/Christianisation_of_Anglo-Saxon_England#Northumbria_625-634)"
@@ -1159,14 +1051,14 @@
 [^20200623-5]: [Wikipedia](https://en.wikipedia.org/).
     "[Scotland in the Early Middle Ages](https://en.wikipedia.org/wiki/Scotland_in_the_Early_Middle_Ages)"
 
-[^20210301-2]: [Harry Potter Wiki](https://harrypotter.fandom.com/). 
+[^20210301-2]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
     "[Rubeus Hagrid](https://harrypotter.fandom.com/wiki/Rubeus_Hagrid)"
     Last Edited 2021-03-01. Last Viewed 2021-03-01.
 
-[^20200623-6]: [Harry Potter Wiki](https://harrypotter.fandom.com/). 
+[^20200623-6]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
     "[International Statute of Wizarding Secrecy](https://harrypotter.fandom.com/wiki/International_Statute_of_Wizarding_Secrecy)"
 
-[^20200623-7]: [Harry Potter Wiki](https://harrypotter.fandom.com/). 
+[^20200623-7]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
     "[Wizengamot](https://harrypotter.fandom.com/wiki/Wizengamot)"
 
 [^20210223-1]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
@@ -1186,6 +1078,6 @@
 [^20200816-2]: [Wikipedia](https://en.wikipedia.org/).
     "[Dip pen](https://en.wikipedia.org/wiki/Dip_pen)" Last Edited 2020-07-24. Last Viewed 2020-08-16
 
-[^20210226-3]: Mr. David Kittredge. "[Pens and penmanship: a brief history](https://www.eagletimes.com/lifestyles/pens-and-penmanship-a-brief-history/article_8ffbdc8e-c35b-11e8-acb3-7771f36823b2.html)" [Eagle Times](https://www.eagletimes.com/) 2018-09-29. Last viewed 2021-02-26. 
+[^20210226-3]: Mr. David Kittredge. "[Pens and penmanship: a brief history](https://www.eagletimes.com/lifestyles/pens-and-penmanship-a-brief-history/article_8ffbdc8e-c35b-11e8-acb3-7771f36823b2.html)" [Eagle Times](https://www.eagletimes.com/) 2018-09-29. Last viewed 2021-02-26.
 
 [[!tag "HP Notes"]]

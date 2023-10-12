@@ -1,0 +1,23 @@
+---
+events:
+  - type: magical
+    blurb:  Pollux Black dies this year.
+    description: |
+      [Pollux] Black ([Sirius Orion][Sirius_III]'s Maternal Grandfather) dies
+      at an unknown point this year.
+      
+      [Pollux]: <../people/black/pollux/>
+      
+      [Sirius_III]: <../people/black/sirius_iii/>
+    source: |
+      J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
+
+  - type: magical
+    blurb:  Cornelius Fudge elected Minister for Magic.
+    description: The exact date of the election is unknown.
+    source: |
+      Mrs. J. K. Rowling.
+          "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
+          [Wizarding World](https://www.wizardingworld.com/) Originally Published on
+          Pottermore 2015-08-10. Last Visited 2021-03-30.
+      

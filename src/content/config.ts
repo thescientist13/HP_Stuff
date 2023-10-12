@@ -4,12 +4,19 @@ import { DatabaseSchema } from '@lib/GrampsZodTypes';
 
 const originalHero = (ctx: SchemaContext) => docsSchema()(ctx).pick({ hero: true});
 
-export const historySchema = z.object({
+const eventSchema = z.object({
     date: z.date().optional(),
     type: z.string(),
     source: z.string(),
     blurb: z.string(),
     description: z.string().optional(),
+})
+
+type event = z.infer<typeof eventSchema>;
+
+export const historySchema = z.object({
+    events: z.union([eventSchema, z.array(eventSchema)]
+    )
 });
 
 export type history = z.infer<typeof historySchema>;
