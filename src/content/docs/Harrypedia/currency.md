@@ -7,7 +7,8 @@ One of the recurring issues that I read about is the exchange rate between
 galleons and non-magical currencies.  It seems that many people dislike the five
 pounds to the galleon answer that we were given in 2001.[^20210617-1]  It is
 hard for me to say definitively how realistic that conversion rate is or is not,
-however, I  find that 
+however, I  find that
+
 > * Width: 8mm (0.32 inches)
 > * Length: 15mm (0.59 inches)
 > * Depth/Thickness: 0.4mm (0.02 inches)[^20210617-6]
@@ -39,10 +40,10 @@ amount.
 [BBP1]: https://www.bullionbypost.co.uk/
 
 [^20210617-6]: [USGB, LLC](https://www.usgoldbureau.com/)
-    "[How Big Is a Gold Bar?](https://www.usgoldbureau.com/gold-bar-sizes)"
+    "[How Big Is a Gold Bar](https://www.usgoldbureau.com/gold-bar-sizes)"
     Last Viewed: 2021-06-17. 
 
-[^20210617-5]: [Jewellery Quarter Bullion Ltd.](https://www.bullionbypost.co.uk/)
+[^20210617-5]: [Jewellery Quarter Bullion Ltd](https://www.bullionbypost.co.uk/)
     "[Gold Charts UK in GBP per Gram](https://www.bullionbypost.co.uk/gold-price/gold-charts/)"
     Last Viewed 2021-06-17. My figure was from 1991-08-14 on that chart. 
 
@@ -51,8 +52,10 @@ amount.
     Last Viewed 2021-06-17. My figure was from 1991-08-14 on that chart. 
 
 [^20210617-2]: [Money Metals Exchange](https://www.moneymetals.com/). 
-    "[1 Gram Gold Bar (In Assay)](https://www.moneymetals.com/1-gram-gold-bar/121)"
+    "[1 Gram Gold Bar In Assay][1GGBIA]"
     Last Viewed: 2021-06-17. 
+
+[1GGBIA]: https://www.moneymetals.com/1-gram-gold-bar/121
 
 [^20210617-1]: Mrs. J. K. Rowling. 
     "[Comic Relief live chat transcript, March 2001](http://web.archive.org/web/20091023035038/http://www.accio-quote.org/articles/2001/0301-comicrelief-staff.htm)"
