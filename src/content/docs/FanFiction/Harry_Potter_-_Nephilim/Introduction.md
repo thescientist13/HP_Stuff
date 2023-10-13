@@ -45,34 +45,34 @@ understand the story, but are hopefully not truly necessary.  That being said,
 I am not going to go out of my way to explain in depth the way some authors do
 since an interested reader *can* find it in this extra information.
 
-[Huckleberry Finn]: <https://www.gutenberg.org/files/76/76-h/76-h.htm>
+[Huckleberry Finn]: https://www.gutenberg.org/files/76/76-h/76-h.htm
 
 [^230719-1]: Mark Twain. _[Adventures of Huckleberry Finn][Huckleberry Finn]_
     Author's Notice.  [Project Gutenberg] text #76. 
 
-[Project Gutenberg]: <https://www.gutenberg.org/>
+[Project Gutenberg]: https://www.gutenberg.org/
 
 [Harrypedia]: </harrypedia>
 
-[FWoaO1]: <https://archiveofourown.org/works/28507302>
+[FWoaO1]: https://archiveofourown.org/works/28507302
 
-[MW]: <https://en.wikipedia.org/wiki/Many_Waters>
+[MW]: https://en.wikipedia.org/wiki/Many_Waters
 
-[MW2]: <https://en.wikipedia.org/wiki/Many_Waters>
+[MW2]: https://en.wikipedia.org/wiki/Many_Waters
 
-[MW3]: <https://en.wikipedia.org/wiki/Many_Waters>
+[MW3]: https://en.wikipedia.org/wiki/Many_Waters
 
-[TSL]: <https://archive.org/details/in.ernet.dli.2015.86985>
+[TSL]: https://archive.org/details/in.ernet.dli.2015.86985
 
-[TSL2]: <https://archive.org/details/in.ernet.dli.2015.86985>
+[TSL2]: https://archive.org/details/in.ernet.dli.2015.86985
 
-[TSL3]: <https://archive.org/details/in.ernet.dli.2015.86985>
+[TSL3]: https://archive.org/details/in.ernet.dli.2015.86985
 
-[WP1]: <https://en.wikipedia.org/wiki/Soteriology>
+[WP1]: https://en.wikipedia.org/wiki/Soteriology
 
-[WP2]: <https://en.wikipedia.org/wiki/Missiology>
+[WP2]: https://en.wikipedia.org/wiki/Missiology
 
-[WP3]: <https://en.wikipedia.org/wiki/Ecclesiology>
+[WP3]: https://en.wikipedia.org/wiki/Ecclesiology
 
 [^211201-1]: In _[Error of Soul](https://www.fanfiction.net/s/8490518)_
     Materia-Blade has a line referring to magical folk as Nephilim.  I came up

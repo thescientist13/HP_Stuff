@@ -518,11 +518,11 @@ can never be fully freed.
 
 [AH]: <../appendix_h>
 
-[Flood]: <../backstory/The_Flood>
+[Flood]: <../../backstory/the_flood>
 
-[goblin wars]: <../backstory/the_dwarfs>
+[goblin wars]: <../../backstory/the_dwarfs>
 
-[Giants]: <../backstory/giants>
+[Giants]: <../../backstory/giants>
 
 [Molly]: </harrypedia/people/prewett/molly>
 
@@ -530,7 +530,7 @@ can never be fully freed.
 
 [Fleur]: </harrypedia/people/delacour/fleur/>
 
-[knffnm]: <kokopelli.nsns.fanficauthors.net/Maskirovat/Maskirovat/>
+[knffnm]: http://kokopelli.nsns.fanficauthors.net/Maskirovat/Maskirovat/
 
 [^210518-1]: Mrs. J. K. Rowling. _Harry Potter and the Chamber of Secrets_
     Better citation needed.
