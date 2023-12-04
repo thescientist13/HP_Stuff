@@ -353,26 +353,6 @@
 * 1959 - Regulus Black (Arcturus' brother) dies.[^20210122-15]
 * 1959 - Arcturus Black I dies.[^20210122-23]
 
-* 1960-03-27 - James Potter born[^20190611-1]
-
-* 1961 - Regulus Black born [^20210122-5]
-
-* 1961 - Arthur Weasley starts Hogwarts.  A man named Ogg is gamekeepr[^20210301-4]
-
-* 1962 - Nobby Leach (first generation magical) elected Minister for Magic.[^20210330-37]
-
-* 1963-1967 - Sometime in this range Molly and Arthur Weasley are caught by caretaker Apollyon Pringle.  Arthur still has marks from the encounter.[^20210301-5]
-
-* 1964 - [[Remus Lupin|Lupin]] was bitten by Fenrir Greyback at age four.[^20210319-2] Dumbledore becomes headmaster sometime after this.[^20210319-3]
-
-* 1965 - Probable starting year at Hogwarts for Lucius Malfoy.
-
-* 1968 - Eugenia Jenkins elected Minister for Magic.[^20210330-38]
-
-* 1968 - Gwenog Jones born.[^20210521-6]
-
-* 1968/9 - pure-blood riots during the Squib Rights marches in the late
-  sixties.[^20210330-39]
 
 * [[James|adults/James]] and Lily get married between June of 1978 and
   fall of 1979, a roughly 18 month window of time for them to get married and
@@ -409,9 +389,7 @@
     confirming piece of evidence like this really just makes the whole thing
     rather irrefutable.
 
-[^20210521-6]: Mrs. J. K. Rowling.
-    "[Wizard of the Month Archive](https://therowlinglibrary.com/jkrowling.com/textonly/en/wotm.html)"
-    Last Viewed 2021-05-21.
+
 
 [^20210521-4]: Mrs. J. K. Rowling.
     "[Wizard of the Month Archive](https://therowlinglibrary.com/jkrowling.com/textonly/en/wotm.html)"
@@ -593,20 +571,6 @@
     [Wizarding World](https://www.wizardingworld.com/) Originally Published on
     Pottermore 2015-08-10. Last Visited 2021-03-30.
 
-[^20210330-37]: Mrs. J. K. Rowling.
-    "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
-    [Wizarding World](https://www.wizardingworld.com/) Originally Published on
-    Pottermore 2015-08-10. Last Visited 2021-03-30.
-
-[^20210330-38]: Mrs. J. K. Rowling.
-    "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
-    [Wizarding World](https://www.wizardingworld.com/) Originally Published on
-    Pottermore 2015-08-10. Last Visited 2021-03-30.
-
-[^20210330-39]: Mrs. J. K. Rowling.
-    "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
-    [Wizarding World](https://www.wizardingworld.com/) Originally Published on
-    Pottermore 2015-08-10. Last Visited 2021-03-30.
 
 [^20210406-45]: Mrs. J. K. Rowling.
     "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
@@ -614,10 +578,6 @@
     Pottermore 2015-08-10. Last Visited 2021-04-06.
 
 
-[^20190611-1]: © of Warner Bros. Entertainment Inc.
-    "[James Potter](https://web.archive.org/web/20190108143612/https://www.pottermore.com/explore-the-story/james-potter)"
-	[Pottermore](https://www.Pottermore.com) as archived at [Internet
-	Archive](http://web.archive.org) Archive from 2019-01-08 14:36:12.
 
 [^20200629-4]: Mrs. J. K. Rowling. _Harry Potter and the Prisoner of Azkaban_
     (p. 212). Pottermore Limited. American Kindle Edition.
@@ -629,13 +589,7 @@
     _[Harry Potter and the Order of the Phoenix](https://www.goodreads.com/book/show/2.Harry_Potter_and_the_Order_of_the_Phoenix)_
     Kindle Locations 2094-2095. Pottermore Limited. American Kindle Edition.
 
-[^20210319-2]: Mrs. J. K. Rowling.
-    "[Remus Lupin](https://www.wizardingworld.com/writing-by-jk-rowling/remus-lupin)"
-    [Wizarding World](https://www.wizardingworld.com/) Originally Published 2015-08-10.
-    Last Seen 2021-03-19.
 
-[^20210319-3]: Mrs. J. K. Rowling. _Harry Potter and the Prisoner of Azkaban_
-    p. 353. Pottermore Limited. American Kindle Edition.
 
 [^20210122-1]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
 
@@ -969,13 +923,6 @@
 [^20200622-2]: Mrs. J. K. Rowling.  _Harry Potter and the Chamber of Secrets_
     Chapter 9.
 
-[^20210301-5]: Mrs. J. K. Rowling. _Harry Potter and the Goblet of Fire_
-    Pottermore Limited. American Kindle Edition.
-		Approx Kindle Location 9208 of 11332.
-
-[^20210301-4]: Mrs. J. K. Rowling. _Harry Potter and the Goblet of Fire_
-    Pottermore Limited. American Kindle Edition.
-		Approx Kindle Location 9223 of 11332.
 
 [^20200623-1]: [Wikipedia](https://en.wikipedia.org/).
     "[Hadrian's Wall](https://en.wikipedia.org/wiki/Hadrian%27s_Wall)"
