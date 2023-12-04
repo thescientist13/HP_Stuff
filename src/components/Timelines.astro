@@ -1,44 +1,83 @@
 ---
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection, getEntry,  } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import type { Props } from '@astrojs/starlight/props';
+import { Debug } from 'astro:components';
+
+import { type event, type history} from '../content/config';
 
 import rehypeStringify from 'rehype-stringify'
 import remarkGfm from 'remark-gfm'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
-import {unified} from 'unified'
+import {unified, } from 'unified'
 import {DateTime} from 'luxon';
 
-let allEvents: CollectionEntry<'history'>[] = await getCollection('history');
-const events = [... new Set(allEvents.map((event: CollectionEntry<'history'>) => {
-    return {
-        date: DateTime.fromISO(event.id),
-        entries: event.data.events.map((event) => {
-            const description = unified()
-                .use(remarkParse)
-                .use(remarkGfm)
-                .use(remarkRehype)
-                .use(rehypeStringify)
-                .process(event.description)
+interface displayableEntry {
+  date: DateTime,
+  entries: event[]
+}
 
-            const source = unified()
+let allEvents: CollectionEntry<'history'>[] = await getCollection('history');
+const eventsSet = new Set<displayableEntry>();
+allEvents.map((event: CollectionEntry<'history'>) => {
+    let thisObject: displayableEntry = {
+        date: DateTime.fromISO(event.id),
+        entries: [event.data.events].flat().map((event) => {
+            let description = '';
+            if(event.description !== null && event.description !== undefined) {
+              description = unified()
                 .use(remarkParse)
                 .use(remarkGfm)
                 .use(remarkRehype)
                 .use(rehypeStringify)
-                .process(event.source)
+                .processSync(event.description)
+                .toString()
+            }
+
+            let source: string  = '';
+            if(event.source !== null && event.source !== undefined) {
+              source = unified()
+                .use(remarkParse)
+                .use(remarkGfm)
+                .use(remarkRehype)
+                .use(rehypeStringify)
+                .processSync(event.source)
+                .toString()
+            }
 
             return {
-                date: event.date,
                 type: event.type,
                 blurb: event.blurb,
                 description: description,
-                source: source,
+                date: event.date,
+                source: (source !== undefined) ? source : '',
             }
         })
     }
-}).flat())].sort((a, b) => {
+    if(!thisObject.date.isValid) {
+      console.log(`date for ${event.id} is invalid`)
+      if(thisObject.entries[0].date !== null && 
+        thisObject.entries[0].date !== undefined
+        ) {
+        thisObject.date = DateTime.fromISO(thisObject.entries[0].date.toString().padStart(4, '0'))
+        console.log(`date for ${event.id} is now ${thisObject.date}`)
+        thisObject.entries.map((e) => {
+          const d = e.date !== undefined ? e.date.toString().padStart(4, '0') : '0000-00-00';
+          const te = {
+            date: DateTime.fromISO(d),
+            entries: [e]
+          }
+          eventsSet.add(te);
+        })
+      }
+    } else {
+      eventsSet.add(thisObject);
+    }
+})
+
+const events = [...eventsSet].flat().sort((a, b) => {
+
     if(a.date < b.date ) {
         return -1;
     } else if (a.date > b.date) {
@@ -49,15 +88,17 @@ const events = [... new Set(allEvents.map((event: CollectionEntry<'history'>) =>
 });
 
 ---
-<ul class="timeline">
+<ul class="timeline ">
     {events.map(event => (
-            <li id={event.date.toUnixInteger()}>
-                <h5>{event.date.toISODate()}</h5>
+            <li class="" id={event.date.toUnixInteger()}>
+                <h5 class="">{event.date.toISODate()}</h5>
                 {event.entries.map((entry, index) => (
-                        <div class={entry.type}>
-                            <h6>{entry.blurb}</h6>
-                            {entry.description}
-                            <a href=`#${event.date.toUnixInteger()}-${index}`>Sources</a>
+                        <div class=` ${entry.type}`>
+                            <h6 >{entry.blurb}</h6>
+                            <span class="not-content">
+                              <Fragment set:html={entry.description} />
+                              { ( entry.source !== '') && <a href=`#${event.date.toUnixInteger()}-${index}`>Sources</a> }
+                            </span>
                         </div>
                 ))}
 
@@ -66,11 +107,18 @@ const events = [... new Set(allEvents.map((event: CollectionEntry<'history'>) =>
 
 </ul>
 
-<section data-footnotes class="footnotes">
+<section data-footnotes class=" footnotes">
     <ol>
         {events.map(event => event.entries.map((entry, index) => (
-                <li id={`${event.date.toUnixInteger()}-${index}`}>{entry.source}</li>
-        )))}
+          <>
+          {(entry.source !== '') && 
+            <li id={`${event.date.toUnixInteger()}-${index}`}>
+              <Fragment set:html={entry.source} />
+            </li>
+          }
+        </>
+        )
+        ))}
     </ol>
 </section>
 
