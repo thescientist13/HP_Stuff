@@ -60,14 +60,26 @@ allEvents.map((event: CollectionEntry<'history'>) => {
       if(thisObject.entries[0].date !== null && 
         thisObject.entries[0].date !== undefined
         ) {
-        thisObject.date = DateTime.fromISO(thisObject.entries[0].date.toString().padStart(4, '0'))
-        console.log(`date for ${event.id} is now ${thisObject.date}`)
-        thisObject.entries.map((e) => {
-          const d = e.date !== undefined ? e.date.toString().padStart(4, '0') : '0000-00-00';
+        const tdate = thisObject.entries[0].date.toString().padStart(4, '0');
+        console.log(`tdate is ${tdate}`)
+        thisObject.date = DateTime.fromISO(tdate)
+        thisObject.entries.map((e, index) => {
+          let d: DateTime; 
+          if(e.date === undefined || e.date === null) {
+            d = DateTime.fromISO('0000-00-00');
+          } else {
+            if(typeof e.date === 'string' || typeof e.date === 'number') {
+              d = DateTime.fromISO(e.date.toString().padStart(4, '0'))
+            } else {
+              d = DateTime.fromJSDate(e.date);
+            }
+          }
+          console.log(`date for e is ${d}`)
           const te = {
-            date: DateTime.fromISO(d),
+            date: d,
             entries: [e]
           }
+          console.log(`date for event ${index} in ${event.id} is ${te.date}`)
           eventsSet.add(te);
         })
       }
@@ -90,7 +102,7 @@ const events = [...eventsSet].flat().sort((a, b) => {
 ---
 <ul class="timeline ">
     {events.map(event => (
-            <li class="" id={event.date.toUnixInteger()}>
+            <li id={event.date.toUnixInteger().toString()}>
                 <h5 class="">{event.date.toISODate()}</h5>
                 {event.entries.map((entry, index) => (
                         <div class=` ${entry.type}`>
