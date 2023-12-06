@@ -295,6 +295,7 @@ events:
         Last Edited: 2023-11-17. Last Viewed: 2023-12-05
   - type: mundane
     blurb: The Treaty of Edinburgh–Northampton
+    date: 1328-03-17
     description: |
       Edward III signs the Treaty of Edinburgh–Northampton renouncing his claim
       to be overlord of Scotland.
@@ -308,6 +309,9 @@ events:
       * [WikiPedia](https://wikipedia.org/)
         "[Robert the Bruce](https://en.wikipedia.org/wiki/Robert_the_Bruce)"
         Last Edited: 2023-11-17. Last Viewed: 2023-12-05
+      * [WikiPedia](https://wikipedia.org/)
+        "[Treaty of Edinburgh–Northampton](https://wikipedia.org/wiki/Treaty_of_Edinburgh%E2%80%93Northampton)"
+        Last Edited: 2023-05-22. Last Viewed: 2023-12-06
   - type: mundane
     blurb: David II assumes throne of Scotland
     date: 1329-06-07
