@@ -3,10 +3,10 @@
   "type": "module",
   "version": "0.1.1",
   "scripts": {
-    "dev": "pnpm just dev",
+    "dev": "npx just dev",
     "start": "astro dev",
-    "check": "pnpm just check",
-    "build": "pnpm just build",
+    "check": "npx just check",
+    "build": "npx just build",
     "preview": "astro preview",
     "astro": "astro"
   },
