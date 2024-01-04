@@ -453,6 +453,16 @@ events:
       "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"
       Last Edited: 2023-12-06. Last Viewed: 2023-12-06.
   - type: mundane england
+    date: 1644
+    blurb: Wich hunting begins to peak
+    description: |
+      Witch hunting in England peaks during the English Civil
+      War.
+    source: |
+      [Wikipedia](https://en.wikipedia.org/).
+      "[Witch-hunt](https://en.wikipedia.org/wiki/Witch-hunt#Early_Modern_Europe)"
+      Last Viewed 2020-07-04
+  - type: mundane england
     date: 1653-12-16
     blurb: Oliver Cromwell becomes Lord Protector of England
     source: |
