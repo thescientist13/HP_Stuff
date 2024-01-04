@@ -2,7 +2,7 @@ tmpdir  := `mktemp`
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 set dotenv-load
 
-export PNPM := `which pnpm`
+#export PNPM := `which pnpm`
 export NPM := `which npm`
 export NPX := `which npx`
 
