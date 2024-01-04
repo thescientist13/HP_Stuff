@@ -25,7 +25,7 @@
     "@lit-labs/ssr": "3.2.0",
     "@lit-labs/ssr-dom-shim": "1.1.2",
     "@lit-labs/task": "^3.1.0",
-    "@nanostores/lit": "^0.1.5",
+    "@nanostores/lit": "^0.2.0",
     "@nanostores/logger": "^0.2.4",
     "@nanostores/query": "^0.2.8",
     "@tailwindcss/typography": "^0.5.10",
