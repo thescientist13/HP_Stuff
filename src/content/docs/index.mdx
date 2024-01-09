@@ -44,12 +44,12 @@ import { Card, LinkCard, CardGrid } from '@astrojs/starlight/components';
       the source of good ideas, or want to keep track of for some other
       reason.">
   </LinkCard>
-  <Card title="Configure your site" icon="setting">
-    Edit your `sidebar` and other config in `astro.config.mjs`.
-  </Card>
-  <Card title="Read the docs" icon="open-book">
-    Learn more in [the Starlight Docs](https://starlight.astro.build/).
-  </Card>
+  <LinkCard title="Searches" href="/searches/"
+    description="Links to saved searches for various collections of fan fiction"
+  ></LinkCard>
+  <LinkCard title="Fan Fiction" href='/fanfiction'
+    description="Self-hosted fan fiction.  Largely incomplete, probably never to be completed, but satisfying an occasional itch."
+  ></LinkCard>
 </CardGrid>
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/small.svg)](https://starlight.astro.build)
