@@ -1,4 +1,5 @@
 import {defineConfig} from 'astro/config';
+import aws from "astro-sst";
 import starlight from '@astrojs/starlight';
 import lit from "@astrojs/lit";
 
@@ -6,6 +7,8 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+    output: "hybrid",
+    adapter: aws(),
     site: "https://hpfan.schierer.org/",
     redirects: {
       '/harrypedia/magic/spells/patronus/': '/harrypedia/magic/spells/expecto_patronum/'

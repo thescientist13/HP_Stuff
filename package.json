@@ -3,12 +3,14 @@
   "type": "module",
   "version": "0.1.1",
   "scripts": {
-    "dev": "npx just dev",
+    "dev": "sst bind astro dev",
     "start": "astro dev",
-    "check": "npx just check",
-    "build": "npx just build",
+    "check": "pnpm just check",
+    "build": "pnpm just build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "sst:deploy": "sst deploy",
+    "sst:dev": "sst dev"
   },
   "dependencies": {
     "@adobe/lit-mobx": "^2.2.2",
@@ -76,6 +78,10 @@
     "just-install": "^1.0.11",
     "starlight-links-validator": "^0.5.1",
     "type-mermaid": "^1.1.0",
-    "unist-util-visit-parents": "^6.0.1"
+    "unist-util-visit-parents": "^6.0.1",
+    "sst": "^2.39.2",
+    "aws-cdk-lib": "2.110.1",
+    "constructs": "10.3.0",
+    "astro-sst": "^2.39.2"
   }
 }
