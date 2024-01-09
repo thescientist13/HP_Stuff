@@ -42,6 +42,7 @@
     "genealogit": "^1.2.3",
     "iconify-icon": "^1.0.8",
     "install": "^0.13.0",
+    "jsonschema": "^1.4.1",
     "lit": "^3.1.0",
     "lodash": "^4.17.21",
     "luxon": "^3.4.4",
@@ -72,16 +73,16 @@
     "@types/boolbase": "^1.0.3",
     "@types/luxon": "^3.4.0",
     "@types/node": "^20.10.7",
+    "astro-sst": "^2.39.2",
+    "aws-cdk-lib": "2.110.1",
+    "constructs": "10.3.0",
     "execa": "^8.0.1",
     "hastscript": "^8.0.0",
     "is-stream": "^3.0.0",
     "just-install": "^1.0.11",
+    "sst": "^2.39.2",
     "starlight-links-validator": "^0.5.1",
     "type-mermaid": "^1.1.0",
-    "unist-util-visit-parents": "^6.0.1",
-    "sst": "^2.39.2",
-    "aws-cdk-lib": "2.110.1",
-    "constructs": "10.3.0",
-    "astro-sst": "^2.39.2"
+    "unist-util-visit-parents": "^6.0.1"
   }
 }

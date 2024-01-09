@@ -1,19 +1,16 @@
 import type { SSTConfig } from "sst";
 import { AstroSite } from "sst/constructs";
+import { HPAstroSite } from "./stacks/AstroSite";
 
 export default {
   config(_input) {
     return {
       name: "HP-Stuff",
-      region: "us-east-1",
+      profile: "home",
+      region: "us-east-2",
     };
   },
   stacks(app) {
-    app.stack(function Site({ stack }) {
-      const site = new AstroSite(stack, "site");
-      stack.addOutputs({
-        url: site.url,
-      });
-    });
+    app.stack(HPAstroSite)
   },
-} satisfies SSTConfig;
+}

@@ -92,6 +92,9 @@ dependencies:
   install:
     specifier: ^0.13.0
     version: 0.13.0
+  jsonschema:
+    specifier: ^1.4.1
+    version: 1.4.1
   lit:
     specifier: ^3.1.0
     version: 3.1.0
@@ -509,6 +512,9 @@ packages:
   /@aws-cdk/cloud-assembly-schema@2.110.1:
     resolution: {integrity: sha512-ivyE26pQgiUd5sOXE0DE+s0TfkZDfj1Y/dhseU+k2klsS24Cfeun9fSY568wG40PRheaO5X6jjT/4tuT78P1hQ==}
     engines: {node: '>= 14.15.0'}
+    dependencies:
+      jsonschema: 1.4.1
+      semver: 7.5.4
     dev: true
     bundledDependencies:
       - jsonschema
@@ -534,6 +540,7 @@ packages:
       '@aws-cdk/cloud-assembly-schema': 2.110.1
     dependencies:
       '@aws-cdk/cloud-assembly-schema': 2.110.1
+      semver: 7.5.4
     dev: true
     bundledDependencies:
       - semver
@@ -8672,6 +8679,9 @@ packages:
     resolution: {integrity: sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==}
     engines: {'0': node >= 0.2.0}
     dev: false
+
+  /jsonschema@1.4.1:
+    resolution: {integrity: sha512-S6cATIPVv1z0IlxdN+zUk5EPjkGCdnhN4wVSBlvoUO1tOLJootbo9CquNJmbIh4yikWHiUedhRYrNPn1arpEmQ==}
 
   /just-install@1.0.11:
     resolution: {integrity: sha512-3nW53hWK9muHUTXthiTcUqFkd5FXDad7YLoDWJonVhPUZxX8PgCVGvaI8AQ5gqJZ45MBd/hdqg5XPIWPh9Bk/g==}
