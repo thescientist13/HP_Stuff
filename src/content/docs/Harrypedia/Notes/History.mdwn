@@ -1,17 +1,5 @@
 [[!meta title="History of the Harry Potter World"]]
 
-
-* Northumbria, the northern most of the English precursor kingdoms, converted in
-  the 600s.[^20200623-3]
-
-* "Pictish stones began to show Christian symbolism from the early eighth
-  century"[^20200623-4] The exact progress of Christianity in Scotland seems to
-  be largely speculative, messy, and slow.
-
-* The Norse raiders imposed paganism in the areas they controlled, starting
-  sometime around 800 through apparently the 10th century.[^20200623-5]
-
-
 * Hogwarts was founded "over a thousand years" before HP2.[^20200622-1] Given
   the above, we can safely say that by pretty much any date in the 800s or 900s
   Christianity was around. However, it seems safe to say that the Hogwarts
@@ -546,15 +534,7 @@
     "[Hadrian's Wall](https://en.wikipedia.org/wiki/Hadrian%27s_Wall)"
     Last viewed 2020-06-23.
 
-[^20200623-3]: [Wikipedia](https://en.wikipedia.org/).
-    "[Christianisation of Anglo-Saxon England](https://en.wikipedia.org/wiki/Christianisation_of_Anglo-Saxon_England#Northumbria_625-634)"
-    Last Viewed 2020-06-23.
 
-[^20200623-4]: [Wikipedia](https://en.wikipedia.org/).
-    "[Christianisation of Scotland](https://en.wikipedia.org/wiki/Christianisation_of_Scotland)"
-
-[^20200623-5]: [Wikipedia](https://en.wikipedia.org/).
-    "[Scotland in the Early Middle Ages](https://en.wikipedia.org/wiki/Scotland_in_the_Early_Middle_Ages)"
 
 [^20210301-2]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
     "[Rubeus Hagrid](https://harrypotter.fandom.com/wiki/Rubeus_Hagrid)"
