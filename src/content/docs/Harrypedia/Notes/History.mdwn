@@ -1,17 +1,5 @@
 [[!meta title="History of the Harry Potter World"]]
 
-* 1532 Beginning of Henry subverting the Church in England.[^20200704-2]
-
-* 1649 - Mnemone Radford, developer of Memory Modification Charms,
-  dies.[^20210521-4]
-
-* 1689 - the International Statute of Secrecy in 1689.[^20200623-6]  In _[The
-  Accidental Animagus](https://www.fanfiction.net/s/9863146/89/The-Accidental-Animagus)_ fanfiction author White Squirrel speculates that not only did society take an abrupt shift, with the pure-blood mania becoming more prominent than it had ever been, but that the magical society probably started to rewrite its own history, erasing evidence of its dealings with non-magical society, and of its own mutations and shifts over time.  In England, the Potters argue for the Statute to protect the Muggles,[^20200810-3] the Malfoys argue against it (to continue exploiting the wealthy among whom Malfoys often marry).[^20200810-4]  Once it passes, the Malfoys pretend to have been in favour all along.[^20200810-5]
-
-
-* 1693 - Mrs. Rowling would have The Magical Congress of the United States of America, known to American witches and wizards by the abbreviation [[MACUSA]], established here.[^20210228-7]
-
-
 * 1752 - June - Benjamin Franklin proves the electrical nature of
   lightning.[^20210823-1]
 
@@ -56,7 +44,6 @@
 
 * 1901 - Arcturus Black ([[Sirius Orion's|adults/Sirius]] Paternal Grandfather) born.[^20210122-10]
 
-* 1903 - Venusia Crickerly elected Minister for Magic.[^20210330-30]
 
 * 1903 - The Pistols Act 1903: regulates the sale of firearms with a barrel of
   less than 9 inches.  In practice, this bill does nothing.[^20210228-1]
@@ -156,12 +143,6 @@
     dismiss Caesar and Pliny the Elder's testimony to begin with, so having a
     confirming piece of evidence like this really just makes the whole thing
     rather irrefutable.
-
-
-
-[^20210521-4]: Mrs. J. K. Rowling.
-    "[Wizard of the Month Archive](https://therowlinglibrary.com/jkrowling.com/textonly/en/wotm.html)"
-    Last Viewed 2021-05-21.
 
 [^20210702-3]: Mrs. J. K. Rowling. _Short Stories from Hogwarts of Power,
     Politics and Pesky Poltergeists_  Pottermore Publishing. American Kindle
@@ -389,10 +370,6 @@
 
 [^20210122-3]: J. K. Rowling. [The Black Family Tree](https://harrypotter.fandom.com/wiki/House_of_Black?file=JKRBlackFamilyTree.jpg) Last viewed 2021-01-22
 
-
-[^20210228-7]: Mrs. J. K. Rowling. "[The Magical Congress of the United States of America (MACUSA)](https://www.wizardingworld.com/writing-by-jk-rowling/macusa)"
-    Originally published on Pottermore; 2016-10-06.  © WIZARDING WORLD DIGITAL 2021 <https://www.wizardingworld.com/> Last Viewed 2021-02-28.
-
 [^20210614-2]: Mrs. J. K. Rowling.
     "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
     [Wizarding World](https://www.wizardingworld.com/) Originally Published on
@@ -420,17 +397,7 @@
 [^20200713-1]: [Wikipedia](https://en.wikipedia.org/).
     "[Magna Carta](https://en.wikipedia.org/wiki/Magna_Carta)" Last Viewed 2020-07-13.
 
-[^20200810-3]: Mrs. J. K. Rowling.
-    "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
-    Pottermore 2015-09-21. Last Seen [Wizarding World]((https://www.wizardingworld.com/) 2020-08-10.
 
-[^20200810-4]: Mrs. J. K. Rowling.
-    "[The Malfoy family](https://www.wizardingworld.com/writing-by-jk-rowling/the-malfoy-family)"
-    Pottermore 2015-08-10. Last Seen [Wizarding World](https://www.wizardingworld.com/) 2020-08-10.
-
-[^20200810-5]: Mrs. J. K. Rowling.
-    "[The Malfoy family](https://www.wizardingworld.com/writing-by-jk-rowling/the-malfoy-family)"
-    Pottermore 2015-08-10. Last Seen [Wizarding World](https://www.wizardingworld.com/) 2020-08-10.
 
 [^20200810-6]: Mrs. J. K. Rowling.
     "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
@@ -508,12 +475,6 @@
 
 [^20200704-1]: [Wikipedia](https://en.wikipedia.org/).
     "[Henry VIII](https://en.wikipedia.org/wiki/Henry_VIII)" Last Viewed 2020-07-04.
-
-[^20200704-2]: [Wikipedia](https://en.wikipedia.org/).
-    "[Henry VIII](https://en.wikipedia.org/wiki/Henry_VIII#Reformation)"
-    Last Viewed 2020-07-04.
-
-
 
 [^20200623-1]: [Wikipedia](https://en.wikipedia.org/).
     "[Hadrian's Wall](https://en.wikipedia.org/wiki/Hadrian%27s_Wall)"
