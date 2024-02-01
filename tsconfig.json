@@ -17,6 +17,9 @@
       "@lib/*": ["src/lib/*"],
       "@styles/*": ["src/styles/*"],
       "@public/*": ["public/*"],
-    }
+    },
   },
+  "exclude": [
+    "src/**/*.js"
+  ]
 }
