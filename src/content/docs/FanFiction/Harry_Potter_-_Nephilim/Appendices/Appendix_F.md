@@ -127,7 +127,7 @@ Common ones include, but are not limited to:
 ## Effects
 
 With the one odd loophole noted above, 'Contracts' cannot force you to do something 
-the way the [Imperius][] curse does.  Rather, they force behaviour through the 
+the way the [Imperius] curse does.  Rather, they force behaviour through the 
 existence of penalties.  You can break an "Unbreakable Vow" but you die as a result.  When 
 a secret keeper "contracts" to keep a secret, in a sense _everyone else_ is bound
 not to know something yes.  But I think that's why James and Lily had to go
@@ -247,7 +247,7 @@ children may have made themselves liable to.
 
 [AH]: <../appendix_h>
 
-[Imperius]: </harrypedia/magic/spells/Imperio>
+[Imperius]: </harrypedia/magic/spells/imperio/>
 
 [^230103-2]: these include, 
     but are not limited to:
