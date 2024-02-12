@@ -1,6 +1,8 @@
 import {defineConfig} from 'astro/config';
 import aws from "astro-sst";
 import starlight from '@astrojs/starlight';
+import starlightLinksValidator from 'starlight-links-validator'
+
 import lit from "@astrojs/lit";
 
 import tailwind from "@astrojs/tailwind";
@@ -15,6 +17,9 @@ export default defineConfig({
     },
     integrations: [
         starlight({
+            plugins: [starlightLinksValidator({
+                errorOnRelativeLinks: false,
+            })],
             title: "Luke's HP Site",
             customCss: [
                 './src/styles/tailwind.css',
