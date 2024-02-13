@@ -1,29 +1,9 @@
-* 1945 - May 8 - German surrender (VE Day).[^20210514-4]
-
-* 1945 - July - Tom Marvolo Riddle graduates from Hogwarts (computed from when he
-  started).
-
-* 1948 - The Children Act 1948 established a children's committee and a
-  children's officer in each local authority.[^20210604-4]
-
-* 1950 - February 6 - Arthur Weasley born.[^20210301-3]
-
-* 1953/1954 - Lucius Malfoy born.[^20210223-3]
-
-* 1959 - Regulus Black (Arcturus' brother) dies.[^20210122-15]
-* 1959 - Arcturus Black I dies.[^20210122-23]
-
 
 * [[James|adults/James]] and Lily get married between June of 1978 and
   fall of 1979, a roughly 18 month window of time for them to get married and
   for any job he has.  Sources seem to indicate he may have lived off his
   inheritance.
 
-
-[^20210604-4]: Mr. David Batty.
-    "[Timeline: the history of child protection](https://www.theguardian.com/society/2004/apr/23/childrensservices.childprotection)"
-    *[The Guardian](https://www.theguardian.com/)* 2004-04-23.  Last Viewed:
-    2021-06-04.
 
 [^20210603-2]: I know the popular theory is to white-wash the druids, but I
     refuse to do so.  Mr. James Owen's "[Druids Committed Human Sacrifice,
@@ -33,10 +13,6 @@
     dismiss Caesar and Pliny the Elder's testimony to begin with, so having a
     confirming piece of evidence like this really just makes the whole thing
     rather irrefutable.
-
-[^20210514-4]: [Wikipedia](https://en.wikipedia.org/)
-    "[World War II](https://en.wikipedia.org/wiki/World_War_II)"
-    Last Edited: 2021-05-11. Last Viewed: 2021-05-14.
 
 [^20210330-8]: Mrs. J. K. Rowling.
     "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
@@ -195,8 +171,6 @@
     [Wizarding World](https://www.wizardingworld.com/) Originally Published on
     Pottermore: 2015-09-21. Last Viewed 2021-06-14.
 
-[^20210301-3]: Mrs. J. K. Rowling. "[Arthur Weasley Fact File](https://web.archive.org/web/20170414075352/https://www.pottermore.com/explore-the-story/arthur-weasley)" <https://www.pottermore.com> Snapshot from 2017-04-14. Last Viewed 2021-03-01 via Internet Archive.
-
 [^20210111-1]: <https://www.pottermore.com/collection/all-about-slytherin> better citation needed as this is now only actually available via the wayback machine.
 
 [^20200713-1]: [Wikipedia](https://en.wikipedia.org/).
@@ -270,10 +244,6 @@
 
 [^20200623-6]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
     "[International Statute of Wizarding Secrecy](https://harrypotter.fandom.com/wiki/International_Statute_of_Wizarding_Secrecy)"
-
-[^20210223-3]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
-    "[Lucius Malfoy](https://harrypotter.fandom.com/wiki/Lucius_Malfoy)" The logic used in this citation is persuasive. Last edited 2021-02-10. Last viewed 2021-02-23.
-
 
 [^20200816-1]: [Wikipedia](https://en.wikipedia.org/).
     "[Dip pen](https://en.wikipedia.org/wiki/Dip_pen)" Last Edited 2020-07-24. Last Viewed 2020-08-16
