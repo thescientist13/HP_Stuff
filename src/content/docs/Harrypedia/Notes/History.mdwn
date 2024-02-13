@@ -1,65 +1,3 @@
-[[!meta title="History of the Harry Potter World"]]
-
-* 1884 - Arcturus Black I born.[^20210122-22]
-
-* 1889 - Cygnus Black I born.[^20210122-20]
-
-* 1889 - May 14 - Queen Victoria is patron of the organisation that becomes
-  (following a rename) the National Society for the Prevention of Cruelty to Children (NSPCC).[^211202-1]
-
-* 1901 Queen Victoria died.
-
-* 1901 - Arcturus Black ([[Sirius Orion's|adults/Sirius]] Paternal Grandfather) born.[^20210122-10]
-
-
-* 1903 - The Pistols Act 1903: regulates the sale of firearms with a barrel of
-  less than 9 inches.  In practice, this bill does nothing.[^20210228-1]
-
-* 1906 - Regulus Black (Arcturus' brother) born.[^20210122-11]
-
-* 1912 - Pollux Black ([[Sirius Orion's|adults/Sirius]] Maternal Grandfather) born.[^20210122-12]
-
-* 1913 - Henry Potter serves in the Wizengamot, publicly condemns Minister for
-  Magic, Archer Evermonde.  Potter family excluded from the ‘Sacred
-  Twenty-Eight’.[^20210122-25]
-
-* 1914 - July 28 - World War I.[^20210514-5]
-
-* 1918 - November 11 - Armistice signed ending World War I.[^20210514-6]
-
-* 1920 - Dorea Black born[^20210122-3]
-
-* 1920 - The Firearms Act 1920: "It required anyone wanting to purchase or
-  possess a firearm or ammunition to obtain a firearm certificate. The
-  certificate, which lasted for three years, specified not only the firearm but
-  also the amount of ammunition the holder could buy or possess."[^20210228-2]
-  This law does not affect smooth bore guns.[^20210228-3]
-
-* 1921 - Henry Potter leaves Wizengamot.[^20210330-44]
-
-* 1925 - Phineus Nigellus Black dies.[^20210122-19]
-
-* 1926 - December 31, Tom Marvolo Riddle born[^20210223-1]
-
-* 1930 - Sometime in this decade the "Sacred Twenty-Eight" list is
-  published.[^20210514-2]
-
-* 1931 - Approximate start of Horace Slughorn's teaching career, possibly as
-  much as one year later.[^20210702-3]
-
-* 1937 - The Firearms Act 1937: extends the 1920 bill to smooth bore shotguns with short barrels, and a few other changes.[^20210228-4]
-
-* 1938 - Cygnus Black II born.[^20210122-13]
-
-* 1938 - September 1 - Tom Marvolo Riddle starts at Hogwarts (computed from his
-  birthday).
-
-* 1939 - September 1 - World War II starts.[^20210514-3]
-
-* 1943 - Cygnus Black I dies.[^20210122-21]
-
-* 1943 - Hagrid expelled.[^20210301-2]
-
 * 1945 - May 8 - German surrender (VE Day).[^20210514-4]
 
 * 1945 - July - Tom Marvolo Riddle graduates from Hogwarts (computed from when he
@@ -96,33 +34,9 @@
     confirming piece of evidence like this really just makes the whole thing
     rather irrefutable.
 
-[^20210702-3]: Mrs. J. K. Rowling. _Short Stories from Hogwarts of Power,
-    Politics and Pesky Poltergeists_  Pottermore Publishing. American Kindle
-    Edition. © 2016. Page 34.
-
-[^20210514-6]: [Wikipedia](https://en.wikipedia.org/)
-    "[World War I](https://en.wikipedia.org/wiki/World_War_I)"
-    Last Edited: 2021-05-12. Last Viewed: 2021-05-14.
-
-[^20210514-5]: [Wikipedia](https://en.wikipedia.org/)
-    "[World War I](https://en.wikipedia.org/wiki/World_War_I)"
-    Last Edited: 2021-05-12. Last Viewed: 2021-05-14.
-
 [^20210514-4]: [Wikipedia](https://en.wikipedia.org/)
     "[World War II](https://en.wikipedia.org/wiki/World_War_II)"
     Last Edited: 2021-05-11. Last Viewed: 2021-05-14.
-
-[^20210514-3]: [Wikipedia](https://en.wikipedia.org/)
-    "[World War II](https://en.wikipedia.org/wiki/World_War_II)"
-    Last Edited: 2021-05-11. Last Viewed: 2021-05-14.
-
-[^20210514-2]: Mrs. J. K. Rowling. _Short Stories from Hogwarts of Power,
-    Politics and Pesky Poltergeists_  Pottermore Publishing. American Kindle
-    Edition. © 2016. Page 31.
-
-[^20210514-1]: 
-
-
 
 [^20210330-8]: Mrs. J. K. Rowling.
     "[Ministers for Magic](https://www.wizardingworld.com/writing-by-jk-rowling/ministers-for-magic)"
@@ -281,16 +195,6 @@
     [Wizarding World](https://www.wizardingworld.com/) Originally Published on
     Pottermore: 2015-09-21. Last Viewed 2021-06-14.
 
-[^20210122-25]: Mrs. J. K. Rowling.
-    "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
-    [Wizarding World](https://www.wizardingworld.com/) Originally Published on
-    Pottermore: 2015-09-21. Last Viewed 2021-03-30.
-
-[^20210330-44]: Mrs. J. K. Rowling.
-    "[The Potter Family](https://www.wizardingworld.com/writing-by-jk-rowling/the-potter-family)"
-    [Wizarding World](https://www.wizardingworld.com/) Originally Published on
-    Pottermore: 2015-09-21. Last Viewed 2021-03-30.
-
 [^20210301-3]: Mrs. J. K. Rowling. "[Arthur Weasley Fact File](https://web.archive.org/web/20170414075352/https://www.pottermore.com/explore-the-story/arthur-weasley)" <https://www.pottermore.com> Snapshot from 2017-04-14. Last Viewed 2021-03-01 via Internet Archive.
 
 [^20210111-1]: <https://www.pottermore.com/collection/all-about-slytherin> better citation needed as this is now only actually available via the wayback machine.
@@ -353,23 +257,6 @@
     "[Guardian of Scotland](https://en.wikipedia.org/wiki/Guardian_of_Scotland)"
     Last Edited: 2021-02-13. Last Viewed: 2021-04-06.
 
-[^20210228-1]: [Wikipedia](https://en.wikipedia.org/).
-    "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
-    Last Edited 2021-02-14. Last Viewed 2021-02-28.
-
-[^20210228-2]: [Wikipedia](https://en.wikipedia.org/).
-    "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
-    Last Edited 2021-02-14. Last Viewed 2021-02-28.
-
-[^20210228-3]: [Wikipedia](https://en.wikipedia.org/).
-    "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
-    Last Edited 2021-02-14. Last Viewed 2021-02-28.
-
-[^20210228-4]: [Wikipedia](https://en.wikipedia.org/).
-    "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
-    Last Edited 2021-02-14. Last Viewed 2021-02-28.
-
-
 [^20210228-6]: [Wikipedia](https://en.wikipedia.org/).
     "[Firearms regulation in the United Kingdom](https://en.wikipedia.org/wiki/Firearms_regulation_in_the_United_Kingdom)"
     Last Edited 2021-02-14. Last Viewed 2021-02-28.
@@ -381,18 +268,8 @@
     "[Hadrian's Wall](https://en.wikipedia.org/wiki/Hadrian%27s_Wall)"
     Last viewed 2020-06-23.
 
-
-
-[^20210301-2]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
-    "[Rubeus Hagrid](https://harrypotter.fandom.com/wiki/Rubeus_Hagrid)"
-    Last Edited 2021-03-01. Last Viewed 2021-03-01.
-
 [^20200623-6]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
     "[International Statute of Wizarding Secrecy](https://harrypotter.fandom.com/wiki/International_Statute_of_Wizarding_Secrecy)"
-
-
-[^20210223-1]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
-    "[Tom Riddle](https://harrypotter.fandom.com/wiki/Tom_Riddle)" The logic used in the citation for this is persuasive. Last edited 2021-02-19. Last viewed 2021-02-23.
 
 [^20210223-3]: [Harry Potter Wiki](https://harrypotter.fandom.com/).
     "[Lucius Malfoy](https://harrypotter.fandom.com/wiki/Lucius_Malfoy)" The logic used in this citation is persuasive. Last edited 2021-02-10. Last viewed 2021-02-23.
