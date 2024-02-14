@@ -1,6 +1,31 @@
 ---
 events:
   - type: magical
+    date: 1612
+    blurb: Ralston Potter seated in the Wizengamot
+    description: |
+      [Ralston] Potter was seated in the [Wizengamot] from 1612 to 1652.
+      He is known for his participation in the debates surounding the [Statute of Secrecy].
+
+      [Statute of Secrecy]: <../culture/government/>
+
+      [Wizengamot]: <../culture/government/>
+
+      [Ralston]: <../people/potter/ralston/>
+    source: |
+      "[The Potter Family](https://www.rowlingindex.org/work/pmpfam/)"
+      _[The J.K. Rowling Index]_
+      Originally Published: 2015-09-22. Last Viewed: 2024-01-04.
+  - type: mundane
+    date: 1618
+    blurb: Witch hunting begins to peak in Europe
+    description: |
+      During roughly the years 1618 to 1648, witch hunting reaches its peak in Europe.  This coincides with the 30 years war. 
+    source: |
+      [Wikipedia](https://en.wikipedia.org/).
+      "[Witch-hunt](https://en.wikipedia.org/wiki/Witch-hunt#Early_Modern_Europe)"
+      Last Viewed 2020-07-04
+  - type: magical
     date: 1649
     blurb: Mnemone Radford dies
     description: |
@@ -29,6 +54,22 @@ events:
       [Ministers of Magic]: https://www.rowlingindex.org/work/msmpm/
 
       [The J.K. Rowling Index]: https://www.rowlingindex.org/
+  - type: mundane
+    blurb: Origins of Coutts Bank
+    description: |
+      What would eventually be Coutts Bank is started by John Campbell at the
+      sign of The Three Crowns in Strand, London.  At least one fan fiction uses this as a partly [goblin] owned bank to get around the [Statute
+      of Secrecy].
+
+      [goblin]: <../beings/goblin/>
+
+      [Statute of Secrecy]: <../culture/government/>
+    source: |
+      * © COPYRIGHT COUTTS & CO. "[OUR HISTORY](https://www.coutts.com/about/history.html)"
+      * AndrewWolfe. 
+        _[The Ghost of Privet Drive](https://archiveofourown.org/works/21500365)_
+        [Archive of Our Own](https://archiveofourown.org/) 
+        Last Updated 2020-08-14. Last viewed 2020-08-18.
   - type: magical
     date: 1693
     blurb: MACUSA established
