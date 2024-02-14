@@ -15,14 +15,14 @@ dependencies:
     specifier: ^4.0.1
     version: 4.0.1(@webcomponents/template-shadowroot@0.2.1)(lit@3.1.2)
   '@astrojs/starlight':
-    specifier: ^0.18.0
-    version: 0.18.0(astro@4.3.6)
+    specifier: ^0.18.1
+    version: 0.18.1(astro@4.3.7)
   '@astrojs/starlight-tailwind':
     specifier: ^2.0.1
-    version: 2.0.1(@astrojs/starlight@0.18.0)(@astrojs/tailwind@5.1.0)(tailwindcss@3.4.1)
+    version: 2.0.1(@astrojs/starlight@0.18.1)(@astrojs/tailwind@5.1.0)(tailwindcss@3.4.1)
   '@astrojs/tailwind':
     specifier: ^5.1.0
-    version: 5.1.0(astro@4.3.6)(tailwindcss@3.4.1)(ts-node@10.9.2)
+    version: 5.1.0(astro@4.3.7)(tailwindcss@3.4.1)(ts-node@10.9.2)
   '@formatjs/intl':
     specifier: ^2.10.0
     version: 2.10.0(typescript@5.3.3)
@@ -63,8 +63,8 @@ dependencies:
     specifier: ^0.2.1
     version: 0.2.1
   astro:
-    specifier: 4.3.6
-    version: 4.3.6(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
+    specifier: 4.3.7
+    version: 4.3.7(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
   autoprefixer:
     specifier: ^10.4.17
     version: 10.4.17(postcss@8.4.35)
@@ -207,10 +207,10 @@ devDependencies:
     version: 2.40.3(@aws-sdk/credential-provider-node@3.511.0)
   starlight-links-validator:
     specifier: ^0.5.3
-    version: 0.5.3(@astrojs/starlight@0.18.0)(astro@4.3.6)
+    version: 0.5.3(@astrojs/starlight@0.18.1)(astro@4.3.7)
   type-mermaid:
     specifier: ^1.1.0
-    version: 1.1.0(@mermaid-js/mermaid-cli@10.8.0)
+    version: 1.1.0(@mermaid-js/mermaid-cli@9.4.0)
   unist-util-visit-parents:
     specifier: ^6.0.1
     version: 6.0.1
@@ -336,7 +336,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/mdx@2.1.1(astro@4.3.6):
+  /@astrojs/mdx@2.1.1(astro@4.3.7):
     resolution: {integrity: sha512-AgGFdE7HOGmoFooGvMSatkA9FiSKwyVW7ImHot/bXJ6uAbFfu6iG2ht18Cf1pT22Hda/6iSCGWusFvBv0/EnKQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -345,7 +345,7 @@ packages:
       '@astrojs/markdown-remark': 4.2.1
       '@mdx-js/mdx': 3.0.1
       acorn: 8.11.3
-      astro: 4.3.6(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
+      astro: 4.3.7(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
       es-module-lexer: 1.4.1
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -373,34 +373,35 @@ packages:
       sitemap: 7.1.1
       zod: 3.22.4
 
-  /@astrojs/starlight-tailwind@2.0.1(@astrojs/starlight@0.18.0)(@astrojs/tailwind@5.1.0)(tailwindcss@3.4.1):
+  /@astrojs/starlight-tailwind@2.0.1(@astrojs/starlight@0.18.1)(@astrojs/tailwind@5.1.0)(tailwindcss@3.4.1):
     resolution: {integrity: sha512-niMgFcR7NHcsBVy8UAN3F2gqhmoN5v83st5Hu4YzvUL+6SNwjQmIipXppXdN9+iVneRjPr6PLGzDfI+wnjSBWQ==}
     peerDependencies:
       '@astrojs/starlight': '>=0.9.0'
       '@astrojs/tailwind': ^5.0.0
       tailwindcss: ^3.3.3
     dependencies:
-      '@astrojs/starlight': 0.18.0(astro@4.3.6)
-      '@astrojs/tailwind': 5.1.0(astro@4.3.6)(tailwindcss@3.4.1)(ts-node@10.9.2)
+      '@astrojs/starlight': 0.18.1(astro@4.3.7)
+      '@astrojs/tailwind': 5.1.0(astro@4.3.7)(tailwindcss@3.4.1)(ts-node@10.9.2)
       tailwindcss: 3.4.1(ts-node@10.9.2)
     dev: false
 
-  /@astrojs/starlight@0.18.0(astro@4.3.6):
-    resolution: {integrity: sha512-pEYcuSf+t8aHJZQzGKJfgHGQpidrtifDqWE0jZevADpR+JJhyK2LXWhcOYCZiqDUil28FZmVr+/FrA3Dnw8xQQ==}
+  /@astrojs/starlight@0.18.1(astro@4.3.7):
+    resolution: {integrity: sha512-6sM9m52fVsCfu4cR9M9ZIZLwPpbcS0/E6PZPGKaHinXbailzLZTtFQndPzDOEIFBOOPj6KQvGfrgQDby9rNovQ==}
     peerDependencies:
       astro: ^4.2.7
     dependencies:
-      '@astrojs/mdx': 2.1.1(astro@4.3.6)
+      '@astrojs/mdx': 2.1.1(astro@4.3.7)
       '@astrojs/sitemap': 3.0.5
       '@pagefind/default-ui': 1.0.4
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.3
-      astro: 4.3.6(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
-      astro-expressive-code: 0.32.4(astro@4.3.6)
+      astro: 4.3.7(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
+      astro-expressive-code: 0.32.4(astro@4.3.7)
       bcp-47: 2.1.0
       hast-util-select: 6.0.2
       hastscript: 8.0.0
       mdast-util-directive: 3.0.0
+      mdast-util-to-markdown: 2.1.0
       pagefind: 1.0.4
       rehype: 13.0.1
       remark-directive: 3.0.0
@@ -411,13 +412,13 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/tailwind@5.1.0(astro@4.3.6)(tailwindcss@3.4.1)(ts-node@10.9.2):
+  /@astrojs/tailwind@5.1.0(astro@4.3.7)(tailwindcss@3.4.1)(ts-node@10.9.2):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.3.6(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
+      astro: 4.3.7(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
       autoprefixer: 10.4.17(postcss@8.4.35)
       postcss: 8.4.35
       postcss-load-config: 4.0.2(postcss@8.4.35)(ts-node@10.9.2)
@@ -2961,8 +2962,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@mermaid-js/mermaid-cli@10.8.0(typescript@5.3.3):
-    resolution: {integrity: sha512-xZsGR88RsP72SAXyvjU23HzsKHsq6b7/kbnmQrEuIcPrJGPOckFiP9nzHvPh3Z04MjvpDJVjtbIspt2ZQwUzzA==}
+  /@mermaid-js/mermaid-cli@9.4.0(typescript@5.3.3):
+    resolution: {integrity: sha512-/Nqs8Xtasw5wvop1PPiqmSx5SUxq/yARH+0EhEHAx8MVdbZXtUnzuK+Yv6NgpD2/Fb84/N3jF08zmIiJSyT5Lg==}
     engines: {node: ^14.13 || >=16.0}
     hasBin: true
     dependencies:
@@ -4814,12 +4815,12 @@ packages:
     resolution: {integrity: sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==}
     hasBin: true
 
-  /astro-expressive-code@0.32.4(astro@4.3.6):
+  /astro-expressive-code@0.32.4(astro@4.3.7):
     resolution: {integrity: sha512-/Kq8wLMz0X2gbLWGmPryqEdFV/om/GROsoLtPFqLrLCRD5CpwxXAW185BIGZKf4iYsyJim1vvcpQm5Y9hV5B1g==}
     peerDependencies:
       astro: ^3.3.0 || ^4.0.0-beta
     dependencies:
-      astro: 4.3.6(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
+      astro: 4.3.7(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
       hast-util-to-html: 8.0.4
       remark-expressive-code: 0.32.4
 
@@ -4830,8 +4831,8 @@ packages:
       set-cookie-parser: 2.6.0
     dev: true
 
-  /astro@4.3.6(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-VYJGsBygMtPM/qTRgn5QdxkSILgjpW2uHVw3snp/Gkl+N9uRAAnuYxrUO7wkbLejfrmlb0nZyyKG+H5VDQPbeg==}
+  /astro@4.3.7(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-spdl+Ae6WZjQ0w8VBPq8ulN1hdN0m4EWvKG7ecgHjPQIHidMnzWJoZLEFEeKASqCGB1fDibqr7RDHoHkhZbp2Q==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -12361,15 +12362,15 @@ packages:
       escape-string-regexp: 2.0.0
     dev: true
 
-  /starlight-links-validator@0.5.3(@astrojs/starlight@0.18.0)(astro@4.3.6):
+  /starlight-links-validator@0.5.3(@astrojs/starlight@0.18.1)(astro@4.3.7):
     resolution: {integrity: sha512-v79rwmzjQlEMVL8sZ4dalD/jhFOUvGZ2/f4CvxCySZ9KbEN9nDmgV8zJgfpmTzhbcYQ35wzyUinF4QNxgKVA4g==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.15.0'
       astro: '>=4.0.0'
     dependencies:
-      '@astrojs/starlight': 0.18.0(astro@4.3.6)
-      astro: 4.3.6(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
+      '@astrojs/starlight': 0.18.1(astro@4.3.7)
+      astro: 4.3.7(@types/node@20.11.17)(sass@1.70.0)(typescript@5.3.3)
       github-slugger: 2.0.0
       hast-util-from-html: 2.0.1
       hast-util-has-property: 3.0.0
@@ -12991,12 +12992,12 @@ packages:
       mime-types: 2.1.35
     dev: true
 
-  /type-mermaid@1.1.0(@mermaid-js/mermaid-cli@10.8.0):
+  /type-mermaid@1.1.0(@mermaid-js/mermaid-cli@9.4.0):
     resolution: {integrity: sha512-0bDhLQZjRbKgwGWVqZ+XGJ3eqRZmrh4NeT8/59GRONyxkomV+33y+N+TcbcLCZX6dMu5rIHZej62FBG0FVu1wA==}
     peerDependencies:
       '@mermaid-js/mermaid-cli': ^9.2.2
     dependencies:
-      '@mermaid-js/mermaid-cli': 10.8.0(typescript@5.3.3)
+      '@mermaid-js/mermaid-cli': 9.4.0(typescript@5.3.3)
     dev: true
 
   /typedarray-to-buffer@3.1.5:
