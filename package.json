@@ -81,7 +81,7 @@
     "is-stream": "^4.0.1",
     "just-install": "^2.0.1",
     "sst": "2.40.3",
-    "starlight-links-validator": "^0.5.3",
+    "starlight-links-validator": "^0.6.0",
     "type-mermaid": "^1.1.0",
     "unist-util-visit-parents": "^6.0.1"
   }
