@@ -13,7 +13,8 @@ export default defineConfig({
     adapter: aws(),
     site: "https://hpfan.schierer.org/",
     redirects: {
-      '/harrypedia/magic/spells/patronus/': '/harrypedia/magic/spells/expecto_patronum/'
+      '/harrypedia/magic/spells/patronus/': '/harrypedia/magic/spells/expecto_patronum/',
+      '/harrypedia/culture/contracts/': '/harrypedia/magic/contracts/',
     },
     integrations: [
         starlight({
