@@ -11,6 +11,7 @@ import {z, ZodError} from 'zod'
 
 import {DatabaseSchema} from "@lib/GrampsZodTypes";
 
+export const prerender = true;
 
 export const GET: APIRoute = async ({ params, request }) => {
     let id: string = params.id ? params.id : '';
