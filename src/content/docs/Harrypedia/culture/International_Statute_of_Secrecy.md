@@ -31,3 +31,5 @@ This idea is supported by lesser canonical sources.  In England, the [Potters] a
 [^20200810-5]: Mrs. J. K. Rowling.
     "[The Malfoy family]"
     [The J.K. Rowling Index] Originally Published: 2012-07-10. Last Seen: 2024-01-30.
+
+[Wikipedia]: https://wikipedia.org/

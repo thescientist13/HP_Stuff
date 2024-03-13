@@ -67,3 +67,5 @@ How frequently were they used?  In what situations?  Was it common to make every
 [^240313-5]: [Wikipedia].
     "[Marriage settlement (England)](https://en.wikipedia.org/wiki/Marriage_settlement_(England))"
     Last Edited: 2023-11-08. Last Viewed: 2024-03-13.
+
+[Wikipedia]: https://wikipedia.org/
