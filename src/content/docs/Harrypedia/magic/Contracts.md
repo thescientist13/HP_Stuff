@@ -3,7 +3,10 @@ title: Magical Contracts
 author: Luke Schierer
 ---
 
+
 Other than the goblet itself in _[the Goblet of Fire]_, we do not see any magical contracts in the canonical works.  That is, unless you count the so called "Unbreakable Vow" as a contract.  I, like other authors,[^240313-2] believe that this is, in fact, a second example of a magical contract.  There are a number of problems with this concept, and a few different authors have poked at some of these, some of whom have done so quite well.[^240313-3]  
+
+## Analysis 
 
 Given that magical contracts exist, you could even see the logic behind [cbsmith17]'s [unfinished story][ttpbc] in which they are used to *protect* children from being trapped by still worse contracts.  Magical society over the centuries has probably learned to its horror that marriage contracts are dangerous things.  That would not stop someone like a [Malfoy] from being short sighted in a desire to hurt an enemy.  It is also probably something that magical society tried more than once, and probably eventually figured out *something* around, since in non-magical society, they were common.[^240313-5]
 
@@ -28,6 +31,21 @@ This is related to both of the preceding two concerns.  Can a contract be inheri
 
 How frequently were they used?  In what situations?  Was it common to make every contract magically enforced?  Or only "special" contracts?  *Are* marriages regularly magically binding?  If so, how frequently are other contractual terms (for example a dowry) included?  
 
+## Fan Use
+
+Magical contracts are a reasonably popular theme in fan fiction.  They are frequently used to set up unrealistic pairings, many of them between [Hermione] and some unpleasant adult; I do not read those.  Based on the number of results, many authors are *really* disturbed. My own reaction is that it simply *cannot* be actually all that easy to trap someone into a magical marriage contract, or, to more accurately name what at least some of these authors intend, a magical slavery contract. Not that such contracts *cannot* exist, it simply cannot be *easy* to end up bound to one by some unrelated third party.  The history of [Ministers of Magic] is replete with examples of Ministers with strong biases against non-magical families, and those from such backgrounds.  If such things were easy to achieve, it would be so common as to have forced either outraged families to outright rebel, or the development of a now equally common magical counter.  So either those who might use such tactics, or essentially anyone with magic, would have been eradicated in either vengeance or self-defense, or [Hermione]'s go-to solution of looking in the library would turn up the well known counter tactic. 
+
+Of the ones that are *not* focused on marriage contracts, most focus solely on the Goblet itself, but there are a few in which the author has decided to poke at the fact that it seems to be ridiculously easy to get someone into trouble with a magical contract. Some of these are amusing. 
+
+Perhaps the oddest aspect of these stories is a single inconsistency.  One of the more frequent plot lines is that there is a marriage law passed, and for whatever reason it is actually possible to compel people to obey it and contract marriages under this law.  Occasionally you see a work in which so long as you *do* get married within some relatively short timeframe of turning some particular age, you may chose to whom you get married.  This age will typically be chosen to include [Harry] and exclude [Ginny].  Then in a fit of incredible illogic the author will ignore the fact that [Ginny]
+is only one year younger, *will* be affected by the law in the next year, and that whatever conditions existed to trigger the law will certainly persist into the next year.  Despite this, [Ginny] and her family will insist that she is too young to get married, and that [Harry] must look elsewhere for his bride.[^240315-1] 
+
+In a world where magical contracts can in fact be binding, I can see how laws *might* have their basis in an ancient contract, and thus be magically self-enforcing.  It is thus *possible* that a marriage law might actually have devastating consequences if not generally obeyed.  Such a law would necessarily be an old one that for whatever reason gets triggered rather that being constantly in effect.  However, once it *has* been triggered, the idea that [Ginny] would irrationally ignore it while her friends and family are affected and groundlessly hope not to be affected in the next year is a step too far.  Firstly because in a world where magical contracts exist, getting stuck into an wanted marriage would be on the short list of nightmares for girls.[^240315-2]  Secondly because [Ginny] cares deeply for her family, and would be too involved in the impact to them not to see it coming for her. Thirdly because the research that [Hermione] would inevitably do in such a situation would *certainly* uncover that there was no escape for not just [Harry] and [Hermione], but also for [Ginny]. 
+
+[Ginny]: <../../people/weasley/ginevra_molly/>
+
+[Hermione]: <../../people/granger/hermione_jean/>
+
 [Harry]: <../../people/potter/harry_james/>
 
 [Umbridge]: <../../people/umbridge/delores_jane/>
@@ -36,9 +54,20 @@ How frequently were they used?  In what situations?  Was it common to make every
 
 [ttpbc]: https://www.fanfiction.net/s/13987875/
 
+[Ministers of Magic]: https://www.rowlingindex.org/work/msmpm/
+
 [the Goblet of Fire]: https://www.librarything.com/work/113
 
 [Goblet of Fire]: https://www.librarything.com/work/113]
+
+[^240315-2]: this is noted in
+  * kb0. _[Harry Potter: Air Elemental](https://www.fanfiction.net/s/11995519/1)_
+    Published: 2016-06-12. Updated: 2019-02-28. 
+
+[^240315-1]: including but not limited to:
+   * WolfgangNH. 
+     _[The Ancient Proliferation Covenant](https://www.fanfiction.net/s/14058788/1)_
+     Published: 2022-03-27. Updated: 2023-01-27. 
 
 [^240313-2]: including but not limited to:
     * Jeanne Kimsey, Liam and William Silvester. 
