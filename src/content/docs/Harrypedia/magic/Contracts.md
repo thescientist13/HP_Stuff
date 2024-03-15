@@ -52,6 +52,8 @@ In a world where magical contracts can in fact be binding, I can see how laws *m
 
 [Malfoy]: <../../people/malfoy/>
 
+[Molly]: <../../people/prewett/molly/>
+
 [ttpbc]: https://www.fanfiction.net/s/13987875/
 
 [Ministers of Magic]: https://www.rowlingindex.org/work/msmpm/
@@ -64,10 +66,10 @@ In a world where magical contracts can in fact be binding, I can see how laws *m
   * kb0. _[Harry Potter: Air Elemental](https://www.fanfiction.net/s/11995519/1)_
     Published: 2016-06-12. Updated: 2019-02-28. 
 
-[^240315-1]: including but not limited to:
-   * WolfgangNH. 
-     _[The Ancient Proliferation Covenant](https://www.fanfiction.net/s/14058788/1)_
-     Published: 2022-03-27. Updated: 2023-01-27. 
+[^240315-1]: I initially thought this story fit, but it doesn't, [Molly] is irrational and compels [Ginny]'s behavior.
+   * [WolfgangNH](https://archiveofourown.org/users/WolfgangNH/pseuds/WolfgangNH). 
+     _[The Ancient Proliferation Covenant](https://archiveofourown.org/works/38270980)_
+     Published: 2022-04-09. Updated: 2023-03-05.
 
 [^240313-2]: including but not limited to:
     * Jeanne Kimsey, Liam and William Silvester. 
