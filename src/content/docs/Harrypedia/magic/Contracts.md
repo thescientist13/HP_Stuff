@@ -66,7 +66,7 @@ In a world where magical contracts can in fact be binding, I can see how laws *m
   * kb0. _[Harry Potter: Air Elemental](https://www.fanfiction.net/s/11995519/1)_
     Published: 2016-06-12. Updated: 2019-02-28. 
 
-[^240315-1]: I initially thought this story fit, but it doesn't, [Molly] is irrational and compels [Ginny]'s behavior.
+[^240315-1]: I initially thought this story fit, but it doesn't, [Molly] starts out irrational (which is probably what I remembered), and then [Ginny] does the jealous fan girl thing.
    * [WolfgangNH](https://archiveofourown.org/users/WolfgangNH/pseuds/WolfgangNH). 
      _[The Ancient Proliferation Covenant](https://archiveofourown.org/works/38270980)_
      Published: 2022-04-09. Updated: 2023-03-05.
