@@ -9,6 +9,8 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+    output: "hybrid",
+    adapter: aws(),
     site: "https://hpfan.schierer.org/",
     redirects: {
       '/harrypedia/magic/spells/patronus/': '/harrypedia/magic/spells/expecto_patronum/',
