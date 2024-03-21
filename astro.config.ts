@@ -11,6 +11,9 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
     output: "hybrid",
     adapter: aws(),
+    experimental: {
+        globalRoutePriority: true
+      },
     site: "https://hpfan.schierer.org/",
     redirects: {
       '/harrypedia/magic/spells/patronus/': '/harrypedia/magic/spells/expecto_patronum/',
