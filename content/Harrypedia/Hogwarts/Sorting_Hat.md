@@ -1,4 +1,0 @@
-+++
-title = "Hogwarts Sorting Hat"
-+++
-
