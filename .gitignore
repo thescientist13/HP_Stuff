@@ -1,3 +1,29 @@
-node_modules
-public
-.hugo_build.lock
+# build output
+src/content/gramps/*.json
+src/**/*.js
+src/lib/root.json
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+pnpm-lock.yaml
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# sst
+.sst

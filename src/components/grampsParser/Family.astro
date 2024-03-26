@@ -1,0 +1,9 @@
+---
+import { Card } from '@astrojs/starlight/components';
+import { GrampsFamily} from './family';
+const Url = new URL('/gramps/gramps.json', Astro.url );
+
+---
+
+<GrampsFamily url={Url} client:only />
+
