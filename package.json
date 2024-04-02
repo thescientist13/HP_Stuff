@@ -34,7 +34,7 @@
     "@nanostores/query": "^0.2.10",
     "@tailwindcss/typography": "^0.5.12",
     "@webcomponents/template-shadowroot": "^0.2.1",
-    "astro": "4.5.12",
+    "astro": "4.5.13",
     "autoprefixer": "^10.4.19",
     "boolbase": "^1.0.0",
     "comlink": "^4.4.1",
