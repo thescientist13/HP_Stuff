@@ -17,6 +17,7 @@
     "@astrojs/check": "^0.5.10",
     "@astrojs/internal-helpers": "^0.4.0",
     "@astrojs/lit": "^4.0.1",
+    "@astrojs/mdx": "^2.2.3",
     "@astrojs/node": "^8.2.5",
     "@astrojs/starlight": "^0.21.3",
     "@astrojs/starlight-tailwind": "^2.0.1",
