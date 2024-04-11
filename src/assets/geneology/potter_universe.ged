@@ -2,8 +2,8 @@
 1 SOUR Gramps
 2 VERS 5.1.2
 2 NAME Gramps
-1 DATE 9 MAR 2023
-2 TIME 19:01:07
+1 DATE 19 SEP 2023
+2 TIME 00:55:02
 1 SUBM @SUBM@
 1 FILE /home/schierer/luke/src/HarryPotter/assets/potter_universe.ged
 1 COPR Copyright (c) 2023 .
@@ -1235,6 +1235,15 @@
 2 GIVN Ginevra Molly
 2 SURN Weasley
 2 NICK Ginny
+1 NAME Ginevra Molly /Potter/
+2 TYPE married
+2 GIVN Ginevra Molly
+2 SURN Potter
+2 NPFX Mrs.
+2 NICK Ginny
+2 SOUR @S0002@
+3 PAGE 310
+3 QUAY 3
 1 SEX F
 1 BIRT
 2 DATE 11 AUG 1981
@@ -1255,8 +1264,8 @@
 1 SOUR @S0035@
 2 PAGE https://web.archive.org/web/20191002071823/https://www.pottermore.com/explore-the-story/ginny-weasley
 1 CHAN
-2 DATE 11 SEP 2021
-3 TIME 02:41:17
+2 DATE 19 SEP 2023
+3 TIME 04:53:20
 0 @I0071@ INDI
 1 NAME Fred /Weasley/
 2 GIVN Fred
