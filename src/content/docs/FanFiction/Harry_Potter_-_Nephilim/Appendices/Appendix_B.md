@@ -25,7 +25,7 @@ the purposes of this work:
     * kb0. _[The Lost Year](https://www.fanfiction.net/s/13815274)_ Published: 2021-02-09. Updated: 2021-03-24. 
 
 | Power Level | Ability Estimate                                                                                                                                                                                                                                                                                                                                                                                    |
-|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |      1      | <ul><li>some single weak ability within this category</li> <li>no conscious control</li></ul>                                                                                                                                                                                                                                                                                                       |
 |      2      | <ul><li>**one** of the following:<ul><li>multiple barely detectable abilities</li> <li>conscious control of a single weak ability</li><li>single ability of moderate strength without conscious control</li></ul></li></ul>                                                                                                                                                                         |                                                                                                                                                                         
 |      3      | <ul><li>able to manipulate this category of magic with great difficulty</li></ul>                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                       
@@ -536,7 +536,7 @@ Harry Potter cannon breaks magic down into:
 
 [Wikipedia]: <https://en.wikipedia.org/>
 
-[Imperius]: </harrypedia/magic/spells/Imperio>
+[Imperius]: </harrypedia/magic/spells/imperio>
 
 [^20210902-5]: Mrs. J. K. Rowling.
     "[What is the significance of Neville being the other boy to whom the prophecy might have

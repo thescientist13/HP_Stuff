@@ -293,6 +293,6 @@ them:
    Dumbledore, and Snape at a level where they need not fear Riddle overwhelming
    them in the mind arts. 
 
-[horcruxes]: </harrypedia/horcruxes>
+[horcruxes]: </harrypedia/magic/dark/horcruxes>
 
-[horcrux]: </harrypedia/horcruxes>
+[horcrux]: </harrypedia/magic/dark/horcruxes>

@@ -528,7 +528,7 @@ can never be fully freed.
 
 [Hermione]: </harrypedia/people/granger/hermione_jean>
 
-[Fleur]: </harrypedia/people/delacour/fleur/>
+[Fleur]: </harrypedia/people/delacour/fleur_isabelle/>
 
 [knffnm]: http://kokopelli.nsns.fanficauthors.net/Maskirovat/Maskirovat/
 

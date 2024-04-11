@@ -1,17 +1,29 @@
 import {defineConfig} from 'astro/config';
+import aws from "astro-sst";
 import starlight from '@astrojs/starlight';
+import starlightLinksValidator from 'starlight-links-validator'
+
 import lit from "@astrojs/lit";
 
 import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+    output: "hybrid",
+    adapter: aws(),
+    experimental: {
+        globalRoutePriority: true
+      },
     site: "https://hpfan.schierer.org/",
     redirects: {
-      '/harrypedia/magic/spells/patronus/': '/harrypedia/magic/spells/expecto_patronum/'
+      '/harrypedia/magic/spells/patronus/': '/harrypedia/magic/spells/expecto_patronum/',
+      '/harrypedia/culture/contracts/': '/harrypedia/magic/contracts/',
     },
     integrations: [
         starlight({
+            plugins: [starlightLinksValidator({
+                errorOnRelativeLinks: false,
+            })],
             title: "Luke's HP Site",
             customCss: [
                 './src/styles/tailwind.css',

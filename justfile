@@ -3,15 +3,17 @@ export PATH := "./node_modules/.bin:" + env_var('PATH')
 set dotenv-load
 
 export PNPM := `which pnpm`
+export NPM := `which npm`
+export NPX := `which npx`
 
 install:
     ${PNPM} install
 
 dev: install
-    ${PNPM} astro dev
+    ${PNPM} run astro dev
 
 check: install
-    ${PNPM} astro check;
+    ${PNPM}  astro check;
     ${PNPM} tsc -p tsconfig.node.json --noEmit;
 
 build: install parse

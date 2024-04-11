@@ -1,4 +1,4 @@
-import {onSet, atom, computed, onMount, task, action} from 'nanostores'
+import {onSet, atom, computed, onMount, task} from 'nanostores'
 import type {WritableAtom} from 'nanostores';
 import {logger} from '@nanostores/logger'
 
@@ -23,7 +23,7 @@ const Storelogger = logger({
   'zod Data': zodData,
 });
 
-export const fetchData = action(zodData, 'fetchData', async (store, dbUrl: URL) => {
+export async function fetchData (dbUrl: URL) {
   console.log(`fetchData onSet task; dbUrl is ${dbUrl.toString()}`)
   const result =  await task(async () => {
     const response = await fetch(dbUrl);
@@ -44,4 +44,4 @@ export const fetchData = action(zodData, 'fetchData', async (store, dbUrl: URL) 
   })
   console.log(`fetchData result was ${result}`)
   return result;
-})
+}
