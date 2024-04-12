@@ -16,6 +16,8 @@ import { AsyncSubject, from } from 'rxjs';
 import mermaid from "mermaid";
 import type {RenderResult} from "mermaid";
 
+const DEBUG = false;
+
 @customElement('mermaid-diagram')
 export class MermaidDiagram extends LitElement {
 
@@ -38,29 +40,29 @@ export class MermaidDiagram extends LitElement {
 
     async connectedCallback() {
         super.connectedCallback();
-        console.log(`connected Callback for mermaid-diagram`)
+        if (DEBUG) console.log(`connected Callback for mermaid-diagram`)
 
 
     }
 
     protected handleSlotChange(e: Event) {
-        console.log(`handleSlotChange called`)
+        if (DEBUG) console.log(`handleSlotChange called`)
         if(e && e.target) {
             const childNodes = (e.target as HTMLSlotElement).assignedNodes({flatten: true});
             const me = this.mermaidDivRef.value?.querySelector('slot');
             if(childNodes && me) {
-                console.log(`in handleSlotChange, I found slot children`)
+                if (DEBUG) console.log(`in handleSlotChange, I found slot children`)
                 this.mdc = childNodes;
                 this.renderMermaid(this.mermaidDivRef.value)
             } else {
-                console.log(`in handleSlotChange, I found no children`)
+                if (DEBUG) console.log(`in handleSlotChange, I found no children`)
                 this.mdc = null;
             }
         }
     }
 
     protected renderMermaid(div?: Element) {
-        console.log(`in renderMermaid`)
+        if (DEBUG) console.log(`in renderMermaid`)
         if(div) {
             mermaid.initialize({
                 flowchart: {
@@ -73,16 +75,16 @@ export class MermaidDiagram extends LitElement {
             });
             let CP_slot = div.querySelector('slot');
             if(CP_slot) {
-                console.log(`I found the slot`)
+                if (DEBUG) console.log(`I found the slot`)
                 const sc = CP_slot.assignedNodes({flatten: true});
                 if(sc && sc.length) {
-                    console.log(`I found ${sc.length} slot children`)
+                    if (DEBUG) console.log(`I found ${sc.length} slot children`)
                     if(sc[0] && sc[0].parentElement) {
                         const para = sc[0].parentElement.querySelector('p')
                         let innerHtml: string = '';
                         let result: Promise<RenderResult>
                         if(para) {
-                            console.log(mermaid.mermaidAPI.getConfig());
+                            if (DEBUG) console.log(mermaid.mermaidAPI.getConfig());
 
                             innerHtml = para.innerHTML;
 
@@ -90,7 +92,7 @@ export class MermaidDiagram extends LitElement {
                             innerHtml = sc[0].parentElement.innerHTML;
                         }
                         innerHtml = innerHtml.replace(/—&gt;/g, '-->')
-                        console.log(innerHtml.toString())
+                        if (DEBUG) console.log(innerHtml.toString())
                         this.result = from(mermaid.render('graph',innerHtml));
                     } else {
                         console.error (`my slot child had no parent`)
@@ -111,15 +113,15 @@ export class MermaidDiagram extends LitElement {
             console.error(`I have no div`)
         }
         if(this.result) {
-            console.log(`setting subscribe`)
+            if (DEBUG) console.log(`setting subscribe`)
             this.result.subscribe((s) => {
-                console.log(`setting slotHtml`)
+                if (DEBUG) console.log(`setting slotHtml`)
                 const { svg } = s;
                 this.slotHtml = svg;
                 this.requestUpdate()
             });
         }
-        console.log(`end of renderMermaid`)
+        if (DEBUG) console.log(`end of renderMermaid`)
    }
 
     render() {

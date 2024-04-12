@@ -20,4 +20,4 @@ import {rawEntry} from './state';
 let { personId } = Astro.props;
 
 ---
-<GrampsIndividual personId={Astro.props['personId']} client:only />
+<GrampsIndividual personId={Astro.props['personId']} client:only="lit" />
