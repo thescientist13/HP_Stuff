@@ -65,6 +65,7 @@ import {
   type Export, SourcerefSchema, DatabaseSchema
 } from '@lib/GrampsZodTypes';
 
+const DEBUG = false;
 
 export class GenealogicalData extends TailwindMixin(withStores(LitElement, [zodData]), styles) {
 
@@ -80,7 +81,7 @@ export class GenealogicalData extends TailwindMixin(withStores(LitElement, [zodD
 
   connectedCallback() {
     super.connectedCallback()
-    console.log(`initial url is ${this.url}`)
+    if (DEBUG) console.log(`initial url is ${this.url}`)
     if(this.url instanceof URL) {
       fetchData(this.url);
       zodData.listen(() => {
@@ -92,11 +93,11 @@ export class GenealogicalData extends TailwindMixin(withStores(LitElement, [zodD
   render() {
     const gramps = zodData.get();
     if(gramps !== null && gramps !== undefined) {
-      console.log(`grampsParser/index render; `)
+      if (DEBUG) console.log(`grampsParser/index render; `)
 
       let t = html``
       if(gramps) {
-        console.log(`grampsParser/index render; confirmed I have parsed data`)
+        if (DEBUG) console.log(`grampsParser/index render; confirmed I have parsed data`)
         t = html`${t}Gramps Data exported ${gramps.header.created.date}<br/>`
         const psize = gramps.people.person.length;
         t = html`${t}There are ${psize} people<br/>`;

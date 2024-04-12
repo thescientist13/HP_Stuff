@@ -2,6 +2,8 @@ import {html, LitElement, type PropertyValues, type TemplateResult, nothing} fro
 import {property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';
 
+const DEBUG = false;
+
 import { z} from "zod";
 import {DateTime, Interval} from 'luxon';
 
@@ -153,32 +155,32 @@ export class GrampsEvent extends TailwindMixin(withStores(LitElement, [zodData])
         super.willUpdate(changedProperties)
 
         if (zodData) {
-            console.log(`willUpdate; controlers are ready to render`)
+            if (DEBUG) console.log(`willUpdate; controlers are ready to render`)
             const db = zodData.get();
             if (changedProperties.has('grampsId') && this.grampsId && db) {
                 const filterResult = db.people.person.filter((v) => {
                     return v.id === this.grampsId
                 })
                 if (filterResult && filterResult.length > 0) {
-                    console.log(`willUpdate; filter returned ${filterResult.length} people`)
+                    if (DEBUG) console.log(`willUpdate; filter returned ${filterResult.length} people`)
                     const first: Person | undefined = filterResult.shift();
                     if (first !== undefined) {
-                        console.log(`willUpdate; and the first was valid`);
+                        if (DEBUG) console.log(`willUpdate; and the first was valid`);
                         this._i1 = first;
-                        console.log(`willUpdate; I first need to find the event`)
+                        if (DEBUG) console.log(`willUpdate; I first need to find the event`)
                         if(this.showBirth ) {
-                            console.log(`willUpdate; looking for a birth record for ${this.grampsId}`)
+                            if (DEBUG) console.log(`willUpdate; looking for a birth record for ${this.grampsId}`)
                             if(this._i1) {
                                 const e = this.findBirthByPerson(this._i1);
                                 if(e) {
-                                    console.log(`willUpdate; e found with id ${e.id}`)
+                                    if (DEBUG) console.log(`willUpdate; e found with id ${e.id}`)
                                     this.eventId = e.id;
                                     this._event = e;
                                 }
                             }
                         }
                         if(this.showDeath) {
-                            console.log(`willUpdate; I am looking for a death record`)
+                            if (DEBUG) console.log(`willUpdate; I am looking for a death record`)
                             if(this._i1) {
                                 const e = this.findDeathByPerson(this._i1);
                                 if(e) {
@@ -194,7 +196,7 @@ export class GrampsEvent extends TailwindMixin(withStores(LitElement, [zodData])
             }
             if(changedProperties.has('familyId') && this.familyId && db) {
                 if(this.showMarriage) {
-                    console.log(`render; looking for marriage event of ${this.familyId}`);
+                    if (DEBUG) console.log(`render; looking for marriage event of ${this.familyId}`);
                     const family = db.families.family.filter((f) => {
                         return (!f.id.localeCompare(this.familyId))
                     }).shift();
@@ -214,13 +216,13 @@ export class GrampsEvent extends TailwindMixin(withStores(LitElement, [zodData])
     }
 
     private findDeathByPerson(individual: Person) {
-        console.log(`findBirthByPerson; start`)
+        if (DEBUG) console.log(`findBirthByPerson; start`)
         const db = zodData.get();
         if(db) {
-            console.log(`findDeathByPerson; I have a db`)
+            if (DEBUG) console.log(`findDeathByPerson; I have a db`)
             const events = this.findEventsByPerson(individual);
             if(events) {
-                console.log(`findBirthByPerson; person has ${events.length} events`)
+                if (DEBUG) console.log(`findBirthByPerson; person has ${events.length} events`)
                 return events.filter(e => {
                     return (e.type === 'Death')
                 }).shift();
@@ -230,15 +232,15 @@ export class GrampsEvent extends TailwindMixin(withStores(LitElement, [zodData])
     }
 
     public findBirthByPerson(individual: Person) {
-        console.log(`findBirthByPerson; start`)
+        if (DEBUG) console.log(`findBirthByPerson; start`)
         const db = zodData.get();
         if(db) {
-            console.log(`findBirthByPerson; I have a db`)
+            if (DEBUG) console.log(`findBirthByPerson; I have a db`)
             const events = this.findEventsByPerson(individual);
             if(events) {
-                console.log(`findBirthByPerson; person has ${events.length} events`)
+                if (DEBUG) console.log(`findBirthByPerson; person has ${events.length} events`)
                 return events.filter(e => {
-                    console.log(`e.type is ${e.type}`)
+                    if (DEBUG) console.log(`e.type is ${e.type}`)
                     return (e.type === 'Birth')
                 }).shift();
             }
@@ -247,11 +249,11 @@ export class GrampsEvent extends TailwindMixin(withStores(LitElement, [zodData])
     }
 
     public findEventsByPerson(individual: Person):  Event[] | null {
-        console.log(`findEventsByPerson; start`)
+        if (DEBUG) console.log(`findEventsByPerson; start`)
         const refs: EventrefElement | EventrefElement[] | undefined | null = individual.eventref;
         const db = zodData.get();
         if(db && refs !== null && refs !== undefined) {
-            console.log(`findEventsByPerson; I have refs to search`)
+            if (DEBUG) console.log(`findEventsByPerson; I have refs to search`)
             const r: EventrefElement[] = [refs].flat()
             const returnable =  db.events.event.filter((e) => {
                 const _id = e.handle;
@@ -260,7 +262,7 @@ export class GrampsEvent extends TailwindMixin(withStores(LitElement, [zodData])
                     r.forEach((ref) => {
                         const link = ref.hlink;
                         if(!_id.localeCompare(link)) {
-                            console.log(`findEventsByPerson; found event for person`)
+                            if (DEBUG) console.log(`findEventsByPerson; found event for person`)
                             result.push(true);
                         }
                     })
@@ -328,10 +330,10 @@ export class GrampsEvent extends TailwindMixin(withStores(LitElement, [zodData])
     public render() {
         let t = html``
         if (zodData) {
-            console.log(`render; controllers are ready to render`)
+            if (DEBUG) console.log(`render; controllers are ready to render`)
             const db = zodData.get();
             if(this.eventId && db) {
-                console.log(`render; I know which event to work with`)
+                if (DEBUG) console.log(`render; I know which event to work with`)
                 const e = db.events.event.filter((e) => {
                     return (!e.id.localeCompare(this.eventId))
                 }).shift();

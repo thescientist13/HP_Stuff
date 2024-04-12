@@ -13,6 +13,8 @@ import remarkRehype from 'remark-rehype'
 import {unified, } from 'unified'
 import {DateTime} from 'luxon';
 
+const DEBUG = false;
+
 interface displayableEntry {
   date: DateTime,
   entries: event[]
@@ -56,12 +58,12 @@ allEvents.map((event: CollectionEntry<'history'>) => {
         })
     }
     if(!thisObject.date.isValid) {
-      console.log(`date for ${event.id} is invalid`)
+      if (DEBUG) console.log(`date for ${event.id} is invalid`)
       if(thisObject.entries[0].date !== null && 
         thisObject.entries[0].date !== undefined
         ) {
         const tdate = thisObject.entries[0].date.toString().padStart(4, '0');
-        console.log(`tdate is ${tdate}`)
+        if (DEBUG) console.log(`tdate is ${tdate}`)
         thisObject.date = DateTime.fromISO(tdate)
         thisObject.entries.map((e, index) => {
           let d: DateTime; 
@@ -74,12 +76,12 @@ allEvents.map((event: CollectionEntry<'history'>) => {
               d = DateTime.fromJSDate(e.date);
             }
           }
-          console.log(`date for e is ${d}`)
+          if (DEBUG) console.log(`date for e is ${d}`)
           const te = {
             date: d,
             entries: [e]
           }
-          console.log(`date for event ${index} in ${event.id} is ${te.date}`)
+          if (DEBUG) console.log(`date for event ${index} in ${event.id} is ${te.date}`)
           eventsSet.add(te);
         })
       }

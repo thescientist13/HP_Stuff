@@ -1,3 +1,4 @@
+
 import {defineConfig} from 'astro/config';
 import aws from "astro-sst";
 import starlight from '@astrojs/starlight';
@@ -118,5 +119,10 @@ export default defineConfig({
         service: {
             entrypoint: 'astro/assets/services/sharp'
         }
-    }
+    },
+    vite: {
+        assetsInclude: [
+            '**/*.dsv',
+        ],
+    },
 });

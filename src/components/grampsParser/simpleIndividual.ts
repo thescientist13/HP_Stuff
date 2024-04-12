@@ -14,6 +14,8 @@ import {IndividualName} from './individualName';
 import {GrampsEvent} from "./events";
 import {withStores} from "@nanostores/lit";
 
+const DEBUG = false;
+
 export class SimpleIndividual extends TailwindMixin(withStores(LitElement, [zodData]), styles) {
 
     @property({type: String})
@@ -60,7 +62,7 @@ export class SimpleIndividual extends TailwindMixin(withStores(LitElement, [zodD
 
     public async willUpdate(changedProperties: PropertyValues<this>) {
         super.willUpdate(changedProperties)
-        console.log(`willUpdate; `)
+        if (DEBUG) console.log(`willUpdate; `)
 
     }
 
@@ -69,15 +71,15 @@ export class SimpleIndividual extends TailwindMixin(withStores(LitElement, [zodD
         if (zodData) {
             const db: Database | null = zodData.get();
             if (this.grampsId && db) {
-                console.log(`render; id is ${this.grampsId} && I have a db`)
+                if (DEBUG) console.log(`render; id is ${this.grampsId} && I have a db`)
                 const filterResult = db.people.person.filter((v) => {
                     return (!v.id.localeCompare(this.grampsId, undefined, {sensitivity: 'base'}))
                 })
                 if (filterResult && filterResult.length > 0) {
-                    console.log(`render; filter returned ${filterResult.length} people`)
+                    if (DEBUG) console.log(`render; filter returned ${filterResult.length} people`)
                     const first: Person | undefined = filterResult.shift();
                     if (first !== undefined) {
-                        console.log(`render; first has id ${first.id}`);
+                        if (DEBUG) console.log(`render; first has id ${first.id}`);
                         this.individual = first;
                         t = html`${t}<individual-name grampsId=${this.grampsId} link=${this.asLink || nothing} ></individual-name>`
                         const eventRefs = this.individual.eventref;
@@ -85,14 +87,14 @@ export class SimpleIndividual extends TailwindMixin(withStores(LitElement, [zodD
                             t = html`${t} ( `
                         }
                         if(this.showBirth && this.grampsId && eventRefs) {
-                            console.log(`render; birth is true and I have events`);
+                            if (DEBUG) console.log(`render; birth is true and I have events`);
                             t = html`${t} <gramps-event grampsId=${this.grampsId} showBirth ></gramps-event>`
                         }
                         if(this.asRange) {
                             t = html`${t} -`
                         }
                         if(this.showDeath && this.grampsId && eventRefs ) {
-                            console.log(`render; death is true and I have events`);
+                            if (DEBUG) console.log(`render; death is true and I have events`);
                             t = html`${t} <gramps-event grampsId=${this.grampsId} showDeath ></gramps-event>`
                         }
                         if(this.asRange) {

@@ -75,6 +75,7 @@ import {SimpleIndividual} from "./simpleIndividual";
 import {GrampsEvent} from "./events";
 import {AncestorsTreeChart} from './AncestorsTreeChart'
 
+const DEBUG = false; 
 
 export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [primaryId, zodData]), styles) {
 
@@ -94,11 +95,11 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
 
   public willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    console.log(`willUpdate; id is ${this.personId}`)
+    if (DEBUG) console.log(`willUpdate; id is ${this.personId}`)
     if(changedProperties.has('personId')) {
-      console.log(`${typeof this.personId}`)
+      if (DEBUG) console.log(`${typeof this.personId}`)
       if( this.personId !== undefined && this.personId.length > 0 ) {
-        console.log(`calling setIndividual for ${this.personId}`)
+        if (DEBUG) console.log(`calling setIndividual for ${this.personId}`)
         this.setIndividual();
       }
     }
@@ -110,9 +111,9 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
   private setIndividual() {
     if(primaryId && this.personId.length > 0 ) {
       const personUrl = new URL('/gramps/'.concat(this.personId).concat('.json'),import.meta.url);
-      console.log(`setIndividual; url is ${personUrl.toString()}`)
+      if (DEBUG) console.log(`setIndividual; url is ${personUrl.toString()}`)
       onSet(primaryId,() => {
-        console.log(`setIndividual onSet; personUrl is ${personUrl.toString()}`)
+        if (DEBUG) console.log(`setIndividual onSet; personUrl is ${personUrl.toString()}`)
         task(async () => {
           const status = await fetchData(personUrl);
           if(status) {
@@ -148,26 +149,26 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
   };
 
   private renderParents(individual: Person) {
-    console.log(`renderParents; starting`)
+    if (DEBUG) console.log(`renderParents; starting`)
     let t = html``;
     if(individual) {
       if(zodData ) {
         const db: Database | null = zodData.get();
         if(db) {
-          console.log(`renderParents; indivudal and controller set`)
+          if (DEBUG) console.log(`renderParents; indivudal and controller set`)
           const family: Family | undefined | null = [this.getFamilyAsChild()].flat().shift();
           if(family !== null && family !== undefined) {
-            console.log(`renderParents; family found`)
+            if (DEBUG) console.log(`renderParents; family found`)
             let f = html``
             let m = html``
             const fatherLink = family.father ? family.father.hlink : null;
             if(fatherLink) {
-              console.log(`renderParents; looking for father`)
+              if (DEBUG) console.log(`renderParents; looking for father`)
               const father = db.people.person.filter(p => {
                 return (!p.handle.localeCompare(fatherLink))
               }).shift();
               if(father) {
-                console.log(`renderParents; found father with id ${father.id}`)
+                if (DEBUG) console.log(`renderParents; found father with id ${father.id}`)
                 f = html`<simple-individual grampsId=${father.id} asLink showBirth showDeath asRange></simple-individual>`
               }
             }
@@ -189,7 +190,7 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
             </ul>
           `
             } else {
-              console.log(`renderParents; family detected but no parent found at all`)
+              if (DEBUG) console.log(`renderParents; family detected but no parent found at all`)
             }
           }
         }
@@ -200,14 +201,14 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
   };
 
   private renderSiblings(individual: Person) {
-    console.log(`renderSiblings; start`)
+    if (DEBUG) console.log(`renderSiblings; start`)
     let t = html``
     let c_template = html``;
     if(this.individual !== null && this.individual !== undefined) {
       if (zodData) {
         const db: Database | null = zodData.get();
         if(db) {
-          console.log(`renderSiblings; indivudal ${this.individual.id} and controller set`)
+          if (DEBUG) console.log(`renderSiblings; indivudal ${this.individual.id} and controller set`)
           const families: Family[] | null = this.getFamilyAsChild();
           if(families !== null && families.length > 0) {
             families.map((f) => {
@@ -218,19 +219,19 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
                   }
                 });
                 if(allChildren !== null && allChildren !== undefined && allChildren.length > 0) {
-                  console.log(`renderSiblings; ${allChildren.length} to look through`)
+                  if (DEBUG) console.log(`renderSiblings; ${allChildren.length} to look through`)
                   allChildren.map((cr) => {
                     if(cr !== undefined) {
-                      console.log(`renderSiblings; child with handle ${cr} is real`)
+                      if (DEBUG) console.log(`renderSiblings; child with handle ${cr} is real`)
                       const child: Person | undefined = db.people.person.filter((p) => {
                         if(p && p.handle) {
-                          console.log(`renderSiblings; comparing against ${p.handle}`)
+                          if (DEBUG) console.log(`renderSiblings; comparing against ${p.handle}`)
                           return (!p.handle.localeCompare(cr, undefined, {sensitivity: 'base'}))
                         }
                         return false;
                       }).shift();
                       if(child !== undefined && (child.id.localeCompare( this.personId, undefined, {sensitivity: 'base'}))) {
-                        console.log(`renderSiblings; templating child ${child.id}`);
+                        if (DEBUG) console.log(`renderSiblings; templating child ${child.id}`);
                         c_template = html`${c_template}
                         <li>
                           <simple-individual grampsId=${child.id} asLink showBirth showDeath asRange></simple-individual>
@@ -258,13 +259,13 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
   }
 
   private renderUnion(f: Family ) {
-    console.log(`renderUnion; start`)
+    if (DEBUG) console.log(`renderUnion; start`)
     let t = html``
     if (this.individual) {
       if (zodData) {
         const db: Database | null = zodData.get();
         if(db) {
-          console.log(`renderUnion; indivudal and controller set`)
+          if (DEBUG) console.log(`renderUnion; indivudal and controller set`)
           const ih = this.individual.handle;
           if(ih) {
             let hlink = ''
@@ -295,10 +296,10 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
             t = html`${t} Married: <gramps-event familyId=${f.id} showMarriage simpleDate ></gramps-event>`
           }
           if(f.childref) {
-            console.log(`renderUnion; starting search for children`)
+            if (DEBUG) console.log(`renderUnion; starting search for children`)
             let crs:  Sourceref[] | Sourceref = f.childref;
             crs = [crs].flat();
-            console.log(`renderUnion; I have ${crs.length} children`)
+            if (DEBUG) console.log(`renderUnion; I have ${crs.length} children`)
             t = html`${t}
           <ul class="my-0">
             ${crs.map((cr) => {
@@ -307,7 +308,7 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
                 return (p.handle && (!p.handle.localeCompare(clink)))
               }).shift();
               if (c) {
-                console.log(`renderUnion; found child ${c.id}`)
+                if (DEBUG) console.log(`renderUnion; found child ${c.id}`)
                 return html`
                 <li>
                   <simple-individual grampsId=${c.id} asLink showBirth showDeath asRange></simple-individual>
@@ -325,13 +326,13 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
   }
 
   private renderUnions(individual: Person){
-    console.log(`renderUnions; starting`);
+    if (DEBUG) console.log(`renderUnions; starting`);
     let t = html``;
     if(individual){
       if(zodData) {
         const db: Database | null = zodData.get();
         if(db) {
-          console.log(`renderUnions; indivudal and controller set`)
+          if (DEBUG) console.log(`renderUnions; indivudal and controller set`)
           const unions = this.getFamilyAsSpouse();
           if (unions) {
             if(unions.length === 0) {
@@ -361,13 +362,13 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
   }
 
   public getFamilyAsSpouse() {
-    console.log(`getFamilyAsSpouse; starting`);
+    if (DEBUG) console.log(`getFamilyAsSpouse; starting`);
     let result = Array<Family>();
     if (zodData) {
       const db: Database | null = zodData.get();
       if( db) {
         if(this.personId && this.individual && this.individual.handle) {
-          console.log(`getFamilyAsSpouse; with an individual`)
+          if (DEBUG) console.log(`getFamilyAsSpouse; with an individual`)
           result = db.families.family.filter((f) => {
             if(f.mother && f.mother.hlink) {
               if(!this.individual?.handle.localeCompare(f.mother.hlink)) {
@@ -391,13 +392,13 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
   }
 
   public getFamilyAsChild() {
-    console.log(`getFamilyAsChild; starting`)
+    if (DEBUG) console.log(`getFamilyAsChild; starting`)
     if (zodData) {
       const db: Database | null = zodData.get();
       if(db) {
         if(this.personId !== null && this.personId !== undefined) {
           if(this.individual !== null && this.individual !== undefined) {
-            console.log(`getFamilyAsChild; with an individual ${this.individual.id}`)
+            if (DEBUG) console.log(`getFamilyAsChild; with an individual ${this.individual.id}`)
             let result = Array<Family>();
             let familyRefs: (Sourceref | null)[] | null = (typeof this.individual.childof !== 'undefined')? [this.individual.childof].flat() : null;
             let familyLinks = Array<string>();
@@ -407,7 +408,7 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
                   familyLinks.push(r.hlink);
                 }
               })
-              console.log(`getFamilyAsChild; I have ${familyLinks.length} links`);
+              if (DEBUG) console.log(`getFamilyAsChild; I have ${familyLinks.length} links`);
               result = db.families.family.filter((f) => {
                 const handle = f.handle;
                 let r = Array<boolean>()
@@ -424,7 +425,7 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
               })
             }
             if(result.length > 0) {
-              console.log(`getFamilyAsChild; returning ${result.length} families`)
+              if (DEBUG) console.log(`getFamilyAsChild; returning ${result.length} families`)
               return result;
             }
           }
@@ -435,10 +436,10 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
   }
 
   public renderAncestorsCard () {
-    console.log(`renderAncestorsCard; start`)
+    if (DEBUG) console.log(`renderAncestorsCard; start`)
     const family = this.getFamilyAsChild();
     if(family && family.length > 0) {
-      console.log(`renderAncestorsCard; family identified`)
+      if (DEBUG) console.log(`renderAncestorsCard; family identified`)
       return html`
           <div class="AncestorsCard rounded border-2">
               <div class="CardBody">
@@ -467,12 +468,12 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
   private renderTimelineCard() {
     let t = html``
     if (zodData) {
-      console.log(`renderTimelineCard; validated controller`)
+      if (DEBUG) console.log(`renderTimelineCard; validated controller`)
       const db: Database | null = zodData.get();
       if (db) {
         if (this.personId && this.individual) {
           if(this.individual.eventref) {
-            console.log(`renderTimelineCard; I have event refs`)
+            if (DEBUG) console.log(`renderTimelineCard; I have event refs`)
             const eventRefs: EventrefElement[] | EventrefElement = this.individual.eventref;
             const eRArray = [eventRefs].flat()
             if(eRArray.length > 0) {
@@ -512,7 +513,7 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
                               </li>`
                       }
                     default:
-                      console.log(`I do not handle ${e.type} yet`)
+                      if (DEBUG) console.log(`I do not handle ${e.type} yet`)
                   }
                 }
               })}
@@ -536,19 +537,19 @@ export class GrampsIndividual extends TailwindMixin(withStores(LitElement, [prim
   public render() {
     let t = html``
     if (zodData) {
-      console.log(`render; validated controller`)
+      if (DEBUG) console.log(`render; validated controller`)
       const db: Database | null = zodData.get();
       if(db) {
         if (this.personId) {
-          console.log(`render; and I have an id`)
+          if (DEBUG) console.log(`render; and I have an id`)
           const filterResult = db.people.person.filter((v) => {
             return v.id === this.personId
           })
           if (filterResult && filterResult.length > 0) {
-            console.log(`render; filter returned people`)
+            if (DEBUG) console.log(`render; filter returned people`)
             const first = filterResult.shift();
             if (first) {
-              console.log(`render; and the first was valid`);
+              if (DEBUG) console.log(`render; and the first was valid`);
               this.individual = first;
               t = html`
               <div class="flex-auto gap-1  ">
