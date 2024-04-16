@@ -19,7 +19,7 @@ As I said, that book caused a me to think about the Harry Potter universe
 differently, but it was not until I was reading CmptrWz' _[For Want of
 an Outfit][FWoaO1]_ Chapters 30 through 35 that what I am trying for here
 *really* came clear.  Left unadulterated, Mrs. Rowling's Harry Potter universe
-has too few consequences.  I harp on that theme in my [Harrypedia][].  This
+has too few consequences.  I harp on that theme in my [Harrypedia].  This
 fan fiction is a harsher universe.  Magic, even if not "dark" and
 *intentionally* harmful, cannot always be undone or fixed.  There can be not
 only life-long repercussions, but *generational* repercussions from the spells
@@ -52,7 +52,7 @@ since an interested reader *can* find it in this extra information.
 
 [Project Gutenberg]: https://www.gutenberg.org/
 
-[Harrypedia]: </harrypedia>
+[Harrypedia]: /harrypedia/
 
 [FWoaO1]: https://archiveofourown.org/works/28507302
 
