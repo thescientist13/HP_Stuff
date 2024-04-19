@@ -63,13 +63,13 @@ In a world where magical contracts can in fact be binding, I can see how laws *m
 [Goblet of Fire]: https://www.librarything.com/work/113]
 
 [^240315-2]: this is noted in
-  * kb0. _[Harry Potter: Air Elemental](https://www.fanfiction.net/s/11995519/1)_
-    Published: 2016-06-12. Updated: 2019-02-28. 
+    * kb0. _[Harry Potter: Air Elemental](https://www.fanfiction.net/s/11995519/1)_
+      Published: 2016-06-12. Updated: 2019-02-28. 
 
 [^240315-1]: I initially thought this story fit, but it doesn't, [Molly] starts out irrational (which is probably what I remembered), and then [Ginny] does the jealous fan girl thing.
-   * [WolfgangNH](https://archiveofourown.org/users/WolfgangNH/pseuds/WolfgangNH). 
-     _[The Ancient Proliferation Covenant](https://archiveofourown.org/works/38270980)_
-     Published: 2022-04-09. Updated: 2023-03-05.
+    * [WolfgangNH](https://archiveofourown.org/users/WolfgangNH/pseuds/WolfgangNH). 
+      _[The Ancient Proliferation Covenant](https://archiveofourown.org/works/38270980)_
+      Published: 2022-04-09. Updated: 2023-03-05.
 
 [^240313-2]: including but not limited to:
     * Jeanne Kimsey, Liam and William Silvester. 
@@ -86,6 +86,7 @@ In a world where magical contracts can in fact be binding, I can see how laws *m
     * questionablequotation.
       _[Always Read the Fine Print](https://www.fanfiction.net/s/11118965)_
       Published: 2015-03-16.
+    * [divagonzo](https://archiveofourown.org/users/divagonzo/pseuds/divagonzo). _[Vows](https://archiveofourown.org/works/3993565)_ Last Updated: 2015-11-21.  note, this work calls it "marriage bindings," but the concept is identical.
 
 [cbsmith17]: https://www.fanfiction.net/u/14755259/cbsmith17 
 
