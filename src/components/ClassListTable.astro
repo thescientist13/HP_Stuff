@@ -31,7 +31,7 @@ const DataColumns = ClassData.columns.filter((ci: string) => {
         ))}
     </thead>
     <tbody>
-        {ClassData.map((row: d3.DsvRowString) => (
+        {ClassData.map((row) => (
             <tr>
                 {DataColumns.map((ci: string) => (
                     <td>
