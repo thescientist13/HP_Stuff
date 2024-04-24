@@ -34,7 +34,7 @@
     "@nanostores/logger": "^0.3.0",
     "@tailwindcss/typography": "^0.5.12",
     "@webcomponents/template-shadowroot": "^0.2.1",
-    "astro": "4.6.2",
+    "astro": "4.6.4",
     "autoprefixer": "^10.4.19",
     "boolbase": "^1.0.0",
     "comlink": "^4.4.1",
@@ -71,7 +71,7 @@
     "unified": "^11.0.4",
     "vfile": "^6.0.1",
     "zlib": "^1.0.5",
-    "zod": "^3.22.4"
+    "zod": "^3.23.4"
   },
   "devDependencies": {
     "@originjs/vite-plugin-content": "^1.0.5",
