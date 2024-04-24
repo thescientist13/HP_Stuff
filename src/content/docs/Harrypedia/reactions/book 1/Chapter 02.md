@@ -13,7 +13,7 @@ author: Luke Schierer
   * The impression that his hair is on the longer side is reinforced by the description of [Petunia]'s one attempt at barbering.
 * [Harry] and [Dudley] are turning eleven, they should be in what England calls Year Six.[^240424-2]  That's *really* late for him to still be having trouble adding two to 36, no matter how intellectually challenged he is.  The implication that [Dursley] has been ignoring school recommendations to either hold [Dudley] back a year or place him in some sort of remedial program is quite strong.  That is, of course, assuming that in England parents would have final say in such decisions.  I believe the *do* here, I not sure if that is the case there or not. 
 * As critical as I am of the [Dursleys], I read the threat to keep him locked in the cupboard "until Christmas" as simple blustering.  The use of hyperbole is fairly common in every day speech.
-
+* Again at the end of this chapter we have descriptions of what we in retrospect know are witches and wizards, but who are *not* wearing robes, simply oddly dressed. 
 
 [Dursleys]: /harrypedia/people/dursley/ 
 
