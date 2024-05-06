@@ -32,7 +32,7 @@
     "@lit-labs/task": "^3.1.0",
     "@nanostores/lit": "^0.2.1",
     "@nanostores/logger": "^0.3.0",
-    "@tailwindcss/typography": "^0.5.12",
+    "@tailwindcss/typography": "^0.5.13",
     "@webcomponents/template-shadowroot": "^0.2.1",
     "astro": "4.7.0",
     "autoprefixer": "^10.4.19",
