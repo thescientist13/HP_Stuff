@@ -155,7 +155,9 @@ their static society, they have options:
   accountability to the surrounding populations, something that I am 
   not actually confident that they could survive.  
 
-Instead I suspect that some percentage of the magical culture actively *desires* a permanent underclass that cannot succeed.  They *intend* the first generation "emigrants" to become the next generation of peasant workers in their shops, manufactories/workshops; to fill the secretarial and clerical positions in the [Ministry].  While this may not be formally slavery, it is still repugnant. 
+Instead I suspect that some percentage of the magical culture actively *desires* a permanent underclass that cannot succeed.[^240508-4]  They *intend* the first generation "emigrants" to become the next generation of peasant workers in their shops, manufactories/workshops; to fill the secretarial and clerical positions in the [Ministry].  While this may not be formally slavery, it is still repugnant. 
+
+[^240508-4]: See also [Class and Blood](../class_and_blood/) and [Class Consciousness](../class_consciousness/)
 
 [Ministry]: ../government/
 
@@ -188,6 +190,10 @@ Instead I suspect that some percentage of the magical culture actively *desires*
     * Sinyk. _[Angry Harry and the Seven](https://www.fanfiction.net/s/9750991)_
         [Chapter 7](https://www.fanfiction.net/s/9750991/17/Angry-Harry-and-the-Seven)
         Updated: 2013-10-22; Published: 2013-10-09; Last Viewed 2021-02-20.
+    * [kb0](https://www.fanfiction.net/u/1251524/kb0). _[Harry Potter: Air Elemental](https://www.fanfiction.net/s/11995519/)_ Published: 2016-06-12. Updated: 2016-10-29. 
+       This view is actually fairly mild in this work, but the idea of mostly undefined "Wizarding Traditions" that 
+       should be known and practised, and that when not cause the person or family to stand out *and be excluded*
+       is mentioned several times.
 
 [^240508-1]: It is worth noting that nearly every author who spends significant time trying to build upon the backstory decides that there is a a *treaty* between the magical population and the monarch of Britain to establish the [ISWS], the [Ministry of Magic], or both.   A monarch does not sign a treaty with his/her subjects.  The [Magna Carta] for example was a *charter* not a *treaty*. 
 
