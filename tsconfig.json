@@ -1,6 +1,14 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
+    "lib": [
+      "ES2020", 
+      "DOM", 
+      "DOM.Iterable"
+    ],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "baseUrl": ".",
     "experimentalDecorators": true,
     "useDefineForClassFields": false,
