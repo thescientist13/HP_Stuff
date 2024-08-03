@@ -115,7 +115,9 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
       }
     }
     const currentUrl = import.meta.url;
-    return new URL(`/harrypedia/people/${t.replaceAll(/\s/g, '_').replaceAll(/\/\//g, '/').toLowerCase().trim()}/`, (currentUrl ? currentUrl : ''));
+    let targetLocation = `/harrypedia/people/${t}/`;
+    targetLocation = targetLocation.replaceAll(/\s/g, '_').replaceAll(/\/\//g, '/').toLowerCase().trim();
+    return new URL(targetLocation, (currentUrl ? currentUrl : ''));
   }
 
 
