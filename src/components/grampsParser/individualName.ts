@@ -70,7 +70,7 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
 
   private buildLinkTarget(individual: Person) {
     const names: NameElement[] | NameElement = individual.name;
-    let t: string = ''
+    let t: String = ''
     if(Array.isArray(names)) {
       let m = names.filter((n) => {
         if (!n.type.localeCompare("Birth Name")) {
@@ -115,7 +115,7 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
       }
     }
     const currentUrl = import.meta.url;
-    return new URL(`/harrypedia/people/${t.toLowerCase().replaceAll(/\s/g, '_')}/`, (currentUrl ? currentUrl : ''));
+    return new URL(`/harrypedia/people/${t.replaceAll(/\s/g, '_').replaceAll(/\/\//g, '/').toLowerCase().trim()}/`, (currentUrl ? currentUrl : ''));
   }
 
 
