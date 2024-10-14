@@ -16,6 +16,8 @@ import {type Database,
 
 import style from '../../styles/Gramps.css?inline';
 
+const DEBUG = false;
+
 export class IndividualName extends TailwindMixin(withStores(LitElement,[primaryId, zodData]), style) {
 
   @property({type: String})
@@ -48,7 +50,7 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
       if(zodData) {
         const db: Database | null = zodData.get();
         if (db) {
-          console.log(`connectedCallback; and I have a db`)
+          if (DEBUG) console.log(`connectedCallback; and I have a db`)
           const found = db.people.person.filter((p) => {
             if(p) {
               return (!p.id.localeCompare(this.grampsId, undefined, {sensitivity: 'base'}))
@@ -57,7 +59,7 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
           if(found) {
             const first: Person | undefined = [found].flat().shift();
             if(first !== undefined) {
-              console.log(`connectedCallback; person identified;`)
+              if (DEBUG) console.log(`connectedCallback; person identified;`)
               this.individual = first;
             }
           }
@@ -68,7 +70,7 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
 
   private buildLinkTarget(individual: Person) {
     const names: NameElement[] | NameElement = individual.name;
-    let t: string = ''
+    let t: String = ''
     if(Array.isArray(names)) {
       let m = names.filter((n) => {
         if (!n.type.localeCompare("Birth Name")) {
@@ -113,7 +115,9 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
       }
     }
     const currentUrl = import.meta.url;
-    return new URL(`/harrypedia/people/${t.toLowerCase().replaceAll(/\s/g, '_')}/`, (currentUrl ? currentUrl : ''));
+    let targetLocation = `/harrypedia/people/${t}/`;
+    targetLocation = targetLocation.replaceAll(/\s/g, '_').replaceAll(/\/\//g, '/').toLowerCase().trim();
+    return new URL(targetLocation, (currentUrl ? currentUrl : ''));
   }
 
 
@@ -121,7 +125,7 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
     const names: NameElement[] | NameElement = individual.name;
     let t = html``
     if(Array.isArray(names)) {
-      console.log(`displayName; names is an Array ${JSON.stringify(names)}`)
+      if (DEBUG) console.log(`displayName; names is an Array ${JSON.stringify(names)}`)
       let m = names.filter((n) => {
         if (!n.type.localeCompare("Birth Name")) {
           return true;
@@ -129,7 +133,7 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
         return false;
       })
       if(!m) {
-        console.log(`displayName; filter for birth name failed`)
+        if (DEBUG) console.log(`displayName; filter for birth name failed`)
         m = [];
         do {
           let n = names.shift();
@@ -146,10 +150,10 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
         }while(names.length > 0);
       }
       if(!m) {
-        console.log(`displayName; second attempt at populating m failed`);
+        if (DEBUG) console.log(`displayName; second attempt at populating m failed`);
         t = html`${t}`;
       } else {
-        console.log(`displayName; I have an m in my else from the second attempt`)
+        if (DEBUG) console.log(`displayName; I have an m in my else from the second attempt`)
         const n = m.shift();
         if(n) {
           t = html`${t} ${n.first ? n.first : nothing} ${(typeof n.surname === 'string') ? n.surname : n.surname['#text']}`
@@ -185,18 +189,18 @@ public async willUpdate(changedProperties: PropertyValues<this>) {
   public render() {
     let t = html``
     if (zodData) {
-      console.log(`render; validated controller`)
+      if (DEBUG) console.log(`render; validated controller`)
       const gramps = zodData.get();
       if (this.grampsId && gramps) {
-        console.log(`render; and I have an id`)
+        if (DEBUG) console.log(`render; and I have an id`)
         const filterResult = gramps.people.person.filter((v) => {
           return v.id === this.grampsId
         })
         if (filterResult && filterResult.length > 0) {
-          console.log(`render; filter returned people`)
+          if (DEBUG) console.log(`render; filter returned people`)
           const first = filterResult.shift();
           if (first) {
-            console.log(`render; and the first was valid`);
+            if (DEBUG) console.log(`render; and the first was valid`);
             this.individual = first;
             t = html`${t}
             <iconify-icon inline icon="uil:user" ></iconify-icon>

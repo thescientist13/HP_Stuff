@@ -7,7 +7,7 @@ One of the recurring issues that I read about is the exchange rate between
 galleons and non-magical currencies.  It seems that many people dislike the five
 pounds to the galleon answer that we were given in 2001.[^20210617-1]  It is
 hard for me to say definitively how realistic that conversion rate is or is not,
-however, I  find that
+however, I  find that 1 gram of gold is
 
 > * Width: 8mm (0.32 inches)
 > * Length: 15mm (0.59 inches)

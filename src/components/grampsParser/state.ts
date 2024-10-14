@@ -1,4 +1,4 @@
-import {onSet, atom, computed, onMount, task, action} from 'nanostores'
+import {onSet, atom, computed, onMount, task} from 'nanostores'
 import type {WritableAtom} from 'nanostores';
 import {logger} from '@nanostores/logger'
 
@@ -23,25 +23,27 @@ const Storelogger = logger({
   'zod Data': zodData,
 });
 
-export const fetchData = action(zodData, 'fetchData', async (store, dbUrl: URL) => {
-  console.log(`fetchData onSet task; dbUrl is ${dbUrl.toString()}`)
+const DEBUG = false;
+
+export async function fetchData (dbUrl: URL) {
+  if (DEBUG) console.log(`fetchData onSet task; dbUrl is ${dbUrl.toString()}`)
   const result =  await task(async () => {
     const response = await fetch(dbUrl);
     const data = await response.json();
     const validation = DatabaseSchema.safeParse(data);
     if(validation.success) {
-      console.log(`validation successful`)
+      if (DEBUG) console.log(`validation successful`)
       zodData.set(validation.data);
-      console.log(`retrieved data `)
-      console.log(`${validation.data.people.person.length} people`)
-      console.log(`${validation.data.families.family.length} familes`)
+      if (DEBUG) console.log(`retrieved data `)
+      if (DEBUG) console.log(`${validation.data.people.person.length} people`)
+      if (DEBUG) console.log(`${validation.data.families.family.length} familes`)
       return true;
     } else {
-      console.log(`validation failed`)
-      console.log(JSON.stringify(validation.error))
+      if (DEBUG) console.log(`validation failed`)
+      if (DEBUG) console.log(JSON.stringify(validation.error))
     }
     return false;
   })
-  console.log(`fetchData result was ${result}`)
+  if (DEBUG) console.log(`fetchData result was ${result}`)
   return result;
-})
+}

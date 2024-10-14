@@ -74,6 +74,8 @@ import {allTasks, task} from "nanostores";
 import {util} from "zod";
 import assertNever = util.assertNever;
 
+const DEBUG = false;
+
 type renderChildrenTreeProps = {
   family: Family,
   root: Person,
@@ -102,7 +104,7 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
 
   connectedCallback() {
     super.connectedCallback()
-    console.log(`initial url is ${this.url}`)
+    if (DEBUG) console.log(`initial url is ${this.url}`)
     if(this.url instanceof URL) {
       fetchData(this.url);
     }
@@ -111,16 +113,16 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
 
   public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties)
-    console.log(`willUpdate;`)
+    if (DEBUG) console.log(`willUpdate;`)
     if (!this._name) {
       this.setName();
     }
 
     if (!this._persons) {
-      console.log(`persons is not set, setting up listener`)
+      if (DEBUG) console.log(`persons is not set, setting up listener`)
       zodData.listen(() => {})
       await allTasks();
-      console.log(`all tasks complete, calling getPersons`)
+      if (DEBUG) console.log(`all tasks complete, calling getPersons`)
       this.getPersons();
     }
   }
@@ -138,7 +140,7 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
     }
     if (name !== '') {
       this._name = name;
-      console.log(`name set to ${this._name}`)
+      if (DEBUG) console.log(`name set to ${this._name}`)
     }
   }
 
@@ -168,14 +170,14 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
           return f.hlink;
         });
         if(familyLinks.length > 0) {
-          console.log(`getPersonsChildren; I have families to search`)
+          if (DEBUG) console.log(`getPersonsChildren; I have families to search`)
           const stage1 = db.people.person.filter((p) => {
             if (p && p.name) {
               return this.checkMatchingName(p);
             }
             return false;
           }); //only people with the right last name
-          console.log(`getPersonsChildren; stage1 ${stage1 ? stage1.length : 0} people`)
+          if (DEBUG) console.log(`getPersonsChildren; stage1 ${stage1 ? stage1.length : 0} people`)
           const stage2 = stage1.filter((p) =>{
             if(p && p.childof) {
               return true;
@@ -184,10 +186,10 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
             }
             return false;
           }); //only people who are children of *someone*
-          console.log(`getPersonsChildren; stage2 ${stage2 ? stage2.length : 0} people`)
+          if (DEBUG) console.log(`getPersonsChildren; stage2 ${stage2 ? stage2.length : 0} people`)
           const stage3 = stage2.filter((p) => {
             if(p && p.childof) {
-              console.log(`getPersonsChildren stage3; p is a child`)
+              if (DEBUG) console.log(`getPersonsChildren stage3; p is a child`)
               const familyRef:Sourceref[] | Sourceref = p.childof;
               const childFamArray = [familyRef].flat()
               const childLinks = childFamArray.map((c) => {
@@ -201,27 +203,27 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
             }
             return false;
           });
-          console.log(`getPersonsChildren; stage3 ${stage3 ? stage3.length : 0} people`)
+          if (DEBUG) console.log(`getPersonsChildren; stage3 ${stage3 ? stage3.length : 0} people`)
           if(stage3 && stage3.length > 0) {
-            console.log(`getPersonsChildren; returning ${stage3.length} people`)
+            if (DEBUG) console.log(`getPersonsChildren; returning ${stage3.length} people`)
             return stage3;
           }
-          console.log(`getPersonsChildren; no families`)
+          if (DEBUG) console.log(`getPersonsChildren; no families`)
         }
       }
     } else {
       console.error(`no controller`)
     }
-    console.log(`found no people`)
+    if (DEBUG) console.log(`found no people`)
     return null;
   }
 
   private getPersons() {
     const db = zodData.get();
     if (db) {
-      console.log(`getPersons; controllers are set`)
+      if (DEBUG) console.log(`getPersons; controllers are set`)
       if (this._name && this._name !== '') {
-        console.log(`getPersons; name is set`)
+        if (DEBUG) console.log(`getPersons; name is set`)
         const people = db.people.person.filter((p) => {
           if (p && p.name) {
             return this.checkMatchingName(p);
@@ -256,7 +258,7 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
         t = html``; //erase the temp content
         let family: Family | undefined;
         if(person.parentin) {
-          console.log(`renderChildLine; person is a parent`)
+          if (DEBUG) console.log(`renderChildLine; person is a parent`)
           const citation: Sourceref[] | Sourceref = person.parentin;
           const cArray = [citation].flat();
           family = db.families.family.filter((f) => {
@@ -274,7 +276,7 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
               t = html`${t}
               <uL>
                 ${children.map((p) => {
-                  console.log(`renderChildLine; map iteration ${p.id}`)
+                  if (DEBUG) console.log(`renderChildLine; map iteration ${p.id}`)
                   return html`${this.renderChildLine(p)}`
                 })}
               </uL>
@@ -300,7 +302,7 @@ export class GrampsFamily extends TailwindMixin(withStores(LitElement,[zodData])
         <ul>
           ${this._persons!.map((p) => {
             if(p) {
-              console.log(`render; map iteration ${p.id}`)
+              if (DEBUG) console.log(`render; map iteration ${p.id}`)
               return html`${this.renderChildLine(p)}`
             }
           })}
