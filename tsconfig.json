@@ -34,6 +34,6 @@
   ],
   "exclude": [
     "src/**/*.js",
-    "node_modules"
+    "node_modules","sst.config.ts"
   ]
 }
