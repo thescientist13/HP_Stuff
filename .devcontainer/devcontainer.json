@@ -1,0 +1,15 @@
+{
+	"name": "Node.js Dev Container",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": ["dbaeumer.vscode-eslint"]
+		}
+	},
+	"updateContentCommand": "npm install",
+	"remoteUser": "node"
+}
