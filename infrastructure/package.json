@@ -1,6 +1,7 @@
 {
     "name": "infrastructure",
     "devDependencies": {
+        "@pulumi/docker-build": "^0.0.6",
         "@types/node": "^22.7.5",
         "typescript": "^5.6.3"
     },
