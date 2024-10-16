@@ -54,6 +54,6 @@ const HPImage = new dockerBuild.Image("HPImage", {
   ],
   tags: [pulumi.interpolate`${repo.url}:latest`],
   context: {
-    location: "app",
+    location: "../",
   },
 });
