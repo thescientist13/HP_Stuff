@@ -7,11 +7,8 @@ import lit from "@astrojs/lit";
 
 import tailwind from "@astrojs/tailwind";
 
-import node from "@astrojs/node";
-
 // https://astro.build/config
 export default defineConfig({
-  output: "hybrid",
 
   experimental: {
     globalRoutePriority: true,
@@ -131,7 +128,4 @@ export default defineConfig({
     assetsInclude: ["**/*.dsv"],
   },
 
-  adapter: node({
-    mode: "standalone",
-  }),
 });
