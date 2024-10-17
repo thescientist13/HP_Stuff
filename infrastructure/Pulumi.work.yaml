@@ -1,6 +1,6 @@
 config:
   aws:region: us-east-2
-  infrastructure:containerPort: "80"
-  infrastructure:cpu: "512"
-  infrastructure:memory: "128"
-  infrastructure:path: ../
+  targetDomain: work.hp-fan.schierer.org
+  pathToWebsiteContents: ../dist
+  certificateArn: true
+  includeWWW: true
