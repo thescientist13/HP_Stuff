@@ -6,7 +6,12 @@ import * as pulumi from "@pulumi/pulumi";
 import * as fs from "fs";
 import mime from "mime";
 import * as path from "path";
-import { configureACL, crawlDirectory } from "./utils";
+import {
+  configureACL,
+  crawlDirectory,
+  getDomainAndSubdomain,
+  createAliasRecord,
+} from "./utils";
 
 // Load the Pulumi program configuration. These act as the "parameters" to the Pulumi program,
 // so that different Pulumi Stacks can be brought up using the same code.
@@ -29,14 +34,115 @@ const config = {
 // contentBucket is the S3 bucket that the website's contents will be stored in.
 const contentBucket = new aws.s3.BucketV2(`${config.targetDomain}-content`);
 
-const contentBucketWebsite = new aws.s3.BucketWebsiteConfigurationV2(
-  "contentBucketWebsite",
+const contentBucketVersioning = new aws.s3.BucketVersioningV2(
+  `${config.targetDomain}-content-versioning`,
   {
-    bucket: contentBucket.bucket,
-    indexDocument: { suffix: "index.html" },
-    errorDocument: { key: "404.html" },
+    bucket: contentBucket.id,
+    versioningConfiguration: {
+      status: "Enabled",
+    },
   },
 );
+const bucketEncrpytion = new aws.s3.BucketServerSideEncryptionConfigurationV2(
+  "bucketEncryption",
+  {
+    bucket: contentBucket.bucket,
+    rules: [
+      {
+        applyServerSideEncryptionByDefault: {
+          sseAlgorithm: "AES256",
+        },
+      },
+    ],
+  },
+);
+
+const contentBucketLifeCycle = new aws.s3.BucketLifecycleConfigurationV2(
+  `${config.targetDomain}-content-lifecycle`,
+  {
+    bucket: contentBucket.id,
+    rules: [
+      {
+        id: "Allow small object transitions",
+        filter: {
+          objectSizeGreaterThan: "1",
+        },
+        status: "Enabled",
+        transitions: [
+          {
+            days: 365,
+            storageClass: "GLACIER_IR",
+          },
+        ],
+      },
+      {
+        id: "Versioned Objects",
+        filter: {},
+        noncurrentVersionExpiration: {
+          noncurrentDays: 90,
+        },
+        noncurrentVersionTransitions: [
+          {
+            noncurrentDays: 30,
+            storageClass: "STANDARD_IA",
+          },
+          {
+            noncurrentDays: 60,
+            storageClass: "GLACIER",
+          },
+        ],
+        status: "Enabled",
+      },
+    ],
+  },
+);
+
+const shortName: string | pulumi.Output<string> = contentBucket.bucket.apply(
+  (id) => {
+    const short: string = id.replace(/schierer.org.*$/, "-content");
+    console.log(`short is ${short}`);
+    return short;
+  },
+);
+
+// Generate Origin Access Identity to access the private s3 bucket.
+const originAccessIdentity = new aws.cloudfront.OriginAccessIdentity(
+  "originAccessIdentity",
+  {
+    comment: shortName.apply((shortName) => `${shortName}`),
+  },
+);
+
+// Enable CORS on the S3 bucket
+const bucketCors = new aws.s3.BucketCorsConfigurationV2("bucket-cors", {
+  bucket: contentBucket.bucket,
+  corsRules: [
+    {
+      allowedHeaders: ["*"],
+      allowedMethods: ["GET", "HEAD"],
+      allowedOrigins: ["*"],
+      exposeHeaders: [],
+      maxAgeSeconds: 3000,
+    },
+  ],
+});
+
+const bucketPolicy = new aws.s3.BucketPolicy("bucketPolicy", {
+  bucket: contentBucket.id, // refer to the bucket created earlier
+  policy: pulumi.jsonStringify({
+    Version: "2012-10-17",
+    Statement: [
+      {
+        Effect: "Allow",
+        Principal: {
+          AWS: originAccessIdentity.iamArn,
+        }, // Only allow Cloudfront read access.
+        Action: ["s3:GetObject"],
+        Resource: [pulumi.interpolate`${contentBucket.arn}/*`], // Give Cloudfront access to the entire bucket.
+      },
+    ],
+  }),
+});
 
 // Sync the contents of the source directory with the S3 bucket, which will in-turn show up on the CDN.
 const webContentsRootPath = path.join(
@@ -98,9 +204,7 @@ if (
   );
 
   const domainParts = getDomainAndSubdomain(config.targetDomain);
-  const hostedZoneId = aws.route53
-    .getZone({ name: domainParts.parentDomain }, { async: true })
-    .then((zone) => zone.zoneId);
+  const hostedZoneId = stackConfig.require("hostedZoneId");
 
   /**
    *  Create a DNS record to prove that we _own_ the domain we're requesting a certificate for.
@@ -162,11 +266,24 @@ if (
   certificateArn = certificateValidation.certificateArn;
 }
 
-// Generate Origin Access Identity to access the private s3 bucket.
-const originAccessIdentity = new aws.cloudfront.OriginAccessIdentity(
-  "originAccessIdentity",
+const cloudFrontFunction = new aws.cloudfront.Function(
+  "injectIndexHtmlFunction",
   {
-    comment: "this is needed to setup s3 polices and make s3 not public.",
+    code: `
+function handler(event) {
+    var request = event.request;
+    var uri = request.uri;
+
+    // If the URI is a directory, append 'index.html'
+    if (uri.endsWith('/')) {
+        request.uri += 'index.html';
+    }
+
+    return request;
+}
+`,
+    runtime: "cloudfront-js-2.0",
+    name: "injectIndexHtmlFunction",
   },
 );
 
@@ -180,6 +297,7 @@ const distributionAliases = config.includeWWW
 // https://www.terraform.io/docs/providers/aws/r/cloudfront_distribution.html
 const distributionArgs: aws.cloudfront.DistributionArgs = {
   enabled: true,
+  isIpv6Enabled: true,
   // Alternate aliases the CloudFront distribution can be reached at, in addition to https://xxxx.cloudfront.net.
   // Required if you want to access the distribution via config.targetDomain as well.
   aliases: distributionAliases,
@@ -201,6 +319,12 @@ const distributionArgs: aws.cloudfront.DistributionArgs = {
   // Here we just specify a single, default cache behavior which is just read-only requests to S3.
   defaultCacheBehavior: {
     targetOriginId: contentBucket.arn,
+    functionAssociations: [
+      {
+        eventType: "viewer-request",
+        functionArn: cloudFrontFunction.arn,
+      },
+    ],
 
     viewerProtocolPolicy: "redirect-to-https",
     allowedMethods: ["GET", "HEAD", "OPTIONS"],
@@ -250,102 +374,10 @@ const distributionArgs: aws.cloudfront.DistributionArgs = {
 
 const cdn = new aws.cloudfront.Distribution("cdn", distributionArgs);
 
-// Split a domain name into its subdomain and parent domain names.
-// e.g. "www.example.com" => "www", "example.com".
-function getDomainAndSubdomain(domain: string): {
-  subdomain: string;
-  parentDomain: string;
-} {
-  const parts = domain.split(".");
-  if (parts.length < 2) {
-    throw new Error(`No TLD found on ${domain}`);
-  }
-  // No subdomain, e.g. awesome-website.com.
-  if (parts.length === 2) {
-    return { subdomain: "", parentDomain: domain };
-  }
-
-  const subdomain = parts[0];
-  parts.shift(); // Drop first element.
-  return {
-    subdomain,
-    // Trailing "." to canonicalize domain.
-    parentDomain: parts.join(".") + ".",
-  };
-}
-
-// Creates a new Route53 DNS record pointing the domain to the CloudFront distribution.
-function createAliasRecord(
-  targetDomain: string,
-  distribution: aws.cloudfront.Distribution,
-): aws.route53.Record {
-  const domainParts = getDomainAndSubdomain(targetDomain);
-  const hostedZoneId = aws.route53
-    .getZone({ name: domainParts.parentDomain }, { async: true })
-    .then((zone) => zone.zoneId);
-  return new aws.route53.Record(targetDomain, {
-    name: domainParts.subdomain,
-    zoneId: hostedZoneId,
-    type: "A",
-    aliases: [
-      {
-        name: distribution.domainName,
-        zoneId: distribution.hostedZoneId,
-        evaluateTargetHealth: true,
-      },
-    ],
-  });
-}
-
-function createWWWAliasRecord(
-  targetDomain: string,
-  distribution: aws.cloudfront.Distribution,
-): aws.route53.Record {
-  const domainParts = getDomainAndSubdomain(targetDomain);
-  const hostedZoneId = aws.route53
-    .getZone({ name: domainParts.parentDomain }, { async: true })
-    .then((zone) => zone.zoneId);
-
-  return new aws.route53.Record(`${targetDomain}-www-alias`, {
-    name: `www.${targetDomain}`,
-    zoneId: hostedZoneId,
-    type: "A",
-    aliases: [
-      {
-        name: distribution.domainName,
-        zoneId: distribution.hostedZoneId,
-        evaluateTargetHealth: true,
-      },
-    ],
-  });
-}
-
-const bucketPolicy = new aws.s3.BucketPolicy("bucketPolicy", {
-  bucket: contentBucket.id, // refer to the bucket created earlier
-  policy: pulumi.jsonStringify({
-    Version: "2012-10-17",
-    Statement: [
-      {
-        Effect: "Allow",
-        Principal: {
-          AWS: originAccessIdentity.iamArn,
-        }, // Only allow Cloudfront read access.
-        Action: ["s3:GetObject"],
-        Resource: [pulumi.interpolate`${contentBucket.arn}/*`], // Give Cloudfront access to the entire bucket.
-      },
-    ],
-  }),
-});
-
-const aRecord = createAliasRecord(config.targetDomain, cdn);
-if (config.includeWWW) {
-  const cnameRecord = createWWWAliasRecord(config.targetDomain, cdn);
-}
+const RecordSet = createAliasRecord(config.targetDomain, cdn, stackConfig);
 
 // Export properties from this stack. This prints them at the end of `pulumi up` and
 // makes them easier to access from pulumi.com.
 export const contentBucketUri = pulumi.interpolate`s3://${contentBucket.bucket}`;
-export const contentBucketWebsiteEndpoint =
-  contentBucketWebsite.websiteEndpoint;
 export const cloudFrontDomain = cdn.domainName;
 export const targetDomainEndpoint = `https://${config.targetDomain}/`;

@@ -1,4 +1,5 @@
 import * as fs from "fs";
+import { type Config, type Output } from "@pulumi/pulumi";
 
 // crawlDirectory recursive crawls the provided directory, applying the provided function
 // to every file it contains. Doesn't handle cycles from symlinks.
@@ -49,4 +50,89 @@ export function configureACL(
     },
   );
   return bucketACL;
+}
+
+// Split a domain name into its subdomain and parent domain names.
+// e.g. "www.example.com" => "www", "example.com".
+export function getDomainAndSubdomain(domain: string): {
+  subdomain: string;
+  parentDomain: string;
+} {
+  const parts = domain.split(".");
+  if (parts.length < 2) {
+    throw new Error(`No TLD found on ${domain}`);
+  }
+  // No subdomain, e.g. awesome-website.com.
+  if (parts.length === 2) {
+    return { subdomain: "", parentDomain: domain };
+  }
+
+  const subdomain = parts[0];
+  parts.shift(); // Drop first element.
+  return {
+    subdomain,
+    // Trailing "." to canonicalize domain.
+    parentDomain: parts.join(".") + ".",
+  };
+}
+
+interface Alias {
+  name: string | Output<string>;
+  zoneId: string | Output<string>;
+  evaluateTargetHealth: boolean;
+}
+
+function createCnameRecord(
+  cnamerecord: string,
+  distribution: aws.cloudfront.Distribution,
+  config: Config,
+) {
+  const hostedZoneId = config.require("hostedZoneId");
+  return new aws.route53.Record(cnamerecord, {
+    name: cnamerecord,
+    zoneId: hostedZoneId,
+    type: aws.route53.RecordType.A,
+    aliases: [
+      {
+        name: distribution.domainName,
+        zoneId: distribution.hostedZoneId,
+        evaluateTargetHealth: true,
+      },
+    ],
+  });
+}
+
+// Creates a new Route53 DNS record pointing the domain to the CloudFront distribution.
+export function createAliasRecord(
+  targetDomain: string,
+  distribution: aws.cloudfront.Distribution,
+  config: Config,
+): aws.route53.Record[] {
+  const domainParts = getDomainAndSubdomain(targetDomain);
+  const hostedZoneId = config.require("hostedZoneId");
+  const includeWWW: boolean = config.getBoolean("includeWWW") ?? true;
+
+  const RecordSet = new Array<aws.route53.Record>();
+
+  const aliases: Alias[] = [
+    {
+      name: distribution.domainName,
+      zoneId: distribution.hostedZoneId,
+      evaluateTargetHealth: true,
+    },
+  ];
+  if (includeWWW) {
+    const cname = `www.${targetDomain}`;
+    RecordSet.push(createCnameRecord(cname, distribution, config));
+  }
+
+  const ARecord = new aws.route53.Record(targetDomain, {
+    name: targetDomain,
+    zoneId: hostedZoneId,
+    type: aws.route53.RecordType.A,
+    aliases: aliases,
+  });
+  RecordSet.push(ARecord);
+
+  return RecordSet;
 }

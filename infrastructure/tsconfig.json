@@ -14,7 +14,8 @@
     "pretty": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true
   },
-  "files": ["index.ts"]
+  "include": ["index.ts", "./**/*.ts"]
 }
