@@ -3,6 +3,8 @@ import { type Output } from "@pulumi/pulumi";
 
 import { type Config } from "./index";
 
+export const tenMinutes = 60 * 10;
+
 // crawlDirectory recursive crawls the provided directory, applying the provided function
 // to every file it contains. Doesn't handle cycles from symlinks.
 export function crawlDirectory(dir: string, f: (_: string) => void) {
@@ -90,18 +92,36 @@ function createCnameRecord(
   config: Config,
 ) {
   const hostedZoneId = config.hostedZoneId;
-  return new aws.route53.Record(cnamerecord, {
-    name: cnamerecord,
-    zoneId: hostedZoneId,
-    type: aws.route53.RecordType.A,
-    aliases: [
-      {
-        name: distribution.domainName,
-        zoneId: distribution.hostedZoneId,
-        evaluateTargetHealth: true,
-      },
-    ],
-  });
+  const RecordSet = new Array<aws.route53.Record>();
+  RecordSet.push(
+    new aws.route53.Record(cnamerecord.concat("-AAAA"), {
+      name: cnamerecord,
+      zoneId: hostedZoneId,
+      type: aws.route53.RecordType.AAAA,
+      aliases: [
+        {
+          name: distribution.domainName,
+          zoneId: distribution.hostedZoneId,
+          evaluateTargetHealth: true,
+        },
+      ],
+    }),
+  );
+  RecordSet.push(
+    new aws.route53.Record(cnamerecord.concat("-A"), {
+      name: cnamerecord,
+      zoneId: hostedZoneId,
+      type: aws.route53.RecordType.A,
+      aliases: [
+        {
+          name: distribution.domainName,
+          zoneId: distribution.hostedZoneId,
+          evaluateTargetHealth: true,
+        },
+      ],
+    }),
+  );
+  return RecordSet;
 }
 
 // Creates a new Route53 DNS record pointing the domain to the CloudFront distribution.
@@ -125,16 +145,24 @@ export function createAliasRecord(
   ];
   if (includeWWW) {
     const cname = `www.${targetDomain}`;
-    RecordSet.push(createCnameRecord(cname, distribution, config));
+    RecordSet.push(...createCnameRecord(cname, distribution, config));
   }
 
-  const ARecord = new aws.route53.Record(targetDomain, {
+  const record = new aws.route53.Record(targetDomain.concat("-AAAA"), {
     name: targetDomain,
     zoneId: hostedZoneId,
-    type: aws.route53.RecordType.A,
+    type: aws.route53.RecordType.AAAA,
     aliases: aliases,
   });
-  RecordSet.push(ARecord);
+  RecordSet.push(record);
+  RecordSet.push(
+    new aws.route53.Record(targetDomain.concat("-A"), {
+      name: targetDomain,
+      zoneId: hostedZoneId,
+      type: aws.route53.RecordType.A,
+      aliases: aliases,
+    }),
+  );
 
   return RecordSet;
 }
