@@ -1,5 +1,7 @@
 import * as fs from "fs";
-import { type Config, type Output } from "@pulumi/pulumi";
+import { type Output } from "@pulumi/pulumi";
+
+import { type Config } from "./index";
 
 // crawlDirectory recursive crawls the provided directory, applying the provided function
 // to every file it contains. Doesn't handle cycles from symlinks.
@@ -87,7 +89,7 @@ function createCnameRecord(
   distribution: aws.cloudfront.Distribution,
   config: Config,
 ) {
-  const hostedZoneId = config.require("hostedZoneId");
+  const hostedZoneId = config.hostedZoneId;
   return new aws.route53.Record(cnamerecord, {
     name: cnamerecord,
     zoneId: hostedZoneId,
@@ -109,8 +111,8 @@ export function createAliasRecord(
   config: Config,
 ): aws.route53.Record[] {
   const domainParts = getDomainAndSubdomain(targetDomain);
-  const hostedZoneId = config.require("hostedZoneId");
-  const includeWWW: boolean = config.getBoolean("includeWWW") ?? true;
+  const hostedZoneId = config.hostedZoneId;
+  const includeWWW: boolean = config.includeWWW;
 
   const RecordSet = new Array<aws.route53.Record>();
 

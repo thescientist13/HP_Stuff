@@ -13,12 +13,24 @@ import {
   createAliasRecord,
 } from "./utils";
 
+import { v5 as uuidv5 } from "uuid";
+
 // Load the Pulumi program configuration. These act as the "parameters" to the Pulumi program,
 // so that different Pulumi Stacks can be brought up using the same code.
 
 const stackConfig = new pulumi.Config();
 
-const config = {
+import { handler } from "./cloudFrontIndexHandler";
+
+export interface Config {
+  pathToWebsiteContents: string;
+  targetDomain: string;
+  certificateArn: string | undefined;
+  includeWWW: boolean;
+  hostedZoneId: string;
+}
+
+const config: Config = {
   // pathToWebsiteContents is a relativepath to the website's contents.
   pathToWebsiteContents: stackConfig.require("pathToWebsiteContents"),
   // targetDomain is the domain/host to serve content at.
@@ -29,6 +41,7 @@ const config = {
   // If a certificate was generated it will support this subdomain.
   // default: true
   includeWWW: stackConfig.getBoolean("includeWWW") ?? true,
+  hostedZoneId: stackConfig.require("hostedZoneId"),
 };
 
 // contentBucket is the S3 bucket that the website's contents will be stored in.
@@ -266,24 +279,16 @@ if (
   certificateArn = certificateValidation.certificateArn;
 }
 
+const ccfFunctionUUID: string = uuidv5(config.targetDomain, uuidv5.URL);
+
+const cfFunctionName = `injectIndexHtml-${ccfFunctionUUID}`;
+
 const cloudFrontFunction = new aws.cloudfront.Function(
   "injectIndexHtmlFunction",
   {
-    code: `
-function handler(event) {
-    var request = event.request;
-    var uri = request.uri;
-
-    // If the URI is a directory, append 'index.html'
-    if (uri.endsWith('/')) {
-        request.uri += 'index.html';
-    }
-
-    return request;
-}
-`,
+    code: handler.toString(),
     runtime: "cloudfront-js-2.0",
-    name: "injectIndexHtmlFunction",
+    name: cfFunctionName,
   },
 );
 
@@ -374,7 +379,7 @@ const distributionArgs: aws.cloudfront.DistributionArgs = {
 
 const cdn = new aws.cloudfront.Distribution("cdn", distributionArgs);
 
-const RecordSet = createAliasRecord(config.targetDomain, cdn, stackConfig);
+const RecordSet = createAliasRecord(config.targetDomain, cdn, config);
 
 // Export properties from this stack. This prints them at the end of `pulumi up` and
 // makes them easier to access from pulumi.com.
