@@ -4,11 +4,10 @@
   "version": "0.1.1",
   "scripts": {
     "astro": "astro",
-    "build": "pnpm just build",
-    "check": "pnpm just check",
+    "build": "astro build",
+    "check": "pnpm tsc && pnpm astro check",
     "dev": "astro dev",
-    "preview": "astro preview",
-    "start": "node ./dist/server/entry.mjs"
+    "preview": "astro preview"
   },
   "packageManager": "pnpm@9.11.0",
   "dependencies": {
