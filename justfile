@@ -17,6 +17,7 @@ check: install
   ${PNPM} tsc -p tsconfig.node.json --noEmit;
 
 build: install parse
+  ${PNPM} tsc
   ${PNPM} astro build
 
 parse: install pre-build
