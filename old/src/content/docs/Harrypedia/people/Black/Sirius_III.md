@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Sirius III"
+title: Sirius III
 hero: I0007
 author: Luke Schierer
 ---

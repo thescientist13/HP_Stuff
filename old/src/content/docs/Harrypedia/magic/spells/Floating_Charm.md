@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Floating"
+title: Floating
 spells: "Floating"
-author: ""
+author: 
 ---
 
 ## Classification

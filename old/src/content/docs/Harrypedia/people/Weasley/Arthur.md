@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Weasley"
-title: "Arthur"
+title: Arthur
 hero: "I0059"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

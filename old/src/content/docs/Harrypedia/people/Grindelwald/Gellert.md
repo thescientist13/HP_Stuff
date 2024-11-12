@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Grindelwald"
-title: "Gellert"
+title: Gellert
 hero: "I0260"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Macillan"
-title: "Macmillan"
-author: "Luke Schierer"
+title: Macmillan
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

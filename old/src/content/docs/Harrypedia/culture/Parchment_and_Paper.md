@@ -1,6 +1,7 @@
 ---
-title: "Parchment and Paper in the Magical World"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Parchment and Paper in the Magical World
+author: Luke Schierer
 ---
 
 ## Parchment

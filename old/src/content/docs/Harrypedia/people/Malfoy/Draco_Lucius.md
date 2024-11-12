@@ -1,7 +1,8 @@
 ---
-title: "Draco Lucius"
+collection: Harrypedia
+title: Draco Lucius
 hero: "I0039"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

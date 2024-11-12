@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Fudge"
-title: "Fudge"
-author: "Luke Schierer"
+title: Fudge
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

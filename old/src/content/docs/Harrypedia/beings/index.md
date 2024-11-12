@@ -1,6 +1,7 @@
 ---
-title: "Sentient Species in Harry Potter"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Sentient Species in Harry Potter
+author: Luke Schierer
 sidebar:
   order: 1
 ---

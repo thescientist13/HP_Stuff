@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Pettigrew"
-title: "Pettigrew"
-author: ""
+title: Pettigrew
+author: 
 tags: ["family"]
 sidebar:
   order: 1

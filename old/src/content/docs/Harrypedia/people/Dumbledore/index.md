@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Dumbledore"
-title: "Dumbledore"
-author: "Luke Schierer"
+title: Dumbledore
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

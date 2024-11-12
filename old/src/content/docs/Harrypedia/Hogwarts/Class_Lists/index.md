@@ -1,6 +1,7 @@
 ---
-title: "Class Lists by Year"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Class Lists by Year
+author: Luke Schierer
 
 ---
 

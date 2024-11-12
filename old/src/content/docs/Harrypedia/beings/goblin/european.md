@@ -1,4 +1,5 @@
 ---
-title: "European Goblins"
-author: "Luke Schierer"
+collection: Harrypedia
+title: European Goblins
+author: Luke Schierer
 ---

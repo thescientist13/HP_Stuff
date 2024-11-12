@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Impedimenta"
+title: Impedimenta
 spells: "Impedimenta"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

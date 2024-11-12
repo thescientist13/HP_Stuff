@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Bones"
-title: "Susan"
+title: Susan
 hero: "I0154"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

@@ -1,6 +1,7 @@
 ---
-title: "House Elves"
-author: "Luke Schierer"
+collection: Harrypedia
+title: House Elves
+author: Luke Schierer
 ---
 
 House Elves are one of the more disturbing elements of the series.  As others have noted before me[^HEaS], these beings are magically enslaved.  To her credit,

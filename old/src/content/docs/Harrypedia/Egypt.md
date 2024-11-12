@@ -1,4 +1,5 @@
 ---
-title: "Egypt"
+collection: Harrypedia
+title: Egypt
 ---
 

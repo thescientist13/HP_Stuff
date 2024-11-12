@@ -1,5 +1,6 @@
 ---
-title: "Dark Magic"
+collection: Harrypedia
+title: Dark Magic
 sidebar:
  order: 1
 ---

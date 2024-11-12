@@ -1,6 +1,7 @@
 ---
-title: "Transfiguration"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Transfiguration
+author: Luke Schierer
 ---
 
 Considered a branch of [magic], this may be the least explained and most

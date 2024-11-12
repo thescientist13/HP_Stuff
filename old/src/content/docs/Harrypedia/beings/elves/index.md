@@ -1,6 +1,7 @@
 ---
-title: "elves"
-author: "Luke Schierer"
+collection: Harrypedia
+title: elves
+author: Luke Schierer
 sidebar:
  order: 1
 ---

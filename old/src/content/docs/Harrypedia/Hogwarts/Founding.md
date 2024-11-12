@@ -1,5 +1,6 @@
 ---
-title: "Founding Hogwarts School of Witchcraft and Wizardry"
+collection: Harrypedia
+title: Founding Hogwarts School of Witchcraft and Wizardry
 ---
 
 ### Founders

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Malfoy"
-title: "Lucius Abraxas"
+title: Lucius Abraxas
 hero: "I0038"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

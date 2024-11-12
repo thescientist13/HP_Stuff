@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 family: "Lupin"
 title: Lyall
 hero: I0202

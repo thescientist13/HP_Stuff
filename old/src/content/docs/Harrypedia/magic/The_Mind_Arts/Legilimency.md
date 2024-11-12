@@ -1,6 +1,7 @@
 ---
-title: "The Mind Arts: Legilimency"
-author: "Luke Scheirer"
+collection: Harrypedia
+title: The Mind Arts: Legilimency
+author: Luke Scheirer
 ---
 
 Legilimency might not be quite reading your thoughts like a book, but it

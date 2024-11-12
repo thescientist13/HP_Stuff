@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 title: Figg
-author: "Luke Schierer"
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

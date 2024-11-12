@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Bellatrix"
+title: Bellatrix
 hero: "I0034"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

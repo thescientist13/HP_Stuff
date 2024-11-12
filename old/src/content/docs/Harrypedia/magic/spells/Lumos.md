@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Lumos"
+title: Lumos
 spells: "Lumos"
-author: ""
+author: 
 ---
 
 ## Classification

@@ -1,6 +1,7 @@
 ---
-title: "Numbers in the Real World"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Numbers in the Real World
+author: Luke Schierer
 ---
 
 Christianity has consistently condemned numerology,[^220728-1] a broad term

@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Wizarding Currency
 author: Luke Schierer
 ---

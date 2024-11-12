@@ -1,6 +1,7 @@
 ---
-title: "Basilisk"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Basilisk
+author: Luke Schierer
 ---
 
 A basilisk is one of those things that is so incredibly scary that people (in

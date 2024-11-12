@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Magical Population
 author: Luke Schierer
 ---

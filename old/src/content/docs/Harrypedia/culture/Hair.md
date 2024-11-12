@@ -1,6 +1,7 @@
 ---
-title: "Hair in the Magical World"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Hair in the Magical World
+author: Luke Schierer
 ---
 
 A number of fan fiction authors have speculated that there may be cultural

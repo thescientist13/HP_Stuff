@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Black"
-title: "Black"
-author: "Luke Schierer"
+title: Black
+author: Luke Schierer
 tags: "family"
 sidebar:
   order: 1

@@ -1,5 +1,6 @@
 ---
-title: "The Mind Arts: Mind Palace"
+collection: Harrypedia
+title: The Mind Arts: Mind Palace
 ---
 
 A proposed defence against [Legilimency][], I have heard this one called a variety

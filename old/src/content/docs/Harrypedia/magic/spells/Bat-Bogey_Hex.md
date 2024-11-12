@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Bat-Bogey"
+title: Bat-Bogey
 spells: "Bat-Bogey"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 This hex is poorly described.  We know it causes snot in your nose to turn into

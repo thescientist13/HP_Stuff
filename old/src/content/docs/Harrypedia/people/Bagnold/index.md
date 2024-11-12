@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Bagnold"
-title: "Bagnold"
-author: "Luke Schierer"
+title: Bagnold
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

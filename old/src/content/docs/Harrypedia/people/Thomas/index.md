@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 families: "Thomas"
-title: "Thomas"
+title: Thomas
 tags: ["family"]
 sidebar:
   order: 1

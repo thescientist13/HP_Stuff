@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Hagrid"
-title: "Hagrid"
-author: ""
+title: Hagrid
+author: 
 tags: ["family"]
 sidebar:
   order: 1

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Confundus"
+title: Confundus
 spells: "Confundus"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 A somewhat vague description. Can it only be used to make someone forget something, or also to falsely remember something?

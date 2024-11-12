@@ -1,6 +1,7 @@
 ---
-title: "Albus as the Great Manipulator"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Albus as the Great Manipulator
+author: Luke Schierer
 ---
 
 It is quite easy to portray [Dumbledore][AD1] as a master

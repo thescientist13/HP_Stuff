@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Imperio"
+title: Imperio
 spells: "Imperio"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

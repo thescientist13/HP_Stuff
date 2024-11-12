@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: Howell
 title: Howell
-author: "Luke Schierer"
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

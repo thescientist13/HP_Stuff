@@ -1,7 +1,8 @@
 ---
-title: "Damocles"
+collection: Harrypedia
+title: Damocles
 hero: "I0204"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

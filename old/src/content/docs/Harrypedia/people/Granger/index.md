@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Granger"
-title: "Granger"
-author: "Luke Schierer"
+title: Granger
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

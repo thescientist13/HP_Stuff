@@ -1,6 +1,7 @@
 ---
-title: "First-Generation “Immigrants”" 
-author: "Luke Schierer"
+collection: Harrypedia
+title: First-Generation “Immigrants” 
+author: Luke Schierer
 ---
 
 Assuming that there *are* real differences between the culture dominating

@@ -1,6 +1,7 @@
 ---
-title: "Government in the Magical World"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Government in the Magical World
+author: Luke Schierer
 ---
 
 #### Ministry of Magic

@@ -1,5 +1,6 @@
 ---
-title: "Encyclopedic Reference of things Harry Potter"
+collection: Harrypedia
+title: Encyclopedic Reference of things Harry Potter
 sidebar:
  order: 0
 ---

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Longbottom"
-title: "Frank"
+title: Frank
 hero: "I0066"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

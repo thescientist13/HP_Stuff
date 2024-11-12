@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Hover Charm"
+title: Hover Charm
 spells: "Hover Charm"
 ---
 

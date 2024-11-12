@@ -1,5 +1,6 @@
 ---
-title: "Hufflepuff"
+collection: Harrypedia
+title: Hufflepuff
 ---
 
 

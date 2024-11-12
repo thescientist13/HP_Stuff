@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Cresswell"
-title: "Cresswell"
-author: "Luke Schierer"
+title: Cresswell
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Elsrickle"
-title: "Eldon"
+title: Eldon
 hero: "I0254"
 ---
 

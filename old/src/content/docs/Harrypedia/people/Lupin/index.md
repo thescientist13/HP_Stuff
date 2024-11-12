@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Lupin"
-title: "Lupin"
-author: ""
+title: Lupin
+author: 
 tags: ["family"]
 sidebar:
   order: 1

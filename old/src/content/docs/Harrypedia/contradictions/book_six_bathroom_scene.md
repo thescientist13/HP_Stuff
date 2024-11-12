@@ -1,5 +1,6 @@
 ---
-title: "The Bathroom Scene in Book Six"
+collection: Harrypedia
+title: The Bathroom Scene in Book Six
 ---
 
 ### The Quote

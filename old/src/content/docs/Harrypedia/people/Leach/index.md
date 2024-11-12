@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Leach"
-title: "Leach"
-author: "Luke Schierer"
+title: Leach
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Monkstanley"
-title: "Monkstanley"
-author: ""
+title: Monkstanley
+author: 
 tags: ["family"]
 sidebar:
   order: 1

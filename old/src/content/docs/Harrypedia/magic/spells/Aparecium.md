@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Aparecium"
+title: Aparecium
 spells: "Aparecium"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 ## Name
 Revealing Charm

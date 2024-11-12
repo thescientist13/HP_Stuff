@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Scourgify"
+title: Scourgify
 spells: "Scourgify"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Name

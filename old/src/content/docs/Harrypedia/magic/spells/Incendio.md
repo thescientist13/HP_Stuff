@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Incendio"
+title: Incendio
 spells: "Incendio"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

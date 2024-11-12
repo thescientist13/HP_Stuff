@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Lestrange"
-title: "Leta"
+title: Leta
 hero: "I0229"
-author: ""
+author: 
 ---
 
 

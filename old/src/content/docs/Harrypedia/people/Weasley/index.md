@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Weasley"
-title: "Weasley"
-author: "Luke Schierer"
+title: Weasley
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

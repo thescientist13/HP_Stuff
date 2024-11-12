@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Weasley"
-title: "George"
+title: George
 hero: "I0072"
-author: ""
+author: 
 ---
 
 

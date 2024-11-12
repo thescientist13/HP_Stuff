@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 family: "Crouch"
-title: "Caspar"
-author: "Luke Schierer"
+title: Caspar
+author: Luke Schierer
 ---
 
 ### Analysis

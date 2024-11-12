@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Rocket Charm"
+title: Rocket Charm
 spells: "Rocket Charm"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Weasley"
-title: "Fred"
+title: Fred
 hero: "I0071"
-author: ""
+author: 
 ---
 
 

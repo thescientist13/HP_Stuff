@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 title: Gaunt
-author: "Luke Schierer"
+author: Luke Schierer
 sidebar:
   order: 1
 ---

@@ -1,6 +1,7 @@
 ---
-title: "Adults in the HP Series"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Adults in the HP Series
+author: Luke Schierer
 ---
 
 ### On Adults in General

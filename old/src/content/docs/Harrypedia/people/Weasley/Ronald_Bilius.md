@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Weasley"
-title: "Ronald Bilius"
+title: Ronald Bilius
 hero: "I0064"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

@@ -1,6 +1,7 @@
 ---
-title: "The Mind Arts: Occlumency"
-author: "Luke Schierer"
+collection: Harrypedia
+title: The Mind Arts: Occlumency
+author: Luke Schierer
 ---
 
 Occlumency is the art, one who practices it is an Occlumens.

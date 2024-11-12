@@ -1,6 +1,7 @@
 ---
-title: "Merpeople - Siren"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Merpeople - Siren
+author: Luke Schierer
 ---
 
 The Siren are said to be the oldest of the Merpeople, and their human half, the

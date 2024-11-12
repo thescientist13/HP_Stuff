@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Stupefy"
+title: Stupefy
 spells: "Stupefy"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

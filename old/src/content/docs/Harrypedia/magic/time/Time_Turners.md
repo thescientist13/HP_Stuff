@@ -1,6 +1,7 @@
 ---
-title: "Time Turners"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Time Turners
+author: Luke Schierer
 ---
 
 Reading [Book Three], it seems that time turners cannot change the past.  I

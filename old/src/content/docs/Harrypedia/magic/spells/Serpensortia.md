@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Serpensortia"
+title: Serpensortia
 spells: "Serpensortia"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

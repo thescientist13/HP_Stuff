@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Reactions to Philosopher's Stone Chapter 3
 author: Luke Schierer
 ---

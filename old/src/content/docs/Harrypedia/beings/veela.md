@@ -1,6 +1,7 @@
 ---
-title: "Veela"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Veela
+author: Luke Schierer
 ---
 
 see _[Balm](https://www.fanfiction.net/s/13829286)_.  Chapter 11 has some

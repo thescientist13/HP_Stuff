@@ -1,6 +1,7 @@
 ---
-title: "Pensieve"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Pensieve
+author: Luke Schierer
 ---
 
 The Pensieve is a example of Mrs. Rowling's lack of ability to fully think

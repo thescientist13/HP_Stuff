@@ -1,5 +1,6 @@
 ---
-title: "Arabella Figg"
+collection: Harrypedia
+title: Arabella Figg
 hero: "I0100"
 ---
 

@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Riddle"
-title: "Riddle"
-author: "Luke Schierer"
+title: Riddle
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

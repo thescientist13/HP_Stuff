@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Weasley"
-title: "Percy Ignatius"
+title: Percy Ignatius
 hero: "I0074"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

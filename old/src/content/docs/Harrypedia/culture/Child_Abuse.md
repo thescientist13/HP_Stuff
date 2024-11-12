@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Child Abuse in the Wizarding World
 author: Luke Schierer
 ---

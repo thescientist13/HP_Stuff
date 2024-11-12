@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Crabbe"
-title: "Crabbe"
-author: "Luke Schierer"
+title: Crabbe
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

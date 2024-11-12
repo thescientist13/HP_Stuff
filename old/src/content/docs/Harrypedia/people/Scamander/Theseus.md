@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Scamander"
-title: "Theseus"
+title: Theseus
 hero: "I0213"
-author: ""
+author: 
 ---
 
 

@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Belby"
-title: "Belby"
-author: "Luke Schierer"
+title: Belby
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

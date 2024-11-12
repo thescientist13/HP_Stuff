@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Evans"
-title: "Evans"
-author: "Luke Schierer"
+title: Evans
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

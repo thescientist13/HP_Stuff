@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Nuttley"
-title: "Nuttley"
-author: ""
+title: Nuttley
+author: 
 tags: ["family"]
 sidebar:
   order: 1

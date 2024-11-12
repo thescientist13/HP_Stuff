@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Aguamenti"
+title: Aguamenti
 spells: "Aguamenti"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 Conjures clean drinkable water from the end of the wand. Appears to be a violation of Gramp's Law?

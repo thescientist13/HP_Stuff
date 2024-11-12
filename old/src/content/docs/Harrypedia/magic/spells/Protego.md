@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Protego"
+title: Protego
 spells: "Protego"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

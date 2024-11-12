@@ -1,6 +1,7 @@
 ---
-title: "Lavender"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Lavender
+author: Luke Schierer
 hero: 'I0185'
 ---
 

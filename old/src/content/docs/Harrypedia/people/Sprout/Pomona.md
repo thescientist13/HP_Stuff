@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Sprout"
-title: "Pomona"
+title: Pomona
 hero: "I0264"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

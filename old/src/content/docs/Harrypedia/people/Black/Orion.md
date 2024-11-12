@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Orion"
+title: Orion
 hero: "I0005"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

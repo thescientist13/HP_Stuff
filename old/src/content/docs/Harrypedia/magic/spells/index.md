@@ -1,6 +1,7 @@
 ---
-title: "Spells"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Spells
+author: Luke Schierer
 sidebar:
  order: 1
 ---

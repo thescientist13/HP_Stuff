@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Cygnus"
+title: Cygnus
 hero: I0147
 author: Luke Schierer
 ---

@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Tonks"
-title: "Tonks"
-author: ""
+title: Tonks
+author: 
 tags: ["family"]
 sidebar:
   order: 1

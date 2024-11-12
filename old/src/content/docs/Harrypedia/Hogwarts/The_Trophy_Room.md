@@ -1,6 +1,7 @@
 ---
-title: "The Trophy Room"
-author: "Luke Schierer"
+collection: Harrypedia
+title: The Trophy Room
+author: Luke Schierer
 ---
 
 This did not occur to me until it was pointed out, but why does the Trophy Room

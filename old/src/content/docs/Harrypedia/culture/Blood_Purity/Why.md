@@ -1,6 +1,7 @@
 ---
-title: "Blood Purity"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Blood Purity
+author: Luke Schierer
 ---
 
 Blood Purity bigotry is a central theme of the Harry Potter series.  But how

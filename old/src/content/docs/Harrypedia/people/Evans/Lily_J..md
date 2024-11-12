@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: Evans
-title: "Lily J."
+title: Lily J.
 hero: "I0002"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

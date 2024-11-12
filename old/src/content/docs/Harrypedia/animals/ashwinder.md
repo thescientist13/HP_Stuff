@@ -1,6 +1,7 @@
 ---
-title: "Ashwinder"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Ashwinder
+author: Luke Schierer
 ---
 
 An Ashwinder a magical serpent that is created from the remains of magical

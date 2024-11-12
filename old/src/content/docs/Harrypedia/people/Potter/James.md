@@ -1,7 +1,8 @@
 ---
-title: "James"
+collection: Harrypedia
+title: James
 hero: "I0001"
-author: "Luke Schierer"
+author: Luke Schierer
 
 ---
 

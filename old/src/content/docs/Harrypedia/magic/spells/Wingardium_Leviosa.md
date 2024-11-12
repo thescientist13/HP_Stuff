@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Wingardium Leviosa"
+title: Wingardium Leviosa
 spells: "Wingardium Leviosa"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

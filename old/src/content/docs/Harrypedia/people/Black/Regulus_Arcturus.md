@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Regulus Arcturus"
+title: Regulus Arcturus
 hero: "I0008"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

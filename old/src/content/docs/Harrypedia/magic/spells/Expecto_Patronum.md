@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Expecto Patronum"
+title: Expecto Patronum
 spells: "Expecto Patronum"
-author: ""
+author: 
 ---
 
 ## Classification

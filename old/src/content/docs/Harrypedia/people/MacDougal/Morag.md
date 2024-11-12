@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "MacDougal"
-title: "Morag"
+title: Morag
 hero: "I0173"
-author: ""
+author: 
 ---
 
 

@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Thomas"
-title: "Dean"
+title: Dean
 hero: "I0159"
 ---
 

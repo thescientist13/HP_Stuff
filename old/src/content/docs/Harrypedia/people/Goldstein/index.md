@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Goldstein"
-title: "Goldstein"
-author: "Luke Schierer"
+title: Goldstein
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

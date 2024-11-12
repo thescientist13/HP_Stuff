@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Snape"
-title: "Snape"
-author: "Luke Schierer"
+title: Snape
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

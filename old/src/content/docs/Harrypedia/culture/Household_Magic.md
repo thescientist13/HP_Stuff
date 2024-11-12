@@ -1,6 +1,7 @@
 ---
-title: "Household Magic"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Household Magic
+author: Luke Schierer
 ---
 
 While the books suggest that [Molly] has her children do their chores

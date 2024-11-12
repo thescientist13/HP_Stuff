@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Prince"
-title: "Prince"
-author: ""
+title: Prince
+author: 
 tags: ["family"]
 sidebar:
   order: 1

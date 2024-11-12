@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Elsrickle"
-title: "Elsrickle"
-author: "Luke Schierer"
+title: Elsrickle
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

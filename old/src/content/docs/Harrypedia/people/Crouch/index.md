@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 families: "Crouch"
-title: "Crouch"
+title: Crouch
 tags: ["family"]
 sidebar:
   order: 1

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Unbreakable Vow"
+title: Unbreakable Vow
 spells: "Unbreakable Vow"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Dumbledore"
-title: "Albus Percival Wulfric Brian"
+title: Albus Percival Wulfric Brian
 hero: "I0061"
-author: "Luke Schierer"
+author: Luke Schierer
 sidebar:
   order: 1
 ---

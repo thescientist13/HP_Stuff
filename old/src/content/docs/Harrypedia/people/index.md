@@ -1,5 +1,6 @@
 ---
-title: "People in Harry Potter"
+collection: Harrypedia
+title: People in Harry Potter
 sidebar:
   order: 1
 ---

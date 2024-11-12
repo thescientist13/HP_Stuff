@@ -1,6 +1,7 @@
 ---
-title: "Magic in the Harry Potter Universe"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Magic in the Harry Potter Universe
+author: Luke Schierer
 sidebar:
  order: 1
 ---

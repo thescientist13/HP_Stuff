@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Jones"
-title: "Jones"
-author: "Luke Schierer"
+title: Jones
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

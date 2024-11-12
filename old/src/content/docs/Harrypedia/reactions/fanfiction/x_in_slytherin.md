@@ -1,5 +1,6 @@
 ---
-title: "Main Characters in Slytherin"
+collection: Harrypedia
+title: Main Characters in Slytherin
 ---
 
 Periodically you see a fan fiction author try to deal with either [Harry],

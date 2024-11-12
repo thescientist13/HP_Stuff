@@ -1,5 +1,6 @@
 ---
-title: "Blaize"
+collection: Harrypedia
+title: Blaize
 hero: I0160
 ---
 

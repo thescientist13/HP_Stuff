@@ -1,6 +1,7 @@
 ---
-title: "The Mind Arts: Instant Death Defence"
-author: "Luke Schierer"
+collection: Harrypedia
+title: The Mind Arts: Instant Death Defence
+author: Luke Schierer
 ---
 
 This unnamed defensive technique is only partially described, and thus only

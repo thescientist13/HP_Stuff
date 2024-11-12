@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Duro"
+title: Duro
 spells: "Duro"
 ---
 

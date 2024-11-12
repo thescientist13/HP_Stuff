@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Weasley"
-title: "Septimus"
+title: Septimus
 hero: "I0053"
-author: ""
+author: 
 ---
 
 

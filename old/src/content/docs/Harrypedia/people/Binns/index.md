@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 title: Binns
-author: "Luke Schierer"
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

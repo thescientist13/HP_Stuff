@@ -1,6 +1,7 @@
 ---
-title: "Unicorn"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Unicorn
+author: Luke Schierer
 ---
 
 The unicorn dates back pretty much as far back as you care to go, though the

@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Sprout"
-title: "Sprout"
-author: ""
+title: Sprout
+author: 
 tags: ["family"]
 sidebar:
   order: 1

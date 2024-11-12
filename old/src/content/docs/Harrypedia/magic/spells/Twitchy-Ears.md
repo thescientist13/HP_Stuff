@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Twitchy Ears"
+title: Twitchy Ears
 spells: "Twitchy Ears"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

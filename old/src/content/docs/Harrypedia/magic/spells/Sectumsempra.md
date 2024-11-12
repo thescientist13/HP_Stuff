@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Sectumsempra"
+title: Sectumsempra
 spells: "Sectumsempra"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Reparo"
+title: Reparo
 spells: "Reparo"
-author: ""
+author: 
 ---
 
 ## Classification

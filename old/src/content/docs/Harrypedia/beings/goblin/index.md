@@ -1,6 +1,7 @@
 ---
-title: "Goblins"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Goblins
+author: Luke Schierer
 sidebar:
   order: 1
 

@@ -1,6 +1,7 @@
 ---
-title: "Doxycide"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Doxycide
+author: Luke Schierer
 type: "potion"
 spells: "Doxycide"
 ---

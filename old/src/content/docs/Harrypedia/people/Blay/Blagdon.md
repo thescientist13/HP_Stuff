@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Blay"
-title: "Blagdon"
+title: Blagdon
 hero: "I0257"
 ---
 

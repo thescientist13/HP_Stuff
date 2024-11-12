@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Open Sesame"
+title: Open Sesame
 spells: "Open Sesame"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

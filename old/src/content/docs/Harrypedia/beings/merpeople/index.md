@@ -1,6 +1,7 @@
 ---
-title: "Merpeople"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Merpeople
+author: Luke Schierer
 sidebar:
   order: 1
 ---

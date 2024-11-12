@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Weasley"
-title: "Ginevra Molly"
+title: Ginevra Molly
 hero: "I0070"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ### Analysis

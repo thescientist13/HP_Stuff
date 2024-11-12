@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Phineus Nigellus"
+title: Phineus Nigellus
 hero: "I0016"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

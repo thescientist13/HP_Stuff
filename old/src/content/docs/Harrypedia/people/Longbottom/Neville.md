@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Longbottom"
-title: "Neville"
+title: Neville
 hero: "I0068"
-author: ""
+author: 
 ---
 
 

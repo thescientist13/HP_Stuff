@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
 spells: "Accio"
-title: "Accio"
-author: "Luke Schierer"
+title: Accio
+author: Luke Schierer
 ---
 
 ## Name

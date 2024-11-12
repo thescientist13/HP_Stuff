@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Greengrass"
-title: "Greengrass"
-author: "Luke Schierer"
+title: Greengrass
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

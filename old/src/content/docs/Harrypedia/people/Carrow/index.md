@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 title: Carrow
-author: "Luke Schierer"
+author: Luke Schierer
 sidebar:
   order: 1
 ---

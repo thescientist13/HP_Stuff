@@ -1,6 +1,7 @@
 ---
-title: "Relationships as of the Epilogue"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Relationships as of the Epilogue
+author: Luke Schierer
 ---
 
 While my discussion on [Shipping] is focused on how fan fiction has

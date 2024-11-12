@@ -1,6 +1,7 @@
 ---
-title: "Hogwarts Class Schedule Impossibility"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Hogwarts Class Schedule Impossibility
+author: Luke Schierer
 ---
 
 The class schedules pretty much must be intended more as a plot device

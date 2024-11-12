@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Malfoy"
-title: "Malfoy"
-author: "Luke Schierer"
+title: Malfoy
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

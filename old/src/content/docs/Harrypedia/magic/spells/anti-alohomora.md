@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Anti-Alohomora"
+title: Anti-Alohomora
 spells: "Anti-Alohomora"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 Developed by [Blagdon Blay][].

@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Prewett"
-title: "Prewett"
-author: "Luke Schierer"
+title: Prewett
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

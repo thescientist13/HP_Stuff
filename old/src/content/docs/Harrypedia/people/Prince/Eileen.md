@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Prince"
-title: "Eileen"
+title: Eileen
 hero: "I0250"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

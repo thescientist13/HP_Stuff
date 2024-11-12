@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Lockhart"
-title: "Lockhart"
-author: ""
+title: Lockhart
+author: 
 tags: ["family"]
 sidebar:
   order: 1

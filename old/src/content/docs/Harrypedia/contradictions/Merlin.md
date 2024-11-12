@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Merlin and Harry Potter
 author: Luke Schierer
 ---

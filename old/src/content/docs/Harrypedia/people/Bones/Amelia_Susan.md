@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 family: "Bones"
 title: 'Amelia Susan'
 hero: I0111

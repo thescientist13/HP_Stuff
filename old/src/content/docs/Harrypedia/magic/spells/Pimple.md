@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Pimple"
+title: Pimple
 spells: "Pimple"
-author: ""
+author: 
 ---
 
 ## Classification

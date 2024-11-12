@@ -1,5 +1,6 @@
 ---
-title: "Potter Family Wealth"
+collection: Harrypedia
+title: Potter Family Wealth
 author: 'Luke Schierer'
 ---
 

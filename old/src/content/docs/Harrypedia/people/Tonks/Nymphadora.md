@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Tonks"
-title: "Nymphadora"
+title: Nymphadora
 hero: "I0076"
 ---
 

@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Pomfrey"
-title: "Poppy"
+title: Poppy
 hero: "I0279"
 ---
 

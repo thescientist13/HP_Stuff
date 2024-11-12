@@ -1,7 +1,8 @@
 ---
-title: "Rufus"
+collection: Harrypedia
+title: Rufus
 hero: "I0199"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

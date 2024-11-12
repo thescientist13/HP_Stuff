@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Avis"
+title: Avis
 spells: "Avis"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 The small flock created are not actually real animals.

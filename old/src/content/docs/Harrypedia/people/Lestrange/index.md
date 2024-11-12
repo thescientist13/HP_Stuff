@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Lestrange"
-title: "Lestrange"
-author: ""
+title: Lestrange
+author: 
 tags: ["family"]
 sidebar:
   order: 1

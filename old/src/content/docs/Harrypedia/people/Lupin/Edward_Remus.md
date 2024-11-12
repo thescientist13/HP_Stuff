@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 family: "Lupin"
 title: Edward Remus
 hero: I0295

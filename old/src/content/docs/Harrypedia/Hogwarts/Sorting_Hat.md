@@ -1,4 +1,5 @@
 ---
-title: "Hogwarts Sorting Hat"
+collection: Harrypedia
+title: Hogwarts Sorting Hat
 ---
 

@@ -1,6 +1,7 @@
 ---
-title: "Dementors"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Dementors
+author: Luke Schierer
 ---
 
 ### Level of Intelligence

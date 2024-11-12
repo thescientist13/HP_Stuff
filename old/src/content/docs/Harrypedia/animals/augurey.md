@@ -1,6 +1,7 @@
 ---
-title: "Augurey"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Augurey
+author: Luke Schierer
 ---
 
 Also known as an Irish Phoenix, the augurey appears to be a small underfed

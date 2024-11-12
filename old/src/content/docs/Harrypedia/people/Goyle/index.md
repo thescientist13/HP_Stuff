@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Goyle"
-title: "Goyle"
-author: ""
+title: Goyle
+author: 
 tags: ["family"]
 sidebar:
   order: 1

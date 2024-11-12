@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Blay"
-title: "Blay"
-author: "Luke Schierer"
+title: Blay
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

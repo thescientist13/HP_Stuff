@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Slytherin"
-title: "Salazar"
+title: Salazar
 hero: I0299
 author: Luke Schierer
 ---

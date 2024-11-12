@@ -1,6 +1,7 @@
 ---
-title: "Balance of Power"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Balance of Power
+author: Luke Schierer
 ---
 
 One of the troubling things about the world that Mrs. Rowling has created is

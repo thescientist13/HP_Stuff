@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Granger"
-title: "Hermione Jean"
+title: Hermione Jean
 hero: "I0063"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

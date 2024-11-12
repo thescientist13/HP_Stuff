@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: International Confederation of Wizards
 author: Luke Schierer
 ---

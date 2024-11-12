@@ -1,6 +1,7 @@
 ---
-title: "Beautification Potion"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Beautification Potion
+author: Luke Schierer
 type: "potion"
 spells: "Beautification Potion"
 ---

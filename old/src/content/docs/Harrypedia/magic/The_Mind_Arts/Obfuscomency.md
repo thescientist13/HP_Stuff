@@ -1,5 +1,6 @@
 ---
-title: "The Mind Arts: Obfuscomency"
+collection: Harrypedia
+title: The Mind Arts: Obfuscomency
 ---
 
 This hypothetical mental defense consists of carefully arranging true and false

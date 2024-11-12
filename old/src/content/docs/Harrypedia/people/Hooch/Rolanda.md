@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Hooch"
-title: "Rolanda"
+title: Rolanda
 hero: "I0197"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

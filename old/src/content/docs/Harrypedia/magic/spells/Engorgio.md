@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Engorgio"
+title: Engorgio
 spells: "Engorgio"
-author: ""
+author: 
 ---
 
 ## Classification

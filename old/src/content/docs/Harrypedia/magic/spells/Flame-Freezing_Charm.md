@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Flame Freezing"
+title: Flame Freezing
 spells: "Flame Freezing"
-author: ""
+author: 
 ---
 
 ## Classification

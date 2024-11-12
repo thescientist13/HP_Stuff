@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Anthropomorphism in Fan Fiction
 author: Luke Schierer
 ---

@@ -1,6 +1,7 @@
 ---
-title: "Clothing in the Magical World"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Clothing in the Magical World
+author: Luke Schierer
 ---
 
 Mrs. Rowling insists that wizards wear robes.[^200723-4] The problem is that

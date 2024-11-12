@@ -1,6 +1,7 @@
 ---
-title: "Religion in the Magical World"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Religion in the Magical World
+author: Luke Schierer
 ---
 
 Mrs. Rowling's canonical Harry Potter books are entirely secular.  They 

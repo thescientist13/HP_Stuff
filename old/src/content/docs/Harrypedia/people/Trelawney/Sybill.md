@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Trelawney"
-title: "Sybill"
+title: Sybill
 hero: I0253
 author: Luke Schierer
 ---

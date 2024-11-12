@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Tabula"
+title: Tabula
 spells: "Tabula"
-author: ""
+author: 
 ---
 
 ## Classification

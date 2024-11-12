@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "MacDougal"
-title: "MacDougal"
-author: "Luke Schierer"
+title: MacDougal
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

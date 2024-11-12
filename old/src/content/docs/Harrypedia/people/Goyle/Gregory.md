@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Goyle"
-title: "Gregory"
+title: Gregory
 hero: "I0107"
-author: ""
+author: 
 ---
 
 

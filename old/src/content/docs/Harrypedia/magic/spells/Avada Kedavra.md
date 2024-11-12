@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
 spells: "Avada Kedavra"
 title: Avada Kedavra
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Name

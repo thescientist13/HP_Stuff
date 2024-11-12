@@ -1,6 +1,7 @@
 ---
-title: "Growth"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Growth
+author: Luke Schierer
 ---
 
 ## Misc notes on height

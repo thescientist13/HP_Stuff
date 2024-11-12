@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "McLaggen"
-title: "McLaggen"
-author: "Luke Schierer"
+title: McLaggen
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

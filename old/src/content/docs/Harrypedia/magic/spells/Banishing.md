@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Banishing"
+title: Banishing
 spells: "Banishing"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Diffindo"
+title: Diffindo
 spells: "Diffindo"
-author: ""
+author: 
 ---
 
 ## Classification

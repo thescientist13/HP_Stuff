@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Capacious Extremis"
+title: Capacious Extremis
 spells: "Capacious Extremis"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

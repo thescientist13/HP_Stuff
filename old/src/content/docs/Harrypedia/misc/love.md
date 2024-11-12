@@ -1,6 +1,7 @@
 ---
-title: "Love in Harry Potter"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Love in Harry Potter
+author: Luke Schierer
 ---
 
 I sometimes question how well Mrs. Rowling truly understands what love is.

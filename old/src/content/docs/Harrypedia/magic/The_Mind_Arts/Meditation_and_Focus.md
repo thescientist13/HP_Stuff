@@ -1,6 +1,7 @@
 ---
-title: "The Mind Arts: Meditation and Focus"
-author: "Luke Schierer"
+collection: Harrypedia
+title: The Mind Arts: Meditation and Focus
+author: Luke Schierer
 ---
 
 This is probably the weekest attempt to dodge the problems of [Occlumency],

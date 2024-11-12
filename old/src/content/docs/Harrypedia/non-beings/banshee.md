@@ -1,6 +1,7 @@
 ---
-title: "Banshees"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Banshees
+author: Luke Schierer
 ---
 
 Banshees are perhaps the least described of the non-beings in Harry

@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Tonks"
-title: "Edward"
+title: Edward
 hero: "I0075"
 ---
 

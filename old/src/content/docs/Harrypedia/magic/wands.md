@@ -1,6 +1,7 @@
 ---
-title: "Wands"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Wands
+author: Luke Schierer
 ---
 
 * There is a fascinating article on [wand wood] and the

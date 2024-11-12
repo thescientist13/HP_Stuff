@@ -1,6 +1,7 @@
 ---
-title: "Merpeople - Merrows"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Merpeople - Merrows
+author: Luke Schierer
 ---
 
 The Merrow, from Ireland, seem to be more closely related to the traditional

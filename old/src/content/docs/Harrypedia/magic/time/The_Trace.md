@@ -1,6 +1,7 @@
 ---
-title: "The Trace"
-author: "Luke Schierer"
+collection: Harrypedia
+title: The Trace
+author: Luke Schierer
 ---
 
 The Trace is a curious thing, one that could be placed in a few different

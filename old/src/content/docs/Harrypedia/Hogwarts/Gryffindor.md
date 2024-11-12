@@ -1,6 +1,7 @@
 ---
-title: "Gryffindor"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Gryffindor
+author: Luke Schierer
 ---
 
 

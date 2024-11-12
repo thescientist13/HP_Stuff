@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Lucretia"
+title: Lucretia
 hero: "I0012"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

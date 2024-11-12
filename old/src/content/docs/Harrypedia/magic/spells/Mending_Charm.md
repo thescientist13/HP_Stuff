@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Mending Charm"
+title: Mending Charm
 spells: "Mending Charm"
-author: ""
+author: 
 ---
 
 ## Classification

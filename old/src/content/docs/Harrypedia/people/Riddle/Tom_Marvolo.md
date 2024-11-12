@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Riddle"
-title: "Tom Marvolo"
+title: Tom Marvolo
 hero: "I0247"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Crabbe"
-title: "Vincent"
+title: Vincent
 hero: "I0106"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

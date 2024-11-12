@@ -1,6 +1,7 @@
 ---
-title: "Relationships between Characters"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Relationships between Characters
+author: Luke Schierer
 ---
 
 ### Overview

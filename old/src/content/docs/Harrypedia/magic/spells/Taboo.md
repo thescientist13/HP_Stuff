@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Taboo"
+title: Taboo
 spells: "Taboo"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 This appears to be a *class* of magic rather than a specific spell,

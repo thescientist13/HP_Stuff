@@ -1,6 +1,7 @@
 ---
-title: "Hogwarts"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Hogwarts
+author: Luke Schierer
 ---
 
 On a side note, "[Hogwarts Education, a Britpicking Guide][rtHEBG1]" has lots of

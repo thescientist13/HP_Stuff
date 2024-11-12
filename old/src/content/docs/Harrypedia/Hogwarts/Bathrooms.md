@@ -1,6 +1,7 @@
 ---
-title: "Bathrooms at Hogwarts"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Bathrooms at Hogwarts
+author: Luke Schierer
 ---
 
 Mrs. Rowling explains that the Chamber of Secrets was not always hidden under a

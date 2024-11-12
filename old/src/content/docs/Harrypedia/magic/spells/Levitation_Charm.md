@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Levitation Charm"
+title: Levitation Charm
 spells: "Levitation Charm"
-author: ""
+author: 
 ---
 
 ## Classification

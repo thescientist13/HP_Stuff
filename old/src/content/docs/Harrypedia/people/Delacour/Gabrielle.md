@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Delacour"
-title: "Gabrielle"
+title: Gabrielle
 hero: "I0291"
 ---
 

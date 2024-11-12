@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Prewett"
-title: "Molly"
+title: Molly
 hero: "I0062"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

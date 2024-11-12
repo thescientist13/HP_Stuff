@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Lovegood"
-title: "Luna"
+title: Luna
 hero: "I0115"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

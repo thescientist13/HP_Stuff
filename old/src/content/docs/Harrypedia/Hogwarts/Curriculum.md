@@ -1,6 +1,7 @@
 ---
-title: "Hogwarts Curriculum"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Hogwarts Curriculum
+author: Luke Schierer
 ---
 
 Has Hogwarts always had the same classes we see during Harry's time as a

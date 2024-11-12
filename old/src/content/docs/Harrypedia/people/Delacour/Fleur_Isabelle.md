@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Delacour"
-title: "Fleur Isabelle"
+title: Fleur Isabelle
 hero: "I0080"
-author: ""
+author: 
 ---
 
 

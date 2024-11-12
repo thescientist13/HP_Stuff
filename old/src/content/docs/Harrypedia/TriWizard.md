@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: The TriWizard Tournament
 ---
 

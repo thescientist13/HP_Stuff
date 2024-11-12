@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Weasley"
-title: "Charlie"
+title: Charlie
 hero: "I0095"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

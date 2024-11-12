@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Portaberto"
+title: Portaberto
 spells: "Portaberto"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

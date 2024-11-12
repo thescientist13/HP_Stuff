@@ -1,6 +1,7 @@
 ---
-title: "Class and Blood Status in the Magical World"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Class and Blood Status in the Magical World
+author: Luke Schierer
 ---
 
 I think the case can be made that there are those who think wizarding

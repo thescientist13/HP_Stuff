@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Skeeter"
-title: "Skeeter"
-author: ""
+title: Skeeter
+author: 
 tags: ["family"]
 sidebar:
   order: 1

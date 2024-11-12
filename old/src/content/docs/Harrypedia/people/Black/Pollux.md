@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Pollux"
+title: Pollux
 hero: "I0026"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

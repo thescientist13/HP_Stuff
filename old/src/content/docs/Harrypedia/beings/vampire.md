@@ -1,6 +1,7 @@
 ---
-title: "Vampires"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Vampires
+author: Luke Schierer
 ---
 
 

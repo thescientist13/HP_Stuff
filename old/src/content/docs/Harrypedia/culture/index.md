@@ -1,5 +1,6 @@
 ---
-title: "Wizarding World Culture"
+collection: Harrypedia
+title: Wizarding World Culture
 author: Luke Schierer
 ---
 

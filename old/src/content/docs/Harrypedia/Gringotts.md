@@ -1,6 +1,7 @@
 ---
-title: "Gringotts Bank"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Gringotts Bank
+author: Luke Schierer
 ---
 
 Mrs. Rowling has left us with a mass of contradictions when it comes to

@@ -1,4 +1,5 @@
 [[!tag "HP Notes"]] 
+collection: Harrypedia
 [[!meta title="The Potter Family"]]
 [[!graph width=5, file="fiction/Harry_Potter/Notes/Families/Potter_Family.dot"]]
 

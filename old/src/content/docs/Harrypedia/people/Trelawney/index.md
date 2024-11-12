@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Trelawney"
-title: "Trelawney"
-author: ""
+title: Trelawney
+author: 
 tags: ["family"]
 sidebar:
   order: 1

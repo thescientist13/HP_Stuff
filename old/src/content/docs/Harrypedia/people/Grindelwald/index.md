@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Grindelwald"
-title: "Grindelwald"
-author: ""
+title: Grindelwald
+author: 
 tags: ["family"]
 sidebar:
   order: 1

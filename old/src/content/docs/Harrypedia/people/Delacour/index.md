@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Delacour"
-title: "Delacour"
-author: ""
+title: Delacour
+author: 
 tags: ["family"]
 sidebar:
   order: 1

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Reducio"
+title: Reducio
 spells: "Reducio"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

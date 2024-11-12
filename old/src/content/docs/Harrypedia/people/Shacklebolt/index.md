@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Shacklebolt"
-title: "Shacklebolt"
-author: "Luke Schierer"
+title: Shacklebolt
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

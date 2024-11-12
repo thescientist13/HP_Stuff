@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Snape"
-title: "Severus"
+title: Severus
 hero: "I0077"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

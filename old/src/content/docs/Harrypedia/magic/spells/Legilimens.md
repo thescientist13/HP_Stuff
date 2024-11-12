@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Legilimens"
+title: Legilimens
 spells: "Legilimens"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

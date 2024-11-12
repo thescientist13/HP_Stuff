@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Furnunculus"
+title: Furnunculus
 spells: "Furnunculus"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

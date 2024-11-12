@@ -1,6 +1,7 @@
 ---
-title: "Does Dumbledore Ever Accomplish Anything?"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Does Dumbledore Ever Accomplish Anything?
+author: Luke Schierer
 ---
 
 A recurring theme in fanfiction is Dumbledore's inaction.  Not only is this a

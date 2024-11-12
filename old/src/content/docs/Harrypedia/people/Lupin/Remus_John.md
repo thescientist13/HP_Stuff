@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Lupin"
-title: "Remus John"
+title: Remus John
 hero: I0060
 author: Luke Schierer
 ---

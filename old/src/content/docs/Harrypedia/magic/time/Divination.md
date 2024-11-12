@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Divination
 author: Luke Schierer
 ---

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Andromeda"
+title: Andromeda
 hero: "I0035"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

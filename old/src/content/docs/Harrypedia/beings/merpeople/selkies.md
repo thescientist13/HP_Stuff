@@ -1,6 +1,7 @@
 ---
-title: "Merpeople - Selkies"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Merpeople - Selkies
+author: Luke Schierer
 ---
 
 In Harry Potter, these are simply the Scottish version of Merpeople,[^211111-7]

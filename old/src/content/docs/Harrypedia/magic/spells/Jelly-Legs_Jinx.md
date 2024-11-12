@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Jelly Legs Jinx"
+title: Jelly Legs Jinx
 spells: "Jelly Legs"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

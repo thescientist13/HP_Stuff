@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Centaurs
 author: Luke Schierer
 ---

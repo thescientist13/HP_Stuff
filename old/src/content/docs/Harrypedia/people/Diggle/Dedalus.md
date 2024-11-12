@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Diggle"
-title: "Dedalus"
+title: Dedalus
 hero: "I0099"
-author: "Luke Schierer"
+author: Luke Schierer
 
 ---
 

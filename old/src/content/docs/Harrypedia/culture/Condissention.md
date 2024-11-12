@@ -1,5 +1,6 @@
 ---
-title: "Condescension"
+collection: Harrypedia
+title: Condescension
 author: 'Luke Schierer'
 ---
 

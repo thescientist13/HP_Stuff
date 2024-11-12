@@ -1,6 +1,7 @@
 ---
-title: "Werewolves"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Werewolves
+author: Luke Schierer
 ---
 
 Can a non-magical person get infected? If so, can they then use magic? 

@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Dursley"
-title: "Dursley"
-author: "Luke Schierer"
+title: Dursley
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

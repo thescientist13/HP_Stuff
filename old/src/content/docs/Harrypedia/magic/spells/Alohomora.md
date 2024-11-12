@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Alohomora"
+title: Alohomora
 spells: "Alohomora"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 Introduced in the early 1600s from Africa by [Eldon Elsrickle][].

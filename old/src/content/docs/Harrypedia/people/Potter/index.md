@@ -1,5 +1,6 @@
 ---
-title: "Potter"
+collection: Harrypedia
+title: Potter
 tags: ["family"]
 author: Luke Schierer
 sidebar:

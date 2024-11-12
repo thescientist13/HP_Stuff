@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: International Statute of Secrecy
 author: Luke Schierer
 ---

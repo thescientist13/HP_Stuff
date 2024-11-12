@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Cruciatus"
+title: Cruciatus
 spells: "Cruciatus"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

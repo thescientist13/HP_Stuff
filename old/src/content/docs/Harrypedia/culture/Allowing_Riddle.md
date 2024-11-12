@@ -1,6 +1,7 @@
 ---
-title: "The Society that Allowed Riddle"
-author: "Luke Schierer"
+collection: Harrypedia
+title: The Society that Allowed Riddle
+author: Luke Schierer
 ---
 
 Like other fan fiction writers before me, I am curious about how [Riddle] came to

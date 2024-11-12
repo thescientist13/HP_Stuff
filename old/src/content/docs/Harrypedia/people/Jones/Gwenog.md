@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Jones"
-title: "Gwenog"
+title: Gwenog
 hero: "I0266"
-author: "Luke Schierer"
+author: Luke Schierer
 
 ---
 

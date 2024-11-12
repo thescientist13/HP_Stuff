@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Walburga"
+title: Walburga
 hero: "I0006"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

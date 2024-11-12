@@ -1,6 +1,7 @@
 ---
-title: "Quidditch"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Quidditch
+author: Luke Schierer
 ---
 
 ## Cultural Impact

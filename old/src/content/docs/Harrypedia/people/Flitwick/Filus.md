@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Flitwick"
-title: "Filus"
+title: Filus
 hero: I0293
 author: Luke Schierer
 

@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 families: "Pomfrey"
-title: "Pomfrey"
+title: Pomfrey
 tags: ["family"]
 sidebar:
   order: 1

@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
 spells: "FiendFire"
-title: "FiendFire"
-author: "Luke Schierer"
+title: FiendFire
+author: Luke Schierer
 ---
 
 ## Name

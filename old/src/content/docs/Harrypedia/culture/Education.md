@@ -1,6 +1,7 @@
 ---
-title: "Education in the Magical World"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Education in the Magical World
+author: Luke Schierer
 ---
 
 Oxford was founded between 1096 and 1167, the University of Paris

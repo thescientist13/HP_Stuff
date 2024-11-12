@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Bones"
-title: "Bones"
-author: "Luke Schierer"
+title: Bones
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Scrimgeour"
-title: "Scrimgeour"
-author: "Luke Schierer"
+title: Scrimgeour
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

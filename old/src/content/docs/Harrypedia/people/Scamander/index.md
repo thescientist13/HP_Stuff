@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 families: "Scamander"
-title: "Scamander"
+title: Scamander
 author: Luke Schierer
 sidebar:
   order: 1

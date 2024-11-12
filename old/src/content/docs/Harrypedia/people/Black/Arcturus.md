@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Black"
-title: "Arcturus"
+title: Arcturus
 hero: "I0151"
 author: Luke Schierer
 ---

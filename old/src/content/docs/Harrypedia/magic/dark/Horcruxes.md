@@ -1,6 +1,7 @@
 ---
-title: "Horcruxes"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Horcruxes
+author: Luke Schierer
 ---
 
 First of all, I'm not going to even start about what the proper plural is.

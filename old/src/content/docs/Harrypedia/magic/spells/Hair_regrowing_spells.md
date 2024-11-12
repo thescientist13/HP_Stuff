@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Hair Regrowing Spells"
+title: Hair Regrowing Spells
 spells: "Hair Regrowing"
-author: ""
+author: 
 ---
 
 ## Classification

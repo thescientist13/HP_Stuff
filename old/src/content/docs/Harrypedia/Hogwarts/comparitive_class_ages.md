@@ -1,6 +1,7 @@
 ---
-title: "Comparing how old students are in UK and US"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Comparing how old students are in UK and US
+author: Luke Schierer
 ---
 
 I frequently have trouble placing kids in the right frame of reference, because

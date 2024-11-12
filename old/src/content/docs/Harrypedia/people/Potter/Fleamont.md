@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Potter"
-title: "Fleamont"
+title: Fleamont
 hero: "I0003"
-author: "Luke Schierer"
+author: Luke Schierer
 
 ---
 

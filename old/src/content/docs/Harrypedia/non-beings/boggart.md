@@ -1,6 +1,7 @@
 ---
-title: "Boggarts"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Boggarts
+author: Luke Schierer
 ---
 
 In creating the Boggart, Mrs. Rowling seems to have lifted a word out of Celtic

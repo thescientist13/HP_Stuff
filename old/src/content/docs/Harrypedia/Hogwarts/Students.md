@@ -1,6 +1,7 @@
 ---
-title: "Hogwarts' Student Body"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Hogwarts' Student Body
+author: Luke Schierer
 ---
 
 ### General Information

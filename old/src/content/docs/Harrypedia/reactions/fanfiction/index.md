@@ -1,5 +1,6 @@
 ---
-title: "Reactions to Fannon and Fan Fiction"
+collection: Harrypedia
+title: Reactions to Fannon and Fan Fiction
 ---
 
 There is so much fan fiction out there that even not counting the movies, it is

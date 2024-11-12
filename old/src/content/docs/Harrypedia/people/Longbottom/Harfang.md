@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Longbottom"
-title: "Harfang"
+title: Harfang
 hero: "I0050"
-author: ""
+author: 
 ---
 
 

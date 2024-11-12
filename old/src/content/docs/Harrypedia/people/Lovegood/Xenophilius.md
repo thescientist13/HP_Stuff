@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Lovegood"
-title: "Xenophilius"
+title: Xenophilius
 hero: "I0188"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

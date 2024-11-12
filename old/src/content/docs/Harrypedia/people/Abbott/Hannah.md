@@ -1,7 +1,8 @@
 ---
-title: "Hannah"
+collection: Harrypedia
+title: Hannah
 hero: "I0108"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ### Analysis

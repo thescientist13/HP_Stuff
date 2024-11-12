@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Reactions to Harry Potter and the Philosopher's Stone
 author: Luke Schierer
 ---

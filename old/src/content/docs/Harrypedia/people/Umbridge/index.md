@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Umbridge"
-title: "Umbridge"
-author: "Luke Schierer"
+title: Umbridge
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

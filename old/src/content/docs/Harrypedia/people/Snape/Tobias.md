@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Snape"
-title: "Tobias"
+title: Tobias
 hero: "I0249"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

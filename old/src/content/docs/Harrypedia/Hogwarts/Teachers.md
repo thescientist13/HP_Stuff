@@ -1,5 +1,6 @@
 ---
-title: "Teachers"
+collection: Harrypedia
+title: Teachers
 ---
 
 

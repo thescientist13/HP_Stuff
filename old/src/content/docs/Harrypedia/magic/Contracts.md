@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Magical Contracts
 author: Luke Schierer
 ---

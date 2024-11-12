@@ -1,6 +1,7 @@
 ---
-title: "Poltergeists"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Poltergeists
+author: Luke Schierer
 ---
 
 Poltergeists are perhaps the least objectionable of the

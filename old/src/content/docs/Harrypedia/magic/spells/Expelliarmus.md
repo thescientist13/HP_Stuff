@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Expelliarmus"
+title: Expelliarmus
 spells: "Expelliarmus"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 ## Classification

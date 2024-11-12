@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Slughorn"
-title: "Slughorn"
-author: ""
+title: Slughorn
+author: 
 tags: ["family"]
 sidebar:
   order: 1

@@ -1,6 +1,7 @@
 ---
-title: "Magical Congress of the United States of America (MACUSA)"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Magical Congress of the United States of America (MACUSA)
+author: Luke Schierer
 ---
 
 Mrs. Rowling would have this established in 1693[^210228-8] with the primary 

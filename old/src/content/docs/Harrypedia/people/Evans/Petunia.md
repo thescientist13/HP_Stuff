@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Evans"
-title: "Petunia"
+title: Petunia
 hero: "I0097"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

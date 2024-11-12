@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Greengrass"
-title: "Daphne"
+title: Daphne
 hero: "I0179"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

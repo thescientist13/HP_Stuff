@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Diggle"
-title: "Diggle"
-author: "Luke Schierer"
+title: Diggle
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

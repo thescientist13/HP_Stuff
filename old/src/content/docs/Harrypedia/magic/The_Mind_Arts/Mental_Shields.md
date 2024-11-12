@@ -1,6 +1,7 @@
 ---
-title: "The Mind Arts: Mental Shields"
-author: "Luke Schierer"
+collection: Harrypedia
+title: The Mind Arts: Mental Shields
+author: Luke Schierer
 ---
 
 Muggledad in _Partners_[^20191119-7] offers a viable alternative.

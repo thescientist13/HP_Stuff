@@ -1,6 +1,7 @@
 ---
-title: "Magical Animals in Harry Potter"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Magical Animals in Harry Potter
+author: Luke Schierer
 sidebar:
   order: 1
 ---

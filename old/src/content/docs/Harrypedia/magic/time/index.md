@@ -1,6 +1,7 @@
 ---
-title: "Time"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Time
+author: Luke Schierer
 sidebar:
  order: 1
 ---

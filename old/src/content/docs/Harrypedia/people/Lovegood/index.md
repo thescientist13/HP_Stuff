@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Lovegood"
-title: "Lovegood"
-author: ""
+title: Lovegood
+author: 
 tags: ["family"]
 sidebar:
   order: 1

@@ -1,5 +1,6 @@
 ---
-title: "Ravenclaw"
+collection: Harrypedia
+title: Ravenclaw
 ---
 
 

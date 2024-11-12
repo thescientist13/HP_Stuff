@@ -1,6 +1,7 @@
 ---
-title: "Non-Human Spirituous Apparitions"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Non-Human Spirituous Apparitions
+author: Luke Schierer
 sidebar:
  order: 1
 ---

@@ -1,7 +1,8 @@
 ---
-title: "Zabini"
+collection: Harrypedia
+title: Zabini
 families: "Zabini"
-author: "Luke Schierer"
+author: Luke Schierer
 tags: ["family"]
 
 sidebar:

@@ -1,6 +1,7 @@
 ---
-title: "Quills and Pens in the Magical World"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Quills and Pens in the Magical World
+author: Luke Schierer
 ---
 
 ## Quills

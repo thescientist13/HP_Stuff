@@ -1,6 +1,7 @@
 ---
-title: "Snape's Worst Memory and Related Events"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Snape's Worst Memory and Related Events
+author: Luke Schierer
 ---
 
 Any attempt to understand [Sirius], [Lily], [James], [Snape], the

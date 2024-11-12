@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 family: "Fudge"
-title: "Cornelius Oswald"
+title: Cornelius Oswald
 hero: "I0198"
-author: "Luke Schierer"
+author: Luke Schierer
 ---
 
 

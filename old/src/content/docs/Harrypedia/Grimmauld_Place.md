@@ -1,6 +1,7 @@
 ---
-title: "Number 12 Grimmauld Place"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Number 12 Grimmauld Place
+author: Luke Schierer
 ---
 
 12 Grimmauld Place is said to be the ancestral home of the [Black

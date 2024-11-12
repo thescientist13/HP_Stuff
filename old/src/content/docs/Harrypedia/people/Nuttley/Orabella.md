@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Nuttley"
-title: "Orabella"
+title: Orabella
 hero: I0298
 author: Luke Schierer
 ---

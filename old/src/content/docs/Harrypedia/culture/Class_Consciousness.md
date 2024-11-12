@@ -1,6 +1,7 @@
 ---
-title: "Class Consciousness in the Magical World"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Class Consciousness in the Magical World
+author: Luke Schierer
 ---
 I wrote an entire page on [class and blood].
 

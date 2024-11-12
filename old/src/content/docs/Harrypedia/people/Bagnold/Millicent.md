@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 family: "Bagnold"
-title: "Millicent"
+title: Millicent
 hero: "I0280"
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: "Slytherin"
+collection: Harrypedia
+title: Slytherin
 ---
 
 

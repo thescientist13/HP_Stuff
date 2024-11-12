@@ -1,8 +1,9 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Defodio"
+title: Defodio
 spells: "Defodio"
-author: ""
+author: 
 ---
 
 ## Classification

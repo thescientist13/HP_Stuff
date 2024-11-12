@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Brown"
-title: "Brown"
-author: "Luke Schierer"
+title: Brown
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

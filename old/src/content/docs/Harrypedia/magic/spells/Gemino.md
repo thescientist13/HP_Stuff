@@ -1,6 +1,7 @@
 ---
+collection: Harrypedia
 type: "spell"
-title: "Gemino"
+title: Gemino
 spells: "Gemino"
 ---
 

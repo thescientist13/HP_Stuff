@@ -1,6 +1,7 @@
 ---
-title: "Centaur"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Centaur
+author: Luke Schierer
 ---
 
 [Centaurs] refused to be classifed as [beings], insisting on being considered

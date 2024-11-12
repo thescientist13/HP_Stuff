@@ -1,6 +1,7 @@
 ---
-title: "The Mind Arts"
-author: "Luke Schierer"
+collection: Harrypedia
+title: The Mind Arts
+author: Luke Schierer
 sidebar:
  order: 1
 ---

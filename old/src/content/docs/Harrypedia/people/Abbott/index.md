@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Abbott"
-title: "Abbott"
-author: "Luke Schierer"
+title: Abbott
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1

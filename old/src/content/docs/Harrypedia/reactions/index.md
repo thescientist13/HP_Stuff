@@ -1,4 +1,5 @@
 ---
+collection: Harrypedia
 title: Reactions to the Written Word
 author: Luke Schierer
 ---

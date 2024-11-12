@@ -1,6 +1,7 @@
 ---
-title: "McGonagall"
-author: ""
+collection: Harrypedia
+title: McGonagall
+author: 
 sidebar:
   order: 1
 ---

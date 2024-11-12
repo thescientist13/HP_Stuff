@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Slytherin"
-title: "Slytherin"
-author: ""
+title: Slytherin
+author: 
 tags: ["family"]
 sidebar:
   order: 1

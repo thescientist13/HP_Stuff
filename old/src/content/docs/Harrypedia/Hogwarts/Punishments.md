@@ -1,6 +1,7 @@
 ---
-title: "Policies on Punishing Students"
-author: "Luke Schierer"
+collection: Harrypedia
+title: Policies on Punishing Students
+author: Luke Schierer
 ---
 
 During [Harry][]'s time there, Filch constantly complains about the punishments

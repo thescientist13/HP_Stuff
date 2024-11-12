@@ -1,7 +1,8 @@
 ---
+collection: Harrypedia
 families: "Hooch"
-title: "Hooch"
-author: "Luke Schierer"
+title: Hooch
+author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1
