@@ -7,6 +7,7 @@
 node_modules/
 public/
 .greenwood/
+tsconfig.tsbuildinfo
 
 .yarn/*
 !.yarn/cache
