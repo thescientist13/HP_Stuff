@@ -1,6 +1,8 @@
 ---
 collection: Harrypedia
-title: The Mind Arts: Obfuscomency
+title: |
+  The Mind Arts: Obfuscomency
+author: Luke Schierer
 ---
 
 This hypothetical mental defense consists of carefully arranging true and false
@@ -9,7 +11,7 @@ memories in a spiral pattern within your mind,[^211013-1] rather than in a
 attacker will
 in fact get in, but will be forced down a pre-selected and time-consuming path
 through your memories.  You are essentially assuming that the attacker has
-either limited time, limited patience, or both in which to attack you.  
+either limited time, limited patience, or both in which to attack you.
 
 [^211013-1]: deadwoodpecker.
     _[Backward With Purpose Part I: Always and

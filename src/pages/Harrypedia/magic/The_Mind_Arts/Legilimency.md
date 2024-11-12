@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
-title: The Mind Arts: Legilimency
+title: |
+  The Mind Arts: Legilimency
 author: Luke Scheirer
 ---
 

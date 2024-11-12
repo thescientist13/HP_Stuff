@@ -1,15 +1,17 @@
 ---
 collection: Harrypedia
-title: The Mind Arts: Mind Palace
+title: |
+  The Mind Arts: Mind Palace
+author: Luke Schierer
 ---
 
 A proposed defence against [Legilimency][], I have heard this one called a variety
 of things.  The basic idea is to visualise something familiar and "hide" or
 "store" your memories "within" this location or structure.  "Sorting" or
 "organising" your memories this way supposedly makes it harder for an attacker
-to find them. 
+to find them.
 
-The basic idea seems to be related to [Method of loci](https://en.wikipedia.org/wiki/Method_of_loci) 
+The basic idea seems to be related to [Method of loci](https://en.wikipedia.org/wiki/Method_of_loci)
 
 Personally I do not fully get this one as a defence.  The idea seems to be that
 the attacker will be fooled by the visualisation technique, and will see the
@@ -20,4 +22,3 @@ remembering things as the attacker hunts for memories?
 [Occlumency]: <../occlumency>
 
 [Legilimency]: <../legilimency>
-

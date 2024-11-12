@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
-title: The Mind Arts: Occlumency
+title: |
+  The Mind Arts: Occlumency
 author: Luke Schierer
 ---
 

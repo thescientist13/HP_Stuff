@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
-title: The Mind Arts: Mental Shields
+title: |
+  The Mind Arts: Mental Shields
 author: Luke Schierer
 ---
 
@@ -64,4 +65,3 @@ intuitive to Harry once he is told what to do in [Chapter 11][].
 
 [^20191119-8]: Mrs. J. K. Rowling.  _Harry Potter and the Order of the Phoenix_.
     Better citation needed here.
-

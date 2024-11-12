@@ -24,19 +24,23 @@ const DataColumns = ClassData.columns.filter((ci: string) => {
 });
 ---
 
-<table>
-  <thead>
-    {DataColumns.map((ci: string) => <th>{ci}</th>)}
-  </thead>
-  <tbody>
-    {
-      ClassData.map((row) => (
-        <tr>
-          {DataColumns.map((ci: string) => (
-            <td>{row[ci as keyof typeof row]}</td>
-          ))}
-        </tr>
-      ))
-    }
-  </tbody>
-</table>
+{
+  DataColumns && (
+    <table>
+      <thead>
+        {DataColumns.map((ci: string) => (
+          <th>{ci}</th>
+        ))}
+      </thead>
+      <tbody>
+        {ClassData.map((row) => (
+          <tr>
+            {DataColumns.map((ci: string) => (
+              <td>{row[ci as keyof typeof row]}</td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )
+}

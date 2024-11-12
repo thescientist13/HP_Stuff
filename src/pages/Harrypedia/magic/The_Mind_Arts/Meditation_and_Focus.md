@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
-title: The Mind Arts: Meditation and Focus
+title: |
+  The Mind Arts: Meditation and Focus
 author: Luke Schierer
 ---
 
@@ -19,7 +20,7 @@ but is still worth considering.
 > help you to focus. It will also give you better mental control, helping you
 > with fending off Legilimens and Dementors, and controlling your
 > tempers."
-> 
+>
 > Sirius smiled at them. "Often when you focus on a specific
 > subject to meditate on, you learn something. Meditation means continued or
 > extended thought, reflection, or contemplation. In the definition it says
@@ -41,7 +42,7 @@ teaches, and apparently true [Occlumency].  What [Sirius][] is recommending is
 thus something related, but different. I suspect it would work well against
 [Legilimency][] but only if you knew it was being used against you.  That
 being said, he is right that it _would_ have benifits for the boys' control over
-their tempers. 
+their tempers.
 
 [Snape]: <../../../people/snape/severus>
 
@@ -54,4 +55,4 @@ their tempers.
 [^20200716-4]: know-it-all-bookworm . _[Harry Potter and the Secrets He's
     Kept](https://www.fanfiction.net/s/4367211)_ Chapter 9.
     [FanFiction](https://www.fanfiction.net) Published 2008-07-03. Updated
-    2009-04-26.  Last viewed 2020-07-16. 
+    2009-04-26.  Last viewed 2020-07-16.
