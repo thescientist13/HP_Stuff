@@ -127,12 +127,12 @@ class HorizontalCard extends LitElement {
     }
   }
 
-  static localStyle = [
+  static styles = [
     SpectrumCard,
     localStyles,
     css`
       :host {
-        background-color: var(--spectrum-green-500);
+        /*background-color: var(--spectrum-green-500); */
       }
     `,
   ];
@@ -152,8 +152,6 @@ class HorizontalCard extends LitElement {
       `;
     }
     return html`
-      <!-- required until  https://github.com/ProjectEvergreen/greenwood/issues/1310 -->
-      <link rel="stylesheet" href="../styles/horizontalCard.css" />
       <a href="${this._targetUrl}">
         <div
           class="spectrum-Card spectrum-Card--horizontal"
