@@ -12,7 +12,7 @@ export default class TopNav extends LitElement {
 
   static localStyle = css`
     .header {
-      background-color: var(--spectrum-cyan-400);
+      background-color: var(--spectrum-blue-200);
       min-height: 30px;
       padding: 10px;
       font-size: 1.2rem;
