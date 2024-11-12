@@ -1,0 +1,19 @@
+@import "@spectrum-css/tokens/dist/index.css";
+@import "@spectrum-css/page/dist/index.css";
+@import "@spectrum-css/typography/dist/index.css";
+
+:root {
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin: 2rem;
+}
+
+top-nav {
+  width: 100vw;
+}

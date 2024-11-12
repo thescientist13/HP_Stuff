@@ -1,0 +1,11 @@
+@import "@spectrum-css/tokens/dist/index.css";
+@import "@spectrum-css/typography/dist/index.css";
+@import "@spectrum-css/card/dist/index.css";
+
+.spectrum-Card-description {
+  width: 20rem;
+  height: fit-content;
+  text-wrap: balance;
+  overflow-wrap: normal;
+  white-space: normal;
+}

@@ -9,7 +9,7 @@ export default {
   prerender: true,
   staticRouter: false,
   markdown: {
-    plugins: ["remark-gfm"],
+    plugins: ["remark-gfm", "remark-rehype"],
   },
   optimization: "none",
   plugins: [
