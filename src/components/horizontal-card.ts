@@ -4,7 +4,6 @@ import { customElement, property, state } from "lit/decorators.js";
 const DEBUG = 1;
 
 import SpectrumCard from "/node_modules/@spectrum-css/card/dist/index.css" with { type: "css" };
-import localStyles from "../styles/horizontalCard.css" with { type: "css" };
 
 @customElement("horizontal-card")
 class HorizontalCard extends LitElement {
@@ -129,10 +128,16 @@ class HorizontalCard extends LitElement {
 
   static styles = [
     SpectrumCard,
-    localStyles,
     css`
       :host {
         /*background-color: var(--spectrum-green-500); */
+      }
+      .spectrum-Card-description {
+        width: 20rem;
+        height: fit-content;
+        text-wrap: balance;
+        overflow-wrap: normal;
+        white-space: normal;
       }
     `,
   ];
