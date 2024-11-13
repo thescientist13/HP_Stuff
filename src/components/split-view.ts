@@ -5,7 +5,7 @@ import { styleMap } from "lit/directives/style-map.js";
 
 import SpectrumSplitView from "/node_modules/@spectrum-css/splitview/dist/index.css" with { type: "css" };
 
-const DEBUG = 1;
+const DEBUG = 0;
 
 @customElement("split-view")
 export default class SplitView extends LitElement {
@@ -16,7 +16,7 @@ export default class SplitView extends LitElement {
     if (DEBUG) {
       console.log(`grabbed called`);
     }
-    let mouse_is_down = false;
+    this.mouse_is_down = false;
     if (grabber !== undefined) {
       if (DEBUG) {
         console.log(`grabbed has grabber`);

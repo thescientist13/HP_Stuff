@@ -10,7 +10,7 @@ import {
 import { TopLevelSections } from "../lib/topLevelSections.ts";
 import SpectrumSideNav from "/node_modules/@spectrum-css/sidenav/dist/index.css" with { type: "css" };
 
-const DEBUG = 1;
+const DEBUG = 0;
 
 type Page = {
   id: string;
@@ -60,7 +60,9 @@ export default class SideNav extends LitElement {
         const candidate = section.route;
         if (candidate.localeCompare(this.route)) {
           if (!sectionFileRoutes.includes(candidate)) {
-            console.log(`findChildFiles pushing ${candidate}`);
+            if(DEBUG) {
+              console.log(`findChildFiles pushing ${candidate}`);
+            }
             sectionFileRoutes.push(candidate);
             sectionFiles.push(section);
           }
@@ -118,7 +120,9 @@ export default class SideNav extends LitElement {
         const routeArray = page.route.split("/");
         const candidate = routeArray.slice(0, -1).join("/") + "/";
         if (!sectionDirectoryRoutes.includes(candidate)) {
-          console.log(`findChildDirectories pushing ${candidate}`);
+          if(DEBUG) {
+            console.log(`findChildDirectories pushing ${candidate}`);
+          }
           sectionDirectoryRoutes.push(candidate);
           sectionDirectories.push(page);
         }
@@ -248,9 +252,11 @@ export default class SideNav extends LitElement {
           if(ChildDirs.length > 0) {
             ChildDirs.map((child) => {
               if (child.route.localeCompare(page.route)) {
-                console.log(
-                  `rendering ${page.route}, child Directory is ${child.route}`,
-                );
+                if(DEBUG) {
+                  console.log(
+                    `rendering ${page.route}, child Directory is ${child.route}`,
+                  );
+                }
                 const childTemplate = this.renderSingleEntry(
                   TopSection,
                   sectionContents,
@@ -308,9 +314,11 @@ export default class SideNav extends LitElement {
             ${Submenu}
           </li>
         `);
-        console.log(
-          `returnableTemplates has ${returnableTemplates.length} templates`,
-        );
+        if(DEBUG){
+          console.log(
+            `returnableTemplates has ${returnableTemplates.length} templates`,
+          );
+        }
       } else {
         if(DEBUG) {
           if(depth >= 2) {

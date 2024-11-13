@@ -3,7 +3,7 @@ import { customElement, property } from "lit/decorators.js";
 
 import { TopLevelSections } from "../lib/topLevelSections.ts";
 
-const DEBUG = 1;
+const DEBUG = 0;
 
 @customElement("top-nav")
 export default class TopNav extends LitElement {
