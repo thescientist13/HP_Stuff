@@ -7,24 +7,22 @@ export NPM := `which npm`
 export NPX := `which npx`
 
 install:
-  ${PNPM} install
+  ${NPM} install
 
 dev: install
-  ${PNPM} run astro dev
+  ${NPM} run dev
 
 check: install
-  ${PNPM} astro check;
-  ${PNPM} tsc -p tsconfig.node.json --noEmit;
+  ${NPX} tsc --noEmit -p .;
 
 build: install parse
-  ${PNPM} tsc
-  ${PNPM} astro build
+  ${NPM} run build
 
 parse: install pre-build
   ./bin/grampsParser.sh
 
 pre-build: install
-  ${PNPM} tsc -p tsconfig.node.json
+  ${NPX} tsc -p tsconfig.bin.json
 
 deploy:
   cd infrastructure

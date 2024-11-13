@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-export PNPM=`which pnpm`
-export PNPX=`which pnpx`
+export NPM=`which npm`
+export NPX=`which npx`
 export TEMPDIR=`mktemp -d`
-export JUST="${PNPX} just"
+export JUST="${NPX} just"
 export CWD=`pwd`
 
 echo "{\"CWD\":\"./\"}" > $CWD/src/lib/root.json
@@ -11,6 +11,6 @@ echo "{\"CWD\":\"./\"}" > $CWD/src/lib/root.json
 #this will set up a collection with
 #json files for both the full db
 #and optimized files for individual pages
-$PNPX node  $CWD/src/bin/gramps2Json.js
+$NPX tsx  $CWD/bin/gramps2Json.ts
 
 rm -rf ${TEMPDIR}
