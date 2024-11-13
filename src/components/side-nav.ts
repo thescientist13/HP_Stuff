@@ -185,7 +185,7 @@ export default class SideNav extends LitElement {
           console.log(`new testDepth for route ${this.route} is ${testDepth}`);
         }
       }
-      if(directory) {
+      if(directory && !this.route.localeCompare(TopSection)) {
         const routeArray = this.route.split('/');
         const pageArray = page.route.split('/');
         if(this.route.length > 1 && pageArray.length >= routeArray.length) {
