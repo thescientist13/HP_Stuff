@@ -31,7 +31,7 @@ class HorizontalCard extends LitElement {
   constructor() {
     super();
     if (this.title.length > 0) {
-      const target = this.title.toLowerCase().replaceAll(" ", "-");
+      const target = this.title.replaceAll(" ", "");
       this._targetUrl = `/${target}/`;
     }
 
@@ -46,7 +46,7 @@ class HorizontalCard extends LitElement {
     if (DEBUG) {
       console.log(`HorizontalCard setTargetURL with target ${target}`);
     }
-    target = target.toLowerCase();
+    target = target;
     if (!target.startsWith("/")) {
       target = `/${target}`;
     }
