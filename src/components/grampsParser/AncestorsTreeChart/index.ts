@@ -1,1 +1,1 @@
-export { AncestorsTreeChart } from './AncestorsTreeChart';
+export { AncestorsTreeChart } from "./AncestorsTreeChart.ts";

@@ -1,91 +1,44 @@
-import { LitElement, html } from "lit";
-import type { PropertyValues, TemplateResult } from "lit";
+import { LitElement, html, css } from "lit";
+import type { PropertyValues } from "lit";
 import { property, state } from "lit/decorators.js";
 import { when } from "lit/directives/when.js";
-import { withStores } from "@nanostores/lit";
 
-import { task, onSet, onMount } from "nanostores";
+import { provide } from "@lit/context";
 
-import { TailwindMixin } from "../tailwind.element";
+import { grampsContext, GrampsState } from "./state.ts";
 
-import { zodData, primaryId, fetchData } from "./state";
+import * as GrampsZod from "../../lib/GrampsZodTypes.ts";
 
-import {
-  type Quality,
-  type DatevalType,
-  type EventType,
-  type Role,
-  type RelType,
-  type Gender,
-  type Derivation,
-  type NameType,
-  type RepositoryType,
-  type UrlType,
-  type Medium,
-  type Xml,
-  type Tag,
-  type Tags,
-  type Sourceref,
-  type ReporefElement,
-  type Source,
-  type Sources,
-  type Url,
-  type Repository,
-  type Repositories,
-  type Pname,
-  type Coord,
-  type Placeobj,
-  type Places,
-  type Personref,
-  type SurnameClass,
-  type NameElement,
-  type Address,
-  type EventrefElement,
-  type Person,
-  type People,
-  type Note,
-  type Notes,
-  type Researcher,
-  type Created,
-  type Header,
-  type Rel,
-  type PurpleChildref,
-  type ChildrefElement,
-  type Family,
-  type Families,
-  type EventDateval,
-  type Datestr,
-  type DaterangeClass,
-  type Attribute,
-  type Event,
-  type Events,
-  type CitationDateval,
-  type Citation,
-  type Citations,
-  type Database,
-  type Export,
-  ExportSchema,
-  DatabaseSchema,
-} from "@lib/GrampsZodTypes";
+//@ts-expect-error
+import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
 
-import styles from "@styles/Gramps.css?inline";
+//@ts-expect-error
+import SpectrumCard from "/node_modules/@spectrum-css/card/dist/index.css" with { type: "css" };
 
-import { IndividualName } from "./individualName";
-import { SimpleIndividual } from "./simpleIndividual";
-import { GrampsEvent } from "./events";
-import { AncestorsTreeChart } from "./AncestorsTreeChart";
+//@ts-expect-error
+import { IndividualName } from "./individualName.ts";
 
-const DEBUG = false;
+//@ts-expect-error
+import { SimpleIndividual } from "./simpleIndividual.ts";
 
-export class GrampsIndividual extends TailwindMixin(
-  withStores(LitElement, [primaryId, zodData]),
-  styles,
-) {
+//@ts-expect-error
+import { GrampsEvent } from "./events.ts";
+
+//@ts-expect-error
+import { AncestorsTreeChart } from "./AncestorsTreeChart/AncestorsTreeChart.ts";
+
+const DEBUG = true;
+
+export class GrampsIndividual extends LitElement {
+  @provide({ context: grampsContext })
+  @state()
+  state: GrampsState = new GrampsState();
+
   @property({ type: String })
   public personId: string;
 
   @state()
-  private individual: Person | null;
+  private individual: GrampsZod.Person | null;
 
   constructor() {
     super();
@@ -94,57 +47,40 @@ export class GrampsIndividual extends TailwindMixin(
     this.personId = "";
   }
 
-  public willUpdate(changedProperties: PropertyValues<this>) {
+  public async willUpdate(changedProperties: PropertyValues<this>) {
     super.willUpdate(changedProperties);
     if (DEBUG) console.log(`willUpdate; id is ${this.personId}`);
     if (changedProperties.has("personId")) {
-      if (DEBUG) console.log(`${typeof this.personId}`);
       if (this.personId !== undefined && this.personId.length > 0) {
         if (DEBUG) console.log(`calling setIndividual for ${this.personId}`);
-        this.setIndividual();
+        this.state.primaryId = this.personId;
+        const personUrl = new URL(
+          "/assets/gramps/".concat(this.personId).concat(".json"),
+          import.meta.url,
+        );
+        const status = await this.state.fetchData(personUrl);
+        if (status && this.state.zodData !== null) {
+          const db = this.state.zodData;
+          const found = db.people.person.filter((p) => {
+            if (p) {
+              return !p.id.localeCompare(this.personId, undefined, {
+                sensitivity: "base",
+              });
+            }
+          });
+          if (found) {
+            const first: GrampsZod.Person | undefined = [found].flat().shift();
+            if (first !== undefined) {
+              this.individual = first;
+            }
+          }
+        }
+        this.requestUpdate("state");
       }
     }
   }
 
-  private setIndividual() {
-    if (primaryId && this.personId.length > 0) {
-      const personUrl = new URL(
-        "/gramps/".concat(this.personId).concat(".json"),
-        import.meta.url,
-      );
-      if (DEBUG) console.log(`setIndividual; url is ${personUrl.toString()}`);
-      onSet(primaryId, () => {
-        if (DEBUG)
-          console.log(
-            `setIndividual onSet; personUrl is ${personUrl.toString()}`,
-          );
-        task(async () => {
-          const status = await fetchData(personUrl);
-          if (status) {
-            const db = zodData.get();
-            if (db) {
-              const found = db.people.person.filter((p) => {
-                if (p) {
-                  return !p.id.localeCompare(this.personId, undefined, {
-                    sensitivity: "base",
-                  });
-                }
-              });
-              if (found) {
-                const first: Person | undefined = [found].flat().shift();
-                if (first !== undefined) {
-                  this.individual = first;
-                }
-              }
-            }
-          }
-        });
-      });
-      primaryId.set(this.personId);
-    }
-  }
-
-  private renderGeneral(individual: Person) {
+  private renderGeneral(individual: GrampsZod.Person) {
     return html`
       <ul class="my-0">
         <li>
@@ -159,15 +95,17 @@ export class GrampsIndividual extends TailwindMixin(
     `;
   }
 
-  private renderParents(individual: Person) {
+  private renderParents(individual: GrampsZod.Person) {
     if (DEBUG) console.log(`renderParents; starting`);
     let t = html``;
     if (individual) {
-      if (zodData) {
-        const db: Database | null = zodData.get();
+      if (this.state.zodData) {
+        const db: GrampsZod.Database | null = this.state.zodData;
         if (db) {
           if (DEBUG) console.log(`renderParents; indivudal and controller set`);
-          const family: Family | undefined | null = [this.getFamilyAsChild()]
+          const family: GrampsZod.Family | undefined | null = [
+            this.getFamilyAsChild(),
+          ]
             .flat()
             .shift();
           if (family !== null && family !== undefined) {
@@ -233,29 +171,28 @@ export class GrampsIndividual extends TailwindMixin(
     return html`${t}`;
   }
 
-  private renderSiblings(individual: Person) {
+  private renderSiblings(individual: GrampsZod.Person) {
     if (DEBUG) console.log(`renderSiblings; start`);
     let t = html``;
     let c_template = html``;
     if (this.individual !== null && this.individual !== undefined) {
-      if (zodData) {
-        const db: Database | null = zodData.get();
+      if (this.state.zodData) {
+        const db: GrampsZod.Database | null = this.state.zodData;
         if (db) {
           if (DEBUG)
             console.log(
               `renderSiblings; indivudal ${this.individual.id} and controller set`,
             );
-          const families: Family[] | null = this.getFamilyAsChild();
+          const families: GrampsZod.Family[] | null = this.getFamilyAsChild();
           if (families !== null && families.length > 0) {
             families.map((f) => {
               if (f.childref) {
-                const allChildren: (string | undefined)[] = [f.childref]
-                  .flat()
-                  .map((cr) => {
-                    if (cr) {
-                      return cr.hlink;
-                    }
-                  });
+                const allChildren = new Array<string>();
+                [f.childref].flat().map((cr) => {
+                  if (cr) {
+                    allChildren.push(cr.hlink);
+                  }
+                });
                 if (
                   allChildren !== null &&
                   allChildren !== undefined &&
@@ -271,20 +208,21 @@ export class GrampsIndividual extends TailwindMixin(
                         console.log(
                           `renderSiblings; child with handle ${cr} is real`,
                         );
-                      const child: Person | undefined = db.people.person
-                        .filter((p) => {
-                          if (p && p.handle) {
-                            if (DEBUG)
-                              console.log(
-                                `renderSiblings; comparing against ${p.handle}`,
-                              );
-                            return !p.handle.localeCompare(cr, undefined, {
-                              sensitivity: "base",
-                            });
-                          }
-                          return false;
-                        })
-                        .shift();
+                      const child: GrampsZod.Person | undefined =
+                        db.people.person
+                          .filter((p) => {
+                            if (p && p.handle) {
+                              if (DEBUG)
+                                console.log(
+                                  `renderSiblings; comparing against ${p.handle}`,
+                                );
+                              return !p.handle.localeCompare(cr, undefined, {
+                                sensitivity: "base",
+                              });
+                            }
+                            return false;
+                          })
+                          .shift();
                       if (
                         child !== undefined &&
                         child.id.localeCompare(this.personId, undefined, {
@@ -326,12 +264,12 @@ export class GrampsIndividual extends TailwindMixin(
     return html`${t}`;
   }
 
-  private renderUnion(f: Family) {
+  private renderUnion(f: GrampsZod.Family) {
     if (DEBUG) console.log(`renderUnion; start`);
     let t = html``;
     if (this.individual) {
-      if (zodData) {
-        const db: Database | null = zodData.get();
+      if (this.state.zodData) {
+        const db: GrampsZod.Database | null = this.state.zodData;
         if (db) {
           if (DEBUG) console.log(`renderUnion; indivudal and controller set`);
           const ih = this.individual.handle;
@@ -388,7 +326,7 @@ export class GrampsIndividual extends TailwindMixin(
           }
           if (f.childref) {
             if (DEBUG) console.log(`renderUnion; starting search for children`);
-            let crs: Sourceref[] | Sourceref = f.childref;
+            let crs: GrampsZod.Sourceref[] | GrampsZod.Sourceref = f.childref;
             crs = [crs].flat();
             if (DEBUG)
               console.log(`renderUnion; I have ${crs.length} children`);
@@ -422,12 +360,12 @@ export class GrampsIndividual extends TailwindMixin(
     return html`${t}`;
   }
 
-  private renderUnions(individual: Person) {
+  private renderUnions(individual: GrampsZod.Person) {
     if (DEBUG) console.log(`renderUnions; starting`);
     let t = html``;
     if (individual) {
-      if (zodData) {
-        const db: Database | null = zodData.get();
+      if (this.state.zodData) {
+        const db: GrampsZod.Database | null = this.state.zodData;
         if (db) {
           if (DEBUG) console.log(`renderUnions; indivudal and controller set`);
           const unions = this.getFamilyAsSpouse();
@@ -457,9 +395,9 @@ export class GrampsIndividual extends TailwindMixin(
 
   public getFamilyAsSpouse() {
     if (DEBUG) console.log(`getFamilyAsSpouse; starting`);
-    let result = Array<Family>();
-    if (zodData) {
-      const db: Database | null = zodData.get();
+    let result = Array<GrampsZod.Family>();
+    if (this.state.zodData) {
+      const db: GrampsZod.Database | null = this.state.zodData;
       if (db) {
         if (this.personId && this.individual && this.individual.handle) {
           if (DEBUG) console.log(`getFamilyAsSpouse; with an individual`);
@@ -487,8 +425,8 @@ export class GrampsIndividual extends TailwindMixin(
 
   public getFamilyAsChild() {
     if (DEBUG) console.log(`getFamilyAsChild; starting`);
-    if (zodData) {
-      const db: Database | null = zodData.get();
+    if (this.state.zodData) {
+      const db: GrampsZod.Database | null = this.state.zodData;
       if (db) {
         if (this.personId !== null && this.personId !== undefined) {
           if (this.individual !== null && this.individual !== undefined) {
@@ -496,8 +434,8 @@ export class GrampsIndividual extends TailwindMixin(
               console.log(
                 `getFamilyAsChild; with an individual ${this.individual.id}`,
               );
-            let result = Array<Family>();
-            let familyRefs: (Sourceref | null)[] | null =
+            let result = Array<GrampsZod.Family>();
+            let familyRefs: (GrampsZod.Sourceref | null)[] | null =
               typeof this.individual.childof !== "undefined"
                 ? [this.individual.childof].flat()
                 : null;
@@ -575,15 +513,16 @@ export class GrampsIndividual extends TailwindMixin(
 
   private renderTimelineCard() {
     let t = html``;
-    if (zodData) {
+    if (this.state.zodData) {
       if (DEBUG) console.log(`renderTimelineCard; validated controller`);
-      const db: Database | null = zodData.get();
+      const db: GrampsZod.Database | null = this.state.zodData;
       if (db) {
         if (this.personId && this.individual) {
           if (this.individual.eventref) {
             if (DEBUG) console.log(`renderTimelineCard; I have event refs`);
-            const eventRefs: EventrefElement[] | EventrefElement =
-              this.individual.eventref;
+            const eventRefs:
+              | GrampsZod.EventrefElement[]
+              | GrampsZod.EventrefElement = this.individual.eventref;
             const eRArray = [eventRefs].flat();
             if (eRArray.length > 0) {
               t = html`${t}
@@ -654,11 +593,14 @@ export class GrampsIndividual extends TailwindMixin(
     super.connectedCallback();
   }
 
+  static localstyle = css``;
+  static styles = [SpectrumCard, GrampsCSS, GrampsIndividual.localstyle];
+
   public render() {
     let t = html``;
-    if (zodData) {
+    if (this.state.zodData) {
       if (DEBUG) console.log(`render; validated controller`);
-      const db: Database | null = zodData.get();
+      const db: GrampsZod.Database | null = this.state.zodData;
       if (db) {
         if (this.personId) {
           if (DEBUG) console.log(`render; and I have an id`);
@@ -672,7 +614,7 @@ export class GrampsIndividual extends TailwindMixin(
               if (DEBUG) console.log(`render; and the first was valid`);
               this.individual = first;
               t = html`
-                <div class="flex-auto gap-1  ">
+                <div class="spectrum-Card" tabindex="0" role="figure">
                   <div class="flex-auto ">
                     <div class="grid grid-cols-12 grid-rows-2 bg-gray-100">
                       <div class="col-span-11 col-end-12 row-span-1 ">

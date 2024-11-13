@@ -1,6 +1,9 @@
 import { LitElement, html, nothing } from "lit";
 import type { TemplateResult } from "lit";
 import { property, state } from "lit/decorators.js";
+import { consume } from "@lit/context";
+
+import { grampsContext, GrampsState } from "../state.ts";
 
 import { z } from "zod";
 
@@ -58,18 +61,19 @@ import {
   type Citations,
   type Database,
   type Export,
-} from "@lib/GrampsZodTypes";
+} from "../../../lib/GrampsZodTypes.ts";
 
-import { zodData } from "../state";
-import { IndividualName } from "../individualName";
-import { GrampsEvent } from "../events";
-import { SimpleIndividual } from "../simpleIndividual";
+import { IndividualName } from "../individualName.ts";
+import { GrampsEvent } from "../events.ts";
+import { SimpleIndividual } from "../simpleIndividual.ts";
 
-import { TailwindMixin } from "../../tailwind.element";
+import AncestorsTreeChartCSS from "../../../styles/AncestorsTreeChart.css" with { type: "css" };
 
-import style from "../../../styles/AncestorsTreeChart.css?inline";
+export class AncestorsTreeChart extends LitElement {
+  @consume({ context: grampsContext })
+  @state()
+  private state?: GrampsState;
 
-export class AncestorsTreeChart extends TailwindMixin(LitElement, style) {
   @property({ type: String })
   public grampsId: string;
 
@@ -92,11 +96,11 @@ export class AncestorsTreeChart extends TailwindMixin(LitElement, style) {
     maxDepth: number,
     isRoot: boolean = false,
   ): TemplateResult<1> | null {
-    if (individual && zodData) {
-      const db = zodData.get();
+    if (individual && this.state && this.state.zodData) {
+      const db = this.state.zodData;
       if (db) {
         const family = db.families.family
-          .filter((f) => {
+          .filter((f: Family) => {
             if (individual.childof) {
               const handle = f.handle;
               const iHandle = [individual.childof].flat().shift()?.hlink;
@@ -111,7 +115,7 @@ export class AncestorsTreeChart extends TailwindMixin(LitElement, style) {
         if (family) {
           const husbandRef = family.father?.hlink;
           const husband = db.people.person
-            .filter((p) => {
+            .filter((p: Person) => {
               if (p.handle && husbandRef) {
                 return !p.handle.localeCompare(husbandRef);
               }
@@ -120,7 +124,7 @@ export class AncestorsTreeChart extends TailwindMixin(LitElement, style) {
             .shift();
           const wifeRef = family.mother?.hlink;
           const wife = db.people.person
-            .filter((p) => {
+            .filter((p: Person) => {
               if (p.handle && wifeRef) {
                 return !p.handle.localeCompare(wifeRef);
               }
@@ -151,11 +155,13 @@ export class AncestorsTreeChart extends TailwindMixin(LitElement, style) {
     return null;
   }
 
+  static styles = [AncestorsTreeChartCSS];
+
   public render() {
     console.log(`render; start`);
     if (this.grampsId) {
-      if (zodData) {
-        const db = zodData.get();
+      if (this.state.zodData) {
+        const db = this.state.zodData;
         if (db) {
           this.individual = db.people.person
             .filter((p) => {
