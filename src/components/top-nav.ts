@@ -82,7 +82,7 @@ export default class TopNav extends LitElement {
             ${sections.map((section) => {
               return html`
                 <div class="nav-item">
-                  <a href="/${section.toLowerCase().replaceAll(" ", "-")}/">
+                  <a href="/${section.replaceAll(" ", "")}/">
                     <span>${section}</span>
                   </a>
                 </div>

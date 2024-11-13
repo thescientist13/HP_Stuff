@@ -9,7 +9,7 @@ export default class TopCardGrid extends CardGrid {
     this.gridsections = [
       {
         title: "Encyclopedic Reference",
-        target: "harrypedia",
+        target: "Harrypedia",
         description: "My notes and speculation about the series",
         name: "hugeicons:books-01",
       },
@@ -21,13 +21,14 @@ export default class TopCardGrid extends CardGrid {
       },
       {
         title: "Bookmarks",
+        target: "BookMarks",
         name: "game-icons:bookmark",
         description:
           "Bookmarks for works I find particularly memorable, worth re-reading, the source of good ideas, or want to keep track of for some other reason",
       },
       {
         title: "Fan Fiction",
-        target: "fanfiction",
+        target: "FanFiction",
         description:
           "Self-hosted fan fiction. Largely incomplete, probably never to be completed, but satisfying an occasional itch.",
         name: "system-uicons:book-text",
