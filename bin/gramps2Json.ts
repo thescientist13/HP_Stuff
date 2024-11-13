@@ -83,7 +83,11 @@ const db = (data as zodExport).database;
  */
 
 //first output, the full db
-const fullDBPath = path.join(process.cwd(), "src/pages/gramps/", "gramps.json");
+const fullDBPath = path.join(
+  process.cwd(),
+  "src/assets/gramps/",
+  "gramps.json",
+);
 const fullDBFile = fs.openSync(fullDBPath, "w", 0o600);
 const validation = DatabaseSchema.safeParse(db);
 if (validation.success) {
@@ -131,7 +135,7 @@ db.people.person.forEach((p) => {
   }
   const personPath = path.join(
     process.cwd(),
-    "src/pages/gramps/",
+    "src/assets/gramps/",
     p.id.concat(".json"),
   );
   const personFile = fs.openSync(personPath, "w", 0o600);

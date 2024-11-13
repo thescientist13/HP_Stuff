@@ -11,7 +11,7 @@ public/
 tsconfig.tsbuildinfo
 tsconfig.bin.tsbuildinfo
 
-src/pages/gramps/*.json
+src/assets/gramps/*.json
 
 .yarn/*
 !.yarn/cache
