@@ -486,7 +486,7 @@ export class GrampsIndividual extends LitElement {
       if (DEBUG) console.log(`renderAncestorsCard; family identified`);
       return html`
         <div class="AncestorsCard rounded border-2">
-          <div class="CardBody">
+          <div class="spectrum-Card-body">
             <h4 class="my-0">
               <iconify-icon
                 icon="material-symbols:family-history-outline"
@@ -527,7 +527,7 @@ export class GrampsIndividual extends LitElement {
             if (eRArray.length > 0) {
               t = html`${t}
                 <div class="TimelineCard rounded border-2">
-                  <div class="CardBody">
+                  <div class="spectrum-Card-body">
                     <h4 class="my-0">
                       <iconify-icon icon="zondicons:calendar"></iconify-icon>
                       Events
@@ -593,8 +593,7 @@ export class GrampsIndividual extends LitElement {
     super.connectedCallback();
   }
 
-  static localstyle = css``;
-  static styles = [SpectrumCard, GrampsCSS, GrampsIndividual.localstyle];
+  static styles = [SpectrumCard, GrampsCSS];
 
   public render() {
     let t = html``;
