@@ -3,8 +3,6 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "allowImportingTsExtensions": false,
-    "emitDeclarationOnly": false,
-    "noEmit": false,
     "module": "ESNext",
     "moduleResolution": "Node",
     "outDir": "."
