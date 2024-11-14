@@ -118,11 +118,10 @@ export class IndividualName extends LitElement {
       }
     }
     const currentUrl = import.meta.url;
-    let targetLocation = `/harrypedia/people/${t}/`;
+    let targetLocation = `/Harrypedia/people/${t}/`;
     targetLocation = targetLocation
       .replaceAll(/\s/g, "_")
       .replaceAll(/\/\//g, "/")
-      .toLowerCase()
       .trim();
     return new URL(targetLocation, currentUrl ? currentUrl : "");
   }
@@ -198,6 +197,10 @@ export class IndividualName extends LitElement {
   }
 
   static styles = [GrampsCSS];
+
+  protected createRenderRoot() {
+    return this;
+  }
 
   public render() {
     let t = html``;

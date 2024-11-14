@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="module" src="../components/side-nav.ts"></script>
+    <script type="module" src="../components/split-view.ts"></script>
+    <script
+      type="module"
+      src="../components/grampsParser/individual.ts"
+    ></script>
+  </head>
+
+  <body>
+    <span>Person Layout</span>
+    <split-view>
+      <div slot="left" class="nav">
+        <side-nav route="${globalThis.page.route}"></side-nav>
+      </div>
+      <main slot="right">
+        <gramps-individual
+          personid="${globalThis.page.data.hero}"
+        ></gramps-individual>
+        <content-outlet></content-outlet>
+      </main>
+    </split-view>
+  </body>
+</html>

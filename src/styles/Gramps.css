@@ -1,5 +1,21 @@
-.spectrum-Card {
+:host {
+  flex-shrink: 1;
+}
+
+.CardBody {
   width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--spectrum-blue-100);
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.CardBody .CardBody {
+  z-index: 0;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
 }
 
 .my-0 {
@@ -10,7 +26,7 @@
   display: flex;
 }
 
-.flex-auto: {
+.flex-auto {
   flex-basis: auto;
   flex-grow: 1;
   flex-shrink: 1;
@@ -63,7 +79,7 @@
   border-width: 2px;
 }
 .bg-gray-100 {
-  background-color: rgb(241 247 252);
+  background-color: var(--spectrum-blue-100);
 }
 .color-male {
   color: #006657;

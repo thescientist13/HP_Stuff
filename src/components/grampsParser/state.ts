@@ -6,6 +6,7 @@ export const DEBUG = true;
 
 export class GrampsState {
   public primaryId: string | null = null;
+  public familyName: string | null = null;
   public zodData: GrampsZod.Database | null = null;
 
   public async fetchData(dbUrl: URL) {

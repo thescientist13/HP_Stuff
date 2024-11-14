@@ -1,7 +1,7 @@
 import { LitElement, html, type PropertyValues } from "lit";
 import { property, state } from "lit/decorators.js";
 import { when } from "lit/directives/when.js";
-import { consume } from "@lit/context";
+import { consume, provide } from "@lit/context";
 
 import { grampsContext, GrampsState } from "./state.ts";
 
@@ -57,13 +57,12 @@ import {
   type CitationDateval,
   type Citation,
   type Citations,
-  type Database,
   type Export,
   SourcerefSchema,
-  DatabaseSchema,
-} from "@lib/GrampsZodTypes";
+  Database,
+} from "../../lib/GrampsZodTypes.ts";
 
-import GrampsCSS from "../../styles/Gramps.css?inline";
+import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
 
 import { AncestorsTreeChart } from "./AncestorsTreeChart/AncestorsTreeChart.ts";
 import { IndividualName } from "./individualName.ts";
@@ -73,7 +72,7 @@ import { GrampsIndividual } from "./individual.ts";
 
 import { util } from "zod";
 
-const DEBUG = false;
+const DEBUG = true;
 
 type renderChildrenTreeProps = {
   family: Family;
@@ -81,9 +80,9 @@ type renderChildrenTreeProps = {
 };
 
 export class GrampsFamily extends LitElement {
-  @consume({ context: grampsContext })
-  @state()
-  private state?: GrampsState;
+  @provide({ context: grampsContext })
+  @property({ attribute: false })
+  private stateProvider: GrampsState = new GrampsState();
 
   @property()
   public url: URL | string | null;
@@ -100,32 +99,88 @@ export class GrampsFamily extends LitElement {
     super();
 
     this._name = "";
-    this.url = new URL("/gramps/gramps.json", document.URL);
+    this.url = new URL("/assets/gramps/gramps.json", document.URL);
     this._persons = null;
     this._renderedPersons = new Array<string>();
   }
 
-  connectedCallback() {
-    super.connectedCallback();
-    if (DEBUG) console.log(`initial url is ${this.url}`);
+  protected firstUpdated(_changedProperties: PropertyValues): void {
     if (this.url instanceof URL) {
-      fetchData(this.url);
+      if (this.stateProvider instanceof GrampsState) {
+        this.stateProvider.fetchData(this.url);
+        this.requestUpdate("stateProvider");
+      } else {
+        console.warn(`no state at first update`);
+      }
+    } else {
+      console.warn(`no URL at first update`);
     }
   }
 
-  public async willUpdate(changedProperties: PropertyValues<this>) {
-    super.willUpdate(changedProperties);
-    if (DEBUG) console.log(`willUpdate;`);
-    if (!this._name) {
-      this.setName();
+  connectedCallback() {
+    super.connectedCallback();
+    if (DEBUG) {
+      console.log(`GrampsFamily connectedCallback initial url is ${this.url}`);
+    }
+    if (this.url instanceof URL) {
+      if (this.stateProvider) {
+        if (DEBUG) {
+          console.log(
+            `GrampsFamily connectedCallback both this.url and this.state initialized, fetching data.`,
+          );
+        }
+        this.stateProvider.fetchData(this.url);
+      } else {
+        if (DEBUG) {
+          console.log(
+            `GrampsFamily connectedCallback state not initialized, delaying data fetch`,
+          );
+        }
+      }
+    } else if (typeof this.url === "string") {
+      this.url = new URL(this.url);
+      this.requestUpdate("url");
+    }
+  }
+
+  public async willUpdate(_changedProperties: PropertyValues) {
+    super.willUpdate(_changedProperties);
+    if (DEBUG) console.log(`GrampsFamily willUpdate;`);
+
+    if (_changedProperties.has("url")) {
+      if (typeof this.url === "string") {
+        this.url = new URL(this.url, import.meta.url);
+      }
+      this.requestUpdate("url");
+    }
+    if (_changedProperties.has("stateProvider")) {
+      if (DEBUG) {
+        console.log(`willUpdate detected state change`);
+      }
+      if (this.url instanceof URL && this.stateProvider) {
+        const status = await this.stateProvider.fetchData(this.url);
+        if (status == true) {
+          if (DEBUG) {
+            console.log(`data fetch worked`);
+          }
+          this.setName();
+          this.getPersons();
+          this.stateProvider.familyName = this._name;
+        } else {
+          console.warn(`data fetch failed`);
+        }
+      }
     }
 
     if (!this._persons) {
       if (DEBUG) console.log(`persons is not set, setting up listener`);
-      zodData.listen(() => {});
-      await allTasks();
-      if (DEBUG) console.log(`all tasks complete, calling getPersons`);
-      this.getPersons();
+      if (this.stateProvider) {
+        this.getPersons();
+      } else {
+        if (DEBUG) {
+          console.log(`cannot set up listener without state`);
+        }
+      }
     }
   }
 
@@ -163,7 +218,7 @@ export class GrampsFamily extends LitElement {
   }
 
   private getPersonsChildren(person: Person) {
-    const db = zodData.get();
+    const db = this.stateProvider.zodData;
     if (person && db) {
       const familyRef: Sourceref[] | Sourceref | null | undefined =
         person.parentin;
@@ -235,7 +290,7 @@ export class GrampsFamily extends LitElement {
   }
 
   private getPersons() {
-    const db = zodData.get();
+    const db = this.stateProvider.zodData;
     if (db) {
       if (DEBUG) console.log(`getPersons; controllers are set`);
       if (this._name && this._name !== "") {
@@ -257,18 +312,27 @@ export class GrampsFamily extends LitElement {
           });
         if (people && people.length > 0) {
           this._persons = people;
+          this.requestUpdate("_persons");
           return people;
         }
       }
+    } else {
+      console.warn(`GrampsFamily getPersons without zodData`);
     }
     return null;
   }
 
   private renderChildLine(person: Person) {
     let t = html`No Child`;
-    const db = zodData.get();
-    if (person) {
+    const db = this.stateProvider.zodData;
+    if (!(db && person)) {
+      console.warn(`cannot render a childline without person or database`);
+      return t;
+    } else {
       if (this._renderedPersons && this._renderedPersons.includes(person.id)) {
+        if (DEBUG) {
+          console.log(`attempt to render duplciate person`);
+        }
         return html``;
       }
       this._renderedPersons.push(person.id);
@@ -321,23 +385,29 @@ export class GrampsFamily extends LitElement {
     return html`${t}`;
   }
 
+  static styles = [GrampsCSS];
+
   render() {
-    return html`${when(
-      zodData.get() && this._persons,
-      () => {
-        return html`
-          <ul>
-            ${this._persons!.map((p) => {
-              if (p) {
-                if (DEBUG) console.log(`render; map iteration ${p.id}`);
-                return html`${this.renderChildLine(p)}`;
-              }
-            })}
-          </ul>
-        `;
-      },
-      () => html`Pending Data`,
-    )}`;
+    this._renderedPersons = new Array<string>();
+    if (DEBUG) {
+      console.log(
+        `GrampsFamily render start with ${this._persons?.length} person in family`,
+      );
+    }
+    if (this._persons && this._persons.length >= 1) {
+      return html`
+        <ul>
+          ${this._persons!.map((p, i) => {
+            if (p) {
+              if (DEBUG) console.log(`render; map iteration ${i} for ${p.id}`);
+              return html`${this.renderChildLine(p)}`;
+            }
+          })}
+        </ul>
+      `;
+    } else {
+      return html` No known family members in the database.`;
+    }
   }
 }
 
