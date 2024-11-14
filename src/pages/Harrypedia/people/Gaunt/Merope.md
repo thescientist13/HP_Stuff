@@ -3,6 +3,7 @@ collection: Harrypedia
 title: Merope
 author: Luke Schierer
 hero: I0304
+layout: person
 ---
 
 ## Analysis

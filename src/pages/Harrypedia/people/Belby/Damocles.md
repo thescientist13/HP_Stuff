@@ -1,8 +1,9 @@
 ---
 collection: Harrypedia
 title: Damocles
-hero: "I0204"
+hero: I0204
 author: Luke Schierer
+layout: person
 ---
 
 

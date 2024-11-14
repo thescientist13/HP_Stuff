@@ -2,8 +2,9 @@
 collection: Harrypedia
 family: "Weasley"
 title: George
-hero: "I0072"
+hero: I0072
 author: 
+layout: person
 ---
 
 

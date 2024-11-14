@@ -2,7 +2,8 @@
 collection: Harrypedia
 family: Edgecombe
 title: Marietta
-hero: "I0132"
+hero: I0132
+layout: person
 ---
 
 

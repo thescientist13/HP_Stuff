@@ -2,8 +2,9 @@
 collection: Harrypedia
 family: "Weasley"
 title: Ronald Bilius
-hero: "I0064"
+hero: I0064
 author: Luke Schierer
+layout: person
 ---
 
 

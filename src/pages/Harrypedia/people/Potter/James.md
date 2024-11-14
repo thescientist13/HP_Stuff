@@ -1,9 +1,10 @@
 ---
 collection: Harrypedia
 title: James
-hero: "I0001"
+hero: I0001
 author: Luke Schierer
 
+layout: person
 ---
 
 

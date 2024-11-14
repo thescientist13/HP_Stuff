@@ -4,7 +4,7 @@ family: "Flitwick"
 title: Filus
 hero: I0293
 author: Luke Schierer
-
+layout: person
 ---
 ### Analysis
 

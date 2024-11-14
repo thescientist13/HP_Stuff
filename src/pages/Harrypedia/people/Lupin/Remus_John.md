@@ -4,6 +4,7 @@ family: "Lupin"
 title: Remus John
 hero: I0060
 author: Luke Schierer
+layout: person
 ---
 
 * Lupin considers it so highly probable that his child will be a werewolf that

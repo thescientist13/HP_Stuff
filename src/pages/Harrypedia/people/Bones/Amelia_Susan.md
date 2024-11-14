@@ -4,6 +4,7 @@ family: "Bones"
 title: 'Amelia Susan'
 hero: I0111
 author: Luke Schierer
+layout: person
 ---
 
 

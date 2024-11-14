@@ -3,6 +3,7 @@ collection: Harrypedia
 family: "Black"
 title: Kreacher
 author: Luke Schierer
+layout: person
 ---
 
 Kreacher is a [Black] family [House Elf], he died at age 666, sometime after the books end.[^240219-1]

@@ -1,7 +1,8 @@
 ---
 collection: Harrypedia
 title: Hope
-hero: "I0203"
+hero: I0203
 author: Luke Schierer
+layout: person
 ---
 

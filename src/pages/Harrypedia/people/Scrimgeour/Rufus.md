@@ -1,10 +1,10 @@
 ---
 collection: Harrypedia
 title: Rufus
-hero: "I0199"
+hero: I0199
 author: Luke Schierer
+layout: person
 ---
-
 
 ### Analysis
 

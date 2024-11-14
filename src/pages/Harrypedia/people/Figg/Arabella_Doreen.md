@@ -1,7 +1,8 @@
 ---
 collection: Harrypedia
 title: Arabella Figg
-hero: "I0100"
+hero: I0100
+layout: person
 ---
 
 Every fan fiction author who attempts to deal with the problem of [Harry]'s home

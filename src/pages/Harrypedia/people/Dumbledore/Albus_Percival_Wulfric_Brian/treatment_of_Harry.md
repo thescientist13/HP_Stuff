@@ -2,6 +2,7 @@
 collection: Harrypedia
 title: Dumbledore's Treatment of Harry
 author: Luke Schierer
+layout: person
 ---
 
 In explaining his decisions to [Harry], [Dumbledore] says:

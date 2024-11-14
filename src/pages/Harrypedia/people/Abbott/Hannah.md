@@ -1,8 +1,9 @@
 ---
 collection: Harrypedia
 title: Hannah
-hero: "I0108"
+hero: I0108
 author: Luke Schierer
+layout: person
 ---
 
 ### Analysis
@@ -60,4 +61,3 @@ or approves of the badges' second message) against her.
     "[Pure-Blood](https://www.rowlingindex.org/work/pmpbl/)"
     [The J.K. Rowling Index](https://www.rowlingindex.org)
     2012-10-18. Last Viewed: 2021-10-04.
-

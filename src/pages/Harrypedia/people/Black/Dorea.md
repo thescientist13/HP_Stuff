@@ -2,8 +2,9 @@
 collection: Harrypedia
 family: "Black"
 title: Dorea
-hero: "I0028"
+hero: I0028
 author: Luke Schierer
+layout: person
 ---
 
 

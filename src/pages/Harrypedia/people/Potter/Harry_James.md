@@ -2,8 +2,9 @@
 collection: Harrypedia
 families: "Potter"
 title: Harry James
-hero: "I0000"
+hero: I0000
 author: Luke Schierer
+layout: person
 
 ---
 

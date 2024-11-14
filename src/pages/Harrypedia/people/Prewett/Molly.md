@@ -2,8 +2,9 @@
 collection: Harrypedia
 family: "Prewett"
 title: Molly
-hero: "I0062"
+hero: I0062
 author: Luke Schierer
+layout: person
 ---
 
 

@@ -2,8 +2,9 @@
 collection: Harrypedia
 family: "Shacklebolt"
 title: Kingsley
-hero: "I0278"
+hero: I0278
 author: Luke Schierer
+layout: person
 ---
 
 

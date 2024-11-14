@@ -2,8 +2,9 @@
 collection: Harrypedia
 family: "McGonagall"
 title: Minerva
-hero: "I0065"
+hero: I0065
 author: Luke Schierer
+layout: person
 ---
 
 Despite being nearly universally portrayed as a pure-blood in fan fiction, she is in fact a half-blood who grew up in the mundane world.  She should be familiar with early 19th century fashion, customs and technology. 

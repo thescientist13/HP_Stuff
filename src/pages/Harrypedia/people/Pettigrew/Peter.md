@@ -2,8 +2,9 @@
 collection: Harrypedia
 family: "Pettigrew"
 title: Peter
-hero: "I0277"
+hero: I0277
 author: Luke Schierer
+layout: person
 ---
 
 

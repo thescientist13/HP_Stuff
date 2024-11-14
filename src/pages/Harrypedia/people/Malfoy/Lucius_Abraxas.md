@@ -2,8 +2,9 @@
 collection: Harrypedia
 family: "Malfoy"
 title: Lucius Abraxas
-hero: "I0038"
+hero: I0038
 author: Luke Schierer
+layout: person
 ---
 
 

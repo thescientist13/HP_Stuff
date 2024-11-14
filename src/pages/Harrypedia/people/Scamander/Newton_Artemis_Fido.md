@@ -3,6 +3,7 @@ collection: Harrypedia
 title: Newton Artemis Fido
 author: Luke Schierer
 hero: I0214
+layout: person
 ---
 
 Normally goes by "Newt".

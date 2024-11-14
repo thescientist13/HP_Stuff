@@ -4,6 +4,7 @@ family: "Black"
 title: Sirius III
 hero: I0007
 author: Luke Schierer
+layout: person
 ---
 
 

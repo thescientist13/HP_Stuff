@@ -2,6 +2,7 @@
 collection: Harrypedia
 title: Potter Family Wealth
 author: 'Luke Schierer'
+layout: person
 ---
 
 #### facts

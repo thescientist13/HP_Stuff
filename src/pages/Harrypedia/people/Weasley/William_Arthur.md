@@ -2,8 +2,9 @@
 collection: Harrypedia
 family: "Weasley"
 title: William Arthur
-hero: "I0073"
+hero: I0073
 author: 
+layout: person
 ---
 
 

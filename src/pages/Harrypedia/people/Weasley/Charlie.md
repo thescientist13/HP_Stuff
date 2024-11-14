@@ -2,8 +2,9 @@
 collection: Harrypedia
 family: "Weasley"
 title: Charlie
-hero: "I0095"
+hero: I0095
 author: Luke Schierer
+layout: person
 ---
 
 

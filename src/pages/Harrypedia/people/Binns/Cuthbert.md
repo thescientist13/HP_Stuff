@@ -3,6 +3,7 @@ collection: Harrypedia
 title: Professor Cuthbert Binns
 author: Luke Schierer
 hero: I0301
+layout: person
 ---
 ### topics mentioned in class
 
