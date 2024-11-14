@@ -18,7 +18,7 @@ type Page = {
   label: string;
   route: string;
   data: {
-    directory?: boolean;
+    directory?: boolean
   };
 };
 
@@ -164,7 +164,7 @@ export default class SideNav extends LitElement {
     sectionContents: Page[],
     page: Page,
     depth: number = 0,
-    directory?: boolean = true;
+    directory?: boolean = true,
   ) {
     let isParent: boolean = false;
     const returnableTemplates = new Array<TemplateResult>();
