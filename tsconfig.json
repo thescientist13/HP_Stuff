@@ -36,6 +36,11 @@
       "@styles/*": ["src/styles/*"]
     }
   },
-  "include": ["./bin/*.ts", "./src/**/*.ts", "./src/styles/*.css"],
+  "include": [
+    "./declaration.d.ts",
+    "./bin/*.ts",
+    "./src/**/*.ts",
+    "./src/styles/*.css"
+  ],
   "exclude": ["./src/**/*.js", "node_modules"]
 }
