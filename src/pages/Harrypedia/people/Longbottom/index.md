@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
 families: "Longbottom"
+layout: family
 title: Longbottom
 author: Luke Schierer
 tags: ["family"]
@@ -8,9 +9,7 @@ tags: ["family"]
 sidebar:
   order: 1
 ---
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
 
 Lots of fanfiction puts the Longbottom family into the nobility.  I see no

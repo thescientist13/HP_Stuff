@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
 families: "McLaggen"
+layout: family
 title: McLaggen
 author: Luke Schierer
 tags: ["family"]
@@ -8,9 +9,7 @@ tags: ["family"]
 sidebar:
   order: 1
 ---
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
 The McLaggen family is apparently well connected, sufficiently so to impress
 Slughorn.[^210318-2] Given Scrimgeour's behaviour across book six and the bit

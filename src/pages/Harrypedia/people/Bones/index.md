@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
 families: "Bones"
+layout: family
 title: Bones
 author: Luke Schierer
 tags: ["family"]
@@ -8,9 +9,7 @@ tags: ["family"]
 sidebar:
   order: 1
 ---
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
 
 [Susan] Bones' grandparents are the ones killed by

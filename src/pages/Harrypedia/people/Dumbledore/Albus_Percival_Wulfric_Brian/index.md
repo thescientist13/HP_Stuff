@@ -2,7 +2,7 @@
 collection: Harrypedia
 family: "Dumbledore"
 title: Albus Percival Wulfric Brian
-hero: "I0061"
+hero: I0061
 layout: person
 author: Luke Schierer
 sidebar:
@@ -725,4 +725,3 @@ scenes?  Is his public face at all related to his private goals?
 [ADmm]: <./manipulator>
 
 [ADi]: <./inaction>
-

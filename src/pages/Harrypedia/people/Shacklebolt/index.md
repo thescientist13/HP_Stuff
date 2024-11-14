@@ -1,15 +1,14 @@
 ---
 collection: Harrypedia
 families: "Shacklebolt"
+layout: family
 title: Shacklebolt
 author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1
 ---
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
 
 This family is listed as a member of the so called "Sacred Twenty-Eight".[^221205-1] 

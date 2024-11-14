@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
 families: "Riddle"
+layout: family
 title: Riddle
 author: Luke Schierer
 tags: ["family"]
@@ -9,9 +10,7 @@ sidebar:
   order: 1
 ---
 
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
 ## Analysis
 

@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
 title: Potter
+layout: family
 tags: ["family"]
 author: Luke Schierer
 sidebar:
@@ -8,9 +9,7 @@ sidebar:
 ---
 
 #### facts
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
 
 * The Potter family had [wealth][].

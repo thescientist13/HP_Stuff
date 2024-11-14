@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
 title: Zabini
+layout: family
 families: "Zabini"
 author: Luke Schierer
 tags: ["family"]
@@ -8,9 +9,7 @@ tags: ["family"]
 sidebar:
   order: 1
 ---
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
 
 We really only know of Blaize Zabini.  We know his mother has been married seven

@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
 families: "Greengrass"
+layout: family
 title: Greengrass
 author: Luke Schierer
 tags: ["family"]
@@ -9,9 +10,7 @@ sidebar:
   order: 1
 ---
 
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
 Per an interview, Daphne was part of Pansy Parkinson's "gang"[^200520-1].  This
 is apparently established as part of book 5, but seems to be fairly debated.  A

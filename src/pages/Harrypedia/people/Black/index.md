@@ -1,5 +1,6 @@
 ---
 collection: Harrypedia
+layout: family
 families: "Black"
 title: Black
 author: Luke Schierer
@@ -7,9 +8,6 @@ tags: "family"
 sidebar:
   order: 1
 ---
-import Family from "../../../../../components/grampsParser/Family.astro";
-
-<Family surn={frontmatter.surn} />
 
 Unlike the [Longbottom][] family, we have at least one cannon reference for the
 blacks as a "noble" family.  We do not know if that means they were in fact
@@ -109,4 +107,3 @@ different but equally magical mechanism to the same end in [Chapter
     last visited 2021-01-22.  Also posted
     [here](https://static.wikia.nocookie.net/harrypotter/images/4/4f/JKRBlackFamilyTree.jpg/revision/latest/scale-to-width-down/1000?cb=20120710010553)
     last visited 2021-01-22.
-

@@ -3,9 +3,14 @@ collection: Harrypedia
 title: People in Harry Potter
 sidebar:
   order: 1
+imports:
+  - /components/section-card.ts
+  - /components/grampsParser/genealogical-data.ts type="module"
 ---
 
-import Header from '../../../../components/grampsParser/Header.astro';
+<section-card title="Statistics from Gramps" iconname="wpf:statistics" >
+    <genealogical-data ></genealogical-data>
+</section-card>
 
 ## People in Harry Potter
 

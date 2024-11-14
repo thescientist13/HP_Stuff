@@ -1,11 +1,11 @@
 ---
 collection: Harrypedia
 family: "Snape"
+layout: person
 title: Severus
-hero: "I0077"
+hero: I0077
 author: Luke Schierer
 ---
-
 
 ### Analysis
 

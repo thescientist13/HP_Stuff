@@ -1,15 +1,14 @@
 ---
 collection: Harrypedia
 families: "Granger"
+layout: family
 title: Granger
 author: Luke Schierer
 tags: ["family"]
 sidebar:
   order: 1
 ---
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
 
 As I have noted elsewhere, one of the problematic things with writing child

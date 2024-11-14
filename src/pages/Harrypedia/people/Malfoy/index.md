@@ -1,6 +1,7 @@
 ---
 collection: Harrypedia
 families: "Malfoy"
+layout: family
 title: Malfoy
 author: Luke Schierer
 tags: ["family"]
@@ -9,9 +10,7 @@ sidebar:
   order: 1
 ---
 
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
 Unlike the [Longbottom][] family, there is a slight indication that the Malfoy
 family might actually be ennobled.  While I see no indication of it in the

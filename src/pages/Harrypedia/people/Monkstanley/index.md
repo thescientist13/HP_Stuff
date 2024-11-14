@@ -1,13 +1,12 @@
 ---
 collection: Harrypedia
 families: "Monkstanley"
+layout: family
 title: Monkstanley
 author: 
 tags: ["family"]
 sidebar:
   order: 1
 ---
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 

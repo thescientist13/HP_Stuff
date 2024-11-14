@@ -1,11 +1,10 @@
 ---
 collection: Harrypedia
 title: McGonagall
+layout: family
 author: 
 sidebar:
   order: 1
 ---
-import Family from "../../../../../components/grampsParser/Family.astro";
 
-<Family surn={frontmatter.surn} />
 
