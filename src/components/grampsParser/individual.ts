@@ -13,9 +13,6 @@ import * as GrampsZod from "../../lib/GrampsZodTypes.ts";
 import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
 
 //@ts-expect-error
-import SpectrumCard from "/node_modules/@spectrum-css/card/dist/index.css" with { type: "css" };
-
-//@ts-expect-error
 import { IndividualName } from "./individualName.ts";
 
 //@ts-expect-error
