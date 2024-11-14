@@ -274,9 +274,11 @@ export default class SideNav extends LitElement {
           if(selected && directory && ChildFiles.length > 0) {
             ChildFiles.map((child) => {
               if (child.route.localeCompare(page.route)) {
-                console.log(
-                  `rendering ${page.route}, child File is ${child.route}`,
-                );
+                if(DEBUG) {
+                  console.log(
+                    `rendering ${page.route}, child File is ${child.route}`,
+                  );
+                }
                 const childTemplate = this.renderSingleEntry(
                   TopSection,
                   sectionContents,
