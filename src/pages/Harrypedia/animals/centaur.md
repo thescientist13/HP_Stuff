@@ -3,8 +3,8 @@ collection: Harrypedia
 title: Centaurs
 author: Luke Schierer
 ---
-Centaurs refused to be classifed as [beings], insisting on being considered
-[animals].[^231003-1]
+Centaurs refused to be classified as [beings], insisting on being considered
+[animals].[^231003-1]  I believe this is foolish of them, making it easier for the bigots in the wizarding population to *treat* them as animals.
 
 [beings]: <../../beings>
 
