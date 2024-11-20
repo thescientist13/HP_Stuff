@@ -3,9 +3,7 @@ title: "Fan Fiction"
 author: Luke Schierer
 ---
 
-import DirectoryList from '../../../components/DirectoryList.astro'
-
-# My Harry Potter Fan Fiction 
+# My Harry Potter Fan Fiction
 
 The stories here are works where I am either the primary author, or where I
 have picked up an abandoned fan fiction story with the intent to extend and
@@ -14,4 +12,4 @@ more I realize that I lack the attention span and persistence to follow through
 on these to completion, but it occassionally amuses me to work on one or more
 of them.
 
-<DirectoryList recurse="false"/>
+<collection-cardgrid collection="FanFiction"></collection-cardgrid>
