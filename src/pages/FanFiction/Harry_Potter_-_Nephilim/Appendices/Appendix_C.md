@@ -286,115 +286,7 @@ determine what happens to a given child.
        herd, centaurs are capable of slightly more autonomy than pure veela are
        either as individuals or in groups (since veela have no herd, or in their
        case flock, effect).
-   * veela - For the purposes of this story, veela are "dark"
-     creatures[^210126-4].  I have chosen to create a version of veela that
-	 justifies the suspicion that [Molly], [Hermione][] and [Ginny][] view
-     [Fleur][] with.  Veela have some of the strongest inheritances from the
-     Thrones of all humanoid magic users.  The pure veela is not an example of
-     a primordial people.  Rather, the veela race comes from an example of
-	 true perfidy.  The first veela was a child whose maternal grandmother was
-	 a Thrones witch, and whose paternal grandparents were primordial nephilim
-	 of the Dominions and Powers types.  This child grew up into a young woman
-	 who viewed the men around her as easily manipulated means to her ends.
-	 She used her abilities to inflame their desires and bind their wills, with
-     little regard for not only the men, but also the impact on the families
-     they came from.  She was also responsible for the creation of doxies and
-     fairies.  Her crimes, particularly the creation of humaniform creatures,
-     were so great that she was cursed with a Screwtape style mutation of epic
-     proportions:
-     - All veela are female, a male child of a veela will inherit solely from
-       the child's father in terms of magic.  This is a control placed on the
-       punishment to ensure it does not itself become an uncontrolled problem.
-     - A "half-veela" is a veela/nephil cross where either the veela nature was,
-       against the odds, only partially inherited; or the 16% chance that the
-       veela nature is inherited in addition to a full nephil inheritance.  All
-       half-veela are female.
-     - Her concupiscence was vastly increased. A full veela has perhaps 20% of
-       the ability to go against her instincts that a full human does.  A
-       half-veela will generally have much more free will, divine providence
-       generally ensures that a being that is not bound by the limits here
-       described for full veela inherits her father's self control.
-     - Her form was changed to shift to that of a bird's any time her wrath,
-       sloth, greed, or gluttony exceed her (incredibly minimal) control over
-       them.  What type of bird she most resembles seems to vary from veela
-       community to veela community.  This almost always applies to half-veela
-       as well.
-     - Her inheritance from the Dominions was restricted (leading some scholars
-       to mistakenly think that veela are descendent from a primordial population)
-       * in human form she *always* produces a super-abundance of pheromones.
-         She cannot *not* produce them, though with considerable effort she can
-         control *how much* she produces.  This is true of half-veela as well.
-       * in avian form, she can *only* produce a form of naphtha that catches
-         fire instantly when exposed to oxygen, though fortunately (for
-         everyone else) she has *some* control over this (unlike the
-         pheromones).
-       * Per above, extreme lack of repentance for her behaviour caused many of
-         her vices, such as her temper, to get locked in place as a perpetual
-         temptation for her, and her decedents, to fight hopelessly against.
-         Remember, nephilim are more like angels in that their choices can have
-         permanent repercussions.
-       * she can transmute herself between forms, but unlike an animagus, her
-         shift is not under direct conscious control, but is rather tied to her
-         (incredibly limited) ability to control herself.  Some full veela spend
-         nearly their entire lives as a bird.  This is also true of half-veela,
-         though they *tend* to have greater control over their temper, and thus
-         tend to spend much more time in human form.  In a sense, the full veela
-         is becoming an animal.  Had that process completed, if any veela ever
-         did live her entire life as a bird, it is doubtful that her descendants
-         would have an immortal soul at all.
-     - Her inheritance from the Powers was restricted such that it *cannot*
-       combine with her inheritance from the Dominions.  No full veela is
-       capable of permanent transmutation, and a "half-veela" is capable of it
-       only to the extent her male parent was.
-     - Her lifespan was reduced to half that of a full human's.[^210916-1]
-       A half-veela has a 16% chance of inheriting the greater of the two
-       lifespans (her father's and her mother's), a 14% chance of inheriting the
-       average of the two lifespans, and a 70% chance of simply being either
-       veela (with a veela's lifespan) or not being veela (with the lifespan of
-       whatever her father is, either a nephil or a human or whatever).
-     - Her fertility was shifted such her body is sufficiently actively hostile
-       to male sperm that female births outnumber male births by at least three
-       to one.  This is generally true of half-veela as well.
-     - Her physical maturation is human like from age zero to the onset of
-       puberty, but then becomes more rapid like that of a bird's until she
-       reaches full physical maturity.  How fast this is depends on which veela
-       community she comes from.  This is generally proportionately true of a
-       half-veela (average normal human growth with that typical of her veela
-       community).
-     - While all veela come from a single common ancestor, further _Screwtape_
-       style mutations have resulted in some differences between different
-       communities.
-       * More eagle-like veela are found primarily in Western Europe, particularly in France and Spain.  They generally finish maturing by thirteen.
-       * More hawk-like veela are found primarily in eastern Europe, particularly in Bulgaria and Roumania.  They will rapidly mature over the course of a few days.
-     - Her *mental* maturation is not accelerated during this time of
-       accelerated physical growth, putting a mentally young girl in an adult's
-       body for a period of years (with all the extra self control issues
-       adding adult hormone levels to that lack of mental maturity would
-       imply).  This is why [Fleur]'s classmates dislike her so much - people
-       tend to expect someone who appears older to behave older.  They remember
-       the brat.
-     - If a veela falls in love, her pheromone ability inverts, instead of
-       producing pheromones that bewitch others, she produces pheromones that
-       perfectly mimic those produced by the person she has fallen in love with.
-       Combined with her weakened will power (see above), she is very poorly
-       equipped to control the production of these pheromones, causing her own
-       magic to essentially enslave her to the one she loves. This remains true
-       of the "half-veela."[^210916-2]  This is the punishment for giving in
-       to the temptation of her locked powers.
-     - *ALL* veela are female, despite the normal rules, only female children
-       *ever* inherit veela powers or the physical and mental changes that now
-       go with them.  It is *possible* though per the above *unlikely* that a
-       veela will have a male child.  The child will *always* inherit either in
-       a purely human fashion or *solely* from the father.  This is equally
-       true of half-veela.  A veela's child does not get its inheritance per-trait as is normal.
-     - The veela are harshly punished, but the transformation is also a warning,
-       both for them, and for all able to use magic.  That this punishment
-       actually *be* a warning, the angels acting to punish the veela also
-       ensured that the reasons (creation of humaniform animals) for the especial
-       harshness of this punishment where revealed to every nephilim community.
-       At one point this was common knowledge, but the nephilim are remarkably
-       good at ignoring things they do not want to know.  See [Appendix G][AG] on
-       Original Sin.
+   * veela - See [Appendix I].
    * giants - the physical changes wrought on them by sin have become "mundane"
      and are now governed by Mendelian inheritance.  Church [records][Giants]
      show that the giants come from the creators of the house elves. Behold in
@@ -406,7 +298,6 @@ determine what happens to a given child.
      anything, and even less ability to understand something is gravely wrong.
 
 
-[^210916-1]: Like in _[Maskirovat][knffnm]_.
 
 [^210916-2]: This idea resembles that from Jeconais'
     _[Hope](https://jeconais.fanficauthors.net/Hope)_
@@ -492,7 +383,7 @@ can never be fully freed.
 * Leprechaun - created by the use of extreme magics on an unknown mammal, by an
   unknown being.
   > More intelligent than the fairy and less malicious than the imp, the pixie
-  > or the Doxy, the leprechaun is nevertheless mischievous.[^210916-5]
+  > or the doxy, the leprechaun is nevertheless mischievous.[^210916-5]
 * Pixie - The pixie largely resembles an imp in behaviour and intelligence, but
   the fact that it bears live young suggests a different origin.  We have no
   true history of how they came to be.
@@ -508,21 +399,23 @@ can never be fully freed.
   human is suffering from a disability; the troll is performing with unusual
   *capability.*  Believed to be created by the ancestors of the goblins.
 
-[AA]: <../appendix_a>
+[AA]: <../Appendix_A/>
 
-[AB]: <../appendix_b>
+[AB]: <../Appendix_B/>
 
-[AC]: <../appendix_c>
+[AC]: <../Appendix_C/>
 
-[AD]: <../appendix_d>
+[AD]: <../Appendix_D/>
 
-[AE]: <../appendix_e>
+[AE]: <../Appendix_E/>
 
-[AF]: <../appendix_f>
+[AF]: <../Appendix_F/>
 
-[AG]: <../appendix_g>
+[AG]: <../Appendix_G/>
 
-[AH]: <../appendix_h>
+[AH]: <../Appendix_H/>
+
+[Appendix I]: <../Appendix_I/>
 
 [Flood]: <../../backstory/the_flood>
 

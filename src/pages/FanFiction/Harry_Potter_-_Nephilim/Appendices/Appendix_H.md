@@ -65,17 +65,11 @@ so.*  Such a nephil has powers stemming from only one kind of angel.  Thus (for 
 perfectly understand future implications of present states.  The hybrid nephilim are
 in fact the intended mockery, the first generation ones were and are a means to that end.
 
-[AB]: <../appendix_b>
-
-[AF]: <../appendix_f>
-
 [^230714-1]: Ms. Melissa Petruzzello. "[Nephilim]" [Britannica]. Last Updated 2023-07-04.
 
 [Nephilim]: <https://www.britannica.com/topic/Nephilim>
 
 [Britannica]: <https://www.britannica.com>
-
-[AA]: <../appendix_a>
 
 [MW]: <https://en.wikipedia.org/wiki/Many_Waters>
 
@@ -171,7 +165,7 @@ change that humanity experiences at the rate humanity experiences it.
 ### Physical Nature
 
 This union also has implications on the physical form of the nephilim.  Here
-I am relying rather more on _[The Screwtape Letters][TSL2]_ than on _[Many
+I am relying rather more on _[The Screwtape Letters][TSL]_ than on _[Many
 Waters][MW]_, though some is coming from both.  C. S. Lewis describes his
 character as being transformed by his rage into a being that resembles a giant
 catepillar; his secretary takes writing each letter for the remainder of the
@@ -199,24 +193,26 @@ made.  When the only choices the characters see are between bad and worse.
 
 [TSL]: <https://archive.org/details/in.ernet.dli.2015.86985>
 
-[AA]: <../appendix_a>
-
-[AB]: <../appendix_b>
-
-[AC]: <../appendix_c>
-
-[AD]: <../appendix_d>
-
-[AE]: <../appendix_e>
-
-[AF]: <../appendix_f>
-
-[AG]: <../appendix_g>
-
-[AH]: <../appendix_h>
-
 [WP1]: <https://en.wikipedia.org/wiki/Soteriology>
 
 [WP2]: <https://en.wikipedia.org/wiki/Missiology>
 
 [WP3]: <https://en.wikipedia.org/wiki/Ecclesiology>
+
+[AA]: <../Appendix_A/>
+
+[AB]: <../Appendix_B/>
+
+[AC]: <../Appendix_C/>
+
+[AD]: <../Appendix_D/>
+
+[AE]: <../Appendix_E/>
+
+[AF]: <../Appendix_F/>
+
+[AG]: <../Appendix_G/>
+
+[AH]: <../Appendix_H/>
+
+[Appendix I]: <../Appendix_I/>
