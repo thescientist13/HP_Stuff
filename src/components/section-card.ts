@@ -8,7 +8,7 @@ import SpectrumCard from "/node_modules/@spectrum-css/card/dist/index.css" with 
 @customElement("section-card")
 class SectionCard extends LitElement {
   @property({ type: String })
-  public title: string = "";
+  public cardTitle: string = "";
 
   @property({ type: String })
   public description: string = "";
@@ -30,14 +30,16 @@ class SectionCard extends LitElement {
     if (DEBUG) {
       console.log(`willupdate start`);
       console.log(
-        `_changedProperties has ${Object.keys(_changedProperties).join(" ")}`,
+        `_changedProperties has ${Object.keys(_changedProperties).join(" ")}`
       );
-      console.log(`title is ${this.title}`);
+      console.log(`title is ${this.cardTitle}`);
     }
 
     if (_changedProperties.has("title")) {
       if (DEBUG) {
-        console.log(`setting _targetUrl based on changed title ${this.title}`);
+        console.log(
+          `setting _targetUrl based on changed title ${this.cardTitle}`
+        );
       }
     }
   }
@@ -84,7 +86,7 @@ class SectionCard extends LitElement {
             <div
               class="spectrum-Card-title spectrum-Heading spectrum-Heading--sizeXS"
             >
-              ${this.title}
+              ${this.cardTitle}
             </div>
           </div>
           <div class="spectrum-Card-content">

@@ -1,13 +1,19 @@
 ---
-title: "Appendix F: Magical Contracts"
+title: |
+  Appendix F: Magical Contracts
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
+sidebar:
+  order: 100
 ---
 
 As I state in [Points of Divergence][AA], Mrs. Rowling has set up a world
 in which magical contracts exist, and in which they can have unwilling
 participants.  This has been explored in a number of other fan fiction
-works,[^230103-2] and while I do not want to rehash them, the idea is far 
-too useful and tempting for me to avoid.  I am at heart more of a world 
-builder than a story teller, so I am going to define magical contracts 
+works,[^230103-2] and while I do not want to rehash them, the idea is far
+too useful and tempting for me to avoid.  I am at heart more of a world
+builder than a story teller, so I am going to define magical contracts
 rather more than Mrs. Rowling did.
 
 First of all, the word "contract" is rather misleading.  The so called
@@ -18,39 +24,39 @@ necessarily, in exchange for something.
 
 ## Who can enter
 
-Contracts can be agreed to by proxy.  Your proxy must be related to you 
+Contracts can be agreed to by proxy.  Your proxy must be related to you
 * with an imbalanced power relationship
-* a parent can agree for a child 
-* a child cannot agree for a parent 
+* a parent can agree for a child
+* a child cannot agree for a parent
 * a sibling cannot agree for a sibling
-* by straight line inheritance 
-  * your direct ancestors 
-  * but not your aunts, uncles, great-aunts, great-uncles, so on.  
+* by straight line inheritance
+  * your direct ancestors
+  * but not your aunts, uncles, great-aunts, great-uncles, so on.
   * Not a cousin even if he/she belongs to an older generation (once or more removed situations).
   * Note that nephilim have adopted the same concept of clan-like "houses" in some cultures.
     Despite this, the head of the "house" or "clan" has no power over the members except his/her
     own *direct* decedents.
-* *or* by a formally recognised *delegated* parental authority.  
-  * this relationship must be recognised by *both sides* 
+* *or* by a formally recognised *delegated* parental authority.
+  * this relationship must be recognised by *both sides*
   * teachers have authority delegated to them by parents for example.
-    * the limits of a teacher acting in loco parientis are poorly defined 
+    * the limits of a teacher acting in loco parientis are poorly defined
     * except that a parent can overrule or override said teacher's decisions.
   * government officials have authority delegated to them only to the
-    extent they are a legitimate government.  
-    * I might successfully rebel against a contract foisted on me by a 
+    extent they are a legitimate government.
+    * I might successfully rebel against a contract foisted on me by a
       government official if *all* of the following are true:
-      * I *honestly and sincerely* believe the contract unjust 
+      * I *honestly and sincerely* believe the contract unjust
       * I *honestly and sincerely* believe the government corrupt,
         illegitimate, or (most interestingly) not mine.
     * A government contract might fail to bind similarly if *any* of the
-      following are true 
-      * the government official binding me is knowingly acting in excess 
-        of his/her authority 
-      * the government official binding me is knowingly acting on a bribe 
-      * the government official binding me is knowingly violating the law 
+      following are true
+      * the government official binding me is knowingly acting in excess
+        of his/her authority
+      * the government official binding me is knowingly acting on a bribe
+      * the government official binding me is knowingly violating the law
         of the land in any of
-        * the nature of the contract 
-        * the method of binding me 
+        * the nature of the contract
+        * the method of binding me
         * the reason for binding me
 
 Contracts can be implicitly agreed to.  Harry, but walking to the front of
@@ -64,19 +70,19 @@ going to assume it does matter magically in the general case.
 
 'Contracts' need not be written on special paper, but they must be formalised
 agreements in some way.  There are many ways to formalise an agreement.
-Common ones include, but are not limited to: 
-* full legal signature on a paper (or parchment) contract 
-* formal statement of agreement "I, <name>, agree to xyz" 
-* repeated statements of agreement 
-  * using significant numbers (three, seven and ten are common) 
-  * in short durations. 
+Common ones include, but are not limited to:
+* full legal signature on a paper (or parchment) contract
+* formal statement of agreement "I, <name>, agree to xyz"
+* repeated statements of agreement
+  * using significant numbers (three, seven and ten are common)
+  * in short durations.
 * acting as if bound to the contract (ie common law marriage) for either
   magically significant durations or contractually significant
   events/actions that are distinctly related to contract and clearly not
-  part of your non-contract/pre-contract normal life 
-  * marriages are consummated 
-  * the TriWizard champions processed out of the room 
-  * engagement rings 
+  part of your non-contract/pre-contract normal life
+  * marriages are consummated
+  * the TriWizard champions processed out of the room
+  * engagement rings
   * being sorted by the Sorting Hat
 * 'Contracts' do *something*.  Person A agrees to do something or be something
   for Person B.  The 'contract' may or may not be one sided.  The 'contract' may
@@ -87,11 +93,11 @@ Common ones include, but are not limited to:
   * the more powerful the nephil, the more powerfully he/she can be bound.
   * The *less* powerful the nephil, the less powerful any binding.
   * Contracts cannot require the use of a type of magic you do not have, either
-    for their performance, *or in their penalties*.[^230717-4]  
+    for their performance, *or in their penalties*.[^230717-4]
 * 'Contracts' cannot act as an [Imperius] curse or similar.  That would come
-  too close to a manipulation of the Will.[^230717-5]  
+  too close to a manipulation of the Will.[^230717-5]
   * There is an exception to this, unknown to the nephil, but not to the Church,
-    that has caused great confusion through history.  You can bind someone to do 
+    that has caused great confusion through history.  You can bind someone to do
     something that *they would have done anyway*.
   * Normally contracts operate through applying force.
     * Do something and you become ill, or even die immediately (the ritual of the
@@ -102,33 +108,33 @@ Common ones include, but are not limited to:
       easy for a nephil to contract something _not_ to happen.  It is next to
       impossible to contract something _to_ happen.  It will not absorb food, or
       your hand will not close (or your libido will not react).
-  * There is some moral ambiguity here that the Church struggles with.  A 
+  * There is some moral ambiguity here that the Church struggles with.  A
     contract can trigger consequences that *preasure* but do not *force*
     the nephil's Will, and *if* the nephil is sufficiently weak Willed, he
     or she might give in to the preasure.  If that happens, the contract can
     make it impossible to back out or change his/her mind - the nephil is now
-    doing something agreed to anyway.[^230718-1] 
+    doing something agreed to anyway.[^230718-1]
 
 [^230718-1]: It simply has not occurred to the various unfallen angels to fix
    this.  Angels are beings of absolutes, a decision once made, by their very
    nature, cannot be changed.  In this aspect of contracts, nephilim are more
-   like angels, it does not strike them as an aberration that angelic power 
+   like angels, it does not strike them as an aberration that angelic power
    would act … less angelic.
 
 [^230717-5]: per [Appendix G][AG], angels interfering to create these restrictions
    act with good intentions, but not always wisely.  You might think 'contracts'
-   already do too much.  You might be right. 
+   already do too much.  You might be right.
 
 [^230717-3]: per [Appendix G][AG], many of the restrictions appear arbitrary.
 
 [^230717-4]: per [Appendix G][AG], 'contract' magic was nearly useless until nephilim
-   started to have widely mixed heritages. 
+   started to have widely mixed heritages.
 
 ## Effects
 
-With the one odd loophole noted above, 'Contracts' cannot force you to do something 
-the way the [Imperius] curse does.  Rather, they force behaviour through the 
-existence of penalties.  You can break an "Unbreakable Vow" but you die as a result.  When 
+With the one odd loophole noted above, 'Contracts' cannot force you to do something
+the way the [Imperius] curse does.  Rather, they force behaviour through the
+existence of penalties.  You can break an "Unbreakable Vow" but you die as a result.  When
 a secret keeper "contracts" to keep a secret, in a sense _everyone else_ is bound
 not to know something yes.  But I think that's why James and Lily had to go
 to the cottage in Godric's Hollow.  They had to go to a house that was
@@ -249,12 +255,12 @@ children may have made themselves liable to.
 
 [Imperius]: </harrypedia/magic/spells/imperio/>
 
-[^230103-2]: these include, 
+[^230103-2]: these include,
     but are not limited to:
     * Aealket. _[When is it a Contract](https://www.fanfiction.net/s/7382549)_
-      Pubished: 2011-09-14.  
+      Pubished: 2011-09-14.
     * Itsme66. _[The Mandatory Marriage Contract Fic](https://www.fanfiction.net/s/5695032)_
-      Published: 2010-01-25. Updated: 2010-02-26.  
+      Published: 2010-01-25. Updated: 2010-02-26.
     * questionablequotation.
       _[Always Read the Fine Print](https://www.fanfiction.net/s/11118965)_
       Published: 2015-03-16.

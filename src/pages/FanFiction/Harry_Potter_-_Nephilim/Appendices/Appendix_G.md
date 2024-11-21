@@ -1,5 +1,10 @@
 ---
 title: "Appendix G: Soteriology, Missiology and Ecclesiology"
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
+sidebar:
+  order: 100
 ---
 
 ## Metaphysical Overview
@@ -19,18 +24,18 @@ in this life. God will deal with them separately from humanity.
 Do the nephilim have a future looking forward to salvation, united with God?
 History shows that some are capable of heroic virtue, and reason tells
 us that a just God will reward this.  God has not, however, chosen to
-reveal to us what He intends for to be the common, or average, fate of the 
-nephilim.  Certainly He has allowed His angels to deal with them much 
-more harshly than He allows any in the spiritual world, fallen or unfallen, 
-to deal with humanity.  This work of fiction is not intended to be a work 
-of theology, if it were, it would fail utterly, as much of it would be 
-*really bad* theology. It is meant to entertain, not instruct. 
+reveal to us what He intends for to be the common, or average, fate of the
+nephilim.  Certainly He has allowed His angels to deal with them much
+more harshly than He allows any in the spiritual world, fallen or unfallen,
+to deal with humanity.  This work of fiction is not intended to be a work
+of theology, if it were, it would fail utterly, as much of it would be
+*really bad* theology. It is meant to entertain, not instruct.
 
 ## Free Will
 
 Because I am starting with _[Many Waters][MW]_ as one of my base sources for material, I feel somewhat
 constrained by the choices made in that work.  It also happens that being so constrained allows me
-somewhat more flexibility in designing my concept of nephilim.  
+somewhat more flexibility in designing my concept of nephilim.
 
 In _[Many Waters][MW]_ we see clearly that the unfallen angels have a limited perspective on Divine
 Providence and Will, and thus make choices based on limited information.  More, they are aware
@@ -48,37 +53,37 @@ that fact.
 
 ## Revelation
 
-In real theology, we of course know that Revelation is complete, closed, and unalterable with 
+In real theology, we of course know that Revelation is complete, closed, and unalterable with
 the Ascension.  In this universe there is a single exception.  Angels have been somewhat willing
 to reveal to Church officials some details of how nephilim work that nephilim themselves, and,
-by extension, humanity, would be otherwise unable to discover.  
+by extension, humanity, would be otherwise unable to discover.
 
 I do not consider this a real exception, in that this information is not relevant to the work
 of humanity's salvation.  It *is* relevant to the ability of *particular* persons of nephilim
 decent to survive encounters with Church officials.  However, the principle of infallibility has
 held without deviation from the real world in this universe, and the official magisterium of the
 Church has (in this universe) made few if any official pronouncements on or about nephilim, and
-none that depend on this extra information.  
+none that depend on this extra information.
 
 ## Original Sin
 
-Humanity inherits the effects of Adam's first sin, in that we are born already deprived from 
+Humanity inherits the effects of Adam's first sin, in that we are born already deprived from
 grace.[^230717-1]  There is remarkably little verifiable known about angels, and the Church
 Fathers themselves debate about the proper translation of the the word "nephilim" that I am
 misusing in this story.  I am left with far too wide a field in which to speculate.
 
 I am going to speculate that the angelic powers would have their own version of original sin.
 That just as humanity was made to be in union with God, so that the lack of grace is a flaw in
-man, and a stain on his soul and personality, so too the angel.  The angels were given great 
+man, and a stain on his soul and personality, so too the angel.  The angels were given great
 power, but this power was intended to be used in union with God.  Clearly they did not lose
 all access to the power given them with the fall.  However, there must have been some effect.
 
 Whatever this effect is, the nephilim of my story would inherit that as well.  Thus in
 a sense they would inherit two "original" sins.  One from their human ancestor, and one from
-their angelic ancestor(s).  This dual lack would further incline the nephilim away from God, 
-temptation and concupiscence is far greater for the nephilim than for humanity.  
+their angelic ancestor(s).  This dual lack would further incline the nephilim away from God,
+temptation and concupiscence is far greater for the nephilim than for humanity.
 
-[^230717-1]: Harent, Stéphane. "[Original Sin](http://www.newadvent.org/cathen/11312a.htm)." [The Catholic Encyclopedia](https://www.newadvent.org/cathen/). Vol. 11. New York: Robert Appleton Company, 1911. 17 Jul. 2023 
+[^230717-1]: Harent, Stéphane. "[Original Sin](http://www.newadvent.org/cathen/11312a.htm)." [The Catholic Encyclopedia](https://www.newadvent.org/cathen/). Vol. 11. New York: Robert Appleton Company, 1911. 17 Jul. 2023
 
 ## Sacraments
 
@@ -165,4 +170,4 @@ affected by grace.
 The more you understand this sacrament, the less it should be necessary to
 state that this sacrament is not and cannot be affected by the difference
 between a nephil and a human.  The key difference is between baptised and
-unbaptised. 
+unbaptised.

@@ -1,5 +1,11 @@
 ---
-title: "Appendix C: Magical Inheritance"
+title: |
+  Appendix C: Magical Inheritance
+author: Luke Schierer
+sidebar:
+  order: 100
+collection: Nephilim
+layout: fanfiction
 ---
 
 ### Overview
@@ -51,9 +57,9 @@ determine what happens to a given child.
    on) fits in this category.
    - by corrupting, I do not necessarily mean that it tends the user towards
      evil, I mean that it tends to change (corrupt) the nature of the user.
-   - This corruption is *caused* not necessarily by the magic itself, but 
-     because angels regularly act to ensure that magical rules they themselves 
-     have created are followed. See [Appendix F][AF] and [Appendix G][AG]. 
+   - This corruption is *caused* not necessarily by the magic itself, but
+     because angels regularly act to ensure that magical rules they themselves
+     have created are followed. See [Appendix F][AF] and [Appendix G][AG].
    - magic where the required emotion closely aligns with one or more of the
      seven deadly sins tends to corrupt the user more severely and more rapidly
      (both) than magic where the required emotion is either neutral or closely
@@ -128,7 +134,7 @@ determine what happens to a given child.
      - A child with a power level of 2 or below on all categories will be called
        a squib.
      - A child with 3 or below on all categories will not be invited to any
-       magical school, but might be able to effectively use some magic.  
+       magical school, but might be able to effectively use some magic.
        - A program like Kwick Spell might prey on such people.
        - Such a child might still be called a squib despite actually being able to use magic.
        Hogwarts requires at least a 4 in each of the following categories:
@@ -211,12 +217,12 @@ determine what happens to a given child.
 * Per the above, in practice, most modern nephil have mixed inheritances, and
   thus magic in a broad range of categories.
 * nephil do get one straight up advantage over humans in addition to using
-  magic - they [live longer][AE].  This is *actually* a side effect of their 
-  magic, which, regardless of type, will offer some protection against disease 
-  and against the effects of entropy (and thus old age).  It does not halt 
-  the decay of old age, but it does retard it.  The extent to which it 
-  extends the nephil's life depends on the nephil's *average* (not highest) 
-  power level (only including power levels where present at all).  
+  magic - they [live longer][AE].  This is *actually* a side effect of their
+  magic, which, regardless of type, will offer some protection against disease
+  and against the effects of entropy (and thus old age).  It does not halt
+  the decay of old age, but it does retard it.  The extent to which it
+  extends the nephil's life depends on the nephil's *average* (not highest)
+  power level (only including power levels where present at all).
 * Per earlier sections, it takes approximately six consecutive generations of magical
   abuse for "truly bizarre" things to become not just possible but probable.
    * Recall the note from [Appendix A][AA] on _The
@@ -248,7 +254,7 @@ determine what happens to a given child.
      intelligence and their magic.  They are particularly strong inheritors from
      the Virtues, Powers, and Archangels, with lesser inheritances from the
      Principalities and angels.  Their creation of the trolls at the beginning of
-     the [goblin wars] explains why they were punished so harshly (as to have 
+     the [goblin wars] explains why they were punished so harshly (as to have
      originally lost nearly all free will - 90% impact).
    * hags - a people who are consumed by envy and lust.  They have particularly
      strong inheritances from the Thrones, reasonable inheritances from the
@@ -282,9 +288,9 @@ determine what happens to a given child.
        case flock, effect).
    * veela - For the purposes of this story, veela are "dark"
      creatures[^210126-4].  I have chosen to create a version of veela that
-	 justifies the suspicion that [Molly], [Hermione][] and [Ginny][] view 
-     [Fleur][] with.  Veela have some of the strongest inheritances from the 
-     Thrones of all humanoid magic users.  The pure veela is not an example of 
+	 justifies the suspicion that [Molly], [Hermione][] and [Ginny][] view
+     [Fleur][] with.  Veela have some of the strongest inheritances from the
+     Thrones of all humanoid magic users.  The pure veela is not an example of
      a primordial people.  Rather, the veela race comes from an example of
 	 true perfidy.  The first veela was a child whose maternal grandmother was
 	 a Thrones witch, and whose paternal grandparents were primordial nephilim
@@ -297,8 +303,8 @@ determine what happens to a given child.
      were so great that she was cursed with a Screwtape style mutation of epic
      proportions:
      - All veela are female, a male child of a veela will inherit solely from
-       the child's father in terms of magic.  This is a control placed on the 
-       punishment to ensure it does not itself become an uncontrolled problem. 
+       the child's father in terms of magic.  This is a control placed on the
+       punishment to ensure it does not itself become an uncontrolled problem.
      - A "half-veela" is a veela/nephil cross where either the veela nature was,
        against the odds, only partially inherited; or the 16% chance that the
        veela nature is inherited in addition to a full nephil inheritance.  All
@@ -314,9 +320,9 @@ determine what happens to a given child.
        community to veela community.  This almost always applies to half-veela
        as well.
      - Her inheritance from the Dominions was restricted (leading some scholars
-       to mistakenly think that veela are descendent from a primordial population) 
-       * in human form she *always* produces a super-abundance of pheromones.  
-         She cannot *not* produce them, though with considerable effort she can 
+       to mistakenly think that veela are descendent from a primordial population)
+       * in human form she *always* produces a super-abundance of pheromones.
+         She cannot *not* produce them, though with considerable effort she can
          control *how much* she produces.  This is true of half-veela as well.
        * in avian form, she can *only* produce a form of naphtha that catches
          fire instantly when exposed to oxygen, though fortunately (for
@@ -335,7 +341,7 @@ determine what happens to a given child.
          tend to spend much more time in human form.  In a sense, the full veela
          is becoming an animal.  Had that process completed, if any veela ever
          did live her entire life as a bird, it is doubtful that her descendants
-         would have an immortal soul at all.  
+         would have an immortal soul at all.
      - Her inheritance from the Powers was restricted such that it *cannot*
        combine with her inheritance from the Dominions.  No full veela is
        capable of permanent transmutation, and a "half-veela" is capable of it
@@ -358,15 +364,15 @@ determine what happens to a given child.
      - While all veela come from a single common ancestor, further _Screwtape_
        style mutations have resulted in some differences between different
        communities.
-       * More eagle-like veela are found primarily in Western Europe, particularly in France and Spain.  They generally finish maturing by thirteen.  
-       * More hawk-like veela are found primarily in eastern Europe, particularly in Bulgaria and Roumania.  They will rapidly mature over the course of a few days.  
+       * More eagle-like veela are found primarily in Western Europe, particularly in France and Spain.  They generally finish maturing by thirteen.
+       * More hawk-like veela are found primarily in eastern Europe, particularly in Bulgaria and Roumania.  They will rapidly mature over the course of a few days.
      - Her *mental* maturation is not accelerated during this time of
        accelerated physical growth, putting a mentally young girl in an adult's
        body for a period of years (with all the extra self control issues
        adding adult hormone levels to that lack of mental maturity would
        imply).  This is why [Fleur]'s classmates dislike her so much - people
-       tend to expect someone who appears older to behave older.  They remember 
-       the brat. 
+       tend to expect someone who appears older to behave older.  They remember
+       the brat.
      - If a veela falls in love, her pheromone ability inverts, instead of
        producing pheromones that bewitch others, she produces pheromones that
        perfectly mimic those produced by the person she has fallen in love with.
@@ -385,20 +391,20 @@ determine what happens to a given child.
        both for them, and for all able to use magic.  That this punishment
        actually *be* a warning, the angels acting to punish the veela also
        ensured that the reasons (creation of humaniform animals) for the especial
-       harshness of this punishment where revealed to every nephilim community.  
+       harshness of this punishment where revealed to every nephilim community.
        At one point this was common knowledge, but the nephilim are remarkably
        good at ignoring things they do not want to know.  See [Appendix G][AG] on
        Original Sin.
    * giants - the physical changes wrought on them by sin have become "mundane"
-     and are now governed by Mendelian inheritance.  Church [records][Giants] 
-     show that the giants come from the creators of the house elves. Behold in 
-     them what man would be if left without his mind, the only hope they have 
-     is that their intellects are so clouded that it is nearly impossible for 
-     them to actually commit a mortal sin.  Should any be willing to be 
-     missionary to the giants, the grace of baptism would be nearly unopposed, 
-     because these beings have so little ability to freely choose to do 
+     and are now governed by Mendelian inheritance.  Church [records][Giants]
+     show that the giants come from the creators of the house elves. Behold in
+     them what man would be if left without his mind, the only hope they have
+     is that their intellects are so clouded that it is nearly impossible for
+     them to actually commit a mortal sin.  Should any be willing to be
+     missionary to the giants, the grace of baptism would be nearly unopposed,
+     because these beings have so little ability to freely choose to do
      anything, and even less ability to understand something is gravely wrong.
-     
+
 
 [^210916-1]: Like in _[Maskirovat][knffnm]_.
 
@@ -482,7 +488,7 @@ can never be fully freed.
     very nearly suicidal in his desire for freedom.  He was bound (factor of
     2), and fully utilised (factor of 4 on top of that), but neither part of
     the family nor critical. He thus, prior to being freed, aged at a rate of
-    1/16 normal (out of a possible 1/32th).  
+    1/16 normal (out of a possible 1/32th).
 * Leprechaun - created by the use of extreme magics on an unknown mammal, by an
   unknown being.
   > More intelligent than the fairy and less malicious than the imp, the pixie
@@ -556,4 +562,3 @@ can never be fully freed.
     "Acromantula" _[Fantastic Beasts and Where to Find
     Them](https://www.goodreads.com/book/show/41899.Fantastic_Beasts_and_Where_to_Find_Them)_
     Kindle Locations 265-266. Pottermore. American Kindle Illustrated Edition.
-

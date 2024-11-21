@@ -1,15 +1,21 @@
 ---
-title: "Appendix A: Points of Divergence"
+title: |
+  Appendix A: Points of Divergence
+author: Luke Schierer
 tableOfContents:
   minHeadingLevel: 2
   maxHeadingLevel: 5
+collection: Nephilim
+layout: fanfiction
+sidebar:
+  order: 100
 ---
 
 ## What is Cannon Here
 
-I as per the [Introduction], this is a multi-way crossover. I am using 
+I as per the [Introduction], this is a multi-way crossover. I am using
 source material from Harry Potter, following the same rules I use in
-the [Encyclopedic Reference].  I am then pulling in some stuff from 
+the [Encyclopedic Reference].  I am then pulling in some stuff from
 Madeleine L’Engle's _[Many Waters][MW]_, one or two concepts of demonology
 from C. S. Lewis' _[The Screwtape Letters][TSL]_, some other myths and legends
 (as Rowling herself does in places), and mixing that in with some actual history
@@ -32,10 +38,10 @@ to make sense.
   otherwise.  Thus it is *possible* in Mrs. Rowling's world to create a binding
   magical contract on unwilling participants.  See [Appendix F][AF]
 * The Unbreakable Vow as described in _[Deathly Hallows][]_ is essentially a
-  ritual to create a contract.  The magic is coming in part from the bonder, but 
-  in part from the two kneeling, which from earlier books, seems to be an 
-  essential component of the magic.  Thus beyond the magic learned at Hogwarts, 
-  there *are* others, including rituals.  
+  ritual to create a contract.  The magic is coming in part from the bonder, but
+  in part from the two kneeling, which from earlier books, seems to be an
+  essential component of the magic.  Thus beyond the magic learned at Hogwarts,
+  there *are* others, including rituals.
 
 [AF]: <../appendix_f>
 
@@ -48,17 +54,17 @@ to make sense.
 * Being seduced by a fallen angel is not just a matter of falling in love with
   the wrong person, the fallen angel also seduces you into an evil ritual that
   corrupts your soul. I am going to extend this and call such a person a witch.
-  See below for deviations from Harry Potter. 
+  See below for deviations from Harry Potter.
 * The fallen angels directly interact with humanity and have visible
   manifestations of the powers they retain from their angelic nature.  I'm
-  extending this to say that some of these are inherited.  
+  extending this to say that some of these are inherited.
 * All of the angels and nephil found in _[Many Waters][MW]_ are, in Harry Potter
-  terms, animagi.  
+  terms, animagi.
   * These animal forms are symbolic in some way of the angel or nephil in
   * question.  Again, per above, I am not using L'Engle's definition of nephil,
-    but I am keeping this aspect.  
+    but I am keeping this aspect.
   * All nephil have the ability to be an animagi, and this transformation is,
-    when not specifically suppressed, natural to them.  
+    when not specifically suppressed, natural to them.
   * A given nephil may make this transformation difficult (essentially suppress
 	the ability) by *believing it to be difficult*.  Thus some cultures have
 	developed rituals surrounding unlocking the ability (such as Mrs. Rowling's
@@ -72,13 +78,13 @@ to make sense.
   use language really loosely here, intentionally.
   * Sometimes this represents instances of Divine Justice, that is, God has so
     ordered the world (in this fictional universe) such that using magic a
-    certain way has consequences. 
+    certain way has consequences.
   * Sometimes this represents the power God has given actual angels.  Using
     _[Many Waters][MW]_ as the source concept angels have a fair amount of
     autonomy and sometimes a lack of clarity in how best to execute their
     duties.  For those angels who did not rebel, their choices are never
     sinful, but sometimes suboptimal (see the intro about this being bad
-    theology but good fiction). 
+    theology but good fiction).
   * Sometimes it represents something the nephil has him/her self done
     unintentionally that cannot be (or at least has not been) distinquished
     from the above categories.
@@ -91,10 +97,10 @@ to make sense.
 
 #### Historical fabrications
 
-* Witch hunting was a product of ignorance (sometimes poorly educated priests 
-  yes) and even more so of Protestantism.  The rejection of those parts of 
-  Sacred Tradition not contained in the Bible by Protestants caused them to 
-  reject the true understanding of the interactions between the fallen angels 
+* Witch hunting was a product of ignorance (sometimes poorly educated priests
+  yes) and even more so of Protestantism.  The rejection of those parts of
+  Sacred Tradition not contained in the Bible by Protestants caused them to
+  reject the true understanding of the interactions between the fallen angels
   and humanity.
 * I have adjusted the history of [The Priestly Fraternity of St Peter][FSSP].
 
@@ -110,20 +116,20 @@ to make sense.
   receive forgiveness from their sins, they would also lose their access to
   magic.  It is from these people that the persistent rumours about non-magical
   people "stealing magic" come.  It is possible (in this story) for someone to
-  *become* magical. 
+  *become* magical.
 * Following from the origin of magic I'm using, magic will follow somewhat
-  different [rules][ab] than the Harry Potter books. This includes both the 
+  different [rules][ab] than the Harry Potter books. This includes both the
   way the characters use magic and magical creatures.
 * Those that call themselves witches *are not actually.*  They are nephilim.
   That is, the actual characters you encounter are not what this story's true
-  history would term a witch.  
+  history would term a witch.
 * Modern day welders of magic, heavily influenced by paganism and by those who
   have given into temptation, have obscured the difference between those who
   inherit magic and those who have gained it through sin. They call all female
   welders of magic witches, this is part denial, part self delusion, and part
-  ignorance. Exactly how much of which differs from person to person. 
+  ignorance. Exactly how much of which differs from person to person.
 * The Old Testament references to witches refer to those corrupted by union with
-  fallen angels, not to the children of such unions (This is certainly bogus and 
+  fallen angels, not to the children of such unions (This is certainly bogus and
   entirely fictional theology, but it is necessary for world building).
 * The Statue of Secrecy was imperfectly implemented.  At one point, knowledge of
   the a-fore bullet points was commonly taught to most clergy.  With the
@@ -132,12 +138,12 @@ to make sense.
   history.
 * Magic users *are not human.*  Just like a hippogriff is a blend of the
   incompatible horse and eagle that is not fully one nor the other, the person
-  who can use magic is a nephil, not a human.  See [Appendix H][ah] 
+  who can use magic is a nephil, not a human.  See [Appendix H][ah]
 * Note that in describing the nephilim in [Appendix H][ah], I hit on some other
   differences.  I have gone back and forth about trying to combine the two pages,
   hence the out of order lettering.  Duplicating information would be the worst
   of both worlds.
-   
+
 #### Things differing for those familiar with _[Many Waters][MW]_
 
 * L'Engle calls the fallen angels the nephilim.  I'm using more orthodox
@@ -175,11 +181,11 @@ to make sense.
 
 [FSSP]: <../../backstory/fssp>
 
-[^211201-1]: There is nothing truly unique in Fan Fiction. 
+[^211201-1]: There is nothing truly unique in Fan Fiction.
     * In _[Error of Soul](https://www.fanfiction.net/s/8490518)_
       Materia-Blade has a line referring to magical folk as Nephilim.  I came up
       with this idea well before I found that work.  Just goes to show that there
-      is nothing possible that *someone* else hasn't also thought of. in 
+      is nothing possible that *someone* else hasn't also thought of. in
     * In _[Losing Control](https://www.fanfiction.net/s/9157305)_
       JackPotr has an overlapping explanation of where magical humans came
       from.  I had read this before starting this work, but had totally
@@ -190,7 +196,7 @@ to make sense.
   Copyright 1942. HarperOne. Kindle Edition.
 
 [^220628-1]: Mrs. J. K. Rowling. _[Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies](https://www.goodreads.com/book/show/31538635-short-stories-from-hogwarts-of-heroism-hardship-and-dangerous-hobbies)_
-    p. 20-22. © 2016 Pottermore Publishing. American Kindle Edition. 
+    p. 20-22. © 2016 Pottermore Publishing. American Kindle Edition.
 
 [^220628-2]: Mrs. J. K. Rowling. _[Uagadou](https://www.rowlingindex.org/work/pmuag/)_
     [The J.K. Rowling Index](https://www.rowlingindex.org/).  Publication Date: 2016-01-31. Last Viewed: 2022-06-28.

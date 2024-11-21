@@ -9,7 +9,7 @@ const DEBUG = 1;
  * Because I'm using a complex object as the property type, it is almost useless on its own.
  */
 
-type Section = {
+export type CardDetails = {
   title: string;
   name: string;
   description?: string;
@@ -19,9 +19,9 @@ type Section = {
 @customElement("card-grid")
 export class CardGrid extends LitElement {
   @property()
-  public gridsections: Section[] = new Array<Section>();
+  public gridCards: CardDetails[] = new Array<CardDetails>();
 
-  static styles = css`
+  static localStyles = css`
     .cardGrid {
       display: flex;
       flex-wrap: wrap;
@@ -30,16 +30,18 @@ export class CardGrid extends LitElement {
     }
   `;
 
+  static styles = [CardGrid.localStyles];
+
   protected render() {
     if (DEBUG) {
       console.log(`CardGrid render start`);
     }
-    const sectionsTemplates = new Array<TemplateResult>();
-    if (this.gridsections.length > 0) {
-      this.gridsections.map((section) => {
-        sectionsTemplates.push(html`
+    const cardTemplates = new Array<TemplateResult>();
+    if (this.gridCards.length > 0) {
+      this.gridCards.map((section) => {
+        cardTemplates.push(html`
           <horizontal-card
-            title="${section.title}"
+            cardTitle="${section.title}"
             iconName="${section.name}"
             iconHeight="1.2rem"
             iconWidth="1.2rem"
@@ -50,6 +52,6 @@ export class CardGrid extends LitElement {
       });
     }
 
-    return html` <div class="cardGrid" role="grid">${sectionsTemplates}</div> `;
+    return html` <div class="cardGrid" role="grid">${cardTemplates}</div> `;
   }
 }

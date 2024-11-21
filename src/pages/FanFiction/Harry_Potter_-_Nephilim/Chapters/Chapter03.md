@@ -1,7 +1,9 @@
 ---
-title: "Chapter 3"
-tableOfContents: false
-author: "Luke Schierer"
+title: Chapter 3
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
+
 ---
 
 The summer after Year 1 of Primary School, when Harry turned 6, was particularly
@@ -13,7 +15,7 @@ paid attention to the feel of the various minds around him, he got hurt less. To
 the Dursleys, it seemed like Harry had eyes in the back of his head.  He was
 avoiding Dudley and his friends before he should have known they were there.
 This further proof of his "freaky" abilities fanned the flames of Petunia's
-jealousy even as it enraged Vernon's bigotry.  
+jealousy even as it enraged Vernon's bigotry.
 
 Lily was quickly realising that teaching Harry legilimency might not have been
 the best idea.  While he had been in school, it had been one thing.  The
@@ -30,7 +32,7 @@ of the confusion caused by any spell, but because it pleased them to believe the
 worst of anyone; their children, only a few of whom were in his class, were no
 better.  Lily had hoped to show Harry that the Dursleys were the exception.  He
 was instead learning that those with both the power and willingness to help him
-were few and far between.  
+were few and far between.
 
 That summer Vernon had made plans to take the family on a trip, leaving Harry
 with Mrs. Figg.  Harry did not much care for Mrs. Figg's house, it smelled of
@@ -45,7 +47,7 @@ getting flashes of memories as well.  He had a strong sense of her hiding
 something whenever she was talking to him, even when it was just about her cats.
 What could she possibly have to hide about her cats‽ As always Harry never said
 much beyond "Yes Ma'am" or "No Ma'am;" he certainly never asked questions.  Why
-would she lie to him? 
+would she lie to him?
 
 And her memories, for one thing, why could he see them at all?[^210412-1] If
 he could have known, the answer was Mrs. Figg was *slightly* more magical than
@@ -60,7 +62,7 @@ clothing, waving wooden sticks.  He would have thought he was watching scenes
 from movie - not that he had ever seen a whole movie, but occasionally he saw
 bits and pieces of whatever Dudley was watching.  Most disturbing of all, some
 of the memories seemed to be about conversations she had had with these strange
-people *about him.*  
+people *about him.*
 
 She knew.  *Knew and remembered* that he was too small, that he was almost
 always seen doing chores and never seen playing, that he sometimes had
@@ -72,7 +74,7 @@ could still see the two souls battling endlessly within him, the good soul he
 was learning had been his mum's, and the evil soul that still regularly caused
 his nightmares.  They were, however, so locked in their seemingly unending
 struggle that his mum rarely had time to do more than teach him the little bits
-of magic he used to spy on the minds around him and to heal himself.  
+of magic he used to spy on the minds around him and to heal himself.
 
 Harry had not much liked sitting listening to stories about cats, but when Mrs.
 Figg fed him regularly, he thought it meant she cared *something* for him.  He
@@ -83,7 +85,7 @@ to the strange old man with the beard (Dumbledore her memories told him) about
 how well the plans to keep him humble were going, and other stories, pure
 fiction, to another man with long hair like a girl's and a mouth that showed too
 many teeth[^210208-3] to make some extra money.  People were going to believe
-all kinds of things about him because she simply did not care.  
+all kinds of things about him because she simply did not care.
 
 Fortunately none of this internal turmoil was visible on Harry's face.  The
 dissociated state his mum had induced in his infancy as a byproduct of her
@@ -91,7 +93,7 @@ efforts to protect him from the soul shard's influence let him keep his face
 blank while he raged about in a room created within his mind for the purpose.
 Harry was only six.  The fact that it occurred to him to keep his display of
 temper internalised was remarkable.  The fact that it did not occur to him to do
-anything actually productive should hardly be surprising.  
+anything actually productive should hardly be surprising.
 
 If he had thought about what he had seen in those memories for even a moment
 more, then even as sheltered from fiction as he was he might have connected the
@@ -107,7 +109,7 @@ little to either deceased soul or to soul shard. If she had noticed, she would
 have been torn between warning Harry away from using legilimency so actively,
 dismay over now knowing the identity of his other adversary, and disbelief that
 such a respected person could have betrayed all he claimed to stand for so
-fundamentally. 
+fundamentally.
 
 [^211219-1]: Here I've established a key point.  Nephilim, even squibs, remember
     Harry, everyone else forgets him.  Vernon not an exception here.  He *does*
@@ -119,7 +121,7 @@ fundamentally.
 [^210208-3]: The idea for the author of the Harry Potter stories that Ginny
     grows up reading comes from a fanfiction I read, but I can't remember which
     right now. I do not want to give just who it is away here though if you can't
-    figure it out from the fairly obvious reference. 
+    figure it out from the fairly obvious reference.
 
 [^210412-1]: See my notes on [relative power levels][rpl].
 

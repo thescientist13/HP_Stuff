@@ -2,7 +2,7 @@ import { z } from "zod";
 
 export const TopLevelSections = z.enum([
   "Harrypedia",
-  "Fan Fiction",
+  "FanFiction",
   "Searches",
   "Book Marks",
 ]);

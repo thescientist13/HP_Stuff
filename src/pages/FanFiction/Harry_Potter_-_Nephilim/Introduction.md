@@ -1,7 +1,10 @@
 ---
-title: "Introduction"
-weight: 1
-tableOfContents: false
+title: Introduction
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
+sidebar:
+  order: -1
 ---
 
 On reading _[Many Waters][MW]_ by Madeleine L'Engle, a number of ideas came
@@ -13,7 +16,7 @@ non-Rowling works I am taking ideas from here.  Similarly, much of the
 "theology" in this work is more like a comic book's depiction of Catholicism
 than a true representation.  Mark Twain famously wrote that _[Huckleberry Finn]_
 has neither motive nor moral,[^230719-1] I will allow that I have the motive
-of entertaining at least myself. 
+of entertaining at least myself.
 
 As I said, that book caused a me to think about the Harry Potter universe
 differently, but it was not until I was reading CmptrWz' _[For Want of
@@ -23,7 +26,7 @@ has too few consequences.  I harp on that theme in my [Harrypedia].  This
 fan fiction is a harsher universe.  Magic, even if not "dark" and
 *intentionally* harmful, cannot always be undone or fixed.  There can be not
 only life-long repercussions, but *generational* repercussions from the spells
-and potions that are so often carelessly used.  
+and potions that are so often carelessly used.
 
 I am taking some things from _[Many Waters][MW2]_, some from C. S. Lewis' _[The
 Screwtape Letters][TSL]_, some from actual Catholic theology, some from various
@@ -48,7 +51,7 @@ since an interested reader *can* find it in this extra information.
 [Huckleberry Finn]: https://www.gutenberg.org/files/76/76-h/76-h.htm
 
 [^230719-1]: Mark Twain. _[Adventures of Huckleberry Finn][Huckleberry Finn]_
-    Author's Notice.  [Project Gutenberg] text #76. 
+    Author's Notice.  [Project Gutenberg] text #76.
 
 [Project Gutenberg]: https://www.gutenberg.org/
 
@@ -77,7 +80,7 @@ since an interested reader *can* find it in this extra information.
 [^211201-1]: In _[Error of Soul](https://www.fanfiction.net/s/8490518)_
     Materia-Blade has a line referring to magical folk as Nephilim.  I came up
     with this idea well before I found that work.  Just goes to show that there
-    is nothing possible that *someone* else hasn't also thought of. 
+    is nothing possible that *someone* else hasn't also thought of.
 
 [^210408-1]: Mr. C. S. Lewis. _[The Screwtape Letters][TSL3]_. pp. 120-121.
   Copyright 1942. HarperOne. Kindle Edition.
@@ -86,4 +89,3 @@ since an interested reader *can* find it in this extra information.
     _[The Little Veela that Could](https://www.fanfiction.net/s/5490079)_
     [Chapter Six](https://www.fanfiction.net/s/5490079/7/The-Little-Veela-that-Could)
     Published: 2009-11-05. Updated: 2012-06-28. Last Viewed: 2021-04-12.
-

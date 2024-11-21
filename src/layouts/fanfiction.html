@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="module" src="../components/collection-cards.ts"></script>
+    <script type="module" src="../components/card-grid.ts"></script>
+    <script type="module" src="../components/horizontal-card.ts"></script>
+    <script type="module" src="../components/side-nav.ts"></script>
+    <script type="module" src="../components/split-view.ts"></script>
+  </head>
+
+  <body>
+    <split-view>
+      <div slot="left" class="nav">
+        <side-nav route="${globalThis.page.route}"></side-nav>
+      </div>
+      <main slot="right">
+        <content-outlet></content-outlet>
+      </main>
+    </split-view>
+  </body>
+</html>

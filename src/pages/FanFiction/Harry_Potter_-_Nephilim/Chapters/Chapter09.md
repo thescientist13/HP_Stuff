@@ -1,7 +1,8 @@
 ---
-title: "Chapter 9"
-author: "Luke Schierer"
-tableOfContents: false
+title: Chapter 09
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
 ---
 
 In the cannon world, Chapter Six (the train) is 25 pages and Chapter Seven (the
@@ -11,6 +12,6 @@ Six. How does Harry find the platform?  He needs to end up in a compartment with
 Susan & Hannah, not Ron.  Can children see him, or is he only functionally
 invisible to adults?  Has this gradually changed due to continued
 [Legilimency][AC]? I think this last, they cannot
-see him.  Decide on uniforms, this has a *lot* of implications.  
+see him.  Decide on uniforms, this has a *lot* of implications.
 
 [AC]: <../../appendices/appendix_c>

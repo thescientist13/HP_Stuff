@@ -1,7 +1,8 @@
 ---
-title: "Chapter 11"
-author: "Luke Schierer"
-tableOfContents: false
+title: Chapter 11
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
 ---
 
 Cannon Chapter Eight introduces the teachers, and the robbery.  Cannon Chapter
@@ -12,4 +13,4 @@ introduction to the students is not shaped by Ron, but rather Hannah (who would
 someday in the Cannon universe become a prefect) becomes concerned for their
 missing year-mate and convinces Susan to help her look for him.  The Cerberus
 remains undiscovered, and Harry never learns of the robbery attempt.  Draco has
-no reason to challenge Harry to a fake duel. 
+no reason to challenge Harry to a fake duel.

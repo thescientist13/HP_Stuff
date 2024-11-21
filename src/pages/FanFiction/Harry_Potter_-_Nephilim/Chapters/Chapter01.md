@@ -1,6 +1,9 @@
 ---
-title: "Chapter 1"
-tableOfContents: false
+title: Chapter 01
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
+
 ---
 
 Vernon Dursley was a huge walrus of a man, with a large moustache and hardly
@@ -134,7 +137,7 @@ humanity) - Voldemort was already inside Harry's head.  Lily concluded that what
 was needed was to *truly* empty Harry's mind, to separate that which made Harry
 himself from that which the soul shard could influence or even detect.  She knew
 an empty mind was protected against legilimency, and did not know of any *other*
-way to thwart such an attack.[^210917-1] 
+way to thwart such an attack.[^210917-1]
 
 To an observer, these shields created an effect that mimicked a child with a
 dissociative disorder: Harry became *even more* withdrawn, and seemed to not
@@ -177,7 +180,7 @@ love in terms of hugs, food, and physical safety.  While *Harry* might not have
 been able to express or understand this, Lily understood it anyway.  Harry ended
 unsure how he knew that such a soul was out there somewhere, but knowing that
 the "bright soul" (he did not know yet to call her either "mum' or "Lily" either
-one) had made it clear, without words, that he would find it someday. 
+one) had made it clear, without words, that he would find it someday.
 
 [^210917-1]: Being deceased *does* give Lily some insight into the
     "cosmological" (for lack of a better word) results of different types of
@@ -203,9 +206,9 @@ one) had made it clear, without words, that he would find it someday.
     the original author did.  The idea of Lily being embedded
     in Harry's scar comes from kokopelli's _[The Unexpected Horcrux](https://kokopelli.nsns.fanficauthors.net/The_Unexpected_Horcrux)_
     where again I am mutating the idea from the original. The idea that Lily
-    would help Harry to learn is also used in Lady FoxFire's 
-    _[Justice Served With A Side Of Fries](https://www.fanfiction.net/s/6300111)_ 
-    though I think I came up with my version before I read that story. 
+    would help Harry to learn is also used in Lady FoxFire's
+    _[Justice Served With A Side Of Fries](https://www.fanfiction.net/s/6300111)_
+    though I think I came up with my version before I read that story.
 
 [^210902-6]: Per my [Notes] on this fanfiction, I am
     making Petunia a Squib. Vernon is purely non-magically, but nephil traits

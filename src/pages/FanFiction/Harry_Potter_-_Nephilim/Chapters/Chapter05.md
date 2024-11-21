@@ -1,7 +1,9 @@
 ---
-title: "Chapter 5"
-author: "Luke Schierer"
-tableOfContents: false
+title: Chapter 05
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
+
 ---
 
 At first the changes were subtle, and because Harry and Dudley were in
@@ -10,7 +12,7 @@ abcense was responsible for the changes at school.  In prior years, the teacher
 would frequently notice something was off about that Potter child.  The
 oversized clothing, the odd high pitched whisper of a voice, the way he
 flinched if anyone came too close would all normally attract a conscientious
-educator's attention.  In that respect, this year started *almost* the same way - 
+educator's attention.  In that respect, this year started *almost* the same way -
 during morning attendance,[^210528-1] the teacher frowned and gave him an odd
 look, the kind that frequently meant a conversation after class, but then
 seamed to forget about him even faster than his other teachers had.  She seamed
@@ -39,7 +41,7 @@ evenings.  Vernon did not like his evening to be disturbed by an irate teacher
 or parent complaining about Dudley; it was surely the Freak's fault - making
 Dudley look bad somehow.  It was just as well that Harry could usually depend on
 getting a good meal at school, because he was getting less and less at home as
-Vernon took out his anger by locking him up more and more.  
+Vernon took out his anger by locking him up more and more.
 
 While Dudley was happy to pick on students from his own class during the day,
 the way home from school it was a different story.  *Something* about heading
@@ -55,7 +57,7 @@ Malcolm sometimes complained about how often Dudley "made" them search for his
 (Dudley's) imaginary cousin.  Unable to remember Harry without either his
 presence disrupting the spell or Dudley's subconscious magic protecting them
 from it, their minds convinced them that they had entirely imagined each
-encounter with Harry.  
+encounter with Harry.
 
 Life thus settled into a pattern.  Harry found that he could avoid Uncle Vernon
 more easily than he remembered being able to do even a few months ago, and Mrs.
@@ -71,7 +73,7 @@ it was hard to find time to do his homework.  Worse, if he did not get
 everything done, she would get upset, and her complaints were the one thing
 that would reliably cause Uncle Vernon to notice him.  Overall, it was best
 when she didn't notice him.  He learned to avoid making unnecessary noises, as
-that seemed to break or pause his invisibility.  
+that seemed to break or pause his invisibility.
 
 Like many children before him, he found that when no one notices you are there,
 adults say things that they would probably rather you not hear. It was this way
@@ -91,7 +93,7 @@ the local ACPCs.[^210902-9]  On one hand it was nice to know that someone had
 thought to complain about the way he was treated.  On the other, it angered him
 that the bearded man was apparently not letting those complaints come to
 anything.  Still, Harry figured it was better to know more than not; already
-habitually silent, he was now getting used to being invisible as well.  
+habitually silent, he was now getting used to being invisible as well.
 
 If only being invisible worked on Dudley.  Unlike everyone else, (even Aunt
 Petunia) Dudley *consistently* noticed when Harry was around.[^211219-3]
@@ -103,7 +105,7 @@ be.  Dudley seemed to know when Harry was home, versus when he stayed late at
 school.  It was endlessly annoying that the one person who could consistently
 remember him hated him.  With a great deal of very painful (when he did get
 caught) trial and error, Harry learned that while Dudley would *not* forget
-about him, there *were* limits to Dudley's inexplicable ability to find Harry.  
+about him, there *were* limits to Dudley's inexplicable ability to find Harry.
 
 If Dudley knew where Harry was, and Harry stayed there, then Dudley could always
 find him.  If Harry went somewhere Dudley expected Harry to go, Dudley could
@@ -126,7 +128,7 @@ already learned the geography of Little Whinging fairly well, now he was
 learning which buildings were least monitored and least trafficked.  Where were
 there rarely used corners or benches out of sight of the doors and windows, but
 in close proximity to them, where a mostly invisible boy would not get bumped
-into by someone who did not notice him?  
+into by someone who did not notice him?
 
 [^211219-3]: See [Appendix D].
 
@@ -134,10 +136,10 @@ into by someone who did not notice him?
 
 [^210528-1]: being an American, I do not actually know much about British
     schools, and have done only the most cursory research into them. Please
-    forgive any inaccuracies. 
+    forgive any inaccuracies.
 
-[^210810-1]: <https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/239040/PRIMARY_national_curriculum_-_Physical_education.pdf> states that students should be taught to swim, and that performance should be compared, for each student, over time.  Timed laps seems like one way a school would implement these two directives. 
+[^210810-1]: <https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/239040/PRIMARY_national_curriculum_-_Physical_education.pdf> states that students should be taught to swim, and that performance should be compared, for each student, over time.  Timed laps seems like one way a school would implement these two directives.
 
-[^210902-9]: See the [History] page, The Children Act of 1989 was not in effect yet. Again, please forgive my butchering of actual British law. 
+[^210902-9]: See the [History] page, The Children Act of 1989 was not in effect yet. Again, please forgive my butchering of actual British law.
 
 [History]: </harrypedia/history>

@@ -1,8 +1,14 @@
 ---
-title: "Appendix E: Life Expectancy"
+title: |
+  Appendix E: Life Expectancy
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
+sidebar:
+  order: 100
 ---
 
-| Average Power Level | US Males 1900 | US Males 2001 | US Females 1900 | US Females 2001 | US Male Nephilim 1900 | US Male Nephilim 2001 | US Female Nephilim 1900 | US Female Nephilim 2001 
+| Average Power Level | US Males 1900 | US Males 2001 | US Females 1900 | US Females 2001 | US Male Nephilim 1900 | US Male Nephilim 2001 | US Female Nephilim 1900 | US Female Nephilim 2001
 :--------------------:|:-------------:|:-------------:|:---------------:|:---------------:|:---------------------:|:---------------------:|:-----------------------:|:-----------------------:|
 |          0          |     51.5      |     77.8      |      58.3       |      82.8       |         51.5          |         77.8          |          58.3           |          82.8           |
 |          1          |     51.5      |     77.8      |      58.3       |      82.8       |         57.50         |         83.80         |          63.39          |          87.9           |
@@ -24,14 +30,14 @@ potions), versus their tendency to ignore non-magical advances in science after
 the statute of secrecy.
 
 The extend to which magic extends the nephil's life depends on the nephil's
-average power level. For males, I settled on the formula 
+average power level. For males, I settled on the formula
 ```
-a = x-29.9+29.9e^0.183y 
+a = x-29.9+29.9e^0.183y
 ```
 where a is their estimated average lifespan, x is the
 life expectancy for a non-magical person, e is Euler's number, and y is the
-average of their nine power levels (excluding any zeros). For females, using 
-the same variables, I settled on the formula 
+average of their nine power levels (excluding any zeros). For females, using
+the same variables, I settled on the formula
 ```
 a = x-22.39+22.39e^0.205y
 ```
@@ -47,4 +53,3 @@ at around 87.  The first says that magic is extending fertility as well as
 lifespan.  The second says that these are *average* numbers, and that there are
 still magical diseases that can drastically shorten them (since we know they
 died of dragon pox).
-

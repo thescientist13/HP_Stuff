@@ -1,8 +1,10 @@
 ---
-title: "Prologue"
-author: "Luke Schierer"
-weight: 2
-tableOfContents: false
+title: Prologue
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
+sidebar:
+  order: 0
 ---
 
 While Lily Potter had excelled in potions, she had been a charms
@@ -110,13 +112,13 @@ shard could not possess her son.  A battle of wills and of magic began.
 
 [^202104201]: See my notes on [Culture](/harrypedia/culture)
 
-[^202109028]: See the author's notes on 
+[^202109028]: See the author's notes on
     [power levels](../appendices/appendix_d).
 
-[^202109027]: See the author's notes on 
+[^202109027]: See the author's notes on
     [power levels](../appendices/appendix_d/).
 
-[^202109026]: Per my initial [notes](../appendices/appendix_a), one of 
+[^202109026]: Per my initial [notes](../appendices/appendix_a), one of
     the key
     aspects of this universe is that I was fairly mathematical about magic.
     Thus the most pivotal characters need a breakdown of their abilities.

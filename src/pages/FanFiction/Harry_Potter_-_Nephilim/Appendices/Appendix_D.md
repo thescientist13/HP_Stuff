@@ -1,8 +1,14 @@
 ---
-title: "Appendix D: Relative Power Levels"
+title: |
+  Appendix D: Relative Power Levels
+sidebar:
+  order: 100
 tableOfContents:
    minHeadingLevel: 2
    maxHeadingLevel: 5
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
 ---
 
 Per the inheritance rules, you can follow a different rule for inheritance in
@@ -17,31 +23,31 @@ chart this out, **there is no in-world test that would reveal these numbers.**
 |-------------------|-----------------------|----------|----------|---------|-----------|---------|--------|----------------|------------|--------|---------|
 | Dumbledore        | [Albus](#albus)       | 7        | 7        | 9       | 10        | 10      | 9      | 7              | 7          | 9      | 8.22    |
 | Riddle            | [Tom](#tom)           | 9        | 5        | 10      | 8         | 7       | 9      | 5              | 10         | 9      | 8.00    |
-| Snape             | [Severus](#severus)   | 8        | 9        | 7       | 6         | 9       | 9      | 5              | 8          | 7      | 7.55    |    
-| Potter            | [Harry](#harry)       | 8        | 6        | 9       | 8         | 7       | 8      | 9              | 9          | 8      | 8.00    |   
-| Potter            | [James](#james)       | 8        | 4        | 9       | 10        | 5       | 9      | 8              | 9          | 6      | 7.55    |  
-| Potter            | [Euphemia](#euphemia) | 3        | 1        | 10      | 10        | 4       | 9      | 2              | 9          | 6      | 6.00    | 
-| Potter            | [Fleamont](#fleamont) | 7        | 8        | 8       | 4         | 8       | 7      | 6              | 9          | 6      | 7.00    |    
-| Prince            | [Eileen](#eileen)     | 2        | 7        | 3       | 6         | 5       | 4      | 3              | 4          | 4      | 4.22    |   
-| Evans             | [Lily](#lily)         | 7        | 7        | 7       | 6         | 9       | 7      | 9              | 6          | 8      | 7.33    |  
-| Evans             | Mrs.                  | 1        | 2        | 1       | 2         | 3       | 3      | 3              | 3          | 3      | 2.33    |  
-| Evans             | Mr.                   | 2        | 1        | 1       | 2         | 3       | 3      | 3              | 2          | 3      | 2.22    |  
-| Evans             | Petunia               | 1        | 1        | 1       | 0         | 0       | 1      | 1              | 0          | 0      | 0.55    |  
-| Figg              | Arabella              | 0        | 2        | 0       | 1         | 2       | 1      | 0              | 0          | 0      | 0.44    |  
-| Dursley           | [Dudley](#dudley)     | 1        | 1        | 0       | 0         | 0       | 0      | 0              | 0          | 0      | 0.22    |   
-| Granger           | [Hermione](#hermione) | 4        | 6        | 5       | 9         | 7       | 8      | 5              | 6          | 6      | 6.22    |   
-| Weasley           | [Fred](#fred)         | 5        | 9        | 4       | 7         | 8       | 8      | 5              | 8          | 9      | 7.00    |   
-| Weasley           | [George](#george)     | 5        | 9        | 4       | 8         | 7       | 8      | 5              | 7          | 9      | 7.00    |   
-| Weasley           | [Charlie](#charlie)   | 6        | 9        | 4       | 5         | 8       | 9      | 7              | 8          | 7      | 7.00    |   
-| Weasley           | [Bill](#bill)         | 6        | 9        | 4       | 8         | 4       | 9      | 9              | 7          | 9      | 7.22    |   
-| Weasley           | [Ronald](#ronald)     | 3        | 6        | 4       | 6         | 6       | 7      | 9              | 8          | 8      | 6.22    |   
-| Weasley           | [Percy](#percy)       | 3        | 8        | 3       | 6         | 7       | 7      | 7              | 7          | 7      | 6.11    |   
-| Weasley           | [Ginny](#ginny)       | 5        | 8        | 4       | 9         | 9       | 8      | 8              | 9          | 8      | 7.55    |   
-| Weasley           | Arthur                | 5        | 9        | 6       | 7         | 7       | 8      | 8              | 7          | 9      | 7.33    |   
+| Snape             | [Severus](#severus)   | 8        | 9        | 7       | 6         | 9       | 9      | 5              | 8          | 7      | 7.55    |
+| Potter            | [Harry](#harry)       | 8        | 6        | 9       | 8         | 7       | 8      | 9              | 9          | 8      | 8.00    |
+| Potter            | [James](#james)       | 8        | 4        | 9       | 10        | 5       | 9      | 8              | 9          | 6      | 7.55    |
+| Potter            | [Euphemia](#euphemia) | 3        | 1        | 10      | 10        | 4       | 9      | 2              | 9          | 6      | 6.00    |
+| Potter            | [Fleamont](#fleamont) | 7        | 8        | 8       | 4         | 8       | 7      | 6              | 9          | 6      | 7.00    |
+| Prince            | [Eileen](#eileen)     | 2        | 7        | 3       | 6         | 5       | 4      | 3              | 4          | 4      | 4.22    |
+| Evans             | [Lily](#lily)         | 7        | 7        | 7       | 6         | 9       | 7      | 9              | 6          | 8      | 7.33    |
+| Evans             | Mrs.                  | 1        | 2        | 1       | 2         | 3       | 3      | 3              | 3          | 3      | 2.33    |
+| Evans             | Mr.                   | 2        | 1        | 1       | 2         | 3       | 3      | 3              | 2          | 3      | 2.22    |
+| Evans             | Petunia               | 1        | 1        | 1       | 0         | 0       | 1      | 1              | 0          | 0      | 0.55    |
+| Figg              | Arabella              | 0        | 2        | 0       | 1         | 2       | 1      | 0              | 0          | 0      | 0.44    |
+| Dursley           | [Dudley](#dudley)     | 1        | 1        | 0       | 0         | 0       | 0      | 0              | 0          | 0      | 0.22    |
+| Granger           | [Hermione](#hermione) | 4        | 6        | 5       | 9         | 7       | 8      | 5              | 6          | 6      | 6.22    |
+| Weasley           | [Fred](#fred)         | 5        | 9        | 4       | 7         | 8       | 8      | 5              | 8          | 9      | 7.00    |
+| Weasley           | [George](#george)     | 5        | 9        | 4       | 8         | 7       | 8      | 5              | 7          | 9      | 7.00    |
+| Weasley           | [Charlie](#charlie)   | 6        | 9        | 4       | 5         | 8       | 9      | 7              | 8          | 7      | 7.00    |
+| Weasley           | [Bill](#bill)         | 6        | 9        | 4       | 8         | 4       | 9      | 9              | 7          | 9      | 7.22    |
+| Weasley           | [Ronald](#ronald)     | 3        | 6        | 4       | 6         | 6       | 7      | 9              | 8          | 8      | 6.22    |
+| Weasley           | [Percy](#percy)       | 3        | 8        | 3       | 6         | 7       | 7      | 7              | 7          | 7      | 6.11    |
+| Weasley           | [Ginny](#ginny)       | 5        | 8        | 4       | 9         | 9       | 8      | 8              | 9          | 8      | 7.55    |
+| Weasley           | Arthur                | 5        | 9        | 6       | 7         | 7       | 8      | 8              | 7          | 9      | 7.33    |
 | Weasley (Prewett) | [Molly](#molly)       | 4        | 8        | 2       | 8         | 8       | 8      | 8              | 8          | 8      | 6.88    |
 | Delacour          | [Fleur](#fleur)       | 5        | 5        | 10      | 9*        | 7       | 8*     | 8              | 7          | 8      | 7.44    |
 
-## Specific notes 
+## Specific notes
 
 ### Delacour
 
@@ -231,7 +237,7 @@ scores in the Thrones, but we know that Molly dabbled in love potions.  This
 would be a type of magic that easily has detrimental effects.  When, in the
 canon universe, Ron, Harry and Hermione are on the run in book seven, Ron
 learns the spells to hide their campsite easily because that is a type of magic
-that does in fact come naturally to him. 
+that does in fact come naturally to him.
 
 ## Implications
 
@@ -239,7 +245,7 @@ If you compare Snape, James, and Lily, you will see that Snape and James are
 almost precisely equal, except for their exact skill set, and that Lily is
 actually *slightly* under-powered compared to both of them.  This matches what
 Ollivander says of James' and Lily's wands, that James' has a little more power,
-and yet makes Lily powerful enough to be scary. 
+and yet makes Lily powerful enough to be scary.
 
 The other thing I have done is that the average of Riddle and Harry's abilities
 are both an 8, so that while they have different specific abilities, they are in
@@ -254,10 +260,10 @@ population effects from the Principalities are tied to locations, thus Harry is
 unconsciously enhancing his environment with magics that affect the people
 around him.  However, he will not find out that is happening until he has
 travelled far enough to see what it looks like when people are *not* affected by
-this magic. 
+this magic.
 
 If you stack rank Riddle against Lily and James, the there are really four things
-that make Riddle so scary. 
+that make Riddle so scary.
 
 1. With an inheritance of 9 from the Seraphim, few people can defend against his
    legilimency, particularly when he employs it in mid duel.
@@ -276,13 +282,13 @@ them:
 1. If you put the Goblet of Fire grave yard situation in this universe, then you
    would *not* just have Harry resisting Riddle, because Harry also has Lily's
    protection augmenting his capabilities.  Riddle never fully understood that
-   protection, and taking Harry's blood does not fully bypass it. 
+   protection, and taking Harry's blood does not fully bypass it.
 1. Lily's protection aside, you need to decide what theory of
    [horcruxes][] you are using, and what affect that theory has on Riddle's
    powers after the destruction of the diary.  For this work, I think that both
    the audience and the characters are in the dark about that answer, but
    suffice to say that one way or another, you cannot suffer the destruction of
-   a [horcrux][] you have created without *suffering.* 
+   a [horcrux][] you have created without *suffering.*
 1. In the books, Harry *learns* to resist the Imperius Curse, the fake Moody
    uses it several times on him before he can resist it easily.  Even then, it
    takes Harry noticeable effort to resist Riddle's when they meet in the
@@ -291,7 +297,7 @@ them:
    stand up to Riddle. This last suggests that anyone with a score of 8 in the
    Thrones can be taught to resist Riddle's Imperius Curse.  That puts James,
    Dumbledore, and Snape at a level where they need not fear Riddle overwhelming
-   them in the mind arts. 
+   them in the mind arts.
 
 [horcruxes]: </harrypedia/magic/dark/horcruxes>
 

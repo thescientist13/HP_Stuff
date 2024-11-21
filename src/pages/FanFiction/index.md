@@ -1,6 +1,7 @@
 ---
 title: "Fan Fiction"
 author: Luke Schierer
+layout: fanfiction
 ---
 
 # My Harry Potter Fan Fiction

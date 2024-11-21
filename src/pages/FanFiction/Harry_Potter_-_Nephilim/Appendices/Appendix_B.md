@@ -1,8 +1,14 @@
 ---
-title: "Appendix B: Rules of Magic"
+title: |
+  Appendix B: Rules of Magic
+author: Luke Schierer
+sidebar:
+  order: 100
 tableOfContents:
   minHeadingLevel: 2
   maxHeadingLevel: 4
+collection: Nephilim
+layout: fanfiction
 ---
 
 ## Overall Rules
@@ -10,8 +16,8 @@ tableOfContents:
 ### power levels
 
 Nephil can be rated on a scale of 1 (low) to 10 (high) for access to each class
-of [angelic abilities][abt].[^221216-2] This naturally means that for many of 
-the pivotal characters, I have [mathematical notes on their power levels][AD]. For 
+of [angelic abilities][abt].[^221216-2] This naturally means that for many of
+the pivotal characters, I have [mathematical notes on their power levels][AD]. For
 the purposes of this work:
 
 [AD]: <../appendix_d>
@@ -21,21 +27,21 @@ the purposes of this work:
 [^221216-2]: I have seen other fan fiction authors rate magical power on a
     mathematical scale, but not in the granular way I am.  These works include,
     but may not be limited to:
-    * old-crow. _[Dan Granger](https://www.fanfiction.net/s/10775872)_ Published: 2014-10-23. Updated: 2019-10-14. 
-    * kb0. _[The Lost Year](https://www.fanfiction.net/s/13815274)_ Published: 2021-02-09. Updated: 2021-03-24. 
+    * old-crow. _[Dan Granger](https://www.fanfiction.net/s/10775872)_ Published: 2014-10-23. Updated: 2019-10-14.
+    * kb0. _[The Lost Year](https://www.fanfiction.net/s/13815274)_ Published: 2021-02-09. Updated: 2021-03-24.
 
 | Power Level | Ability Estimate                                                                                                                                                                                                                                                                                                                                                                                    |
 |:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |      1      | <ul><li>some single weak ability within this category</li> <li>no conscious control</li></ul>                                                                                                                                                                                                                                                                                                       |
-|      2      | <ul><li>**one** of the following:<ul><li>multiple barely detectable abilities</li> <li>conscious control of a single weak ability</li><li>single ability of moderate strength without conscious control</li></ul></li></ul>                                                                                                                                                                         |                                                                                                                                                                         
-|      3      | <ul><li>able to manipulate this category of magic with great difficulty</li></ul>                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                       
-|      4      | <ul><li>able to achieve minimally acceptable levels of competence in this category of magic</li> <li>if some OWL test depended solely on this category of magic, expect to score in the P range.</li></ul>                                                                                                                                                                                          |                                                                                                                                                                      
-|      5      | <ul><li>expected to achieve acceptable levels of proficiency in this category of magic</li> <li>if some OWL test depended solely on this category of magic, expect to score in the A range.</li></ul>                                                                                                                                                                                               |                                                                                                                                                                     
-|      6      | <ul><li>expected to be capable of more advanced learning in this category of magic.</li> <li>if some OWL test depended solely on this category of magic, expect to score in the E range.</li> <li>if some NEWT test depended solely on this category of magic, expect to score in the A range.</li></ul>                                                                                            |                                                                                            
-|      7      | <ul><li>expected to be capable of doing well in an advanced course on this category of magic.</li> <li>if some OWL test depended solely on this category of magic, expect to score in the O range.</li> <li>if some NEWT test depended solely on this category of magic, expect to score in the E range.</li> <li>possibly capable of learning magics in this category beyond NEWT level.</li></ul> | 
-|      8      | <ul><li>expected to be capable of doing well in an advanced course on this category of magic.</li> <li>if some OWL test depended solely on this category of magic, expect to score in the O range.</li> <li>if some NEWT test depended solely on this category of magic, expect to score in the O range.</li> <li>capable of learning magics in this category beyond NEWT level.</li></ul>          | 
-|      9      | <ul><li>expected to learn OWL and NEWT level magics with relative ease.</li> <li>expected to learn magics beyond the NEWT level in this category of magic.</li> <li>instinctual (unconscious) use of magic in this category is extremely common.</li></ul>                                                                                                                                          | 
-|     10      | <ul><li>learning this category of magic is more about finding out what is possible and fine-tuning abilities you already have.</li><li>OWL and NEWT practicals will be easy, but theory portions may be difficult for this person, because their magic is in fact instinctual in this area.</ul>                                                                                                    |  
+|      2      | <ul><li>**one** of the following:<ul><li>multiple barely detectable abilities</li> <li>conscious control of a single weak ability</li><li>single ability of moderate strength without conscious control</li></ul></li></ul>                                                                                                                                                                         |
+|      3      | <ul><li>able to manipulate this category of magic with great difficulty</li></ul>                                                                                                                                                                                                                                                                                                                   |
+|      4      | <ul><li>able to achieve minimally acceptable levels of competence in this category of magic</li> <li>if some OWL test depended solely on this category of magic, expect to score in the P range.</li></ul>                                                                                                                                                                                          |
+|      5      | <ul><li>expected to achieve acceptable levels of proficiency in this category of magic</li> <li>if some OWL test depended solely on this category of magic, expect to score in the A range.</li></ul>                                                                                                                                                                                               |
+|      6      | <ul><li>expected to be capable of more advanced learning in this category of magic.</li> <li>if some OWL test depended solely on this category of magic, expect to score in the E range.</li> <li>if some NEWT test depended solely on this category of magic, expect to score in the A range.</li></ul>                                                                                            |
+|      7      | <ul><li>expected to be capable of doing well in an advanced course on this category of magic.</li> <li>if some OWL test depended solely on this category of magic, expect to score in the O range.</li> <li>if some NEWT test depended solely on this category of magic, expect to score in the E range.</li> <li>possibly capable of learning magics in this category beyond NEWT level.</li></ul> |
+|      8      | <ul><li>expected to be capable of doing well in an advanced course on this category of magic.</li> <li>if some OWL test depended solely on this category of magic, expect to score in the O range.</li> <li>if some NEWT test depended solely on this category of magic, expect to score in the O range.</li> <li>capable of learning magics in this category beyond NEWT level.</li></ul>          |
+|      9      | <ul><li>expected to learn OWL and NEWT level magics with relative ease.</li> <li>expected to learn magics beyond the NEWT level in this category of magic.</li> <li>instinctual (unconscious) use of magic in this category is extremely common.</li></ul>                                                                                                                                          |
+|     10      | <ul><li>learning this category of magic is more about finding out what is possible and fine-tuning abilities you already have.</li><li>OWL and NEWT practicals will be easy, but theory portions may be difficult for this person, because their magic is in fact instinctual in this area.</ul>                                                                                                    |
 
 This begs the question "What do you mean by expected?"  Obviously there is no
 standards body anywhere in the world that is grading students using these
@@ -43,7 +49,7 @@ categories.  The nephil in this world have not accepted that they are descended
 from angels, and thus do not think of their abilities in terms of the angelic
 choirs.  What I mean is that, given adequate but not necessarily superlative instruction, someone who does not meet the stated goal is being
 lazy, suppressing their abilities, or both.  They are neglecting their own
-strengths.  
+strengths.
 
 ### abilities by type
 
@@ -77,8 +83,8 @@ nephil.
   The difference is that the Cherub's child really does not even need to be
   taught to the extent they inherit.  You will find no class in Hogwarts
   about detecting "spell residue" or similar ideas found in other fan fiction
-  works, because you can either do this without training or you cannot.  
-    
+  works, because you can either do this without training or you cannot.
+
 #### Thrones
 * The Thrones contemplate Judgement.
 * While the Thrones, like the Seraphim, are primarily contemplative, the
@@ -89,10 +95,10 @@ nephil.
   full humans. Things like the imperious curse or the confundus charm fit in
   here.  Thus fan fiction concepts like magical contracts are actually
   possible.[^221119-1]
-    
+
 #### Dominions
 * These angels are responsible for ordering the work of all other angels.
-  Their name implies actual, real authority. 
+  Their name implies actual, real authority.
 * The relationship between the way Dominions operate and the abilities the
   nephilim gain is somewhat indirect.  God creates by decree - He spoke and
   the world was made.  The nephilim are not capable of true creation, but
@@ -111,23 +117,23 @@ nephil.
   way.  My personal theory, which will naturally be used here, is that
   actually *doing* anything with the way physical laws work at a microscopic
   and sub-microscopic level would be either catastrophic, unduly influence
-  free will for those affected by it, or both.  
+  free will for those affected by it, or both.
 * The nephil inherits the ability to temporarily augment the nature of the
   natural world. Things like animation charms fit here, but so do things like
-  levitation charms. The other thing that fits here is that when a nephil who 
-  inherits from the Virtues handles certain raw materials (potions ingredients), 
-  these become "charged" with extra properties.  This is a deviation from Mrs. 
-  Rowling's explanation for potions.  Like the magic inherited from the 
-  Dominions, the magic inherited from the Virtues is highly temporary.  Indeed, 
-  these effects generally last only for the duration the nephil is actively 
-  providing magic.  
+  levitation charms. The other thing that fits here is that when a nephil who
+  inherits from the Virtues handles certain raw materials (potions ingredients),
+  these become "charged" with extra properties.  This is a deviation from Mrs.
+  Rowling's explanation for potions.  Like the magic inherited from the
+  Dominions, the magic inherited from the Virtues is highly temporary.  Indeed,
+  these effects generally last only for the duration the nephil is actively
+  providing magic.
 
 #### Powers
 * Powers are the first of the overtly militant angelic orders (looking from
   top down).  They protect the work of the Virtues from interference.  This,
   to me, implies that God providentially foresaw that giving angels free will
   would entail a universe in which that free will was exercised in wrong
-  ways. 
+  ways.
 * The nephil inherits the ability to affect time.  When used directly on the
   natural world, this results in things like time turners on one hand, but
   also stasis charms on the other.  Divination is *not* included in this
@@ -144,7 +150,7 @@ nephil.
 #### Principalities
 * The principalities are concerned with groups of people - nations, cities,
   clubs, ethnic groups.  They are not concerned with the individual, but with
-  the common good.  
+  the common good.
 * The nephil inherits the ability to create area effects on populations and
   places (unplottable, "muggle repelling", so on). This differs from the
   Thrones in that the gifts from the Thrones affect individuals regardless of
@@ -170,7 +176,7 @@ nephil.
   does the use of this magic result in a visible effect.  Recall that the
   nephilim come from fallen angels, so some of these offensive magics are
   corrupted and should not be used.  This is not to say that all harm is
-  always bad, but some magic requires a mindset that is inherently twisted. 
+  always bad, but some magic requires a mindset that is inherently twisted.
 
 #### Angels
 * Also called Guardian Angels, these angels are tasked with the welfare of
@@ -238,7 +244,7 @@ Harry Potter cannon breaks magic down into:
   you make the change*.
   - Gramp's Law is problematic.  As noted in the [Harry Potter Wiki][HPW1],
     even Gramp's Law's exceptions seem to have exceptions, for example wine
-    can be conjured.[^220718-1] For my purposes the problems are two fold: 
+    can be conjured.[^220718-1] For my purposes the problems are two fold:
     * transfiguration is temporary by default.  Your transfigured food will
       revert.  For something like water into wine, that is not actually a
 	  problem.  For something like a sandwich, you would now have a block o
@@ -249,9 +255,9 @@ Harry Potter cannon breaks magic down into:
 	  successful, and where they do, it tends to be fairly pure elements,
 	  like raw iron into raw gold.  But even then, combining your
 	  transmutation with the Powers magic necessary to make it permanent is
-	  poorly understood, thus poorly taught, and so see the prior point. 
+	  poorly understood, thus poorly taught, and so see the prior point.
 
-[^220718-1]: [Harry Potter Wiki][HPW1]. 
+[^220718-1]: [Harry Potter Wiki][HPW1].
     "[Gamp's Law of Elemental Transfiguration](https://harrypotter.fandom.com/wiki/Gamp%27s_Law_of_Elemental_Transfiguration)"
     Last Edited: 2022-07-03. Last Viewed: 2022-07-18.
 
@@ -259,19 +265,19 @@ Harry Potter cannon breaks magic down into:
 
 ### Defence
 * I am mostly taking [Ishtar][]'s position from _[The Case of the Missing
-  Wizard][TCMW1]_ but with a twist.  Much of the content in this class is, as 
+  Wizard][TCMW1]_ but with a twist.  Much of the content in this class is, as
   Ishtar would have it, a mix of Charms, Runes, Transfiguration, Care of Magical
   Creatures, and so on.  However, some of it, particularly as it comes to the
   study of specific counter curses and shields, comes from the Angels.  Some of
   it, where actual offensive spells are taught (such as the knockback jinx),
-  comes from the Archangels.  
+  comes from the Archangels.
 * As I see it, this class is a mishmash of content, part learning about
   "dark" creatures, part learning about the curses you are defending against
   (except not practising casting them), part learning about the counters to those
   curses, and part learning about avoiding the need to ever use those counter
   curses.  Since many spells *can* be used either offensively or defensively,
   but are not *inherently* combat related, this class is pulling from all
-  sorts of branches of magic. 
+  sorts of branches of magic.
 
 [TCMW1]: <https://archiveofourown.org/works/4125717>
 
@@ -308,7 +314,7 @@ Harry Potter cannon breaks magic down into:
   level for it to end up being digestible. A comfortable chair does not need
   to be so accurate, because we expect it to remain a chair.  A sandwich we
   expect our bodies to *break down* into the constituent molecules, which
-  thus *have to be there*. 
+  thus *have to be there*.
 
 ### Vanishing
 * though considered transfiguration, this is actually a really weird mix of
@@ -414,9 +420,9 @@ Harry Potter cannon breaks magic down into:
 
 * Users of the first form make future generations more susceptible to magics
   inherited from the Seraphim and Thrones (for four generations per my rules
-  on nephil [inheritance][AC].  So while in general someone strong in the 
-  Thrones could normally resist the imperious curse, if they come from a family 
-  steeped in the use of divination, then he/she personally will be abnormally 
+  on nephil [inheritance][AC].  So while in general someone strong in the
+  Thrones could normally resist the imperious curse, if they come from a family
+  steeped in the use of divination, then he/she personally will be abnormally
   susceptible to this magic.
 
 ### Arithmancy
@@ -478,21 +484,21 @@ Harry Potter cannon breaks magic down into:
   part of the cultural history that pure bloods inherit, as well as part of
   the history of the relationship between nephilim and the Catholic Church.
   How would the Church handle someone validly married who is now magically
-  forced to marry someone else?  
+  forced to marry someone else?
 * See [Appendix F][AF] for specifics on contracts.
-* See [Appendix G][AG] for more on how the Church was affected. 
-* See [Appendix H][AH] for more on why this works on nephilim.  
+* See [Appendix G][AG] for more on how the Church was affected.
+* See [Appendix H][AH] for more on why this works on nephilim.
 * Structurally speaking, how this works depends on the nature of the contract.
   - A written contract is (unknown to the nephilim) essentially a highly modern
-    form of runes.  You use magic inherited from the Virtues to give your 
-    writing power, in this case power inherited from the Thrones to compel the 
-    will of those bound by the contract.  The contract may be further infused 
-    by the Powers to give it duration, or may depend on the existence of the 
-    paper contract to ensure its persistence.  Different subsets of nephilim 
-    may or may not have realised that destroying the physical contract will 
+    form of runes.  You use magic inherited from the Virtues to give your
+    writing power, in this case power inherited from the Thrones to compel the
+    will of those bound by the contract.  The contract may be further infused
+    by the Powers to give it duration, or may depend on the existence of the
+    paper contract to ensure its persistence.  Different subsets of nephilim
+    may or may not have realised that destroying the physical contract will
     (in some cases)	destroy the magical contract.
-  - Per [Appendix F][AF], no matter how skilful or powerful the author, no 
-    contract is as successful at binding the will as an [Imperius] curse. See 
+  - Per [Appendix F][AF], no matter how skilful or powerful the author, no
+    contract is as successful at binding the will as an [Imperius] curse. See
     the caveat in [Appendix F][AF].  Nephilim, not understanding that fine
     grained condition, do not understand why some contracts work and others do
     not.
@@ -503,17 +509,17 @@ Harry Potter cannon breaks magic down into:
     stored in between Triwizard Tournaments.  Modern users have not taken
     the time to carefully inspect either.
   - Other forms of 'contract' magic leverage the mutable nature of the nephilim
-    rather than relying on the power of the thrones.  
-    + These lack the versatility of written contracts, in that they cannot be 
-      prepared in advanced by a skilled practitioner with fine-tuned terms, 
-      conditions, effects, limitations, loop-holes, and all the other things 
+    rather than relying on the power of the thrones.
+    + These lack the versatility of written contracts, in that they cannot be
+      prepared in advanced by a skilled practitioner with fine-tuned terms,
+      conditions, effects, limitations, loop-holes, and all the other things
       that a fallen people have wanted in their agreements over the centuries.
     + Similarly, the contract that lacks a physical representation cannot be
       used as flexibly, one can bind oneself or one's descendants, but not
-      a pair of unknown and unrelated persons. 
+      a pair of unknown and unrelated persons.
     + Where the written contract uses the magic of the writer, these use the
-      magic of those entering into them.  
-  
+      magic of those entering into them.
+
 [AA]: <../appendix_a>
 
 [AB]: <../appendix_b>
@@ -545,4 +551,3 @@ Harry Potter cannon breaks magic down into:
 
 [^220628-5]: Mrs. J. K. Rowling. _[Uagadou](https://www.rowlingindex.org/work/pmuag/)_
     [The J.K. Rowling Index](https://www.rowlingindex.org/).  Publication Date: 2016-01-31. Last Viewed: 2022-06-28.
-

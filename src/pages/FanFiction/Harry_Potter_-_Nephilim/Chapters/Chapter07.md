@@ -1,7 +1,8 @@
 ---
-title: "Chapter 7"
-author: "Luke Schierer"
-tableOfContents: false
+title: Chapter 07
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
 ---
 
 Harry is now in Year 6, his final year of Primary School.  The FSSP priest
@@ -12,13 +13,13 @@ and about the magical world, but from the Church's perspective.  The Church
 never signed the [[International Statue of Wizarding Secrecy|Harry_Potter/Notes/Culture]] (ISWS),
 but does mostly tacitly obey it and keep things quiet/secret.  As a result
 though, the Church knows far more about the magical world than anyone magical
-would suspect, in some cases more than they know about themselves.  
+would suspect, in some cases more than they know about themselves.
 
 *For the story to work, Harry must not be baptised until sometime after he
 starts Hogwarts.*  This can thus cover Year 6, but no formal
 conversion.  Like Chesterton, Harry must delay his conversion for some time
-after he has converted in his thinking. 
+after he has converted in his thinking.
 
-[^20210604-8]: See the [History] page, The Children Act 1989 was not in effect yet.  
+[^20210604-8]: See the [History] page, The Children Act 1989 was not in effect yet.
 
 [History]: </harrypedia/history>

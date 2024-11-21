@@ -1,13 +1,16 @@
 ---
 title: "Backstory: The FSSP"
-weight: 34
-author: "Luke Schierer"
+sidebar:
+  order: 250
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
 ---
 
 The Priestly Fraternity of St Peter is real,[^211219-4] as is the Parish of St
 John Fisher.[^211219-5]  I am asserting a couple of historical fictions.  I have
 moved the parish from Reading to Little Whinging Surrey, and I have moved it back
-in time from 2007 or so to roughly 1989.  
+in time from 2007 or so to roughly 1989.
 
 This is problematic in a couple of senses, but necessary for the story.
 
@@ -16,7 +19,7 @@ This is problematic in a couple of senses, but necessary for the story.
 
 However, given my [AU Rules][AA] it makes much
 more sense that it would be an order dedicated to things traditional that would
-remember the (fictional) nephilim.  
+remember the (fictional) nephilim.
 
 For the purposes of this universe, the FSSP was established a decade earlier
 than real life.  In 1988 instead of being newly created *anywhere*, it is given
@@ -37,4 +40,3 @@ want to make waves before they are formally established in the diocese.
 [^211219-6]: <https://fssp.com/who-we-are/>
 
 [^211219-7]: <https://fssp.org.uk/about-the-fssp/>
-

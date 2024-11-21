@@ -6,7 +6,7 @@ import { CardGrid } from "./card-grid.ts";
 export default class TopCardGrid extends CardGrid {
   public constructor() {
     super();
-    this.gridsections = [
+    this.gridCards = [
       {
         title: "Encyclopedic Reference",
         target: "Harrypedia",

@@ -8,7 +8,7 @@ import SpectrumCard from "/node_modules/@spectrum-css/card/dist/index.css" with 
 @customElement("horizontal-card")
 class HorizontalCard extends LitElement {
   @property({ type: String })
-  public title: string = "";
+  public cardTitle: string | String = "";
 
   @property({ type: String })
   public targetLocation: string = "";
@@ -30,14 +30,14 @@ class HorizontalCard extends LitElement {
 
   constructor() {
     super();
-    if (this.title.length > 0) {
-      const target = this.title.replaceAll(" ", "");
+    if (this.cardTitle.length > 0) {
+      const target = this.cardTitle.replaceAll(" ", "");
       this._targetUrl = `/${target}/`;
     }
 
     if (DEBUG) {
       console.log(
-        `_targetUrl from constructor is ${this._targetUrl.toString()}`,
+        `_targetUrl from constructor is ${this._targetUrl.toString()}`
       );
     }
   }
@@ -62,14 +62,14 @@ class HorizontalCard extends LitElement {
     if (DEBUG) {
       console.log(`willupdate start`);
       console.log(
-        `_changedProperties has ${Object.keys(_changedProperties).join(" ")}`,
+        `_changedProperties has ${Object.keys(_changedProperties).join(" ")}`
       );
-      console.log(`title is ${this.title}`);
+      console.log(`HorizontalCard willUpdate title is ${this.cardTitle}`);
     }
     if (_changedProperties.has("targetLocation")) {
       if (DEBUG) {
         console.log(
-          `setting _targetUrl based on change in targetLocation ${this.targetLocation}`,
+          `setting _targetUrl based on change in targetLocation ${this.targetLocation}`
         );
       }
       if (this.targetLocation.length > 0) {
@@ -78,48 +78,50 @@ class HorizontalCard extends LitElement {
     } else if (this.targetLocation.length > this._targetUrl.length) {
       if (DEBUG) {
         console.log(
-          `setting _targetUrl based on length of targetLocation ${this.targetLocation}`,
+          `setting _targetUrl based on length of targetLocation ${this.targetLocation}`
         );
       }
       this.setTargetURL(this.targetLocation);
     }
     if (_changedProperties.has("title")) {
       if (DEBUG) {
-        console.log(`setting _targetUrl based on changed title ${this.title}`);
-      }
-      if (
-        !this._targetUrl.includes(this.targetLocation) ||
-        this.targetLocation.length == 0
-      ) {
-        this.setTargetURL(this.title);
-      } else {
-        if (DEBUG) {
-          console.log(
-            `not setting based on title because _targetUrl ${this._targetUrl} and targetLocation ${this.targetLocation}`,
-          );
-          console.log(
-            `targetLocation has length ${this.targetLocation.length}`,
-          );
-        }
-      }
-    } else if (this.title.length > this._targetUrl.length) {
-      if (DEBUG) {
         console.log(
-          `setting _targetUrl based on length of title ${this.title}`,
+          `setting _targetUrl based on changed title ${this.cardTitle}`
         );
       }
       if (
         !this._targetUrl.includes(this.targetLocation) ||
         this.targetLocation.length == 0
       ) {
-        this.setTargetURL(this.title);
+        this.setTargetURL(this.cardTitle);
       } else {
         if (DEBUG) {
           console.log(
-            `not setting based on title because _targetUrl ${this._targetUrl} and targetLocation ${this.targetLocation}`,
+            `not setting based on title because _targetUrl ${this._targetUrl} and targetLocation ${this.targetLocation}`
           );
           console.log(
-            `targetLocation has length ${this.targetLocation.length}`,
+            `targetLocation has length ${this.targetLocation.length}`
+          );
+        }
+      }
+    } else if (this.cardTitle.length > this._targetUrl.length) {
+      if (DEBUG) {
+        console.log(
+          `setting _targetUrl based on length of title ${this.cardTitle}`
+        );
+      }
+      if (
+        !this._targetUrl.includes(this.targetLocation) ||
+        this.targetLocation.length == 0
+      ) {
+        this.setTargetURL(this.cardTitle);
+      } else {
+        if (DEBUG) {
+          console.log(
+            `not setting based on title because _targetUrl ${this._targetUrl} and targetLocation ${this.targetLocation}`
+          );
+          console.log(
+            `targetLocation has length ${this.targetLocation.length}`
           );
         }
       }
@@ -169,7 +171,7 @@ class HorizontalCard extends LitElement {
               <div
                 class="spectrum-Card-title spectrum-Heading spectrum-Heading--sizeXS"
               >
-                ${this.title}
+                ${this.cardTitle}
               </div>
             </div>
             <div class="spectrum-Card-content">

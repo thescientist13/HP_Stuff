@@ -1,7 +1,9 @@
 ---
-title: "Chapter 6"
-author: "Luke Schierer"
-tableOfContents: false
+title: Chapter 06
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
+
 ---
 
 Like many towns in England, the historical churches in town had long ago been
@@ -13,7 +15,7 @@ established just far enough out of the direct path between the local primary
 school and home that Harry occasionally went near it, but not so close that it
 was a common feature of either his or Dudley's mental map of Little Whinging.
 Harry, always looking for new places to hide, eventually entered one afternoon
-in late October.  
+in late October.
 
 The Dursleys were not a church going family, and even if they had been, they
 would not have brought "that Potter boy" with them (never mind that Vernon, as
@@ -41,7 +43,7 @@ that it only occurred to him that he ought to have gone up to the boy and
 actually investigated the matter much latter that night long after Harry had
 left. Thus it was that Harry never knew that he had not, in fact, successfully
 hidden that day, and that someone, for the first time in almost three months,
-had spontaneously *seen him.*  
+had spontaneously *seen him.*
 
 ---
 
@@ -61,4 +63,4 @@ become just another building.
 
 [FSSP]: <../../backstory/FSSP>
 
-[^220818-2]: Who is a real person, but much younger than in this story. 
+[^220818-2]: Who is a real person, but much younger than in this story.

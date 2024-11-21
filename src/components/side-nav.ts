@@ -12,15 +12,7 @@ import SpectrumSideNav from "/node_modules/@spectrum-css/sidenav/dist/index.css"
 
 const DEBUG = 0;
 
-type Page = {
-  id: string;
-  title: string;
-  label: string;
-  route: string;
-  data: {
-    directory?: boolean
-  };
-};
+import { sortPages, type Page } from "../lib/greenwoodPages.ts";
 
 @customElement("side-nav")
 export default class SideNav extends LitElement {
@@ -38,9 +30,7 @@ export default class SideNav extends LitElement {
     const sectionFileRoutes = new Array<string>();
     const sectionFiles = new Array<Page>();
     sectionContents
-      .sort((a, b) => {
-        return a.id.localeCompare(b.id);
-      })
+      .sort((a, b) => sortPages(a, b))
       .filter((section: Page) => {
         return section.route.startsWith(SubSection);
       })
@@ -60,7 +50,7 @@ export default class SideNav extends LitElement {
         const candidate = section.route;
         if (candidate.localeCompare(this.route)) {
           if (!sectionFileRoutes.includes(candidate)) {
-            if(DEBUG) {
+            if (DEBUG) {
               console.log(`findChildFiles pushing ${candidate}`);
             }
             sectionFileRoutes.push(candidate);
@@ -68,8 +58,10 @@ export default class SideNav extends LitElement {
           }
         }
       });
-    if(DEBUG) {
-      console.log(`SpectrumSideNav findChildFiles ${TopSection} ${SubSection} found ${sectionFiles.length}`);
+    if (DEBUG) {
+      console.log(
+        `SpectrumSideNav findChildFiles ${TopSection} ${SubSection} found ${sectionFiles.length}`,
+      );
     }
     return sectionFiles;
   }
@@ -87,9 +79,7 @@ export default class SideNav extends LitElement {
     const sectionDirectories = new Array<Page>();
     const sectionDirectoryRoutes = new Array<string>();
     sectionContents
-      .sort((a, b) => {
-        return a.id.localeCompare(b.id);
-      })
+      .sort((a, b) => sortPages(a, b))
       .filter((page: Page) => {
         return page.route.startsWith(SubSection);
       })
@@ -120,7 +110,7 @@ export default class SideNav extends LitElement {
         const routeArray = page.route.split("/");
         const candidate = routeArray.slice(0, -1).join("/") + "/";
         if (!sectionDirectoryRoutes.includes(candidate)) {
-          if(DEBUG) {
+          if (DEBUG) {
             console.log(`findChildDirectories pushing ${candidate}`);
           }
           sectionDirectoryRoutes.push(candidate);
@@ -180,40 +170,44 @@ export default class SideNav extends LitElement {
         console.log(`rendering ${page.route} at depth ${depth}`);
       }
       let testDepth = 2;
-      if(
+      if (
         page.route.startsWith(this.route) ||
         this.route.startsWith(page.route)
       ) {
-        testDepth = this.route.split('/').length - 1;
-        if(DEBUG) {
+        testDepth = this.route.split("/").length - 1;
+        if (DEBUG) {
           console.log(`new testDepth for route ${this.route} is ${testDepth}`);
         }
       }
-      if(directory && !this.route.localeCompare(TopSection)) {
-        const routeArray = this.route.split('/');
-        const pageArray = page.route.split('/');
-        if(this.route.length > 1 && pageArray.length >= routeArray.length) {
+      if (directory && !this.route.localeCompare(TopSection)) {
+        const routeArray = this.route.split("/");
+        const pageArray = page.route.split("/");
+        if (this.route.length > 1 && pageArray.length >= routeArray.length) {
           let match: boolean = true;
           routeArray.pop();
           routeArray.pop();
           for (let i = 0; i < routeArray.length; i++) {
-            if(routeArray[i].localeCompare(pageArray[i])) {
-              if(DEBUG) {
-                console.log(`detected mismatch ${routeArray[i]} and ${page.route} at ${i}`)
+            if (routeArray[i].localeCompare(pageArray[i])) {
+              if (DEBUG) {
+                console.log(
+                  `detected mismatch ${routeArray[i]} and ${page.route} at ${i}`,
+                );
               }
               match = false;
               break;
             }
           }
-          if(match) {
+          if (match) {
             testDepth++;
           }
         }
-        if(DEBUG) {
-          console.log(`new testDepth for route ${this.route} page ${page.id} is ${testDepth}`);
+        if (DEBUG) {
+          console.log(
+            `new testDepth for route ${this.route} page ${page.id} is ${testDepth}`,
+          );
         }
       }
-      if (depth < testDepth || this.route.startsWith(page.route) ) {
+      if (depth < testDepth || this.route.startsWith(page.route)) {
         if (DEBUG) {
           console.log(`depth is ${depth} looking at children for ${page.id}`);
         }
@@ -249,10 +243,10 @@ export default class SideNav extends LitElement {
           }
           const SubMenuTemplates = new Array<TemplateResult>();
 
-          if(ChildDirs.length > 0) {
+          if (ChildDirs.length > 0) {
             ChildDirs.map((child) => {
               if (child.route.localeCompare(page.route)) {
-                if(DEBUG) {
+                if (DEBUG) {
                   console.log(
                     `rendering ${page.route}, child Directory is ${child.route}`,
                   );
@@ -265,16 +259,16 @@ export default class SideNav extends LitElement {
                   true,
                 );
                 if (childTemplate) {
-                   SubMenuTemplates.push(...childTemplate);
+                  SubMenuTemplates.push(...childTemplate);
                 }
               }
-            })
+            });
           }
 
-          if(selected && directory && ChildFiles.length > 0) {
+          if (selected && directory && ChildFiles.length > 0) {
             ChildFiles.map((child) => {
               if (child.route.localeCompare(page.route)) {
-                if(DEBUG) {
+                if (DEBUG) {
                   console.log(
                     `rendering ${page.route}, child File is ${child.route}`,
                   );
@@ -284,13 +278,13 @@ export default class SideNav extends LitElement {
                   sectionContents,
                   child,
                   depth,
-                  false
+                  false,
                 );
                 if (childTemplate) {
                   SubMenuTemplates.push(...childTemplate);
                 }
               }
-            })
+            });
           }
 
           if (directory && (ChildDirs.length > 0 || ChildFiles.length > 0)) {
@@ -316,15 +310,17 @@ export default class SideNav extends LitElement {
             ${Submenu}
           </li>
         `);
-        if(DEBUG){
+        if (DEBUG) {
           console.log(
             `returnableTemplates has ${returnableTemplates.length} templates`,
           );
         }
       } else {
-        if(DEBUG) {
-          if(depth >= 2) {
-            console.log(`depth is ${depth}, not rendering ${page.route} for route ${this.route}`)
+        if (DEBUG) {
+          if (depth >= 2) {
+            console.log(
+              `depth is ${depth}, not rendering ${page.route} for route ${this.route}`,
+            );
           }
         }
       }
@@ -385,7 +381,6 @@ export default class SideNav extends LitElement {
   }
 
   static localStyle = css`
-
     nav {
       margin-left: -1.5rem;
     }

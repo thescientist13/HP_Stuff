@@ -1,6 +1,9 @@
 ---
-title: "Chapter 2"
-tableOfContents: false
+title: Chapter 02
+author: Luke Schierer
+collection: Nephilim
+layout: fanfiction
+
 ---
 
 Harry's prioritisation of the spiritual over the physical exposed him to his
@@ -48,7 +51,7 @@ limited animal brain, and thus struggled with complex thought (for thought is
 always affected by the physical brain a soul inhabits).  Thus Riddle gained no
 extra knowledge of a sleeping boy in Surrey England.
 
-- - - 
+- - -
 
 Aunt Petunia may not have actively hated him, but she certainly did not want
 to be reminded of her sister more than was really necessary.  As Harry grew
@@ -130,7 +133,7 @@ Thus, as she was teaching him, she was careful to guide him away from Petunia
 and Dudley's memories, and to focus him on the areas where a nephil differs
 little from the human.  Harry, excited by the wealth of information, and more by
 the potential safety that information offered, did not notice that anything even
-*was* different between the two of them and Vernon.  
+*was* different between the two of them and Vernon.
 
 Lily did not realise whether she was making a mistake.  Using legilimency
 solely to read emotions might be morally neutral, but the act of teaching
@@ -148,7 +151,7 @@ more about those risks the hard way.
     a different explanation.  Frankly the way Mrs. Rowling did things does not
     fully make sense, If Lily's protection lived on in Harry, then we need a
     *reason* for Riddle's soul to be able to both latch on and, even more,
-    affect Harry the way we see happen.  I'm providing that here. 
+    affect Harry the way we see happen.  I'm providing that here.
 
 [^210706-3]: The idea that magic is being used to prevent people from noticing
     Harry's situation is not original here, it occurs in birdwoman95's _[The Sound
@@ -159,12 +162,12 @@ more about those risks the hard way.
 
 [^201214-2]: look up presbylaryngis for where I got this idea. It is primarily
     age related, but from what I read, can happen for other reasons.  I realise
-    this is *extremely* unlikely. 
+    this is *extremely* unlikely.
 
-[^210208-2]: Kids in England start school at age four.  See 
-    "[THE BRITISH EDUCATION SYSTEM][TBES]" © Copyright The Learn English 
+[^210208-2]: Kids in England start school at age four.  See
+    "[THE BRITISH EDUCATION SYSTEM][TBES]" © Copyright The Learn English
     Network - All Rights Reserved, last viewed 2021-02-08.
 
 [TBES]: https://www.learnenglish.de/culture/educationculture.html
 
-[^210208-1]: See note about Lily and free will in Chapter 1. 
+[^210208-1]: See note about Lily and free will in Chapter 1.
