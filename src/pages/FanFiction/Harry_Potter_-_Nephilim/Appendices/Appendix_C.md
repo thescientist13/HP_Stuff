@@ -298,7 +298,6 @@ determine what happens to a given child.
      anything, and even less ability to understand something is gravely wrong.
 
 
-
 [^210916-2]: This idea resembles that from Jeconais'
     _[Hope](https://jeconais.fanficauthors.net/Hope)_
     Last Updated: 2007-05-30. Last Viewed: 2021-09-16.

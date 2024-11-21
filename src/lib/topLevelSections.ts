@@ -4,7 +4,7 @@ export const TopLevelSections = z.enum([
   "Harrypedia",
   "FanFiction",
   "Searches",
-  "Book Marks",
+  "Bookmarks",
 ]);
 
 export type TopLevelSections = z.infer<typeof TopLevelSections>;
