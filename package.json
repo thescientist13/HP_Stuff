@@ -80,5 +80,6 @@
   },
   "workspaces": [
     "infrastructure"
-  ]
+  ],
+  "packageManager": "npm@10.9.0"
 }
