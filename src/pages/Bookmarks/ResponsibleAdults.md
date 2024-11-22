@@ -11,13 +11,15 @@ sometimes they are *trying* and failing, other times they are effectively
 negligent.  Sometimes they are simply effectively absent.  Irregardless, the
 story is only possible because children are doing things that adults should
 have taken care of.  The Harry Potter series is no exception, though it differs
-from many in that it features adults in *all* of these categories.  
+from many in that it features adults in *all* of these categories.
 
 This is a collection of fan fiction stories that are note-worthy primarily
-because they showcase some aspect of adults being … adults. 
+because they showcase some aspect of adults being … adults.
 
 <dl>
-    <dt>_[Harry Potter and the Burning of Bridges](https://www.fanfiction.net/s/13279982)_</dt>
+    <dt>
+      _[Harry Potter and the Burning of Bridges](https://www.fanfiction.net/s/13279982)_
+    </dt>
     <dd>Author: ZebJeb</dd>
     <dd>Published: 2019-05-06. Updated: 2020-01-19</dd>
     <dd>Comments:  This is a series of one-shots, so it is tempting to bookmark
@@ -189,26 +191,26 @@ because they showcase some aspect of adults being … adults.
         all the man he was before them.  That being said, he is *rarely*
         given a fair representation in fan fiction, and it is nice to
         see a different take for once.</dd>
-    
+
     <dt>
         _[The difference a good solicitor makes](https://www.fanfiction.net/s/13049901/)_
     </dt>
     <dd>Author: [RoseLilian](https://www.fanfiction.net/u/8209039/RoseLilian)</dd>
     <dd>Published: 2018-08-29. Updated: 2021-04-20. Unfinished.</dd>
-    <dd> 
-        Comments: This story has a number of thought provoking elements, but   
+    <dd>
+        Comments: This story has a number of thought provoking elements, but
         is ultimately fairly obviously establishing an alternate universe.
-        * In this story, soul magic is inherently dangerous, society knows 
+        * In this story, soul magic is inherently dangerous, society knows
           this, but did not know [Riddle] was using such magic until too late.
         * It is strongly implied that the Death Eaters made magically binding
           oaths to [Riddle] that oblige their obediance.  Many of their children
           are aware their family members regret these oaths.
-        * Society has responded by adding a class on Magical Theory to 
+        * Society has responded by adding a class on Magical Theory to
           [Hogwarts].  This puts a very different slant on the [Slytherin] students, which the author has used to different degrees in different particular students.
-        * There are some inconsistencies in its definitions of magical 
+        * There are some inconsistencies in its definitions of magical
           classification.  This may be because the book admits that knowledge
           is generally hoarded and not shared, as research requires for success.
-        * Magical mind healing is considered a real profession in this work. 
+        * Magical mind healing is considered a real profession in this work.
     </dd>
 
     <dt>_[How Molly Weasley Saved Britain](https://www.fanfiction.net/s/14065302/)_</dt>
@@ -229,7 +231,7 @@ because they showcase some aspect of adults being … adults.
     </dd>
     <dd>
         Comments: I dislike dealing with imcomplete works, authors too frequently abandon and/or remove them.  I am doing so because this one, as I re-read it, is so incredibly typical of a pattern that irks me, so much so that I am unsure why I subscribed to the story.  I see much promise in it, but the flaws are quite disasterous.  I ended up writing quite the rant about it [here](/harrypedia/reactions/fanfiction/the_egoist_society/).
-        Beyond those, like many books that want a redeemed [Snape], it ends up bashing [James]. All and all, I am persisting in the re-read trying to find out why I have not unsubscribed in the past. While it is great to see [Bill] step up, and there are indications a few other characters will as well, the flaws are getting really hard to swallow. 
+        Beyond those, like many books that want a redeemed [Snape], it ends up bashing [James]. All and all, I am persisting in the re-read trying to find out why I have not unsubscribed in the past. While it is great to see [Bill] step up, and there are indications a few other characters will as well, the flaws are getting really hard to swallow.
     </dd>
 </dl>
 
@@ -247,7 +249,7 @@ because they showcase some aspect of adults being … adults.
 
 [Molly]: </harrypedia/people/prewett/molly/>
 
-[Slytherin]: </harrypedia/hogwarts/slytherin/> 
+[Slytherin]: </harrypedia/hogwarts/slytherin/>
 
 [Hogwarts]: </harrypedia/hogwarts/>
 
@@ -292,13 +294,13 @@ because they showcase some aspect of adults being … adults.
 [Hufflepuff]: </harrypedia/hogwarts/hufflepuff/>
 
 [^lbcx]: including but not limited to
-    * _[Who Let Her In Here?](https://archiveofourown.org/works/19495357)_ 
+    * _[Who Let Her In Here?](https://archiveofourown.org/works/19495357)_
       by [Space_Girl44](https://archiveofourown.org/users/Space_Girl44/pseuds/Space_Girl44)
       (I can't put my finger on it, but the characterization seems slightly off)
     * _[Good Pink vs Bad Pink](https://www.fanfiction.net/s/13193971/)_
       by [Singstar4](https://www.fanfiction.net/u/4265633/Singstar4)
       (incomplete)
-    
+
 [The Boy Who Never Knew]: https://www.fanfiction.net/s/6681967
 
 [Harry Potter gets smart and takes control - The Goblet]: https://archiveofourown.org/works/19162495
