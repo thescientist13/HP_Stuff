@@ -1,6 +1,6 @@
 ---
 title: |
-  Appendix D: Relative Power Levels
+  Relative Power Levels
 sidebar:
   order: 100
 tableOfContents:

@@ -1,6 +1,6 @@
 ---
 title: |
-  Appendix E: Life Expectancy
+  Life Expectancy
 author: Luke Schierer
 collection: Nephilim
 layout: fanfiction

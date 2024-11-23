@@ -1,5 +1,6 @@
 ---
-title: "Appendix G: Soteriology, Missiology and Ecclesiology"
+title: |
+  Soteriology, Missiology and Ecclesiology
 author: Luke Schierer
 collection: Nephilim
 layout: fanfiction
@@ -31,59 +32,59 @@ to deal with humanity.  This work of fiction is not intended to be a work
 of theology, if it were, it would fail utterly, as much of it would be
 *really bad* theology. It is meant to entertain, not instruct.
 
+Secondly, the author reminds the reader that all Appendices reflect knowledge known to at least one someone in the in-world narrative, even if it is by no means common knowledge, unless explicelty marked as being unknown to anyone.  This *entire* appendix is different in that it alone, as a whole, stands outside the work.
+
 ## Free Will
 
-Because I am starting with _[Many Waters][MW]_ as one of my base sources for material, I feel somewhat
-constrained by the choices made in that work.  It also happens that being so constrained allows me
-somewhat more flexibility in designing my concept of nephilim.
+Because I am starting with _[Many Waters][MW]_ as one of my base sources for material, I feel somewhat constrained by the choices made in that work.  It also happens that being so constrained allows me somewhat more flexibility in designing my concept of nephilim.
 
-In _[Many Waters][MW]_ we see clearly that the unfallen angels have a limited perspective on Divine
-Providence and Will, and thus make choices based on limited information.  More, they are aware
-that their perspective is limited, and their information incomplete.  They thus struggle with
-choices.  Not like humanity does - humanity struggles with _if_ they should do right.  Angels
-struggle with the question *what is right*.  The unfallen angel always does what that angel
-perceives as right, but per _[Many Waters][MW]_ *may perceive poorly*.  The resulting choices may
-thus be sub-optimal.
+In _[Many Waters][MW]_ we see clearly that the unfallen angels have a limited perspective on Divine Providence and Will, and thus make choices based on limited information.  More, they are aware that their perspective is limited, and their information incomplete.  They thus struggle with choices.  Not like humanity does - humanity struggles with _if_ they should do right.  Angels
+struggle with the question *what is right*.  The unfallen angel always does what that angel perceives as right, but per _[Many Waters][MW]_ *may perceive poorly*.  The resulting choices may thus be sub-optimal.
 
-While the sanctified soul is thought to be, through grace, elevated above the angels, I believe
-this same limited perception would apply, *particularly* before the final judgement.  I will use
-that fact.
+While the sanctified soul is thought to be, through grace, elevated above the angels, I believe this same limited perception would apply, *particularly* before the final judgement.  I will use that fact.
 
 [MW]: <https://en.wikipedia.org/wiki/Many_Waters>
 
 ## Revelation
 
-In real theology, we of course know that Revelation is complete, closed, and unalterable with
-the Ascension.  In this universe there is a single exception.  Angels have been somewhat willing
-to reveal to Church officials some details of how nephilim work that nephilim themselves, and,
-by extension, humanity, would be otherwise unable to discover.
+In real theology, we of course know that Revelation is complete, closed, and unalterable with the Ascension.  In this universe there is a single exception.  Angels have been somewhat willing to reveal to Church officials some details of how nephilim work that nephilim themselves, and, by extension, humanity, would be otherwise unable to discover.
 
-I do not consider this a real exception, in that this information is not relevant to the work
-of humanity's salvation.  It *is* relevant to the ability of *particular* persons of nephilim
-decent to survive encounters with Church officials.  However, the principle of infallibility has
-held without deviation from the real world in this universe, and the official magisterium of the
-Church has (in this universe) made few if any official pronouncements on or about nephilim, and
-none that depend on this extra information.
+I do not consider this a real exception, in that this information is not relevant to the work of humanity's salvation.  It *is* relevant to the ability of *particular* persons of nephilim decent to survive encounters with Church officials.  However, the principle of infallibility has held without deviation from the real world in this universe, and the official magisterium of the
+Church has (in this universe) made few if any official pronouncements on or about nephilim, and none that depend on this extra information.
 
 ## Original Sin
 
-Humanity inherits the effects of Adam's first sin, in that we are born already deprived from
-grace.[^230717-1]  There is remarkably little verifiable known about angels, and the Church
-Fathers themselves debate about the proper translation of the the word "nephilim" that I am
-misusing in this story.  I am left with far too wide a field in which to speculate.
+Humanity inherits the effects of Adam's first sin, in that we are born already deprived from grace.[^230717-1]  There is remarkably little verifiable known about angels, and the Church Fathers themselves debate about the proper translation of the the word "nephilim" that I am misusing in this story.  I am left with far too wide a field in which to speculate.
 
-I am going to speculate that the angelic powers would have their own version of original sin.
-That just as humanity was made to be in union with God, so that the lack of grace is a flaw in
-man, and a stain on his soul and personality, so too the angel.  The angels were given great
-power, but this power was intended to be used in union with God.  Clearly they did not lose
-all access to the power given them with the fall.  However, there must have been some effect.
+I am going to speculate that the angelic powers would have their own version of original sin.  That just as humanity was made to be in union with God, so that the lack of grace is a flaw in man, and a stain on his soul and personality, so too the angel.  The angels were given great power, but this power was intended to be used in union with God.  Clearly they did not lose all access to the power given them with the fall.  However, there must have been some effect.
 
-Whatever this effect is, the nephilim of my story would inherit that as well.  Thus in
-a sense they would inherit two "original" sins.  One from their human ancestor, and one from
-their angelic ancestor(s).  This dual lack would further incline the nephilim away from God,
-temptation and concupiscence is far greater for the nephilim than for humanity.
+Whatever this effect is, the nephilim of my story would inherit that as well.  Thus in a sense they would inherit two "original" sins.  One from their human ancestor, and one from their angelic ancestor(s).  This dual lack would further incline the nephilim away from God, temptation and concupiscence is far greater for the nephilim than for humanity.
 
-[^230717-1]: Harent, Stéphane. "[Original Sin](http://www.newadvent.org/cathen/11312a.htm)." [The Catholic Encyclopedia](https://www.newadvent.org/cathen/). Vol. 11. New York: Robert Appleton Company, 1911. 17 Jul. 2023
+[^230717-1]: Harent, Stéphane.
+    "[Original Sin](http://www.newadvent.org/cathen/11312a.htm)." [The Catholic Encyclopedia](https://www.newadvent.org/cathen/). Vol. 11. New York: Robert Appleton Company, 1911. 17 Jul. 2023
+
+## Divine Providence and Justice
+
+Consistent with my use of _[Many Waters][MW]_ as a source text, for the purposes of this story, the angels have a great deal of latitude in performing acts of both mercy and justice.  In the real world angelic acts are perfectly in conformity to God's will.  Here the angels struggle to percieve that will, and so exercise their *own* judgement.  Humans, and the nephilim, however, cannot reliably tell the difference between Divine action and angelic action.  Because angels (both fallen and unfallen) from _[Many Waters][MW]_ are also far more visibly active, the result is a far more chaotic world.
+
+This dovetails nicely with an element that I wanted to use from _[The Screwtape Letters]_.  In that work, Screwtape, the senior tempter, is transformed, and can no longer write.  As such in the latter chapters of the book his letters are dictated to a secretary who acts as a scribe.  I decided that given nephilim can use the powers of angels (to limited degrees), they are subject to the same punishments as angels (to equally limited degrees).  Thus the nephilim who misuse their magic experience changes.  On further reflection, I decided several things however.
+
+1.  The fallen angels did something fairly bold in making the nephilim.  I
+    decided that they do not take any setbacks to their plans lightly, and fight back when the unfallen angels attempt to exercise control over or adminster justice to the nephilim.  So we see _[Screwtape]_ style changes that originate from both the unfallen angels acting as judges, but we also see _[Screwtape]_ style changes from fallen angels for their own nepharious ends.
+    * For example, the fallen angels created laws that punish the use of magic
+      associated with vice (anger, envy, lust) with change.  The fallen angels
+      responded by punishing magic that depends upon positive emotion.
+    * We do not know how much of what happened with the [Veela] is because of
+      the fallen and how much is because of the unfallen angels.
+1.  The nephilim continuously attempt to assert that certain magic is "dark" and
+    other magic "light."  There is some inherently evil magic, but more frequently the angels punish *intentions* than *spells*.
+1.  Consistent with my philosophy that good ought to be greater than evil,
+    because God is God, the fallen angels are less successful in general, enough of the time that we can form generalized rules *expecting* a less successful result from their action.
+
+[Veela]: <../Appendix_I/>
+
+[The Screwtape Letters]: https://archive.org/details/in.ernet.dli.2015.86985
+
 
 ## Sacraments
 

@@ -1,6 +1,6 @@
 ---
 title: |
-  Appendix H: What are the Nephilim
+  What are the Nephilim
 author: Luke Schierer
 collection: Nephilim
 layout: fanfiction

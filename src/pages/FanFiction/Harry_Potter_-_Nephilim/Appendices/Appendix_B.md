@@ -1,6 +1,6 @@
 ---
 title: |
-  Appendix B: Rules of Magic
+  Rules of Magic
 author: Luke Schierer
 sidebar:
   order: 100
@@ -17,8 +17,7 @@ layout: fanfiction
 
 Nephil can be rated on a scale of 1 (low) to 10 (high) for access to each class
 of [angelic abilities][abt].[^221216-2] This naturally means that for many of
-the pivotal characters, I have [mathematical notes on their power levels][AD]. For
-the purposes of this work:
+the pivotal characters, I have [mathematical notes on their power levels][AD]. For the purposes of this work:
 
 [AD]: <../appendix_d>
 
@@ -102,7 +101,7 @@ nephil.
 * The relationship between the way Dominions operate and the abilities the
   nephilim gain is somewhat indirect.  God creates by decree - He spoke and
   the world was made.  The nephilim are not capable of true creation, but
-  have authority only over the *form*,but not the substance, of the material
+  have authority only over the *form*, but not the substance, of the material
   world.  They can thus by their magic transmute the form of one thing to
   another.  This will be temporary unless the change is "locked" in place
   through combining this ability with that inherited from the Powers. Neither
@@ -173,10 +172,9 @@ nephil.
   child causes visible effects, these effects have the affect of forcing
   others to obey.  The Principalities' children also overlap some, but their
   children are not affecting any *particular* person with their effects, nor
-  does the use of this magic result in a visible effect.  Recall that the
-  nephilim come from fallen angels, so some of these offensive magics are
-  corrupted and should not be used.  This is not to say that all harm is
-  always bad, but some magic requires a mindset that is inherently twisted.
+  does the use of this magic result in a visible effect.  As a practical example, recall when [Riddle] forces [Harry] to bow not through forcing his will, but by exerting force on his body, and bending him into a bow.
+* Recall that the nephilim come from fallen angels, so some of these offensive
+  magics are corrupted and should not be used.  This is not to say that all harm is always bad, but some magic requires a mindset that is inherently twisted.
 
 #### Angels
 * Also called Guardian Angels, these angels are tasked with the welfare of
@@ -185,7 +183,7 @@ nephil.
   Angel is concerned with the *moral* state of its assigned person.  The
   Guardian Angel is concerned with salvation.
 * The inheritance from the nephil is the ability to resist magical force, of
-  any kind, from any other class of magic.  Shield spells, spells to undue
+  any kind, from any other class of magic.  Shield spells, spells to undo
   effects (which differs from stopping the duration very slightly but
   significantly).   This is not, however, necessarily safe magic.  These can
   also be corrupted to the point of being dangerous to the user.  A defensive
@@ -204,17 +202,21 @@ nephil.
 [^220628-4]: Dr. Andrew Sulavik. _[All About Angels](https://www.kofc.org/en/resources/cis/cis303.pdf)_
     © 1999-2021 by Knights of Columbus Supreme Council. Pages 15-16.
 
-## mapping to Harry Potter
+[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
+
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
+
+## Mapping to Harry Potter
 
 Harry Potter cannon breaks magic down into:
 
 ### charms
 * generally a mix of inheritance from Virtues and Powers for the lower years,
-  however
-  - things like "cheering charms" are _actually_ a form of transmutation
-    manipulating the form of brain chemicals, and thus, temporarily, their
-    effect.
-  - memory charms like obliviation are a mix of transmutation on brain
+  however things like "cheering charms" are _actually_ a form of transmutation
+  manipulating the form of brain chemicals, and thus, temporarily, their
+  effect.
+
+* memory charms like obliviation are a mix of transmutation on brain
     chemicals with the Seraphic ability to perceive (and thus target the
     transmutation really precisely). Because they are chemical in nature, they
     can work on full humans.  However, they can be more precisely targeted and
@@ -222,13 +224,13 @@ Harry Potter cannon breaks magic down into:
     human forget, say, the last hour, or the last day; you can make a nephil
     forget that a single person was present while otherwise remembering the
     event.
-  - Imperious curse acts differently on humans and nephil. Using the
+* Imperious curse acts differently on humans and nephil. Using the
     imperious curse on a human will require "operating" that human like you
     would a puppet or a remote control robot, while using it on a nephil acts
     more like what you see in the Harry Potter books, where you can give a
     command and the victim's own mind will assist in finding ways to carry out
     the order.
-  - Confundus type charms only work well on nephil, because they extend memory
+* Confundus type charms only work well on nephil, because they extend memory
     charms by depending on abilities inherited from Thrones. When used on a
     human, this charm interferes with the ability to form a long term memory,
     and the ability to retrieve long term memories, both for the duration of
@@ -242,20 +244,20 @@ Harry Potter cannon breaks magic down into:
 * comes primarily from the Dominions, but is highly temporary unless you use
   abilities from the Powers to extend (perhaps infinitely) the duration *as
   you make the change*.
-  - Gramp's Law is problematic.  As noted in the [Harry Potter Wiki][HPW1],
-    even Gramp's Law's exceptions seem to have exceptions, for example wine
-    can be conjured.[^220718-1] For my purposes the problems are two fold:
-    * transfiguration is temporary by default.  Your transfigured food will
-      revert.  For something like water into wine, that is not actually a
-	  problem.  For something like a sandwich, you would now have a block o
-	  wood (if you transfigured it out of wood) instead of something digestible.
-    * Successful *permanent* transfiguration means transmuting the actual
-      substance all the way down to the subatomic level.  Few of the nephilum
-      know *anything* to the level of detail required for this to be
-	  successful, and where they do, it tends to be fairly pure elements,
-	  like raw iron into raw gold.  But even then, combining your
-	  transmutation with the Powers magic necessary to make it permanent is
-	  poorly understood, thus poorly taught, and so see the prior point.
+* Gramp's Law is problematic.  As noted in the [Harry Potter Wiki][HPW1],
+  even Gramp's Law's exceptions seem to have exceptions, for example wine
+  can be conjured.[^220718-1] For my purposes the problems are two fold:
+  * transfiguration is temporary by default.  Your transfigured food will
+    revert.  For something like water into wine, that is not actually a
+	   problem.  For something like a sandwich, you would now have a block o
+	   wood (if you transfigured it out of wood) instead of something digestible.
+  * Successful *permanent* transfiguration means transmuting the actual
+    substance all the way down to the subatomic level.  Few of the nephilum
+    know *anything* to the level of detail required for this to be
+    successful, and where they do, it tends to be fairly pure elements,
+    like raw iron into raw gold.  But even then, combining your
+    transmutation with the Powers magic necessary to make it permanent is
+    poorly understood, thus poorly taught, and so see the prior point.
 
 [^220718-1]: [Harry Potter Wiki][HPW1].
     "[Gamp's Law of Elemental Transfiguration](https://harrypotter.fandom.com/wiki/Gamp%27s_Law_of_Elemental_Transfiguration)"
@@ -273,11 +275,7 @@ Harry Potter cannon breaks magic down into:
   comes from the Archangels.
 * As I see it, this class is a mishmash of content, part learning about
   "dark" creatures, part learning about the curses you are defending against
-  (except not practising casting them), part learning about the counters to those
-  curses, and part learning about avoiding the need to ever use those counter
-  curses.  Since many spells *can* be used either offensively or defensively,
-  but are not *inherently* combat related, this class is pulling from all
-  sorts of branches of magic.
+  (except not practising casting them), part learning about the counters to those curses, and part learning about avoiding the need to ever use those counter curses.  Since many spells *can* be used either offensively or defensively, but are not *inherently* combat related, this class is pulling from all sorts of branches of magic.
 
 [TCMW1]: <https://archiveofourown.org/works/4125717>
 
@@ -326,6 +324,8 @@ Harry Potter cannon breaks magic down into:
   the physical properties of the thing being vanished instead of its chemical
   properties, resulting in transparent versions instead of something that
   has, to paraphrase McGonagall, gone into everything.
+* vanishing is, if you really think about it, highly problematic magic. When
+  practiced on a living thing, you are killing that thing.  For this work, it is *impossible* to vanish anything that has an immortal soul, the magic simply will not work.
 
 ### Potions
 * These are complicated.  The magic comes in part from the brewer (primarily
@@ -366,23 +366,14 @@ Harry Potter cannon breaks magic down into:
   ingredients you happen to be using in this particular instance.
 
 ### Runes
-* These are also complicated.  Runes are _created_ from powers inherited from
+* Runes were developed by the nephilim as an early way for individuals with
+  different powers to share those powers and achieve effects that neither could alone.  Runes are Runes are _authored_ from powers inherited from
   the Virtues, you augment reality to give your writing not just meaning, but
   power.  They are, however, *powered* by the inheritance from the Powers,
   (investing an element of long duration to the rune created).  Thus two
   people equally skilled at creating runes might not be equally skilled at
   powering those runes, or vice versa.  This is also a deviation from the
-  cannon Harry Potter universe.  Runes can also be created to *absorb* power
-  from the surrounding area to power connected sequences of runes, using
-  abilities inherited from the Principalities, instead of being pre-charged
-  via the Powers.  This in practice reduces the effect of any attempt to use
-  other powers in any way not connected to that rune sequence.  For a school
-  like Hogwarts, it would be safer to practice your magic because the effect
-  of each spell would be lessened.  The Hospital Wing would need to be
-  shielded from most of the runes protecting the rest of the castle to ensure
-  that you could still be cured using magic at full efficacy.  Overall, this
-  effect would bolster Hogwart's reputation for being one of the safest places
-  in Britain.
+  cannon Harry Potter universe.  Nephilim later found that Runes can be authored to *absorb* power from the surrounding area to power connected sequences of runes, using abilities inherited from the Principalities, instead of being pre-charged via the Powers.  This in practice reduces the effect of any attempt to use other powers in any way not connected to that rune sequence.  For a school like Hogwarts, it would be safer to practice your magic because the effect of each spell would be lessened.  The Hospital Wing would need to be shielded from most of the runes protecting the rest of the castle to ensure that you could still be cured using magic at full efficacy.  Overall, this effect would bolster Hogwart's reputation for being one of the safest places in Britain.
 
 * Runes are an ancient form of magic dating from a period when most nephil
   only had one or perhaps two of the different ranks of angels in his or her
@@ -503,11 +494,7 @@ Harry Potter cannon breaks magic down into:
     grained condition, do not understand why some contracts work and others do
     not.
   - In this universe, he Goblet of Fire, were it ever carefully inspected, has
-    hidden runes lightly scratched around and inside it spelling out the terms of the contract
-    it enforces. These scratches have been preserved and protected by the
-    application of still more magic reinforced by the case the Goblet is
-    stored in between Triwizard Tournaments.  Modern users have not taken
-    the time to carefully inspect either.
+    hidden runes lightly scratched around and inside it spelling out the terms of the contract it enforces. These scratches have been preserved and protected by the application of still more magic reinforced by the case the Goblet is stored in between Triwizard Tournaments.  Modern users have not taken the time to carefully inspect either.
   - Other forms of 'contract' magic leverage the mutable nature of the nephilim
     rather than relying on the power of the thrones.
     + These lack the versatility of written contracts, in that they cannot be
@@ -519,6 +506,43 @@ Harry Potter cannon breaks magic down into:
       a pair of unknown and unrelated persons.
     + Where the written contract uses the magic of the writer, these use the
       magic of those entering into them.
+
+
+## Authors notes
+
+Here lets step beyond what might be gleaned by summarizing the various works available "in-world."
+
+"Standard" nephilim seem more or less humans with extra abilities, but this is
+  not really true. If you consider creation as a hierarchy, humanity has always
+  occupied a messy place - top of the material creation, bottom of the spiritual
+  order, but destined, through grace, not merit, to be raised above its (our)
+  natural place.  Introducing the nephilim in this fictional world, I am putting
+  the nephilim as being an unnatural hybrid of two things God created. In making
+  this hybrid, something of each was lost. They are thus *slightly* lesser than
+  humans, and *entirely* outside the intended, natural hierarchy. Despite
+  having greater capabilities in some ways, they have deficits in others, most
+  notably, they are overall *less free.*  Think of mules, they have advantages,
+  in certain circumstances, over both donkeys and horses, but they are not
+  really a stable species at all, and in some ways (specifically fertility)
+  less than either.
+
+  Nephil have some aspects of both.  They are *mostly* contingent beings that
+  grow and change over time, but their use of magic is, in this universe, the
+  use of an angelic power, and so it tends to either be 1) incredibly crippled
+  compared to actual angels (for example, charms wear off really fast) or 2)
+  incredibly permanent. In the canon books, you cannot remove Walburga's
+  portrait from the wall without removing the wall, which might have been stupid
+  for a house that will be passed down through generations, but clearly
+  demonstrates that a momentary decision can have effects all out of proportion
+  to the result.  I am restricting that to magic used on things without immortal
+  souls and to magic used on *other nephilim* (or on races descending from
+  nephilim, see below).  Things that would be temptations to a human can be
+  overriding compulsions to a nephil, and they are vulnerable to each other (and
+  to others who can use similar powers) in ways that humans are not.  See the
+  notes on [contracts].
+
+
+[contracts]: /Harry_Potter_-_Nephilim/Appendices/Appendix_F/
 
 [AA]: <../appendix_a>
 
@@ -551,3 +575,6 @@ Harry Potter cannon breaks magic down into:
 
 [^220628-5]: Mrs. J. K. Rowling. _[Uagadou](https://www.rowlingindex.org/work/pmuag/)_
     [The J.K. Rowling Index](https://www.rowlingindex.org/).  Publication Date: 2016-01-31. Last Viewed: 2022-06-28.
+
+
+[Quill of Acceptance and Book of Admittance]: https://www.rowlingindex.org/work/qaba/

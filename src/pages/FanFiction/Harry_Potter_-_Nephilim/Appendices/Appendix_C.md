@@ -1,6 +1,6 @@
 ---
 title: |
-  Appendix C: Magical Inheritance
+  Magical Beings
 author: Luke Schierer
 sidebar:
   order: 100
@@ -10,99 +10,54 @@ layout: fanfiction
 
 ### Overview
 
-Since I need non-Mendelian inheritance to explain both magical creatures and the
-nephilim themselves, I am going to set some rules.  These are primarily for the
-nephilim, the inheritance for magical creatures may follow modified versions of
-these rules depending on exactly how the creature in question came to exist.
-These rules are hierarchical, that is you need to apply the rules in order to
-determine what happens to a given child.
+Magical inheritance does not follow the normal rules discovered by Gregor Mendel and other mundane biologists, but rather follows [its own rules].  However, every magical creature is in fact a mix of magical and non-magical elements.  The magical elements follow magical rules, the non-magical elements follow non-magical rules, with a few exceptions.
 
-1. Children born of at least one magical parent have a 80% chance of following
-   these rules, and a 20% chance of following purely human inheritance patterns,
-   which I will refer to as Mendelian genetics for simplicity.  If they follow
-   Mendelian genetics, any magical abilities will tend to degrade with each
-   generation that follows Mendelian genetics. In other words, they will become
-   more and more normal, more and more in line with the way the world would have
-   worked without disruption or intervention.
-1. Children not following Mendelian genetics will have a 80% chance of still
-   following Mendelian for traits not influenced by the deviation that
-   distinguishes them from the mundane (in the nephilim this includes height,
-   skin tone, hair colour, eye colour, so on).
-1. For every generation that a mundane trait *does not* follow Mendelian
-   genetics, the odds that the next generation also will not increases by 10%.
-   Thus things like Weasley red hair (many generations), or Potter hair (at
-   least 3 generations) start to become non-mundane traits.
-1. For non-mundane traits, a male child will have (a female child has similar
-   numbers, but switch father/mother). This is computed *per trait*.
-    * a 50% chance of inheriting solely from his father,
-    * a 16% chance of inheriting the sum total of both parents,
-    * a 14% chance of a partial inheritance from both parents,
-    * a 7.5% chance of a partial inheritance from just his father,
-    * a 7% chance of inheriting solely from his mother,
-    * a 4% chance of a partial inheritance from just his mother,
-    * a 1% chance of something truly bizarre happening
-    * a 0.5% chance of becoming mundane,
-   Originally, centuries in the past, people tended to be highly specialised
-   into one of these.  If you inherited an angelic nature as a single unit,
-   there would be a 30% chance of a child mixing the magical/angelic heritage of
-   his/her parents.  Since instead my thought is that each is an independent
-   trait, each of which has a 30% chance, mixing is pretty much guaranteed to
-   happen fairly rapidly.  In practice, in the modern era, every child invited
-   to a magical school has a reasonably mixed heritage, though the precise
-   values 1-10 for each category differ significantly from child to child.
-1. Recall that I said that magic can be inherently corrupting.  Magic that is
-   corrupting not only affects the user, but his/her descendants, four
-   generations out.  All magic that *requires* an emotional content
-   () fits in this category.
-   - by corrupting, I do not necessarily mean that it tends the user towards
-     evil, I mean that it tends to change (corrupt) the nature of the user.
-   -    -    -
-   -
-   -
-   -
-   -
-   -
-   -    -
-   - As stated elsewhere, this effect lasts for four generations.
-   - 1. Harry Potter talks about two classes that require special mention, squibs and
-   muggle born.  They are effectively inverse of each other.
-   * A true squib is the child who resulted from the 0.5% chance of becoming
-     mundane.  Such a child is fully human, and no "muggle-born" will ever
-     descend from such a child.
-   * It is possible for a child receiving a partial inheritance from his or her
-     parent(s) to have very low power.
-     - A child with a power level of 2 or below on all categories will be called
-       a squib.
-     - A child with 3 or below on all categories will not be invited to any
-       magical school, but might be able to effectively use some magic.
-       - A program like Kwick Spell might prey on such people.
-       - Such a child might still be called a squib despite actually being able to use magic.
-       Hogwarts requires at least a 4 in each of the following categories:
-       Dominions, Virtues, and Powers; at least a 4 in *one* of Archangels or
-       angels and at least a 3 in the other; and at least a 3 in each of
-       Cherubim and Principalities.  However, a child who got in just barely
-       meeting these minimums would be very unlikely to get into NEWT level
-       classes.
-   * Because it is possible (16% chance) for the parents' abilities to
-     recombine, these "squibs" who are actually extremely low powered nephilim,
-     can eventually produce higher powered children.  These children will
-     *generally* be low powered (a mix of 3s, 4s and 5s in the various
-     categories).  However, sometimes (base rate of a 1% chance) the something
-     bizarre increases the child's ability beyond expectations.
-   * This partially explains some of the bias against these "first generation"
-     magical users.  Not only are they new to a xenophobic culture, but marrying
-     them *generally* creates a risk of low powered children.  With this
-     background, being of "pure" blood is basically ignoring the 19.5% chance of
-     being under powered as compared to your parents. Illogical, but considering
-     other human prejudices, not unreasonable.
-   * Per my [base assumptions][AA], it is possible for
-     a pure human to gain magic through the union with a fallen angel.  In
-     practice, this has not happened in centuries, but magical society
-     remembers adults suddenly having magic where none had been present before.
-     From this comes stories of magic being "stolen."  This is not true of
-     course, no one lost the magic the witch gained from her unholy union, but
-     most magic users do not believe in angels, much less fallen angels, and
-     have a strong distrust for the Church.
+Periodically, a non-magical trait will get locked in as 'fixed,' that is all successive generations will inherit this despite the probabilities laid out by mundane genetics.  It has essentially become a magical trait and will follow magical inheritance.  No one knows why this happens.
+
+Very rarely, some magical trait will become 'unfixed' and gradually start to fade away over successive generations.  This is essentially the inverse of the trait becoming magical, and again, no one knows why this happens.
+
+When the trait in question violates the normal mundane rules of the natural sciences, the deviation from those natural sciences tends to fade rapidly, but take several generations to fully disappear.  Whereas to the extent that only the *inheritance pattern* deviated from the natural sciences, it may revert to normal Mendelian genetics effectively immediately.
+
+The cannonical Harry Potter talks about two cases that require special attention: squibs and muggle born. To understand these, you will need to refer heavily to the [magical rules of inheritance].
+
+A true squib is the result of the miniscule chance that for all magical traits, nothing is inherited.  While it cannot be said that this has *never* happened, it is certainly the case that nearly every squib is in fact ... not one.  Rather most child identified by the nephilim as squibs are in fact still nephilim, but have inherited a power level too low to be detectable by the prevailing methods of the society in question.  For the England's entire recorded history, this has been the Hogwarts [Quill of Acceptance and Book of Admittance].
+
+Because it is possible for a child to inherit the sum of both parent's abilities, occasionally two such "squibs" marry and produce a child who *does* meet the criteria for Hogwarts.  This is where the so-called muggle born come from.  Since this typically happens only generations later, it is rare that the child in question has any immediate connection to the family members who were cast out from the magical world.
+
+When the Church describes and categorizes magic, it does so in terms of the angelic chiors from whom the magic is derived.[^241123-2] Hogwarts is entirely unware of this classificaiton of magic, but *if* Hogwarts *were* aware of it, then it would be possible to quantify what the [Quill of Acceptance and Book of Admittance] are looking for in accidental magic.
+
+Using the power levels from the Church's classification system, a child born with a power level of 2 or below in all categories of magic will be called a squib.  A child with a 3 or below in all categories of magic will not be invited to any magical school, but might be able to effectively use some magic. Programs like Kwick Spell prey upon such people.  These children are occasionally called squibs, particularly by the families that are more self-obsessed with power and prestege.
+
+Hogwarts requires at least a 4 in each of the following categories: Dominions, Virtues, and Powers; at least a 4 in *one* of Archangels or angels and at least a 3 in the other; and at least a 3 in each of Cherubim and Principalities.  However, a child who got in just barely meeting these minimums would be very unlikely to get into NEWT level classes.
+
+Muggle Born nephilim are *usually* relatively low powered, frequently a mix of 3s, 4s and 5s when they re-enter the magical world.  The spread is because it is extremely uncommon for the child to suddenly meet the bar in all required categories at the same time.  Rather, once ejected from the magical world, a child might have several 3s and even 4s, but if it is not enough to trigger an acceptance letter (in English terms), they are still not yet elegible for reentry into magical society.
+
+While low power is the norm, there is always a base rate of something bizzare happening.  Thus it is not totally unheard of for there to be a high powered muggle born student, and all but the most xenophobic members of magical society are happy to make exceptions for a first generation student who shows exceptional promise (power is always something the nephilim want).  This is why a student like [Lily Evans] was so accepted, however the overall effect of the first [Riddle] war had a sufficiently negative effect on society, that [Hermione] did not experience the same acceptance.
+
+This tendency for "first generation" students to be low powered feeds into the bias against them.  The children of two high powered nephilim will more frequently be high powered themselves, and will sometimes exceed both parents.  The child of a high powered nephilim and a low powered nephilim has a low but non-trivial chance however of producing a child of much lower power than his/her same gendered parent.  When you add in the xenophobic culture that has developed following the Statute of Secrecy, it becomes no wonder that these "first generation" nephilim are persecuted.
+
+A *true* "first generation" magical user would not be a nephilim at all, rather per my [base assumptions][AA], it would be *human* who has interacted in an unholy union with a fallen angel.  The child of that human/fallen angel would be the true first generation nephil, and would have only one category of power, but would be *exceptionally* strong in that one category.
+
+In practice, this has not happened in centuries, but magical society
+remembers adults suddenly having magic where none had been present before.
+From this comes stories of magic being "stolen."  This is not true of
+course, no one lost the magic the witch gained from her unholy union, but
+most magic users do not believe in angels, much less fallen angels, and
+have a strong distrust for the Church.
+
+[Lily Evans]: </Harrypedia/people/Evans/Lily_J./>
+
+[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
+
+[^241123-2]: Or at least the in-world version of it, see [Rules of Magic].
+
+[Rules of Magic]: <../Appendix_B/>
+
+[Quill of Acceptance and Book of Admittance]: https://www.rowlingindex.org/work/qaba/
+
+[magical rules of inheritance]: <../Appendix%20Inheritance/>
+
+[its own rules]: <../Appendix%20Inheritance/>
 
 [Imperius]: </harrypedia/magic/spells/imperio>
 
@@ -110,36 +65,6 @@ determine what happens to a given child.
 
 ### Specifically human/nephil
 
-* "Standard" nephilim seem more or less humans with extra abilities, but this is
-  not really true. If you consider creation as a hierarchy, humanity has always
-  occupied a messy place - top of the material creation, bottom of the spiritual
-  order, but destined, through grace, not merit, to be raised above its (our)
-  natural place.  Introducing the nephilim in this fictional world, I am putting
-  the nephilim as being an unnatural hybrid of two things God created. In making
-  this hybrid, something of each was lost. They are thus *slightly* lesser than
-  humans, and *entirely* outside the intended, natural hierarchy. Despite
-  having greater capabilities in some ways, they have deficits in others, most
-  notably, they are overall *less free.*  Think of mules, they have advantages,
-  in certain circumstances, over both donkeys and horses, but they are not
-  really a stable species at all, and in some ways (specifically fertility)
-  less than either.
-
-
-
-  Nephil have some aspects of both.  They are *mostly* contingent beings that
-  grow and change over time, but their use of magic is, in this universe, the
-  use of an angelic power, and so it tends to either be 1) incredibly crippled
-  compared to actual angels (for example, charms wear off really fast) or 2)
-  incredibly permanent. In the canon books, you cannot remove Walburga's
-  portrait from the wall without removing the wall, which might have been stupid
-  for a house that will be passed down through generations, but clearly
-  demonstrates that a momentary decision can have effects all out of proportion
-  to the result.  I am restricting that to magic used on things without immortal
-  souls and to magic used on *other nephilim* (or on races descending from
-  nephilim, see below).  Things that would be temptations to a human can be
-  overriding compulsions to a nephil, and they are vulnerable to each other (and
-  to others who can use similar powers) in ways that humans are not.  See the
-  notes on [contracts].
 * At some point in history, each nephil descends from a witch.  This witch had
   magic of only one type, that of the angel that seduced her.  The nephil
   inherited *only that type* of magic, and is called a "primordial" nephil.
@@ -152,9 +77,9 @@ determine what happens to a given child.
   the decay of old age, but it does retard it.  The extent to which it
   extends the nephil's life depends on the nephil's *average* (not highest)
   power level (only including power levels where present at all).
-* Per earlier sections, it takes approximately six consecutive generations of magical
-  abuse for "truly bizarre" things to become not just possible but probable.
-   * Recall the note from [Appendix A][AA] on _The
+* Per [Rules of Magic] and the [magical rules of inheritance], it takes
+  approximately six consecutive generations of magical abuse for "truly bizarre" things to become not just possible but probable.
+   * Recall the note from [Points of Divergance][AA] on _The
      Screwtape Letters_.
    * Building on what I wrote above comparing "standard humans" to nephil,
      beings in these categories are even more corrupted by the combination of
@@ -182,8 +107,7 @@ determine what happens to a given child.
      world as fiction.  Despite their flaws, these populations retained their
      intelligence and their magic.  They are particularly strong inheritors from
      the Virtues, Powers, and Archangels, with lesser inheritances from the
-     Principalities and angels.  Their creation of the trolls at the beginning of
-     the [goblin wars] explains why they were punished so harshly (as to have
+     Principalities and angels.  Their creation of the trolls at the beginning of the [goblin wars] explains why they were punished so harshly (as to have
      originally lost nearly all free will - 90% impact).
    * hags - a people who are consumed by envy and lust.  They have particularly
      strong inheritances from the Thrones, reasonable inheritances from the
@@ -199,15 +123,11 @@ determine what happens to a given child.
      - They became nearly immune to the magic of the Thrones as practised by
        other mortals.  It is next to impossible to confound or imperious a
        centaur for example.  This is in part because they perceive the magic of
-	   the attempt.  This is a mitigation of their curse, which happened
-	   because while divination is evil, their *intentions* were not, and their
-	   *understanding* of their act flawed.
-     - While it is, per the above, almost impossible to affect individuals with
-       magical effects on the mind or free will, the *herd* is massively
-       influenced at a subconscious level by the moral state of the people in
-       surrounding areas.  Whenever the societies around them take a turn for
-       the worse, so do they; whenever the societies they live near turn towards
-       God, the centaur populations become more friendly.
+       the attempt.  This is a mitigation of their curse, which happened
+       because while divination is evil, their *intentions* were not, and their
+       *understanding* of their act flawed.
+     - Centaur communities are almost universally violent, wrathful and even
+       more highly xenophobic people.  This is in part because their herd instinct cannot sense non-centaurs and they reject the personhood of those who do not appear to their herd sense. It is in part because they depend so much on that herd sense that they do not significantly develop individual self control.  They *could* develop it, they (typically) *do not*.
      - they remain addicted to divination, as such they perpetuate these effects
        to the next generation endlessly.
      - the ranking in this list between centaur and veela is debatable.  Any

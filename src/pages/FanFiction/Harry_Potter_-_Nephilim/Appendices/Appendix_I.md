@@ -1,6 +1,6 @@
 ---
 title: |
-  Appendix I: Veela
+  Veela
 author: Luke Schierer
 sidebar:
   order: 100

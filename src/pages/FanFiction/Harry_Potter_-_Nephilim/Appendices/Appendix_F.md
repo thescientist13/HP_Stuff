@@ -1,6 +1,6 @@
 ---
 title: |
-  Appendix F: Magical Contracts
+  Magical Contracts
 author: Luke Schierer
 collection: Nephilim
 layout: fanfiction
@@ -26,40 +26,40 @@ necessarily, in exchange for something.
 
 Contracts can be agreed to by proxy.  Your proxy must be related to you
 * with an imbalanced power relationship
-* a parent can agree for a child
-* a child cannot agree for a parent
-* a sibling cannot agree for a sibling
+  - a parent can agree for a child
+  - a child cannot agree for a parent
+  - a sibling cannot agree for a sibling
 * by straight line inheritance
-  * your direct ancestors
-  * but not your aunts, uncles, great-aunts, great-uncles, so on.
-  * Not a cousin even if he/she belongs to an older generation (once or more removed situations).
-  * Note that nephilim have adopted the same concept of clan-like "houses" in some cultures.
-    Despite this, the head of the "house" or "clan" has no power over the members except his/her
-    own *direct* decedents.
+  - your direct ancestors
+  - but not your aunts, uncles, great-aunts, great-uncles, so on.
+  - Not a cousin even if he/she belongs to an older generation (once or more
+    removed situations).
+  - Note that nephilim have adopted the same concept of clan-like "houses" in
+    some cultures. Despite this, the head of the "house" or "clan" has no power over the members except his/her own *direct* decedents.
 * *or* by a formally recognised *delegated* parental authority.
-  * this relationship must be recognised by *both sides*
-  * teachers have authority delegated to them by parents for example.
+  - this relationship must be recognised by *both sides*
+  - teachers have authority delegated to them by parents for example.
     * the limits of a teacher acting in loco parientis are poorly defined
     * except that a parent can overrule or override said teacher's decisions.
-  * government officials have authority delegated to them only to the
+  - government officials have authority delegated to them only to the
     extent they are a legitimate government.
     * I might successfully rebel against a contract foisted on me by a
       government official if *all* of the following are true:
-      * I *honestly and sincerely* believe the contract unjust
-      * I *honestly and sincerely* believe the government corrupt,
+      - I *honestly and sincerely* believe the contract unjust
+      - I *honestly and sincerely* believe the government corrupt,
         illegitimate, or (most interestingly) not mine.
     * A government contract might fail to bind similarly if *any* of the
       following are true
-      * the government official binding me is knowingly acting in excess
+      - the government official binding me is knowingly acting in excess
         of his/her authority
-      * the government official binding me is knowingly acting on a bribe
-      * the government official binding me is knowingly violating the law
+      - the government official binding me is knowingly acting on a bribe
+      - the government official binding me is knowingly violating the law
         of the land in any of
         * the nature of the contract
         * the method of binding me
         * the reason for binding me
 
-Contracts can be implicitly agreed to.  Harry, but walking to the front of
+Contracts can be implicitly agreed to.  [Harry], by walking to the front of
 the hall, joining the other champions in the side room, and staying for the
 directions to the first tasks, implicitly accepted that he was in fact a
 TriWizard contestant.   This may or may not matter for that particular case
@@ -74,52 +74,49 @@ Common ones include, but are not limited to:
 * full legal signature on a paper (or parchment) contract
 * formal statement of agreement "I, <name>, agree to xyz"
 * repeated statements of agreement
-  * using significant numbers (three, seven and ten are common)
-  * in short durations.
+  - using significant numbers (three, seven and ten are common)
+  - in short durations.
 * acting as if bound to the contract (ie common law marriage) for either
   magically significant durations or contractually significant
   events/actions that are distinctly related to contract and clearly not
   part of your non-contract/pre-contract normal life
-  * marriages are consummated
-  * the TriWizard champions processed out of the room
-  * engagement rings
-  * being sorted by the Sorting Hat
+  - marriages are consummated
+  - the TriWizard champions processed out of the room
+  - engagement rings
+  - being sorted by the Sorting Hat
 * 'Contracts' do *something*.  Person A agrees to do something or be something
   for Person B.  The 'contract' may or may not be one sided.  The 'contract' may
-  or may not have penalties.
-* No 'contract' may require a nephil to perform the marital act before the age of 14.[^230717-3]
-* 'Contract Magic' works *only* on nephilim.  It does not work on pure humans. Remember
-  That contract magic works by inducing your own magic to act against you.
+  or may not have penalties.  However, a contract in which neither party is obligated to perform or not perform some action cannot bind.
+* No 'contract' may require a nephil to perform the marital act before the age
+  of 14.[^230717-3]
+* 'Contract Magic' works *only* on nephilim.  It does not work on pure humans.
+  Remember that contract magic works by inducing your own magic to act against you.
   * the more powerful the nephil, the more powerfully he/she can be bound.
   * The *less* powerful the nephil, the less powerful any binding.
   * Contracts cannot require the use of a type of magic you do not have, either
     for their performance, *or in their penalties*.[^230717-4]
 * 'Contracts' cannot act as an [Imperius] curse or similar.  That would come
   too close to a manipulation of the Will.[^230717-5]
-  * There is an exception to this, unknown to the nephil, but not to the Church,
-    that has caused great confusion through history.  You can bind someone to do
-    something that *they would have done anyway*.
-  * Normally contracts operate through applying force.
-    * Do something and you become ill, or even die immediately (the ritual of the
-      Unbreakable Vow creates a contract which, if the contract is violated,
+  - There is an exception to this, unknown to the nephil, but not unknown to
+    the Church, that has caused great confusion through history.  You can bind someone to do something that *they would have done anyway*.  Occasionally this causes confusion in one or another magical society.
+  - Normally contracts operate through applying force.
+    * Do something and you become ill, or even die immediately (the ritual of
+      the Unbreakable Vow creates a contract which, if the contract is violated,
       results in the death of the violator).
     * Agree to the contract, and no matter your will, your body does not operate
       against the contract.  This is a bit of a gray area - it is relatively
       easy for a nephil to contract something _not_ to happen.  It is next to
       impossible to contract something _to_ happen.  It will not absorb food, or
       your hand will not close (or your libido will not react).
-  * There is some moral ambiguity here that the Church struggles with.  A
-    contract can trigger consequences that *preasure* but do not *force*
-    the nephil's Will, and *if* the nephil is sufficiently weak Willed, he
-    or she might give in to the preasure.  If that happens, the contract can
-    make it impossible to back out or change his/her mind - the nephil is now
-    doing something agreed to anyway.[^230718-1]
-
-[^230718-1]: It simply has not occurred to the various unfallen angels to fix
-   this.  Angels are beings of absolutes, a decision once made, by their very
-   nature, cannot be changed.  In this aspect of contracts, nephilim are more
-   like angels, it does not strike them as an aberration that angelic power
-   would act … less angelic.
+  - There is some moral ambiguity here that the Church struggles with.
+    * A contract signed by a proxy does not make the bound person morally
+      culpable.
+    * A contract can trigger consequences that *preasure* but do not *force*
+      the nephil's Will.
+    * *If* the nephil is sufficiently weak willed, he or she might give in to
+      the preasure, and agree to the contract.
+    * At that point, the contract can become *implicetly* signed (through
+      consent) by the bound party.  Is that person now morally culpable?
 
 [^230717-5]: per [Appendix G][AG], angels interfering to create these restrictions
    act with good intentions, but not always wisely.  You might think 'contracts'

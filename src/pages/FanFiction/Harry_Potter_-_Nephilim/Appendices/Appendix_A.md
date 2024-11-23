@@ -1,6 +1,6 @@
 ---
 title: |
-  Appendix A: Points of Divergence
+  Points of Divergence
 author: Luke Schierer
 tableOfContents:
   minHeadingLevel: 2
@@ -179,7 +179,7 @@ to make sense.
 
 [Encyclopedic Reference]: </harrypedia/>
 
-[FSSP]: <../../backstory/fssp>
+[FSSP]: <../FSSP/>
 
 [^211201-1]: There is nothing truly unique in Fan Fiction.
     * In _[Error of Soul](https://www.fanfiction.net/s/8490518)_
