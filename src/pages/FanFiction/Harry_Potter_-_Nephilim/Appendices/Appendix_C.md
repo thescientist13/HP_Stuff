@@ -53,78 +53,18 @@ determine what happens to a given child.
 1. Recall that I said that magic can be inherently corrupting.  Magic that is
    corrupting not only affects the user, but his/her descendants, four
    generations out.  All magic that *requires* an emotional content
-   (unforgivables require hatred, the patronus requires positive emotions, so
-   on) fits in this category.
+   () fits in this category.
    - by corrupting, I do not necessarily mean that it tends the user towards
      evil, I mean that it tends to change (corrupt) the nature of the user.
-   - This corruption is *caused* not necessarily by the magic itself, but
-     because angels regularly act to ensure that magical rules they themselves
-     have created are followed. See [Appendix F][AF] and [Appendix G][AG].
-   - magic where the required emotion closely aligns with one or more of the
-     seven deadly sins tends to corrupt the user more severely and more rapidly
-     (both) than magic where the required emotion is either neutral or closely
-     aligns with a virtue.
-   - Magic that aligns with a virtue *still corrupts*, it simply does so less
-     severely, more slowly (and thus less likely to happen literally over
-     night), and/or the change is less likely to be inheritable.
-   - Magic that *requires* emotion tends to have very low, very real
-     thresholds.  Magic that is merely *affected* by the user's emotions tends
-     to allow for greater ranges of use without hitting thresholds.
-   - It is theoretically possible, but in practice highly unlikely, that the
-     changes induced by different magics requiring opposing emotional contexts
-     might cancel each other out.
-   - Intent matters, if the threshold was crossed due to malicious intent, the
-     corruption tends to be more crippling, where the threshold was crossed
-     despite benign intent, or out of fear for self or others, the corruption
-     tends to be mitigated in odd unexpected ways.
-   - While all emotional magic falls in this category of corrupting the user,
-     there are other classes of magic that do as well.
-   - Magic that *decreases* free will of the *target* has *incredibly* low thresholds.
-     - The [Imperius] curse
-     - the Confundus curse
-     - some uses of memory charms
-   - Use of a corrupting magic sufficient to reach a change threshold frequently
-     predisposes the next generation to be susceptible to either that type of
-     magic, the type of emotions that are required for that magic, or both, by 10%
-     _per ancestor_.  That is, the next generation might have *stronger concupiscence*
-     and in fact *less free will.*
-   - The thresholds involved for each kind of magic are very poorly researched
-     and not at all understood.
+   -    -    -
+   -
+   -
+   -
+   -
+   -
+   -    -
    - As stated elsewhere, this effect lasts for four generations.
-   - If the total effect exceeds 90% (at 100% you would have no free will), then
-     the odds off something bizarre happening goes up by one percent for every
-     10% of difference.
-     * So if for example all of your progenitors on both sizes excessively used
-       the killing curse, you would be susceptible to (unable to control) hatred
-       (anger) by 300% base.  Since the total effect cannot remove your free
-       will, the actual effect is more complicated.  Your great-grandparents
-       each had a 20% boost (10% from each of their parents).  Your grandparents
-       inherited that 20% boost *from both sides* and *in addition* a 10% boost
-       because of each great-grandparent's own personal abuse of magic, yielding
-       a 60% boost to your grandparent's experience of angry emotions, and a
-       corresponding decrease in their ability to choose not to act on these
-       emotions.  Your parents were the first generation to exceed 90%: a 60%
-       remote inheritance, plus a 10% immediate inheritance, from each parent,
-       for a total of 140%.  This is reduced to 90%, but the chance of something
-       bizarre is increased by 5%.  You then get the 90% anger *and* the 5%
-       bizarre factors as your remote inheritance, *plus* the 10% anger boost
-       from *your parent's* personal abuse of magic (again from each parent).
-       This puts your total anger boost at 180%, which is again reduced to 90%,
-       but causes an additional boost on the chance of the bizarre, this time by
-       9%.  This gets added to the 5% (per parent) from the remote inheritance,
-       for a total chance of something bizarre happening to you at 19% over the
-       base rate (5% from each parent plus 9% from 180 being 9*10 over 90).  One
-       in five children in such a scenario would have something totally
-       inexplicable happen to them magically, physically, or both as they are
-       conceived, gestated and born.
-     * Inbreeding would make the above worse, as some progenitors would be
-       counted multiple times over.
-     * Thus someone like Draco Malfoy actually does have tremendous trouble
-       controlling his instinctual behaviour in many ways. Judged by human
-       standards, he is mentally crippled, with severely damaged executive
-       function, particularly in the areas of impulse control, aggression, and
-       judgement.
-1. Harry Potter talks about two classes that require special mention, squibs and
+   - 1. Harry Potter talks about two classes that require special mention, squibs and
    muggle born.  They are effectively inverse of each other.
    * A true squib is the child who resulted from the 0.5% chance of becoming
      mundane.  Such a child is fully human, and no "muggle-born" will ever
@@ -184,18 +124,7 @@ determine what happens to a given child.
   really a stable species at all, and in some ways (specifically fertility)
   less than either.
 
-  In angelic beings, there is very little potentiality in knowledge, when they
-  learn something, they learn it fully and completely, not gradually come to
-  understand/know it over time.  As part and parcel of this, when an angelic
-  being decides, its decision lasts for all time, and is by nature irrevocable.
-  Thus we say that free will for angelic beings consists, in some ways, of the
-  sole choice to obey God or to rebel against God, made once at the moment of
-  their creation. This is not precisely accurate, but is a reasonable working
-  definition.  Humans on the other hand, learn and grow over time, constantly
-  changing.  Thus our choices are contingent on our level of knowledge and
-  experience, and since that is, as I stated, always changing, our choices are
-  not irrevocable until the moment of death.  We can repent of past actions, and
-  through grace even repair our relationship with God.
+
 
   Nephil have some aspects of both.  They are *mostly* contingent beings that
   grow and change over time, but their use of magic is, in this universe, the
@@ -397,6 +326,8 @@ can never be fully freed.
   capable of living in a group home. This is not a fair comparison however, the
   human is suffering from a disability; the troll is performing with unusual
   *capability.*  Believed to be created by the ancestors of the goblins.
+
+[Many Waters]: https://wikipedia.org/wiki/Many_Waters
 
 [AA]: <../Appendix_A/>
 
