@@ -41,11 +41,11 @@ the [History][] timeline.
 
 [History]: <../../history>
 
-[Draco]: <../malfoy/draco_lucius>
+[Draco]: <../Malfoy/Draco_Lucius/>
 
 [Phineus Nigellus]: <phineus_nigellus>
 
-[Cygnus I]: <../black/cygnus>
+[Cygnus I]: <../Black/cygnus>
 
 [Malfoy]: <../malfoy>
 
@@ -55,11 +55,11 @@ the [History][] timeline.
 
 [Harfang]: <../longbottom/harfang>
 
-[Arthur]: <../weasley/arthur>
+[Arthur]: <../Weasley/arthur/>
 
 [Cedrella]: <cedrella>
 
-[Septimus]: <../weasley/septimus>
+[Septimus]: <../Weasley/septimus/>
 
 [Sirius III]: <sirius_iii>
 
@@ -71,9 +71,9 @@ the [History][] timeline.
 
 [Grimmauld Place]: <../../grimmauld_place>
 
-[Neville]: <../longbottom/neville>
+[Neville]: <../Longbottom/Neville/>
 
-[Harry]: <../potter/harry_james>
+[Harry]: <../Potter/Harry_James/>
 
 On a side note, while it flies in the face of some of what I've written above,
 Tigerman has an interesting theory in his work [RuneMaster][RMff1].  He suggests

@@ -37,11 +37,11 @@ respect with which she might be held.
 
 [Tonks]: <../../tonks/nymphadora>
 
-[Harry]: <../../potter/harry_james>
+[Harry]: <../../Potter/Harry_James/>
 
-[Hagrid]: <../../hagrid/rubeus>
+[Hagrid]: <../../Hagrid/Rubeus/>
 
-[Sirius]: <../../black/sirius_iii>
+[Sirius]: <../../Black/Sirius_iii/>
 
 [^221213-2]: Mrs. J. K. Rowling.
     _[Harry Potter and the Order of the Phoenix](https://www.librarything.com/work/115/book/225886709)_

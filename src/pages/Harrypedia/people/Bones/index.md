@@ -23,7 +23,7 @@ Or is [Amelia][] fairly broad minded?[^210701-3]
 
 [Susan]: <susan>
 
-[Riddle]: <../riddle/tom_marvolo>
+[Riddle]: <../Riddle/Tom_Marvolo/>
 
 [Amelia]: <amelia_susan>
 

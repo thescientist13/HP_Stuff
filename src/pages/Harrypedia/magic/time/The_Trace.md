@@ -69,7 +69,7 @@ more for muggle born witches and wizards rather than any real restriction. See
 [Culture][] for more on this.
 
 
-[Hermione]: <../../../people/granger/hermione_jean>
+[Hermione]: <../../../people/Granger/Hermione_Jean/>
 
 [Culture]: <../../../Culture>
 

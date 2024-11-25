@@ -210,9 +210,9 @@ is a ring of truth to it:
     _Harry Potter and the Half-Blood Prince_ (p. 46, Loc 743 of 8473). 
     Pottermore Publishing. American Kindle Edition. 
 
-[Harry]: <../potter/harry_james>
+[Harry]: <../Potter/Harry_James/>
 
-[Dumbledore]: <../dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Sirius]: <../black/sirius_iii>
+[Sirius]: <../Black/Sirius_iii/>
 

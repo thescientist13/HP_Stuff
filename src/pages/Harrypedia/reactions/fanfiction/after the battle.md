@@ -15,17 +15,17 @@ author: Luke Schierer
     * If she *does* tell him anything of her traumatic year, would he get defensive, more depressed, or both? My guess is more depressed, but not defensive.  However, my guess is that she *would* face denial from other family members and *might* take that out on [Harry].  
     * How much patience would she show in dealing with *his* issues surrounding the walk to the forest?  No matter how patient she is *inclined* to be, the rest of the world won't be patient and she also won't like hearing about things from other people (or worse, the news) all the time.  
 
-[horcrux]: /harrypedia/magic/dark/horcruxes/
+[horcrux]: /Harrypedia/magic/dark/horcruxes/
 
-[Dumbledore]: /harrypedia/people/dumbledore/albus_percival_wulfric_brian/
+[Dumbledore]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/
 
-[Harry]: /harrypedia/people/potter/harry_james/
+[Harry]: /Harrypedia/people/Potter/Harry_James/
 
-[Ginny]: /harrypedia/people/weasley/ginevra_molly/
+[Ginny]: /Harrypedia/people/Weasley/Ginevra_Molly/
 
-[Hogwarts]: /harrypedia/hogwarts/
+[Hogwarts]: /Harrypedia/hogwarts/
 
-[Neville]: /harrypedia/people/longbottom/neville/
+[Neville]: /Harrypedia/people/Longbottom/Neville/
 
 [^240424-4]: Mrs. J. K. Rowling.
     _[Harry Potter and the Deathly Hallows]_

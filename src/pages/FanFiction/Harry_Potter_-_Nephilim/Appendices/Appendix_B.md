@@ -566,7 +566,7 @@ Here lets step beyond what might be gleaned by summarizing the various works ava
 
 [Wikipedia]: <https://en.wikipedia.org/>
 
-[Imperius]: </harrypedia/magic/spells/imperio>
+[Imperius]: </Harrypedia/magic/spells/imperio>
 
 [^20210902-5]: Mrs. J. K. Rowling.
     "[What is the significance of Neville being the other boy to whom the prophecy might have

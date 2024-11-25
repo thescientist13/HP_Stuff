@@ -20,12 +20,12 @@ native to the Mediterranean, Scotland, and Ireland respectively.[^211111-5] This
 fits well with what I read in a recent [Tor][] [article][tbm1] on the variety of
 mermaid myths around the world.[^211111-6]
 
-[tbm1]: https://www.tor.com/2021/11/09/black-mermaids-the-waters-beyond-eurocentric-mythology/
+[tbm1]: https://www.tor.com/2021/11/09/Black/-mermaids-the-waters-beyond-eurocentric-mythology/
 
 [Tor]: https://www.tor.com/
 
 [^211111-6]: Ms. Natasha Bowen.
-    "[Black Mermaids: The Waters Beyond Eurocentric Mythology](https://www.tor.com/2021/11/09/black-mermaids-the-waters-beyond-eurocentric-mythology/)"
+    "[Black Mermaids: The Waters Beyond Eurocentric Mythology](https://www.tor.com/2021/11/09/Black/-mermaids-the-waters-beyond-eurocentric-mythology/)"
     [Tor.com](https://www.tor.com/) Published: 2021-11-09. Last Viewed: 2021-11-11.
 
 [^211111-5]: [Harry Potter Wiki](https://harrypotter.fandom.com/wiki)

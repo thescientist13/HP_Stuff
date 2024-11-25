@@ -13,7 +13,7 @@ warning that they will not differentiate between bystanders and targets, they
 
 [Fudge]: <../../people/fudge/cornelius_oswald>
 
-[Dumbledore]: <../../people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 ### Inconsistencies
 

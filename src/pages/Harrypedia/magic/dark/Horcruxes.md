@@ -56,7 +56,7 @@ about and properly investigate what an intact horcrux is doing in the
 Imperial Museum is a testimony to his overall dependence on the prophecy,
 and failure to act.
 
-[Bill]: <../../../people/weasley/william_arthur>
+[Bill]: <../../../people/Weasley/William_Arthur/>
 
 [^210324-1]: Adapted from Itsme66.
     _[The Mandatory Marriage Contract Fic](https://www.fanfiction.net/s/5695032)_
@@ -260,13 +260,13 @@ Mrs. Rowling accepts a fallacy here: that sometimes an evil can be so great, so 
 
 [Lord of the Rings]: https://wikipedia.org/wiki/The_Lord_of_the_Rings
 
-[balance]: /harrypedia/balance/
+[balance]: /Harrypedia/balance/
 
-[basilisk]: /harrypedia/animals/basilisk/
+[basilisk]: /Harrypedia/animals/basilisk/
 
-[fiendfire]: /harrypedia/magic/spells/fiendfire/
+[fiendfire]: /Harrypedia/magic/spells/fiendfire/
 
-[the killing curse]: /harrypedia/magic/spells/avada kedavra/
+[the killing curse]: /Harrypedia/magic/spells/avada kedavra/
 
 [^240506-1]: Citation needed. 
 
@@ -399,15 +399,15 @@ this theory to work, [Riddle][] ought to have been at [eleven][], or
 
 [thirteen]: https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/13.html
 
-[Riddle]: <../../../people/riddle/tom_marvolo>
+[Riddle]: <../../../people/Riddle/Tom_Marvolo/>
 
 [stable number]: <../../arithmancy/realworld>
 
-[Harry]: <../../../people/potter/harry_james>
+[Harry]: <../../../people/Potter/Harry_James/>
 
-[Ginny]: <../../../people/weasley/ginevra_molly>
+[Ginny]: <../../../people/Weasley/Ginevra_Molly/>
 
-[Dumbledore]: <../../../people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../../people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [^220728-5]: [Bible Study](https://www.biblestudy.org/).  "[Meaning of
     Numbers in the

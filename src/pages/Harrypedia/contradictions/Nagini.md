@@ -21,9 +21,9 @@ On the other hand, it may be that this is *why* he is willing to make a snake, w
 
 [horcrux]: ../magic/dark/horcruxes/
 
-[Dumbledore]: ../people/dumbledore/albus_percival_wulfric_brian/
+[Dumbledore]: ../people/Dumbledore/Albus_Percival_Wulfric_Brian/
 
-[Riddle]: ../people/riddle/tom_marvolo/
+[Riddle]: ../people/Riddle/Tom_Marvolo/
 
 [^240326-2]: [Callie Ahlgrim](https://www.businessinsider.com/author/callie-ahlgrim)
     "[J.K. Rowling says she left one major clue about Nagini's backstory in 'Harry Potter,' long before 'Fantastic Beasts: The Crimes of Grindelwald'](https://www.businessinsider.com/jk-rowling-hints-about-nagini-origin-in-harry-potter-2019-3)"

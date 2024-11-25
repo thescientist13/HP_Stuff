@@ -50,10 +50,10 @@ to watch.
 
 [Daphne Greengrass and the Preemptive Adulterer]: <https://archiveofourown.org/works/36587794>
 
-[Harry]: </harrypedia/people/potter/harry_james>
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
 
-[Daphne]: </harrypedia/people/greengrass/daphne>
+[Daphne]: </Harrypedia/people/Greengrass/Daphne/>
 
-[Ginny]: </harrypedia/people/weasley/ginevra_molly>
+[Ginny]: </Harrypedia/people/Weasley/Ginevra_Molly/>
 
-[Dumbledore]: </harrypedia/people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>

@@ -54,11 +54,11 @@ whereas [James] and [Sirius] (**_not_** Lupin or [Lily]) are the ones that
 exceptionally bright.[^211108-7]  I do not doubt the man did well in school, but
 he worked for it, whereas his more intelligent friends found the material easy. 
 
-[James]: <../../potter/james/>
+[James]: <../../Potter/James/>
 
-[Lily]: <../../evans/lily_j/>
+[Lily]: <../../Evans/Lily_J./>
 
-[Sirius]: <../../black/sirius_iii/>
+[Sirius]: <../../Black/Sirius_iii/>
 
 In many ways, this quote adequately says all there is to say:
 

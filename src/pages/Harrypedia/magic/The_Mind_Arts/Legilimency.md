@@ -72,13 +72,13 @@ the Phoenix_.  Better citation needed here.
 
 [dark arts]: <../../dark>
 
-[Snape]: <../../../people/snape/severus>
+[Snape]: <../../../people/Snape/Severus/>
 
-[Harry]: <../../../people/potter/harry_james>
+[Harry]: <../../../people/Potter/Harry_James/>
 
 [Queenie Goldstein]: <../../../people/goldstein/queenie>
 
-[Dumbledore]: <../../../people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../../people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [^221216-1]: works include, but not limited to:
     * JadeSeraph. _[Soul Nexus](https://www.fanfiction.net/s/3577157)_ Published 2007-06-05. Updated: 2008-08-27.

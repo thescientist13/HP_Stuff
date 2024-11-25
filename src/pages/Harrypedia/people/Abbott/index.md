@@ -22,11 +22,11 @@ pulled from school because her mother is killed in an attack by either
 
 [Hannah]: <./hannah/>
 
-[Riddle]: <../riddle/tom_marvolo/>
+[Riddle]: <../Riddle/Tom_Marvolo/>
 
 [Class_and_Blood]: <../../culture/class_and_blood/>
 
-[Harry]: <../potter/harry_james/>
+[Harry]: <../Potter/Harry_James/>
 
 [Slytherin]: <../slytherin/salazar/>
 

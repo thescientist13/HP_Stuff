@@ -198,23 +198,23 @@ seem to largely stem from a fairly black and white view of the world and
 
 [Ravenclaw]: <../../../hogwarts/ravenclaw>
 
-[Malfoy]: <../../malfoy/draco_lucius>
+[Malfoy]: <../../Malfoy/Draco_Lucius/>
 
-[MM1]: <../../mcgonagall/minerva>
+[MM1]: <../../McGonagall/Minerva/>
 
 [FF1]: <../../flitwick/filus>
 
-[Harry]: <../../potter/harry_james>
+[Harry]: <../../Potter/Harry_James/>
 
 [Ginny]: <../ginevra_molly>
 
-[Hermione]: <../../granger/hermione_jean>
+[Hermione]: <../../Granger/Hermione_Jean/>
 
 [Harry Potter and the Goblet of Fire]: https://www.librarything.com/work/113
 
 [Ginny's]: <../ginevra_molly>
 
-[Lavender]: <../../brown/lavender/>
+[Lavender]: <../../Brown/Lavender/>
 
 [^240313-1]: Mrs. J. K. Rowling.
     _[Harry Potter and the Goblet of Fire]_

@@ -13,7 +13,7 @@ layout: person
 
 * Married [Vernon Dursley][VD].
 
-[VD]: <../../dursley/vernon>
+[VD]: <../../Dursley/Vernon/>
 
 ### Speculation
 

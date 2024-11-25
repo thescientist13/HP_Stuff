@@ -31,25 +31,25 @@ However, the typical pattern is that the author defines this magical society by 
   * The result is that it comes across as incredibly pretentious, and done simply to make themselves different, and not out of any great attachment to the language, or indeed, the thought structures that made that way of speaking common when it was.  
 
 
-[Gryffindor]: </harrypedia/hogwarts/gryffindor/>
+[Gryffindor]: </Harrypedia/hogwarts/gryffindor/>
 
-[McGonagall]: </harrypedia/people/mcgonagall/minerva/>
+[McGonagall]: </Harrypedia/people/McGonagall/Minerva/>
 
-[Snape]: </harrypedia/people/snape/severus/>
+[Snape]: </Harrypedia/people/Snape/Severus//>
 
-[Grindelwald]: </harrypedia/people/grindelwald/gellert/>
+[Grindelwald]: </Harrypedia/people/grindelwald/gellert/>
 
-[Slytherin]: </harrypedia/hogwarts/slytherin/>
+[Slytherin]: </Harrypedia/hogwarts/slytherin/>
 
-[Malfoy]: </harrypedia/people/malfoy/draco_lucius/>
+[Malfoy]: </Harrypedia/people/Malfoy/Draco_Lucius/>
 
-[International Confederation of Wizards]: </harrypedia/culture/international_confederation_of_wizards/>
+[International Confederation of Wizards]: </Harrypedia/culture/international_confederation_of_wizards/>
 
-[Hogwarts]: </harrypedia/hogwarts/>
+[Hogwarts]: </Harrypedia/hogwarts/>
 
-[Statute of Secrecy]: </harrypedia/culture/international_statute_of_secrecy/>
+[Statute of Secrecy]: </Harrypedia/culture/international_statute_of_secrecy/>
 
-[Harry]: </harrypedia/people/potter/harry_james/>
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
 
 [^240916-2]: I should cite some examples.  
 

@@ -80,11 +80,11 @@ just insulted her best friend, and will go on to pick on him unmercifully.
 Perhaps [Lily] cannot really see James with an unbiased eye until
 after she herself has fallen out with [Snape]?
 
-[Ron]: <../../weasley/ronald_bilius>
+[Ron]: <../../Weasley/Ronald_Bilius/>
 
-[Lily]: <../../evans/lily_j>
+[Lily]: <../../Evans/Lily_J./>
 
-[Snape]: <../../snape/severus>
+[Snape]: <../../Snape/Severus/>
 
 ---
 
@@ -117,9 +117,9 @@ We have nothing but [Snape]'s (untrustworthy) word to stay that James knew of
 [Sirius] alone who told Snape about the tree,[^210511-2] it is typical of
 [Snape] that he blames James for [Sirius]' actions.
 
-[Sirius]: <../../black/sirius_iii>
+[Sirius]: <../../Black/Sirius_iii/>
 
-[Lupin]: <../../lupin/remus_john>
+[Lupin]: <../../Lupin/Remus_John/>
 
 ---
 
@@ -163,7 +163,7 @@ of his father's skills, but it seems unlikely that he did *poorly* at the
 subject - his father would have tutored him over the summers should he have
 needed it.  [Snape] and [Lily] are prodigies, and [Snape] seems to expect *everyone* to find potions as intuitive as he does, so I take any disparagement he makes with a fairly large and active amount of suspicion.  
 
-[McGonagall]: <../../mcgonagall/minerva>
+[McGonagall]: <../../McGonagall/Minerva/>
 
 [Pettigrew]: <../../pettigrew/peter>
 
@@ -196,9 +196,9 @@ sees, it rings true to those who witnessed it.  The fact that the [pensieve] cle
 
 [Harry]: <../harry_james>
 
-[Slughorn]: /harrypedia/people/slughorn/horace_eugene_flaccus/
+[Slughorn]: /Harrypedia/people/slughorn/horace_eugene_flaccus/
 
-[pensieve]: /harrypedia/magic/time/pensieve/
+[pensieve]: /Harrypedia/magic/time/pensieve/
 
 [^240422-1]: See my thoughts on the [pensieve]. 
 
@@ -315,7 +315,7 @@ woods.[^210511-3]
 > them off within days of each other, due to their advanced age, and James
 > Potter then inherited Ignotus [Peverell]’s Invisibility Cloak.[^210128-29]
 
-[Peverell]: <../../peverell>
+[Peverell]: <../../Peverell/>
 
 ### When did he get the Cloak
 
@@ -343,7 +343,7 @@ hands, despite the fact that he supposedly has no cunning or intelligence.
 
 [Fleamont]: <../fleamont>
 
-[Riddle]: <../../riddle/tom_marvolo>
+[Riddle]: <../../Riddle/Tom_Marvolo/>
 
 ## Pure Speculation
 
@@ -367,13 +367,13 @@ The encounter in tunnel where he saves [Snape] no doubt *does* have something to
 
 If either or both of these is true, James might well have been something of a peer leader across the school despite not being a prefect.  As such he might well have been an obvious choice to an unbiased observer no matter how much [Snape] resents the choice.  Either or both of these might also have influenced [Lily] to begin to reevaluate him as soon as her friendship with [Snape] was (pardon the pun) severed.  For I refuse to believe that his ([Snape]'s) continual influence, proclaiming his own innocence (which she wanted to believe) and Potter's guilt had no effect on the impression that lead to the one encounter between them we see in [Snape]'s memory. 
 
-[animagus]: /harrypedia/magic/
+[animagus]: /Harrypedia/magic/
 
 [Robin Hood]: https://en.wikipedia.org/wiki/Robin_Hood
 
-[Slughorn]: /harrypedia/people/slughorn/horace_eugene_flaccus/
+[Slughorn]: /Harrypedia/people/slughorn/horace_eugene_flaccus/
 
-[D1]: /harrypedia/people/dumbledore/albus_percival_wulfric_brian/
+[D1]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/
 
 [^240422-3]: this is a really tempting tangent, but this page isn't about [Dumbledore]. 
 

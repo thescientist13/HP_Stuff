@@ -18,7 +18,7 @@ first impressions.  Whatever I may once have thought, as I have come to think
 more deeply about the series, Hermione is no longer one of my favourite characters.  I think that is why when I first started reading fan fiction I was
 so strongly drawn to the cannon [Harry]/[Ginny] pairing.  Of the female characters in the books, few get consistently positive portrayals, and of those, only [Harry] only *really* relates to Hermione, [Ginny], and [Luna].  [Ginny] and [Luna] are long enough topics to deserve their own pages.  
 
-[Luna]: <../../lovegood/luna>
+[Luna]: <../../Lovegood/Luna/>
 
 [The_Half_Blood_Prince]: https://www.schierer.org/~luke/log/fiction/Harry_Potter/The_Half_Blood_Prince/
 
@@ -34,7 +34,7 @@ to call Hermione to account[^200706-3] that I would struggle to do better. If
 that is not enough, in some ways, [this][TSWoHA] fake interview for a position
 in the Department of Mysteries does even better.[^210324-2]
 
-[Notes]: </harrypedia>
+[Notes]: </Harrypedia>
 
 Based on an interview she quotes, Ms. Onim asserts that Hermione is essentially
 a very flat character with the emotional maturity of a very young (she gives
@@ -52,7 +52,7 @@ situations that [Harry] could better have handled.  It is odd that the
 prophesy speaks of one who would be [Riddle]'s equal, but that [Harry] is,
 in many ways, carried along right up to the last scene in the Great Hall.  
 
-[Riddle]: <../../riddle/tom_marvolo>
+[Riddle]: <../../Riddle/Tom_Marvolo/>
 
 On the other hand, he need not have been.  Where did [Harry] and Hermione
 disagree?  
@@ -96,11 +96,11 @@ disagree?
 * They disagree over the potions book.  Despite the use of Sectumsempra, I think
   [Harry] was right on this one.   Certainly Hermione's *reasoning* was wrong even if her conclusion was partially correct.  
 
-[Professor McGonagall]: <../../mcgonagall/minerva>
+[Professor McGonagall]: <../../McGonagall/Minerva/>
 
-[Dumbledore]: <../../dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Malfoy]: <../../malfoy/draco_lucius>
+[Malfoy]: <../../Malfoy/Draco_Lucius/>
 
 [^230208-1]: Mrs. J. K. Rowling. _[Harry Potter and the Deathly Hallows]_ Pottermore Publishing. American Kindle Edition. Page 245.
 
@@ -161,11 +161,11 @@ what Mrs. Rowling writes - [Fleur] is attracted to [Bill] *because* he is
 that rare male who does not react.  This has been so rare in her life as to
 stand out.  
 
-[Fleur Delacour]: <../../delacour/fleur_isabelle>
+[Fleur Delacour]: <../../Delacour/Fleur_Isabelle/>
 
-[Fleur]: <../../delacour/fleur_isabelle>
+[Fleur]: <../../Delacour/Fleur_Isabelle/>
 
-[Bill]: <../../weasley/william_arthur>
+[Bill]: <../../Weasley/William_Arthur/>
 
 Hermione researches *everything* impulsively.  She might not have known much
 about Veela at the world cup, but after seeing the guys react to them there,
@@ -342,15 +342,15 @@ happened in third year.  If it did not happen then, I do not think they would
 have time (in the books we see) for them to recover from the events of sixth
 year, though it is anyone's guess which specific event would be one too many.
 
-[Harry]: <../../potter/harry_james>
+[Harry]: <../../Potter/Harry_James/>
 
-[Ron]: <../../weasley/ronald_bilius>
+[Ron]: <../../Weasley/Ronald_Bilius/>
 
-[Ginny]: <../../weasley/ginevra_molly>
+[Ginny]: <../../Weasley/Ginevra_Molly/>
 
-[Black]: <../../black/sirius_iii>
+[Black]: <../../Black/Sirius_iii/>
 
-[Lavender]: ../../brown/lavender/
+[Lavender]: ../../Brown/Lavender/
 
 [McLaggen]: ../../mclaggen/cormac/
 
@@ -358,7 +358,7 @@ year, though it is anyone's guess which specific event would be one too many.
 
 [Hogwarts]: ../../../hogwarts/
 
-[Confundus]: /harrypedia/magic/spells/confundus/
+[Confundus]: /Harrypedia/magic/spells/confundus/
 
 [^210818-3]: Mrs. J. K. Rowling.
     _[Harry Potter and the Half-Blood Prince](https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince)_
@@ -401,7 +401,7 @@ year, though it is anyone's guess which specific event would be one too many.
 [^240101-1]: I actually do not think she *was* right, why could her parents not 
     have been protected the way the [Dursleys] were?
 
-[Dursleys]: ../../dursley/
+[Dursleys]: ../../Dursley/
 
 [^240101-2]: Mrs. J. K. Rowling. 
     _[Harry Potter and the Half-Blood Prince]_

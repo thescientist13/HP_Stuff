@@ -12,9 +12,9 @@ school students.  While we do not know how old [Gabrielle][] is with any true
 certainty, it is safe to say that she is way too young for fourteen year old
 [Harry][] when they first meet.
 
-[Harry]: </harrypedia/people/potter/harry_james>
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
 
-[Gabrielle]: </harrypedia/people/delacour/gabrielle>
+[Gabrielle]: </Harrypedia/people/Delacour/Gabrielle/>
 
 <dl>
     <dt>_[Hope][]_</dt>

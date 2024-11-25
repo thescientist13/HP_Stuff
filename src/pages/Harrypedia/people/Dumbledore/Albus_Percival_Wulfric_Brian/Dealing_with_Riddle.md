@@ -177,22 +177,22 @@ hunt them down.  Why, knowing that he will die, he entrusts the knowledge to
 
 [Horcruxes]: <../../../../magic/dark/horcruxes/>
 
-[Lupin]: <../../../lupin/remus_john>
+[Lupin]: <../../../Lupin/Remus_John/>
 
 [Kingsley]: <../../../shacklebolt/kingsley/>
 
 [Moody]: <../../../people/moody/>
 
-[TMR1]: <../../../riddle/tom_marvolo>
+[TMR1]: <../../../Riddle/Tom_Marvolo/>
 
-[Harry]: <../../../potter/harry_james>
+[Harry]: <../../../Potter/Harry_James/>
 
-[Hermione]: <../../../granger/hermione_jean>
+[Hermione]: <../../../Granger/Hermione_Jean/>
 
-[Ron]: <../../../weasley/ronald_bilius>
+[Ron]: <../../../Weasley/Ronald_Bilius/>
 
-[Bill]: <../../../weasley/william_arthur>
+[Bill]: <../../../Weasley/William_Arthur/>
 
-[Draco]: <../../../malfoy/draco_lucius/>
+[Draco]: <../../../Malfoy/Draco_Lucius/>
 
-[Snape]: <../../../snape/severus/>
+[Snape]: <../../../Snape/Severus//>

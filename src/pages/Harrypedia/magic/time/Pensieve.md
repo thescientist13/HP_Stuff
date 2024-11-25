@@ -58,15 +58,15 @@ would not only know this, but would be able to work around it.  This would expla
 
 [Slughorn]: <../../../people/slughorn/horace_eugene_flaccus>
 
-[Snape]: <../../../people/snape/severus>
+[Snape]: <../../../people/Snape/Severus/>
 
-[James]: <../../../people/potter/james>
+[James]: <../../../people/Potter/James/>
 
-[Sirius]: <../../../people/black/sirius_iii>
+[Sirius]: <../../../people/Black/Sirius_iii/>
 
-[Harry]: <../../../people/potter/harry_james>
+[Harry]: <../../../people/Potter/Harry_James/>
 
-[Dumbledore]: <../../../people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../../people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [^221202-10]: The idea that the pensieve can be used to invoke time was first
   suggested to me, in a different way, by _[Backward With Purpose Part I:

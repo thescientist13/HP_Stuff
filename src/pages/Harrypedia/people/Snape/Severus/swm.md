@@ -11,21 +11,21 @@ the end of the 1975-1976 school year when [Lily], [James] and their friends
 (or enemies as the case may be) were in their fifth year. We do not know the
 exact chronology, what follows is my best reconstruction.
 
-[Sirius]: <../../../black/sirius_iii>
+[Sirius]: <../../../Black/Sirius_iii/>
 
-[James]: <../../../potter/james>
+[James]: <../../../Potter/James/>
 
-[Lily]: <../../../evans/lily_j/>
+[Lily]: <../../../Evans/Lily_J./>
 
-[Snape]: <../../../snape/severus>
+[Snape]: <../../../Snape/Severus/>
 
-[Severus]: <../../../snape/severus>
+[Severus]: <../../../Snape/Severus/>
 
-[McGonagall]: <../../../mcgonagall/minerva>
+[McGonagall]: <../../../McGonagall/Minerva/>
 
-[Dumbledore]: <../../../dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Lupin]: <../../../lupin/remus_john>
+[Lupin]: <../../../Lupin/Remus_John/>
 
 ## What Happened
 
@@ -360,7 +360,7 @@ was a mudblood.  This would draw [Snape] deeper and deeper into [Riddle]'s
 atrocities and soul corrupting influence.  You simply cannot be around such
 people without their evil rubbing off on you.
 
-[Riddle]: <../../../riddle/tom_marvolo>
+[Riddle]: <../../../Riddle/Tom_Marvolo/>
 
 People criticising [Lily] are essentially pushing her towards missionary
 dating.  It is not *precisely* the same situation, but it is close enough.
@@ -414,6 +414,6 @@ to act on that attraction by agreeing to go out with him.
 
 [Occlumens]: <../../../../magic/the_mind_arts/occlumency>
 
-[Harry]: <../../../potter/harry_james>
+[Harry]: <../../../Potter/Harry_James/>
 
 [Hogwarts]: <../../../../hogwarts>

@@ -29,13 +29,13 @@ or approves of the badges' second message) against her.
 
 [blood status]: <../../../culture/class_and_blood>
 
-[Harry]: <../../potter/harry_james>
+[Harry]: <../../Potter/Harry_James/>
 
 [Salazar]: <../../slytherin/salazar>
 
 [Ernie]: <../../macmillan>
 
-[Riddle]: <../../riddle/tom_marvolo>
+[Riddle]: <../../Riddle/Tom_Marvolo/>
 
 [^211004-15]: Mrs. J. K. Rowling.
     _[Harry Potter and the Deathly Hallows](https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows)_

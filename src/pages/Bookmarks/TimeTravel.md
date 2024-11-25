@@ -66,22 +66,22 @@ Harry is not the only character to go back in time in Fan Fiction.
 
 </dl>
 
-[Dumbledore]: </harrypedia/people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[horcrux]: </harrypedia/magic/dark/horcruxes>
+[horcrux]: </Harrypedia/magic/dark/horcruxes>
 
 [HH1]: <https://bobmin.fanficauthors.net/Healing_Harry>
 
 [GAFRIW1]: <https://www.fanfiction.net/s/6126906>
 
-[Lily]: </harrypedia/people/evans/lily_j/>
+[Lily]: </Harrypedia/people/Evans/Lily_J./>
 
-[Ginny]: </harrypedia/people/weasley/ginevra_molly>
+[Ginny]: </Harrypedia/people/Weasley/Ginevra_Molly/>
 
-[Ron]: </harrypedia/people/weasley/ronald_bilius>
+[Ron]: </Harrypedia/people/Weasley/Ronald_Bilius/>
 
-[Hermione]: </harrypedia/people/granger/hermione_jean>
+[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
 
-[Harry]: </harrypedia/people/potter/harry_james>
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
 
-[Riddle]: </harrypedia/people/riddle/tom_marvolo>
+[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>

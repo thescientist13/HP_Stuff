@@ -250,7 +250,7 @@ children may have made themselves liable to.
 
 [AH]: <../appendix_h>
 
-[Imperius]: </harrypedia/magic/spells/imperio/>
+[Imperius]: </Harrypedia/magic/spells/imperio/>
 
 [^230103-2]: these include,
     but are not limited to:

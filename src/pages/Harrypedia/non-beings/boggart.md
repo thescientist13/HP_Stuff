@@ -30,7 +30,7 @@ the fact that it can resurrect a suppressed memory and cause [Harry] to
 faint means that it is still a frighteningly over-powered creature.
 
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
 [tells]: https://www.rowlingindex.org/work/pmbog/
 

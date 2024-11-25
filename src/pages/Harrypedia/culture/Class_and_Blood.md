@@ -56,7 +56,7 @@ the [Potters] are mostly pure-bloods.  The same is probably true of the
 [Weasleys], [Longbottoms], [Abbotts], and any others who made up the
 minority who protested their inclusion on the Sacred Twenty-Eight list.  
 
-[Potters]: <../../people/potter>
+[Potters]: <../../people/Potter/>
 
 [Weasleys]: <../../people/weasley>
 
@@ -107,9 +107,9 @@ creating a feedback mechanism into the next generation.
 
 [Hogwarts]: <../../hogwarts>
 
-[Riddle]: <../../people/riddle/tom_marvolo>
+[Riddle]: <../../people/Riddle/Tom_Marvolo/>
 
-[Arthur]: <../../people/weasley/arthur>
+[Arthur]: <../../people/Weasley/arthur/>
 
 Eventually there are too many of them for one house at [Hogwarts].  More than
 a quarter of the population strongly supports blood status.  More than a quarter
@@ -144,7 +144,7 @@ steal from Luna.
 
 [Bones]: <../../people/bones>
 
-[Draco]: <../../people/malfoy/draco_lucius>
+[Draco]: <../../people/Malfoy/Draco_Lucius/>
 
 The only real argument against this is the distribution of first generation
 students in the various houses.  We do not know enough about the students to
@@ -169,9 +169,9 @@ Slytherin would easily make use of.  He or she would not be to "uppity" as long
 as you funded their research after all, and could be easily cheated out of any
 profitable patent-able discoveries…
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Dumbledore]: <../../people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [wwwbrpb]: https://www.wizardingworld.com/writing-by-jk-rowling/pure-blood
 

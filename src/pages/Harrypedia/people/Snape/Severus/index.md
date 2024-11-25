@@ -20,7 +20,7 @@ and champion it.  This gives us the epilogue, with a child of [Harry][]'s named
 Albus Severus, the two characters that Mrs. Rowling most wants the reader to
 forgive.
 
-[Harry]: <../../potter/harry_james>
+[Harry]: <../../Potter/Harry_James/>
 
 The books are, however, not *really* children's books at all.  I disagree with
 classifying the latter books as such, and am restricting my own children's
@@ -56,13 +56,13 @@ needs of victims are not going to be addressed.
 
 [dark]: <../../../magic/dark>
 
-[Lily]: <../../evans/lily_j>
+[Lily]: <../../Evans/Lily_J./>
 
-[Sirius]: <../../black/sirius_iii>
+[Sirius]: <../../Black/Sirius_iii/>
 
-[McGonagall]: <../../mcgonagall/minerva>
+[McGonagall]: <../../McGonagall/Minerva/>
 
-[Dumbledore]: <../../dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 As I said, we know little of Severus at school, but his memories from _the
 Deathly Hallows_ have a few things that are possibly suggestive.  In one scene
@@ -84,7 +84,7 @@ founded, and believed that she would find membership in the Death Eaters
 
 [swm]: <./swm>
 
-[James]: <../../potter/james>
+[James]: <../../Potter/James/>
 
 [^221206-1]: Ms. Melissa Anelli and Mrs. J. K. Rowling.
     "[J.K. Rowling Web Chat Transcript][LCRWC]"
@@ -145,7 +145,7 @@ Severus is showing evidence of denial about the strength of the attachment
 between [Lily][] and [James][], and a failure to understand what love really
 means.
 
-[Riddle]: <../../riddle/tom_marvolo>
+[Riddle]: <../../Riddle/Tom_Marvolo/>
 
 Some writers have tried to give Severus a pass on this one.  They rightly point
 out that there was no chance that [Riddle][] would spare the entire family, and
@@ -270,7 +270,7 @@ sequence, as Snape yells at [Harry][], looking for him to thank him "on bended
 knee"[^210510-6], and then later, with Fudge talking about the Order of Merlin,
 gives us a huge insight into Snape's character.[^210523-2]
 
-[Lupin]: <../../lupin/remus_john>
+[Lupin]: <../../Lupin/Remus_John/>
 
 As [Riddle][] returns, what does Snape know about his activities?  What could
 he have told [Dumbledore][] but chooses to hold back?  What does he tell
@@ -292,9 +292,9 @@ much worse would [Hogwarts][] have been had a different Death Eater been
 Headmaster?  How much could Severus have done to curb problems that he did not
 do?  We cannot know.  We know he helped some at least.
 
-[Ron]: <../../weasley/ronald_bilius>
+[Ron]: <../../Weasley/Ronald_Bilius/>
 
-[Ginny]: <../../weasley/ginevra_molly/>
+[Ginny]: <../../Weasley/Ginevra_Molly/>
 
 Severus is trying to reach [Harry][] when [Riddle][] decides [Harry][] must die.
 He (Severus) uses his the last of his strength to give [Harry][] memories
@@ -324,7 +324,7 @@ On a side note, it is widely speculated that Severus is [Draco][]'s godfather.
 [This][lc1] article does not specifically talk about that, but covers the
 available evidence as if it were.[^210517-6]
 
-[Draco]: <../../malfoy/draco_lucius>
+[Draco]: <../../Malfoy/Draco_Lucius/>
 
 If you want a parallel but diverging view of Severus that allows for redeeming
 him more than this rant does, BajaB offers a fascinating take on him in

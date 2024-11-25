@@ -9,6 +9,6 @@ Son of [Draco] and [Astoria], essentially nothing is known of him unless you acc
 
 [Draco]: <../draco_lucius/>
 
-[Astoria]: <../../greengrass/astoria/>
+[Astoria]: <../../Greengrass/Astoria/>
 
 [Cursed Child]: https://www.librarything.com/work/23409259

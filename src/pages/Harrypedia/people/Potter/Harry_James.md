@@ -27,13 +27,13 @@ impossible essentially requires something along the lines of his mother's
 sacrifice not just magically protected him from Tom, but also magically
 protected him from the worst of the effects of his upbringing.
 
-[Dursleys]: <../../dursley>
+[Dursleys]: <../../Dursley/>
 
 [_Don't Touch Me_](https://archiveofourown.org/works/702684) by ivybelle
 explores as a one-shot from when Harry and [Ginny] are dating the idea that
 perhaps Harry is simply really really good at hiding his reactions.[^200527-1]
 
-[Ginny]: <../../weasley/ginevra_molly>
+[Ginny]: <../../Weasley/Ginevra_Molly/>
 
 [^200527-1]: ivybelle.  _[Don't Touch Me](https://archiveofourown.org/works/702684)_,
     [Archive of Our Own](https://archiveofourown.org/) last viewed 2020-05-27.
@@ -192,21 +192,21 @@ in the cupboard.  Since both are speculation, we do not know which.
 
 [growth]: <../../../misc/growth>
 
-[Hermione]: <../../granger/hermione_jean>
+[Hermione]: <../../Granger/Hermione_Jean/>
 
-[Lily]: <../../evans/lily_j/>
+[Lily]: <../../Evans/Lily_J./>
 
 [James]: <../james>
 
-[Ron]: <../../weasley/ronald_bilius>
+[Ron]: <../../Weasley/Ronald_Bilius/>
 
-[Fred]: <../../weasley/fred>
+[Fred]: <../../Weasley/Fred/>
 
-[George]: <../../weasley/george>
+[George]: <../../Weasley/George/>
 
-[Riddle]: <../../riddle/tom_marvolo>
+[Riddle]: <../../Riddle/Tom_Marvolo/>
 
-[SS1]: <../../snape/severus>
+[SS1]: <../../Snape/Severus/>
 
 [^221024-4]: The research on this is somewhat mixed, and it would take more
   work than I have time for to weed out infantile starvation versus adolescent

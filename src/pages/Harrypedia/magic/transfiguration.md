@@ -30,7 +30,7 @@ deprivation entirely uncanonical, despite its logical soundness?
 
 [Slughorn]: <../../people/slughorn/horace_eugene_flaccus>
 
-[Dumbledore]: <../../people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [wand]: <../wands>
 
@@ -48,12 +48,12 @@ deprivation entirely uncanonical, despite its logical soundness?
 
 [Egyptians]: <../../Egypt>
 
-[Bill]: <../../people/weasley/william_arthur>
+[Bill]: <../../people/Weasley/William_Arthur/>
 
 [magic]: <../../magic>
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
 [Flitwick]: <../../people/flitwick/filus>
 
-[Snape]: <../../people/snape/severus>
+[Snape]: <../../people/Snape/Severus/>

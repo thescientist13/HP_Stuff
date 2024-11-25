@@ -230,68 +230,68 @@ because they showcase some aspect of adults being … adults.
         Published: 2019-06-10. Updated: 2021-12-20. **Not Complete**
     </dd>
     <dd>
-        Comments: I dislike dealing with imcomplete works, authors too frequently abandon and/or remove them.  I am doing so because this one, as I re-read it, is so incredibly typical of a pattern that irks me, so much so that I am unsure why I subscribed to the story.  I see much promise in it, but the flaws are quite disasterous.  I ended up writing quite the rant about it [here](/harrypedia/reactions/fanfiction/the_egoist_society/).
+        Comments: I dislike dealing with imcomplete works, authors too frequently abandon and/or remove them.  I am doing so because this one, as I re-read it, is so incredibly typical of a pattern that irks me, so much so that I am unsure why I subscribed to the story.  I see much promise in it, but the flaws are quite disasterous.  I ended up writing quite the rant about it [here](/Harrypedia/reactions/fanfiction/the_egoist_society/).
         Beyond those, like many books that want a redeemed [Snape], it ends up bashing [James]. All and all, I am persisting in the re-read trying to find out why I have not unsubscribed in the past. While it is great to see [Bill] step up, and there are indications a few other characters will as well, the flaws are getting really hard to swallow.
     </dd>
 </dl>
 
-[Bill]: </harrypedia/people/weasley/william_arthur/>
+[Bill]: </Harrypedia/people/Weasley/William_Arthur/>
 
-[James]: </harrypedia/people/potter/james/>
+[James]: </Harrypedia/people/Potter/James/>
 
-[Dark Magic]: </harrypedia/magic/dark/>
+[Dark Magic]: </Harrypedia/magic/dark/>
 
-[Statute of Secrecy]: </harrypedia/culture/international_statute_of_secrecy/>
+[Statute of Secrecy]: </Harrypedia/culture/international_statute_of_secrecy/>
 
-[Malfoy]: </harrypedia/people/malfoy/draco_lucius/>
+[Malfoy]: </Harrypedia/people/Malfoy/Draco_Lucius/>
 
-[Snape]: </harrypedia/people/snape/severus/>
+[Snape]: </Harrypedia/people/Snape/Severus//>
 
-[Molly]: </harrypedia/people/prewett/molly/>
+[Molly]: </Harrypedia/people/Prewett/Molly/>
 
-[Slytherin]: </harrypedia/hogwarts/slytherin/>
+[Slytherin]: </Harrypedia/hogwarts/slytherin/>
 
-[Hogwarts]: </harrypedia/hogwarts/>
+[Hogwarts]: </Harrypedia/hogwarts/>
 
-[Neville]: </harrypedia/people/longbottom/neville/>
+[Neville]: </Harrypedia/people/Longbottom/Neville/>
 
 [Elle Woods]: <https://www.imdb.com/title/tt0250494/characters/nm0000702?ref_=tt_cl_c_1>
 
-[Umbrdige]: </harrypedia/people/umbridge/delores_jane>
+[Umbrdige]: </Harrypedia/people/Umbridge/Delores_Jane/>
 
 [^221214-2]: [Wikipedia](https://wikipedia.org).  "[Emancipation of Minors](https://en.wikipedia.org/wiki/Emancipation_of_minors)" Last edited 2022-10-12.
 
-[Hermione]: </harrypedia/people/granger/hermione_jean>
+[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
 
-[Sirius]: </harrypedia/people/black/sirius_iii>
+[Sirius]: </Harrypedia/people/Black/Sirius_iii/>
 
-[Harry]: </harrypedia/people/potter/harry_james>
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
 
-[Vernon]: </harrypedia/people/dursley/vernon>
+[Vernon]: </Harrypedia/people/Dursley/Vernon/>
 
-[Snape]: </harrypedia/people/snape/severus>
+[Snape]: </Harrypedia/people/Snape/Severus/>
 
-[Riddle]: </harrypedia/people/riddle/tom_marvolo>
+[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
 
-[McGonagall]: </harrypedia/people/mcgonagall/minerva>
+[McGonagall]: </Harrypedia/people/McGonagall/Minerva/>
 
-[Dursleys]: </harrypedia/people/dursley>
+[Dursleys]: </Harrypedia/people/Dursley/>
 
-[Dumbledore]: </harrypedia/people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[basilisk]: </harrypedia/animals/basilisk>
+[basilisk]: </Harrypedia/animals/basilisk>
 
-[Lupin]: </harrypedia/people/lupin/remus_john>
+[Lupin]: </Harrypedia/people/Lupin/Remus_John/>
 
-[Lily]: </harrypedia/people/evans/lily_j/>
+[Lily]: </Harrypedia/people/Evans/Lily_J./>
 
-[Sprout]: </harrypedia/people/sprout/pomona>
+[Sprout]: </Harrypedia/people/Sprout/Pomona/>
 
-[Azkaban]: </harrypedia/azkaban/>
+[Azkaban]: </Harrypedia/azkaban/>
 
-[Umbridge]: </harrypedia/people/umbridge/delores_jane/>
+[Umbridge]: </Harrypedia/people/Umbridge/Delores_Jane/>
 
-[Hufflepuff]: </harrypedia/hogwarts/hufflepuff/>
+[Hufflepuff]: </Harrypedia/hogwarts/hufflepuff/>
 
 [^lbcx]: including but not limited to
     * _[Who Let Her In Here?](https://archiveofourown.org/works/19495357)_

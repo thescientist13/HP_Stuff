@@ -29,13 +29,13 @@ Does the werewolf experience physical changes that persist during the latent per
 
 On a side note, while [Lockhart] was a memory-stealing fraud,[^240411-7] the stories he wrote were not *pure* fiction, each was in fact stolen from someone who actually did something.  It was thus pointed out to me that there should be a warlock out there somewhere who now has no memory of curing lycanthropy.[^240411-8]
 
-[Lockhart]: /harrypedia/people/lockhart/gilderoy/
+[Lockhart]: /Harrypedia/people/lockhart/gilderoy/
 
-[Edward Lupin]: /harrypedia/people/lupin/edward_remus/
+[Edward Lupin]: /Harrypedia/people/lupin/edward_remus/
 
-[Lupin]: /harrypedia/people/lupin/remus_john/
+[Lupin]: /Harrypedia/people/Lupin/Remus_John/
 
-[Tonks]: /harrypedia/people/tonks/nymphadora/
+[Tonks]: /Harrypedia/people/tonks/nymphadora/
 
 [Legilimency]: <../../magic/spells/legilimens>
 

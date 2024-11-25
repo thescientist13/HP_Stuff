@@ -75,35 +75,35 @@ author: Luke Schierer
     </dd>
 </dl>
 
-[Granger]: /harrypedia/people/granger/
+[Granger]: /Harrypedia/people/Granger/
 
-[Marietta]: /harrypedia/people/edgecombe/marietta/
+[Marietta]: /Harrypedia/people/Edgecombe/Marietta/
 
-[Ginny]: /harrypedia/people/weasley/ginevra_molly/
+[Ginny]: /Harrypedia/people/Weasley/Ginevra_Molly/
 
-[Lavender]: /harrypedia/people/brown/lavender/
+[Lavender]: /Harrypedia/people/Brown/Lavender/
 
 [Not the Smartest Witch]: https://www.fanfiction.net/s/10434054
 
 [Responsible Adult]: ./responsibleadults/
 
-[McGonagall]: /harrypedia/people/mcgonagall/minerva/
+[McGonagall]: /Harrypedia/people/McGonagall/Minerva/
 
-[Unspeakables]: /harrypedia/unspeakables/
+[Unspeakables]: /Harrypedia/unspeakables/
 
-[Ron]: /harrypedia/people/weasley/ronald_bilius/
+[Ron]: /Harrypedia/people/Weasley/Ronald_Bilius/
 
-[Hermione]: /harrypedia/people/granger/hermione_jean/
+[Hermione]: /Harrypedia/people/Granger/Hermione_Jean/
 
-[Harry]: /harrypedia/people/potter/harry_james/
+[Harry]: /Harrypedia/people/Potter/Harry_James/
 
-[canon]: /harrypedia/
+[canon]: /Harrypedia/
 
-[canonical]: /harrypedia/
+[canonical]: /Harrypedia/
 
-[Sirius]: /harrypedia/people/black/sirius_iii/
+[Sirius]: /Harrypedia/people/Black/Sirius_iii/
 
-[Grimmauld Place]: /harrypedia/grimmauld_place/
+[Grimmauld Place]: /Harrypedia/grimmauld_place/
 
 [^240325-1]: Mrs. J. K. Rowling.
     _[Harry Potter and the Half-Blood Prince]_

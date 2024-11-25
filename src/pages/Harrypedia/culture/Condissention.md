@@ -51,13 +51,13 @@ of what is available or better.
 
 [paper]: <../parchment_and_paper/>
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Hermione]: <../../people/granger/hermione_jean/>
+[Hermione]: <../../people/Granger/Hermione_Jean/>
 
 [Malfoy]: <../../people/malfoy>
 
-[Mr. Weasley]: <../../people/weasley/arthur>
+[Mr. Weasley]: <../../people/Weasley/arthur/>
 
 [pgO1]: https://www.fanfiction.net/s/12954205
 

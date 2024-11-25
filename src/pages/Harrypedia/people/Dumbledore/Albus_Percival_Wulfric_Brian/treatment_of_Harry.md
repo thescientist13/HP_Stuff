@@ -50,11 +50,11 @@ not just his death experience in the forest in book seven, are one of the
 things it triggered.  For all the prophesy does not name [Dumbledore][], it
 shapes his actions much as the one that Macbeth hears shapes his actions.
 
-[Riddle]: <../../../riddle/tom_marvolo>
+[Riddle]: <../../../Riddle/Tom_Marvolo/>
 
-[Harry]: <../../../potter/harry_james>
+[Harry]: <../../../Potter/Harry_James/>
 
-[Harry's]: <../../../potter/harry_james>
+[Harry's]: <../../../Potter/Harry_James/>
 
 [Dumbledore]: <../>
 
@@ -199,31 +199,31 @@ complicated nature of the thorny problem to confuse the listener.
 
 [Wizengamot]: <../../../../culture/government/>
 
-[Black]: <../../../black/>
+[Black]: <../../../Black/>
 
-[Potter]: <../../../potter/>
+[Potter]: <../../../Potter/>
 
-[Narcissa Malfoy]: <../../../black/narcissa/>
+[Narcissa Malfoy]: <../../../Black/narcissa/>
 
-[Dorea Black]: <../../../black/dorea/>
+[Dorea Black]: <../../../Black/dorea/>
 
-[James]: <../../../potter/james/>
+[James]: <../../../Potter/James/>
 
 [Malfoys]: <../../../malfoy/>
 
-[Dursleys]: <../../../dursley/>
+[Dursleys]: <../../../Dursley/>
 
-[abusive environment]: <../../../dursley/>
+[abusive environment]: <../../../Dursley/>
 
 [AD1]: <../>
 
-[Ginny]: <../../../weasley/ginevra_molly/>
+[Ginny]: <../../../Weasley/Ginevra_Molly/>
 
-[Hermione]: <../../../granger/hermione_jean/>
+[Hermione]: <../../../Granger/Hermione_Jean/>
 
-[Riddle]: <../../../riddle/tom_marvolo/>
+[Riddle]: <../../../Riddle/Tom_Marvolo/>
 
-[SS1]: <../../../snape/severus/>
+[SS1]: <../../../Snape/Severus//>
 
 [CAD1]: https://fanfictalk.com/archive/viewstory.php?sid=721
 

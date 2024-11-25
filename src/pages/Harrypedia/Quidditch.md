@@ -22,7 +22,7 @@ mascots caused in the 2014 World Cup.[^220628-9]  Even at the school level,
 Quidditch has caused injury - Oliver Wood references "a couple of broken
 jaws".[^220628-10]  
 
-[Ginny]: <../people/weasley/ginevra_molly>
+[Ginny]: <../people/Weasley/Ginevra_Molly/>
 
 [Quidditch Through the Ages]: https://www.goodreads.com/book/show/111450.Quidditch_Through_the_Ages
 
@@ -77,7 +77,7 @@ depend in any way on the team's playing style?
 
 [Gwenog Jones]: <../people/jones/gwenog>
 
-[Harry]: <../people/potter/harry_james>
+[Harry]: <../people/Potter/Harry_James/>
 
 Many authors have attempted to do something with this, sometimes by radically
 changing the game.[^220705-3]  Few have come up with compelling explanations

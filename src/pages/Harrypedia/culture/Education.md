@@ -59,9 +59,9 @@ those outside the family anything not taught at school.
 
 [Weasleys]: <../../people/weasley>
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Hermione]: <../../people/granger/hermione_jean>
+[Hermione]: <../../people/Granger/Hermione_Jean/>
 
 [tdgsm-1]: <https://www.fanfiction.net/s/13049901>
 

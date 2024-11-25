@@ -66,13 +66,13 @@ attacking [Snape].[^230804-2]
     _[Harry Potter and the Order of the Phoenix](https://www.librarything.com/work/115/book/225886709)_
     Kindle Locations 9396-9398. Pottermore Limited. American Kindle Edition. 
 
-[James]: <../../people/potter/james>
+[James]: <../../people/Potter/James/>
 
-[lily]: <../../people/evans/lily_j/>
+[lily]: <../../people/Evans/Lily_J./>
 
-[Snape]: <../../people/snape/severus>
+[Snape]: <../../people/Snape/Severus/>
 
-[Draco]: <../../people/malfoy/draco_lucius>
+[Draco]: <../../people/Malfoy/Draco_Lucius/>
 
 [^221206-2]: Anelli, Melissa and Emerson Spartz. 
     "[The Leaky Cauldron and MuggleNet interview Joanne Kathleen Rowling: Part Two][LCMIp2]" 
@@ -86,9 +86,9 @@ This is not, however, the only example.  Mrs. Rowling will then go on to pair
 [Ron] with [Hermione], pushing the idea that opposites attract, despite the
 fact that bickering and fighting is not the basis for a healthy relationship.  
 
-[Ron]: <../../people/weasley/ronald_bilius>
+[Ron]: <../../people/Weasley/Ronald_Bilius/>
 
-[Hermione]: <../../people/granger/hermione_jean>
+[Hermione]: <../../people/Granger/Hermione_Jean/>
 
 We see very little of [Ginny] in most of the series, too little really.
 However, we see enough to further substantiate the theme that love is only
@@ -101,6 +101,6 @@ handle being unable to handle your emotions is to dive into a different
 relationship? (Interestingly, both [Ron] and [Hermione] kinda sorta try
 this in book six, it does not go well).  
 
-[Ginny]: <../../people/weasley/ginevra_molly>
+[Ginny]: <../../people/Weasley/Ginevra_Molly/>
 
 [^221206-6]: citation needed.

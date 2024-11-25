@@ -32,7 +32,7 @@ On the other hand, it is possible that what we see here is the result of a serie
 > 
 > Amelia sighed. "Bagnold and Fudge were afraid that the Ministry would fall if it was known.[^240319-6]
 
-Here, the story is taking place after many who supported [Riddle] fall dead the moment he does.  Cannon does not support the Dark Mark working that way, despite it being a popular idea.  Still, the idea might be close enough.  We know that [Riddle] and his supporters went on quite the killing spree as part of his first rise to power.  I have not read the three movie scripts to know what has been written of [Grindelwald]'s rise to power and how many *in Britain* might have died as a result, and even so, [I am not sure how canonical they should be considered](/harrypedia).  The numbers from this fan fiction might thus be sufficiently suggestive, we only know of a few dozen marked Death Eaters anyway. 
+Here, the story is taking place after many who supported [Riddle] fall dead the moment he does.  Cannon does not support the Dark Mark working that way, despite it being a popular idea.  Still, the idea might be close enough.  We know that [Riddle] and his supporters went on quite the killing spree as part of his first rise to power.  I have not read the three movie scripts to know what has been written of [Grindelwald]'s rise to power and how many *in Britain* might have died as a result, and even so, [I am not sure how canonical they should be considered](/Harrypedia).  The numbers from this fan fiction might thus be sufficiently suggestive, we only know of a few dozen marked Death Eaters anyway. 
 
 If they are, even before the deaths in book seven, we are already dealing with a badly shattered fragment of a society. It becomes much easier to understand how that few dozen of terrorists can pacify a population, and compel obedience.  *Everyone* surviving is related to *entire families* that __*no longer exist*__ due to the atrocities committed by pure-blood fanatics, and in many cases by *these* fanatics.  This is true not simply because they are unbelievably inbred, but because the *that many died.*  No wonder this shell shocked remainder cannot handle the idea of [Riddle]'s return. 
 
@@ -44,7 +44,7 @@ Of course, I cannot be sure that this is what happened.  It makes it hard to giv
     "[Chapter 10: Ginny Starts to Heal](https://archiveofourown.org/works/38270980/chapters/96581148)"
     Published: 2022-04-09. Updated: 2023-03-05.
 
-[Riddle]: ../people/riddle/tom_marvolo/
+[Riddle]: ../people/Riddle/Tom_Marvolo/
 
 [The Ancient Proliferation Covenent]: https://archiveofourown.org/works/38270980
 

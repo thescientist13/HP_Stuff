@@ -45,16 +45,16 @@ incredibly well done.  Almost even more rare is a story in which she is the cent
 
 </dl>
 
-[Fred]: </harrypedia/people/weasley/fred/>
+[Fred]: </Harrypedia/people/Weasley/Fred/>
 
-[Hermione]: </harrypedia/people/granger/hermione_jean>
+[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
 
-[Harry]: </harrypedia/people/potter/harry_james>
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
 
-[McGonagall]: </harrypedia/people/mcgonagall/minerva>
+[McGonagall]: </Harrypedia/people/McGonagall/Minerva/>
 
-[Dumbledore]: </harrypedia/people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Molly]: </harrypedia/people/prewett/molly>
+[Molly]: </Harrypedia/people/Prewett/Molly/>
 
-[Ginny]: </harrypedia/people/weasley/ginevra_molly>
+[Ginny]: </Harrypedia/people/Weasley/Ginevra_Molly/>

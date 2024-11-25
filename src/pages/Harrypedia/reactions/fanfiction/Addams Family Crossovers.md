@@ -30,5 +30,5 @@ Family](https://.wikipedia.org/wiki/The_Addams_Family)".
 
 [Wednesday Addams]: <https://en.wikipedia.org/wiki/Wednesday_Addams>
 
-[Harry]: </harrypedia/people/potter/harry_james/>
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
 

@@ -39,9 +39,9 @@ possibilities:
 			deliberate malice on the Dursley's part.  In other words, she is in part
 			taken in by their act, and in part hopelessly naive.[^20210831-1]
 
-[Dumbledore]: <../../dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Harry]: <../../potter/harry_james/>
+[Harry]: <../../Potter/Harry_James/>
 
 [^20210831-1]: This view is taken by r2r4l in
     _[Yet Another Harry Potter Goes To Hogwarts Story (YAHPGTHS)](https://www.fan fiction.net/s/10789352)_

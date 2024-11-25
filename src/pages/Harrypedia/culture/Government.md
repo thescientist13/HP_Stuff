@@ -65,7 +65,7 @@ married [Henry Potter][Henry].
 
 [Malfoy Family]: <../../people/malfoy>
 
-[Blacks]: <../../people/black>
+[Blacks]: <../../people/Black/>
 
 _["Great Scott, Potter, This is War!"][GSP1]_ on the other hand assumes that
 membership is based on being an influential family back when our theoretical
@@ -81,23 +81,23 @@ Hallows.  Lastly, it does not solve the problem of voting inheritance between
 the [Black] and [Potter] families (though this might be considered part of
 my statement that it contradicts the origin stories).
 
-[Mr. Malfoy]: <../../people/malfoy/lucius_abraxas/>
+[Mr. Malfoy]: <../../people/Malfoy/Lucius_Abraxas/>
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Henry]: <../../people/potter/henry>
+[Henry]: <../../people/Potter/henry>
 
-[Sirius]: <../../people/black/sirius_iii>
+[Sirius]: <../../people/Black/Sirius_iii/>
 
-[Arthur]: <../../people/weasley/arthur>
+[Arthur]: <../../people/Weasley/arthur/>
 
-[Linfred]: <../../people/potter>
+[Linfred]: <../../people/Potter/>
 
-[Black]: <../../people/black/>
+[Black]: <../../people/Black/>
 
-[Potter]: <../../people/potter/>
+[Potter]: <../../people/Potter/>
 
-[Peverell]: <../../people/peverell/>
+[Peverell]: <../../people/Peverell/>
 
 [Malfoy]: <../../people/malfoy/>
 
@@ -105,7 +105,7 @@ my statement that it contradicts the origin stories).
 
 [GSP2]: https://aaran-st-vines.nsns.fanficauthors.net/Great_Scott_Potter_This_is_War
 
-[Pottermore]: http://pottermore.com/
+[Pottermore]: http://Potter/more.com/
 
 [RNN1]: https://www.fanfiction.net/s/7144149
 

@@ -38,19 +38,19 @@ The alternative is that this household magic, which seams to be a mix of charms
 is taught at [Hogwarts].  If so, we should have seen some indication of this in
 the six years that [Harry] attends class.
 
-[Hagrid]: <../../people/hagrid/rubeus/>
+[Hagrid]: <../../people/Hagrid/Rubeus/>
 
 [Hogwarts]: <../../hogwarts/>
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Molly]: <../../people/prewett/molly>
+[Molly]: <../../people/Prewett/Molly/>
 
-[Neville]: <../../people/longbottom/neville>
+[Neville]: <../../people/Longbottom/Neville/>
 
-[Ginny]: <../../people/weasley/ginevra_molly>
+[Ginny]: <../../people/Weasley/Ginevra_Molly/>
 
-[Lily Evens]: <../../people/evans/lily_j/>
+[Lily Evens]: <../../people/Evans/Lily_J./>
 
 [^210329-24]: Mrs. J. K. Rowling. _Harry Potter and the Goblet of Fire_
     Kindle Locations 964-966. Pottermore Limited. American Kindle Edition.

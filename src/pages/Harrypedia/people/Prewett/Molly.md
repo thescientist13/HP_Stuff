@@ -88,17 +88,17 @@ On the other hand, it is easy to be over sensitive.
   of the truth of gender and gender roles.  See my own objection about her
   reliance on public perception, this really fits in with that.
 
-[Ron]: <../../weasley/ronald_bilius>
+[Ron]: <../../Weasley/Ronald_Bilius/>
 
 [Lovegoods]: <../../lovegood>
 
 [Weasleys]: <../../weasley>
 
-[Ginny]: <../../weasley/ginevra_molly>
+[Ginny]: <../../Weasley/Ginevra_Molly/>
 
-[Luna]: <../../lovegood/luna>
+[Luna]: <../../Lovegood/Luna/>
 
-[Harry]: <../../potter/harry_james>
+[Harry]: <../../Potter/Harry_James/>
 
 [Xeno]: <../../lovegood/xenophilius>
 
@@ -212,29 +212,29 @@ influenced by the various depictions I have read.
   school.  I doubt Molly approved.  I strongly suspect that she considers girls
   playing [Quidditch] to be unlady-like.
 
-[Arthur]: <../../weasley/arthur>
+[Arthur]: <../../Weasley/arthur/>
 
-[Bill]: <../../weasley/william_arthur>
+[Bill]: <../../Weasley/William_Arthur/>
 
-[Hermione]: <../../granger/hermione_jean>
+[Hermione]: <../../Granger/Hermione_Jean/>
 
-[Dumbledore]: <../../dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Sirius]: <../../black/sirius_iii>
+[Sirius]: <../../Black/Sirius_iii/>
 
 [Weasley]: <../../weasley/>
 
 [Weasleys]: <../../weasley/>
 
-[Fleur]: <../../delacour/fleur_isabelle>
+[Fleur]: <../../Delacour/Fleur_Isabelle/>
 
-[Snape]: <../../snape/severus>
+[Snape]: <../../Snape/Severus/>
 
 [Quidditch]: <../../../quidditch>
 
 [Gringotts]: <../../../gringotts>
 
-[Riddle]: <../../riddle/tom_marvolo>
+[Riddle]: <../../Riddle/Tom_Marvolo/>
 
 [^210818-4]: See my [History] notes.
 

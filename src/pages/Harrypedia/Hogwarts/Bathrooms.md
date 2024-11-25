@@ -55,7 +55,7 @@ occur.[^210928-5]
 
 [Founders]: <../founding/>
 
-[Dumbledore]: <../../people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [Hogwarts]: <../>
 

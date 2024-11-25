@@ -81,7 +81,7 @@ birthday is correct, that does not give much space for [Charlie]'s to move.
 
 [Gryffindor]: <../../hogwarts/gryffindor/>
 
-[Harry]: <../people/potter/harry_james/>
+[Harry]: <../people/Potter/Harry_James/>
 
 [Ginny]: <./ginevra_molly/>
 
@@ -95,11 +95,11 @@ birthday is correct, that does not give much space for [Charlie]'s to move.
 
 [Charlie]: <./charlie/>
 
-[Bill]: <./william_arthur/>
+[Bill]: <./William_Arthur/>
 
 [Arthur]: <./arthur/>
 
-[Molly]: <../prewett/molly/>
+[Molly]: <../Prewett/Molly/>
 
 [lexicon]: https://www.hp-lexicon.org
 

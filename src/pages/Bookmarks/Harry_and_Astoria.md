@@ -40,12 +40,12 @@ These stories take that vague suggestion and run with it.
         the experience.</dd>
 </dl>
 
-[Draco]: </harrypedia/people/malfoy/draco_lucius>
+[Draco]: </Harrypedia/people/Malfoy/Draco_Lucius/>
 
-[Astoria]: </harrypedia/people/greengrass/astoria>
+[Astoria]: </Harrypedia/people/Greengrass/Astoria/>
 
-[Ron]: </harrypedia/people/weasley/ronald_bilius>
+[Ron]: </Harrypedia/people/Weasley/Ronald_Bilius/>
 
-[Hermione]: </harrypedia/people/granger/hermione_jean>
+[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
 
-[Harry]: </harrypedia/people/potter/harry_james>
+[Harry]: </Harrypedia/people/Potter/Harry_James/>

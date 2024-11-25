@@ -101,11 +101,11 @@ We seem to have:
 
 [AO1]: https://web.archive.org/
 
-[Hermione]: <../people/granger/hermione_jean>
+[Hermione]: <../people/Granger/Hermione_Jean/>
 
-[Harry]: <../people/potter/harry_james>
+[Harry]: <../people/Potter/Harry_James/>
 
-[Dumbledore]: <../people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [Potions]: <potions>
 

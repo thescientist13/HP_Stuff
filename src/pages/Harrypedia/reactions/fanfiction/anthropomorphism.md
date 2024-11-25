@@ -9,7 +9,7 @@ fall into the easy trap of over anthropomorphise the animal in question.  Mrs. R
 
 One possibility is that the animal gets a boost to its ability *while the person is talking to it.*  That is, that parseltongue does not simply grant you knowledge of and the physical ability to pronounce another language, but actually reaches out to the snakes you speak to and grants them a level of intelligence to understand your intent. This avoids many of the problems with the first version, where every animal, or some subset there of (some authors try to distinguish between magical and non-magical animals), is always intelligent. 
 
-[Sirius]: ../people/black/sirius_iii/
+[Sirius]: ../people/Black/Sirius_iii/
 
 [Azkaban]: ../azkaban/
 

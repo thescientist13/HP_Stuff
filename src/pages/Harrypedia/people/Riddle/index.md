@@ -18,4 +18,4 @@ I doubt that [Tom Marvolo]'s father's first name was *actually* "Tom."  Given wh
 
 [Tom Marvolo]: tom_marvolo/
 
-[Merope]: /harrypedia/people/gaunt/merope/
+[Merope]: /Harrypedia/people/gaunt/merope/

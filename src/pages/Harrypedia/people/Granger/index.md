@@ -49,9 +49,9 @@ else she would trust them when she faces problematic situations in later life).
 These are not the good parents who are eager to learn more about and experience
 the magical world that many fan fiction authors portray.
 
-[Harry]: <../potter/harry_james>
+[Harry]: <../Potter/Harry_James/>
 
-[Ron]: <../weasley/ronald_bilius>
+[Ron]: <../Weasley/Ronald_Bilius/>
 
 [Weasleys]: <../weasley>
 

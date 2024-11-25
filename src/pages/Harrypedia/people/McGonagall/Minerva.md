@@ -27,7 +27,7 @@ in 1947.[^211103-1]  She joined [Hogwarts] at a time when there was more than on
 
 [LL2]: ../../lestrange/leta/
 
-[Umbridge]: ../../umbridge/delores_jane/
+[Umbridge]: ../../Umbridge/Delores_Jane/
 
 [TS1]: ../../scamander/theseus/
 
@@ -76,7 +76,7 @@ purposefully going overboard to head off that type of behaviour.  Better that
 [Harry] suffer rejection by his peers than mirror his father's early years in
 school.  
 
-[James]: <../../potter/james>
+[James]: <../../Potter/James/>
 
 The exact situation in Worldmaker's _[Furious Angels][WMFA1]_ is different, but
 the description of McGonagall is spot on:
@@ -108,7 +108,7 @@ and over again across the series, [Hagrid] does not have a realistic risk
 evaluation for people without his half-giant heritage.  McGonagall should know
 this, and should be able and willing to compensate for it.  
 
-[Hagrid]: <../../hagrid/rubeus>
+[Hagrid]: <../../Hagrid/Rubeus/>
 
 The only possible saving explanations for the detention are either that
 McGonagall had no choice, that [Dumbledore][AD1] in fact set it up and she was
@@ -150,7 +150,7 @@ stooges.  He could not have prevented the fact of their resignation from
 getting out however.  If they had more backbone, I have to believe they have
 the connections to have made their opinions known. 
 
-[Sprout]: <../../sprout/pomona>
+[Sprout]: <../../Sprout/Pomona/>
 
 [Flitwick]: <../../flitwick/filus>
 
@@ -177,21 +177,21 @@ character does.  That being said, I think old-crow is spot on in portraying her
 as someone who would resist change simply because it is change, and would resist
 incorporating non-magical classes no matter how needed or useful they might be. 
 
-[Snape]: <../../snape/severus>
+[Snape]: <../../Snape/Severus/>
 
-[James]: <../../potter/james>
+[James]: <../../Potter/James/>
 
-[Neville]: <../../longbottom/neville>
+[Neville]: <../../Longbottom/Neville/>
 
-[Draco]: <../../malfoy/draco_lucius>
+[Draco]: <../../Malfoy/Draco_Lucius/>
 
-[Harry]: <../../potter/harry_james>
+[Harry]: <../../Potter/Harry_James/>
 
-[Hermione]: <../../granger/hermione_jean>
+[Hermione]: <../../Granger/Hermione_Jean/>
 
-[RBW1]: <../../weasley/ronald_bilius>
+[RBW1]: <../../Weasley/Ronald_Bilius/>
 
-[AD1]: <../../dumbledore/albus_percival_wulfric_brian>
+[AD1]: <../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [Hogwarts]: <../../../hogwarts>
 

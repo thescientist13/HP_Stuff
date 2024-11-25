@@ -61,15 +61,15 @@ dehumanising them the way we see with Jews in Germany.  Excluding them from any
 real political power quite possibly, but within the context of some existing
 [class structure].
 
-[Riddle]: <../../people/riddle/tom_marvolo>
+[Riddle]: <../../people/Riddle/Tom_Marvolo/>
 
 [Ministry of Magic]: <../../culture/government>
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[notes]: </harrypedia>
+[notes]: </Harrypedia>
 
-[Potter Family notes]: <../../people/potter>
+[Potter Family notes]: <../../people/Potter/>
 
 [Salazar]: <../../people/slytherin/salazar>
 

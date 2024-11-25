@@ -69,13 +69,13 @@ your will away is to become a cold emotionally distant person who
 borders on a trying to split their own personality?  I'm sorry, if that
 is true, evil has won.
 
-[Lily]: <../people/evans/lily_j>
+[Lily]: <../people/Evans/Lily_J./>
 
-[Snape]: <../people/snape/severus>
+[Snape]: <../people/Snape/Severus/>
 
-[Riddle]: <../people/riddle/tom_marvolo>
+[Riddle]: <../people/Riddle/Tom_Marvolo/>
 
-[Harry]: <../people/potter/harry_james>
+[Harry]: <../people/Potter/Harry_James/>
 
 [Brumous]: https://archiveofourown.org/works/42882966
 

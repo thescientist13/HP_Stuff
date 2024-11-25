@@ -15,7 +15,7 @@ get engraved each year).  Something specific to a single student should be
 on my wrestling team won at tournaments, nor did it contain the ones I got at
 science fairs.
 
-[Riddle]: <../../people/riddle/tom_marvolo>
+[Riddle]: <../../people/Riddle/Tom_Marvolo/>
 
 [^20210520-1]: FMPtrumpets.
     _[How is this My Life?](https://archiveofourown.org/works/31033985)_

@@ -41,7 +41,7 @@ mostly standing (part of one side is missing the roof, but that's about it) and
 
 [Harry]: <../harry_james/>
 
-[Bellatrix]: <../../black/bellatrix>
+[Bellatrix]: <../../Black/bellatrix>
 
 Now we know that [Harry][]'s parents had taken the family in hiding, and I
 believe we read somewhere that they had not just defied [Riddle][] the
@@ -62,11 +62,11 @@ but nothing but gold from his parents?
 
 [Grimmauld Place]: <../../../grimmauld_place/>
 
-[Riddle]: <../../riddle/tom_marvolo>
+[Riddle]: <../../Riddle/Tom_Marvolo/>
 
 [Petunia]: <../../evans/petunia>
 
-[Sirius]: <../../black/sirius_iii>
+[Sirius]: <../../Black/Sirius_iii/>
 
 [James][] came from an old family.  A family like the Potters should have had
 land, even if the house on it was destroyed.  Fleeing and hiding from
@@ -81,7 +81,7 @@ family was being hunted.
 
 [James]: <..//james/>
 
-[Blacks]: <../../black/>
+[Blacks]: <../../Black/>
 
 [Lestranges]: <../../lestrange/>
 
@@ -115,7 +115,7 @@ _[The J.K. Rowling Index](https://www.rowlingindex.org)_ 2015-09-22.
 
 [Fleamont]: <../fleamont/>
 
-[Dumbledore]: <../../dumbledore/albus_percival_wulfric_brian/>
+[Dumbledore]: <../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [Gringotts]: <../../../gringotts/>
 

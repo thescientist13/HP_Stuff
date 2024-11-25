@@ -118,36 +118,36 @@ such as [McGonagall][] and [Sprout][] might well pick up on that distrust.
 
 [B12HPL2]: https://www.fanfiction.net/s/5366780
 
-[Bill]: <../../../weasley/william_arthur>
+[Bill]: <../../../Weasley/William_Arthur/>
 
 [Dumbledore]: <../>
 
-[Harry]: <../../../potter/harry_james>
+[Harry]: <../../../Potter/Harry_James/>
 
-[Hermione]: <../../../granger/hermione_jean>
+[Hermione]: <../../../Granger/Hermione_Jean/>
 
 [Hogwarts]: <../../../../hogwarts>
 
 [Kingsley]: <../../../shacklebolt/kingsley/>
 
-[Lupin]: <../../../lupin/remus_john>
+[Lupin]: <../../../Lupin/Remus_John/>
 
-[Malfoy]: <../../../malfoy/draco_lucius/>
+[Malfoy]: <../../../Malfoy/Draco_Lucius/>
 
-[McGonagall]: <../../../mcgonagall/minerva>
+[McGonagall]: <../../../McGonagall/Minerva/>
 
 [Moody]: <../../../people/moody/>
 
-[Neville]: <../../../longbottom/neville>
+[Neville]: <../../../Longbottom/Neville/>
 
-[Professor Sprout]: <../../../sprout/pomona>
+[Professor Sprout]: <../../../Sprout/Pomona/>
 
-[Riddle]: <../../../riddle/tom_marvolo>
+[Riddle]: <../../../Riddle/Tom_Marvolo/>
 
-[Ron]: <../../../weasley/ronald_bilius>
+[Ron]: <../../../Weasley/Ronald_Bilius/>
 
-[Snape]: <../../../snape/severus>
+[Snape]: <../../../Snape/Severus/>
 
-[Sprout]: <../../../sprout/pomona>
+[Sprout]: <../../../Sprout/Pomona/>
 
-[Tom Riddle]: <../../../riddle/tom_marvolo>
+[Tom Riddle]: <../../../Riddle/Tom_Marvolo/>

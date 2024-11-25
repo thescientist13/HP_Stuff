@@ -81,7 +81,7 @@ wiki article that Mrs. Rowling had influence in naming the extra characters in
 the game versions. Unless I see otherwise, I'm going to assume that Fay and
 Sophie are the same person, and will probably go with Sophie as the name.
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
 [^20210602-1]: Mrs. J. K. Rowling.
     _[Harry Potter and the Deathly Hallows](https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows)_

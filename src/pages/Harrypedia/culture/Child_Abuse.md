@@ -29,13 +29,13 @@ Not only does society have no mechanism to deal with it, the fear would combine 
 
 The obvious exception to this is [Walburga], who from all accounts had no problems with cursing her own child.  However, remember that [Sirius] left for [Hogwarts] the first time certainly healthy, probably reasonably happy, fairly typically spoiled rich brat.  We have no evidence that she became violent towards him *before* his sorting.  *After* his sorting, now in possession of his own wand and undergoing magical training, it is reasonable to guess that he is no longer at risk of becoming an [obscurial].  Even if that is not true, unknown in world, or up for debate either way, it is equally possible that the woman is simply insane, and an exception even for her own society.[^240228-3]
 
-[Walburga]: <../../people/black/walburga/>
+[Walburga]: <../../people/Black/walburga/>
 
 [obscurial]: <../../beings/obscurus/>
 
 [Hogwarts]: <../../hogwarts/>
 
-[Sirius]: <../../people/black/sirius_iii/>
+[Sirius]: <../../people/Black/Sirius_iii/>
 
 [house elves]: <../../beings/elves/house_elf/>
 
@@ -43,11 +43,11 @@ The obvious exception to this is [Walburga], who from all accounts had no proble
 
 [Ministry of Magic]: <../government/>
 
-[Dursley]: <../../people/dursley/>
+[Dursley]: <../../people/Dursley/>
 
-[Harry]: <../../people/potter/harry_james/>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Vernon]: <../../people/dursley/vernon/>
+[Vernon]: <../../people/Dursley/Vernon/>
 
 [Petunia]: <../../people/evans/petunia/>
 

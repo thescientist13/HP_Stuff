@@ -61,15 +61,15 @@ Some fanfiction works that have built on this team:
 
 [Grindelwald]: <../../../grindelwald/gellert/>
 
-[TMR1]: <../../../../riddle/tom_marvolo/>
+[TMR1]: <../../../../Riddle/Tom_Marvolo/>
 
-[HJP1]: <../../../potter/harry_james/>
+[HJP1]: <../../../Potter/Harry_James/>
 
-[DF1]: <../../../dursley/>
+[DF1]: <../../../Dursley/>
 
-[AD1]: <../../../dumbledore/albus_percival_wulfric_brian/>
+[AD1]: <../../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Bill Weasley]: <../../../weasley/william_arthur/>
+[Bill Weasley]: <../../../Weasley/William_Arthur/>
 
 [Hogwarts]: <../../../../hogwarts/>
 

@@ -73,15 +73,15 @@ knows nothing of wand lore and so is not deciding this, yet still, the wand
 must sense something of the wizard it is bonding with…
 
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Fleur]: <../../people/delacour/fleur_isabelle>
+[Fleur]: <../../people/Delacour/Fleur_Isabelle/>
 
-[James Potter]: <../../people/potter/james>
+[James Potter]: <../../people/Potter/James/>
 
-[Umbridge]: <../../people/umbridge/delores_jane>
+[Umbridge]: <../../people/Umbridge/Delores_Jane/>
 
-[Riddle]: <../../people/riddle/tom_marvolo>
+[Riddle]: <../../people/Riddle/Tom_Marvolo/>
 
 [ww]: https://www.wizardingworld.com
     "WizardingWorld"

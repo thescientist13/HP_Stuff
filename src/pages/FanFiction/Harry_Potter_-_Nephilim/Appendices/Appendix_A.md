@@ -177,7 +177,7 @@ to make sense.
 
 [Introduction]: <../../introduction>
 
-[Encyclopedic Reference]: </harrypedia/>
+[Encyclopedic Reference]: </Harrypedia/>
 
 [FSSP]: <../FSSP/>
 

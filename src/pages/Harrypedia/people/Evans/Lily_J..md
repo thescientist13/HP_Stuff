@@ -16,9 +16,9 @@ source.  See my thoughts on the [pensieve][].
 
 [pensieve]: <../../../magic/time/pensieve>
 
-[Snape]: <../../snape/severus>
+[Snape]: <../../Snape/Severus/>
 
-[Worst Memory]: <../../snape/severus/swm/>
+[Worst Memory]: <../../Snape/Severus//swm/>
 
 * She had an antagonistic relationship with [James] minimally through their
   fifth year.
@@ -63,13 +63,13 @@ the females in the series at the expense of the males.[^20210927-2]
 
 [GAFRIW2]: https://www.fanfiction.net/s/6126906
 
-[James]: <../../potter/james/>
+[James]: <../../Potter/James/>
 
-[Harry]: <../../potter/harry_james/>
+[Harry]: <../../Potter/Harry_James/>
 
-[Lupin]: <../../lupin/remus_john/>
+[Lupin]: <../../Lupin/Remus_John/>
 
-[Snape]: <../../snape/severus/>
+[Snape]: <../../Snape/Severus//>
 
 [^20210927-4]: gredandforgerock.
     _[I'm Where][GAFRIW2]_ [Chapter 3](https://www.fanfiction.net/s/6126906/3/I-m-Where)

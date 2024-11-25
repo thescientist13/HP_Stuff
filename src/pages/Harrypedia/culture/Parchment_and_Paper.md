@@ -50,11 +50,11 @@ forms, etc), but not for standard every day things (like homework, class notes,
 and letters (unless you are including privacy charms)).
 
 
-[McGonagall]: <../../people/mcgonagall/minerva>
+[McGonagall]: <../../people/McGonagall/Minerva/>
 
 [Dip pen]: https://en.wikipedia.org/wiki/Dip_pen
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
 [Wikipedia]: https://en.wikipedia.org/
 

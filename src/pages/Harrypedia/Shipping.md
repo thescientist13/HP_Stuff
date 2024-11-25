@@ -87,27 +87,27 @@ things that go differently from the books.
 
 [For Want of an Outfit]: https://archiveofourown.org/works/28507302
 
-[Hermione]: <../people/granger/hermione_jean>
+[Hermione]: <../people/Granger/Hermione_Jean/>
 
-[Harry]: <../people/potter/harry_james>
+[Harry]: <../people/Potter/Harry_James/>
 
-[Draco]: <../people/malfoy/draco_lucius>
+[Draco]: <../people/Malfoy/Draco_Lucius/>
 
-[Fleur]: <../people/delacour/fleur_isabelle>
+[Fleur]: <../people/Delacour/Fleur_Isabelle/>
 
 [Nymphadora]: <../people/tonks/nymphadora>
 
-[Sirius]: ../people/black/sirius_iii/
+[Sirius]: ../people/Black/Sirius_iii/
 
-[Remus]: ../people/lupin/remus_john/
+[Remus]: ../people/Lupin/Remus_John/
 
-[Lily]: ../people/evans/lily_j/
+[Lily]: ../people/Evans/Lily_J./
 
-[James]: ../people/potter/james/
+[James]: ../people/Potter/James/
 
-[Dumbledore]: ../people/dumbledore/albus_percival_wulfric_brian/
+[Dumbledore]: ../people/Dumbledore/Albus_Percival_Wulfric_Brian/
 
-[Snape]: ../people/snape/severus/
+[Snape]: ../people/Snape/Severus//
 
 [^240415-1]: [Jeconais].
     _[This Means War]_.

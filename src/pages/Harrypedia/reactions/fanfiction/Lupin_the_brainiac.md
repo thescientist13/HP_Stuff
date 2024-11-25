@@ -12,19 +12,19 @@ This thought pattern is generally used by those who have so strongly bought into
 
 Thus we do not *actually* need to minimize [James]' intelligence.  I believe it was precisely his *actual* ability that, in part, made [Snape] resent him so much.  Do not be fooled by the comments [Snape] makes about [James] being a typical brainless jock.[^240130-3]  This is a combination of hatred and self-delusion speaking. 
 
-[Snape]: <../../people/snape/severus/>
+[Snape]: <../../people/Snape/Severus//>
 
-[James]: <../../people/potter/james/>
+[James]: <../../people/Potter/James/>
 
-[Sirius]: <../../people/black/sirius_iii/>
+[Sirius]: <../../people/Black/Sirius_iii/>
 
-[Lupin]: <../../people/lupin/remus_john/>
+[Lupin]: <../../people/Lupin/Remus_John/>
 
-[Remus]: <../../people/lupin/remus_john/>
+[Remus]: <../../people/Lupin/Remus_John/>
 
-[Remus Lupin]: <../../people/lupin/remus_john/>
+[Remus Lupin]: <../../people/Lupin/Remus_John/>
 
-[Hermione]: <../people/granger/hermione_jean/>
+[Hermione]: <../people/Granger/Hermione_Jean/>
 
 [Harry Potter and the Prisoner of Azkaban]: https://www.librarything.com/work/2742161
 

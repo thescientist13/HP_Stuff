@@ -19,7 +19,7 @@ layout: person
 
 [^210517-2]: See my notes on the [History][] page.
 
-[Hagrid]: <../../hagrid/rubeus>
+[Hagrid]: <../../Hagrid/Rubeus/>
 
 ### Analysis
 
@@ -72,9 +72,9 @@ would *resent* being blamed, when he, rightly, would question who in their
 right mind, having made comments similar to those [Snape][] had been making,
 would have ever gone down the tunnel!
 
-[Lily]: <../../evans/lily_j/>
+[Lily]: <../../Evans/Lily_J./>
 
-[SWM]: <../../snape/severus/swm/>
+[SWM]: <../../Snape/Severus//swm/>
 
 [^230206-1]: For one example, see Kindle Location 7647, Mrs. J. K. Rowling. _[Harry Potter and the Order of the Phoenix][]_ Bloomsbury UK (2003)
 
@@ -145,11 +145,11 @@ trial?  It is reasonable to accept that [Lupin][] both believed him guilty and
 would have been unable to demand a trial.  Why, however, did none of
 [Dumbledore][], [Andromeda][] Black, or his own blood family demand a trial?
 
-[Harry]: <../../potter/harry_james>
+[Harry]: <../../Potter/Harry_James/>
 
-[Lupin]: <../../lupin/remus_john>
+[Lupin]: <../../Lupin/Remus_John/>
 
-[Dumbledore]: <../../dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [Andromeda]: <../andromeda>
 
@@ -175,7 +175,7 @@ so.[^210517-3]  However, we can infer the following from the fact that they
 
 [Regulus]: <../regulus_arcturus>
 
-[Riddle]: <../../riddle/tom_marvolo>
+[Riddle]: <../../Riddle/Tom_Marvolo/>
 
 My guess is that they held themselves apart from actually joining the Death
 Eaters, and thus did not *know* that Sirius had not joined.  They saw his
@@ -254,13 +254,13 @@ of Azkaban][].
 
 [Pettigrew]: <../../pettigrew/peter>
 
-[Snape]: <../../snape/severus>
+[Snape]: <../../Snape/Severus/>
 
-[James]: <../../potter/james>
+[James]: <../../Potter/James/>
 
-[Molly]: <../../prewett/molly>
+[Molly]: <../../Prewett/Molly/>
 
-[Hermione]: <../../granger/hermione_jean>
+[Hermione]: <../../Granger/Hermione_Jean/>
 
 [Malfoy]: <../../malfoy>
 

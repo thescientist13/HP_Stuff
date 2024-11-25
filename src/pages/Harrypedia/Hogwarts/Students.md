@@ -85,11 +85,11 @@ artificially deflate the number of first generation wizards not just in
 does seem believable of [Umbridge] and those like her who set up the laws under
 Pius Thicknesse's puppet government.
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Arthur]: <../../people/weasley/arthur>
+[Arthur]: <../../people/Weasley/arthur/>
 
-[Umbridge]: <../../people/umbridge/delores_jane>
+[Umbridge]: <../../people/Umbridge/Delores_Jane/>
 
 [Dean]: <../../people/thomas/dean>
 

@@ -20,15 +20,15 @@ However, when divination becomes the quest for *future* knowledge, we get into m
 
 In her interviews, Mrs. Rowling says that she *intends* that prophecy does not negate free will, that [Harry] and [Riddle] *could* have ignored it, walked away, and both lived.[^240417-2]  For my purposes, I will take this position, and [Dumbledore]'s speech to [Harry], as the correct interpretation.  To the extent that divination *does* involve time, it can only be true because it is a [self-fulfilling prophecy].  I care not what form of divination we are dealing with; if true magic is involved, you are seeing a *possible* future that becomes *the* future only because *someone made it so.* 
 
-[does not act]: /harrypedia/people/dumbledore/albus_percival_wulfric_brian/inaction/
+[does not act]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/inaction/
 
-[Harry]: /harrypedia/people/potter/harry_james/
+[Harry]: /Harrypedia/people/Potter/Harry_James/
 
-[Ginny]: /harrypedia/people/weasley/ginevra_molly/
+[Ginny]: /Harrypedia/people/Weasley/Ginevra_Molly/
 
-[Dumbledore]: /harrypedia/people/dumbledore/albus_percival_wulfric_brian/
+[Dumbledore]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/
 
-[Riddle]: /harrypedia/people/riddle/tom_marvolo/
+[Riddle]: /Harrypedia/people/Riddle/Tom_Marvolo/
 
 [^240417-1]: Mrs. J. K. Rowling. 
     _[Harry Potter and the Order of the Phoenix]_

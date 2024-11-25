@@ -44,9 +44,9 @@ thus something related, but different. I suspect it would work well against
 being said, he is right that it _would_ have benifits for the boys' control over
 their tempers.
 
-[Snape]: <../../../people/snape/severus>
+[Snape]: <../../../people/Snape/Severus/>
 
-[Sirius]: <../../../people/black/sirius_iii>
+[Sirius]: <../../../people/Black/Sirius_iii/>
 
 [Legilimency]: <../legilimency>
 

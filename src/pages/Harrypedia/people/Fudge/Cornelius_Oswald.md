@@ -30,24 +30,24 @@ starts to misuse them?
 
 [Amelia Bones]: <../../bones/amelia_susan>
 
-[Umbridge]: <../../umbridge/delores_jane>
+[Umbridge]: <../../Umbridge/Delores_Jane/>
 
 Specifically looking at both the arrest of [Hagrid][] and the handling of
 [Sirius's][SB] escape, I strongly suspect that his actions are at best quasi-legal
 and that [Dumbledore][] *could* have done more in both cases. 
 
-[Hagrid]: <../../hagrid/rubeus>
+[Hagrid]: <../../Hagrid/Rubeus/>
 
-[SB]: <../../black/sirius_iii>
+[SB]: <../../Black/Sirius_iii/>
 
-[Dumbledore]: <../../dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 In the case of [Hagrid][], I suspect that Fudge is being fairly honest about
 his motives.  *Some* news about the Chamber must have leaked out to the wider
 Wizarding World (possibly via [Lucius][]), and Fudge feels that his popularity
 numbers are suffering. Why [Dumbledore][] does not act is more complicated. 
 
-[Lucius]: <../../malfoy/lucius_abraxas>
+[Lucius]: <../../Malfoy/Lucius_Abraxas/>
 
 The case of [Sirius][SB] is almost certainly more sinister.  Fudge was one of
 the first on the scene,[^220906-3] and even as a "Junior Minister", probably
@@ -71,8 +71,8 @@ between opposing parties, he was [Dumbledore][]'s hand picked choice, or
 noted above, Fudge did not become Minister until 1990, which explains why he
 was so unsure of himself in his role as minister throughout the first book.
 
-[Riddle]: <../../riddle/tom_marvolo>
+[Riddle]: <../../Riddle/Tom_Marvolo/>
 
 [Bagnold]: <../../bagnold/millicent>
 
-[Malfoy]: <../../malfoy/lucius_abraxas>
+[Malfoy]: <../../Malfoy/Lucius_Abraxas/>

@@ -95,9 +95,9 @@ to create one big happy Weasley-Potter-Malfoy family.
 
 [Shipping]: ../shipping/
 
-[Astoria]: <../people/greengrass/astoria/>
+[Astoria]: <../people/Greengrass/Astoria/>
 
-[Draco]: <../people/malfoy/draco_lucius/>
+[Draco]: <../people/Malfoy/Draco_Lucius/>
 
 [Scorpius]: <../people/malfoy/scorpius/>
 
@@ -111,23 +111,23 @@ to create one big happy Weasley-Potter-Malfoy family.
 
 [Hogwarts]: <../hogwarts/>
 
-[Ron]: <../people/weasley/ronald_bilius/>
+[Ron]: <../people/Weasley/Ronald_Bilius/>
 
-[Hermione]: <../people/granger/hermione_jean/>
+[Hermione]: <../people/Granger/Hermione_Jean/>
 
-[Harry]: <../people/potter/harry_james/>
+[Harry]: <../people/Potter/Harry_James/>
 
-[Ginny]: <../people/weasley/ginevra_molly/>
+[Ginny]: <../people/Weasley/Ginevra_Molly/>
 
-[George]: <../people/weasley/george/>
+[George]: <../people/Weasley/George/>
 
-[Neville]: <../people/longbottom/neville/>
+[Neville]: <../people/Longbottom/Neville/>
 
-[Percy]: <../people/weasley/percy_ignatius/>
+[Percy]: <../people/Weasley/percy_ignatius/>
 
 [Audrey]: <../people/>
 
-[Luna]: <../people/lovegood/luna/>
+[Luna]: <../people/Lovegood/Luna/>
 
 [Hannah Abbott]: <../people/abbott/hannah/>
 

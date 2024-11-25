@@ -44,9 +44,9 @@ intuitive to Harry once he is told what to do in [Chapter 11][].
 
 [occlumency]: <../occlumency>
 
-[Snape]: <../../../people/snape/severus>
+[Snape]: <../../../people/Snape/Severus/>
 
-[Harry]: <../../../people/potter/harry_james>
+[Harry]: <../../../people/Potter/Harry_James/>
 
 [Chapter 11]: <https://www.fanfiction.net/s/8820097/11/Harry-Potter-Choices>
 

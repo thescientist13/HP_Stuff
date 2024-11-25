@@ -112,7 +112,7 @@ but will not be taught, laws that they must follow, and *no way out*.  Note that
 
 then I cannot be held culpable for failure to obey Parliament.  The fault must belong to the person(s) who created that situation (by placing me there without my knowledge, or otherwise causing me to believe I lived somewhere else). 
 
-[Hermione]: <../../people/granger/hermione_jean>
+[Hermione]: <../../people/Granger/Hermione_Jean/>
 
 [Hogwarts]: <../../hogwarts>
 
@@ -164,7 +164,7 @@ Instead I suspect that some percentage of the magical culture actively *desires*
 
 [MACUSA]: <../../macusa>
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
 [^210323-5]: Mrs. J. K. Rowling. _Harry Potter and the Half-Blood Prince_
     p. 8. Pottermore Publishing. American Kindle Edition. 

@@ -61,21 +61,21 @@ work, and one would think that academic dress, being synonymous with formal
 wear, would be more expensive than the essentially non-magical clothing that
 she says magical folk tend to wear "day to day."[^220630-2]
 
-[Mrs. Weasley]: <../../people/prewett/molly>
+[Mrs. Weasley]: <../../people/Prewett/Molly/>
 
-[Ron]: <../../people/weasley/ronald_bilius>
+[Ron]: <../../people/Weasley/Ronald_Bilius/>
 
-[Hermione]: <../../people/granger/hermione_jean>
+[Hermione]: <../../people/Granger/Hermione_Jean/>
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Snape's]: <../../people/snape/severus>
+[Snape's]: <../../people/Snape/Severus/>
 
-[James]: <../../people/potter/james>
+[James]: <../../people/Potter/James/>
 
 [Hogwarts]: <../../hogwarts>
 
-[Mr. Weasley]: <../../people/weasley/arthur>
+[Mr. Weasley]: <../../people/Weasley/arthur/>
 
 [Quidditch]: <../../quidditch>
 

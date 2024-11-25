@@ -41,11 +41,11 @@ while [Malfoy][] is frozen in time.
 
 [crucio]: <../../magic/spells/cruciatus>
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Malfoy]: <../../people/malfoy/draco_lucius>
+[Malfoy]: <../../people/Malfoy/Draco_Lucius/>
 
-[Snape]: <../../people/snape/severus>
+[Snape]: <../../people/Snape/Severus/>
 
 [^230125-1]: Others include, but are not limited to:
     * kb0. _[Harry Potter and the Unexpected Power][]_

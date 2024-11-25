@@ -48,13 +48,13 @@ sidebar:
     Hogwarts to the earliest Dumbledore could be headmaster and yet be winter
     *after* [Remus][RL1] is bitten.
 
-[RL1]: <../../lupin/remus_john>
+[RL1]: <../../Lupin/Remus_John/>
 
-[James]: <../../potter/james>
+[James]: <../../Potter/James/>
 
-[Lily]: <../../evans/lily_j/>
+[Lily]: <../../Evans/Lily_J./>
 
-[TMR1]: <../../riddle/tom_marvolo>
+[TMR1]: <../../Riddle/Tom_Marvolo/>
 
 [H1]: <../../../history>
 
@@ -165,7 +165,7 @@ Dumbledore are.  In no particular order:
 * The above and [much more][ADtoh] concerning [Harry].
 * And even more about [how he dealt with Riddle][ADdwr].
 
-[Harry]: <../../potter/harry_james>
+[Harry]: <../../Potter/Harry_James/>
 
 [DMH1]: <../../../magic/dark/horcruxes>
 
@@ -274,15 +274,15 @@ excuse to prevent [Sirius][SB3] from being able to adopt [Harry]?
 
 [Ariana]: <../ariana>
 
-[RBW]: <../../weasley/ronald_bilius>
+[RBW]: <../../Weasley/Ronald_Bilius/>
 
-[MM]: <../../mcgonagall/minerva>
+[MM]: <../../McGonagall/Minerva/>
 
-[PS]: <../../sprout/pomona>
+[PS]: <../../Sprout/Pomona/>
 
 [FF]: <../../flitwick/filus>
 
-[DF1]: <../../dursley>
+[DF1]: <../../Dursley/>
 
 [Weasleys]: <../../weasley>
 
@@ -292,9 +292,9 @@ excuse to prevent [Sirius][SB3] from being able to adopt [Harry]?
 
 [HPwc]: <../../../culture/government>
 
-[SB3]: <../../black/sirius_iii>
+[SB3]: <../../Black/Sirius_iii/>
 
-[SS]: <../../snape/severus>
+[SS]: <../../Snape/Severus/>
 
 [^220916-2]: Mrs. J. K. Rowling.
     _[Harry Potter and the Goblet of Fire](https://www.librarything.com/work/113)_

@@ -25,13 +25,13 @@ there is some slight evidence that suggests that Professor Flitwick is redeemabl
   actually count as a positive in my book, so this could go either way as a
   positive or a negative.
 
-[McGonagall]: <../../mcgonagall/minerva/>
+[McGonagall]: <../../McGonagall/Minerva/>
 
-[Luna]: <../../lovegood/luna/>
+[Luna]: <../../Lovegood/Luna/>
 
-[Dumbledore]: <../../dumbledore/albus_percival_wulfric_brian/>
+[Dumbledore]: <../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Sprout]: <../../sprout/pomona/>
+[Sprout]: <../../Sprout/Pomona//>
 
 [^20210322-3]: Aealket.
     _[When Is It a Contract](https://www.fanfiction.net/s/7382549)_ Published 2011-09-14.

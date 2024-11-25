@@ -80,19 +80,19 @@ for Occlumency is fairly clear.  The problem then is not so much Occlumency,
 but rather [Legilimency].
 
 
-[Harry]: <../../../people/potter/harry_james>
+[Harry]: <../../../people/Potter/Harry_James/>
 
-[James]: <../../../people/potter/james>
+[James]: <../../../people/Potter/James/>
 
-[James Potter]: <../../../people/potter/james>
+[James Potter]: <../../../people/Potter/James/>
 
-[Professor Snape]: <../../../people/snape/severus>
+[Professor Snape]: <../../../people/Snape/Severus/>
 
-[Snape]: <../../../people/snape/severus>
+[Snape]: <../../../people/Snape/Severus/>
 
-[Draco]: <../../../people/malfoy/draco_lucius>
+[Draco]: <../../../people/Malfoy/Draco_Lucius/>
 
-[Dumbledore]: <../../../people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../../../people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
 [^20210922-1]: Mrs. J. K. Rowling.  "[Draco
     Malfoy](https://www.wizardingworld.com/writing-by-jk-rowling/draco-malfoy)"

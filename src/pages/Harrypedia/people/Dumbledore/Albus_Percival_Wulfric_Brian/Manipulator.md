@@ -58,9 +58,9 @@ make the next removal harder (thus I think he *was* in fact able to resist
 
 [Fudge]: <../../../fudge/cornelius_oswald/>
 
-[Umbridge]: <../../../umbridge/delores_jane/>
+[Umbridge]: <../../../Umbridge/Delores_Jane/>
 
-[Harry]: <../../../potter/harry_james>
+[Harry]: <../../../Potter/Harry_James/>
 
 [AD1]: <../>
 

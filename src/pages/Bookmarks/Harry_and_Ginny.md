@@ -302,21 +302,21 @@ fiction rarely does it justice.
 
 [featuring Hermione]: ../featuring_hermione/
 
-[Luna]: </harrypedia/people/lovegood/luna/>
+[Luna]: </Harrypedia/people/Lovegood/Luna/>
 
-[Remus]: </harrypedia/people/lupin/remus_john>
+[Remus]: </Harrypedia/people/Lupin/Remus_John/>
 
-[Grimmauld Place]: </harrypedia/grimmauld_place>
+[Grimmauld Place]: </Harrypedia/grimmauld_place>
 
-[Lucius]: </harrypedia/people/malfoy/lucius_abraxas>
+[Lucius]: </Harrypedia/people/Malfoy/Lucius_Abraxas/>
 
-[Horcruxes]: </harrypedia/magic/dark/horcruxes>
+[Horcruxes]: </Harrypedia/magic/dark/horcruxes>
 
-[Dumbledore]: </harrypedia/people/dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Snape]: </harrypedia/people/snape/severus>
+[Snape]: </Harrypedia/people/Snape/Severus/>
 
-[Draco]: </harrypedia/people/malfoy/draco_lucius>
+[Draco]: </Harrypedia/people/Malfoy/Draco_Lucius/>
 
 [Realizations]: <https://www.fanfiction.net/s/7875381>
 
@@ -330,24 +330,24 @@ fiction rarely does it justice.
 
 [Backward With Purpose Part I: Always and Always]: <https://www.fanfiction.net/s/4101650>
 
-[James]: </harrypedia/people/potter/james>
+[James]: </Harrypedia/people/Potter/James/>
 
-[Lily]: </harrypedia/people/evans/lily_j/>
+[Lily]: </Harrypedia/people/Evans/Lily_J./>
 
-[Riddle]: </harrypedia/people/riddle/tom_marvolo>
+[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
 
-[Harry]: </harrypedia/people/potter/harry_james>
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
 
-[Percy]: </harrypedia/people/weasley/percy_ignatius>
+[Percy]: </Harrypedia/people/Weasley/percy_ignatius/>
 
-[Ginny]: </harrypedia/people/weasley/ginevra_molly>
+[Ginny]: </Harrypedia/people/Weasley/Ginevra_Molly/>
 
-[Molly]: </harrypedia/people/prewett/molly>
+[Molly]: </Harrypedia/people/Prewett/Molly/>
 
-[Hermione]: </harrypedia/people/granger/hermione_jean>
+[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
 
-[Ron]: </harrypedia/people/weasley/ronald_bilius>
+[Ron]: </Harrypedia/people/Weasley/Ronald_Bilius/>
 
-[Sirius]: </harrypedia/people/black/sirius_iii>
+[Sirius]: </Harrypedia/people/Black/Sirius_iii/>
 
-[Lupin]: </harrypedia/people/lupin/remus_john>
+[Lupin]: </Harrypedia/people/Lupin/Remus_John/>

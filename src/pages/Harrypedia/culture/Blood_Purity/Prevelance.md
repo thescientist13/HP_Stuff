@@ -24,9 +24,9 @@ My guess is not none (the essential premise for a work like _[Exiles]_), but als
 
 [Exiles]: https://www.fanfiction.net/s/14002719
 
-[Riddle]: <../../../people/riddle/tom_marvolo/>
+[Riddle]: <../../../people/Riddle/Tom_Marvolo/>
 
-[Arthur Weasley]: <../../../people/weasley/arthur/>
+[Arthur Weasley]: <../../../people/Weasley/arthur/>
 
 [Weasley]: <../../../people/weasley/>
 

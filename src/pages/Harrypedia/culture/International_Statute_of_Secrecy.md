@@ -10,7 +10,7 @@ This idea is supported by lesser canonical sources.  In England, the [Potters] a
 
 [The Accidental Animagus]: https://www.fanfiction.net/s/9863146/89/The-Accidental-Animagus
 
-[Potters]: <../../people/potter/>
+[Potters]: <../../people/Potter/>
 
 [Malfoys]: <../../people/malfoy/>
 

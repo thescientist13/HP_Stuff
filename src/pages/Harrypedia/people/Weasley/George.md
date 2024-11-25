@@ -25,6 +25,6 @@ Like the rest of the [Weasley] family, we want George to be a good person.  The 
   * While I believe it to have been an emotional difficulty, I do not believe that the joke shop was "[Fred]'s idea" and that George was merely carried along for the ride.  I cannot believe that George was that passive in his own life.  
 
 
-[Fred]: /harrypedia/people/weasley/fred/
+[Fred]: /Harrypedia/people/Weasley/Fred/
 
-[Weasley]: /harrypedia/people/weasley/
+[Weasley]: /Harrypedia/people/weasley/

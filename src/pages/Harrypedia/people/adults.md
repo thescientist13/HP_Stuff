@@ -38,15 +38,15 @@ many things that make him an incredibly ambiguous figure.  It is not a great
 leap to paint him as the Dark Lord of the prophecy, who has marked [Harry],
 not physically, but metaphorically, as the one who could be his equal.[^210521-8]
 
-[Molly]: <../prewett/molly>
+[Molly]: <../Prewett/Molly/>
 
-[Harry]: <../potter/harry_james>
+[Harry]: <../Potter/Harry_James/>
 
-[Dumbledore]: <../dumbledore/albus_percival_wulfric_brian>
+[Dumbledore]: <../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Riddle]: <../riddle/tom_marvolo>
+[Riddle]: <../Riddle/Tom_Marvolo/>
 
-[Notes]: </harrypedia>
+[Notes]: </Harrypedia>
 
 [^210521-8]: This idea is not originally mine, but I do not remember which
     fan fictions I have read it in.  If I come across them again, I will note

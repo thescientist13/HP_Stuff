@@ -67,13 +67,13 @@ harder because the *curse* in question is lost and unrecorded by history.[^24021
 
 [Crouch]: <../../../people/crouch/>
 
-[Harry]: <../../../people/potter/harry_james/>
+[Harry]: <../../../people/Potter/Harry_James/>
 
-[Kreacher]: <../../../people/black/kreacher/>
+[Kreacher]: <../../../people/Black/kreacher/>
 
-[Hermione]: <../../../people/granger/hermione_jean/>
+[Hermione]: <../../../people/Granger/Hermione_Jean/>
 
-[Regulas]: <../../../people/black/regulas_arcturus/>
+[Regulas]: <../../../people/Black/regulas_arcturus/>
 
 [Brownies]: https://en.wikipedia.org/wiki/Brownie_(folklore)
 

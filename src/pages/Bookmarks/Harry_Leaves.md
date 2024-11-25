@@ -69,29 +69,29 @@ magical world, or both.
   
 </dl>
 
-[Hogwarts]: </harrypedia/hogwarts/>
+[Hogwarts]: </Harrypedia/hogwarts/>
 
-[Riddle]: </harrypedia/people/riddle/tom_marvolo/>
+[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
 
 [FanFiction.net]: https://www.fanfiction.net
 
 [AO3]: https://www.archiveofourown.org
 
-[Snape]: </harrypedia/people/snape/severus/>
+[Snape]: </Harrypedia/people/Snape/Severus//>
 
-[Draco]: </harrypedia/people/malfoy/draco_lucius/>
+[Draco]: </Harrypedia/people/Malfoy/Draco_Lucius/>
 
-[Dumbledore]: </harrypedia/people/dumbledore/albus_percival_wulfric_brian/>
+[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Ginny]: </harrypedia/people/weasley/ginevra_molly/>
+[Ginny]: </Harrypedia/people/Weasley/Ginevra_Molly/>
 
-[Harry]: </harrypedia/people/potter/harry_james>
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
 
-[Professor Sprout]: </harrypedia/people/sprout/pomona>
+[Professor Sprout]: </Harrypedia/people/Sprout/Pomona/>
 
 [Baron Samedi]: <https://en.wikipedia.org/wiki/Baron_Samedi>
 
-[Horcruxes]: </harrypedia/magic/dark/horcruxes>
+[Horcruxes]: </Harrypedia/magic/dark/horcruxes>
 
 [The Hidden Hero]: https://archiveofourown.org/works/36929347
 

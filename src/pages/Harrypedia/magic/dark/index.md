@@ -61,7 +61,7 @@ merely light is legal and dark is illegal, but there is no true distinction.
 Some of this is narration bias, [Percy][], the main character, does not clearly
 understand the difference.
 
-[Percy]: <../../people/weasley/percy_ignatius>
+[Percy]: <../../people/Weasley/percy_ignatius/>
 
 [A Study of Resonance]: <https://archiveofourown.org/works/38041177>
 

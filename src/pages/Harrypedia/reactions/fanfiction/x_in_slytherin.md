@@ -64,19 +64,19 @@ students (the [Black] family tree has intermarriages with the [Potter],
 influence would then extend *far further* than just that quarter.  [Riddle]
 would have no need of a revolution.
 
-[Potter]: <../../people/potter>
+[Potter]: <../../people/Potter/>
 
 [Longbottom]: <../../people/longbottom>
 
 [Crouch]: <../../people/crouch>
 
-[Black]: <../../people/black>
+[Black]: <../../people/Black/>
 
 [Prewett]: <../../people/prewett>
 
 [Weasley]: <../../people/weasley>
 
-[Lucius]: <../../people/malfoy/lucius_abraxas>
+[Lucius]: <../../people/Malfoy/Lucius_Abraxas/>
 
 [Ravenclaw]: <../../hogwarts/ravenclaw>
 
@@ -86,27 +86,27 @@ would have no need of a revolution.
 
 [Hat]: <../../hogwarts/sorting_hat>
 
-[Draco]: <../../people/malfoy/draco_lucius>
+[Draco]: <../../people/Malfoy/Draco_Lucius/>
 
-[Fred]: <../../people/weasley/fred>
+[Fred]: <../../people/Weasley/Fred/>
 
-[George]: <../../people/weasley/george>
+[George]: <../../people/Weasley/George/>
 
-[Percy]: <../../people/weasley/percy_ignatius>
+[Percy]: <../../people/Weasley/percy_ignatius/>
 
-[Neville]: <../../people/longbottom/neville>
+[Neville]: <../../people/Longbottom/Neville/>
 
-[Ginny]: <../../people/weasley/ginevra_molly>
+[Ginny]: <../../people/Weasley/Ginevra_Molly/>
 
-[Riddle]: <../../people/riddle/tom_marvolo>
+[Riddle]: <../../people/Riddle/Tom_Marvolo/>
 
 [Slytherin]: <../../hogwarts/slytherin>
 
-[Harry]: <../../people/potter/harry_james>
+[Harry]: <../../people/Potter/Harry_James/>
 
-[Ron]: <../../people/weasley/ronald_bilius>
+[Ron]: <../../people/Weasley/Ronald_Bilius/>
 
-[Hermione]: <../../people/granger/hermione_jean>
+[Hermione]: <../../people/Granger/Hermione_Jean/>
 
 [Goyle]: <../../people/goyle/gregory>
 

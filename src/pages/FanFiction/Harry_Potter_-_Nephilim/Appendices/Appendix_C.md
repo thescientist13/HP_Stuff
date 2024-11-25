@@ -59,9 +59,9 @@ have a strong distrust for the Church.
 
 [its own rules]: <../Appendix%20Inheritance/>
 
-[Imperius]: </harrypedia/magic/spells/imperio>
+[Imperius]: </Harrypedia/magic/spells/imperio>
 
-[Confundus]: </harrypedia/magic/spells/Confundus>
+[Confundus]: </Harrypedia/magic/spells/Confundus>
 
 ### Specifically human/nephil
 
@@ -273,11 +273,11 @@ can never be fully freed.
 
 [Giants]: <../../backstory/giants>
 
-[Molly]: </harrypedia/people/prewett/molly>
+[Molly]: </Harrypedia/people/Prewett/Molly/>
 
-[Hermione]: </harrypedia/people/granger/hermione_jean>
+[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
 
-[Fleur]: </harrypedia/people/delacour/fleur_isabelle/>
+[Fleur]: </Harrypedia/people/Delacour/Fleur_Isabelle/>
 
 [knffnm]: http://kokopelli.nsns.fanficauthors.net/Maskirovat/Maskirovat/
 
