@@ -1,6 +1,6 @@
 ---
 title: |
-  Veela
+  The Veela Curse
 author: Luke Schierer
 sidebar:
   order: 100
@@ -129,13 +129,13 @@ true of half-veela. A veela's child does not get its inheritance per-trait as is
 
 
 
-[Appendix A]: ../Appendix_A/
+[Appendix A]: ../Points%20of%20Divergence/
 
-[Appendix B]: ../Appendix_B/
+[Appendix B]: ../Rules of Magic/
 
-[Appendix C]: ../Appendix_C/
+[Appendix C]: ../Magical Beings/
 
-[Appendix D]: ../Appendix_D/
+[Appendix D]: ../Relative Power Levels/
 
 [Appendix E]: ../Appendix_E/
 

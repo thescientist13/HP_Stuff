@@ -199,13 +199,13 @@ made.  When the only choices the characters see are between bad and worse.
 
 [WP3]: <https://en.wikipedia.org/wiki/Ecclesiology>
 
-[AA]: <../Appendix_A/>
+[AA]: <../Points%20of%20Divergence/>
 
-[AB]: <../Appendix_B/>
+[AB]: <../Rules of Magic/>
 
-[AC]: <../Appendix_C/>
+[AC]: <../Magical Beings/>
 
-[AD]: <../Appendix_D/>
+[AD]: <../Relative Power Levels/>
 
 [AE]: <../Appendix_E/>
 

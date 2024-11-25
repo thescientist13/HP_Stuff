@@ -10,6 +10,8 @@ layout: fanfiction
 sidebar:
   order: 100
 ---
+> **Note**
+> This Appendix is written from the Author's perspective, not from a researcher's perspective.
 
 ## What is Cannon Here
 
@@ -43,7 +45,7 @@ to make sense.
   essential component of the magic.  Thus beyond the magic learned at Hogwarts,
   there *are* others, including rituals.
 
-[AF]: <../appendix_f>
+    [AF]: <../appendix_f>
 
 [Goblet of Fire]: <https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire>
 
@@ -103,6 +105,7 @@ to make sense.
   reject the true understanding of the interactions between the fallen angels
   and humanity.
 * I have adjusted the history of [The Priestly Fraternity of St Peter][FSSP].
+* Appendices, backstories, and footnotes talking about scholars or Church archives are talking about the **_fictional_** versions of these things that exist within the story.
 
 #### Some Notable Differences from the actual Harry Potter universe
 
@@ -111,12 +114,8 @@ to make sense.
   are formed by their experiences across the actual Harry Potter series, they
   may end up in different places (emotionally/psychologically) between my first
   chapter and last, than they did between Mrs. Rowling's first book and last.
-* Witches are those corrupted by union with fallen angels.  They do gain power
-  (magic) from this union, but are corrupted by it.  Should they repent and
-  receive forgiveness from their sins, they would also lose their access to
-  magic.  It is from these people that the persistent rumours about non-magical
-  people "stealing magic" come.  It is possible (in this story) for someone to
-  *become* magical.
+* Non-magical people, and all appendices, use the word "witch" to refer to
+  those corrupted by union with fallen angels.  They do gain power (magic) from this union, but are corrupted by it.  Should they repent and receive forgiveness from their sins, they would also lose their access to magic.  It is from these people that the persistent rumours about non-magical people "stealing magic" come.  It is possible (in this story) for someone to *become* magical.
 * Following from the origin of magic I'm using, magic will follow somewhat
   different [rules][ab] than the Harry Potter books. This includes both the
   way the characters use magic and magical creatures.
@@ -138,11 +137,10 @@ to make sense.
   history.
 * Magic users *are not human.*  Just like a hippogriff is a blend of the
   incompatible horse and eagle that is not fully one nor the other, the person
-  who can use magic is a nephil, not a human.  See [Appendix H][ah]
-* Note that in describing the nephilim in [Appendix H][ah], I hit on some other
-  differences.  I have gone back and forth about trying to combine the two pages,
-  hence the out of order lettering.  Duplicating information would be the worst
-  of both worlds.
+  who can use magic is a nephil, not a human.  See [Inheritance] and [Appendix H][ah]
+* Note that in describing the nephilim in  the above two appendices, I
+  struggled with what to put where, and thus also hit on some other
+  differences.  I have done my best to avoid duplicative information across the appendices.
 
 #### Things differing for those familiar with _[Many Waters][MW]_
 
@@ -155,19 +153,21 @@ to make sense.
   positing that fallen angels continued to seduce women during the Old Testament
   times.
 
-[ab]: <../../appendices/appendix_b>
+[ab]: <../../Appendices/Rules of Magic/>
 
-[af]: <../../appendices/appendix_f>
+[af]: <../../Appendices/appendix_f>
 
-[ah]: <../../appendices/appendix_h>
+[ah]: <../../Appendices/appendix_h>
+
+[Inheritance]: <../Inheritance/>
 
 [FWoaO1]: <https://archiveofourown.org/works/28507302>
 
-[MW]: <https://en.wikipedia.org/wiki/Many_Waters>
+[MW]: <https://wikipedia.org/wiki/Many_Waters>
 
-[MW2]: <https://en.wikipedia.org/wiki/Many_Waters>
+[MW2]: <https://wikipedia.org/wiki/Many_Waters>
 
-[MW3]: <https://en.wikipedia.org/wiki/Many_Waters>
+[MW3]: <https://wikipedia.org/wiki/Many_Waters>
 
 [TSL]: <https://archive.org/details/in.ernet.dli.2015.86985>
 
@@ -175,7 +175,7 @@ to make sense.
 
 [TSL3]: <https://archive.org/details/in.ernet.dli.2015.86985>
 
-[Introduction]: <../../introduction>
+[Introduction]: <../../Introduction>
 
 [Encyclopedic Reference]: </Harrypedia/>
 

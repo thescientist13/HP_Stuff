@@ -31,12 +31,12 @@ with real history.  This will also explain why the FSSP priests in this story
 feel constrained in their ability to deal with Harry's situation.  They do not
 want to make waves before they are formally established in the diocese.
 
-[AA]: <../../appendices/appendix_a>
+[AA]: <../../Appendices/Points%20of%20Divergence/>
 
-[^211219-4]: <https://fssp.org.uk/about-the-fssp/>
+[^211219-4]: Fraternitas Sacerdotalis Sancti Petri Ltd. "[About the FSSP](https://fssp.org.uk/about-the-fssp/)"
 
-[^211219-5]: <https://fssp.org.uk/reading/the-parish-of-st-john-fisher-who-we-are/>
+[^211219-5]: Fraternitas Sacerdotalis Sancti Petri Ltd. "[The Parish of St John Fisher: Who we are](https://fssp.org.uk/reading/the-parish-of-st-john-fisher-who-we-are/)"
 
-[^211219-6]: <https://fssp.com/who-we-are/>
+[^211219-6]: Priestly Fraternity of St. Peter. "[Who We Are](https://fssp.com/who-we-are/)"
 
-[^211219-7]: <https://fssp.org.uk/about-the-fssp/>
+[^211219-7]: Fraternitas Sacerdotalis Sancti Petri Ltd. "[About the FSSP](https://fssp.org.uk/about-the-fssp/)"

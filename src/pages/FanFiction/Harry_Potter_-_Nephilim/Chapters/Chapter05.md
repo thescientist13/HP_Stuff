@@ -132,7 +132,7 @@ into by someone who did not notice him?
 
 [^211219-3]: See [Appendix D].
 
-[Appendix D]: <../../appendices/appendix_d>
+[Appendix D]: <../../Appendices/Relative Power Levels/>
 
 [^210528-1]: being an American, I do not actually know much about British
     schools, and have done only the most cursory research into them. Please

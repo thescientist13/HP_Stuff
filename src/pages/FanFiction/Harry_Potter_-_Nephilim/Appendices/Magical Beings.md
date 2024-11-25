@@ -16,19 +16,21 @@ Periodically, a non-magical trait will get locked in as 'fixed,' that is all suc
 
 Very rarely, some magical trait will become 'unfixed' and gradually start to fade away over successive generations.  This is essentially the inverse of the trait becoming magical, and again, no one knows why this happens.
 
-When the trait in question violates the normal mundane rules of the natural sciences, the deviation from those natural sciences tends to fade rapidly, but take several generations to fully disappear.  Whereas to the extent that only the *inheritance pattern* deviated from the natural sciences, it may revert to normal Mendelian genetics effectively immediately.
+When the trait in question violates the normal mundane rules of the natural sciences, the deviation from those natural sciences tends to fade rapidly, but take several generations to fully disappear.  Alternately, to the extent that only the *inheritance pattern* deviated from the natural sciences, it may revert to normal Mendelian genetics effectively immediately.
 
-The cannonical Harry Potter talks about two cases that require special attention: squibs and muggle born. To understand these, you will need to refer heavily to the [magical rules of inheritance].
+The nephilim themselves talk about two cases that require special attention: squibs and muggle born. To understand these, you will need to refer heavily to the [magical rules of inheritance].
 
-A true squib is the result of the miniscule chance that for all magical traits, nothing is inherited.  While it cannot be said that this has *never* happened, it is certainly the case that nearly every squib is in fact ... not one.  Rather most child identified by the nephilim as squibs are in fact still nephilim, but have inherited a power level too low to be detectable by the prevailing methods of the society in question.  For the England's entire recorded history, this has been the Hogwarts [Quill of Acceptance and Book of Admittance].
+A true squib is the result of the miniscule chance that for all magical traits, nothing is inherited.  While it cannot be said that this has *never* happened, it is certainly the case that nearly every squib is in fact ... not one.  Rather most child identified by the nephilim as squibs are in fact still nephilim, but have inherited a power level too low to be detectable by the prevailing methods of the society in question.  For the England's entire recorded history, this has been the Hogwarts' [Quill of Acceptance and Book of Admittance].
 
 Because it is possible for a child to inherit the sum of both parent's abilities, occasionally two such "squibs" marry and produce a child who *does* meet the criteria for Hogwarts.  This is where the so-called muggle born come from.  Since this typically happens only generations later, it is rare that the child in question has any immediate connection to the family members who were cast out from the magical world.
 
 When the Church describes and categorizes magic, it does so in terms of the angelic chiors from whom the magic is derived.[^241123-2] Hogwarts is entirely unware of this classificaiton of magic, but *if* Hogwarts *were* aware of it, then it would be possible to quantify what the [Quill of Acceptance and Book of Admittance] are looking for in accidental magic.
 
-Using the power levels from the Church's classification system, a child born with a power level of 2 or below in all categories of magic will be called a squib.  A child with a 3 or below in all categories of magic will not be invited to any magical school, but might be able to effectively use some magic. Programs like Kwick Spell prey upon such people.  These children are occasionally called squibs, particularly by the families that are more self-obsessed with power and prestege.
+Using the power levels from the Church's classification system, a child born with a power level of 2 or below in all categories of magic will be called a squib.  A child with a 3 or below in all categories of magic will not be invited to any magical school, but might be able to effectively use some magic. Programs like Kwick Spell prey upon such people.  These children are sometimes also called squibs, particularly by the families that are more self-obsessed with power and prestege.
 
-Hogwarts requires at least a 4 in each of the following categories: Dominions, Virtues, and Powers; at least a 4 in *one* of Archangels or angels and at least a 3 in the other; and at least a 3 in each of Cherubim and Principalities.  However, a child who got in just barely meeting these minimums would be very unlikely to get into NEWT level classes.
+Hogwarts requires at least a 4 in each of the following categories: Dominions, Virtues, and Powers; at least a 4 in *one* of Archangels or angels and at least a 3 in the other; and at least a 3 in each of Cherubim and Principalities.  However, a child who got in just barely meeting these minimums would be very unlikely to get into NEWT level classes other than Muggle Studies.[^241125-6]
+
+[^241125-6]: At the NEWT level, Herbology, Care of Magical Creatures, and Potions all require significant abilties similar to those required for *any* wandless/silent potions brewing.  See the description of potions in [Rules of Magic][AB].
 
 Muggle Born nephilim are *usually* relatively low powered, frequently a mix of 3s, 4s and 5s when they re-enter the magical world.  The spread is because it is extremely uncommon for the child to suddenly meet the bar in all required categories at the same time.  Rather, once ejected from the magical world, a child might have several 3s and even 4s, but if it is not enough to trigger an acceptance letter (in English terms), they are still not yet elegible for reentry into magical society.
 
@@ -51,13 +53,13 @@ have a strong distrust for the Church.
 
 [^241123-2]: Or at least the in-world version of it, see [Rules of Magic].
 
-[Rules of Magic]: <../Appendix_B/>
+[Rules of Magic]: <../Rules of Magic/>
 
 [Quill of Acceptance and Book of Admittance]: https://www.rowlingindex.org/work/qaba/
 
-[magical rules of inheritance]: <../Appendix%20Inheritance/>
+[magical rules of inheritance]: <../Inheritance/>
 
-[its own rules]: <../Appendix%20Inheritance/>
+[its own rules]: <../Inheritance/>
 
 [Imperius]: </Harrypedia/magic/spells/imperio>
 
@@ -70,42 +72,24 @@ have a strong distrust for the Church.
   inherited *only that type* of magic, and is called a "primordial" nephil.
 * Per the above, in practice, most modern nephil have mixed inheritances, and
   thus magic in a broad range of categories.
-* nephil do get one straight up advantage over humans in addition to using
+* nephilim do get one straight up advantage over humans in addition to using
   magic - they [live longer][AE].  This is *actually* a side effect of their
   magic, which, regardless of type, will offer some protection against disease
   and against the effects of entropy (and thus old age).  It does not halt
   the decay of old age, but it does retard it.  The extent to which it
   extends the nephil's life depends on the nephil's *average* (not highest)
   power level (only including power levels where present at all).
-* Per [Rules of Magic] and the [magical rules of inheritance], it takes
-  approximately six consecutive generations of magical abuse for "truly bizarre" things to become not just possible but probable.
-   * Recall the note from [Points of Divergance][AA] on _The
-     Screwtape Letters_.
-   * Building on what I wrote above comparing "standard humans" to nephil,
-     beings in these categories are even more corrupted by the combination of
-     sin and the inherent weakness of being of a race that was made, and not
-     created. For lack of of a better word, they are more nearly animals, they
-     *do* have immortal souls, but, to differing degrees (depending on species)
-     lack even more of the free will that is already impaired in the nephilim.
-     This list is essentially ordered from most nearly equal to the nephilim to
-     least nearly equal.
-   * mermen - These were once a magically powerful people who used inheritances
-     from the Dominions to transmute themselves to survive [the great Flood].
-   * dwarfs - I really dislike what Mrs. Rowling did with the dwarfs in _the
-     Chamber of Secrets_.[^210518-1]  Since she says that goblins of all
-     things are expert craftsmen,[^210518-2] my take is that nephil became
-     dwarfs which in turn became goblins.  I will figure out something else for
-     Lockhart's cupids if I ever get that far in writing.
-   * goblins - people, descendant from the dwarfs, who are highly susceptible to
-     greed, envy, and wrath.  Their form has been distorted by the sins of their
-     forefathers centuries ago.  Once, they would have ranked in this list below
-     the veela.  However, they are still capable of good deeds, and some have
-     been so highly virtuous as to have actually reduced their susceptibility
-     from the 90% maximum to a more manageable 60-70%.  Similarly, the physical
-     changes wrought on them have "softened" and so they are less hideous than
-     described by authors like Tolkien who have packaged aspects of the magical
-     world as fiction.  Despite their flaws, these populations retained their
-     intelligence and their magic.  They are particularly strong inheritors from
+* European nephilim communities are obsessed with so called "purity of blood."
+  Interestingly, any family that consists of unmixed nephilim heritage for approximately six generations tends to experience at least one instance of something that [Rules of Magic] and [magical rules of inheritance] would describe as "truly bizarre."[^241125-7]
+* There are a number of species that decend from the nephilim.  Each is the
+  result of at least one hereditary "truly bizarre" mutation. Most had several things happen at once, a few had several different situations across history.
+  * mermen - These were once a magically powerful people who used inheritances
+    from the Dominions to transmute themselves to survive [the great Flood].
+  * dwarfs[^241125-8] - The dwarfs also decend from nephilim that were punished
+    for their actions at the time of [the great Flood].  At that time, they were one of the most diverse populations of nephilim (that is, they had a broad cross section of different powers).
+  * goblins - people, descendant from the dwarfs, who are highly susceptible to
+    greed, envy, and wrath.  Their form has been distorted by the sins of their forefathers centuries ago.  Once, they would have ranked in this list below the veela.  However, over the centuries a gradual increase in average effective inteligence.[^241125-9] Similarly, the physical changes wrought on them have "softened" and so they are less hideous than described by authors like Tolkien who have packaged aspects of the magical world as fiction.  Overall, despite their flaws, these populations retained their
+     cognative ability and magic.  They are particularly strong inheritors from
      the Virtues, Powers, and Archangels, with lesser inheritances from the
      Principalities and angels.  Their creation of the trolls at the beginning of the [goblin wars] explains why they were punished so harshly (as to have
      originally lost nearly all free will - 90% impact).
@@ -135,19 +119,32 @@ have a strong distrust for the Church.
        herd, centaurs are capable of slightly more autonomy than pure veela are
        either as individuals or in groups (since veela have no herd, or in their
        case flock, effect).
-   * veela - See [Appendix I].
-   * giants - the physical changes wrought on them by sin have become "mundane"
-     and are now governed by Mendelian inheritance.  Church [records][Giants]
-     show that the giants come from the creators of the house elves. Behold in
-     them what man would be if left without his mind, the only hope they have
-     is that their intellects are so clouded that it is nearly impossible for
-     them to actually commit a mortal sin.  Should any be willing to be
-     missionary to the giants, the grace of baptism would be nearly unopposed,
-     because these beings have so little ability to freely choose to do
-     anything, and even less ability to understand something is gravely wrong.
+     - centaurs are unique amoung the decendants of the nephilim in that the
+       remain nearly unchanged, with inheritances only from two choirs, and little to no physical change since their inception.
+   * veela - a people punished primarily with changes to their magic,
+     reproduction, and lifespan.  The placement of veela on this list is highly controversial.  In raw cognative ability, a veela is roughly equivalent to a normal human.  The problem is in her emotional inteligence.  Many veela have essentially no control over their emotions, and this triggers the magic of her punishment.
+     *  See [The Veela Curse][AI] for an in depth description.
+     *  Veela are also complex to categorize because the nature of the veela
+        "curse" makes it difficult for researchers to distinguish between the so-called "full" and "partial" veela.
+     *  The veela is the only example of a "race" that is purely female, it
+        depends on cross breeding to survive.  Due to the nature of its magic, any female child is born veela.  See [The Veela Curse][AI] for more details.
+   *  giants - Church [records][Giants] show that the giants come from the
+      creators of the house elves. Behold in them what man would be if left without his mind, the only hope they have is that their intellects are so clouded that it is nearly impossible for them to actually commit a mortal sin.  Should any be willing to be missionary to the giants, the grace of baptism would be nearly unopposed, because these beings have so little ability to freely choose to do anything, and even less ability to understand something is gravely wrong.
 
+[^241125-9]: Author's note:
+    The scholars here do not have the knowledge to be more precise, if you refer to the author's section of [Inheritance], you can see the effects of abusing magic on concupiscence.  Over the centuries, this effect has been gradually reduced by goblins who have successfully lived virtuous lives against probability.
 
-[^210916-2]: This idea resembles that from Jeconais'
+[Inheritance]: <../Inheritance/>
+
+[^241125-8]: Author's note:
+    I really dislike what Mrs. Rowling did with the dwarfs in _the
+    Chamber of Secrets_.[^210518-1]  I am giving them my own Goblin based back story, since her version of Goblins is a mix of Tolkien's Dwarfs and Goblins.
+
+[^241125-7]: Author's note:
+    I'm building off of the statement from cannon that if magical users hadn't intermarried with muggles they would have all died out, and infering that most families simply hide their muggle connections, and/or that the "sacred 28" list simply omitted them in an act of historical revisionism. I'm also guessing there are some missing generations in the one family tree we have, that of the Potter family.
+
+[^210916-2]: Author's note:
+    This idea resembles that from Jeconais'
     _[Hope](https://jeconais.fanficauthors.net/Hope)_
     Last Updated: 2007-05-30. Last Viewed: 2021-09-16.
     I have not copied it precisely as he came up with it, my version is
@@ -249,13 +246,13 @@ can never be fully freed.
 
 [Many Waters]: https://wikipedia.org/wiki/Many_Waters
 
-[AA]: <../Appendix_A/>
+[AA]: <../Points%20of%20Divergence/>
 
-[AB]: <../Appendix_B/>
+[AB]: <../Rules of Magic/>
 
-[AC]: <../Appendix_C/>
+[AC]: <../Magical Beings/>
 
-[AD]: <../Appendix_D/>
+[AD]: <../Relative Power Levels/>
 
 [AE]: <../Appendix_E/>
 
@@ -264,6 +261,8 @@ can never be fully freed.
 [AG]: <../Appendix_G/>
 
 [AH]: <../Appendix_H/>
+
+[AI]: <../Appendix_I/>
 
 [Appendix I]: <../Appendix_I/>
 

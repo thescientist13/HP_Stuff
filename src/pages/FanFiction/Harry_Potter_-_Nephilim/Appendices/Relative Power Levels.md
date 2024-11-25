@@ -11,43 +11,62 @@ collection: Nephilim
 layout: fanfiction
 ---
 
-Per the inheritance rules, you can follow a different rule for inheritance in
-each column.  As an author this maximises my flexibility in one sense.  As a
-world builder, it comes closer to how real inheritance works.  As a
-documentation producer, it is nightmarish, because it makes understanding where
-each character came from really complicated. Note, while I find it useful to
-chart this out, **there is no in-world test that would reveal these numbers.**
+The following represent estimates by researchers of the power levels of key figures in this historical chronicle.[^241125-10]
+
+
+[^241125-10]: Author's note:
+    Per the inheritance rules, you can follow a different rule for inheritance in
+    each column.  As an author this maximises my flexibility in one sense.  As a
+    world builder, it comes closer to how real inheritance works.  As a
+    documentation producer, it is nightmarish, because it makes understanding where
+    each character came from really complicated. Note, while I find it useful to
+    chart this out, **there is no in-world test that would reveal these numbers.**
 
 ## Relative power of different characters in each class of power.
 | Last Name         | First Name            | Seraphim | Cherubim | Thrones | Dominions | Virtues | Powers | Principalities | Archangels | Angels | Average |
 |-------------------|-----------------------|----------|----------|---------|-----------|---------|--------|----------------|------------|--------|---------|
-| Dumbledore        | [Albus](#albus)       | 7        | 7        | 9       | 10        | 10      | 9      | 7              | 7          | 9      | 8.22    |
-| Riddle            | [Tom](#tom)           | 9        | 5        | 10      | 8         | 7       | 9      | 5              | 10         | 9      | 8.00    |
-| Snape             | [Severus](#severus)   | 8        | 9        | 7       | 6         | 9       | 9      | 5              | 8          | 7      | 7.55    |
-| Potter            | [Harry](#harry)       | 8        | 6        | 9       | 8         | 7       | 8      | 9              | 9          | 8      | 8.00    |
-| Potter            | [James](#james)       | 8        | 4        | 9       | 10        | 5       | 9      | 8              | 9          | 6      | 7.55    |
-| Potter            | [Euphemia](#euphemia) | 3        | 1        | 10      | 10        | 4       | 9      | 2              | 9          | 6      | 6.00    |
-| Potter            | [Fleamont](#fleamont) | 7        | 8        | 8       | 4         | 8       | 7      | 6              | 9          | 6      | 7.00    |
-| Prince            | [Eileen](#eileen)     | 2        | 7        | 3       | 6         | 5       | 4      | 3              | 4          | 4      | 4.22    |
-| Evans             | [Lily](#lily)         | 7        | 7        | 7       | 6         | 9       | 7      | 9              | 6          | 8      | 7.33    |
+| Dumbledore        | [Albus](#Albus)       | 7        | 7        | 9       | 10        | 10      | 9      | 6              | 7          | 9      | 8.22    |
+| Riddle            | [Tom](#Tom)           | 9        | 5        | 10      | 8         | 7       | 9      | 5              | 10         | 9      | 8.00    |
+| Potter            | [Harry](#Harry)       | 8        | 6        | 9       | 8         | 7       | 8      | 9              | 9          | 8      | 8.00    |
+| Snape             | [Severus](#Severus)   | 8        | 9        | 9       | 6         | 9       | 9      | 4              | 7          | 7      | 7.55    |
+| Abbott            | [Hannah](#Hannah)     | 5        | 5        | 5       | 6         | 7       | 8      | 5              | 6          | 5      | 5.77    |
+| Potter            | [James](#James)       | 8        | 4        | 9       | 10        | 5       | 9      | 8              | 9          | 6      | 7.55    |
+| Potter            | [Euphemia](#Euphemia) | 3        | 1        | 10      | 10        | 4       | 9      | 2              | 9          | 6      | 6.00    |
+| Potter            | [Fleamont](#Fleamont) | 7        | 8        | 8       | 4         | 8       | 7      | 6              | 9          | 6      | 7.00    |
+| Prince            | [Eileen](#Eileen)     | 2        | 7        | 3       | 6         | 5       | 4      | 3              | 4          | 4      | 4.22    |
+| Evans             | [Lily](#Lily)         | 7        | 7        | 7       | 6         | 9       | 7      | 9              | 6          | 8      | 7.33    |
 | Evans             | Mrs.                  | 1        | 2        | 1       | 2         | 3       | 3      | 3              | 3          | 3      | 2.33    |
 | Evans             | Mr.                   | 2        | 1        | 1       | 2         | 3       | 3      | 3              | 2          | 3      | 2.22    |
 | Evans             | Petunia               | 1        | 1        | 1       | 0         | 0       | 1      | 1              | 0          | 0      | 0.55    |
 | Figg              | Arabella              | 0        | 2        | 0       | 1         | 2       | 1      | 0              | 0          | 0      | 0.44    |
-| Dursley           | [Dudley](#dudley)     | 1        | 1        | 0       | 0         | 0       | 0      | 0              | 0          | 0      | 0.22    |
-| Granger           | [Hermione](#hermione) | 4        | 6        | 5       | 9         | 7       | 8      | 5              | 6          | 6      | 6.22    |
-| Weasley           | [Fred](#fred)         | 5        | 9        | 4       | 7         | 8       | 8      | 5              | 8          | 9      | 7.00    |
-| Weasley           | [George](#george)     | 5        | 9        | 4       | 8         | 7       | 8      | 5              | 7          | 9      | 7.00    |
-| Weasley           | [Charlie](#charlie)   | 6        | 9        | 4       | 5         | 8       | 9      | 7              | 8          | 7      | 7.00    |
-| Weasley           | [Bill](#bill)         | 6        | 9        | 4       | 8         | 4       | 9      | 9              | 7          | 9      | 7.22    |
-| Weasley           | [Ronald](#ronald)     | 3        | 6        | 4       | 6         | 6       | 7      | 9              | 8          | 8      | 6.22    |
-| Weasley           | [Percy](#percy)       | 3        | 8        | 3       | 6         | 7       | 7      | 7              | 7          | 7      | 6.11    |
-| Weasley           | [Ginny](#ginny)       | 5        | 8        | 4       | 9         | 9       | 8      | 8              | 9          | 8      | 7.55    |
+| Dursley           | [Dudley](#Dudley)     | 1        | 1        | 0       | 0         | 0       | 0      | 0              | 0          | 0      | 0.22    |
+| Granger           | [Hermione](#Hermione) | 4        | 6        | 5       | 9         | 7       | 8      | 5              | 6          | 6      | 6.22    |
+| Weasley           | [Fred](#Fred)         | 5        | 9        | 4       | 7         | 8       | 8      | 5              | 8          | 9      | 7.00    |
+| Weasley           | [George](#George)     | 5        | 9        | 4       | 8         | 7       | 8      | 5              | 7          | 9      | 7.00    |
+| Weasley           | [Charlie](#Charlie)   | 6        | 9        | 4       | 5         | 8       | 9      | 7              | 8          | 7      | 7.00    |
+| Weasley           | [Bill](#Bill)         | 6        | 9        | 4       | 8         | 4       | 9      | 9              | 7          | 9      | 7.22    |
+| Weasley           | [Ronald](#Ronald)     | 3        | 6        | 4       | 6         | 6       | 7      | 9              | 8          | 8      | 6.22    |
+| Weasley           | [Percy](#Percy)       | 3        | 8        | 3       | 6         | 7       | 7      | 7              | 7          | 7      | 6.11    |
+| Weasley           | [Ginny](#Ginny)       | 5        | 8        | 4       | 9         | 9       | 8      | 8              | 9          | 8      | 7.55    |
 | Weasley           | Arthur                | 5        | 9        | 6       | 7         | 7       | 8      | 8              | 7          | 9      | 7.33    |
-| Weasley (Prewett) | [Molly](#molly)       | 4        | 8        | 2       | 8         | 8       | 8      | 8              | 8          | 8      | 6.88    |
-| Delacour          | [Fleur](#fleur)       | 5        | 5        | 10      | 9*        | 7       | 8*     | 8              | 7          | 8      | 7.44    |
+| Weasley (Prewett) | [Molly](#Molly)       | 4        | 8        | 2       | 8         | 8       | 8      | 8              | 8          | 8      | 6.88    |
+| Delacour          | [Fleur](#Fleur)       | 5        | 5        | 10      | 9*        | 7       | 8*     | 8              | 7          | 8      | 7.44    |
 
 ## Specific notes
+
+### Abbott
+
+#### Hannah
+
+Hannah is a fairly average Hogwarts' student, her strong gift from the Powers will
+not make her particularly stand out in any single branch of magic studied there.
+She has the scores to get into NEWT level classes, but it probably will not be easy
+for her once there.
+
+> **Note**
+> These scores correspond with someone who, in the cannon universe, has a panic attack
+> going into her OWL exams.  She, unlike the more central characters, truly had to work
+> *really hard* to get through those and into NEWT classes.
 
 ### Delacour
 
@@ -78,9 +97,7 @@ out-of-the-box thinking to make up for a lack of directly offensive capability.
 
 #### Dudley
 Dudley is a male child from a human father and a squibbish nephil mother.  He
-stood a good chance of being born pure human.  Unfortunately, I need him to do
-a fair amount of "Harry Hunting."  He falls in that that 4% chance of a partial
-inheritance from just his mother. He has a *minuscule* ability to perceive that
+stood a good chance of being born pure human.  He has a *minuscule* ability to perceive that
 magic exists, and essentially one totally uncontrolled ability from the
 Seraphim: Dudley is incredibly sensitive to the use of legilimency, he is
 practically an antenna for it.  Since Harry is nearly always using legilimency
@@ -89,6 +106,9 @@ of Harry's presence magically.  Since being reminded of Harry breaks the spell,
 Dudley is effectively a bubble in which Harry is detectable.  This bubble
 extends to anyone that *Dudley* is paying attention to.  Dudley (unfortunately
 for Harry) rarely pays any attention to teachers.
+
+> **Note**
+> Unfortunately, I need Dudley to do a fair amount of "Harry Hunting."  He falls in that that 4% chance of a partial inheritance from just his mother.
 
 ### Evans
 
@@ -175,14 +195,22 @@ why anyone else might need these tedious lectures - they are self explanatory
 to anyone with half a brain.  The only reason why Lily outshines him in
 Slughorn's class is because:
 
-1. he is essentially lazy.  The class comes easily to him, so he frequently
-   tries just hard enough to show up everyone present *except* Lily (he does
-   not care if she beats him)
-1. he is distracted by James and Sirius
-   * partly by what they are doing to him
-   * partly by what he is trying to do to them
-1. he is distracted *by __Lily__* whereas she feels only friendship for him and
-   so is not distracted by him.
+1.  he is essentially lazy.  The class comes easily to him, so he frequently
+    tries just hard enough to show up everyone present *except* Lily (he does
+    not care if she beats him)
+1.  he is distracted by James and Sirius
+    * partly by what they are doing to him
+    * partly by what he is trying to do to them
+1.  he is distracted *by __Lily__* whereas she feels only friendship for him and
+    so is not distracted by him.
+
+> **Note**
+> While Snape does love potions, his true love is the Dark Arts.  There is a reason why,
+> in the cannon universe, Harry will find all sorts of self-crafted spells in the margins
+> of Snape's *potions* text book.  Snape was not focused on *potions* in *Potions* class,
+> he was busy crafting his own spells, many of which were dark in nature.
+> The **_true_** potions afficianado would have been fully focused on his/her work, not
+> on something else.
 
 ### Weasleys
 
@@ -226,20 +254,19 @@ influence and despite her paternal influence, she is merely minimally
 acceptable in the Thrones category, making her somewhat vulnerable to mental magics.
 
 #### Ronald
-Ron is an under-performer, he had the *ability* to do better than he did in the
-cannon text (based on these non-canonical power levels).  That being said, Ron
+Ron is an under-performer, he has the *ability*, but not the drive. That being said, Ron
 *is* under-powered as compared to his brothers.  If he knew that, his
-inferiority complex would be even worse than it is. Interestingly, even though
-I was not trying, he and Hermione came out with identical averages.  Of
-particular note with Ron, I do not see him as particularly perceptive about
-people (low Seraphim).  I think his parents might well both have had higher
-scores in the Thrones, but we know that Molly dabbled in love potions.  This
-would be a type of magic that easily has detrimental effects.  When, in the
-canon universe, Ron, Harry and Hermione are on the run in book seven, Ron
-learns the spells to hide their campsite easily because that is a type of magic
-that does in fact come naturally to him.
+inferiority complex would be even worse than it is.  Of particular note, like his siblings,
+note the influence of [Molly](#Molly)'s low score from the Thrones.
 
-## Implications
+> **Note**
+> Interestingly, even though I was not trying, he and Hermione came out with identical averages.  Of
+> particular note with Ron, I do not see him as particularly perceptive about
+> people (low Seraphim).  When, in the canon universe, Ron, Harry and Hermione are on the run in book seven, Ron
+> learns the spells to hide their campsite easily because that is a type of magic
+> that does in fact come naturally to him.
+
+## Author's Notes on Implications
 
 If you compare Snape, James, and Lily, you will see that Snape and James are
 almost precisely equal, except for their exact skill set, and that Lily is
@@ -299,6 +326,6 @@ them:
    Dumbledore, and Snape at a level where they need not fear Riddle overwhelming
    them in the mind arts.
 
-[horcruxes]: </Harrypedia/magic/dark/horcruxes>
+[horcruxes]: </Harrypedia/magic/dark/horcruxes/>
 
-[horcrux]: </Harrypedia/magic/dark/horcruxes>
+[horcrux]: </Harrypedia/magic/dark/horcruxes/>

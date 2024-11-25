@@ -113,13 +113,13 @@ shard could not possess her son.  A battle of wills and of magic began.
 [^202104201]: See my notes on [Culture](/Harrypedia/culture)
 
 [^202109028]: See the author's notes on
-    [power levels](../appendices/appendix_d).
+    [power levels](../Appendices/Relative Power Levels/).
 
 [^202109027]: See the author's notes on
-    [power levels](../appendices/appendix_d/).
+    [power levels](../Appendices/Relative Power Levels/).
 
-[^202109026]: Per my initial [notes](../appendices/appendix_a), one of
+[^202109026]: Per my initial [notes](../Appendices/Points%20of%20Divergence/), one of
     the key
     aspects of this universe is that I was fairly mathematical about magic.
     Thus the most pivotal characters need a breakdown of their abilities.
-    See the author's notes on [power levels](../appendices/appendix_d).
+    See the author's notes on [power levels](../Appendices/Relative Power Levels/).

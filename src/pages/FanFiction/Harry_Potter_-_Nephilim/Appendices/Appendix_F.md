@@ -234,13 +234,13 @@ Irma Crabbe at 13 years old.[^230711-1]  These two families with their
 history of dark dealings neither one wanted to risk the penalties that the
 children may have made themselves liable to.
 
-[AA]: <../appendix_a>
+[AA]: <../Points%20of%20Divergence/>
 
-[AB]: <../appendix_b>
+[AB]: <../Rules of Magic/>
 
-[AC]: <../appendix_c>
+[AC]: <../Magical Beings/>
 
-[AD]: <../appendix_d>
+[AD]: <../Relative Power Levels/>
 
 [AE]: <../appendix_e>
 

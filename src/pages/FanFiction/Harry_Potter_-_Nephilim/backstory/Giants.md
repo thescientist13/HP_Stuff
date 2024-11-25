@@ -44,6 +44,6 @@ cannot be undone.
 
 [^230717-4]: See the notes on [Original Sin].
 
-[Original Sin]: <../../appendices/appendix_g>
+[Original Sin]: <../../Appendices/appendix_g>
 
-[House Elves]: <../../appendices/appendix_c>
+[House Elves]: <../../Appendices/Magical Beings/>
