@@ -196,7 +196,7 @@ seem to largely stem from a fairly black and white view of the world and
 
 [Slytherin]: <../../../Hogwarts/Slytherin/>
 
-[Ravenclaw]: <../../../Hogwarts/ravenclaw>
+[Ravenclaw]: <../../../Hogwarts/Ravenclaw/>
 
 [Malfoy]: <../../Malfoy/Draco_Lucius/>
 

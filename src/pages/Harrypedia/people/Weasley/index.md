@@ -79,7 +79,7 @@ birthday is correct, that does not give much space for [Charlie]'s to move.
 
 [Quidditch]: <../../quidditch/>
 
-[Gryffindor]: <../../Hogwarts/gryffindor/>
+[Gryffindor]: <../../Hogwarts/Gryffindor/>
 
 [Harry]: <../people/Potter/Harry_James/>
 

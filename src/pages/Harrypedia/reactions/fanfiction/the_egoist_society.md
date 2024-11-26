@@ -31,7 +31,7 @@ However, the typical pattern is that the author defines this magical society by 
   * The result is that it comes across as incredibly pretentious, and done simply to make themselves different, and not out of any great attachment to the language, or indeed, the thought structures that made that way of speaking common when it was.  
 
 
-[Gryffindor]: </Harrypedia/Hogwarts/gryffindor/>
+[Gryffindor]: </Harrypedia/Hogwarts/Gryffindor/>
 
 [McGonagall]: </Harrypedia/people/McGonagall/Minerva/>
 

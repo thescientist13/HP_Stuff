@@ -78,9 +78,9 @@ would have no need of a revolution.
 
 [Lucius]: <../../people/Malfoy/Lucius_Abraxas/>
 
-[Ravenclaw]: <../../Hogwarts/ravenclaw>
+[Ravenclaw]: <../../Hogwarts/Ravenclaw/>
 
-[Gryffindor]: <../../Hogwarts/gryffindor>
+[Gryffindor]: <../../Hogwarts/Gryffindor/>
 
 [Sorting Hat]: <../../Hogwarts/sorting_hat>
 

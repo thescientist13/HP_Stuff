@@ -291,7 +291,7 @@ because they showcase some aspect of adults being … adults.
 
 [Umbridge]: </Harrypedia/people/Umbridge/Delores_Jane/>
 
-[Hufflepuff]: </Harrypedia/Hogwarts/hufflepuff/>
+[Hufflepuff]: </Harrypedia/Hogwarts/Hufflepuff/>
 
 [^lbcx]: including but not limited to
     * _[Who Let Her In Here?](https://archiveofourown.org/works/19495357)_
