@@ -193,7 +193,7 @@ incorporating non-magical classes no matter how needed or useful they might be.
 
 [AD1]: <../../Dumbledore/Albus_Percival_Wulfric_Brian/>
 
-[Hogwarts]: <../../../hogwarts>
+[Hogwarts]: <../../../Hogwarts/>
 
 [OCUC1]: https://www.fanfiction.net/s/13903544/
 

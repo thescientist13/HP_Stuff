@@ -79,4 +79,4 @@ harder because the *curse* in question is lost and unrecorded by history.[^24021
 
 [Imperius]: <../../magic/spells/imperio/>
 
-[Hogwarts]: <../../../hogwarts/>
+[Hogwarts]: <../../../Hogwarts/>

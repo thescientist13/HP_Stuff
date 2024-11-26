@@ -73,7 +73,7 @@ she says magical folk tend to wear "day to day."[^220630-2]
 
 [James]: <../../people/Potter/James/>
 
-[Hogwarts]: <../../hogwarts>
+[Hogwarts]: <../../Hogwarts/>
 
 [Mr. Weasley]: <../../people/Weasley/arthur/>
 

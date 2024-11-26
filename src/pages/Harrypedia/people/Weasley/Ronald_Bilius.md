@@ -194,9 +194,9 @@ with the thought of [Ravenclaw].[^221213-1].  Other than that, Ron's comments
 seem to largely stem from a fairly black and white view of the world and
 [Malfoy]'s over the top behaviour.
 
-[Slytherin]: <../../../hogwarts/slytherin>
+[Slytherin]: <../../../Hogwarts/Slytherin/>
 
-[Ravenclaw]: <../../../hogwarts/ravenclaw>
+[Ravenclaw]: <../../../Hogwarts/ravenclaw>
 
 [Malfoy]: <../../Malfoy/Draco_Lucius/>
 

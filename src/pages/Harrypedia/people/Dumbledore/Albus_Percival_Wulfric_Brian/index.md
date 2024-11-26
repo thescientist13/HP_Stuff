@@ -73,7 +73,7 @@ his flaws in the right context.
 
 [HS]: <../../slughorn/horace_eugene_flaccus>
 
-[hogwarts]: <../../../hogwarts>
+[hogwarts]: <../../../Hogwarts/>
 
 Musings of Apathy, in writing the original version of [Family Inseparable][FI],
 envisions Dumbledore as (my words) misguided, and perhaps ruthless, but not

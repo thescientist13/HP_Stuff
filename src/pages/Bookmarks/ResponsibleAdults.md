@@ -249,9 +249,9 @@ because they showcase some aspect of adults being … adults.
 
 [Molly]: </Harrypedia/people/Prewett/Molly/>
 
-[Slytherin]: </Harrypedia/hogwarts/slytherin/>
+[Slytherin]: </Harrypedia/Hogwarts/Slytherin/>
 
-[Hogwarts]: </Harrypedia/hogwarts/>
+[Hogwarts]: </Harrypedia/Hogwarts/>
 
 [Neville]: </Harrypedia/people/Longbottom/Neville/>
 
@@ -291,7 +291,7 @@ because they showcase some aspect of adults being … adults.
 
 [Umbridge]: </Harrypedia/people/Umbridge/Delores_Jane/>
 
-[Hufflepuff]: </Harrypedia/hogwarts/hufflepuff/>
+[Hufflepuff]: </Harrypedia/Hogwarts/hufflepuff/>
 
 [^lbcx]: including but not limited to
     * _[Who Let Her In Here?](https://archiveofourown.org/works/19495357)_

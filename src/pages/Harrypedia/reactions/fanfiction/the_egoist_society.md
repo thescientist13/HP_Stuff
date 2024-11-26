@@ -31,7 +31,7 @@ However, the typical pattern is that the author defines this magical society by 
   * The result is that it comes across as incredibly pretentious, and done simply to make themselves different, and not out of any great attachment to the language, or indeed, the thought structures that made that way of speaking common when it was.  
 
 
-[Gryffindor]: </Harrypedia/hogwarts/gryffindor/>
+[Gryffindor]: </Harrypedia/Hogwarts/gryffindor/>
 
 [McGonagall]: </Harrypedia/people/McGonagall/Minerva/>
 
@@ -39,13 +39,13 @@ However, the typical pattern is that the author defines this magical society by 
 
 [Grindelwald]: </Harrypedia/people/grindelwald/gellert/>
 
-[Slytherin]: </Harrypedia/hogwarts/slytherin/>
+[Slytherin]: </Harrypedia/Hogwarts/Slytherin/>
 
 [Malfoy]: </Harrypedia/people/Malfoy/Draco_Lucius/>
 
 [International Confederation of Wizards]: </Harrypedia/culture/international_confederation_of_wizards/>
 
-[Hogwarts]: </Harrypedia/hogwarts/>
+[Hogwarts]: </Harrypedia/Hogwarts/>
 
 [Statute of Secrecy]: </Harrypedia/culture/international_statute_of_secrecy/>
 

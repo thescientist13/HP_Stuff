@@ -23,7 +23,7 @@ author: Luke Schierer
 
 [Ginny]: /Harrypedia/people/Weasley/Ginevra_Molly/
 
-[Hogwarts]: /Harrypedia/hogwarts/
+[Hogwarts]: /Harrypedia/Hogwarts/
 
 [Neville]: /Harrypedia/people/Longbottom/Neville/
 

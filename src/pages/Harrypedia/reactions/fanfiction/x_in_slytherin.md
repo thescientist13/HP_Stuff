@@ -78,13 +78,13 @@ would have no need of a revolution.
 
 [Lucius]: <../../people/Malfoy/Lucius_Abraxas/>
 
-[Ravenclaw]: <../../hogwarts/ravenclaw>
+[Ravenclaw]: <../../Hogwarts/ravenclaw>
 
-[Gryffindor]: <../../hogwarts/gryffindor>
+[Gryffindor]: <../../Hogwarts/gryffindor>
 
-[Sorting Hat]: <../../hogwarts/sorting_hat>
+[Sorting Hat]: <../../Hogwarts/sorting_hat>
 
-[Hat]: <../../hogwarts/sorting_hat>
+[Hat]: <../../Hogwarts/sorting_hat>
 
 [Draco]: <../../people/Malfoy/Draco_Lucius/>
 
@@ -100,7 +100,7 @@ would have no need of a revolution.
 
 [Riddle]: <../../people/Riddle/Tom_Marvolo/>
 
-[Slytherin]: <../../hogwarts/slytherin>
+[Slytherin]: <../../Hogwarts/Slytherin/>
 
 [Harry]: <../../people/Potter/Harry_James/>
 

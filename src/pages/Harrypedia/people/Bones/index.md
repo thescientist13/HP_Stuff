@@ -27,7 +27,7 @@ Or is [Amelia][] fairly broad minded?[^210701-3]
 
 [Amelia]: <amelia_susan>
 
-[ClassLists]: <../../hogwarts/class_lists/>
+[ClassLists]: <../../Hogwarts/class_lists/>
 
 [Culture]: <../../culture>
 

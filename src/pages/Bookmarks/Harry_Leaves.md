@@ -69,7 +69,7 @@ magical world, or both.
   
 </dl>
 
-[Hogwarts]: </Harrypedia/hogwarts/>
+[Hogwarts]: </Harrypedia/Hogwarts/>
 
 [Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
 

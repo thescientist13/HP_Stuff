@@ -126,7 +126,7 @@ such as [McGonagall][] and [Sprout][] might well pick up on that distrust.
 
 [Hermione]: <../../../Granger/Hermione_Jean/>
 
-[Hogwarts]: <../../../../hogwarts>
+[Hogwarts]: <../../../../Hogwarts/>
 
 [Kingsley]: <../../../shacklebolt/kingsley/>
 

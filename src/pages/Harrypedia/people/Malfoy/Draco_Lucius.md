@@ -57,7 +57,7 @@ back.
 
 [Riddle]: <../../Riddle/Tom_Marvolo/>
 
-[Slytherin]: <../../../hogwarts/slytherin>
+[Slytherin]: <../../../Hogwarts/Slytherin/>
 
 [Harry]: <../../Potter/Harry_James/>
 

@@ -75,11 +75,11 @@ of the 1994-1995 school year, placing [Bill]'s last year in 1989, which
 *does* match the chart above (school year 1988-1989).  If [Bill]'s
 birthday is correct, that does not give much space for [Charlie]'s to move.
 
-[Hogwarts]: <../../hogwarts/>
+[Hogwarts]: <../../Hogwarts/>
 
 [Quidditch]: <../../quidditch/>
 
-[Gryffindor]: <../../hogwarts/gryffindor/>
+[Gryffindor]: <../../Hogwarts/gryffindor/>
 
 [Harry]: <../people/Potter/Harry_James/>
 

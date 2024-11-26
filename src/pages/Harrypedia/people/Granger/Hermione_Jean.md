@@ -356,7 +356,7 @@ year, though it is anyone's guess which specific event would be one too many.
 
 [TSWoHA]: https://www.fanfiction.net/s/5858832
 
-[Hogwarts]: ../../../hogwarts/
+[Hogwarts]: ../../../Hogwarts/
 
 [Confundus]: /Harrypedia/magic/spells/confundus/
 

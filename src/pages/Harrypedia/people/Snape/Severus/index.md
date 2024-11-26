@@ -126,7 +126,7 @@ fragment or not.  Was it a reward, or did he earn the mark in some other way?
 That answer could significantly change your view of how much evil Severus has
 done by commission versus omission during this phase of his life.
 
-[Hogwarts]: <../../../hogwarts>
+[Hogwarts]: <../../../Hogwarts/>
 
 [Dumbledore][]'s view is that becoming a spy balances the scales.  Severus
 needs no punishment for his actions prior to hearing the prophesy.[^221014-1]  I

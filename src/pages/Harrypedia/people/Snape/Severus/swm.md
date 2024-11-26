@@ -416,4 +416,4 @@ to act on that attraction by agreeing to go out with him.
 
 [Harry]: <../../../Potter/Harry_James/>
 
-[Hogwarts]: <../../../../hogwarts>
+[Hogwarts]: <../../../../Hogwarts/>

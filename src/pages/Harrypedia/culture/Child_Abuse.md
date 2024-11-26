@@ -33,7 +33,7 @@ The obvious exception to this is [Walburga], who from all accounts had no proble
 
 [obscurial]: <../../beings/obscurus/>
 
-[Hogwarts]: <../../hogwarts/>
+[Hogwarts]: <../../Hogwarts/>
 
 [Sirius]: <../../people/Black/Sirius_iii/>
 

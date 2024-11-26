@@ -52,8 +52,8 @@ Of course, I cannot be sure that this is what happened.  It makes it hard to giv
 
 [WolfgangNH]: https://archiveofourown.org/users/WolfgangNH/pseuds/WolfgangNH
 
-[CaHS]: ../hogwarts/class_and_house_structure/
+[CaHS]: ../Hogwarts/class_and_house_structure/
 
-[Hogwarts]: ../hogwarts/
+[Hogwarts]: ../Hogwarts/
 
 [^240319-5]: I am not the first to make any of these points, but I honestly cannot recall where I first read any of these ideas.

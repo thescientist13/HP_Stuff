@@ -8,7 +8,7 @@ Just how old is [Professor McGonagall][McGonagall]?  Has she worked at
 [Hogwarts] for thirty-nine years[^231003-2] or for closer to a century?
 [^231003-3]
 
-[Hogwarts]: <../../hogwarts/>
+[Hogwarts]: <../../Hogwarts/>
 
 [McGonagall]: <../../people/McGonagall/Minerva/>
 

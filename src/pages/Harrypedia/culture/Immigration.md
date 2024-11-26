@@ -114,7 +114,7 @@ then I cannot be held culpable for failure to obey Parliament.  The fault must b
 
 [Hermione]: <../../people/Granger/Hermione_Jean/>
 
-[Hogwarts]: <../../hogwarts>
+[Hogwarts]: <../../Hogwarts/>
 
 The students might not have been kidnapped, in that they can go home for a few 
 weeks at Christmas, and two months or so each summer, but they will 

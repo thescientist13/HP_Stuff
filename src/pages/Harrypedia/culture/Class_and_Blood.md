@@ -105,7 +105,7 @@ curry favour with them, re-enforcing the beliefs.  They will marry for money and
 power, re-enforcing these beliefs beyond school with social connections, and
 creating a feedback mechanism into the next generation. 
 
-[Hogwarts]: <../../hogwarts>
+[Hogwarts]: <../../Hogwarts/>
 
 [Riddle]: <../../people/Riddle/Tom_Marvolo/>
 

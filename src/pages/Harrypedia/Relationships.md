@@ -109,7 +109,7 @@ to create one big happy Weasley-Potter-Malfoy family.
 
 [Rita Skeeter]: <../people/skeeter/rita/>
 
-[Hogwarts]: <../hogwarts/>
+[Hogwarts]: <../Hogwarts/>
 
 [Ron]: <../people/Weasley/Ronald_Bilius/>
 

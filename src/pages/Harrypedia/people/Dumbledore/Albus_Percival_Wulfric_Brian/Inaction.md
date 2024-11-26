@@ -71,7 +71,7 @@ Some fanfiction works that have built on this team:
 
 [Bill Weasley]: <../../../Weasley/William_Arthur/>
 
-[Hogwarts]: <../../../../hogwarts/>
+[Hogwarts]: <../../../../Hogwarts/>
 
 [^211102-1]: Venquine1990.
     _[Dumbledore's Folly](https://www.fanfiction.net/s/13948448)_

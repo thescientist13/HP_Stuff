@@ -20,7 +20,7 @@ author: Luke Schierer
 
 [Dursley]: /Harrypedia/people/Dursley/Vernon/
 
-[^240424-2]: see [Comparing how old students are in UK and US](/Harrypedia/hogwarts/comparitive_class_ages/)
+[^240424-2]: see [Comparing how old students are in UK and US](/Harrypedia/Hogwarts/comparitive_class_ages/)
 
 [Dudley]: /Harrypedia/people/Dursley/Dudley/
 

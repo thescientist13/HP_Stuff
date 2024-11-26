@@ -40,7 +40,7 @@ the six years that [Harry] attends class.
 
 [Hagrid]: <../../people/Hagrid/Rubeus/>
 
-[Hogwarts]: <../../hogwarts/>
+[Hogwarts]: <../../Hogwarts/>
 
 [Harry]: <../../people/Potter/Harry_James/>
 
