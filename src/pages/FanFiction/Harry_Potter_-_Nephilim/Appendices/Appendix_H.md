@@ -207,9 +207,9 @@ made.  When the only choices the characters see are between bad and worse.
 
 [AD]: <../Relative Power Levels/>
 
-[AE]: <../Appendix_E/>
+[AE]: <../Life Expectancy/>
 
-[AF]: <../Appendix_F/>
+[AF]: <../Magical Contracts/>
 
 [AG]: <../Appendix_G/>
 

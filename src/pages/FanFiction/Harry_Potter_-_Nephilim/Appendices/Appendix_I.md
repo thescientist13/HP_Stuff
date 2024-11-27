@@ -8,10 +8,13 @@ collection: Nephilim
 layout: fanfiction
 ---
 
-For the purposes of this story, veela are "dark"
+> **Note**
+> For the purposes of this story, veela are "dark"
 creatures[^210126-4]. I have chosen to create a version of veela that
 justifies the suspicion that [Molly], [Hermione][] and [Ginny][] view
-[Fleur][] with. Veela have some of the strongest inheritances from the
+[Fleur][] with.
+
+Veela have some of the strongest inheritances from the
 Thrones of all humanoid magic users. The pure veela is not an example of
 a primordial people. Rather, the veela race comes from an example of
 true perfidy. They originate from the crimes of a particularly evil witch,
@@ -20,46 +23,56 @@ Powers, Principalities and Archangels, and of the fallen angels (on the bad
 side). Their actions resulted in a wide variety of far reaching hereditary
 effects (this is the cumulative effects over the course of history):
 
-At one point we (humanity and the nephilim community) knew which parts of this list came from enemy action and which parts of this list came from punishment inflicted upon the veela community for their many crimes (see [the backstory] for the original, but not the only, crimes).  The incredibly harsh nature of their punishment was intended as a warning to the rest of the world to cease the making of humaniform beings, and the archangels made sure to make sure every nephil community knew what had been done and why.  However, the nephilim are particularly good at ignoring and suppressing knowledge of things they do not want to acknowledge - see [Appendix G] on Original Sin.
+At one point we (humanity and the nephilim community) knew which parts of this list came from enemy action and which parts of this list came from punishment inflicted upon the veela community for their many crimes.  The incredibly harsh nature of their punishment was intended as a warning to the rest of the world to cease the making of humaniform beings, and the archangels made sure to make sure every nephil community knew what had been done and why.  However, the nephilim are particularly good at ignoring and suppressing knowledge of things they do not want to acknowledge - see [Appendix G] on Original Sin.  As this happened back in the ages of mundane myth and legend, the Church has not been able to recover reliable accounts, see [the backstory] for our best effort at reconstructing this history from available evidence.
 
-### Gender
+### Incidence
 
-All veela are female, a male child of a veela will inherit solely from the
-child's father in terms of magic. This is a control placed on the
-punishment to ensure it does not itself become an uncontrolled problem.
+All veela are decendants of the (single) original veela. The female child of a veela and a full human is always either full human or full veela.  There is no known instance of someone inheriting a partial copy of the veela curse when the father is human.  This makes the veela curse very different from normal nephilim inheritance, where each trait inherits independantly. Most veela world-wide result from such unions.  Veela across the globe now show a few varieties of physical appearances when in bird form, and some communities have 'locked' physical features when in human form as well (see [Nephilim Inheritance]). Each of these differences comes from a particular decendant of the original veela who, through great virtue or great vice, caused a noticable and (as history shows) inheritable change in *herself*.
+It is not true, as some nephilim scholars have claimed, that veela can vary within a family line, nor is there any evidence of a "male" veela despite its persistance in nelphil fictional litterature.
+
+When the father is nephilim however, the situation becomes complex.  In this situation the veela magical abilities still appear to inherit as a single trait, however the *physical* aspects of the curse such as life expectancy, maturation rate, physical appearance, and concupisence each appear to inherit as a separate trait both from each other and also separate from magical ability.  Each of these traits appears to follow known rules of [Nephilim Inheritance].  This then is a second source of 'locked' traits in some the human forms of certain veela communities, as the 'locked' traits have, in some cases, been inherited from the *father*'s line, and pass on with probability separate from the veela curse itself.
+
+We stated that the magical traits of the veela curse inherit as single trait when the father is a nephil.  This is true, however, this single trait appears to, in this case, follow known rules of [Nephilim Inheritance], including the possibility of inheriting a weeker form of the mother's powers.  Thus we have several types of so called "half-veela," which, properly speaking, ought to be categorized entirely separately.
+* There are instances where the magical ability appears to have been inherited in part from the mother, with no inheritance from the father. This results in something that resembles a full veela
+  except with weaker abilities across all areas the mother had abilities.
+* There are instances where the magical ability appears to have been inherited in full from the mother, but the child *also* appears to have some or all of the *father's* abilities.
+* There are instances where the magical ability appears to have been inherited *solely* from the father, except that the individual still the mother's veela animagus form.
+
+Like magical ability, and unlike animagus form (see below), life expectancy appears to have a range of inheritance options.  The female child of a veela and a nephilim will
+*usually* inherit from her mother alone, but will *occasionally* inherit either from the father or some hybrid of the two.
 
 A "full veela" is a veela with a full _human_ father and a full veela parent _or_ a full nephil father and a full veela mother who did _not_ inherit _any_ magic from her father.
 
-A "half veela" is a veela with a full _nephil_ father and a full veela parent who (against the odds, see [Appendix C]), inherited magic from her father.
+A "half veela" is a veela with a full _nephil_ father and a veela (either a full veela *or* a half veela) parent who (against the odds, see [Magical Beings]), inherited magic from her father.
 
-A quarter veela is a veela with a full _nephil_ father and a _half_ veela parent who, (against the odds, see [Appendix C]), inherited magic from her father.
+
+### Gender
+
+As stated in incidence, all veela are female, a male child of a veela will inherit solely from the
+child's father in terms of magic. This is a control placed on the
+punishment to ensure it does not itself become an uncontrolled problem.
 
 ### Physical changes
 
-Like nephil, all veela have an animal form. Where the animal form
-varies with nephil, all veela have a bird for their animal form.
-Where nephil control the shift to/from their animal form (though most
-have come to subconsciously suppress this ability and must re-gain it
-through one or more rituals, see [Appendix B]) the veela has no control.
+Like nephil, all veela have an animal form. While normally the animal form
+varies with nephil, all veela have a bird for their animal form.  Moreover, the form is not that of a random bird, but that of a specific bird.  Which bird it is follows particular family lines.
+Where nephil control the shift to/from their animal form (though in the modern age, most nephilim subconsciously suppress this ability and must re-gain it
+through one or more rituals, see [Rules of Magic]) the veela has no control, and is incapable of obtaining control.
 Her form will shift to that of a bird's any time her wrath, sloth,
 greed, or gluttony exceed her (incredibly minimal) control over
-them. What type of bird she most resembles seems to vary from veela
-community to veela community, and is the same for the entire community.
-This almost always applies to half-veela as well.
+them.  This applies to half-veela as well, there is no known instance of any female child of veela decent having *any* other form.
 
-Her lifespan was reduced to half that of a full human's.[^210916-1]  A half-veela has a 16% chance of inheriting the greater of the two
-lifespans (her father's and her mother's), a 14% chance of inheriting the
-average of the two lifespans, and a 70% chance of simply being either
-veela (with a veela's lifespan) or not being veela (with the lifespan of
-whatever her father is, either a nephil or a human or whatever).
+Veela lifespans vary with family line.  On the low end, vulture type veela have a lifespan of approximately 30 years.[^210916-1]  On the high end, eagle type veela have a lifespan approximately 50 years. As stated above, the half-veela may suffer this as well, but may have an altered inheritance based on her father. This can get progressively more similar to the uncursed nephilim depending on the number of half-veela in her lineage.
 
-The original veela community were all vultures, and a very few veela/vultures
+The original veela community were all vultures, and a few veela/vultures
 exist to this day, particularly in parts of eastern Europe. Some centuries
 after the original veela were created, some veela came to realise that
 their culture was an evil one, and rebelled against both their upbringing
 and their own twisted nature. In reward for this, their form was shifted
 to that of an eagle, and their lifespan increased from the by about 20 years,
-making them almost, but not quite, equal to the full humans, but still well below the nephilim from whom they descend. Later, as rewards for other acts of virtues, some of the eastern communities were transmuted from vultures to hawks, but were not granted additional lifespan.  In the modern era, most hawk type veela are in Bulgaria and Roumania, while most eagle type veela are in Spain and France.  There are very very few vulture type veela anywhere.
+making them almost, but not quite, equal to the full humans, but still well below the nephilim from whom they descend. Later, as rewards for other acts of virtues, some of the eastern communities were transmuted from vultures to hawks, but were not granted additional lifespan.
+
+In the modern era, most hawk type veela are in Bulgaria and Roumania, and all modern hawk type veela count at least one half-veela in their ancestry. Most eagle type veela are in Spain and France, and many of these, but not all, also count many half-veela in their ancestry. There are very very few vulture type veela anywhere, few if any of these count *any* half-veela in their ancestry.
 
 Per [the backstory], the fallen angels, full of wrath over their success
 in so thoroughly corrupting a community being undermined, the veela nature
@@ -70,7 +83,8 @@ hopelessly against. This can be considered an extreme case of concupiscence.
 Thus, between this "revenge" against her and the consequences of her own vice
 normal to any nephil (see [Appendix H]), her concupiscence was vastly increased.
 A full veela has perhaps 20% of the ability to go against her instincts that a
-full human does. A half-veela will generally have much more free will, divine providence generally ensures that a being that is not bound by the limits here
+full human does. A half-veela will *generally* have much more free will,
+divine providence generally ensures that a being that is not bound by the limits here
 described for full veela inherits her father's self control.
 
 Her reproductive system was warped such her body is sufficiently actively hostile to male sperm that female births outnumber male births by at least three
@@ -84,6 +98,8 @@ Partial veela tend to take proportionately longer, averaging the normal rate of 
 
 The veela's *mental* maturation is not accelerated during this time of accelerated physical growth, putting a mentally young girl in an adult's
 body for a period of years (with all the extra self control issues adding adult hormone levels to that lack of mental maturity would imply). This is why [Fleur]'s classmates dislike her so much - people tend to expect someone who appears older to behave older. They remember the brat.
+
+[Nephilim Inheritance]: <../Inheritance/>
 
 ### Magical Abilities
 
@@ -119,27 +135,16 @@ combine with her inheritance from the Dominions. No full veela is
 capable of permanent transmutation, and a "half-veela" is capable of it
 only to the extent her male parent was.
 
-_ALL_ veela are female, despite the normal rules, only female children
-_ever_ inherit veela powers or the physical and mental changes that now
-go with them. It is _possible_ though per the above _unlikely_ that a
-veela will have a male child. The child will _always_ inherit either in
-a purely human fashion or _solely_ from the father. This is equally
-true of half-veela. A veela's child does not get its inheritance per-trait as is normal.  There are (despite the ideas common to many fan fiction authors) **_no_** male veela.
-
-
-
 
 [Appendix A]: ../Points%20of%20Divergence/
 
-[Appendix B]: ../Rules of Magic/
+[Rules of Magic]: ../Rules of Magic/
 
-[Appendix C]: ../Magical Beings/
+[Magical Beings]: ../Magical Beings/
 
-[Appendix D]: ../Relative Power Levels/
+[Relative Power Levels]: ../Relative Power Levels/
 
-[Appendix E]: ../Appendix_E/
-
-[Appendix F]: ../Appendix_F/
+[Life Expectancy]: ../Life Expectancy/
 
 [Appendix G]: ../Appendix_G/
 
@@ -147,7 +152,7 @@ true of half-veela. A veela's child does not get its inheritance per-trait as is
 
 [Appendix I]: ../Appendix_I/
 
-[the backstory]: ../backstory/The_Veela/
+[the backstory]: ../../backstory/The_Veela/
 
 [^210916-1]: Like in _[Maskirovat][knffnm]_.
 

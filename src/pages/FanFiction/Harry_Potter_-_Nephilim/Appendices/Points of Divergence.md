@@ -45,7 +45,7 @@ to make sense.
   essential component of the magic.  Thus beyond the magic learned at Hogwarts,
   there *are* others, including rituals.
 
-    [AF]: <../appendix_f>
+    [AF]: <../Magical Contracts/>
 
 [Goblet of Fire]: <https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire>
 
@@ -155,7 +155,7 @@ to make sense.
 
 [ab]: <../../Appendices/Rules of Magic/>
 
-[af]: <../../Appendices/appendix_f>
+[af]: <../../Appendices/Magical Contracts/>
 
 [ah]: <../../Appendices/appendix_h>
 

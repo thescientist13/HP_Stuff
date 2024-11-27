@@ -254,9 +254,9 @@ can never be fully freed.
 
 [AD]: <../Relative Power Levels/>
 
-[AE]: <../Appendix_E/>
+[AE]: <../Life Expectancy/>
 
-[AF]: <../Appendix_F/>
+[AF]: <../Magical Contracts/>
 
 [AG]: <../Appendix_G/>
 

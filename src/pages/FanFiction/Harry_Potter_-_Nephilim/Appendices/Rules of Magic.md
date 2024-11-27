@@ -505,7 +505,7 @@ humans, and *entirely* outside the intended, natural hierarchy. Despite having g
 
 Nephil have some aspects of both.  They are *mostly* contingent beings that grow and change over time, but their use of magic is, in this universe, the use of an angelic power, and so it tends to either be 1) incredibly crippled compared to actual angels (for example, charms wear off really fast) or 2) incredibly permanent. In the canon books, you cannot remove Walburga's portrait from the wall without removing the wall, which might have been stupid for a house that will be passed down through generations, but clearly demonstrates that a momentary decision can have effects all out of proportion to the result.  I am restricting that to magic used on things without immortal souls and to magic used on *other nephilim* (or on races descending from nephilim, see [Magical Beings][AC]).  Things that would be temptations to a human can be overriding compulsions to a nephil, and they are vulnerable to each other (and to others who can use similar powers) in ways that humans are not.  See the notes on [contracts].
 
-[contracts]: /Harry_Potter_-_Nephilim/Appendices/Appendix_F/
+[contracts]: /Harry_Potter_-_Nephilim/Appendices/Magical Contracts/
 
 [AA]: <../Points of Divergence/>
 
@@ -515,9 +515,9 @@ Nephil have some aspects of both.  They are *mostly* contingent beings that grow
 
 [AD]: <../Relative Power Levels/>
 
-[AE]: <../appendix_e>
+[AE]: <../Life Expectancy/>
 
-[AF]: <../appendix_f>
+[AF]: <../Magical Contracts/>
 
 [AG]: <../appendix_g>
 

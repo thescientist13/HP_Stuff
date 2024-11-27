@@ -126,9 +126,9 @@ There are in fact, though no-inworld scholar knows this, precise percentage base
 
 [AD]: <../Relative Power Levels/>
 
-[AE]: <../Appendix_E/>
+[AE]: <../Life Expectancy/>
 
-[Magical Contracts]: <../Appendix_F/>
+[Magical Contracts]: <../Magical Contracts/>
 
 [Soteriology, Missiology and Ecclesiology]: <../Appendix_G/>
 

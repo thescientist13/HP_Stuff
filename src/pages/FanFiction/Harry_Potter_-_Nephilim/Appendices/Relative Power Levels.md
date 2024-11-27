@@ -30,6 +30,7 @@ The following represent estimates by researchers of the power levels of key figu
 | Potter            | [Harry](#Harry)       | 8        | 6        | 9       | 8         | 7       | 8      | 9              | 9          | 8      | 8.00    |
 | Snape             | [Severus](#Severus)   | 8        | 9        | 9       | 6         | 9       | 9      | 4              | 7          | 7      | 7.55    |
 | Abbott            | [Hannah](#Hannah)     | 5        | 5        | 5       | 6         | 7       | 8      | 5              | 6          | 5      | 5.77    |
+| Bones             | [Susan](#Susan)       | 6        | 6        | 7       | 7         | 8       | 5      | 6              | 8          | 8      | 6.77    |
 | Potter            | [James](#James)       | 8        | 4        | 9       | 10        | 5       | 9      | 8              | 9          | 6      | 7.55    |
 | Potter            | [Euphemia](#Euphemia) | 3        | 1        | 10      | 10        | 4       | 9      | 2              | 9          | 6      | 6.00    |
 | Potter            | [Fleamont](#Fleamont) | 7        | 8        | 8       | 4         | 8       | 7      | 6              | 9          | 6      | 7.00    |
@@ -68,6 +69,21 @@ for her once there.
 > going into her OWL exams.  She, unlike the more central characters, truly had to work
 > *really hard* to get through those and into NEWT classes.
 
+### Bones
+
+#### Susan
+
+Susan represents a slightly stronger average student.  Her scores are slightly shifted
+towards offence and defense, as befitting someone who comes from a family that [Riddle]
+felt the need to attack personally. However, with an average of 6.77, she does not have
+the history-making scores that characters like [Dumbledore] or [Harry] do.
+
+[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
+
+[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
+
+[Harry]: </Harrypedia/people/Potter/Harry_James/>
+
 ### Delacour
 
 #### Fleur
@@ -76,7 +92,7 @@ chose her. Several of her scores are qualified in that her ability to use them
 is limited by her veela nature.  Unfortunately for her, the Goblet was not
 designed to consider that.
 
-### Dumbledores
+### Dumbledore
 
 #### Albus
 The canonical books talk about Dumbledore as the most powerful wizard known,
@@ -93,7 +109,7 @@ strong offensive magic means that it essentially becomes a stand-off between
 the two.  Dumbledore's great intelligence lets him use transmutation and
 out-of-the-box thinking to make up for a lack of directly offensive capability.
 
-### Dursleys
+### Dursley
 
 #### Dudley
 Dudley is a male child from a human father and a squibbish nephil mother.  He
@@ -116,7 +132,7 @@ for Harry) rarely pays any attention to teachers.
 Lily inherited the sum total of her parents, plus an unexpected something
 extra.
 
-### Grangers
+### Granger
 
 #### Hermione
 Hermione has very classic scores for the child of two squibs in the Seraphim,
@@ -128,7 +144,7 @@ magical world.  The key thing about Hermione though is the Dominions, Virtues,
 and Powers categories.  These three scores all suggest that Hermione benefited
 from that 1% base rate of something bizarre happening.
 
-### Potters
+### Potter
 
 #### Euphemia
 We have no canonical background information on Euphemia except for the fact
@@ -162,7 +178,7 @@ inherited a disability due to her (maternal) ancestor's misbehaviour along the
 same lines (love potions).  If not for that abnormally low score, her average
 would be one of the highest in the family.
 
-### Princes
+### Prince
 
 #### Eileen
 We have next to no canonical information about Eileen Prince.  We know that she
@@ -172,7 +188,7 @@ that left her week in the wand-based subjects, particularly where it comes to
 the types of magic that would allow her to protect her son most effectively.
 She was probably good but not brilliant at Potions.
 
-### Riddles
+### Riddle
 
 #### Tom
 Riddle, as the male child of a near Squib, did not have great odds of being a
@@ -180,7 +196,7 @@ powerful wizard.  That he is means that he was that 1% chance.  These also
 represent numbers from at birth. Giving numbers from 1981 or later would, I
 think, be too much of a spoiler.
 
-### Snapes
+### Snape
 
 #### Severus
 Snape is a potions prodigy.  He does his potions entirely instinctively, *and
@@ -212,7 +228,7 @@ Slughorn's class is because:
 > The **_true_** potions afficianado would have been fully focused on his/her work, not
 > on something else.
 
-### Weasleys
+### Weasley
 
 #### Bill
 If you look, Bill has pretty much the ceiling score of his brothers in most
