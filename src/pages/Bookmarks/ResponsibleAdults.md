@@ -233,7 +233,24 @@ because they showcase some aspect of adults being … adults.
         Comments: I dislike dealing with imcomplete works, authors too frequently abandon and/or remove them.  I am doing so because this one, as I re-read it, is so incredibly typical of a pattern that irks me, so much so that I am unsure why I subscribed to the story.  I see much promise in it, but the flaws are quite disasterous.  I ended up writing quite the rant about it [here](/Harrypedia/reactions/fanfiction/the_egoist_society/).
         Beyond those, like many books that want a redeemed [Snape], it ends up bashing [James]. All and all, I am persisting in the re-read trying to find out why I have not unsubscribed in the past. While it is great to see [Bill] step up, and there are indications a few other characters will as well, the flaws are getting really hard to swallow.
     </dd>
+
+    <dt>_[Taking a Stand](https://archiveofourown.org/works/30926150)_</dt>
+    <dd>
+      [FMPtrumpets](https://archiveofourown.org/users/FMPtrumpets/pseuds/FMPtrumpets)
+    </dd>
+    <dd>Published: 2012-04-26. Completed: 2012-05-10.</dd>
+    <dd>
+      Comments: This one takes two minor plot points.
+        * [Riddle] wanted to teach as far back as graduating from [Hogwarts].  If that was in fact a *real* desire, and not a fake ambition, he might have a *small* scrap of humanity.  This assumes he does.  Children are to be educated.  If they must be killed, unless they are [Harry], it is to be done rapidly and painlessly.  Thus [Riddle] takes offence at [Umbridge]'s actions (because she harms all students).
+        * [Amelia] is *actually* as honest and hard working as [Arthur] claims.
+      While I think the first plot deviation ... unlikely, it is *possible* and an interesting theory.  The second plot point is *desirable* but, then, she is *actually* a [typical adult]
 </dl>
+
+[typical adult]: </Harrypedia/people/adults/>
+[Arthur]: </Harrypedia/people/Weasley/Arthur/>
+[Amelia]: </Harrypedia/people/Bones/Amelia_Susan/>
+[Umbridge]: </Harrypedia/people/Umbridge/Delores_Jane/>
+[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
 
 [Bill]: </Harrypedia/people/Weasley/William_Arthur/>
 
