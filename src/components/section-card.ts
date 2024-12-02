@@ -3,7 +3,7 @@ import { customElement, property, state } from "lit/decorators.js";
 
 const DEBUG = 1;
 
-import SpectrumCard from "/node_modules/@spectrum-css/card/dist/index.css" with { type: "css" };
+import SpectrumCard from "@spectrum-css/card/dist/index.css" with { type: "css" };
 
 @customElement("section-card")
 class SectionCard extends LitElement {
@@ -30,7 +30,7 @@ class SectionCard extends LitElement {
     if (DEBUG) {
       console.log(`willupdate start`);
       console.log(
-        `_changedProperties has ${Object.keys(_changedProperties).join(" ")}`
+        `_changedProperties has ${Object.keys(_changedProperties).join(" ")}`,
       );
       console.log(`title is ${this.cardTitle}`);
     }
@@ -38,7 +38,7 @@ class SectionCard extends LitElement {
     if (_changedProperties.has("title")) {
       if (DEBUG) {
         console.log(
-          `setting _targetUrl based on changed title ${this.cardTitle}`
+          `setting _targetUrl based on changed title ${this.cardTitle}`,
         );
       }
     }

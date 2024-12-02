@@ -3,7 +3,7 @@ import { customElement, property, state } from "lit/decorators.js";
 
 const DEBUG = 1;
 
-import SpectrumCard from "/node_modules/@spectrum-css/card/dist/index.css" with { type: "css" };
+import SpectrumCard from "@spectrum-css/card/dist/index.css" with { type: "css" };
 
 @customElement("horizontal-card")
 class HorizontalCard extends LitElement {
@@ -37,7 +37,7 @@ class HorizontalCard extends LitElement {
 
     if (DEBUG) {
       console.log(
-        `_targetUrl from constructor is ${this._targetUrl.toString()}`
+        `_targetUrl from constructor is ${this._targetUrl.toString()}`,
       );
     }
   }
@@ -62,14 +62,14 @@ class HorizontalCard extends LitElement {
     if (DEBUG) {
       console.log(`willupdate start`);
       console.log(
-        `_changedProperties has ${Object.keys(_changedProperties).join(" ")}`
+        `_changedProperties has ${Object.keys(_changedProperties).join(" ")}`,
       );
       console.log(`HorizontalCard willUpdate title is ${this.cardTitle}`);
     }
     if (_changedProperties.has("targetLocation")) {
       if (DEBUG) {
         console.log(
-          `setting _targetUrl based on change in targetLocation ${this.targetLocation}`
+          `setting _targetUrl based on change in targetLocation ${this.targetLocation}`,
         );
       }
       if (this.targetLocation.length > 0) {
@@ -78,7 +78,7 @@ class HorizontalCard extends LitElement {
     } else if (this.targetLocation.length > this._targetUrl.length) {
       if (DEBUG) {
         console.log(
-          `setting _targetUrl based on length of targetLocation ${this.targetLocation}`
+          `setting _targetUrl based on length of targetLocation ${this.targetLocation}`,
         );
       }
       this.setTargetURL(this.targetLocation);
@@ -86,7 +86,7 @@ class HorizontalCard extends LitElement {
     if (_changedProperties.has("title")) {
       if (DEBUG) {
         console.log(
-          `setting _targetUrl based on changed title ${this.cardTitle}`
+          `setting _targetUrl based on changed title ${this.cardTitle}`,
         );
       }
       if (
@@ -97,17 +97,17 @@ class HorizontalCard extends LitElement {
       } else {
         if (DEBUG) {
           console.log(
-            `not setting based on title because _targetUrl ${this._targetUrl} and targetLocation ${this.targetLocation}`
+            `not setting based on title because _targetUrl ${this._targetUrl} and targetLocation ${this.targetLocation}`,
           );
           console.log(
-            `targetLocation has length ${this.targetLocation.length}`
+            `targetLocation has length ${this.targetLocation.length}`,
           );
         }
       }
     } else if (this.cardTitle.length > this._targetUrl.length) {
       if (DEBUG) {
         console.log(
-          `setting _targetUrl based on length of title ${this.cardTitle}`
+          `setting _targetUrl based on length of title ${this.cardTitle}`,
         );
       }
       if (
@@ -118,10 +118,10 @@ class HorizontalCard extends LitElement {
       } else {
         if (DEBUG) {
           console.log(
-            `not setting based on title because _targetUrl ${this._targetUrl} and targetLocation ${this.targetLocation}`
+            `not setting based on title because _targetUrl ${this._targetUrl} and targetLocation ${this.targetLocation}`,
           );
           console.log(
-            `targetLocation has length ${this.targetLocation.length}`
+            `targetLocation has length ${this.targetLocation.length}`,
           );
         }
       }
