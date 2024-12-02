@@ -5,6 +5,11 @@ import { greenwoodPluginGoogleAnalytics } from "@greenwood/plugin-google-analyti
 //this plugin appears to do more than I first understood from the documentation. Once enabled, I *think* it fully replaces WCC and I *think* you can no longer use html components at all.
 import { greenwoodPluginRendererLit } from "@greenwood/plugin-renderer-lit";
 
+import rehypeStringify from "rehype-stringify";
+import remarkGfm from "remark-gfm";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+
 export default {
   activeContent: true,
   isolation: true,
@@ -12,7 +17,7 @@ export default {
   prerender: false,
   staticRouter: false,
   markdown: {
-    plugins: ["remark-gfm", "remark-rehype"],
+    plugins: ["remark-gfm"],
   },
   optimization: "none",
   plugins: [
