@@ -235,7 +235,7 @@ because they showcase some aspect of adults being … adults.
     </dd>
 
     <dt>_[Taking a Stand](https://archiveofourown.org/works/30926150)_</dt>
-    <dd>
+    <dd>Author:
       [FMPtrumpets](https://archiveofourown.org/users/FMPtrumpets/pseuds/FMPtrumpets)
     </dd>
     <dd>Published: 2012-04-26. Completed: 2012-05-10.</dd>
@@ -245,6 +245,18 @@ because they showcase some aspect of adults being … adults.
         * [Amelia] is *actually* as honest and hard working as [Arthur] claims.
 
       While I think the first plot deviation ... unlikely, it is *possible* and an interesting theory.  The second plot point is *desirable* but, unfortunately, she is *actually* a [typical adult].  a [later work in the same series](https://archiveofourown.org/works/39933288) shows an earlier plot departure point that would have occurred were she *actually* responsible.
+    </dd>
+
+    <dt>_[How?](https://archiveofourown.org/works/44041816/)_</dt>
+    <dd>
+      Author: [Labgasod](https://archiveofourown.org/users/Labgasod/pseuds/Labgasod)
+    </dd>
+    <dd>
+      Published: 2023-01-03. Completed: 2023-02-09
+    </dd>
+    <dd>
+      Comments: This is another that assumes that [Amelia] is a competent adult.  I admit its a tempting departure point since [Riddle] *does* in fact kill her off fairly early after his return.  This work features a redeamable [Snape], which isn't my favourite.  There is a semi-reasonable attempt to make it plausible.  It is ... semi-reasonable. It features fairly reasonable [Ron] bashing, and almost but not quite over the top [Molly] and [Dumbledore] bashing.  Of particular note is that the premise for [Dumbledore]'s actions is more thought out than most bashing works.
+    </dd>
 </dl>
 
 [typical adult]: </Harrypedia/people/adults/>
@@ -252,6 +264,8 @@ because they showcase some aspect of adults being … adults.
 [Amelia]: </Harrypedia/people/Bones/Amelia_Susan/>
 [Umbridge]: </Harrypedia/people/Umbridge/Delores_Jane/>
 [Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
+
+[Ron]: </Harrypedia/people/Weasley/Ronald_Bilius/>
 
 [Bill]: </Harrypedia/people/Weasley/William_Arthur/>
 
@@ -314,7 +328,7 @@ because they showcase some aspect of adults being … adults.
 [^lbcx]: including but not limited to
     * _[Who Let Her In Here?](https://archiveofourown.org/works/19495357)_
       by [Space_Girl44](https://archiveofourown.org/users/Space_Girl44/pseuds/Space_Girl44)
-      (I can't put my finger on it, but the characterization seems slightly off)
+      (I can't put my finger on it, but the characterisation seems slightly off)
     * _[Good Pink vs Bad Pink](https://www.fanfiction.net/s/13193971/)_
       by [Singstar4](https://www.fanfiction.net/u/4265633/Singstar4)
       (incomplete)
