@@ -243,7 +243,8 @@ because they showcase some aspect of adults being … adults.
       Comments: This one takes two minor plot points.
         * [Riddle] wanted to teach as far back as graduating from [Hogwarts].  If that was in fact a *real* desire, and not a fake ambition, he might have a *small* scrap of humanity.  This assumes he does.  Children are to be educated.  If they must be killed, unless they are [Harry], it is to be done rapidly and painlessly.  Thus [Riddle] takes offence at [Umbridge]'s actions (because she harms all students).
         * [Amelia] is *actually* as honest and hard working as [Arthur] claims.
-      While I think the first plot deviation ... unlikely, it is *possible* and an interesting theory.  The second plot point is *desirable* but, then, she is *actually* a [typical adult]
+
+      While I think the first plot deviation ... unlikely, it is *possible* and an interesting theory.  The second plot point is *desirable* but, unfortunately, she is *actually* a [typical adult].  a [later work in the same series](https://archiveofourown.org/works/39933288) shows an earlier plot departure point that would have occurred were she *actually* responsible.
 </dl>
 
 [typical adult]: </Harrypedia/people/adults/>
