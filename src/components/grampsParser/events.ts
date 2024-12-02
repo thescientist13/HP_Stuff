@@ -1,10 +1,4 @@
-import {
-  html,
-  LitElement,
-  type PropertyValues,
-  type TemplateResult,
-  nothing,
-} from "lit";
+import { html, LitElement, type PropertyValues, nothing } from "lit";
 import { property, state } from "lit/decorators.js";
 import { consume } from "@lit/context";
 
@@ -14,62 +8,7 @@ const DEBUG = false;
 
 import { DateTime, Interval } from "luxon";
 
-import {
-  type Quality,
-  type DatevalType,
-  type EventType,
-  type Role,
-  type RelType,
-  type Gender,
-  type Derivation,
-  type NameType,
-  type RepositoryType,
-  type UrlType,
-  type Medium,
-  type Xml,
-  type Tag,
-  type Tags,
-  type Sourceref,
-  type ReporefElement,
-  type Source,
-  type Sources,
-  type Url,
-  type Repository,
-  type Repositories,
-  type Pname,
-  type Coord,
-  type Placeobj,
-  type Places,
-  type Personref,
-  type SurnameClass,
-  type NameElement,
-  type Address,
-  type EventrefElement,
-  type Person,
-  type People,
-  type Note,
-  type Notes,
-  type Researcher,
-  type Created,
-  type Header,
-  type Rel,
-  type PurpleChildref,
-  type ChildrefElement,
-  type Family,
-  type Families,
-  type EventDateval,
-  type Datestr,
-  type DaterangeClass,
-  type Attribute,
-  type Event,
-  type Events,
-  type CitationDateval,
-  type Citation,
-  type Citations,
-  type Database,
-  type Export,
-  PersonrefSchema,
-} from "../../lib/GrampsZodTypes.ts";
+import * as grampsZod from "../../lib/GrampsZodTypes.ts";
 
 import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
 
@@ -82,7 +21,7 @@ export class GrampsEvent extends LitElement {
   public eventId: string;
 
   @state()
-  private _event: Event | null;
+  private _event: grampsZod.Event | null;
 
   @property({ type: String })
   public grampsId: string;
@@ -118,10 +57,10 @@ export class GrampsEvent extends LitElement {
   public showMarriage: boolean;
 
   @state()
-  private _i1: Person | null;
+  private _i1: grampsZod.Person | null;
 
   @state()
-  private _i2: Person | null;
+  private _i2: grampsZod.Person | null;
 
   constructor() {
     super();
@@ -143,7 +82,7 @@ export class GrampsEvent extends LitElement {
     this.showPlace = false;
   }
 
-  public setEvent(e: Event | null | undefined) {
+  public setEvent(e: grampsZod.Event | null | undefined) {
     if (e) {
       this._event = e;
     } else {
@@ -170,7 +109,7 @@ export class GrampsEvent extends LitElement {
             console.log(
               `willUpdate; filter returned ${filterResult.length} people`,
             );
-          const first: Person | undefined = filterResult.shift();
+          const first: grampsZod.Person | undefined = filterResult.shift();
           if (first !== undefined) {
             if (DEBUG) console.log(`willUpdate; and the first was valid`);
             this._i1 = first;
@@ -234,7 +173,7 @@ export class GrampsEvent extends LitElement {
     }
   }
 
-  private findDeathByPerson(individual: Person) {
+  private findDeathByPerson(individual: grampsZod.Person) {
     if (DEBUG) console.log(`findBirthByPerson; start`);
     const db = this.state!.zodData ?? false;
     if (db) {
@@ -253,7 +192,7 @@ export class GrampsEvent extends LitElement {
     return null;
   }
 
-  public findBirthByPerson(individual: Person) {
+  public findBirthByPerson(individual: grampsZod.Person) {
     if (DEBUG) console.log(`findBirthByPerson; start`);
     const db = this.state!.zodData ?? false;
     if (db) {
@@ -273,14 +212,19 @@ export class GrampsEvent extends LitElement {
     return null;
   }
 
-  public findEventsByPerson(individual: Person): Event[] | null {
+  public findEventsByPerson(
+    individual: grampsZod.Person,
+  ): grampsZod.Event[] | null {
     if (DEBUG) console.log(`findEventsByPerson; start`);
-    const refs: EventrefElement | EventrefElement[] | undefined | null =
-      individual.eventref;
+    const refs:
+      | grampsZod.EventrefElement
+      | grampsZod.EventrefElement[]
+      | undefined
+      | null = individual.eventref;
     const db = this.state!.zodData ?? false;
     if (db && refs !== null && refs !== undefined) {
       if (DEBUG) console.log(`findEventsByPerson; I have refs to search`);
-      const r: EventrefElement[] = [refs].flat();
+      const r: grampsZod.EventrefElement[] = [refs].flat();
       const returnable = db.events.event.filter((e) => {
         const _id = e.handle;
         if (_id) {
@@ -306,7 +250,7 @@ export class GrampsEvent extends LitElement {
     return null;
   }
 
-  private displayDate(event: Event) {
+  private displayDate(event: grampsZod.Event) {
     let t = html``;
     let d: DateTime | null = null;
     let i: Interval | null = null;
