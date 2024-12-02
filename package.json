@@ -53,6 +53,7 @@
     "autoprefixer": "^10.4.20",
     "just-install": "^2.0.2",
     "markdown-toc": "^1.2.0",
+    "patch-package": "^8.0.0",
     "postcss-cli": "^11.0.0",
     "postcss-disabled": "^1.0.0",
     "postcss-extend": "^1.0.5",
