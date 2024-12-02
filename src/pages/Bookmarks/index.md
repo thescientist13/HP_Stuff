@@ -5,7 +5,7 @@ author: 'Luke Schierer'
 sidebar:
   order: 1
 imports:
-  - /collections/collecetion-cards.ts type="module"
+  - /components/collection-cards.ts type="module"
 ---
 
 These are stories I want to remember, either as source material, or as being a
