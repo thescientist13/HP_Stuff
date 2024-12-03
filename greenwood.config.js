@@ -1,12 +1,15 @@
 import { greenwoodPluginTypeScript } from "@greenwood/plugin-typescript";
-import { greenwoodPluginRendererLit } from "@greenwood/plugin-renderer-lit";
 import { greenwoodPluginPostCss } from "@greenwood/plugin-postcss";
 import { greenwoodPluginGoogleAnalytics } from "@greenwood/plugin-google-analytics";
+
+//this plugin appears to do more than I first understood from the documentation. Once enabled, I *think* it fully replaces WCC and I *think* you can no longer use html components at all.
+import { greenwoodPluginRendererLit } from "@greenwood/plugin-renderer-lit";
 
 export default {
   activeContent: true,
   isolation: true,
-  prerender: true,
+  // it appears the two pre-render flags ought to match.
+  prerender: false,
   staticRouter: false,
   markdown: {
     plugins: ["remark-gfm", "remark-rehype"],
