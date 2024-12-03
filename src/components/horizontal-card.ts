@@ -3,7 +3,7 @@ import { customElement, property, state } from "lit/decorators.js";
 
 const DEBUG = 1;
 
-import SpectrumCard from "@spectrum-css/card/dist/index.css" with { type: "css" };
+import SpectrumCard from "@spectrum-css/card" with { type: "css" };
 
 @customElement("horizontal-card")
 class HorizontalCard extends LitElement {
