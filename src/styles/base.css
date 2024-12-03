@@ -17,3 +17,13 @@ main {
 top-nav {
   width: 100vw;
 }
+
+.imgCompare {
+  display: flex;
+  flex-direction: row;
+
+  & img {
+    width: 40%;
+    height: 100%;
+  }
+}
