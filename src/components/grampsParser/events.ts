@@ -59,9 +59,6 @@ export class GrampsEvent extends LitElement {
   @state()
   private _i1: grampsZod.Person | null;
 
-  @state()
-  private _i2: grampsZod.Person | null;
-
   constructor() {
     super();
 
@@ -71,7 +68,6 @@ export class GrampsEvent extends LitElement {
     this.grampsId = "";
     this.grampsId2 = "";
     this._i1 = null;
-    this._i2 = null;
     this.showBirth = false;
     this.showDeath = false;
     this.showMarriage = false;
