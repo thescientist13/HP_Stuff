@@ -42,5 +42,5 @@
     "./src/**/*.ts",
     "./src/styles/*.css"
   ],
-  "exclude": ["./src/**/*.js", "node_modules"]
+  "exclude": ["old/**", "./src/**/*.js", "node_modules"]
 }
