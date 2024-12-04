@@ -1,3 +1,4 @@
+export const prerender = false;
 import { LitElement, html, type PropertyValues } from "lit";
 import { property, state } from "lit/decorators.js";
 import { when } from "lit/directives/when.js";

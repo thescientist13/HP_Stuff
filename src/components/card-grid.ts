@@ -1,3 +1,4 @@
+export const prerender = false;
 import { html, LitElement, css, type TemplateResult, nothing } from "lit";
 import { customElement, property } from "lit/decorators.js";
 

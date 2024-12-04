@@ -1,3 +1,4 @@
+export const prerender = false;
 import { CardGrid } from "./card-grid.ts";
 
 const DEBUG = 0;

@@ -1,3 +1,4 @@
+export const prerender = false;
 import { type TemplateResult, css, html, nothing } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { getContentByCollection } from "@greenwood/cli/src/data/client.js";

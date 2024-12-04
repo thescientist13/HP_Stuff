@@ -1,3 +1,4 @@
+export const prerender = false;
 import { customElement } from "lit/decorators.js";
 
 import { CardGrid } from "./card-grid.ts";

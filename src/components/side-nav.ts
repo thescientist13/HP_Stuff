@@ -1,3 +1,4 @@
+export const prerender = false;
 import { LitElement, html, css, type TemplateResult } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { until } from "lit/directives/until.js";
