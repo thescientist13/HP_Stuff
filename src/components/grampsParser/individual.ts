@@ -1,5 +1,5 @@
 export const prerender = false;
-import { LitElement, html, css } from "lit";
+import { LitElement, html } from "lit";
 import type { PropertyValues } from "lit";
 import { property, state } from "lit/decorators.js";
 import { when } from "lit/directives/when.js";
@@ -23,6 +23,7 @@ import { GrampsEvent } from "./events.ts";
 
 //@ts-expect-error
 import { AncestorsTreeChart } from "./AncestorsTreeChart/AncestorsTreeChart.ts";
+import { nothing } from "lit";
 
 const DEBUG = true;
 
@@ -64,6 +65,7 @@ export class GrampsIndividual extends LitElement {
                 sensitivity: "base",
               });
             }
+            return false;
           });
           if (found) {
             const first: GrampsZod.Person | undefined = [found].flat().shift();
@@ -306,14 +308,6 @@ export class GrampsIndividual extends LitElement {
             }
           }
           if (f.eventref) {
-            const efh = f.eventref.hlink;
-            const gme = db.events.event
-              .filter((e) => {
-                if (e && e.handle) {
-                  return !e.handle.localeCompare(efh);
-                }
-              })
-              .shift();
             t = html`${t} Married:
               <gramps-event
                 familyId=${f.id}
@@ -347,7 +341,7 @@ export class GrampsIndividual extends LitElement {
                         asRange
                       ></simple-individual>
                     </li>`;
-                  }
+                  } else return nothing;
                 })}
               </ul> `;
           }
@@ -566,8 +560,9 @@ export class GrampsIndividual extends LitElement {
                             default:
                               if (DEBUG)
                                 console.log(`I do not handle ${e.type} yet`);
+                              return nothing;
                           }
-                        }
+                        } else return nothing;
                       })}
                     </ul>
                   </div>

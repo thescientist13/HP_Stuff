@@ -1,84 +1,27 @@
 export const prerender = false;
 import { LitElement, html, type PropertyValues } from "lit";
 import { property, state } from "lit/decorators.js";
-import { when } from "lit/directives/when.js";
-import { consume, provide } from "@lit/context";
+import { provide } from "@lit/context";
 
 import { grampsContext, GrampsState } from "./state.ts";
 
-import {
-  type Quality,
-  type DatevalType,
-  type EventType,
-  type Role,
-  type RelType,
-  type Gender,
-  type Derivation,
-  type NameType,
-  type RepositoryType,
-  type UrlType,
-  type Medium,
-  type Xml,
-  type Tag,
-  type Tags,
-  type Sourceref,
-  type ReporefElement,
-  type Source,
-  type Sources,
-  type Url,
-  type Repository,
-  type Repositories,
-  type Pname,
-  type Coord,
-  type Placeobj,
-  type Places,
-  type Personref,
-  type SurnameClass,
-  type NameElement,
-  type Address,
-  type EventrefElement,
-  type Person,
-  type People,
-  type Note,
-  type Notes,
-  type Researcher,
-  type Created,
-  type Header,
-  type Rel,
-  type PurpleChildref,
-  type ChildrefElement,
-  type Family,
-  type Families,
-  type EventDateval,
-  type Datestr,
-  type DaterangeClass,
-  type Attribute,
-  type Event,
-  type Events,
-  type CitationDateval,
-  type Citation,
-  type Citations,
-  type Export,
-  SourcerefSchema,
-  Database,
-} from "../../lib/GrampsZodTypes.ts";
+import * as GrampsZod from "../../lib/GrampsZodTypes.ts";
 
 import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
 
+//@ts-expect-error
 import { AncestorsTreeChart } from "./AncestorsTreeChart/AncestorsTreeChart.ts";
+//@ts-expect-error
 import { IndividualName } from "./individualName.ts";
+//@ts-expect-error
 import { GrampsEvent } from "./events.ts";
+//@ts-expect-error
 import { SimpleIndividual } from "./simpleIndividual.ts";
+//@ts-expect-error
 import { GrampsIndividual } from "./individual.ts";
-
-import { util } from "zod";
+import { nothing } from "lit";
 
 const DEBUG = true;
-
-type renderChildrenTreeProps = {
-  family: Family;
-  root: Person;
-};
 
 export class GrampsFamily extends LitElement {
   @provide({ context: grampsContext })
@@ -89,7 +32,7 @@ export class GrampsFamily extends LitElement {
   public url: URL | string | null;
 
   @state()
-  private _persons: Person[] | null;
+  private _persons: GrampsZod.Person[] | null;
 
   @state()
   private _name: string;
@@ -202,11 +145,12 @@ export class GrampsFamily extends LitElement {
     }
   }
 
-  private checkMatchingName(person: Person) {
+  private checkMatchingName(person: GrampsZod.Person) {
     if (person && person.name) {
-      const nameParts: NameElement[] | NameElement = person.name;
+      const nameParts: GrampsZod.NameElement[] | GrampsZod.NameElement =
+        person.name;
       const last = [nameParts].flat().map((n) => {
-        const s: SurnameClass | string = n.surname;
+        const s: GrampsZod.SurnameClass | string = n.surname;
         if (typeof s === "string") {
           return s.toLowerCase();
         } else {
@@ -218,11 +162,14 @@ export class GrampsFamily extends LitElement {
     return false;
   }
 
-  private getPersonsChildren(person: Person) {
+  private getPersonsChildren(person: GrampsZod.Person) {
     const db = this.stateProvider.zodData;
     if (person && db) {
-      const familyRef: Sourceref[] | Sourceref | null | undefined =
-        person.parentin;
+      const familyRef:
+        | GrampsZod.Sourceref[]
+        | GrampsZod.Sourceref
+        | null
+        | undefined = person.parentin;
       if (familyRef) {
         const familyArray = [familyRef].flat();
         const familyLinks = familyArray.map((f) => {
@@ -256,7 +203,8 @@ export class GrampsFamily extends LitElement {
           const stage3 = stage2.filter((p) => {
             if (p && p.childof) {
               if (DEBUG) console.log(`getPersonsChildren stage3; p is a child`);
-              const familyRef: Sourceref[] | Sourceref = p.childof;
+              const familyRef: GrampsZod.Sourceref[] | GrampsZod.Sourceref =
+                p.childof;
               const childFamArray = [familyRef].flat();
               const childLinks = childFamArray.map((c) => {
                 return c.hlink;
@@ -323,7 +271,7 @@ export class GrampsFamily extends LitElement {
     return null;
   }
 
-  private renderChildLine(person: Person) {
+  private renderChildLine(person: GrampsZod.Person) {
     let t = html`No Child`;
     const db = this.stateProvider.zodData;
     if (!(db && person)) {
@@ -339,10 +287,11 @@ export class GrampsFamily extends LitElement {
       this._renderedPersons.push(person.id);
       if (db) {
         t = html``; //erase the temp content
-        let family: Family | undefined;
+        let family: GrampsZod.Family | undefined;
         if (person.parentin) {
           if (DEBUG) console.log(`renderChildLine; person is a parent`);
-          const citation: Sourceref[] | Sourceref = person.parentin;
+          const citation: GrampsZod.Sourceref[] | GrampsZod.Sourceref =
+            person.parentin;
           const cArray = [citation].flat();
           family = db.families.family
             .filter((f) => {
@@ -402,6 +351,8 @@ export class GrampsFamily extends LitElement {
             if (p) {
               if (DEBUG) console.log(`render; map iteration ${i} for ${p.id}`);
               return html`${this.renderChildLine(p)}`;
+            } else {
+              return nothing;
             }
           })}
         </ul>
