@@ -3,12 +3,13 @@ import { customElement, property, state } from "lit/decorators.js";
 
 const DEBUG = 1;
 
+//@ts-expect-error
 import SpectrumCard from "@spectrum-css/card" with { type: "css" };
 
 @customElement("horizontal-card")
 class HorizontalCard extends LitElement {
   @property({ type: String })
-  public cardTitle: string | String = "";
+  public cardTitle: string = "";
 
   @property({ type: String })
   public targetLocation: string = "";

@@ -1,14 +1,16 @@
-import { LitElement, html, css, nothing, type TemplateResult } from "lit";
+import { LitElement, html, css, type TemplateResult } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { until } from "lit/directives/until.js";
 
 import {
   getContentByCollection,
   getContentByRoute,
+  //@ts-expect-error
 } from "@greenwood/cli/src/data/client.js";
 
 import { TopLevelSections } from "../lib/topLevelSections.ts";
-import SpectrumSideNav from "/node_modules/@spectrum-css/sidenav/dist/index.css" with { type: "css" };
+//@ts-expect-error
+import SpectrumSideNav from "@spectrum-css/sidenav" with { type: "css" };
 
 const DEBUG = 0;
 
@@ -47,7 +49,7 @@ export default class SideNav extends LitElement {
       })
 
       .map((section: Page) => {
-        const candidate = section.route;
+        const candidate = section.route.toString();
         if (candidate.localeCompare(this.route)) {
           if (!sectionFileRoutes.includes(candidate)) {
             if (DEBUG) {
@@ -99,12 +101,14 @@ export default class SideNav extends LitElement {
         const aKeys = Object.keys(a);
         const bKeys = Object.keys(b);
         if (aKeys.includes("title") && bKeys.includes("title")) {
-          return a.title.localeCompare(b.title);
+          const at = a.title?.toString() ?? "";
+          const bt = b.title?.toString() ?? "";
+          return at.localeCompare(bt);
         }
         if (DEBUG) {
           console.log(`findChildDirectories a title is missing`);
         }
-        return a.route.localeCompare(b.route);
+        return a.route.toString().localeCompare(b.route?.toString());
       })
       .map((page: Page) => {
         const routeArray = page.route.split("/");
@@ -154,7 +158,7 @@ export default class SideNav extends LitElement {
     sectionContents: Page[],
     page: Page,
     depth: number = 0,
-    directory?: boolean = true,
+    directory: boolean = true,
   ) {
     let isParent: boolean = false;
     const returnableTemplates = new Array<TemplateResult>();
@@ -172,7 +176,7 @@ export default class SideNav extends LitElement {
       let testDepth = 2;
       if (
         page.route.startsWith(this.route) ||
-        this.route.startsWith(page.route)
+        this.route.startsWith(page.route.toString())
       ) {
         testDepth = this.route.split("/").length - 1;
         if (DEBUG) {
@@ -207,7 +211,7 @@ export default class SideNav extends LitElement {
           );
         }
       }
-      if (depth < testDepth || this.route.startsWith(page.route)) {
+      if (depth < testDepth || this.route.startsWith(page.route.toString())) {
         if (DEBUG) {
           console.log(`depth is ${depth} looking at children for ${page.id}`);
         }
@@ -227,12 +231,12 @@ export default class SideNav extends LitElement {
         } else {
           ChildDirs = this.findChildDirectories(
             TopSection,
-            page.route,
+            page.route.toString(),
             sectionContents,
           );
           ChildFiles = this.findChildFiles(
             TopSection,
-            page.route,
+            page.route.toString(),
             sectionContents,
           );
           if (ChildDirs.length > 0 || ChildFiles.length > 0) {
@@ -245,7 +249,7 @@ export default class SideNav extends LitElement {
 
           if (ChildDirs.length > 0) {
             ChildDirs.map((child) => {
-              if (child.route.localeCompare(page.route)) {
+              if (child.route.localeCompare(page.route.toString())) {
                 if (DEBUG) {
                   console.log(
                     `rendering ${page.route}, child Directory is ${child.route}`,
@@ -267,7 +271,7 @@ export default class SideNav extends LitElement {
 
           if (selected && directory && ChildFiles.length > 0) {
             ChildFiles.map((child) => {
-              if (child.route.localeCompare(page.route)) {
+              if (child.route.localeCompare(page.route.toString())) {
                 if (DEBUG) {
                   console.log(
                     `rendering ${page.route}, child File is ${child.route}`,
@@ -300,7 +304,9 @@ export default class SideNav extends LitElement {
           <li class="spectrum-SideNav-item" ?is-selected=${selected}>
             <a href="${page.route}" class="spectrum-SideNav-itemLink">
               <iconify-icon
-                icon=${directory ? "lsicon:folder-filled" : "ep:document"}
+                icon=${directory || isParent
+                  ? "lsicon:folder-filled"
+                  : "ep:document"}
                 class="spectrum-Icon spectrum-Icon--sizeM"
                 focusable="false"
                 aria-hidden="true"

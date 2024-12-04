@@ -1,9 +1,10 @@
 import { LitElement, type PropertyValues, css, html, nothing } from "lit";
-import { customElement, property, state } from "lit/decorators.js";
+import { customElement, property } from "lit/decorators.js";
 
 const DEBUG = 1;
 
-import SpectrumCard from "@spectrum-css/card/dist/index.css" with { type: "css" };
+//@ts-expect-error
+import SpectrumCard from "@spectrum-css/card" with { type: "css" };
 
 @customElement("section-card")
 class SectionCard extends LitElement {

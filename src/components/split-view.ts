@@ -3,7 +3,8 @@ import { customElement, property, state } from "lit/decorators.js";
 import { ref } from "lit/directives/ref.js";
 import { styleMap } from "lit/directives/style-map.js";
 
-import SpectrumSplitView from "/node_modules/@spectrum-css/splitview/dist/index.css" with { type: "css" };
+//@ts-expect-error
+import SpectrumSplitView from "@spectrum-css/splitview" with { type: "css" };
 
 const DEBUG = 0;
 
