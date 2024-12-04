@@ -8,6 +8,7 @@
     "watch": "tsc -w"
   },
   "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
     "@types/aws-cloudfront-function": "^1.0.4",
     "@types/aws-lambda": "^8.10.145",
     "@types/node": "^22.9.1",
