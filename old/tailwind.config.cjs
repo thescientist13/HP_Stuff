@@ -1,40 +1,50 @@
-const starlightPlugin = require('@astrojs/starlight-tailwind');
-const typography = require('@tailwindcss/typography');
+const starlightPlugin = require("@astrojs/starlight-tailwind");
+const typography = require("@tailwindcss/typography");
 
 // Generated color palettes
-const accent = { 200: '#a2cef5', 600: '#0071b3', 900: '#003558', 950: '#002641' }; //hue 245 chroma 0.214
-const gray = { 100: '#f1f7fc', 200: '#e4eff8', 300: '#b7c4cf', 400: '#758fa3', 500: '#435b6e', 700: '#243b4c', 800: '#122939', 900: '#0f1921' }; //hue 241 chroma 0.042
-const transparent = 'transparent';
+const accent = {
+  200: "#a2cef5",
+  600: "#0071b3",
+  900: "#003558",
+  950: "#002641",
+}; //hue 245 chroma 0.214
+const gray = {
+  100: "#f1f7fc",
+  200: "#e4eff8",
+  300: "#b7c4cf",
+  400: "#758fa3",
+  500: "#435b6e",
+  700: "#243b4c",
+  800: "#122939",
+  900: "#0f1921",
+}; //hue 241 chroma 0.042
+const transparent = "transparent";
 const lochmara = {
-  '50': '#f0f9ff',
-  '100': '#e1f3fd',
-  '200': '#bce6fb',
-  '300': '#81d5f8',
-  '400': '#3ebff2',
-  '500': '#15a7e2',
-  '600': '#0885bf',
-  '700': '#086b9c',
-  '800': '#0b5b81',
-  '900': '#0f4b6b',
-  '950': '#0a3047',
+  50: "#f0f9ff",
+  100: "#e1f3fd",
+  200: "#bce6fb",
+  300: "#81d5f8",
+  400: "#3ebff2",
+  500: "#15a7e2",
+  600: "#0885bf",
+  700: "#086b9c",
+  800: "#0b5b81",
+  900: "#0f4b6b",
+  950: "#0a3047",
 };
 
-
 module.exports = {
-  syntax: 'postcss-lit',
-  darkMode: 'class',
+  syntax: "postcss-lit",
+  darkMode: "class",
   content: {
-    files: ['./src/components/**/*.{js,ts}'],
+    files: ["./src/components/**/*.{js,ts}"],
   },
   theme: {
     extend: {
       colors: { accent, lochmara, gray, transparent },
     },
   },
-  plugins: [
-    starlightPlugin(),
-    typography(),
-  ],
+  plugins: [starlightPlugin(), typography()],
 };
 
 /*
