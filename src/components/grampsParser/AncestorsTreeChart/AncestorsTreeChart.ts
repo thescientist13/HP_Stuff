@@ -7,67 +7,15 @@ import { grampsContext, GrampsState } from "../state.ts";
 
 import { z } from "zod";
 
-import {
-  type Quality,
-  type DatevalType,
-  type EventType,
-  type Role,
-  type RelType,
-  type Gender,
-  type Derivation,
-  type NameType,
-  type RepositoryType,
-  type UrlType,
-  type Medium,
-  type Xml,
-  type Tag,
-  type Tags,
-  type Sourceref,
-  type ReporefElement,
-  type Source,
-  type Sources,
-  type Url,
-  type Repository,
-  type Repositories,
-  type Pname,
-  type Coord,
-  type Placeobj,
-  type Places,
-  type Personref,
-  type SurnameClass,
-  type NameElement,
-  type Address,
-  type EventrefElement,
-  type Person,
-  type People,
-  type Note,
-  type Notes,
-  type Researcher,
-  type Created,
-  type Header,
-  type Rel,
-  type PurpleChildref,
-  type ChildrefElement,
-  type Family,
-  type Families,
-  type EventDateval,
-  type Datestr,
-  type DaterangeClass,
-  type Attribute,
-  type Event,
-  type Events,
-  type CitationDateval,
-  type Citation,
-  type Citations,
-  type Database,
-  type Export,
-} from "../../../lib/GrampsZodTypes.ts";
+import * as GrampsZod from "../../../lib/GrampsZodTypes.ts";
 
 import { IndividualName } from "../individualName.ts";
 import { GrampsEvent } from "../events.ts";
 import { SimpleIndividual } from "../simpleIndividual.ts";
 
 import AncestorsTreeChartCSS from "../../../styles/AncestorsTreeChart.css" with { type: "css" };
+
+const DEBUG = true;
 
 export class AncestorsTreeChart extends LitElement {
   @consume({ context: grampsContext })
@@ -81,7 +29,7 @@ export class AncestorsTreeChart extends LitElement {
   public maxDepth: number;
 
   @state()
-  individual: Person | null | undefined;
+  individual: GrampsZod.Person | null | undefined;
 
   constructor() {
     super();
@@ -92,7 +40,7 @@ export class AncestorsTreeChart extends LitElement {
   }
 
   private renderTreeLi(
-    individual: Person | undefined,
+    individual: GrampsZod.Person | undefined,
     maxDepth: number,
     isRoot: boolean = false,
   ): TemplateResult<1> | null {
@@ -100,7 +48,7 @@ export class AncestorsTreeChart extends LitElement {
       const db = this.state.zodData;
       if (db) {
         const family = db.families.family
-          .filter((f: Family) => {
+          .filter((f: GrampsZod.Family) => {
             if (individual.childof) {
               const handle = f.handle;
               const iHandle = [individual.childof].flat().shift()?.hlink;
@@ -115,7 +63,7 @@ export class AncestorsTreeChart extends LitElement {
         if (family) {
           const husbandRef = family.father?.hlink;
           const husband = db.people.person
-            .filter((p: Person) => {
+            .filter((p: GrampsZod.Person) => {
               if (p.handle && husbandRef) {
                 return !p.handle.localeCompare(husbandRef);
               }
@@ -124,7 +72,7 @@ export class AncestorsTreeChart extends LitElement {
             .shift();
           const wifeRef = family.mother?.hlink;
           const wife = db.people.person
-            .filter((p: Person) => {
+            .filter((p: GrampsZod.Person) => {
               if (p.handle && wifeRef) {
                 return !p.handle.localeCompare(wifeRef);
               }
@@ -158,9 +106,11 @@ export class AncestorsTreeChart extends LitElement {
   static styles = [AncestorsTreeChartCSS];
 
   public render() {
-    console.log(`render; start`);
+    if (DEBUG) {
+      console.log(`render; start`);
+    }
     if (this.grampsId) {
-      if (this.state.zodData) {
+      if (this.state && this.state.zodData) {
         const db = this.state.zodData;
         if (db) {
           this.individual = db.people.person
@@ -168,6 +118,7 @@ export class AncestorsTreeChart extends LitElement {
               return !p.id.localeCompare(this.grampsId);
             })
             .shift();
+
           if (this.individual) {
             return html`
               <ul class="ascending-tree">

@@ -9,7 +9,6 @@ import { grampsContext, GrampsState } from "./state.ts";
 
 import * as GrampsZod from "../../lib/GrampsZodTypes.ts";
 
-//@ts-expect-error
 import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
 
 //@ts-expect-error
@@ -491,13 +490,7 @@ export class GrampsIndividual extends LitElement {
               Ancestors chart
             </h4>
             <div class="flex basis-0 flex-col">
-              <div class="block sm:hidden">
-                <ancestorstree-chart grampsId=${this.personId} maxDepth="1" />
-              </div>
-              <div class="hidden sm:max-lg:block lg:hidden">
-                <ancestorstree-chart grampsId=${this.personId} maxDepth="2" />
-              </div>
-              <div class="hidden lg:block ">
+              <div>
                 <ancestorstree-chart grampsId=${this.personId} maxDepth="3" />
               </div>
             </div>
