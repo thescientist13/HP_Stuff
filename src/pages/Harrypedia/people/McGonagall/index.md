@@ -2,9 +2,7 @@
 collection: Harrypedia
 title: McGonagall
 layout: family
-author: 
+author:
 sidebar:
   order: 1
 ---
-
-

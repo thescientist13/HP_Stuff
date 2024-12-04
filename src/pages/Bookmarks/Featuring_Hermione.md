@@ -5,9 +5,9 @@ description: "HP stories in which Hermione Is Key"
 author: "Luke Schierer"
 ---
 
-I am not often a fan of [Hermione] as a romantic partner for [Harry].  That
+I am not often a fan of [Hermione] as a romantic partner for [Harry]. That
 being said, occasionally you come across one that, despite the pairing, is
-incredibly well done.  Almost even more rare is a story in which she is the central character paired with *anyone else* and yet remains well worth reading.
+incredibly well done. Almost even more rare is a story in which she is the central character paired with _anyone else_ and yet remains well worth reading.
 
 <dl>
     <dt>_[Flourishing Devotion](https://archiveofourown.org/works/22351591/)_</dt>
@@ -45,16 +45,10 @@ incredibly well done.  Almost even more rare is a story in which she is the cent
 
 </dl>
 
-[Fred]: </Harrypedia/people/Weasley/Fred/>
-
-[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
-
-[Harry]: </Harrypedia/people/Potter/Harry_James/>
-
-[McGonagall]: </Harrypedia/people/McGonagall/Minerva/>
-
-[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
-
-[Molly]: </Harrypedia/people/Prewett/Molly/>
-
-[Ginny]: </Harrypedia/people/Weasley/Ginevra_Molly/>
+[Fred]: /Harrypedia/people/Weasley/Fred/
+[Hermione]: /Harrypedia/people/Granger/Hermione_Jean/
+[Harry]: /Harrypedia/people/Potter/Harry_James/
+[McGonagall]: /Harrypedia/people/McGonagall/Minerva/
+[Dumbledore]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/
+[Molly]: /Harrypedia/people/Prewett/Molly/
+[Ginny]: /Harrypedia/people/Weasley/Ginevra_Molly/

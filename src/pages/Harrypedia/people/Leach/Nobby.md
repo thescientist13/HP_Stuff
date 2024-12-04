@@ -7,5 +7,4 @@ author: Luke Schierer
 layout: person
 ---
 
-
 ### Analysis

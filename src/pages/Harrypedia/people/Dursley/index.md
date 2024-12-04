@@ -10,82 +10,86 @@ sidebar:
   order: 1
 ---
 
-
-
 ### As a family
 
 The Dursley family is a children's book caricature, and next to impossible to
-make any sense of.  I am not a psychologist, so all of this might be incredibly
+make any sense of. I am not a psychologist, so all of this might be incredibly
 off base, but they simply do not make sense, and so, I think, have to simply be
-taken as the fictional constructs they are.  
+taken as the fictional constructs they are.
 
 Petunia's description is of a nervous anorexic woman; Vernon's is of blustering,
-short tempered, massively obese man.  Looked at from the outside, it would be
+short tempered, massively obese man. Looked at from the outside, it would be
 hard to envision a more mismatched pair, something I think was intentionally
-done to give the books a sort of Roald Dahl-ish feel to them.  However, if you
+done to give the books a sort of Roald Dahl-ish feel to them. However, if you
 try to make something less children's literature and more something that
 actually makes sense, you would swear that Petunia was an abused housewife. That
-does not, however, seem to be the case.  She is a shrew, and, if anything,
-Vernon is very slightly wary of her.  In first meeting them, we find that he is
+does not, however, seem to be the case. She is a shrew, and, if anything,
+Vernon is very slightly wary of her. In first meeting them, we find that he is
 cautious of reminding her of her sister.[^210422-1] In the fifth book, look at
 how quickly he backs down when Petunia says that Harry will in fact remain in
 the house after the dementor attack.[^210422-2] Neither fits the profile I
-would expect if he dominated her. 
+would expect if he dominated her.
 
 Sure there are counter examples to this, where he over rides her, but the
 relationship is either surprisingly balanced, or even more surprisingly tilted in
-her direction.  
+her direction.
 
-[^210422-2]: Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_.
+[^210422-2]:
+    Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_.
     Better citation needed.
 
-[^210422-1]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_.
-    Better citation needed. 
+[^210422-1]:
+    Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_.
+    Better citation needed.
 
 ### How abusive were they?
 
-* [Harry][] is "small and skinny for his age".[^221005-1]  
-* [Harry][]'s cupboard is full of spiders
-* [Harry][]'s cupboard is "dark."[^190610-4]
-* "Dudley's favourite punching bag was Harry"[^190610-2]
-* Vernon is not just violent towards [Harry][]: 
+- [Harry][] is "small and skinny for his age".[^221005-1]
+- [Harry][]'s cupboard is full of spiders
+- [Harry][]'s cupboard is "dark."[^190610-4]
+- "Dudley's favourite punching bag was Harry"[^190610-2]
+- Vernon is not just violent towards [Harry][]:
 
   > Dudley was sniffling in the back seat; his father had
   > hit him round the head for holding them up while he tried to pack
   > his television, VCR, and computer in his sports bag.[^200513-1]
-* What does it mean to be "given a week in the cupboard" given he sleeps there
+
+- What does it mean to be "given a week in the cupboard" given he sleeps there
   nightly anyway?[^190610-5] Certainly that the door is locked from the
   outside[^190610-6] at least some of the time, but not all of
   it.[^190610-8]
-* Vernon is not the only one offering potentially severe physical harm to Harry: 
+- Vernon is not the only one offering potentially severe physical harm to Harry:
 
   > Harry paid dearly for his moment of fun. As neither Dudley nor the hedge was
   > in any way hurt, Aunt Petunia knew he hadn't really done magic, but he still
   > had to duck as she aimed a heavy blow at his head with the soapy frying pan.
   > Then she gave him work to do, with the promise he wouldn't eat again until
   > he'd finished.[^200513-2]
-* Incarceration like this is illegal now, and probably frowned upon even then: 
+
+- Incarceration like this is illegal now, and probably frowned upon even then:
 
   > Uncle Vernon was as bad as his word. The following morning, he paid a man to
   > fit bars on Harry’s window. He himself fitted a cat-flap in the bedroom
   > door, so that small amounts of food could be pushed inside three times a
   > day. They let Harry out to use the bathroom morning and evening. Otherwise,
   > he was locked in his room around the clock.[^200513-3]
-* Vernon strangles Harry in _the Order of the Phoenix_[^200513-4]
-* [Harry][] has some disturbing habits: 
+
+- Vernon strangles Harry in _the Order of the Phoenix_[^200513-4]
+- [Harry][] has some disturbing habits:
 
   > “You'd need more than a good sense of fun to liaise with my uncle,” said
-  >  Harry darkly. “Good sense of when to duck, more like.”[^200513-5]
+  > Harry darkly. “Good sense of when to duck, more like.”[^200513-5]
 
-  and then the quote: 
+  and then the quote:
 
   > Harry ran down the stairs two at a time, coming to an abrupt halt several
   > steps from the bottom, as long experience had taught him to remain out of
   > arm’s reach of his uncle whenever possible.[^200513-6]
-* On the other hand "I accept there’s something strange about you, probably nothing
+
+- On the other hand "I accept there’s something strange about you, probably nothing
   a good beating wouldn’t have cured"[^190610-7] suggests that [Harry][]'s abuse has been
   emotional in nature (along with neglect of course) and not physical.
-* [Dumbledore][]'s most quoted words on the subject come from
+- [Dumbledore][]'s most quoted words on the subject come from
   the meeting in his ([Dumbledore][]'s) office just after
   [Sirius][] dies.
 
@@ -94,10 +98,10 @@ her direction.
   > would when I left you on your aunt and uncle's doorstep. I knew I was
   > condemning you to ten dark and difficult years.[^210128-1]
 
-  This statement is ambiguous in a number of different senses.  Just what did
+  This statement is ambiguous in a number of different senses. Just what did
   [Dumbledore][] know, considering the Dursleys had not acted
   yet, what does [Dumbledore][] mean by "not quite whole," "suffered," and
-  "dark and difficult"?  Each of these can be taken a number of different ways.
+  "dark and difficult"? Each of these can be taken a number of different ways.
   His next statement on the subject, in book six, sheds somewhat more
   meaningful light:
 
@@ -109,9 +113,9 @@ her direction.
 There are also some descriptions of Vernon's behaviour, particularly in the
 third chapter of _the Philosopher's Stone_, that may or may not be Vernon
 talking more aggressively than he acts, and may or may not be figurative
-language rather than a literal description of how he treats [Harry][].  Overall
-there is certainly verbal abuse and neglect.  By today's standards we'd consider
-the above list sufficient to tack on physical abuse as well though.  Harry
+language rather than a literal description of how he treats [Harry][]. Overall
+there is certainly verbal abuse and neglect. By today's standards we'd consider
+the above list sufficient to tack on physical abuse as well though. Harry
 should not have needed to learn to _habitually_ stay out of reach for example.
 From my reading of other people's comments on this topic,[^211025-1] I have
 gathered that the standards for what constituted child abuse were more lax in
@@ -119,7 +123,7 @@ the 1980s (when Harry was growing up), and even more so in Britain as compared
 to the United States, but I have no authoritative evidence of that, just
 hearsay.
 
-In short, as another (better) author puts it, 
+In short, as another (better) author puts it,
 
 > I think the Dursleys were much more physically abusive towards their nephew -
 > if you can grab him around the throat or swing a frying pan at his head, not
@@ -128,7 +132,7 @@ In short, as another (better) author puts it,
 
 While Mrs. Rowling may have chosen not to show us everything, she has shown
 enough that a reasonable adult should be able to see the forest as well as the
-trees.  
+trees.
 
 ---
 
@@ -147,10 +151,10 @@ is a ring of truth to it:
 > before you were at serious risk. You see, Harry, they could not have killed
 > you, even if they had tried. Nor could they have done you any lasting injury,
 > either physical or psychological.”
-> 
+>
 > Harry sat frozen, his mind racing, trying to reevaluate everything he knew
 > about his life according to these revelations. Psychological? What, now?
-> 
+>
 > Dumbledore noted the look of confusion on his face and continued: “They
 > neglected you, insulted you, threatened you, punished you for accidental
 > magic, and treated you like their personal house elf. And yet, you shook it
@@ -165,54 +169,54 @@ is a ring of truth to it:
 > with you, supporting you, even if you were not consciously aware of
 > it.[^200610-1]
 
-[^211025-1]: White Squirrel.
+[^211025-1]:
+    White Squirrel.
     _[Petrification Proliferation](https://www.fanfiction.net/s/11265467)_
     [Chapter 7](https://www.fanfiction.net/s/11265467/7/Petrification-Proliferation)
     Published: 2015-05-22. Updated: 2016-05-29.
 
-[^210604-1]: Ms. Sharon McNeil. [Fanfiction.net](https://fanfiction.net) 
-    [profile page](https://www.fanfiction.net/u/1816754/sbmcneil) 
-    Profile Updated: 2013-12-20. Last Viewed: 2021-06-04. 
+[^210604-1]:
+    Ms. Sharon McNeil. [Fanfiction.net](https://fanfiction.net)
+    [profile page](https://www.fanfiction.net/u/1816754/sbmcneil)
+    Profile Updated: 2013-12-20. Last Viewed: 2021-06-04.
 
-[^200610-1]: White_Squirrel.  _His Mother's Love_.  [Chapter 1](https://archiveofourown.org/works/14006394/chapters/32253831) Last viewed 2020-06-10.
+[^200610-1]: White*Squirrel. \_His Mother's Love*. [Chapter 1](https://archiveofourown.org/works/14006394/chapters/32253831) Last viewed 2020-06-10.
 
-[^190610-2]:  Mrs. J. K. Rowling.  _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 293 of 3996.
+[^190610-2]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 293 of 3996.
 
-[^221005-1]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx page 20 of 309. 
+[^221005-1]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx page 20 of 309.
 
-[^190610-3]:  Mrs. J. K. Rowling.  _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 293 of 3996.
+[^190610-3]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 293 of 3996.
 
-[^190610-4]:  Mrs. J. K. Rowling.  _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 324 of 3996.
+[^190610-4]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 324 of 3996.
 
-[^190610-5]:  Mrs. J. K. Rowling.  _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 356 of 3996.
+[^190610-5]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 356 of 3996.
 
-[^190610-6]:  Mrs. J. K. Rowling.  _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 356 of 3996.
+[^190610-6]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 356 of 3996.
 
-[^190610-8]:  Mrs. J. K. Rowling.  _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 356 of 3996. I need to double check this citation, I'm not sure I didn't confuse it with a different one.
+[^190610-8]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 356 of 3996. I need to double check this citation, I'm not sure I didn't confuse it with a different one.
 
-[^190610-7]:  Mrs. J. K. Rowling.  _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 738 of 3996.
+[^190610-7]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 738 of 3996.
 
-[^200513-1]:  Mrs. J. K. Rowling.  _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 541 of 3996.
+[^200513-1]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_ American Kindle edition approx Location 541 of 3996.
 
-[^200513-2]:  Mrs. J. K. Rowling.  _Harry Potter and the Chamber of Secrets_ American Kindle edition approx Location 148 of 4470. 
+[^200513-2]: Mrs. J. K. Rowling. _Harry Potter and the Chamber of Secrets_ American Kindle edition approx Location 148 of 4470.
 
-[^200513-3]:  Mrs. J. K. Rowling.  _Harry Potter and the Chamber of Secrets_ American Kindle edition approx Location 306 of 4470. 
+[^200513-3]: Mrs. J. K. Rowling. _Harry Potter and the Chamber of Secrets_ American Kindle edition approx Location 306 of 4470.
 
-[^200513-4]:  Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_ American Kindle edition approx Location 146 of 13038.
+[^200513-4]: Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_ American Kindle edition approx Location 146 of 13038.
 
-[^200513-5]:  Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_ American Kindle edition approx Location 9606 of 13038.
+[^200513-5]: Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_ American Kindle edition approx Location 9606 of 13038.
 
-[^200513-6]:  Mrs. J. K. Rowling. _Harry Potter and the Half-Blood Prince_ American Kindle edition approx Location 611 of 8473.
+[^200513-6]: Mrs. J. K. Rowling. _Harry Potter and the Half-Blood Prince_ American Kindle edition approx Location 611 of 8473.
 
-[^210128-1]: Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_ American Kindle edition Locations 12222-12223 of 13038). Pottermore Limited. 
+[^210128-1]: Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_ American Kindle edition Locations 12222-12223 of 13038). Pottermore Limited.
 
-[^210128-2]: Mrs. J. K. Rowling. 
-    _Harry Potter and the Half-Blood Prince_ (p. 46, Loc 743 of 8473). 
-    Pottermore Publishing. American Kindle Edition. 
+[^210128-2]:
+    Mrs. J. K. Rowling.
+    _Harry Potter and the Half-Blood Prince_ (p. 46, Loc 743 of 8473).
+    Pottermore Publishing. American Kindle Edition.
 
-[Harry]: <../Potter/Harry_James/>
-
-[Dumbledore]: <../Dumbledore/Albus_Percival_Wulfric_Brian/>
-
-[Sirius]: <../Black/Sirius_iii/>
-
+[Harry]: ../Potter/Harry_James/
+[Dumbledore]: ../Dumbledore/Albus_Percival_Wulfric_Brian/
+[Sirius]: ../Black/Sirius_iii/

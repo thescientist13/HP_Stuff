@@ -3,10 +3,8 @@ collection: Harrypedia
 family: "MacDougal"
 title: Morag
 hero: I0173
-author: 
+author:
 layout: person
 ---
 
-
 ### Analysis
-

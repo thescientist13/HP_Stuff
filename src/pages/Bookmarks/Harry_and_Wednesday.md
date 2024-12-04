@@ -6,9 +6,9 @@ author: "Luke Schierer"
 ---
 
 Harry Potter almost begs for a crossover with the Addams family, despite the
-differences in timelines in any iteration of the Addams family.  If you are
+differences in timelines in any iteration of the Addams family. If you are
 going to do such a crossover, pairing Harry with Wednesday is, or should be, a
-foregone conclusion.  Some of these stories are just stupid, slash and similar
+foregone conclusion. Some of these stories are just stupid, slash and similar
 themes abound, despite the fact that it is entirely unnecessary, and, frankly,
 contrary to the original Addams source material. Despite that, there are some
 real gems, some of which are even finished.
@@ -31,6 +31,5 @@ real gems, some of which are even finished.
         how the author decided on that from the original Addams material.  If you
         can get past that, this is an excellent read that will leave you wishing
         for more.</dd>
-
 
 </dl>

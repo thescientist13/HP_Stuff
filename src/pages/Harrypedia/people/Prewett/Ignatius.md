@@ -7,4 +7,3 @@ layout: person
 ---
 
 ### Analysis
-

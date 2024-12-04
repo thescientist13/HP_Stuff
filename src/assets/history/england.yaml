@@ -1,6 +1,6 @@
 ---
 events:
-  - type: mundane england 
+  - type: mundane england
     date: 886
     blurb: Alfred the Great, King of Wessex, declares himself king of the Anglo-Saxons
     description: |
@@ -59,7 +59,7 @@ events:
     date: 1284-03-03
     blurb: Wales, previously conquered, annexed by England.
     description: |
-      By royal decree, Wales, having been previously conquered in wars through the years 1282 and 1283, was annexed into England.  It was initially divided into several administrative areas using the English shire system, but later consolidated into the Principality of Wales. 
+      By royal decree, Wales, having been previously conquered in wars through the years 1282 and 1283, was annexed into England.  It was initially divided into several administrative areas using the English shire system, but later consolidated into the Principality of Wales.
     source: |
       * [Wikipedia](https://en.wikipedia.org/).
         "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"
@@ -99,7 +99,7 @@ events:
     date: 0975-07-08
     blurb: Edward the Maryr ascends to the throne of England.
     description: |
-      Despite the title the English give him, this was not a saintly man. 
+      Despite the title the English give him, this was not a saintly man.
     source: |
       * [Wikipedia](https://en.wikipedia.org/).
         "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"
@@ -129,7 +129,7 @@ events:
     description: |
       He does so following the death of Sweyn, and despite the fact that Danes
       remain in control over parts of England.  This is possible because some 
-      Danes support him.  
+      Danes support him.
     source: |
       [Wikipedia](https://en.wikipedia.org/).
       "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"
@@ -138,7 +138,7 @@ events:
     date: 0600
     blurb: First recorded act of a witenagemot
     description: |
-      The witenagemot, or Witans, were a collection of the ranking nobles and, after the introduction of Christianity, clergy of the country.  They were called together to advise the king (or queen), to witness key legislative acts, and, based on the evidence, to themselves legislate.  Their role seems to vary over time and to have been poorly defined.  If it was codified in law, the evidence of it has not survived. 
+      The witenagemot, or Witans, were a collection of the ranking nobles and, after the introduction of Christianity, clergy of the country.  They were called together to advise the king (or queen), to witness key legislative acts, and, based on the evidence, to themselves legislate.  Their role seems to vary over time and to have been poorly defined.  If it was codified in law, the evidence of it has not survived.
     source: |
       [Wikipedia](https://en.wikipedia.org/).
       "[Witan](https://en.wikipedia.org/wiki/Witan)"
@@ -180,7 +180,7 @@ events:
       [Wikipedia](https://en.wikipedia.org/).
       "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"
       Last Edited: 2023-12-06. Last Viewed: 2023-12-06.
-  - type: mundane england 
+  - type: mundane england
     date: 1066-01-06
     blurb: Harold II ascends to the throne of England.
     source: |
@@ -245,7 +245,7 @@ events:
     blurb: Matilda ascends to the throne of England.
     description: |
       The first woman to do so, she was never crowned, and controlled
-      the country for only a few months before the throne was siezed by rival claimant Stephen (her cousin). 
+      the country for only a few months before the throne was siezed by rival claimant Stephen (her cousin).
     source: |
       [Wikipedia](https://en.wikipedia.org/).
       "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"
@@ -281,7 +281,7 @@ events:
     blurb: John ascends to the throne of England.
     description: |
       John is better known for his failed attempt at rebellion against King Richard during the Third Crusade.  After the death of Richard, John was chosen as King.  What is *actually* most noteworthy is that he lost control over the family's continental lands and dominions, leaving them
-      with only England and some sort of feudal relationship with Ireland. 
+      with only England and some sort of feudal relationship with Ireland.
     source: |
       * [Wikipedia](https://en.wikipedia.org/).
         "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"
@@ -331,7 +331,7 @@ events:
     blurb: Edward III ascends to the throne of England.
     description: |
       He is apparently unusual for the length of his reign.
-      He started the Hundred Years War. 
+      He started the Hundred Years War.
     source: |
       * [Wikipedia](https://en.wikipedia.org/).
         "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"
@@ -370,11 +370,10 @@ events:
   - type: mundane england
     date: 1455-05-22
     blurb: The Wars of the Roses starts
-    description:
-      The throne of England will be contested between the House of 
-      York and Lancaster, both decendants of the House of Plantagenet. 
-      The Throne will pass back and forth, and things will be generally 
-      confused. 
+    description: The throne of England will be contested between the House of
+      York and Lancaster, both decendants of the House of Plantagenet.
+      The Throne will pass back and forth, and things will be generally
+      confused.
     source: |
       * [Wikipedia](https://en.wikipedia.org/).
         "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"
@@ -447,7 +446,7 @@ events:
     date: 1603-03-24
     blurb: James I ascends to the throne of England.
     description: |
-      He was already James VI of Scotland at this time, and inherited the throne as the cousin of Queen Elizabeth. 
+      He was already James VI of Scotland at this time, and inherited the throne as the cousin of Queen Elizabeth.
     source: |
       [Wikipedia](https://en.wikipedia.org/).
       "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"
@@ -474,7 +473,7 @@ events:
     blurb: Richard Cromwell becomes Lord Protector of England
     description: |
       There will be a year of anarchy when he is forcibly removed
-      from this post in May 1659. 
+      from this post in May 1659.
     source: |
       [Wikipedia](https://en.wikipedia.org/).
       "[List of English monarchs](https://en.wikipedia.org/wiki/List_of_English_monarchs)"

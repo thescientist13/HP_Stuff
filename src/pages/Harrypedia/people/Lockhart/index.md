@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Lockhart"
 layout: family
 title: Lockhart
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

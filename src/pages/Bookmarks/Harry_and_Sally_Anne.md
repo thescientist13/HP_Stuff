@@ -6,9 +6,9 @@ author: "Luke Schierer"
 ---
 
 Sally-Anne is the character that disappears between the sorting in book 1 and the
-time students are called in for their OWL practicals in book5.  As we know
+time students are called in for their OWL practicals in book5. As we know
 literally nothing about her except her name, she is the perfect blank slate for
-a fan fiction author. 
+a fan fiction author.
 
 <dl>
     <dt>_[The Magical Mark](https://www.fanfiction.net/s/12747756)_</dt>

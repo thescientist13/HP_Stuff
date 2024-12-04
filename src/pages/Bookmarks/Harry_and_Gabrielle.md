@@ -5,16 +5,15 @@ description: HP stories with Harry and Gabrielle paired
 author: "Luke Schierer"
 ---
 
-This pairing has to be *very* carefully handled to not simply come across as
-creepy.  While no one blinks at a five year age gap between people in their
+This pairing has to be _very_ carefully handled to not simply come across as
+creepy. While no one blinks at a five year age gap between people in their
 thirties, even a two year age gap will get a second look when dealing with high
-school students.  While we do not know how old [Gabrielle][] is with any true
+school students. While we do not know how old [Gabrielle][] is with any true
 certainty, it is safe to say that she is way too young for fourteen year old
 [Harry][] when they first meet.
 
-[Harry]: </Harrypedia/people/Potter/Harry_James/>
-
-[Gabrielle]: </Harrypedia/people/Delacour/Gabrielle/>
+[Harry]: /Harrypedia/people/Potter/Harry_James/
+[Gabrielle]: /Harrypedia/people/Delacour/Gabrielle/
 
 <dl>
     <dt>_[Hope][]_</dt>
@@ -31,10 +30,8 @@ certainty, it is safe to say that she is way too young for fourteen year old
     <dd>Comments: This handles the age gap because, through no fault of either
         party, [Harry][] has been in magical stasis for sufficient time that
         there no longer *is* an age gap.</dd>
+
 </dl>
 
-[Hope]: <https://web.archive.org/web/20170308183611/http://jeconais.fanficauthors.net/Hope/index/>
-
-[HEA]: <https://web.archive.org/web/20210620143920/https://jeconais.fanficauthors.net/Happily_Ever_After/index/>
-
-
+[Hope]: https://web.archive.org/web/20170308183611/http://jeconais.fanficauthors.net/Hope/index/
+[HEA]: https://web.archive.org/web/20210620143920/https://jeconais.fanficauthors.net/Happily_Ever_After/index/

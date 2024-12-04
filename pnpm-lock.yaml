@@ -33,7 +33,7 @@ importers:
         specifier: ^6.2.0
         version: 6.2.0(@spectrum-css/tokens@14.6.0)
       dotenv:
-        specifier: ^16.4.5
+        specifier: ^16.4.7
         version: 16.4.7
       fast-xml-parser:
         specifier: ^4.5.0
@@ -48,6 +48,9 @@ importers:
         specifier: ^1.4.1
         version: 1.4.1
       lit:
+        specifier: ^3.2.1
+        version: 3.2.1
+      lit-html:
         specifier: ^3.2.1
         version: 3.2.1
       luxon:
@@ -70,20 +73,20 @@ importers:
         version: 3.23.8
     devDependencies:
       '@greenwood/cli':
-        specifier: ~0.30.1
-        version: 0.30.2
+        specifier: ~0.31.0-alpha.0
+        version: 0.31.0-alpha.0
       '@greenwood/plugin-google-analytics':
-        specifier: ^0.30.1
-        version: 0.30.2(@greenwood/cli@0.30.2)
+        specifier: ^0.31.0-alpha.0
+        version: 0.31.0-alpha.0(@greenwood/cli@0.31.0-alpha.0)
       '@greenwood/plugin-postcss':
-        specifier: ^0.30.1
-        version: 0.30.2(@greenwood/cli@0.30.2)
+        specifier: ^0.31.0-alpha.0
+        version: 0.31.0-alpha.0(@greenwood/cli@0.31.0-alpha.0)
       '@greenwood/plugin-renderer-lit':
-        specifier: ^0.30.1
-        version: 0.30.2(@greenwood/cli@0.30.2)(lit@3.2.1)
+        specifier: ^0.31.0-alpha.0
+        version: 0.31.0-alpha.0(@greenwood/cli@0.31.0-alpha.0)(lit@3.2.1)
       '@greenwood/plugin-typescript':
-        specifier: ^0.30.1
-        version: 0.30.2(@greenwood/cli@0.30.2)
+        specifier: ^0.31.0-alpha.0
+        version: 0.31.0-alpha.0(@greenwood/cli@0.31.0-alpha.0)
       '@iconify/types':
         specifier: ^2.0.0
         version: 2.0.0
@@ -115,7 +118,7 @@ importers:
         specifier: ^4.0.4
         version: 4.0.4
       '@types/node':
-        specifier: ^22.9.0
+        specifier: ^22.10.1
         version: 22.10.1
       '@types/trusted-types':
         specifier: ^2.0.7
@@ -163,8 +166,8 @@ importers:
         specifier: ^0.4.0
         version: 0.4.0(postcss@8.4.49)
       prettier:
-        specifier: ^3.3.3
-        version: 3.4.1
+        specifier: ^3.4.2
+        version: 3.4.2
       rehype-raw:
         specifier: ^7.0.0
         version: 7.0.0
@@ -196,7 +199,7 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0(@mermaid-js/mermaid-cli@9.4.0(encoding@0.1.13)(typescript@5.7.2))
       typescript:
-        specifier: ^5.6.3
+        specifier: ^5.7.2
         version: 5.7.2
       typescript-plugin-css-modules:
         specifier: ^5.1.0
@@ -616,29 +619,29 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@greenwood/cli@0.30.2':
-    resolution: {integrity: sha512-FBwoqB6adv+kSelnjeNHzGHwRhxo5USfSc+P2n4evExKf9XUJrWN+l7b/xWI05oISX5oOf56vOgBIXOnfIfr6w==}
+  '@greenwood/cli@0.31.0-alpha.0':
+    resolution: {integrity: sha512-wDhUGqCxc29l1jlGRcV3TCCgP255Qg3hQGFnTyTD7m2bLKMni8NN76YeqK8SevoS5DcmLMbu05NzXixJISMRrQ==}
     engines: {node: '>=18.20.0'}
     hasBin: true
 
-  '@greenwood/plugin-google-analytics@0.30.2':
-    resolution: {integrity: sha512-BsxmcTz1iteuQMxkh6vWKFLri1Zu/bTa/ulJwnmpx/IhG+Dn7R1h3LR9dXc/WwaYN56ph90rY49RCE4f99yFXg==}
+  '@greenwood/plugin-google-analytics@0.31.0-alpha.0':
+    resolution: {integrity: sha512-P7zCkdwh63d3XD9MxjRDTgwOR/Qmb8f8iDFFRDEBOVMHxoPkKjeFe1VhcICbMiVTA6lEicayiUn7alq8+tnEFg==}
     peerDependencies:
       '@greenwood/cli': ^0.30.0
 
-  '@greenwood/plugin-postcss@0.30.2':
-    resolution: {integrity: sha512-vLPhNuI5IVO/RtM7uRwUpxesZKgybrQ1E5gNduSxceMncSbaj3LvioOhJJ2EofjGtcVKAm4X3ftsI1g7qjv29w==}
+  '@greenwood/plugin-postcss@0.31.0-alpha.0':
+    resolution: {integrity: sha512-lB9iARaZll1xO74i+hsSHTN+YPt14Q04qUg2VDkcgV160pR838e1gOvdh7QseTwOTmilxyRdunPjBMl1S4d+Wg==}
     peerDependencies:
       '@greenwood/cli': ^0.30.0
 
-  '@greenwood/plugin-renderer-lit@0.30.2':
-    resolution: {integrity: sha512-8dz8SRubGb5Fi+8rjVIzHToq1UbVSHDV7uyOgPF0DZ26+atfc5WViPRrXdJN7rtSby8NDscV20Er3BnpsU0fDg==}
+  '@greenwood/plugin-renderer-lit@0.31.0-alpha.0':
+    resolution: {integrity: sha512-Ype7J5Bwg00gkKQgYadA52umqwa+beIbetRj3yRW/wKcUAua5kqu6zmc1RDnHg4qGdKzUUehHXHk5bET65oCDQ==}
     peerDependencies:
       '@greenwood/cli': ^0.30.0
       lit: ^3.1.0
 
-  '@greenwood/plugin-typescript@0.30.2':
-    resolution: {integrity: sha512-/Qga/1oOKhIbZ9I4rRDTDGqofXvVRMUBrijzKhUNYeVZl9zwmR0MPatvr1miInOrdMtXOFWi+0mSnSykKWvP5w==}
+  '@greenwood/plugin-typescript@0.31.0-alpha.0':
+    resolution: {integrity: sha512-O248Q8Lc0iYCjdH6UATgd5K98ahnafe4ScIIKJYd3Prs9FY/OH9QJjQqVqANSuv0e0G98EAt1YlW4qntGbaOsg==}
     peerDependencies:
       '@greenwood/cli': ^0.30.0
 
@@ -1030,9 +1033,9 @@ packages:
       typescript:
         optional: true
 
-  '@rollup/plugin-commonjs@25.0.8':
-    resolution: {integrity: sha512-ZEZWTK5n6Qde0to4vS9Mr5x/0UZoqCxPVR9KRUjU4kA2sO7GEUn1fop0DAwpO6z0Nw/kJON9bDmSxdWxO/TT1A==}
-    engines: {node: '>=14.0.0'}
+  '@rollup/plugin-commonjs@28.0.1':
+    resolution: {integrity: sha512-+tNWdlWKbpB3WgBN7ijjYkq9X5uhjmcvyjEght4NmH5fAU++zfQzAJ6wumLS+dNcvwEZhKx2Z+skY8m7v0wGSA==}
+    engines: {node: '>=16.0.0 || 14 >= 14.17'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
@@ -1044,15 +1047,6 @@ packages:
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.78.0||^3.0.0||^4.0.0
-    peerDependenciesMeta:
-      rollup:
-        optional: true
-
-  '@rollup/plugin-replace@5.0.7':
-    resolution: {integrity: sha512-PqxSfuorkHz/SPpyngLyg5GCEkOcee9M1bkxiVDr41Pd61mqP1PLOoDPbpl44SB2mQGKwV/In74gqQmGITOhEQ==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
       rollup:
         optional: true
@@ -1074,6 +1068,96 @@ packages:
     peerDependenciesMeta:
       rollup:
         optional: true
+
+  '@rollup/rollup-android-arm-eabi@4.28.0':
+    resolution: {integrity: sha512-wLJuPLT6grGZsy34g4N1yRfYeouklTgPhH1gWXCYspenKYD0s3cR99ZevOGw5BexMNywkbV3UkjADisozBmpPQ==}
+    cpu: [arm]
+    os: [android]
+
+  '@rollup/rollup-android-arm64@4.28.0':
+    resolution: {integrity: sha512-eiNkznlo0dLmVG/6wf+Ifi/v78G4d4QxRhuUl+s8EWZpDewgk7PX3ZyECUXU0Zq/Ca+8nU8cQpNC4Xgn2gFNDA==}
+    cpu: [arm64]
+    os: [android]
+
+  '@rollup/rollup-darwin-arm64@4.28.0':
+    resolution: {integrity: sha512-lmKx9yHsppblnLQZOGxdO66gT77bvdBtr/0P+TPOseowE7D9AJoBw8ZDULRasXRWf1Z86/gcOdpBrV6VDUY36Q==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@rollup/rollup-darwin-x64@4.28.0':
+    resolution: {integrity: sha512-8hxgfReVs7k9Js1uAIhS6zq3I+wKQETInnWQtgzt8JfGx51R1N6DRVy3F4o0lQwumbErRz52YqwjfvuwRxGv1w==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@rollup/rollup-freebsd-arm64@4.28.0':
+    resolution: {integrity: sha512-lA1zZB3bFx5oxu9fYud4+g1mt+lYXCoch0M0V/xhqLoGatbzVse0wlSQ1UYOWKpuSu3gyN4qEc0Dxf/DII1bhQ==}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@rollup/rollup-freebsd-x64@4.28.0':
+    resolution: {integrity: sha512-aI2plavbUDjCQB/sRbeUZWX9qp12GfYkYSJOrdYTL/C5D53bsE2/nBPuoiJKoWp5SN78v2Vr8ZPnB+/VbQ2pFA==}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@rollup/rollup-linux-arm-gnueabihf@4.28.0':
+    resolution: {integrity: sha512-WXveUPKtfqtaNvpf0iOb0M6xC64GzUX/OowbqfiCSXTdi/jLlOmH0Ba94/OkiY2yTGTwteo4/dsHRfh5bDCZ+w==}
+    cpu: [arm]
+    os: [linux]
+
+  '@rollup/rollup-linux-arm-musleabihf@4.28.0':
+    resolution: {integrity: sha512-yLc3O2NtOQR67lI79zsSc7lk31xjwcaocvdD1twL64PK1yNaIqCeWI9L5B4MFPAVGEVjH5k1oWSGuYX1Wutxpg==}
+    cpu: [arm]
+    os: [linux]
+
+  '@rollup/rollup-linux-arm64-gnu@4.28.0':
+    resolution: {integrity: sha512-+P9G9hjEpHucHRXqesY+3X9hD2wh0iNnJXX/QhS/J5vTdG6VhNYMxJ2rJkQOxRUd17u5mbMLHM7yWGZdAASfcg==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@rollup/rollup-linux-arm64-musl@4.28.0':
+    resolution: {integrity: sha512-1xsm2rCKSTpKzi5/ypT5wfc+4bOGa/9yI/eaOLW0oMs7qpC542APWhl4A37AENGZ6St6GBMWhCCMM6tXgTIplw==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@rollup/rollup-linux-powerpc64le-gnu@4.28.0':
+    resolution: {integrity: sha512-zgWxMq8neVQeXL+ouSf6S7DoNeo6EPgi1eeqHXVKQxqPy1B2NvTbaOUWPn/7CfMKL7xvhV0/+fq/Z/J69g1WAQ==}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@rollup/rollup-linux-riscv64-gnu@4.28.0':
+    resolution: {integrity: sha512-VEdVYacLniRxbRJLNtzwGt5vwS0ycYshofI7cWAfj7Vg5asqj+pt+Q6x4n+AONSZW/kVm+5nklde0qs2EUwU2g==}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@rollup/rollup-linux-s390x-gnu@4.28.0':
+    resolution: {integrity: sha512-LQlP5t2hcDJh8HV8RELD9/xlYtEzJkm/aWGsauvdO2ulfl3QYRjqrKW+mGAIWP5kdNCBheqqqYIGElSRCaXfpw==}
+    cpu: [s390x]
+    os: [linux]
+
+  '@rollup/rollup-linux-x64-gnu@4.28.0':
+    resolution: {integrity: sha512-Nl4KIzteVEKE9BdAvYoTkW19pa7LR/RBrT6F1dJCV/3pbjwDcaOq+edkP0LXuJ9kflW/xOK414X78r+K84+msw==}
+    cpu: [x64]
+    os: [linux]
+
+  '@rollup/rollup-linux-x64-musl@4.28.0':
+    resolution: {integrity: sha512-eKpJr4vBDOi4goT75MvW+0dXcNUqisK4jvibY9vDdlgLx+yekxSm55StsHbxUsRxSTt3JEQvlr3cGDkzcSP8bw==}
+    cpu: [x64]
+    os: [linux]
+
+  '@rollup/rollup-win32-arm64-msvc@4.28.0':
+    resolution: {integrity: sha512-Vi+WR62xWGsE/Oj+mD0FNAPY2MEox3cfyG0zLpotZdehPFXwz6lypkGs5y38Jd/NVSbOD02aVad6q6QYF7i8Bg==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@rollup/rollup-win32-ia32-msvc@4.28.0':
+    resolution: {integrity: sha512-kN/Vpip8emMLn/eOza+4JwqDZBL6MPNpkdaEsgUtW1NYN3DZvZqSQrbKzJcTL6hd8YNmFTn7XGWMwccOcJBL0A==}
+    cpu: [ia32]
+    os: [win32]
+
+  '@rollup/rollup-win32-x64-msvc@4.28.0':
+    resolution: {integrity: sha512-Bvno2/aZT6usSa7lRDL2+hMjVAGjuqaymF1ApZm31JXzniR/hvr14jpU+/z4X6Gt5BPlzosscyJZGUvguXIqeQ==}
+    cpu: [x64]
+    os: [win32]
 
   '@sigstore/bundle@2.3.2':
     resolution: {integrity: sha512-wueKWDk70QixNLB363yHc2D2ItTgYiMTdPwK8D9dKQMR3ZQ0c35IxP5xnwQ8cNLoCgCRcHf14kE+CLIvNX1zmA==}
@@ -2342,11 +2426,6 @@ packages:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
     deprecated: Glob versions prior to v9 are no longer supported
 
-  glob@8.1.0:
-    resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
-    engines: {node: '>=12'}
-    deprecated: Glob versions prior to v9 are no longer supported
-
   globby@14.0.2:
     resolution: {integrity: sha512-s3Fq41ZVh7vbbe2PN3nrW7yC7U7MFVc5c98/iTl9c2GawNMKx/J648KQRW6WKkuU8GIbbh2IXfIRQjOZnXcTnw==}
     engines: {node: '>=18'}
@@ -2354,8 +2433,8 @@ packages:
   google-protobuf@3.21.4:
     resolution: {integrity: sha512-MnG7N936zcKTco4Jd2PX2U96Kf9PxygAPKBug+74LHzmHXmceN16MmRcdgZv+DGef/S9YvQAfRsNCn4cjf9yyQ==}
 
-  gopd@1.1.0:
-    resolution: {integrity: sha512-FQoVQnqcdk4hVM4JN1eromaun4iuS34oStkdlLENLdpULsuQcTyXj8w7ayhuUfPwEYZ1ZOooOTT6fdA9Vmx/RA==}
+  gopd@1.2.0:
+    resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
 
   got@11.8.6:
@@ -3119,10 +3198,6 @@ packages:
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
-  minimatch@5.1.6:
-    resolution: {integrity: sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==}
-    engines: {node: '>=10'}
-
   minimatch@9.0.5:
     resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
     engines: {node: '>=16 || 14 >=14.17'}
@@ -3770,8 +3845,8 @@ packages:
     resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prettier@3.4.1:
-    resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
+  prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3995,9 +4070,9 @@ packages:
     deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
-  rollup@3.29.5:
-    resolution: {integrity: sha512-GVsDdsbJzzy4S/v3dqWPJ7EfvZJfCHiDqe80IyrF59LYuP+e6U1LJoUqeuqRbwAWoMNoXivMNeNAOf5E22VA1w==}
-    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+  rollup@4.28.0:
+    resolution: {integrity: sha512-G9GOrmgWHBma4YfCcX8PjH0qhXSdH8B4HDE2o4/jaxj93S4DPCIDoLcXz99eWMji4hB29UFCEd7B2gwGJDR9cQ==}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
   run-parallel@1.2.0:
@@ -5198,14 +5273,12 @@ snapshots:
   '@esbuild/win32-x64@0.23.1':
     optional: true
 
-  '@greenwood/cli@0.30.2':
+  '@greenwood/cli@0.31.0-alpha.0':
     dependencies:
-      '@rollup/plugin-commonjs': 25.0.8(rollup@3.29.5)
-      '@rollup/plugin-node-resolve': 15.3.0(rollup@3.29.5)
-      '@rollup/plugin-replace': 5.0.7(rollup@3.29.5)
-      '@rollup/plugin-terser': 0.4.4(rollup@3.29.5)
+      '@rollup/plugin-commonjs': 28.0.1(rollup@4.28.0)
+      '@rollup/plugin-node-resolve': 15.3.0(rollup@4.28.0)
+      '@rollup/plugin-terser': 0.4.4(rollup@4.28.0)
       acorn: 8.14.0
-      acorn-import-attributes: 1.9.5(acorn@8.14.0)
       acorn-walk: 8.3.4
       commander: 2.20.3
       css-tree: 3.0.1
@@ -5221,7 +5294,7 @@ snapshots:
       remark-frontmatter: 2.0.0
       remark-parse: 8.0.3
       remark-rehype: 7.0.0
-      rollup: 3.29.5
+      rollup: 4.28.0
       unified: 9.2.2
       wc-compiler: 0.15.1
     transitivePeerDependencies:
@@ -5229,27 +5302,27 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@greenwood/plugin-google-analytics@0.30.2(@greenwood/cli@0.30.2)':
+  '@greenwood/plugin-google-analytics@0.31.0-alpha.0(@greenwood/cli@0.31.0-alpha.0)':
     dependencies:
-      '@greenwood/cli': 0.30.2
+      '@greenwood/cli': 0.31.0-alpha.0
 
-  '@greenwood/plugin-postcss@0.30.2(@greenwood/cli@0.30.2)':
+  '@greenwood/plugin-postcss@0.31.0-alpha.0(@greenwood/cli@0.31.0-alpha.0)':
     dependencies:
-      '@greenwood/cli': 0.30.2
+      '@greenwood/cli': 0.31.0-alpha.0
       postcss: 8.4.49
       postcss-import: 13.0.0(postcss@8.4.49)
       postcss-preset-env: 7.8.3(postcss@8.4.49)
 
-  '@greenwood/plugin-renderer-lit@0.30.2(@greenwood/cli@0.30.2)(lit@3.2.1)':
+  '@greenwood/plugin-renderer-lit@0.31.0-alpha.0(@greenwood/cli@0.31.0-alpha.0)(lit@3.2.1)':
     dependencies:
-      '@greenwood/cli': 0.30.2
+      '@greenwood/cli': 0.31.0-alpha.0
       '@lit-labs/ssr': 3.2.2
       '@lit-labs/ssr-client': 1.1.7
       lit: 3.2.1
 
-  '@greenwood/plugin-typescript@0.30.2(@greenwood/cli@0.30.2)':
+  '@greenwood/plugin-typescript@0.31.0-alpha.0(@greenwood/cli@0.31.0-alpha.0)':
     dependencies:
-      '@greenwood/cli': 0.30.2
+      '@greenwood/cli': 0.31.0-alpha.0
       typescript: 5.7.2
 
   '@grpc/grpc-js@1.12.3':
@@ -5782,49 +5855,97 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@rollup/plugin-commonjs@25.0.8(rollup@3.29.5)':
+  '@rollup/plugin-commonjs@28.0.1(rollup@4.28.0)':
     dependencies:
-      '@rollup/pluginutils': 5.1.3(rollup@3.29.5)
+      '@rollup/pluginutils': 5.1.3(rollup@4.28.0)
       commondir: 1.0.1
       estree-walker: 2.0.2
-      glob: 8.1.0
+      fdir: 6.4.2(picomatch@4.0.2)
       is-reference: 1.2.1
       magic-string: 0.30.14
+      picomatch: 4.0.2
     optionalDependencies:
-      rollup: 3.29.5
+      rollup: 4.28.0
 
-  '@rollup/plugin-node-resolve@15.3.0(rollup@3.29.5)':
+  '@rollup/plugin-node-resolve@15.3.0(rollup@4.28.0)':
     dependencies:
-      '@rollup/pluginutils': 5.1.3(rollup@3.29.5)
+      '@rollup/pluginutils': 5.1.3(rollup@4.28.0)
       '@types/resolve': 1.20.2
       deepmerge: 4.3.1
       is-module: 1.0.0
       resolve: 1.22.8
     optionalDependencies:
-      rollup: 3.29.5
+      rollup: 4.28.0
 
-  '@rollup/plugin-replace@5.0.7(rollup@3.29.5)':
-    dependencies:
-      '@rollup/pluginutils': 5.1.3(rollup@3.29.5)
-      magic-string: 0.30.14
-    optionalDependencies:
-      rollup: 3.29.5
-
-  '@rollup/plugin-terser@0.4.4(rollup@3.29.5)':
+  '@rollup/plugin-terser@0.4.4(rollup@4.28.0)':
     dependencies:
       serialize-javascript: 6.0.2
       smob: 1.5.0
       terser: 5.36.0
     optionalDependencies:
-      rollup: 3.29.5
+      rollup: 4.28.0
 
-  '@rollup/pluginutils@5.1.3(rollup@3.29.5)':
+  '@rollup/pluginutils@5.1.3(rollup@4.28.0)':
     dependencies:
       '@types/estree': 1.0.6
       estree-walker: 2.0.2
       picomatch: 4.0.2
     optionalDependencies:
-      rollup: 3.29.5
+      rollup: 4.28.0
+
+  '@rollup/rollup-android-arm-eabi@4.28.0':
+    optional: true
+
+  '@rollup/rollup-android-arm64@4.28.0':
+    optional: true
+
+  '@rollup/rollup-darwin-arm64@4.28.0':
+    optional: true
+
+  '@rollup/rollup-darwin-x64@4.28.0':
+    optional: true
+
+  '@rollup/rollup-freebsd-arm64@4.28.0':
+    optional: true
+
+  '@rollup/rollup-freebsd-x64@4.28.0':
+    optional: true
+
+  '@rollup/rollup-linux-arm-gnueabihf@4.28.0':
+    optional: true
+
+  '@rollup/rollup-linux-arm-musleabihf@4.28.0':
+    optional: true
+
+  '@rollup/rollup-linux-arm64-gnu@4.28.0':
+    optional: true
+
+  '@rollup/rollup-linux-arm64-musl@4.28.0':
+    optional: true
+
+  '@rollup/rollup-linux-powerpc64le-gnu@4.28.0':
+    optional: true
+
+  '@rollup/rollup-linux-riscv64-gnu@4.28.0':
+    optional: true
+
+  '@rollup/rollup-linux-s390x-gnu@4.28.0':
+    optional: true
+
+  '@rollup/rollup-linux-x64-gnu@4.28.0':
+    optional: true
+
+  '@rollup/rollup-linux-x64-musl@4.28.0':
+    optional: true
+
+  '@rollup/rollup-win32-arm64-msvc@4.28.0':
+    optional: true
+
+  '@rollup/rollup-win32-ia32-msvc@4.28.0':
+    optional: true
+
+  '@rollup/rollup-win32-x64-msvc@4.28.0':
+    optional: true
 
   '@sigstore/bundle@2.3.2':
     dependencies:
@@ -6883,7 +7004,7 @@ snapshots:
     dependencies:
       es-define-property: 1.0.0
       es-errors: 1.3.0
-      gopd: 1.1.0
+      gopd: 1.2.0
 
   delegates@1.0.0: {}
 
@@ -7079,6 +7200,10 @@ snapshots:
     optionalDependencies:
       picomatch: 3.0.1
 
+  fdir@6.4.2(picomatch@4.0.2):
+    optionalDependencies:
+      picomatch: 4.0.2
+
   fetch-blob@3.2.0:
     dependencies:
       node-domexception: 1.0.0
@@ -7209,14 +7334,6 @@ snapshots:
       once: 1.4.0
       path-is-absolute: 1.0.1
 
-  glob@8.1.0:
-    dependencies:
-      fs.realpath: 1.0.0
-      inflight: 1.0.6
-      inherits: 2.0.4
-      minimatch: 5.1.6
-      once: 1.4.0
-
   globby@14.0.2:
     dependencies:
       '@sindresorhus/merge-streams': 2.3.0
@@ -7228,9 +7345,7 @@ snapshots:
 
   google-protobuf@3.21.4: {}
 
-  gopd@1.1.0:
-    dependencies:
-      get-intrinsic: 1.2.4
+  gopd@1.2.0: {}
 
   got@11.8.6:
     dependencies:
@@ -8300,10 +8415,6 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.11
 
-  minimatch@5.1.6:
-    dependencies:
-      brace-expansion: 2.0.1
-
   minimatch@9.0.5:
     dependencies:
       brace-expansion: 2.0.1
@@ -8971,7 +9082,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier@3.4.1: {}
+  prettier@3.4.2: {}
 
   pretty-hrtime@1.0.3: {}
 
@@ -9269,8 +9380,28 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  rollup@3.29.5:
+  rollup@4.28.0:
+    dependencies:
+      '@types/estree': 1.0.6
     optionalDependencies:
+      '@rollup/rollup-android-arm-eabi': 4.28.0
+      '@rollup/rollup-android-arm64': 4.28.0
+      '@rollup/rollup-darwin-arm64': 4.28.0
+      '@rollup/rollup-darwin-x64': 4.28.0
+      '@rollup/rollup-freebsd-arm64': 4.28.0
+      '@rollup/rollup-freebsd-x64': 4.28.0
+      '@rollup/rollup-linux-arm-gnueabihf': 4.28.0
+      '@rollup/rollup-linux-arm-musleabihf': 4.28.0
+      '@rollup/rollup-linux-arm64-gnu': 4.28.0
+      '@rollup/rollup-linux-arm64-musl': 4.28.0
+      '@rollup/rollup-linux-powerpc64le-gnu': 4.28.0
+      '@rollup/rollup-linux-riscv64-gnu': 4.28.0
+      '@rollup/rollup-linux-s390x-gnu': 4.28.0
+      '@rollup/rollup-linux-x64-gnu': 4.28.0
+      '@rollup/rollup-linux-x64-musl': 4.28.0
+      '@rollup/rollup-win32-arm64-msvc': 4.28.0
+      '@rollup/rollup-win32-ia32-msvc': 4.28.0
+      '@rollup/rollup-win32-x64-msvc': 4.28.0
       fsevents: 2.3.3
 
   run-parallel@1.2.0:
@@ -9310,7 +9441,7 @@ snapshots:
       es-errors: 1.3.0
       function-bind: 1.1.2
       get-intrinsic: 1.2.4
-      gopd: 1.1.0
+      gopd: 1.2.0
       has-property-descriptors: 1.0.2
 
   set-getter@0.1.1:

@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Nuttley"
 layout: family
 title: Nuttley
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

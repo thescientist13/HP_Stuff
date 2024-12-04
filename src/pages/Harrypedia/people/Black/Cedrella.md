@@ -6,5 +6,3 @@ layout: person
 ---
 
 ### Analysis
-
-

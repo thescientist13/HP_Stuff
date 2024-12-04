@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Goyle"
 layout: family
 title: Goyle
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Slughorn"
 layout: family
 title: Slughorn
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

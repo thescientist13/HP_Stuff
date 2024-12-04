@@ -6,6 +6,4 @@ hero: I0257
 layout: person
 ---
 
-
 ### Analysis
-

@@ -1,7 +1,7 @@
 ---
 events:
   - type: magical
-    blurb:  Harry's parents and their friends start Hogwarts
+    blurb: Harry's parents and their friends start Hogwarts
     description: |
       [James], [Sirius], [Remus],[Lily] and [Snape] are known
       to have started at the same time. 
@@ -16,7 +16,7 @@ events:
 
       [Snape]: <../people/snape/severus/>
     source: |
-      This date is infered/computed from others. 
+      This date is infered/computed from others.
   - type: magical
     blurb: Lucius Malfoy as prefect
     description: |

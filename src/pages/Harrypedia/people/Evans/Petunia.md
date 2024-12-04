@@ -7,13 +7,10 @@ author: Luke Schierer
 layout: person
 ---
 
-
 ### Analysis
 
+- Married [Vernon Dursley][VD].
 
-* Married [Vernon Dursley][VD].
-
-[VD]: <../../Dursley/Vernon/>
+[VD]: ../../Dursley/Vernon/
 
 ### Speculation
-

@@ -5,7 +5,7 @@ description: HP stories in which Ron Is Key
 author: Luke Schierer
 ---
 
-I have made no secret of the fact that [Ron] is not my most favourite character in the series.  These stories highlight what could have been.
+I have made no secret of the fact that [Ron] is not my most favourite character in the series. These stories highlight what could have been.
 
 <dl>
   <dt>_[Fate](https://archiveofourown.org/works/27206147/)_<dt>
@@ -24,16 +24,12 @@ I have made no secret of the fact that [Ron] is not my most favourite character 
       * The bad guys are both very clearly bad guys, and yet heros in their own minds for believable reasons.  Their children love them for believable reasons.  While there are a few true monsters, most of them are simply men corrupted by too much wealth and too much power for too many generations.  They are in over their heads, trying to preserve their power, their families, trapped between the loss of *everything* on one side and a monster ([Riddle]) on the other.
       * The good guys are equally flawed.  Ron himself has all the flaws we know from cannon.  His parents flaws are on full display. [Dumbledore] and [Harry] are called out for their flaws. So on and so forth. But they are not bashed either - everyone, to at least some extent, is a work in progress, adapting as the story grows. Some more so than others admittedly, the author clearly has some biases.
     * There is a great deal of thought in the world building.  Why are [goblins] greedy? How do [veela] affect people and why? Magic is rich, and complex.
+
   </dd>
 
 [Ron]: /Harrypedia/people/Weasley/Ronald_Bilius/
-
 [Riddle]: /Harrypedia/people/Riddle/Tom_Marvolo/
-
 [Dumbledore]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/
-
 [Harry]: /Harrypedia/people/Potter/Harry_James/
-
 [goblins]: /Harrypedia/beings/goblin/
-
 [veela]: /Harrypedia/beings/veela/

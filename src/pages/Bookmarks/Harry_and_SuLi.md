@@ -6,7 +6,7 @@ author: "Luke Schierer"
 ---
 
 For some reason this pairing is incredibly rare, and even more rarely are these
-stories actually finished.  I am unsure why, as Cho's character in the cannon
+stories actually finished. I am unsure why, as Cho's character in the cannon
 books is clearly not a good romantic match for Harry, and yet the introduction
 of chinese culture allows for some interesting crossovers, or at least minor
 additions to the canon universe.
@@ -19,4 +19,3 @@ additions to the canon universe.
         dangerous of the three Hallows.  This story explains one way that is
         true.</dd>
 </dl>
-

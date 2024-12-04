@@ -15,6 +15,7 @@ curse
 a slashing curse where the wound resembles a sword cut.
 
 ## Found in
+
 <dl>
     <dt>Primary Cannon</dt>
 <dd>Mrs. J. K. Rowling. _[Harry Potter and the Order of the Phoenix][]_

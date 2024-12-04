@@ -14,18 +14,19 @@ Charm
 
 Documented as [Dark Magic][], this causes a person to break out in boils/pimples when it came in contact with their skin.
 
-[Dark Magic]: <../../dark>
+[Dark Magic]: ../../dark
+
 insert description
 
 ## Found in
 
 Primary Cannon
-:   citation needed.
+: citation needed.
 
 Secondary Cannon
-:   citation needed.
+: citation needed.
 
 Tertiary Cannon
-:   [Harry Potter Wiki](https://harrypotter.fandom.com/)
-    "[Pimple Jinx](https://harrypotter.fandom.com/wiki/Pimple_Jinx)"
-	Last Edited: 2022-01-28.
+: [Harry Potter Wiki](https://harrypotter.fandom.com/)
+"[Pimple Jinx](https://harrypotter.fandom.com/wiki/Pimple_Jinx)"
+Last Edited: 2022-01-28.

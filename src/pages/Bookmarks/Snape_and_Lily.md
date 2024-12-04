@@ -21,14 +21,12 @@ author: "Luke Schierer"
     [James] as it is about about [Lily] and [Snape], covering as it does the many
     unfounded assumptions that now pass almost as cannon surrounding their
     generation's school years.</dd>
+
 </dl>
 
 There are more stories dealing about them meeting when [Snape Dies].
 
-[Snape Dies]: <../snapedies>
-
-[Lily]: </Harrypedia/people/Evans/Lily_J./>
-
-[James]: </Harrypedia/people/Potter/James/>
-
-[Snape]: </Harrypedia/people/Snape/Severus/>
+[Snape Dies]: ../snapedies
+[Lily]: /Harrypedia/people/Evans/Lily_J./
+[James]: /Harrypedia/people/Potter/James/
+[Snape]: /Harrypedia/people/Snape/Severus/

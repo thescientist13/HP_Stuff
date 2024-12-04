@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Prince"
 layout: family
 title: Prince
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

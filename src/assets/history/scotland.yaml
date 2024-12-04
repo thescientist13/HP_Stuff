@@ -37,7 +37,7 @@ events:
       "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
       Last Edited: 2023-12-02. Last Viewed: 2023-12-04.
   - type: mundane scotland
-    blurb: Eochaid crowned king of Scotland at an unknown point this year.  
+    blurb: Eochaid crowned king of Scotland at an unknown point this year.
     date: 878
     description: |
       Eochaid crowned king of Scotland at an unknown point this year.  The overlap in dates between Eochaid and Giric is original to my source.
@@ -193,7 +193,7 @@ events:
     blurb: Donald III crowned king of Scotland
     date: 1093
     description: |
-      Donald III crowned king of Scotland at an unknown point this year.  
+      Donald III crowned king of Scotland at an unknown point this year.
     source: |
       [WikiPedia](https://wikipedia.org/)
       "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
@@ -202,7 +202,7 @@ events:
     blurb: Duncan II crowned king of Scotland
     date: 1094
     description: |
-      Duncan II crowned king of Scotland at an unknown point this year. He is the first that is listed as "Rex Scottorum" instead of "Rí Alban" or "Rex Pictorum".  While both "Alban" and "Scottorum" appear to mean the same people to modern translators, I suspect the change had some significance at the time. 
+      Duncan II crowned king of Scotland at an unknown point this year. He is the first that is listed as "Rex Scottorum" instead of "Rí Alban" or "Rex Pictorum".  While both "Alban" and "Scottorum" appear to mean the same people to modern translators, I suspect the change had some significance at the time.
     source: |
       [WikiPedia](https://wikipedia.org/)
       "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
@@ -283,7 +283,7 @@ events:
     blurb: John Balliol crowned king of Scotland
     date: 1292
     description: |
-      John Balliol crowned king of Scotland at an unknown point this year, after a two-year interregnum. He is chosen only after the Scottish noblility is forced to accept Edward I of Englad as overlord. 
+      John Balliol crowned king of Scotland at an unknown point this year, after a two-year interregnum. He is chosen only after the Scottish noblility is forced to accept Edward I of Englad as overlord.
     source: |
       [WikiPedia](https://wikipedia.org/)
       "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
@@ -292,7 +292,7 @@ events:
     blurb: Robert I (the Bruce) crowned king of Scotland
     date: 1306-03-25
     description: |
-      Robert I (the Bruce) crowned king of Scotland. 
+      Robert I (the Bruce) crowned king of Scotland.
     source: |
       * [WikiPedia](https://wikipedia.org/)
         "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
@@ -323,7 +323,7 @@ events:
     blurb: David II assumes throne of Scotland
     date: 1329-06-07
     description: |
-      David II assumes the throne of Scotland as a child monarch upon the death of his father. 
+      David II assumes the throne of Scotland as a child monarch upon the death of his father.
     source: |
       * [WikiPedia](https://wikipedia.org/)
         "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
@@ -348,7 +348,7 @@ events:
     date: 1332
     description: |
       Edward Balliol will sieze the throne, often with English support, sometimes even causing himself to be crowned, several times between
-      1332 and 1356. 
+      1332 and 1356.
     source: |
       [WikiPedia](https://wikipedia.org/)
       "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
@@ -357,7 +357,7 @@ events:
     blurb: Robert II crowned king of Scotland
     date: 1371
     description: |
-      Robert II ascends to the throne at age 55. 
+      Robert II ascends to the throne at age 55.
     source: |
       [WikiPedia](https://wikipedia.org/)
       "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
@@ -366,7 +366,7 @@ events:
     blurb: Robert III crowned king of Scotland
     date: 1390
     description: |
-      Robert III ascends to the throne at age 53. 
+      Robert III ascends to the throne at age 53.
     source: |
       [WikiPedia](https://wikipedia.org/)
       "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
@@ -456,7 +456,7 @@ events:
     blurb: Charles II, ascends to the thrones of England and Scotland
     date: 1660
     description: |
-      With the restoration of the monarchy, Charles II reascends the thrones of Scotland. 
+      With the restoration of the monarchy, Charles II reascends the thrones of Scotland.
     source: |
       [WikiPedia](https://wikipedia.org/)
       "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
@@ -501,7 +501,7 @@ events:
     date: 1706-07-22
     description: |
       The Acts of Union were passed in each of the Scottish and English parliaments to implement the Treaty of Union, uniting the two thrones
-      into a single crown. A unified government would come later. 
+      into a single crown. A unified government would come later.
     source: |
       [WikiPedia](https://wikipedia.org/)
       "[List of Scottish monarchs](https://wikipedia.org/wiki/List_of_Scottish_monarchs)"
@@ -516,4 +516,3 @@ events:
       [WikiPedia](https://wikipedia.org/)
       "[Acts of Union 1707](https://en.wikipedia.org/wiki/Acts_of_Union_1707)"
       Last Edited: 2023-11-09. Last Viewed: 2023-12-05.
-  

@@ -6,6 +6,4 @@ hero: I0020
 layout: person
 ---
 
-
 ### Analysis
-

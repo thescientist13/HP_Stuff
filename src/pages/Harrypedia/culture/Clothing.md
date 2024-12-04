@@ -10,7 +10,7 @@ she claims that this is because Wizarding fashion is intentionally frozen in the
 wore robes in the 17th century, male fashion varied considerably for those in
 other occupations. This is very much part of the era of doublets and
 hose.[^200723-5] Sometimes guys wore "over-gowns" other decades they did not.
-Sometimes the doublets were more or less "skirted."  Some decades codpieces were
+Sometimes the doublets were more or less "skirted." Some decades codpieces were
 in evidence. For the [Hogwarts] uniform to be robe based is one thing, but
 wizards seem to come from every strata of society. It is highly unlikely that
 they all view themselves as court scholars; surely some of them would have
@@ -19,7 +19,7 @@ of the century she cites allow for both.
 
 Mrs. Rowling then contradicts her earlier insistence on robes, saying that "Day
 to day, however, even those who detest Muggles wear a version of Muggle clothing,
-which is undeniably practical compared with robes."[^210420-11]  This makes sense,
+which is undeniably practical compared with robes."[^210420-11] This makes sense,
 the working classes and farming families would have wanted something more practical,
 even if they did use magic in place of manual labour as much as possible and
 even when somewhat unreasonable. Still, who seriously wears robes with little
@@ -29,7 +29,7 @@ or nothing under them to do such classic Wizarding things like flying a broom
 The real question then is how the girls dress. She says that "Women's dresses
 tend to be long,"[^220630-1] but do they always wear either robes or dresses?
 Magic allows for greater gender equality, and the society described in the
-books *mostly* supports that, though it hints that there may be some severe
+books _mostly_ supports that, though it hints that there may be some severe
 social limitations on married witches, and what is "proper" versus what is
 "allowed." To what extent have the girls followed the non-magical trends of
 their youth, and to what extent (if different) have they also adopt activity
@@ -61,62 +61,63 @@ work, and one would think that academic dress, being synonymous with formal
 wear, would be more expensive than the essentially non-magical clothing that
 she says magical folk tend to wear "day to day."[^220630-2]
 
-[Mrs. Weasley]: <../../people/Prewett/Molly/>
+[Mrs. Weasley]: ../../people/Prewett/Molly/
+[Ron]: ../../people/Weasley/Ronald_Bilius/
+[Hermione]: ../../people/Granger/Hermione_Jean/
+[Harry]: ../../people/Potter/Harry_James/
+[Snape's]: ../../people/Snape/Severus/
+[James]: ../../people/Potter/James/
+[Hogwarts]: ../../Hogwarts/
+[Mr. Weasley]: ../../people/Weasley/arthur/
+[Quidditch]: ../../quidditch
 
-[Ron]: <../../people/Weasley/Ronald_Bilius/>
-
-[Hermione]: <../../people/Granger/Hermione_Jean/>
-
-[Harry]: <../../people/Potter/Harry_James/>
-
-[Snape's]: <../../people/Snape/Severus/>
-
-[James]: <../../people/Potter/James/>
-
-[Hogwarts]: <../../Hogwarts/>
-
-[Mr. Weasley]: <../../people/Weasley/arthur/>
-
-[Quidditch]: <../../quidditch>
-
-[^210525-8]: Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_
+[^210525-8]:
+    Mrs. J. K. Rowling. _Harry Potter and the Sorcerer's Stone_
     Better citation Needed.
 
-[^210525-9]: Mrs. J. K. Rowling. _Harry Potter and the Goblet of Fire_
+[^210525-9]:
+    Mrs. J. K. Rowling. _Harry Potter and the Goblet of Fire_
     Kindle Location 2597. Pottermore Limited. American Kindle Edition.
 
-[^210525-10]: Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_
+[^210525-10]:
+    Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_
     Kindle Locations 2893-2894. Pottermore Limited. American Kindle Edition.
 
-[^210525-11]: Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_
+[^210525-11]:
+    Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_
     Kindle Location 9519. Pottermore Limited. American Kindle Edition.
     It is curious that the American edition does not translate the word "pants"
     in this context, because it means something quite different in British
     versus American English.
 
-[^210525-12]: Mrs. J. K. Rowling. _Harry Potter and the Half-Blood Prince_
+[^210525-12]:
+    Mrs. J. K. Rowling. _Harry Potter and the Half-Blood Prince_
     p. 134. Pottermore Publishing. American Kindle Edition.
 
-[^220630-2]: Mrs. J. K. Rowling.
+[^220630-2]:
+    Mrs. J. K. Rowling.
     "[Clothing](https://www.rowlingindex.org/work/cltpm/)"
     Originally published on Pottermore 2015-08-15. Last Viewed: 2022-06-30.
 
-[^220630-1]: Mrs. J. K. Rowling.
+[^220630-1]:
+    Mrs. J. K. Rowling.
     "[Clothing](https://www.rowlingindex.org/work/cltpm/)"
     Originally published on Pottermore 2015-08-15. Last Viewed: 2022-06-30.
 
-[^200723-4]: Mrs. J. K. Rowling.
+[^200723-4]:
+    Mrs. J. K. Rowling.
     "[Clothing](https://www.rowlingindex.org/work/cltpm/)"
     Originally published on Pottermore 2015-08-15. Last Viewed: 2022-06-30.
 
-[^200723-5]: [Wikipedia](https://en.wikipedia.org).
+[^200723-5]:
+    [Wikipedia](https://en.wikipedia.org).
     "[1500–1550 in Western European fashion](https://en.wikipedia.org/wiki/1500%E2%80%931550_in_Western_European_fashion)"
-    Last Edited 2020-05-17.  Last Viewed 2020-07-23.
+    Last Edited 2020-05-17. Last Viewed 2020-07-23.
     [Wikipedia](https://en.wikipedia.org).
     "[(1550–1600 in Western European fashion](https://en.wikipedia.org/wiki/1550%E2%80%931600_in_Western_European_fashion)"
-    Last Edited 2020-06-25.  Last Viewed 2020-07-23.
+    Last Edited 2020-06-25. Last Viewed 2020-07-23.
 
-[^210420-11]: Mrs. J. K. Rowling.
+[^210420-11]:
+    Mrs. J. K. Rowling.
     "[Clothing](https://www.rowlingindex.org/work/cltpm/)"
     Originally published on Pottermore 2015-08-15. Last Viewed: 2022-06-30.
-

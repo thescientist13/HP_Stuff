@@ -8,4 +8,3 @@ layout: person
 ---
 
 ### Analysis
-

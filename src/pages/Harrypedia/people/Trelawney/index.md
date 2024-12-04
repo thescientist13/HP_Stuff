@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Trelawney"
 layout: family
 title: Trelawney
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

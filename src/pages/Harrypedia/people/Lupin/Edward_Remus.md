@@ -6,4 +6,3 @@ hero: I0295
 author: Luke Schierer
 layout: person
 ---
-

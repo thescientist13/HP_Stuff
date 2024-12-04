@@ -10,4 +10,4 @@ layout: person
 
 See notes on the [McLaggen][] family.
 
-[McLaggen]: <../../mclaggen>
+[McLaggen]: ../../mclaggen

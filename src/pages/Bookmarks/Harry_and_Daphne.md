@@ -6,7 +6,7 @@ author: "Luke Schierer"
 ---
 
 [Daphne][] is one of those blank slate characters that authors can do anything
-with.  Sure enough, they certainly have, though there do tend to be patterns.
+with. Sure enough, they certainly have, though there do tend to be patterns.
 Most of them are not worth reading, but enough are that this becomes a category
 to watch.
 
@@ -40,20 +40,15 @@ to watch.
     <dd>Author: [WolfgangNH]</dd>
     <dd>Published: 2022-04-09. Completed: 2022-04-09</dd>
     <dd>
-        Comments: I have mixed feelings on this story, and am including it on my policy of including any story I have to spend time finding at least twice.  This story includes one suicide attempt and one (separate) suicide contemplation.  On the positive side, the story treats suicide as the horrific thing it is.  On the bad side, in includes the idea that if you save a life, you are responsible for it.  I think the author attempted to portray just how badly this could have gone.  I do not think [WolfgangNH] really succeeded at that though, which is a problem.  Several aspects of this story fit in very well as illustrations of the problems with the way Mrs. Rowling has structured the world. 
+        Comments: I have mixed feelings on this story, and am including it on my policy of including any story I have to spend time finding at least twice.  This story includes one suicide attempt and one (separate) suicide contemplation.  On the positive side, the story treats suicide as the horrific thing it is.  On the bad side, in includes the idea that if you save a life, you are responsible for it.  I think the author attempted to portray just how badly this could have gone.  I do not think [WolfgangNH] really succeeded at that though, which is a problem.  Several aspects of this story fit in very well as illustrations of the problems with the way Mrs. Rowling has structured the world.
     </dd>
+
 </dl>
 
 [WolfgangNH]: https://archiveofourown.org/users/WolfgangNH/
-
 [A Different Type of Bond]: https://archiveofourown.org/works/38269633
-
-[Daphne Greengrass and the Preemptive Adulterer]: <https://archiveofourown.org/works/36587794>
-
-[Harry]: </Harrypedia/people/Potter/Harry_James/>
-
-[Daphne]: </Harrypedia/people/Greengrass/Daphne/>
-
-[Ginny]: </Harrypedia/people/Weasley/Ginevra_Molly/>
-
-[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
+[Daphne Greengrass and the Preemptive Adulterer]: https://archiveofourown.org/works/36587794
+[Harry]: /Harrypedia/people/Potter/Harry_James/
+[Daphne]: /Harrypedia/people/Greengrass/Daphne/
+[Ginny]: /Harrypedia/people/Weasley/Ginevra_Molly/
+[Dumbledore]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/

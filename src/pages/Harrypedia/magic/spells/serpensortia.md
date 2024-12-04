@@ -25,32 +25,33 @@ Transfiguration (Conjuring)
 The transcription of the [Book of Spells][] references a "Principle of
 Artificianimate Quasi-Dominance" and goes on to state that for poorly understood
 and entirely unstated reasons, birds and snakes are easier to conjur than
-anything else.[^210930-21]  I do not feel this rather hand-wavy
+anything else.[^210930-21] I do not feel this rather hand-wavy
 quasi-explanation truly addresses Mr. Hycrest's objections above.
 
-[Book of Spells]: <https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript>
+[Book of Spells]: https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript
 
-[^210629-6]: Ian Hycrest.
+[^210629-6]:
+    Ian Hycrest.
     _[Harry Potter and the Hands of Justice](https://www.fanfiction.net/s/13374289)_
     [Chapter 11](https://www.fanfiction.net/s/13374289/12/Harry-Potter-and-the-Hands-of-Justice)
     Published: 2019-08-27. Updated: 2020-01-14. Last Viewed: 2021-06-29.
 
-[^210930-21]: [magicscrapbook](https://magicscrapbook.tumblr.com/)
+[^210930-21]:
+    [magicscrapbook](https://magicscrapbook.tumblr.com/)
     "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
     Last Viewed 2021-09-30.
 
 ## Found in
 
 Primary Cannon
-:   citation needed.
+: citation needed.
 
 Secondary Cannon
-:   [magicscrapbook](https://magicscrapbook.tumblr.com/)
-    "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
-    Last Viewed 2021-09-30.
+: [magicscrapbook](https://magicscrapbook.tumblr.com/)
+"[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
+Last Viewed 2021-09-30.
 
 Fan Fiction
-:   Ian Hycrest.
-    _[Harry Potter and the Hands of Justice](https://www.fanfiction.net/s/13374289)_
-	Published: 2019-08-27. Updated: 2020-01-14. Last Viewed: 2021-06-29.
-
+: Ian Hycrest.
+_[Harry Potter and the Hands of Justice](https://www.fanfiction.net/s/13374289)_
+Published: 2019-08-27. Updated: 2020-01-14. Last Viewed: 2021-06-29.

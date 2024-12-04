@@ -6,12 +6,12 @@ author: "Luke Schierer"
 ---
 
 So often children's literature is possible because the adults in those stories
-are incompetent.  Sometimes they are well-meaning, sometimes they are not,
-sometimes they are *trying* and failing, other times they are effectively
-negligent.  Sometimes they are simply effectively absent.  Irregardless, the
+are incompetent. Sometimes they are well-meaning, sometimes they are not,
+sometimes they are _trying_ and failing, other times they are effectively
+negligent. Sometimes they are simply effectively absent. Irregardless, the
 story is only possible because children are doing things that adults should
-have taken care of.  The Harry Potter series is no exception, though it differs
-from many in that it features adults in *all* of these categories.
+have taken care of. The Harry Potter series is no exception, though it differs
+from many in that it features adults in _all_ of these categories.
 
 This is a collection of fan fiction stories that are note-worthy primarily
 because they showcase some aspect of adults being … adults.
@@ -257,88 +257,60 @@ because they showcase some aspect of adults being … adults.
     <dd>
       Comments: This is another that assumes that [Amelia] is a competent adult.  I admit its a tempting departure point since [Riddle] *does* in fact kill her off fairly early after his return.  This work features a redeamable [Snape], which isn't my favourite.  There is a semi-reasonable attempt to make it plausible.  It is ... semi-reasonable. It features fairly reasonable [Ron] bashing, and almost but not quite over the top [Molly] and [Dumbledore] bashing.  Of particular note is that the premise for [Dumbledore]'s actions is more thought out than most bashing works.
     </dd>
+
 </dl>
 
-[typical adult]: </Harrypedia/people/adults/>
-[Arthur]: </Harrypedia/people/Weasley/Arthur/>
-[Amelia]: </Harrypedia/people/Bones/Amelia_Susan/>
-[Umbridge]: </Harrypedia/people/Umbridge/Delores_Jane/>
-[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
+[typical adult]: /Harrypedia/people/adults/
+[Arthur]: /Harrypedia/people/Weasley/Arthur/
+[Amelia]: /Harrypedia/people/Bones/Amelia_Susan/
+[Umbridge]: /Harrypedia/people/Umbridge/Delores_Jane/
+[Riddle]: /Harrypedia/people/Riddle/Tom_Marvolo/
+[Ron]: /Harrypedia/people/Weasley/Ronald_Bilius/
+[Bill]: /Harrypedia/people/Weasley/William_Arthur/
+[James]: /Harrypedia/people/Potter/James/
+[Dark Magic]: /Harrypedia/magic/dark/
+[Statute of Secrecy]: /Harrypedia/culture/international_statute_of_secrecy/
+[Malfoy]: /Harrypedia/people/Malfoy/Draco_Lucius/
+[Snape]: /Harrypedia/people/Snape/Severus//
+[Molly]: /Harrypedia/people/Prewett/Molly/
+[Slytherin]: /Harrypedia/Hogwarts/Slytherin/
+[Hogwarts]: /Harrypedia/Hogwarts/
+[Neville]: /Harrypedia/people/Longbottom/Neville/
+[Elle Woods]: https://www.imdb.com/title/tt0250494/characters/nm0000702?ref_=tt_cl_c_1
+[Umbrdige]: /Harrypedia/people/Umbridge/Delores_Jane/
 
-[Ron]: </Harrypedia/people/Weasley/Ronald_Bilius/>
+[^221214-2]: [Wikipedia](https://wikipedia.org). "[Emancipation of Minors](https://en.wikipedia.org/wiki/Emancipation_of_minors)" Last edited 2022-10-12.
 
-[Bill]: </Harrypedia/people/Weasley/William_Arthur/>
-
-[James]: </Harrypedia/people/Potter/James/>
-
-[Dark Magic]: </Harrypedia/magic/dark/>
-
-[Statute of Secrecy]: </Harrypedia/culture/international_statute_of_secrecy/>
-
-[Malfoy]: </Harrypedia/people/Malfoy/Draco_Lucius/>
-
-[Snape]: </Harrypedia/people/Snape/Severus//>
-
-[Molly]: </Harrypedia/people/Prewett/Molly/>
-
-[Slytherin]: </Harrypedia/Hogwarts/Slytherin/>
-
-[Hogwarts]: </Harrypedia/Hogwarts/>
-
-[Neville]: </Harrypedia/people/Longbottom/Neville/>
-
-[Elle Woods]: <https://www.imdb.com/title/tt0250494/characters/nm0000702?ref_=tt_cl_c_1>
-
-[Umbrdige]: </Harrypedia/people/Umbridge/Delores_Jane/>
-
-[^221214-2]: [Wikipedia](https://wikipedia.org).  "[Emancipation of Minors](https://en.wikipedia.org/wiki/Emancipation_of_minors)" Last edited 2022-10-12.
-
-[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
-
-[Sirius]: </Harrypedia/people/Black/Sirius_iii/>
-
-[Harry]: </Harrypedia/people/Potter/Harry_James/>
-
-[Vernon]: </Harrypedia/people/Dursley/Vernon/>
-
-[Snape]: </Harrypedia/people/Snape/Severus/>
-
-[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
-
-[McGonagall]: </Harrypedia/people/McGonagall/Minerva/>
-
-[Dursleys]: </Harrypedia/people/Dursley/>
-
-[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
-
-[basilisk]: </Harrypedia/animals/basilisk>
-
-[Lupin]: </Harrypedia/people/Lupin/Remus_John/>
-
-[Lily]: </Harrypedia/people/Evans/Lily_J./>
-
-[Sprout]: </Harrypedia/people/Sprout/Pomona/>
-
-[Azkaban]: </Harrypedia/azkaban/>
-
-[Umbridge]: </Harrypedia/people/Umbridge/Delores_Jane/>
-
-[Hufflepuff]: </Harrypedia/Hogwarts/Hufflepuff/>
+[Hermione]: /Harrypedia/people/Granger/Hermione_Jean/
+[Sirius]: /Harrypedia/people/Black/Sirius_iii/
+[Harry]: /Harrypedia/people/Potter/Harry_James/
+[Vernon]: /Harrypedia/people/Dursley/Vernon/
+[Snape]: /Harrypedia/people/Snape/Severus/
+[Riddle]: /Harrypedia/people/Riddle/Tom_Marvolo/
+[McGonagall]: /Harrypedia/people/McGonagall/Minerva/
+[Dursleys]: /Harrypedia/people/Dursley/
+[Dumbledore]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/
+[basilisk]: /Harrypedia/animals/basilisk
+[Lupin]: /Harrypedia/people/Lupin/Remus_John/
+[Lily]: /Harrypedia/people/Evans/Lily_J./
+[Sprout]: /Harrypedia/people/Sprout/Pomona/
+[Azkaban]: /Harrypedia/azkaban/
+[Umbridge]: /Harrypedia/people/Umbridge/Delores_Jane/
+[Hufflepuff]: /Harrypedia/Hogwarts/Hufflepuff/
 
 [^lbcx]: including but not limited to
-    * _[Who Let Her In Here?](https://archiveofourown.org/works/19495357)_
+
+    - _[Who Let Her In Here?](https://archiveofourown.org/works/19495357)_
       by [Space_Girl44](https://archiveofourown.org/users/Space_Girl44/pseuds/Space_Girl44)
       (I can't put my finger on it, but the characterisation seems slightly off)
-    * _[Good Pink vs Bad Pink](https://www.fanfiction.net/s/13193971/)_
+    - _[Good Pink vs Bad Pink](https://www.fanfiction.net/s/13193971/)_
       by [Singstar4](https://www.fanfiction.net/u/4265633/Singstar4)
       (incomplete)
 
 [The Boy Who Never Knew]: https://www.fanfiction.net/s/6681967
-
 [Harry Potter gets smart and takes control - The Goblet]: https://archiveofourown.org/works/19162495
-
 [HPGSTCC14]: https://archiveofourown.org/works/19162495/chapters/47889940
 
-[^240916-1]: [YoullNeverCatchMeAliveSaidHe]. _[Harry Potter gets smart and takes control - The Goblet]_, "[Chapter 17: Results and Revelations](https://archiveofourown.org/works/19162495/chapters/48546074)"  Published: 2022-04-09. Updated: 2022-08-15.
+[^240916-1]: [YoullNeverCatchMeAliveSaidHe]. _[Harry Potter gets smart and takes control - The Goblet]_, "[Chapter 17: Results and Revelations](https://archiveofourown.org/works/19162495/chapters/48546074)" Published: 2022-04-09. Updated: 2022-08-15.
 
 [YoullNeverCatchMeAliveSaidHe]: https://archiveofourown.org/users/YoullNeverCatchMeAliveSaidHe/pseuds/YoullNeverCatchMeAliveSaidHe

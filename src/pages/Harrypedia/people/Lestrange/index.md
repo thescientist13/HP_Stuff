@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Lestrange"
 layout: family
 title: Lestrange
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Slytherin"
 layout: family
 title: Slytherin
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

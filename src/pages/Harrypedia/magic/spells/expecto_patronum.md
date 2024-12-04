@@ -3,7 +3,7 @@ collection: Harrypedia
 type: "spell"
 title: Expecto Patronum
 spells: "Expecto Patronum"
-author: 
+author:
 ---
 
 ## Classification
@@ -20,14 +20,14 @@ the power of the guardian, but rather brightness. The description claims that
 someone sufficiently impure casting this spell will cause maggots to gush from
 the casting wand which will consume the castor.
 
-[Dementor]: <../../../non-beings/dementor>
+[Dementor]: ../../../non-beings/dementor
 
 ## Found in
 
 Primary Cannon
-:   citation needed.
+: citation needed.
 
 Secondary Cannon
-:   [magicscrapbook](https://magicscrapbook.tumblr.com/)
-    "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
-    Last Viewed 2021-09-30.
+: [magicscrapbook](https://magicscrapbook.tumblr.com/)
+"[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
+Last Viewed 2021-09-30.

@@ -5,9 +5,9 @@ events:
     description: |
       [Snape] started at [Hogwarts] in either fall of 1981 or possibly the spring of
       that year.
-      
+
       [Snape]: <../people/snape/severus/>
-      
+
       [Hogwarts]: <../hogwarts/>
     source: |
       Mrs. J. K. Rowling. _Harry Potter and the Order of the Phoenix_
@@ -21,7 +21,7 @@ events:
     description: |
       We are told this was a few days after he heard of [Riddle]'s first fall, so 
       presumably in November.  This seems suggests that [Snape] started mid-year.
-      
+
       [Riddle]: <../people/riddle/tom_marvolo/>
-      
+
       [Snape]: <../people/snape/severus/>

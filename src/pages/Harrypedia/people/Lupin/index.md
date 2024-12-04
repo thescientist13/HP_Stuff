@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Lupin"
 layout: family
 title: Lupin
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

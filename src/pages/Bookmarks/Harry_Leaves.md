@@ -6,7 +6,7 @@ author: "Luke Schierer"
 ---
 
 These stories are primarily notable in that [Harry][] leaves Britain, the
-magical world, or both. 
+magical world, or both.
 
 <dl>
   <dt>_[Good Bye, Farewell, So Long …](https://www.fanfiction.net/s/14124126)_ (title redacted)</dt>
@@ -69,34 +69,19 @@ magical world, or both.
   
 </dl>
 
-[Hogwarts]: </Harrypedia/Hogwarts/>
-
-[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
-
+[Hogwarts]: /Harrypedia/Hogwarts/
+[Riddle]: /Harrypedia/people/Riddle/Tom_Marvolo/
 [FanFiction.net]: https://www.fanfiction.net
-
 [AO3]: https://www.archiveofourown.org
-
-[Snape]: </Harrypedia/people/Snape/Severus//>
-
-[Draco]: </Harrypedia/people/Malfoy/Draco_Lucius/>
-
-[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
-
-[Ginny]: </Harrypedia/people/Weasley/Ginevra_Molly/>
-
-[Harry]: </Harrypedia/people/Potter/Harry_James/>
-
-[Professor Sprout]: </Harrypedia/people/Sprout/Pomona/>
-
-[Baron Samedi]: <https://en.wikipedia.org/wiki/Baron_Samedi>
-
-[Horcruxes]: </Harrypedia/magic/dark/horcruxes>
-
+[Snape]: /Harrypedia/people/Snape/Severus//
+[Draco]: /Harrypedia/people/Malfoy/Draco_Lucius/
+[Dumbledore]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/
+[Ginny]: /Harrypedia/people/Weasley/Ginevra_Molly/
+[Harry]: /Harrypedia/people/Potter/Harry_James/
+[Professor Sprout]: /Harrypedia/people/Sprout/Pomona/
+[Baron Samedi]: https://en.wikipedia.org/wiki/Baron_Samedi
+[Horcruxes]: /Harrypedia/magic/dark/horcruxes
 [The Hidden Hero]: https://archiveofourown.org/works/36929347
-
 [EveBB]: https://archiveofourown.org/users/EveBB/pseuds/EveBB
-
 [It's My Life]: https://www.fanfiction.net/s/6234089/
-
 [Fyreheart]: https://www.fanfiction.net/u/1788452/Fyreheart

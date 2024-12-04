@@ -7,7 +7,7 @@ author: "Luke Schierer"
 
 Many of these stories happen when [Amelia][] Bones steps in to, you know,
 actually do her job as a law enforcement official, and thus belong in the
-[Responsible Adult][] category.  This page is focused on those that do not.
+[Responsible Adult][] category. This page is focused on those that do not.
 
 <dl>
     <dt>_[Thick as Thieves](https://archiveofourown.org/works/41869032/)_</dt>
@@ -43,17 +43,10 @@ actually do her job as a law enforcement official, and thus belong in the
 </dl>
 
 [RaspberryDreams1]: https://archiveofourown.org/users/RaspberryDreams1
-
 [Magical Blocks and Bonds]: https://archiveofourown.org/works/52672777/
-
-[Harry]: </Harrypedia/people/Potter/Harry_James/>
-
-[Susan]: </Harrypedia/people/Bones/Susan/>
-
-[Ron]: </Harrypedia/people/Weasley/Ronald_Bilius/>
-
-[Responsible Adult]: <../ResponsibleAdults/>
-
-[Amelia]: </Harrypedia/people/Bones/Amelia_Susan/>
-
-[Draco]: </Harrypedia/people/Malfoy/Draco_Lucius/>
+[Harry]: /Harrypedia/people/Potter/Harry_James/
+[Susan]: /Harrypedia/people/Bones/Susan/
+[Ron]: /Harrypedia/people/Weasley/Ronald_Bilius/
+[Responsible Adult]: ../ResponsibleAdults/
+[Amelia]: /Harrypedia/people/Bones/Amelia_Susan/
+[Draco]: /Harrypedia/people/Malfoy/Draco_Lucius/

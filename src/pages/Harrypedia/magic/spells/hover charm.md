@@ -13,13 +13,14 @@ Charm
 
 A variation of [Wingardium Leviosa][].
 
-[Wingardium Leviosa]: <../wingardium_leviosa>
+[Wingardium Leviosa]: ../wingardium_leviosa
+
 ## Found in
 
 Primary Cannon
-:   citation needed.
+: citation needed.
 
 Secondary Cannon
-:   [magicscrapbook](https://magicscrapbook.tumblr.com/)
-    "[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
-    Last Viewed 2021-09-30.
+: [magicscrapbook](https://magicscrapbook.tumblr.com/)
+"[‘Book of Spells’ transcript](https://magicscrapbook.tumblr.com/post/162085200042/book-of-spells-transcript)"
+Last Viewed 2021-09-30.

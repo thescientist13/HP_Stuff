@@ -1,7 +1,7 @@
 ---
 title: "Fan Fiction Bookmarks"
 collection: Bookmarks
-author: 'Luke Schierer'
+author: "Luke Schierer"
 sidebar:
   order: 1
 imports:

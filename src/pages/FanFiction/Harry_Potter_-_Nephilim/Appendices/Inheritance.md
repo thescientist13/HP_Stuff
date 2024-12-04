@@ -20,11 +20,11 @@ layout: fanfiction
 
 1.  These rules must be applied as an ordered list, with earlier rules taking
     precidence over later rules.
-1.  Magical traits are almost always inherited following magical rules. However, periodically these rules stop working for no known reason.  Whether or not these rules work is determined on a *per trait* basis.
+1.  Magical traits are almost always inherited following magical rules. However, periodically these rules stop working for no known reason. Whether or not these rules work is determined on a _per trait_ basis.
 1.  Any time these rules stop working, there is a significant drop in any behavior that cannot be explained by normal (mundane) natural philosophy,
-    * Inexpecable behavior, while it might get vanishingly small, will never *fully* disappear.
-    * It takes multiple generations for any inexplicable behavior to reach the point where it can be described as "vanishingly small."
-1.  Most magical creatures are a mix of magical and non-magical traits.  For any given creature, the vast majority of traits seem to follow Mendelian genetics most of the time.
+    - Inexpecable behavior, while it might get vanishingly small, will never _fully_ disappear.
+    - It takes multiple generations for any inexplicable behavior to reach the point where it can be described as "vanishingly small."
+1.  Most magical creatures are a mix of magical and non-magical traits. For any given creature, the vast majority of traits seem to follow Mendelian genetics most of the time.
 1.  For hereditary magical traits (including where appropriate, the ability to
     directly use magic), heredity is closely linked to gender. A male child will be more likely to inherit from his father, then next most likely to inherit from both parents, then from his mother. The reverse is true for a female child.
 1.  With any magical trait, there is a possibility of something truly bizarre
@@ -51,21 +51,20 @@ layout: fanfiction
       changes induced by different magics requiring opposing emotional contexts
       might cancel each other out.
     - Intent matters,
-      * where malicous intent is present, we *tend* to see the most crippling
+      - where malicous intent is present, we _tend_ to see the most crippling
         effects.
-      * if the intent was preservation of self or others, or if there were
+      - if the intent was preservation of self or others, or if there were
         strong elements of coercion involved, the corruption tends to be mitigated in odd unexpected ways.
-      * This is not to say the change is *lesser* for those with benign intent,
-        but rather that it tends to *cripple* them less.
+      - This is not to say the change is _lesser_ for those with benign intent,
+        but rather that it tends to _cripple_ them less.
     - While all emotional magic falls in this category of corrupting the user,
       there are other classes of magic that do as well.
-    - Magic that _decreases_ free will of the _target_ has _incredibly_ low   thresholds.
+    - Magic that _decreases_ free will of the _target_ has _incredibly_ low thresholds.
       - The [Imperius] curse
       - the Confundus curse
       - some uses of memory charms
     - The thresholds involved for each kind of magic are very poorly researched
       and not at all understood.
-
 
 ## Things not known to the researchers in world
 
@@ -79,7 +78,7 @@ There are in fact, though no-inworld scholar knows this, precise percentage base
 1.  For any **non-magical** trait that does _not_ follow Mendelian genetics,
     there is a 20% chance that the trait will become a hereditary magical trait.
 1.  Corruption is _caused_ not necessarily by the spell being cast, but
-    by the nature of magic itself. See [Magical Contracts] and [Soteriology, Missiology and Ecclesiology].  Note *both* references are required for a full understanding despite the fact that [Magical Contracts] does not *directly* talk about corrupting changes.  It is entirely possible that a contract could cause a nephil's magic to act against the nephil himself/herself either as a penalty or as an operative clause.
+    by the nature of magic itself. See [Magical Contracts] and [Soteriology, Missiology and Ecclesiology]. Note _both_ references are required for a full understanding despite the fact that [Magical Contracts] does not _directly_ talk about corrupting changes. It is entirely possible that a contract could cause a nephil's magic to act against the nephil himself/herself either as a penalty or as an operative clause.
 1.  Each trait has a precise percentage based chance of being inherited:
     - a 50% chance of inheriting solely from the same gender parent,
     - a 14% chance of a partial inheritance from both parents,
@@ -88,8 +87,8 @@ There are in fact, though no-inworld scholar knows this, precise percentage base
     - a 7% chance of inheriting solely from the opposite gender parent,
     - a 6% chance of inheriting the sum total of both parents,
     - a 4% chance of a partial inheritance from just the opposite gender parent,
-    - a 1% chance of something truly bizarre happening.  Scholars are **_sometimes_** right in attributing causes to these bizarre occurances when they are studied.
-    - a 0.5% chance of becoming mundane (total loss of any behavior and ability n ot explicable by mundane natural philospophy).  Scholars cannot distinguish this from the severe drop that occurs when a trait suddenly starts following Mendelian genetics.
+    - a 1% chance of something truly bizarre happening. Scholars are **_sometimes_** right in attributing causes to these bizarre occurances when they are studied.
+    - a 0.5% chance of becoming mundane (total loss of any behavior and ability n ot explicable by mundane natural philospophy). Scholars cannot distinguish this from the severe drop that occurs when a trait suddenly starts following Mendelian genetics.
     - Use of a corrupting magic sufficient to reach a change threshold
       frequently predisposes the next generation to be susceptible to either that type of magic, the type of emotions that are required for that magic, or both, by 10% _per ancestor_. That is, the next generation might have _stronger concupiscence_ and in fact _less free will._
       - If the total effect exceeds 90% (at 100% you would have no free will),
@@ -108,36 +107,24 @@ There are in fact, though no-inworld scholar knows this, precise percentage base
 
 [^241125-1]: History does record some notable exceptions to this, including but not limtied to the wizard known as "[Raczidian]."[^241125-2]
 
-[^241125-2]: Mrs. J. K. Rowling & Sony Computer Entertainment Europe.
-    _[Miranda Goshawk's Book of Spells](https://archive.org/details/0_20211019/)_
-    2013.  Page 66.
+[^241125-2]:
+    Mrs. J. K. Rowling & Sony Computer Entertainment Europe.
+    _[Miranda Goshawk's Book of Spells](https://archive.org/details/0_20211019/)_ 2013. Page 66.
 
-[Raczidian]: </Harrypedia/people/Raczidian/>
-
+[Raczidian]: /Harrypedia/people/Raczidian/
 [source works]: /FanFiction/Harry_Potter_-_Nephilim/Introduction/
-
 [Many Waters]: https://wikipedia.org/wiki/Many_Waters
-
-[AA]: <../Points%20of%20Divergence/>
-
+[AA]: ../Points%20of%20Divergence/
 [AB]: <../Rules of Magic/>
-
 [AC]: <../Magical Beings/>
-
 [AD]: <../Relative Power Levels/>
-
 [AE]: <../Life Expectancy/>
-
 [Magical Contracts]: <../Magical Contracts/>
-
-[Soteriology, Missiology and Ecclesiology]: <../Appendix_G/>
-
-[AH]: <../Appendix_H/>
-
-[Appendix I]: <../Appendix_I/>
+[Soteriology, Missiology and Ecclesiology]: ../Appendix_G/
+[AH]: ../Appendix_H/
+[Appendix I]: ../Appendix_I/
 
 [^241123-1]: See [Soteriology, Missiology and Ecclesiology] and [Points of Divergence]
 
-[Points of Divergence]: <../Points%20of%20Divergence/>
-
-[hippogriff]: </Harrypedia/animals/hippogriff/>
+[Points of Divergence]: ../Points%20of%20Divergence/
+[hippogriff]: /Harrypedia/animals/hippogriff/

@@ -7,7 +7,7 @@ author: "Luke Schierer"
 
 While The Harry Potter universe offers a great foundation for building on, it also has plenty
 of places where Mrs. Rowling has left us with inconsistencies, contradictions, and other plot
-holes.  These stories, often through the use of satire and/or farce, expose some of those.
+holes. These stories, often through the use of satire and/or farce, expose some of those.
 
 <dl>
     <dt>_[Confounded Confundus](https://www.fanfiction.net/s/13089996)_</dt>
@@ -31,8 +31,8 @@ holes.  These stories, often through the use of satire and/or farce, expose some
     <dd>
         Comments: A brutal disection of [Dumbledore]'s inaction disguised as in interview with the Oracle of Delphi.
     </dd>
+
 </dl>
 
-[Harry]: </Harrypedia/people/Potter/Harry_James/>
-
+[Harry]: /Harrypedia/people/Potter/Harry_James/
 [Dumbledore]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/

@@ -89,10 +89,9 @@ This gives our central characters life expectancies as follows:
 |      Weasley      |   Ginny    |     7.55      |     140.91      |
 |      Weasley      |   Arthur   |     7.33      |     135.81      |
 | Weasley (Prewett) |   Molly    |     6.88      |     127.48      |
-|     Delacour      |   Fleur    |     7.44      |     111.29\*     |
+|     Delacour      |   Fleur    |     7.44      |    111.29\*     |
 
 \* Fleur is quarter-veela, see [The Veela Curse].
 
 [The Veela Curse]: ../Appendix_I/
-
 [Life Tables for the United States Social Security Area 1900-2100]: https://www.ssa.gov/oact/NOTES/pdf_studies/study120.pdf

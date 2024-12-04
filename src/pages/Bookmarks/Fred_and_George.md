@@ -5,7 +5,7 @@ description: "HP Stories featuring Fred and George as main characters"
 author: "Luke Schierer"
 ---
 
-These stories that are really about Fred and George, more than they are about Harry himself. 
+These stories that are really about Fred and George, more than they are about Harry himself.
 
 <dL>
     <dt>_[Adventures in Child Care and Other One Shots](https://www.fanfiction.net/s/4038774)_</dt>
@@ -24,9 +24,8 @@ These stories that are really about Fred and George, more than they are about Ha
     <dd>
         Comments: [Harry] gave the twins his TriWizard reward because he felt that the world would need more humor.  It tickles my fancy that they would take that seriously when [Ginny] needed it most.
     </dd>
+
 </dL>
 
-
 [Harry]: /Harrypedia/people/Potter/Harry_James/
-
 [Ginny]: /Harrypedia/people/Weasley/Ginevra_Molly/

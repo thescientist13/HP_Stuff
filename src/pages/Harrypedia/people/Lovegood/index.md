@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Lovegood"
 layout: family
 title: Lovegood
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

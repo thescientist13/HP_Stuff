@@ -14,14 +14,13 @@ events:
 
   - type: mundane england
     blurb: NSPCC empowered.
-    description: > 
+    description: >
       The National Society for the Prevention of Cruelty to Children (NSPCC) was granted statutory powers under the Children Act 1989 to apply
       for care and supervision orders for children at risk.
     source: |
       [Wikipedia] "[National Society for the Prevention of Cruelty to
       Children]" Last Edited: 2021-11-30. Last Viewed: 2021-12-02.
-      
+
       [Wikipedia]: https://wikipedia.org/
-      
+
       [National Society for the Prevention of Cruelty to Children]: https://en.wikipedia.org/wiki/National_Society_for_the_Prevention_of_Cruelty_to_Children
-      

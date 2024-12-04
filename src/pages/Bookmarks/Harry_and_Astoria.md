@@ -7,15 +7,15 @@ author: "Luke Schierer"
 
 It is relatively rare to find this as a primary pairing, most often these
 stories feature some type of revenge on [Draco]
-instead of a positive relationship between these two as a primary pairing.  I
+instead of a positive relationship between these two as a primary pairing. I
 am not interested in violating marriage vows as a form of revenge, momentary
-pleasure, or drunkenness.  
+pleasure, or drunkenness.
 
 These stories will focus on a version of [Astoria]
-that build off of the *lack* of detail we have about her character.  Mrs.
+that build off of the _lack_ of detail we have about her character. Mrs.
 Rowling's descriptions about the decision process that, in the cannon material,
 lead to her marriage is incredibly vague and in some ways even suggestive.
-These stories take that vague suggestion and run with it. 
+These stories take that vague suggestion and run with it.
 
 <dl>
     <dt>_[Motivations](https://web.archive.org/web/20220330075436/https://jeconais.fanficauthors.net/Motivations/)_</dt>
@@ -38,14 +38,11 @@ These stories take that vague suggestion and run with it.
         chapters it would probably be more readable.  The pure-blood princess is
         confronted with her prejudice, but is a decent enough person to grow from
         the experience.</dd>
+
 </dl>
 
-[Draco]: </Harrypedia/people/Malfoy/Draco_Lucius/>
-
-[Astoria]: </Harrypedia/people/Greengrass/Astoria/>
-
-[Ron]: </Harrypedia/people/Weasley/Ronald_Bilius/>
-
-[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
-
-[Harry]: </Harrypedia/people/Potter/Harry_James/>
+[Draco]: /Harrypedia/people/Malfoy/Draco_Lucius/
+[Astoria]: /Harrypedia/people/Greengrass/Astoria/
+[Ron]: /Harrypedia/people/Weasley/Ronald_Bilius/
+[Hermione]: /Harrypedia/people/Granger/Hermione_Jean/
+[Harry]: /Harrypedia/people/Potter/Harry_James/

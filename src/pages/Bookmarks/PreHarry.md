@@ -66,21 +66,12 @@ author: "Luke Schierer"
 </dl>
 
 [James]: /Harrypedia/people/Potter/James/
-
 [Lily]: /Harrypedia/people/Evans/Lily_J./
-
 [Sirius]: /Harrypedia/people/Black/Sirius_iii/
-
 [Hagrid]: /Harrypedia/people/Hagrid/Rubeus/
-
 [Snape]: /Harrypedia/people/Snape/Severus//
-
 [Harry]: /Harrypedia/people/Potter/Harry_James/
-
 [Dumbledore]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/
-
 [secondary sources]: /Harrypedia/#secondary-sources
-
 [primary canon]: /Harrypedia/#primary-sources
-
 [book two]: https://www.librarything.com/work/683408

@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Delacour"
 layout: family
 title: Delacour
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

@@ -3,10 +3,8 @@ collection: Harrypedia
 family: "Goyle"
 title: Gregory
 hero: I0107
-author: 
+author:
 layout: person
 ---
 
-
 ### Analysis
-

@@ -3,10 +3,8 @@ collection: Harrypedia
 families: "Grindelwald"
 layout: family
 title: Grindelwald
-author: 
+author:
 tags: ["family"]
 sidebar:
   order: 1
 ---
-
-

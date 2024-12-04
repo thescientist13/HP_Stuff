@@ -5,8 +5,8 @@ description: HP stories with Harry and Ginny paired
 author: "Luke Schierer"
 ---
 
-While [Ginny] has flaws, I remain partial to this pairing.  Unfortunately fan
-fiction rarely does it justice.  
+While [Ginny] has flaws, I remain partial to this pairing. Unfortunately fan
+fiction rarely does it justice.
 
 <dl>
     <dt>_[Escape Artist](https://www.fanfiction.net/s/14109811)_</dt>
@@ -122,7 +122,7 @@ fiction rarely does it justice.
         in a serious relationship, therefore she isn't in one. [Harry] broke up
         with her, therefore he isn't interested in her, so why would they be
         together?  These two statements sum up all the energy that is left when
-        you are lost in grief.  The downside to this shorter version is that [Ginny] does a ton of lying and then blames her family for not realizing she is lying. 
+        you are lost in grief.  The downside to this shorter version is that [Ginny] does a ton of lying and then blames her family for not realizing she is lying.
     </dd>
 
     <dt>_[Perilous Journey](https://www.fanfiction.net/s/8281675)_</dt>
@@ -217,7 +217,7 @@ fiction rarely does it justice.
         I do enjoy it.  This book has one plot element that I particularly like,
         [Harry] crafts runes that amplify the power of the sacrifice he makes when he allows [Riddle] to kill him.
     </dd>
-    
+
     <dt>
         _[Love Breaks The Noble Spirit](https://www.fanfiction.net/s/8070065/)_
     </dt>
@@ -228,7 +228,7 @@ fiction rarely does it justice.
         Published: 2012-04-29. Updated: 2013-05-04.
     </dd>
     <dd>
-        Comments: I am a bit conflicted on this one.  On one hand, I like the   
+        Comments: I am a bit conflicted on this one.  On one hand, I like the
         stronger [Harry]/[Ginny] interaction.  The amulet induced bond is an
         interesting idea as well.  On the other hand, the premise of the story
         is to minimally extend canon to allow for the stronger relationship.
@@ -280,74 +280,50 @@ fiction rarely does it justice.
 
     <dt>Stories involving [Ginny]'s missed birthday</dt>
     <dd>
-        * _[The Forgotten Day](https://www.fanfiction.net/s/13183663)_ by 
+        * _[The Forgotten Day](https://www.fanfiction.net/s/13183663)_ by
           [BlockPlacer](https://www.fanfiction.net/u/8570749/BlockPlacer)
-        * _[Fireworks](https://www.fanfiction.net/s/7537726)_ by 
+        * _[Fireworks](https://www.fanfiction.net/s/7537726)_ by
           [ashfordpines](https://www.fanfiction.net/u/2919392/ashfordpines)
         * _[The Forgotten Summer Birthday](https://www.siye.co.uk/siye/viewstory.php?sid=130062)_ by [CharmHazel](https://www.siye.co.uk/siye/viewuser.php?uid=209861)
     </dd>
     <dd>
         Comment: [Ginny]'s missed birthday irks me.  It might just be the
-        third person limited narration, but it fits a pattern I dislike. 
-        These stories are not necessarily notable in themselves, and I 
+        third person limited narration, but it fits a pattern I dislike.
+        These stories are not necessarily notable in themselves, and I
         do not want a full category page for them, but I want to call out
         that I am not the first or only person to note this problem.
     </dd>
 
-
-
 </dl>
 
 [The Hidden Hero]: https://www.fanfiction.net/s/3995826
-
 [featuring Hermione]: ../featuring_hermione/
+[Luna]: /Harrypedia/people/Lovegood/Luna/
+[Remus]: /Harrypedia/people/Lupin/Remus_John/
+[Grimmauld Place]: /Harrypedia/grimmauld_place
+[Lucius]: /Harrypedia/people/Malfoy/Lucius_Abraxas/
+[Horcruxes]: /Harrypedia/magic/dark/horcruxes
+[Dumbledore]: /Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/
+[Snape]: /Harrypedia/people/Snape/Severus/
+[Draco]: /Harrypedia/people/Malfoy/Draco_Lucius/
+[Realizations]: https://www.fanfiction.net/s/7875381
 
-[Luna]: </Harrypedia/people/Lovegood/Luna/>
-
-[Remus]: </Harrypedia/people/Lupin/Remus_John/>
-
-[Grimmauld Place]: </Harrypedia/grimmauld_place>
-
-[Lucius]: </Harrypedia/people/Malfoy/Lucius_Abraxas/>
-
-[Horcruxes]: </Harrypedia/magic/dark/horcruxes>
-
-[Dumbledore]: </Harrypedia/people/Dumbledore/Albus_Percival_Wulfric_Brian/>
-
-[Snape]: </Harrypedia/people/Snape/Severus/>
-
-[Draco]: </Harrypedia/people/Malfoy/Draco_Lucius/>
-
-[Realizations]: <https://www.fanfiction.net/s/7875381>
-
-[^220711-1]: Mrs. J. K. Rowling.
+[^220711-1]:
+    Mrs. J. K. Rowling.
     _[Harry Potter and the Prisoner of Azkaban](https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban)_
-    © 2000 Pottermore Limited. American Kindle Edition.  p 70. 
+    © 2000 Pottermore Limited. American Kindle Edition. p 70.
 
-[X-Men]: <https://en.wikipedia.com/wiki/X-Men>
-
-[Mutant Storm]: <https://www.fanfiction.net/s/7404056>
-
-[Backward With Purpose Part I: Always and Always]: <https://www.fanfiction.net/s/4101650>
-
-[James]: </Harrypedia/people/Potter/James/>
-
-[Lily]: </Harrypedia/people/Evans/Lily_J./>
-
-[Riddle]: </Harrypedia/people/Riddle/Tom_Marvolo/>
-
-[Harry]: </Harrypedia/people/Potter/Harry_James/>
-
-[Percy]: </Harrypedia/people/Weasley/percy_ignatius/>
-
-[Ginny]: </Harrypedia/people/Weasley/Ginevra_Molly/>
-
-[Molly]: </Harrypedia/people/Prewett/Molly/>
-
-[Hermione]: </Harrypedia/people/Granger/Hermione_Jean/>
-
-[Ron]: </Harrypedia/people/Weasley/Ronald_Bilius/>
-
-[Sirius]: </Harrypedia/people/Black/Sirius_iii/>
-
-[Lupin]: </Harrypedia/people/Lupin/Remus_John/>
+[X-Men]: https://en.wikipedia.com/wiki/X-Men
+[Mutant Storm]: https://www.fanfiction.net/s/7404056
+[Backward With Purpose Part I: Always and Always]: https://www.fanfiction.net/s/4101650
+[James]: /Harrypedia/people/Potter/James/
+[Lily]: /Harrypedia/people/Evans/Lily_J./
+[Riddle]: /Harrypedia/people/Riddle/Tom_Marvolo/
+[Harry]: /Harrypedia/people/Potter/Harry_James/
+[Percy]: /Harrypedia/people/Weasley/percy_ignatius/
+[Ginny]: /Harrypedia/people/Weasley/Ginevra_Molly/
+[Molly]: /Harrypedia/people/Prewett/Molly/
+[Hermione]: /Harrypedia/people/Granger/Hermione_Jean/
+[Ron]: /Harrypedia/people/Weasley/Ronald_Bilius/
+[Sirius]: /Harrypedia/people/Black/Sirius_iii/
+[Lupin]: /Harrypedia/people/Lupin/Remus_John/

@@ -3,10 +3,8 @@ collection: Harrypedia
 family: "Longbottom"
 title: Harfang
 hero: I0050
-author: 
+author:
 layout: person
 ---
 
-
 ### Analysis
-

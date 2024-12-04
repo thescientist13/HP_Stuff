@@ -6,5 +6,4 @@ hero: I0132
 layout: person
 ---
 
-
 ### Analysis

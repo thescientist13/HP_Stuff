@@ -7,7 +7,7 @@ author: "Luke Schierer"
 
 In general I feel that while Luna and Harry will almost always be friends, that
 unless you change one or the other significantly, they will never be more than
-that.  Still, there are some stories where she is the main character that are
+that. Still, there are some stories where she is the main character that are
 worth remembering.
 
 <dl>
@@ -30,8 +30,8 @@ worth remembering.
         and the potential for a relationship between Harry and Susan, but
         ultimately hinges on a friendship the three of them form with Luna.  Here,
         Luna is revealed to have an unusual gift…</dd>
+
 </dl>
 
-[H. P. Lovecraft]: <https://wikipedia.org/H._P._Lovecraft>
-
+[H. P. Lovecraft]: https://wikipedia.org/H._P._Lovecraft
 [MFLC]: https://lovecraft.fandom.com/wiki/Marsh_family

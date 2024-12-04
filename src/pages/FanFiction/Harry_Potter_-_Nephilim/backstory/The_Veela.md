@@ -31,9 +31,9 @@ The angels realised that in their quest for justice they had erred. Something ne
 - They bound their magic, such that their powers would never be inherited by any male child, to limit the growth of the community.
 - They bound their magic in a variety of ways intended to allow them self defence, focus their attention on their crimes, and prevent the extraordinarily strong abilities that remained from combining with any new abilities at any future point in history. Exactly what the good angels did in this intermediate stage has been lost to history. We know only the end result after both sides acted with certainty.
 
-The fallen angels were enraged that the evil community had been thus brought down, and struck back. They too pooled their powers, and twisted the community of women.  The changes they wrought where many, and all intended to prevent the veela from ever repenting or becoming a stable and peaceful species, but rather to make of them a race of monsters that would terrorise the surrounding communities and drive the populations around them to hatred, despair, and other vices.
+The fallen angels were enraged that the evil community had been thus brought down, and struck back. They too pooled their powers, and twisted the community of women. The changes they wrought where many, and all intended to prevent the veela from ever repenting or becoming a stable and peaceful species, but rather to make of them a race of monsters that would terrorise the surrounding communities and drive the populations around them to hatred, despair, and other vices.
 
-The good angels, seeing this backlash, ceased to meddle (with a few relatively minor exceptions centuries later) and focused their efforts on preventing the enemy from making full use of the veela.  See [Appendix I] for the resulting state.
+The good angels, seeing this backlash, ceased to meddle (with a few relatively minor exceptions centuries later) and focused their efforts on preventing the enemy from making full use of the veela. See [Appendix I] for the resulting state.
 
 [dwarfs made trolls]: ./The_Dwarfs/
 
@@ -47,6 +47,5 @@ The good angels, seeing this backlash, ceased to meddle (with a few relatively m
 
 [241120-9]: this is normal for nephil, see [Appendix H]
 
-[Appendix H]: <../../Appendices/Appendix_H/>
-
-[Appendix I]: <../../Appendices/Appendix_I/>
+[Appendix H]: ../../Appendices/Appendix_H/
+[Appendix I]: ../../Appendices/Appendix_I/

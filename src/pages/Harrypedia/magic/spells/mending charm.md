@@ -3,7 +3,7 @@ collection: Harrypedia
 type: "spell"
 title: Mending Charm
 spells: "Mending Charm"
-author: 
+author:
 ---
 
 ## Classification
@@ -12,12 +12,10 @@ Charm
 
 ## Description
 
-
-
 ## Found in
 
 Primary Cannon
-:   citation needed.
+: citation needed.
 
 Secondary Cannon
-:   citation needed.
+: citation needed.
