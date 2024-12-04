@@ -9,8 +9,11 @@ import { z } from "zod";
 
 import * as GrampsZod from "../../../lib/GrampsZodTypes.ts";
 
+//@ts-expect-error
 import { IndividualName } from "../individualName.ts";
+//@ts-expect-error
 import { GrampsEvent } from "../events.ts";
+//@ts-expect-error
 import { SimpleIndividual } from "../simpleIndividual.ts";
 
 import AncestorsTreeChartCSS from "../../../styles/AncestorsTreeChart.css" with { type: "css" };
