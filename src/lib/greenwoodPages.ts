@@ -1,5 +1,16 @@
 const DEBUG = true;
 
+export type Compilation = {
+  graph: [];
+  context: {};
+  config: {};
+  // TODO put resources into manifest
+  resources: Map<any, any>;
+  manifest: {
+    apis: Map<any, any>;
+  };
+};
+
 export type Page = {
   id: String;
   route: String;
