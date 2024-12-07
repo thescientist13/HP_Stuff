@@ -11,10 +11,10 @@
     "serve": "node --import ./bin/nodeSetup.js ./node_modules/@greenwood/cli/src/index.js serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "~0.31.0-alpha.0",
-    "@greenwood/plugin-google-analytics": "^0.31.0-alpha.0",
-    "@greenwood/plugin-postcss": "^0.31.0-alpha.0",
-    "@greenwood/plugin-typescript": "^0.31.0-alpha.0",
+    "@greenwood/cli": "0.31.0-alpha.0",
+    "@greenwood/plugin-google-analytics": "0.31.0-alpha.0",
+    "@greenwood/plugin-postcss": "0.31.0-alpha.0",
+    "@greenwood/plugin-typescript": "0.31.0-alpha.0",
     "@iconify/types": "^2.0.0",
     "@tsconfig/node22": "^22.0.0",
     "@types/d3": "^7.4.3",
@@ -71,7 +71,7 @@
     "dotenv": "^16.4.7",
     "fast-xml-parser": "^4.5.0",
     "gedcom-ts": "^1.1.1",
-    "iconify-icon": "^2.1.0",
+    "iconify-icon": "^2.2.0",
     "jsonschema": "^1.4.1",
     "lit": "^3.2.1",
     "lit-element": "^4.1.1",
