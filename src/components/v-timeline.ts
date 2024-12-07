@@ -66,55 +66,67 @@ export default class VerticalTimeline extends HTMLElement {
           return 0;
         }
       });
+      let template = this._events
+        .map((event, index) => {
+          const date = DateTime.fromJSDate(event.date as Date);
+          const description = event.description ? event.description : "";
+          const source =
+            event.source && event.source !== ""
+              ? `
+              <a href="#${date.toUnixInteger()}-${index}">
+                Sources # ${index + 1}
+              </a>
+              `
+              : "";
+          const returnable = `
+          <li id="${date.toUnixInteger().toString()}">
+            <h5 class=" spectrum-Heading spectrum-Heading--sizeM">
+              ${date.toISODate()}
+            </h5>
+            <div class="${event.type} spectrum-Typography">
+              <h6 class=" spectrum-Heading spectrum-Heading--sizeXS">
+                ${event.blurb}
+                <a name="${date.toUnixInteger()}-${index}-item">&nbsp;</a>
+              </h6>
+              ${description}
+              ${source}
+            </div>
+          </li>
+        `;
+          return returnable;
+        })
+        .join(" ");
       this.innerHTML = `
         <link rel="stylesheet" href="../styles/Timeline.css" />
         <section class="timeline">
           <ul class="timeline spectrum-Typography">
-            ${this._events.map((event, index) => {
-              const date = DateTime.fromJSDate(event.date as Date);
-              return `
-                <li id="${date.toUnixInteger().toString()}">
-                  <h5 class=" spectrum-Heading spectrum-Heading--sizeM">
-                    ${date.toISODate()}
-                  </h5>
-                  <div class="${event.type} spectrum-Typography">
-                    <h6 class=" spectrum-Heading spectrum-Heading--sizeXS">
-                      ${event.blurb}
-                    </h6>
-                    ${event.description ? event.description : ""}
-                    ${
-                      event.source && event.source !== ""
-                        ? `
-                      <a href="#${date.toUnixInteger()}-${index}"
-                        >Sources # ${index + 1}</a
-                      >
-                    `
-                        : ""
-                    }
-                  </div>
-                </li>
-              `;
-            })}
-            </li>
+            ${template}
           </ul>
         </section>
 
         <section  class="footnotes">
-            <ol class="spectrum-Typography">
-                ${this._events.map((entry, index) => {
-                  if (entry.source !== "") {
-                    const date = DateTime.fromJSDate(entry.date);
-                    return `
-                      <li>
-                        <a name=${`${date.toUnixInteger()}-${index}`}>
+          <h2 class=" spectrum-Heading spectrum-Heading--sizeS">
+            Sources
+          </h5>
+            <ol class="footnotes spectrum-Typography">
+                ${this._events
+                  .map((entry, index) => {
+                    if (entry.source !== "") {
+                      const date = DateTime.fromJSDate(entry.date);
+                      return `
+                      <li class="footnote spectrum-Typography">
+                        <a name="${`${date.toUnixInteger()}-${index}`}">
                           ${entry.source}
                         </a>
+                        <span class="spectrum-Body spectrum-Body--sizeS"><a href="#${date.toUnixInteger()}-${index}-item">return to entry &crarr;</a></span>
                       </li>
+
                     `;
-                  } else {
-                    return "";
-                  }
-                })}
+                    } else {
+                      return "";
+                    }
+                  })
+                  .join(" ")}
             </ol>
         </section>
       `;

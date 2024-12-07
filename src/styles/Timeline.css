@@ -1,6 +1,14 @@
 @import "@spectrum-css/tokens/dist/index.css";
 @import "@spectrum-css/page/dist/index.css";
 @import "@spectrum-css/typography/dist/index.css";
+@import "@spectrum-css/alertbanner/dist/index.css";
+@import "@spectrum-css/button/dist/index.css";
+@import "@spectrum-css/divider/dist/index.css";
+
+iconify-icon {
+  margin-right: 1.5rem;
+  font-size: 2rem;
+}
 
 li p {
   margin-top: 0px;
@@ -94,4 +102,13 @@ ul.timeline > li:before {
 
 section {
   margin-bottom: 4rem;
+}
+ol.footnotes {
+  list-style-position: outside;
+}
+
+ol.footnotes li.footnote {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dotted var(--spectrum-gray-200);
 }

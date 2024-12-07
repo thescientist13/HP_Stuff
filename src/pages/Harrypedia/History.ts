@@ -173,11 +173,18 @@ async function getBody(compilation: Compilation, route: Route) {
       );
     }
     return `
-    <div class="banner">
-      <p>
-        Note that the tool creating this timeline fills in unknown fields in dates.
-      </p>
+    <div class="banner spectrum-AlertBanner is-open spectrum-AlertBanner--info">
+      <div class=" spectrum-AlertBanner-body ">
+      <iconify-icon icon="octicon:info-16" ></iconify-icon>
+        <div class=" spectrum-AlertBanner-content ">
+          <p class=" spectrum-AlertBanner-text ">
+            Note that the tool creating this timeline fills in unknown fields in dates.
+          </p>
+        </div>
+
+      </div>
     </div>
+
     <vertical-timeline events="${encodeURIComponent(JSON.stringify(_events))}"></vertical-timeline>
   `;
   } else {
@@ -202,6 +209,7 @@ async function getLayout(compilation: Compilation, route: Route) {
       <script
         type="module"
         src="../components/v-timeline.ts"
+        data-gwd-opt="static"
       ></script>
     </head>
 
