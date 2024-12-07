@@ -1,4 +1,3 @@
-import { DateTime } from "luxon";
 import { z } from "zod";
 
 export const Event = z.object({

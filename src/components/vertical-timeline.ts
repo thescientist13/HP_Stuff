@@ -7,7 +7,9 @@ import { nothing } from "lit";
 import { Event, DisplayableEvent } from "../lib/TimelineTypes.ts";
 import { unsafeHTML } from "lit/directives/unsafe-html.js";
 
+//@ts-expect-error
 import SpectrumTokens from "@spectrum-css/tokens" with { type: "css" };
+//@ts-expect-error
 import SpectrumTypography from "@spectrum-css/typography" with { type: "css" };
 
 const DEBUG = true;
@@ -22,38 +24,6 @@ export default class VerticalTimeline extends LitElement {
 
   protected willUpdate(_changedProperties: PropertyValues): void {
     super.willUpdate(_changedProperties);
-
-    if (_changedProperties.has("events")) {
-      if (DEBUG) {
-        console.log(
-          `VerticalTimeline willUpdate detected change to this.events ${decodeURIComponent(this.events)}`,
-        );
-      }
-      if (
-        this.events !== undefined &&
-        this.events !== null &&
-        this.events.length > 0
-      ) {
-        const validate = Event.array().safeParse(
-          JSON.parse(decodeURIComponent(this.events)),
-        );
-        if (validate.success) {
-          validate.data.map((event) => {
-            this._events.push({
-              type: event.type,
-              blurb: event.blurb,
-              description: event.description,
-              source: event.source,
-              date: DateTime.fromISO(event.date as string).toJSDate(),
-            });
-          });
-        } else {
-          console.error(
-            `this.events  is something odd, ${validate.error.message}`,
-          );
-        }
-      }
-    }
   }
 
   static styles = [
@@ -166,6 +136,10 @@ export default class VerticalTimeline extends LitElement {
         height: 1em;
         margin-top: 0.25em;
       }
+
+      section {
+        margin-bottom: 4rem;
+      }
     `,
   ];
 
@@ -192,32 +166,53 @@ export default class VerticalTimeline extends LitElement {
         }
       });
       return html`
-        <ul class="timeline spectrum-Typography">
-          ${this._events.map((event, index) => {
-            const date = DateTime.fromJSDate(event.date as Date);
-            return html`
-              <li id="${date.toUnixInteger().toString()}">
-                <h5 class=" spectrum-Heading spectrum-Heading--sizeM">
-                  ${date.toISODate()}
-                </h5>
-                <div class="${event.type} spectrum-Typography">
-                  <h6 class=" spectrum-Heading spectrum-Heading--sizeXS">
-                    ${event.blurb}
-                  </h6>
-                  ${event.description && unsafeHTML(event.description)}
-                  ${event.source &&
-                  event.source !== "" &&
-                  html`
-                    <a href="#${(event.date! as Date).toString()}-${index}"
-                      >Sources</a
-                    >
-                  `}
-                </div>
-              </li>
-            `;
-          })}
-          </li>
-        </ul>
+        <section class="timeline">
+          <ul class="timeline spectrum-Typography">
+            ${this._events.map((event, index) => {
+              const date = DateTime.fromJSDate(event.date as Date);
+              return html`
+                <li id="${date.toUnixInteger().toString()}">
+                  <h5 class=" spectrum-Heading spectrum-Heading--sizeM">
+                    ${date.toISODate()}
+                  </h5>
+                  <div class="${event.type} spectrum-Typography">
+                    <h6 class=" spectrum-Heading spectrum-Heading--sizeXS">
+                      ${event.blurb}
+                    </h6>
+                    ${event.description && unsafeHTML(event.description)}
+                    ${event.source &&
+                    event.source !== "" &&
+                    html`
+                      <a href="#${date.toUnixInteger()}-${index}"
+                        >Sources # ${index}</a
+                      >
+                    `}
+                  </div>
+                </li>
+              `;
+            })}
+            </li>
+          </ul>
+        </section>
+
+        <section  class="footnotes">
+            <ol class="spectrum-Typography">
+                ${this._events.map((entry, index) => {
+                  if (entry.source !== "") {
+                    const date = DateTime.fromJSDate(entry.date);
+                    return html`
+                      <li>
+                        <a name=${`${date.toUnixInteger()}-${index}`}>
+                          ${unsafeHTML(entry.source)}
+                        </a>
+                      </li>
+                    `;
+                  } else {
+                    return nothing;
+                  }
+                })}
+            </ol>
+        </section>
       `;
     } else {
       return nothing;

@@ -201,7 +201,7 @@ async function getLayout(compilation: Compilation, route: Route) {
       <script type="module" src="../components/split-view.ts"></script>
       <script
         type="module"
-        src="../components/vertical-timeline.ts"
+        src="../components/v-timeline.ts"
       ></script>
     </head>
 
