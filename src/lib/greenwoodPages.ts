@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 
 export type Compilation = {
   graph: [];
@@ -9,6 +9,30 @@ export type Compilation = {
   manifest: {
     apis: Map<any, any>;
   };
+};
+
+export type Route = {
+  id: string;
+  label: string;
+  title: string;
+  route: string;
+  layout: string;
+  data: {
+    collection: string;
+    author: string | string[];
+    tableOfContents: [];
+    imports: [];
+    tocHeading: number | string;
+  };
+  imports: [];
+  resources: [];
+  pageHref: string;
+  outputHref: string;
+  isSSR: boolean;
+  prerender: boolean;
+  isolation: boolean;
+  hydration: boolean;
+  servePage: string;
 };
 
 export type Page = {
