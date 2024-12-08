@@ -14,8 +14,8 @@ Additionally, I have, as I stated, been reading fan fiction. This has lead to tw
 There will thus be three main sections to this site.
 
 1. [Encyclopedic notes and analysis of the canonical world as I see it.](/Harrypedia/)
-1. [My own fan fiction](/fanfiction/)
-1. tools to track and discover other people's fan fiction.
+1. [My own fan fiction](/FanFiction/)
+1. tools to [track](/Bookmarks/) and [discover](/Searches/) other people's fan fiction.
 
 [^1]: The [Lexicon][HPL3] for example makes inconsistent use of the [Fantastic Beasts] movies per its [statement](https://www.hp-lexicon.org/canon/) on the topic.
 
