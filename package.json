@@ -68,6 +68,8 @@
     "@spectrum-css/splitview": "^5.3.0",
     "@spectrum-css/tokens": "^14.6.0",
     "@spectrum-css/typography": "^6.2.0",
+    "@spectrum-web-components/shared": "^1.0.3",
+    "@spectrum-web-components/split-view": "^1.0.3",
     "dotenv": "^16.4.7",
     "fast-xml-parser": "^4.5.0",
     "gedcom-ts": "^1.1.1",

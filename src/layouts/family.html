@@ -2,20 +2,25 @@
 <html>
   <head>
     <script type="module" src="../components/side-nav.ts"></script>
-    <script type="module" src="../components/split-view.ts"></script>
+    <script
+      type="module"
+      src="/node_modules/@spectrum-web-components/split-view/sp-split-view.js"
+    ></script>
     <script type="module" src="../components/grampsParser/family.ts"></script>
   </head>
 
   <body>
     <span>Family Layout</span>
-    <split-view>
-      <div slot="left" class="nav">
+    <sp-split-view resizable primary-size="20%">
+      <div class="nav">
         <side-nav route="${globalThis.page.route}"></side-nav>
       </div>
-      <main slot="right">
-        <gramps-family id="grampsFamilyElement"></gramps-family>
-        <content-outlet></content-outlet>
-      </main>
-    </split-view>
+      <div>
+        <main>
+          <gramps-family id="grampsFamilyElement"></gramps-family>
+          <content-outlet></content-outlet>
+        </main>
+      </div>
+    </sp-split-view>
   </body>
 </html>
