@@ -108,12 +108,16 @@ export default class SideNav extends HTMLElement {
           ? "expanded"
           : " "
         : "";
+      const selected = !this.route.localeCompare(thisPage.route.toString())
+        ? "selected"
+        : "";
       return `
         <sp-sidenav-item
           value="${thisPage.route}"
           href="${thisPage.route}"
           label="${decodeURIComponent(thisPage.title ? thisPage.title.toString() : thisPage.label.toString().replaceAll("_", " "))}"
           ${expanded}
+          ${selected}
         >
           <iconify-icon
             icon=${directory ? "lsicon:folder-filled" : "ep:document"}
