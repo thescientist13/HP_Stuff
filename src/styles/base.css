@@ -1,21 +1,15 @@
 @import "@spectrum-css/tokens/dist/index.css";
 @import "@spectrum-css/page/dist/index.css";
 @import "@spectrum-css/typography/dist/index.css";
-
-:root {
-}
+@import "@spectrum-css/splitview/dist/index.css";
+@import "@spectrum-css/sidenav/dist/index.css";
 
 body {
-  padding: 0;
-  margin: 0;
+  margin: 0px;
 }
 
 main {
   margin: 2rem;
-}
-
-top-nav {
-  width: 100vw;
 }
 
 .imgCompare {

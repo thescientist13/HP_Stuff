@@ -12,6 +12,12 @@ export default class TopNav extends LitElement {
   public logoLocation: string = "";
 
   static localStyle = css`
+    :host {
+      display: block;
+      width: 100vw;
+      margin-bottom: 2rem;
+    }
+
     .header {
       background-color: var(--spectrum-blue-200);
       min-height: 30px;
