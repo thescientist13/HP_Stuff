@@ -72,6 +72,7 @@
     "@spectrum-web-components/shared": "^1.0.3",
     "@spectrum-web-components/sidenav": "^1.0.3",
     "@spectrum-web-components/split-view": "^1.0.3",
+    "@spectrum-web-components/theme": "^1.0.3",
     "dotenv": "^16.4.7",
     "fast-xml-parser": "^4.5.0",
     "gedcom-ts": "^1.1.1",

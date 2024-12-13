@@ -50,6 +50,9 @@ importers:
       '@spectrum-web-components/split-view':
         specifier: ^1.0.3
         version: 1.0.3
+      '@spectrum-web-components/theme':
+        specifier: ^1.0.3
+        version: 1.0.3
       dotenv:
         specifier: ^16.4.7
         version: 16.4.7
@@ -1476,6 +1479,12 @@ packages:
 
   '@spectrum-web-components/split-view@1.0.3':
     resolution: {integrity: sha512-bSIwm32X7DeWFpfXCkwuaLj+/DbsFCU6TWDIAccG/KzeJPZQdoQ5jtQhJJx2YFd9OOXiGzgMGURaF6YgJ1Ht9g==}
+
+  '@spectrum-web-components/styles@1.0.3':
+    resolution: {integrity: sha512-Ogkw3sxdUyKFr4GAd4Liwyb/fol3E6iotKm1BP4vO4qfuU/ANUC6JE6HXq25oflSandJsomUu7oK40jbxoRMCA==}
+
+  '@spectrum-web-components/theme@1.0.3':
+    resolution: {integrity: sha512-m9Zi6iLbUENq3ByxTar/bZny8Jr+VDpEgCvjVUb1nkL2RSaRaEfMOwZDYH8ZNa0LW98kx/d0Vwj/Lx9OcA5w8Q==}
 
   '@szmarczak/http-timer@4.0.6':
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
@@ -6791,6 +6800,16 @@ snapshots:
   '@spectrum-web-components/split-view@1.0.3':
     dependencies:
       '@spectrum-web-components/base': 1.0.3
+
+  '@spectrum-web-components/styles@1.0.3':
+    dependencies:
+      '@spectrum-web-components/base': 1.0.3
+      lit: 3.2.1
+
+  '@spectrum-web-components/theme@1.0.3':
+    dependencies:
+      '@spectrum-web-components/base': 1.0.3
+      '@spectrum-web-components/styles': 1.0.3
 
   '@szmarczak/http-timer@4.0.6':
     dependencies:
