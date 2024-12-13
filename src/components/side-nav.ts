@@ -1,7 +1,11 @@
-export const prerender = false;
-import { LitElement, html, css, type TemplateResult } from "lit";
-import { customElement, property } from "lit/decorators.js";
-import { until } from "lit/directives/until.js";
+export const prerender = true;
+
+import {
+  type Compilation,
+  type Route,
+  type Page,
+  sortPages,
+} from "../lib/greenwoodPages.ts";
 
 import {
   getContentByCollection,
@@ -12,413 +16,140 @@ import {
 import { TopLevelSections } from "../lib/topLevelSections.ts";
 //@ts-expect-error
 import SpectrumSideNav from "@spectrum-css/sidenav" with { type: "css" };
+import "@spectrum-web-components/sidenav/sp-sidenav.js";
+import "@spectrum-web-components/sidenav/sp-sidenav-heading.js";
+import "@spectrum-web-components/sidenav/sp-sidenav-item.js";
 
-const DEBUG = 0;
+const DEBUG = 1;
 
-import { sortPages, type Page } from "../lib/greenwoodPages.ts";
+export default class SideNav extends HTMLElement {
+  private route: string = "";
 
-@customElement("side-nav")
-export default class SideNav extends LitElement {
-  @property({ reflect: true })
-  public route: string = "";
-
-  private findChildFiles(
-    TopSection: string,
-    SubSection: string,
-    sectionContents: Page[],
-  ) {
-    if (DEBUG) {
-      console.log(`findChildFiles ${TopSection} ${SubSection}`);
-    }
-    const sectionFileRoutes = new Array<string>();
-    const sectionFiles = new Array<Page>();
-    sectionContents
-      .sort((a, b) => sortPages(a, b))
-      .filter((section: Page) => {
-        return section.route.startsWith(SubSection);
-      })
-      .filter((page: Page) => {
-        return !page.id.endsWith("index");
-      })
-      .filter((page) => {
-        const SectionRE = new RegExp(SubSection, "i");
-        const r = page.route.replace(SectionRE, "").split("/");
-        if (r.length == 2) {
-          return 1;
-        }
-        return 0;
-      })
-
-      .map((section: Page) => {
-        const candidate = section.route.toString();
-        if (candidate.localeCompare(this.route)) {
-          if (!sectionFileRoutes.includes(candidate)) {
-            if (DEBUG) {
-              console.log(`findChildFiles pushing ${candidate}`);
-            }
-            sectionFileRoutes.push(candidate);
-            sectionFiles.push(section);
-          }
-        }
-      });
+  private async findChildren(route: string) {
+    let tlsPage: Page | Page[] = await getContentByRoute(route);
+    const childRoutes = new Array<string>();
     if (DEBUG) {
       console.log(
-        `SpectrumSideNav findChildFiles ${TopSection} ${SubSection} found ${sectionFiles.length}`,
+        `findChildren tlsPage for ${route} is ${Array.isArray(tlsPage) ? tlsPage.length : 0} entries`,
       );
     }
-    return sectionFiles;
-  }
-
-  private findChildDirectories(
-    TopSection: string,
-    SubSection: string,
-    sectionContents: Page[],
-  ) {
-    if (DEBUG) {
-      console.log(
-        `SpectrumSideNav findChildDirectories ${TopSection} ${SubSection}`,
-      );
-    }
-    const sectionDirectories = new Array<Page>();
-    const sectionDirectoryRoutes = new Array<string>();
-    sectionContents
-      .sort((a, b) => sortPages(a, b))
-      .filter((page: Page) => {
-        return page.route.startsWith(SubSection);
-      })
-      .filter((page: Page) => {
-        const i = page.id.endsWith("index");
-        return i;
-      })
-      .filter((page) => {
-        const SectionRE = new RegExp(SubSection, "i");
-        const r = page.route.replace(SectionRE, "").split("/");
-        if (r.length == 2) {
-          return 1;
-        }
-        return 0;
-      })
-      .sort((a: Page, b: Page) => {
-        const aKeys = Object.keys(a);
-        const bKeys = Object.keys(b);
-        if (aKeys.includes("title") && bKeys.includes("title")) {
-          const at = a.title?.toString() ?? "";
-          const bt = b.title?.toString() ?? "";
-          return at.localeCompare(bt);
-        }
-        if (DEBUG) {
-          console.log(`findChildDirectories a title is missing`);
-        }
-        return a.route.toString().localeCompare(b.route?.toString());
-      })
-      .map((page: Page) => {
-        const routeArray = page.route.split("/");
-        const candidate = routeArray.slice(0, -1).join("/") + "/";
-        if (!sectionDirectoryRoutes.includes(candidate)) {
-          if (DEBUG) {
-            console.log(`findChildDirectories pushing ${candidate}`);
-          }
-          sectionDirectoryRoutes.push(candidate);
-          sectionDirectories.push(page);
-        }
-      });
-    if (DEBUG) {
-      console.log(
-        `SpectrumSideNav findChildDirectories ${TopSection} ${SubSection} found ${sectionDirectories.length}`,
-      );
-    }
-    return sectionDirectories;
-  }
-
-  private currentTopLevel() {
-    if (this.route == null || this.route == undefined) {
-      console.error(`route was null in currentTopLevel`);
-      return null;
-    }
-
-    const sectionHeader = this.route.split("/")[1] ?? "TopIndex";
-    if (DEBUG) {
-      console.log(
-        `SideNav getSectionContents sectionHeader is ${sectionHeader}`,
-      );
-    }
-    const SectionRE = new RegExp(sectionHeader, "i");
-    const TopSection = TopLevelSections.options.find((section) =>
-      SectionRE.test(section),
-    );
-    if (TopSection != undefined) {
-      return TopSection;
+    if (!Array.isArray(tlsPage)) {
+      console.log(`error, tlsPage for ${route} is not an array`);
+      return [""];
     } else {
-      console.error(`no TopSection identified for route ${this.route}`);
-      return null;
-    }
-  }
-
-  private renderSingleEntry(
-    TopSection: string,
-    sectionContents: Page[],
-    page: Page,
-    depth: number = 0,
-    directory: boolean = true,
-  ) {
-    let isParent: boolean = false;
-    const returnableTemplates = new Array<TemplateResult>();
-    if (page == undefined || page.route == undefined) {
-      if (page != undefined) {
-        console.warn(`page defined with no route!! ${JSON.stringify(page)}`);
-      } else {
-        console.warn(`page undefined in args of renderSingleEntry`);
-      }
-      return null;
-    } else {
-      if (DEBUG) {
-        console.log(`rendering ${page.route} at depth ${depth}`);
-      }
-      let testDepth = 2;
-      if (
-        page.route.startsWith(this.route) ||
-        this.route.startsWith(page.route.toString())
-      ) {
-        testDepth = this.route.split("/").length - 1;
-        if (DEBUG) {
-          console.log(`new testDepth for route ${this.route} is ${testDepth}`);
-        }
-      }
-      if (directory && !this.route.localeCompare(TopSection)) {
-        const routeArray = this.route.split("/");
-        const pageArray = page.route.split("/");
-        if (this.route.length > 1 && pageArray.length >= routeArray.length) {
-          let match: boolean = true;
-          routeArray.pop();
-          routeArray.pop();
-          for (let i = 0; i < routeArray.length; i++) {
-            if (routeArray[i].localeCompare(pageArray[i])) {
+      const filterResult = tlsPage.filter((page: Page) => {
+        return page.route.localeCompare(route);
+      });
+      if (filterResult.length) {
+        await Promise.all(
+          filterResult
+            .sort((a, b) => sortPages(a, b))
+            .map(async (fr) => {
+              const r = fr.route.toString();
+              const stacksize = r.split("/").length;
               if (DEBUG) {
-                console.log(
-                  `detected mismatch ${routeArray[i]} and ${page.route} at ${i}`,
-                );
+                console.log(`route ${r} has stacksize ${stacksize}`);
               }
-              match = false;
-              break;
-            }
-          }
-          if (match) {
-            testDepth++;
-          }
-        }
-        if (DEBUG) {
-          console.log(
-            `new testDepth for route ${this.route} page ${page.id} is ${testDepth}`,
-          );
-        }
+              if (stacksize > 0 && stacksize < 5) {
+                childRoutes.push(r);
+              }
+            }),
+        );
       }
-      if (depth < testDepth || this.route.startsWith(page.route.toString())) {
-        if (DEBUG) {
-          console.log(`depth is ${depth} looking at children for ${page.id}`);
-        }
-        let selected = false;
-        if (!page.route.toLowerCase().localeCompare(this.route.toLowerCase())) {
-          if (DEBUG) {
-            console.log(`${page.id} is selected`);
-          }
-          selected = true;
-        }
-        let ChildDirs = new Array<Page>();
-        let ChildFiles = new Array<Page>();
-        let Submenu = html``;
-        if (sectionContents == undefined) {
-          console.warn(`selectionContents is undefined`);
-          return;
+    }
+    return childRoutes;
+  }
+  private async buildTreeForRoute(route: string) {
+    const templates = new Array<string>();
+    let tlsPage: Page | Page[] = await getContentByRoute(route);
+    let directory = false;
+    const children = new Array<string>();
+    if (Array.isArray(tlsPage)) {
+      if (DEBUG) {
+        console.log(`route ${route} is a directory`);
+      }
+      const filterResult = tlsPage.find((page: Page) => {
+        return !page.route.localeCompare(route);
+      });
+      if (filterResult) {
+        tlsPage = filterResult;
+      } else {
+        console.log(`bad filter result in buildTree`);
+        return " ";
+      }
+      directory = true;
+    }
+    if (tlsPage != undefined && tlsPage != null) {
+      if (directory) {
+        const cr = await this.findChildren(route);
+        if (cr.length) {
+          await Promise.all(
+            cr.map(async (acr) => {
+              children.push(await this.buildTreeForRoute(acr));
+            }),
+          );
         } else {
-          ChildDirs = this.findChildDirectories(
-            TopSection,
-            page.route.toString(),
-            sectionContents,
-          );
-          ChildFiles = this.findChildFiles(
-            TopSection,
-            page.route.toString(),
-            sectionContents,
-          );
-          if (ChildDirs.length > 0 || ChildFiles.length > 0) {
-            if (DEBUG) {
-              console.log(`${page.id} is a parent`);
-            }
-            isParent = true;
-          }
-          const SubMenuTemplates = new Array<TemplateResult>();
-
-          if (ChildDirs.length > 0) {
-            ChildDirs.map((child) => {
-              if (child.route.localeCompare(page.route.toString())) {
-                if (DEBUG) {
-                  console.log(
-                    `rendering ${page.route}, child Directory is ${child.route}`,
-                  );
-                }
-                const childTemplate = this.renderSingleEntry(
-                  TopSection,
-                  sectionContents,
-                  child,
-                  depth + 1,
-                  true,
-                );
-                if (childTemplate) {
-                  SubMenuTemplates.push(...childTemplate);
-                }
-              }
-            });
-          }
-
-          if (selected && directory && ChildFiles.length > 0) {
-            ChildFiles.map((child) => {
-              if (child.route.localeCompare(page.route.toString())) {
-                if (DEBUG) {
-                  console.log(
-                    `rendering ${page.route}, child File is ${child.route}`,
-                  );
-                }
-                const childTemplate = this.renderSingleEntry(
-                  TopSection,
-                  sectionContents,
-                  child,
-                  depth,
-                  false,
-                );
-                if (childTemplate) {
-                  SubMenuTemplates.push(...childTemplate);
-                }
-              }
-            });
-          }
-
-          if (directory && (ChildDirs.length > 0 || ChildFiles.length > 0)) {
-            Submenu = html`
-              <ul class="spectrum-SideNav">
-                ${SubMenuTemplates}
-              </ul>
-            `;
-          }
-        }
-
-        returnableTemplates.push(html`
-          <li class="spectrum-SideNav-item" ?is-selected=${selected}>
-            <a href="${page.route}" class="spectrum-SideNav-itemLink">
-              <iconify-icon
-                icon=${directory || isParent
-                  ? "lsicon:folder-filled"
-                  : "ep:document"}
-                class="spectrum-Icon spectrum-Icon--sizeM"
-                focusable="false"
-                aria-hidden="true"
-              ></iconify-icon>
-              <span class="spectrum-SideNav-link-text">${page.title}</span>
-            </a>
-            ${Submenu}
-          </li>
-        `);
-        if (DEBUG) {
-          console.log(
-            `returnableTemplates has ${returnableTemplates.length} templates`,
-          );
-        }
-      } else {
-        if (DEBUG) {
-          if (depth >= 2) {
-            console.log(
-              `depth is ${depth}, not rendering ${page.route} for route ${this.route}`,
-            );
+          if (DEBUG) {
+            console.log(`no children for ${route} which should be a directory`);
           }
         }
       }
-    }
-    return returnableTemplates;
-  }
-
-  private async getTopLevels(): Promise<TemplateResult[]> {
-    const templates = new Array<TemplateResult>();
-
-    const TopSection = this.currentTopLevel();
-    if (TopSection == null) {
-      console.warn(`unable to find TopSection in getTopLevels`);
-    } else {
       if (DEBUG) {
-        console.log(`TopSection is ${TopSection}`);
+        console.log(`found tlsPage for ${route}`);
       }
-      await Promise.all(
-        TopLevelSections.options
-          .sort((a, b) => {
-            return a.replace(" ", "").localeCompare(b.replace(" ", ""));
-          })
-          .map(async (tls) => {
-            if (DEBUG) {
-              console.log(`SpectrumSideNav getTopLevels tls is ${tls}`);
-            }
-            const tlsAsRoute = `/${tls.replace(" ", "")}/`;
-            if (DEBUG) {
-              console.log(`searching for page matching ${tlsAsRoute}`);
-            }
-            let tlsPage = await getContentByRoute(tlsAsRoute);
-            if (Array.isArray(tlsPage)) {
-              tlsPage = tlsPage.find((page: Page) => {
-                return !page.route.localeCompare(tlsAsRoute);
-              });
-            }
-            if (tlsPage != undefined && tlsPage != null) {
-              if (DEBUG) {
-                console.log(`found page ${JSON.stringify(tlsPage)}`);
-              }
-              const sectionContents = await getContentByCollection(tls);
-              const tlsEntry = this.renderSingleEntry(
-                TopSection,
-                sectionContents,
-                tlsPage,
-              );
-              if (tlsEntry) {
-                templates.push(...tlsEntry);
-              }
-            } else {
-              console.warn(`cannot find TLS page for ${tlsAsRoute}`);
-            }
-          }),
-      );
-    }
-
-    return templates;
-  }
-
-  static localStyle = css`
-    nav {
-      margin-left: -1.5rem;
-    }
-    .spectrum-SideNav-item {
-      margin-left: 1rem;
-    }
-  `;
-
-  static styles = [SpectrumSideNav, SideNav.localStyle];
-
-  protected render() {
-    if (DEBUG) {
-      console.log(`SpectrumSideNav render start`);
-      console.log(`route is ${this.route}`);
-    }
-    if (
-      this.route == undefined ||
-      this.route.length == 0 ||
-      !this.route.localeCompare("/")
-    ) {
-      return html`<div>no route</div>`;
+      templates.push(`
+      <sp-sidenav-item
+        value="${tlsPage.id}"
+        href="${tlsPage.route}"
+        label="${tlsPage.label}"
+      >
+      <iconify-icon
+        icon=${directory ? "lsicon:folder-filled" : "ep:document"}
+        class="spectrum-Icon spectrum-Icon--sizeM"
+        slot="icon"
+      ></iconify-icon>
+        ${children.length && children.join(" ")}
+      </sp-sidenav-item>
+    `);
+      if (DEBUG) {
+        console.log(`I have ${templates.length} templates in the array`);
+      }
     } else {
-      const topSections = this.getTopLevels();
-
-      return html`
-        <nav>
-          <ul class="spectrum-SideNav spectrum-SideNav--multiLevel">
-            ${until(topSections, "waiting for data")}
-          </ul>
-        </nav>
-      `;
+      console.log(`undefined tlsPage for ${tls}`);
     }
+    return templates.join(" ");
+  }
+  private async buildTree() {
+    const templates = new Array<string>();
+    await Promise.all(
+      TopLevelSections.options
+        .sort((a, b) => {
+          return a.replace(" ", "").localeCompare(b.replace(" ", ""));
+        })
+        .map(async (tls) => {
+          if (DEBUG) {
+            console.log(`tree for ${tls}`);
+          }
+          const tlsAsRoute = `/${tls.replace(" ", "")}/`;
+          const tlsTemplate = await this.buildTreeForRoute(tlsAsRoute);
+          templates.push(tlsTemplate);
+        }),
+    );
+    if (DEBUG) {
+      console.log(`at end I have ${templates.length} templates in the array`);
+    }
+    return `
+    <sp-sidenav>
+      ${templates.join(" ")}
+    </sp-sidenav>
+    `;
+  }
+  async connectedCallback() {
+    const _changedProperties = this.getAttributeNames();
+    if (_changedProperties.includes("route")) {
+      this.route = this.getAttribute("route") ?? "";
+    }
+    this.innerHTML = await this.buildTree();
   }
 }
+customElements.define("side-nav", SideNav);

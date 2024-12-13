@@ -44,6 +44,9 @@ importers:
       '@spectrum-web-components/shared':
         specifier: ^1.0.3
         version: 1.0.3
+      '@spectrum-web-components/sidenav':
+        specifier: ^1.0.3
+        version: 1.0.3
       '@spectrum-web-components/split-view':
         specifier: ^1.0.3
         version: 1.0.3
@@ -1456,8 +1459,17 @@ packages:
   '@spectrum-web-components/base@1.0.3':
     resolution: {integrity: sha512-1PLQzQimYYgda6u9eFGWroznx4couGZy5fRNyDfWkdesCZZMyhOgpkcm2sUovdDkebR5qUNhQBWWALlV1czjkQ==}
 
+  '@spectrum-web-components/progress-circle@1.0.3':
+    resolution: {integrity: sha512-BqaLbRFSSM+1HT/T71a3YWrxRsP5I/OYiuwxQ8BGaL6vvrCoYlENWaYF49sEa6LPdqN6ZH6GTqH90bSiwrXINw==}
+
+  '@spectrum-web-components/reactive-controllers@1.0.3':
+    resolution: {integrity: sha512-0nFT22Nb9gmfOQ3LT8HB50YRuckU0TBQ/hvh9LWYi6tp/FTUsmnxogg75LdqAxfrBctKjpyUdnilqafA8W3aWA==}
+
   '@spectrum-web-components/shared@1.0.3':
     resolution: {integrity: sha512-dzorrYe8+KlBro88DBOiSCtqP3WLQYFJ8Ad6RO16cQiWBYHhQw5pZ15alQHOvbuaUJo1YbEw02uCO1PObL48Hw==}
+
+  '@spectrum-web-components/sidenav@1.0.3':
+    resolution: {integrity: sha512-WQ2QIF0vkswg8DX4edjkoZgQVbcsJKB69Dh9mTVaE2+EwaYcLF2qoN6XoQUYgd5c+XUaKuChhl6xCTiccW2beg==}
 
   '@spectrum-web-components/split-view@1.0.3':
     resolution: {integrity: sha512-bSIwm32X7DeWFpfXCkwuaLj+/DbsFCU6TWDIAccG/KzeJPZQdoQ5jtQhJJx2YFd9OOXiGzgMGURaF6YgJ1Ht9g==}
@@ -6342,11 +6354,27 @@ snapshots:
     dependencies:
       lit: 3.2.1
 
+  '@spectrum-web-components/progress-circle@1.0.3':
+    dependencies:
+      '@spectrum-web-components/base': 1.0.3
+      '@spectrum-web-components/shared': 1.0.3
+
+  '@spectrum-web-components/reactive-controllers@1.0.3':
+    dependencies:
+      '@spectrum-web-components/progress-circle': 1.0.3
+      lit: 3.2.1
+
   '@spectrum-web-components/shared@1.0.3':
     dependencies:
       '@lit-labs/observers': 2.0.4
       '@spectrum-web-components/base': 1.0.3
       focus-visible: 5.2.1
+
+  '@spectrum-web-components/sidenav@1.0.3':
+    dependencies:
+      '@spectrum-web-components/base': 1.0.3
+      '@spectrum-web-components/reactive-controllers': 1.0.3
+      '@spectrum-web-components/shared': 1.0.3
 
   '@spectrum-web-components/split-view@1.0.3':
     dependencies:
