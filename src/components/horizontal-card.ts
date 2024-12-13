@@ -2,7 +2,7 @@ export const prerender = false;
 import { LitElement, type PropertyValues, css, html, nothing } from "lit";
 import { customElement, property, state } from "lit/decorators.js";
 
-const DEBUG = 1;
+const DEBUG = false;
 
 //@ts-expect-error
 import SpectrumCard from "@spectrum-css/card" with { type: "css" };

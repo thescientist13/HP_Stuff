@@ -9,7 +9,7 @@ import { type Page, sortPages } from "../lib/greenwoodPages.ts";
 import type { PropertyValues } from "lit";
 import { type CardDetails } from "./card-grid.ts";
 
-const DEBUG = true;
+const DEBUG = false;
 
 @customElement("collection-cardgrid")
 export default class ColletionCardGrid extends CardGrid {
@@ -46,9 +46,12 @@ export default class ColletionCardGrid extends CardGrid {
         );
       }
       this.gridCards = new Array<CardDetails>();
-      console.log(
-        `after new, this.gridCards has length ${this.gridCards.length}`,
-      );
+      if (DEBUG) {
+        console.log(
+          `after new, this.gridCards has length ${this.gridCards.length}`,
+        );
+      }
+
       const routes = new Array<String>();
       await getContentByCollection(this.collection).then((pages: Page[]) =>
         pages
