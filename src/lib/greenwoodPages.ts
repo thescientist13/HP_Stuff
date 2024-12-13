@@ -1,7 +1,7 @@
 const DEBUG = false;
 
 export type Compilation = {
-  graph: [];
+  graph: Page[];
   context: {};
   config: {};
   // TODO put resources into manifest

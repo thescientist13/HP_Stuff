@@ -7,6 +7,9 @@ const DEBUG = 1;
 //@ts-expect-error
 import SpectrumCard from "@spectrum-css/card" with { type: "css" };
 
+//@ts-expect-error
+import SpectrumTypography from "@spectrum-css/typography" with { type: "css" };
+
 @customElement("section-card")
 class SectionCard extends LitElement {
   @property({ type: String })
@@ -47,6 +50,7 @@ class SectionCard extends LitElement {
   }
 
   static styles = [
+    SpectrumTypography,
     SpectrumCard,
     css`
       :host {
