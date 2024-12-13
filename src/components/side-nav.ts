@@ -22,8 +22,12 @@ interface PageAndChildren {
 
 export default class SideNav extends HTMLElement {
   private route: string = "";
+  private topSection: TopLevelSections | undefined = undefined;
 
   private async findPageAndChildren(route: string): Promise<PageAndChildren> {
+    if (DEBUG) {
+      console.log(`findPageAndChildren for ${route}`);
+    }
     const rs = await getContentByRoute(route);
     const p = rs.find((p: Page) => {
       return !p.route.toString().localeCompare(route);
@@ -134,31 +138,42 @@ export default class SideNav extends HTMLElement {
 
   private async buildTree() {
     const templates = new Array<string>();
-    const tlso = TopLevelSections.options.sort((a, b) => {
-      return a.replace(" ", "").localeCompare(b.replace(" ", ""));
-    });
-    await Promise.all(
-      tlso.map(async (tls) => {
-        if (DEBUG) {
-          console.log(`tree for ${tls}`);
-        }
-        const tlsAsRoute = `/${tls.replace(" ", "")}/`;
-        const { p, c }: PageAndChildren =
-          await this.findPageAndChildren(tlsAsRoute);
+    const tls = `/${this.topSection?.replaceAll(" ", "")}/`;
+    const topChildren = (await this.findPageAndChildren(tls)).c;
+    if (!topChildren) {
+      if (DEBUG) {
+        console.log(`no children found for tls ${tls}`);
+      }
+      return "";
+    } else {
+      if (DEBUG) {
+        console.log(
+          `found topChildren, ${topChildren ? topChildren.length : 0} pages for ${tls}`,
+        );
+      }
+      await Promise.all(
+        topChildren
+          .filter((child) => {
+            const r = child.route.toString();
+            const s = r.split("/").length;
+            return s > 0 && s < 5;
+          })
+          .sort((a, b) => sortPages(a, b))
+          .map(async (child) => {
+            if (DEBUG) {
+              console.log(`tree for ${child.route}`);
+            }
+            const childAsRoute = child.route.toString();
+            const grandkids = (await this.findPageAndChildren(childAsRoute)).c;
 
-        if (p) {
-          if (DEBUG) {
-            console.log(
-              `for ${tls}, found tlsPage, otherPages is ${c ? c.length : undefined} pages`,
-            );
-          }
-          const tlsTemplate = this.buildTreeForRoute(p, c);
-          if (tlsTemplate.length > 0) {
-            templates.push(tlsTemplate);
-          }
-        }
-      }),
-    );
+            const tlsTemplate = this.buildTreeForRoute(child, grandkids);
+            if (tlsTemplate.length > 0) {
+              templates.push(tlsTemplate);
+            }
+          }),
+      );
+    }
+
     if (DEBUG) {
       console.log(`at end I have ${templates.length} templates in the array`);
     }
@@ -170,8 +185,22 @@ export default class SideNav extends HTMLElement {
     if (_changedProperties.includes("route")) {
       this.route = this.getAttribute("route") ?? "";
     }
+    TopLevelSections.options.map((section) => {
+      const r = `/${section.replace(" ", "")}/`;
+      if (this.route.startsWith(r)) {
+        this.topSection = section;
+      }
+    });
+    if (DEBUG) {
+      console.log(`found topSection ${this.topSection}`);
+    }
     const tree = await this.buildTree();
+    const navHeading =
+      this.topSection !== undefined
+        ? `<span class="spectrum-Heading spectrum-Heading--sizeS ">${this.topSection}</span>`
+        : ";";
     this.innerHTML = `
+      ${navHeading}
       <sp-sidenav  manage-tab-index variant="multilevel" defaultValue="${this.route}">
         ${tree}
       </sp-sidenav>
