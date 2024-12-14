@@ -1,6 +1,6 @@
 export const prerender = false;
 import { LitElement, html, nothing } from "lit";
-import type { PropertyValues, TemplateResult } from "lit";
+import type { PropertyValues } from "lit";
 import { property, state } from "lit/decorators.js";
 import { consume } from "@lit/context";
 
@@ -10,7 +10,9 @@ import { type Database, type Person } from "../../lib/GrampsZodTypes.ts";
 
 import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
 
+//@ts-expect-error
 import { IndividualName } from "./individualName.ts";
+//@ts-expect-error
 import { GrampsEvent } from "./events.ts";
 
 const DEBUG = false;

@@ -527,6 +527,7 @@ function o(props: any[], additional: any) {
   return { props, additional };
 }
 
+//@ts-expect-error
 function m(additional: any) {
   return { props: [], additional };
 }

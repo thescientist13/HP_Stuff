@@ -87,7 +87,7 @@ export default class TopNav extends LitElement {
             </a>
           </div>
           <div class="nav">
-            ${sections.map((section) => {
+            ${sections.map((section: TopLevelSections) => {
               return html`
                 <div class="nav-item">
                   <a href="/${section.replaceAll(" ", "")}/">

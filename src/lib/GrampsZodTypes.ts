@@ -276,7 +276,7 @@ export const ChildrefElementSchema = z.object({
 });
 export type ChildrefElement = z.infer<typeof ChildrefElementSchema>;
 
-export const FamilySchema = z.object({
+export const Family = z.object({
   rel: RelSchema,
   father: z.union([SourcerefSchema, z.null()]).optional(),
   mother: z.union([SourcerefSchema, z.null()]).optional(),
@@ -293,12 +293,12 @@ export const FamilySchema = z.object({
   noteref: z.union([SourcerefSchema, z.null()]).optional(),
   tagref: z.union([SourcerefSchema, z.null()]).optional(),
 });
-export type Family = z.infer<typeof FamilySchema>;
+export type Family = z.infer<typeof Family>;
 
-export const FamiliesSchema = z.object({
-  family: z.array(FamilySchema),
+export const Families = z.object({
+  family: z.array(Family),
 });
-export type Families = z.infer<typeof FamiliesSchema>;
+export type Families = z.infer<typeof Families>;
 
 export const EventDatevalSchema = z.object({
   val: z.union([z.number(), z.string()]),
@@ -326,7 +326,7 @@ export const AttributeSchema = z.object({
 });
 export type Attribute = z.infer<typeof AttributeSchema>;
 
-export const EventSchema = z.object({
+export const Event = z.object({
   type: EventType,
   dateval: z.union([EventDatevalSchema, z.null()]).optional(),
   citationref: z
@@ -344,10 +344,10 @@ export const EventSchema = z.object({
   tagref: z.union([SourcerefSchema, z.null()]).optional(),
   datestr: z.union([DatestrSchema, z.null()]).optional(),
 });
-export type Event = z.infer<typeof EventSchema>;
+export type Event = z.infer<typeof Event>;
 
 export const EventsSchema = z.object({
-  event: z.array(EventSchema),
+  event: z.array(Event),
 });
 export type Events = z.infer<typeof EventsSchema>;
 
@@ -378,7 +378,7 @@ export const Database = z.object({
   tags: TagsSchema,
   events: EventsSchema,
   people: PeopleSchema,
-  families: FamiliesSchema,
+  families: Families,
   citations: CitationsSchema,
   sources: SourcesSchema,
   places: PlacesSchema,

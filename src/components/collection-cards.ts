@@ -1,6 +1,8 @@
 export const prerender = false;
 import { type TemplateResult, css, html, nothing } from "lit";
 import { customElement, property } from "lit/decorators.js";
+
+//@ts-expect-error
 import { getContentByCollection } from "@greenwood/cli/src/data/client.js";
 
 import { CardGrid } from "./card-grid.ts";
@@ -70,7 +72,7 @@ export default class ColletionCardGrid extends CardGrid {
               }
               if (!routes.includes(page.route)) {
                 routes.push(page.route);
-                this.gridCards.push({
+                (this.gridCards as Array<CardDetails>).push({
                   title: (page.title as string) ?? page.label.replace("-", " "),
                   target: page.route as string,
                   description: (page.data!.description as string) ?? "",
@@ -153,7 +155,7 @@ export default class ColletionCardGrid extends CardGrid {
     }
     const cardTemplates1 = new Array<TemplateResult>();
     const cardTemplates2 = new Array<TemplateResult>();
-    if (this.gridCards.length > 0) {
+    if (Array.isArray(this.gridCards) && this.gridCards.length > 0) {
       this.gridCards.map((page, index) => {
         const pick = index % 2;
         if (DEBUG) {

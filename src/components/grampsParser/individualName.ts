@@ -1,6 +1,6 @@
 export const prerender = false;
 import { LitElement, html, nothing } from "lit";
-import type { PropertyValues, TemplateResult } from "lit";
+import type { PropertyValues } from "lit";
 import { property, state } from "lit/decorators.js";
 import { consume } from "@lit/context";
 
@@ -56,6 +56,7 @@ export class IndividualName extends LitElement {
                 sensitivity: "base",
               });
             }
+            return false;
           });
           if (found) {
             const first: Person | undefined = [found].flat().shift();
@@ -144,7 +145,6 @@ export class IndividualName extends LitElement {
         m = [];
         do {
           let n = names.shift();
-          let sTest;
           if (n) {
             if (n.first) {
               m.push(n);
