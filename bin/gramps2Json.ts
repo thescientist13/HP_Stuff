@@ -6,14 +6,10 @@ import { type ZodError } from "zod";
 import { delay } from "nanodelay";
 
 import {
-  type Export as zodExport,
-  type Database,
-  ExportSchema,
-  type Person,
-  DatabaseSchema,
-  type Family,
-  PersonSchema,
-  FamilySchema,
+  Export as zodExport,
+  Database,
+  Person,
+  Family,
 } from "../src/lib/GrampsZodTypes";
 
 import * as process from "process";
@@ -47,7 +43,7 @@ unzip(buffer, (err, buffer) => {
       console.log(`state dataFetcher jObj populated `);
       const result:
         | { success: true; data: zodExport }
-        | { success: false; error: ZodError } = ExportSchema.safeParse(jObj);
+        | { success: false; error: ZodError } = zodExport.safeParse(jObj);
       if (result.success) {
         data = result.data;
         console.log(`successfully parsed`);
@@ -89,7 +85,7 @@ const fullDBPath = path.join(
   "gramps.json",
 );
 const fullDBFile = fs.openSync(fullDBPath, "w", 0o600);
-const validation = DatabaseSchema.safeParse(db);
+const validation = Database.safeParse(db);
 if (validation.success) {
   fs.writeSync(fullDBFile, JSON.stringify(validation.data));
   fs.closeSync(fullDBFile);
@@ -139,7 +135,7 @@ db.people.person.forEach((p) => {
     p.id.concat(".json"),
   );
   const personFile = fs.openSync(personPath, "w", 0o600);
-  const validation = DatabaseSchema.safeParse(toExport);
+  const validation = Database.safeParse(toExport);
   if (validation.success) {
     fs.writeSync(personFile, JSON.stringify(toExport));
     fs.closeSync(personFile);
@@ -228,7 +224,7 @@ function getChildrenOfFamily(family: Family) {
 
 function getFamilyAsSpouse(individual: Person) {
   if (db) {
-    const personValidation = PersonSchema.safeParse(individual);
+    const personValidation = Person.safeParse(individual);
     if (personValidation.success) {
       let results = new Set<Family>();
       if (individual.parentin !== null && individual.parentin !== undefined) {
@@ -267,7 +263,7 @@ function getFamilyAsSpouse(individual: Person) {
 
 function getFamilyAsChild(individual: Person) {
   if (db) {
-    const personValidation = PersonSchema.safeParse(individual);
+    const personValidation = Person.safeParse(individual);
     if (personValidation.success) {
       let results = new Set<Family>();
       if (individual.childof !== null && individual.childof !== undefined) {
@@ -306,7 +302,7 @@ function getFamilyAsChild(individual: Person) {
 
 function getParentsOfFamily(family: Family) {
   if (db) {
-    const familyValidation = FamilySchema.safeParse(family);
+    const familyValidation = Family.safeParse(family);
     if (familyValidation.success) {
       let result = new Array<Person>();
       if (family.father !== null && family.father !== undefined) {
