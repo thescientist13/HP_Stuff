@@ -46,6 +46,7 @@ export default class TopNav extends LitElement {
     .header .social {
       margin-left: auto;
       text-align: right;
+      padding: 2rem;
     }
 
     .nav {
@@ -97,7 +98,7 @@ export default class TopNav extends LitElement {
             })}
           </div>
           <div class="social">
-            <a href="https://github.com/lschierer/evonytkrtips-frontend">
+            <a href="https://github.com/lschierer/HP_Stuff">
               <iconify-icon
                 icon="mdi:github"
                 width="2rem"
