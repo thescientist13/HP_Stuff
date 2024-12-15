@@ -5,10 +5,10 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "node --trace-warnings --import ./bin/nodeSetup.js ./node_modules/@greenwood/cli/src/index.js develop",
-    "start": "node --import ./bin/nodeSetup.js ./node_modules/@greenwood/cli/src/index.js develop",
-    "build": "node --import ./bin/nodeSetup.js ./node_modules/@greenwood/cli/src/index.js build",
-    "serve": "node --import ./bin/nodeSetup.js ./node_modules/@greenwood/cli/src/index.js serve"
+    "dev": "node --trace-warnings --loader ./node_modules/@greenwood/cli/src/loader.js ./node_modules/@greenwood/cli/src/index.js develop",
+    "start": "node --loader ./node_modules/@greenwood/cli/src/loader.js ./node_modules/@greenwood/cli/src/index.js develop",
+    "build": "node --loader ./node_modules/@greenwood/cli/src/loader.js ./node_modules/@greenwood/cli/src/index.js build",
+    "serve": "node --loader ./node_modules/@greenwood/cli/src/loader.js ./node_modules/@greenwood/cli/src/index.js serve"
   },
   "devDependencies": {
     "@greenwood/cli": "0.31.0-alpha.1",
