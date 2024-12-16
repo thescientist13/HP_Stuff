@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@greenwood/cli':
+    hash: or422vstudglkinl6gqejwrygu
+    path: patches/@greenwood__cli.patch
+
 importers:
 
   .:
@@ -98,16 +103,16 @@ importers:
     devDependencies:
       '@greenwood/cli':
         specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1
+        version: 0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu)
       '@greenwood/plugin-google-analytics':
         specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)
+        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu))
       '@greenwood/plugin-postcss':
         specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)
+        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu))
       '@greenwood/plugin-typescript':
         specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)
+        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu))
       '@iconify/types':
         specifier: ^2.0.0
         version: 2.0.0
@@ -5776,7 +5781,7 @@ snapshots:
   '@esbuild/win32-x64@0.23.1':
     optional: true
 
-  '@greenwood/cli@0.31.0-alpha.1':
+  '@greenwood/cli@0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu)':
     dependencies:
       '@rollup/plugin-commonjs': 28.0.1(rollup@4.28.1)
       '@rollup/plugin-node-resolve': 15.3.0(rollup@4.28.1)
@@ -5805,20 +5810,20 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@greenwood/plugin-google-analytics@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)':
+  '@greenwood/plugin-google-analytics@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu))':
     dependencies:
-      '@greenwood/cli': 0.31.0-alpha.1
+      '@greenwood/cli': 0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu)
 
-  '@greenwood/plugin-postcss@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)':
+  '@greenwood/plugin-postcss@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu))':
     dependencies:
-      '@greenwood/cli': 0.31.0-alpha.1
+      '@greenwood/cli': 0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu)
       postcss: 8.4.49
       postcss-import: 16.1.0(postcss@8.4.49)
       postcss-preset-env: 7.8.3(postcss@8.4.49)
 
-  '@greenwood/plugin-typescript@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)':
+  '@greenwood/plugin-typescript@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu))':
     dependencies:
-      '@greenwood/cli': 0.31.0-alpha.1
+      '@greenwood/cli': 0.31.0-alpha.1(patch_hash=or422vstudglkinl6gqejwrygu)
       typescript: 5.7.2
 
   '@grpc/grpc-js@1.12.4':

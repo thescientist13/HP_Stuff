@@ -1,0 +1,44 @@
+diff --git a/src/lib/walker-package-ranger.js b/src/lib/walker-package-ranger.js
+index 3bc4522ed2923a06bbc16892f08ae7761b641159..7b7c94d4d4bb1d134c8c4432d55f9e54e8e56d5f 100644
+--- a/src/lib/walker-package-ranger.js
++++ b/src/lib/walker-package-ranger.js
+@@ -35,7 +35,7 @@ function resolveBareSpecifier(specifier) {
+  * {
+  *   dependencyName: 'lit-html',
+  *   resolved: 'file:///path/to/project/greenwood-lit-ssr/node_modules/.pnpm/lit-html@3.2.1/node_modules/lit-html/node/lit-html.js',
+- *   root: 'file:///path/to/project/greenwood-lit-ssr/node_modules/.pnpm/lit-html@3.2.1/node_modules/lit-html/package.json'
++ *   root: 'file:///path/to/project/greenwood-lit-ssr/node_modules/.pnpm/lit-html@3.2.1/node_modules/lit-html/
+  *  }
+  */
+ function derivePackageRoot(resolved) {
+@@ -52,7 +52,16 @@ function derivePackageRoot(resolved) {
+ 
+   for (const segment of segments.slice(1)) {
+     if (fs.existsSync(new URL('./package.json', root))) {
+-      break;
++      // now we have to check that this package.json actually has
++      // - name AND version
++      // - main or module or exports
++      // https://github.com/moment/luxon/issues/1543#issuecomment-2546858540
++      const resolvedPackageJson = JSON.parse(fs.readFileSync(new URL('./package.json', root), 'utf-8'));
++      const { name, version, main, module, exports } = resolvedPackageJson;
++
++      if ((name && version) && (main || module || exports)) {
++        break;
++      }
+     }
+ 
+     root = root.replace(`${segment}/`, '');
+diff --git a/src/lifecycles/serve.js b/src/lifecycles/serve.js
+index 8a797f492f65679978ae152b9a22ada3e4f86feb..f6377e084424d3ef5e950611747cd0106d0502b2 100644
+--- a/src/lifecycles/serve.js
++++ b/src/lifecycles/serve.js
+@@ -69,7 +69,7 @@ async function getDevServer(compilation) {
+           const current = await plugin.serve(url, request);
+           const merged = mergeResponse(response.clone(), current.clone());
+ 
+-          response = merged;
++          response = merged.clone();
+         }
+       }
+ 
