@@ -12,8 +12,8 @@ Some notes on running this:
     ```pnpm install```
     ```pnpm just parse```
     ```pnpm just dev```
-
-
-
+* The ```just dev``` and ```just build``` commands essentially simply call the corresponding pnpm dev and build commands, except that they make sure that the relevant prerequisite commands have also been run first.  the ```just deploy``` command is different, in that it calls pulumi[^2] instead.
+* I have not attempted to make this project deployable by anyone else. Someone else looking at this will almost certainly have to modify the pulumi configuration to point to their own stacks if for some reason he or she wanted to do more than test a local build.
 
 [^1]: https://just.systems/
+[^2]: https://www.pulumi.com/
