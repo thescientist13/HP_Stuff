@@ -3,15 +3,15 @@ Some notes on running this:
 * I am using pnpm for package management.
 * Some of the pages require some json that is generated.  To do this you will require some extra commands
   * if you have just[^1] installed globally, you can simply run
-    just parse
-    just dev
+    ```just parse```
+    ```just dev```
     for a running development instance (the just parse command only needs to be run if the gramps export changes, not every time), or
-    just build
+    ```just build```
     to build something ready to deploy (the build command will call the parse command automatically).
   * otherwise run
-    pnpm install
-    pnpm just parse
-    pnpm just dev
+    ```pnpm install```
+    ```pnpm just parse```
+    ```pnpm just dev```
 
 
 
