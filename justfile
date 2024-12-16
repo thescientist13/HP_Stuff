@@ -7,16 +7,16 @@ export NPM := `which npm`
 export NPX := `which npx`
 
 install:
-  ${NPM} install
+  ${PNPM} install
 
 dev: install
-  ${NPM} run dev
+  ${PNPM} run dev
 
 check: install
   ${NPX} tsc --noEmit -p .;
 
 build: install parse
-  ${NPM} run build
+  ${PNPM} run build
 
 parse: install pre-build
   ./bin/grampsParser.sh

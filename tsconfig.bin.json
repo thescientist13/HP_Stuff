@@ -7,5 +7,5 @@
     "moduleResolution": "Node",
     "outDir": "."
   },
-  "exclude": ["./src/components/**/*.ts"]
+  "exclude": ["./src/components/**/*.ts", "./src/pages/**/*.ts"]
 }

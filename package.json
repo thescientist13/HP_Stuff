@@ -52,6 +52,7 @@
     "remark-rehype": "^11.1.1",
     "remark-stringify": "^11.0.0",
     "ts-lit-plugin": "^2.0.2",
+    "tsx": "^4.19.2",
     "type-mermaid": "^1.1.0",
     "typescript": "^5.7.2",
     "typescript-plugin-css-modules": "^5.1.0",
