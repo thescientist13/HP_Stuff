@@ -1,3 +1,20 @@
+diff --git a/src/config/rollup.config.js b/src/config/rollup.config.js
+index a4d07608bb2da3e3a70aa819d59a4b6ef9c164aa..8c976d70fd10e22cb79da292fdf407f16c822864 100644
+--- a/src/config/rollup.config.js
++++ b/src/config/rollup.config.js
+@@ -242,7 +242,11 @@ function greenwoodImportMetaUrl(compilation) {
+         headers
+       });
+       let canTransform = false;
+-      let response = new Response(code);
++      let response = new Response(code, {
++        headers: {
++          'Content-Type': 'text/javascript'
++        }
++      });
+ 
+       // handle any custom imports or pre-processing first to ensure valid JavaScript for parsing
+       if (await checkResourceExists(idUrl)) {
 diff --git a/src/lib/walker-package-ranger.js b/src/lib/walker-package-ranger.js
 index 3bc4522ed2923a06bbc16892f08ae7761b641159..7b7c94d4d4bb1d134c8c4432d55f9e54e8e56d5f 100644
 --- a/src/lib/walker-package-ranger.js
@@ -29,6 +46,21 @@ index 3bc4522ed2923a06bbc16892f08ae7761b641159..7b7c94d4d4bb1d134c8c4432d55f9e54
      }
  
      root = root.replace(`${segment}/`, '');
+diff --git a/src/lifecycles/bundle.js b/src/lifecycles/bundle.js
+index d06de1f2e1918b18cdb23837624408fe0f668677..9c600808aeadde9883146f31bdddd24be2fd390d 100644
+--- a/src/lifecycles/bundle.js
++++ b/src/lifecycles/bundle.js
+@@ -309,8 +309,8 @@ async function bundleSsrPages(compilation, optimizePlugins) {
+         const moduleUrl = new URL('${relativeDepth}${pagesPathDiff}${pagePath.replace('./', '')}', import.meta.url);
+ 
+         export async function handler(request) {
+-          const compilation = JSON.parse('${JSON.stringify(compilation)}');
+-          const page = JSON.parse('${JSON.stringify(page)}');
++          const compilation = JSON.parse(\`${JSON.stringify(compilation)}\`);
++          const page = JSON.parse(\`${JSON.stringify(page)}\`);
+           const data = await executeRouteModule({ moduleUrl, compilation, page, request });
+           let staticHtml = \`${staticHtml}\`;
+ 
 diff --git a/src/lifecycles/serve.js b/src/lifecycles/serve.js
 index 8a797f492f65679978ae152b9a22ada3e4f86feb..f6377e084424d3ef5e950611747cd0106d0502b2 100644
 --- a/src/lifecycles/serve.js

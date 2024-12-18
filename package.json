@@ -94,7 +94,8 @@
   "packageManager": "pnpm@9.14.4",
   "pnpm": {
     "patchedDependencies": {
-      "@greenwood/cli": "patches/@greenwood__cli.patch"
+      "@greenwood/cli": "patches/@greenwood__cli.patch",
+      "@greenwood/plugin-postcss": "patches/@greenwood__plugin-postcss.patch"
     }
   }
 }
