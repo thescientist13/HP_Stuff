@@ -20,7 +20,8 @@ import { unified } from "unified";
 export default {
   activeContent: true,
   isolation: true,
-  prerender: true,
+  // this is incompatible with Lit + WCC renderer
+  // prerender: true,
   staticRouter: false,
   markdown: {
     plugins: ["unified", "remark-gfm"],

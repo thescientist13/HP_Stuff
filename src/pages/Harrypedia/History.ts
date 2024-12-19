@@ -205,7 +205,7 @@ async function getLayout(compilation: Compilation, route: Route) {
   <html>
     <head>
       <script type="module" src="../components/side-nav.ts"></script>
-      <script type="module" src="../components/split-view.ts"></script>
+      <!-- this doesn't exist <script type="module" src="../components/split-view.ts"></script> -->
       <script
         type="module"
         src="../components/v-timeline.ts"

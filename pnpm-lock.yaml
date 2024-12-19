@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   '@greenwood/cli':
-    hash: qxs2uindsdxwgs7fnm4n5aguna
+    hash: pkl2llrpdlpyhjjur27kchnsuq
     path: patches/@greenwood__cli.patch
   '@greenwood/plugin-postcss':
     hash: qx5uzxqg7ogvuxmehs2khelvye
@@ -106,16 +106,16 @@ importers:
     devDependencies:
       '@greenwood/cli':
         specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna)
+        version: 0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq)
       '@greenwood/plugin-google-analytics':
         specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna))
+        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq))
       '@greenwood/plugin-postcss':
         specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1(patch_hash=qx5uzxqg7ogvuxmehs2khelvye)(@greenwood/cli@0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna))
+        version: 0.31.0-alpha.1(patch_hash=qx5uzxqg7ogvuxmehs2khelvye)(@greenwood/cli@0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq))
       '@greenwood/plugin-typescript':
         specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna))
+        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq))
       '@iconify/types':
         specifier: ^2.0.0
         version: 2.0.0
@@ -5784,7 +5784,7 @@ snapshots:
   '@esbuild/win32-x64@0.23.1':
     optional: true
 
-  '@greenwood/cli@0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna)':
+  '@greenwood/cli@0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq)':
     dependencies:
       '@rollup/plugin-commonjs': 28.0.1(rollup@4.28.1)
       '@rollup/plugin-node-resolve': 15.3.0(rollup@4.28.1)
@@ -5813,20 +5813,20 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@greenwood/plugin-google-analytics@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna))':
+  '@greenwood/plugin-google-analytics@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq))':
     dependencies:
-      '@greenwood/cli': 0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna)
+      '@greenwood/cli': 0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq)
 
-  '@greenwood/plugin-postcss@0.31.0-alpha.1(patch_hash=qx5uzxqg7ogvuxmehs2khelvye)(@greenwood/cli@0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna))':
+  '@greenwood/plugin-postcss@0.31.0-alpha.1(patch_hash=qx5uzxqg7ogvuxmehs2khelvye)(@greenwood/cli@0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq))':
     dependencies:
-      '@greenwood/cli': 0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna)
+      '@greenwood/cli': 0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq)
       postcss: 8.4.49
       postcss-import: 16.1.0(postcss@8.4.49)
       postcss-preset-env: 7.8.3(postcss@8.4.49)
 
-  '@greenwood/plugin-typescript@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna))':
+  '@greenwood/plugin-typescript@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq))':
     dependencies:
-      '@greenwood/cli': 0.31.0-alpha.1(patch_hash=qxs2uindsdxwgs7fnm4n5aguna)
+      '@greenwood/cli': 0.31.0-alpha.1(patch_hash=pkl2llrpdlpyhjjur27kchnsuq)
       typescript: 5.7.2
 
   '@grpc/grpc-js@1.12.4':

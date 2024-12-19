@@ -1,7 +1,20 @@
 diff --git a/src/config/rollup.config.js b/src/config/rollup.config.js
-index a4d07608bb2da3e3a70aa819d59a4b6ef9c164aa..8c976d70fd10e22cb79da292fdf407f16c822864 100644
+index a4d07608bb2da3e3a70aa819d59a4b6ef9c164aa..804284886de00052dc0d28cdecd6f05a07deb78b 100644
 --- a/src/config/rollup.config.js
 +++ b/src/config/rollup.config.js
+@@ -131,9 +131,9 @@ function greenwoodSyncPageResourceBundlesPlugin(compilation) {
+               contents
+             });
+ 
+-            if (noop) {
+-              await fs.promises.writeFile(outputPath, contents);
+-            }
++            // if (noop) {
++            //   await fs.promises.writeFile(outputPath, contents);
++            // }
+           }
+         }
+       }
 @@ -242,7 +242,11 @@ function greenwoodImportMetaUrl(compilation) {
          headers
        });
@@ -47,9 +60,31 @@ index 3bc4522ed2923a06bbc16892f08ae7761b641159..7b7c94d4d4bb1d134c8c4432d55f9e54
  
      root = root.replace(`${segment}/`, '');
 diff --git a/src/lifecycles/bundle.js b/src/lifecycles/bundle.js
-index d06de1f2e1918b18cdb23837624408fe0f668677..9c600808aeadde9883146f31bdddd24be2fd390d 100644
+index d06de1f2e1918b18cdb23837624408fe0f668677..15f37bbb3a73cf3120fda0477338fddf82db25a3 100644
 --- a/src/lifecycles/bundle.js
 +++ b/src/lifecycles/bundle.js
+@@ -151,9 +151,9 @@ async function bundleStyleResources(compilation, resourcePlugins) {
+       }
+ 
+       // keep the original contents, but still hash the filename based on content
+-      if (compilation.config.optimization === 'none' || optimizationAttr === 'none') {
+-        optimizedFileContents = contents;
+-      } else {
++      // if (compilation.config.optimization === 'none' || optimizationAttr === 'none') {
++      //   optimizedFileContents = contents;
++      // } else {
+         const url = resource.sourcePathURL;
+         const contentType = 'text/css';
+         const headers = new Headers({ 'Content-Type': contentType, 'Accept': contentType });
+@@ -218,7 +218,7 @@ async function bundleStyleResources(compilation, resourcePlugins) {
+         }, Promise.resolve(response.clone()));
+ 
+         optimizedFileContents = await response.text();
+-      }
++      // }
+ 
+       compilation.resources.set(resourceKey, {
+         ...compilation.resources.get(resourceKey),
 @@ -309,8 +309,8 @@ async function bundleSsrPages(compilation, optimizePlugins) {
          const moduleUrl = new URL('${relativeDepth}${pagesPathDiff}${pagePath.replace('./', '')}', import.meta.url);
  
@@ -74,3 +109,32 @@ index 8a797f492f65679978ae152b9a22ada3e4f86feb..f6377e084424d3ef5e950611747cd010
          }
        }
  
+diff --git a/src/plugins/resource/plugin-standard-css.js b/src/plugins/resource/plugin-standard-css.js
+index f5cf8d09bbb8d604fd23c943a21872dd1d28d341..a83d20724f25f1bd5b09c778aecdb75f87583e32 100644
+--- a/src/plugins/resource/plugin-standard-css.js
++++ b/src/plugins/resource/plugin-standard-css.js
+@@ -343,7 +343,10 @@ class StandardCssResource extends ResourceInterface {
+   }
+ 
+   async intercept(url, request, response) {
+-    let body = bundleCss(await response.text(), url, this.compilation);
++    const text = await response.text();
++    let body = this.compilation.config.optimzation === 'none'
++      ? text
++      : bundleCss(text, url, this.compilation);
+     let headers = {};
+ 
+     if ((request.headers.get('Accept')?.indexOf('text/javascript') >= 0 || url.searchParams?.get('polyfill') === 'type-css') && !url.searchParams.has('type')) {
+diff --git a/src/plugins/resource/plugin-standard-html.js b/src/plugins/resource/plugin-standard-html.js
+index 827cc70b6cff59aab640a28fc5df9f5de671a67c..1639ba9719d4c714a7e4473c6c93315fe6f87135 100644
+--- a/src/plugins/resource/plugin-standard-html.js
++++ b/src/plugins/resource/plugin-standard-html.js
+@@ -184,7 +184,7 @@ class StandardHtmlResource extends ResourceInterface {
+         if (type === 'script') {
+           const tag = root.querySelectorAll('script').find(script => script.getAttribute('src') === src);
+ 
+-          if (!optimizationAttr && optimization === 'default') {
++          if (!optimizationAttr && (optimization === 'default' || optimization === 'none')) {
+             const optimizedFilePath = `${basePath}/${optimizedFileName}`;
+ 
+             body = body.replace(src, optimizedFilePath);
