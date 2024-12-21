@@ -1,7 +1,6 @@
 import { greenwoodPluginTypeScript } from "@greenwood/plugin-typescript";
 import { greenwoodPluginPostCss } from "@greenwood/plugin-postcss";
 import { greenwoodPluginGoogleAnalytics } from "@greenwood/plugin-google-analytics";
-import { greenwoodPluginImportRaw } from "@greenwood/plugin-import-raw";
 /*
  * this plugin appears to do more than I first understood from the documentation.
  * Once enabled, I it fully replaces WCC and I *think* you can no longer use html components at all.
@@ -34,7 +33,6 @@ export default {
     }),
     greenwoodPluginGoogleAnalytics({
       analyticsId: "G-9KF1R3YFTZ",
-    }),
-    greenwoodPluginImportRaw()
+    })
   ],
 };

@@ -1,19 +1,13 @@
-import { LitElement, type PropertyValues, css, html, nothing, unsafeCSS } from "lit";
+import { LitElement, type PropertyValues, css, html, nothing } from "lit";
 import { customElement, property } from "lit/decorators.js";
 
 const DEBUG = 1;
 
-// Lit+SSR does not support Constructable Stylesheets for SSR (yet), so using Greenwood's raw loader for now
-// https://github.com/lit/lit/issues/4862
-// @ts-expect-error
-// import SpectrumCard from "@spectrum-css/card" with { type: "css" };
-import SpectrumCard from "../../node_modules/@spectrum-css/card/dist/index.css?type=raw";
+//@ts-expect-error
+import SpectrumCard from "@spectrum-css/card" with { type: "css" };
 
-// Lit+SSR does not support Constructable Stylesheets for SSR (yet), so using Greenwood's raw loader for now
-// https://github.com/lit/lit/issues/4862
-// @ts-expect-error
-// import SpectrumTypography from "@spectrum-css/typography" with { type: "css" };
-import SpectrumTypography from "../../node_modules/@spectrum-css/typography/dist/index.css?type=raw";
+//@ts-expect-error
+import SpectrumTypography from "@spectrum-css/typography" with { type: "css" };
 
 
 @customElement("section-card")
@@ -56,14 +50,8 @@ class SectionCard extends LitElement {
   }
 
   static styles = [
-    // SpectrumTypography,
-    // SpectrumCard,
-    css`
-      ${unsafeCSS(SpectrumTypography)},
-    `,
-    css`
-      ${unsafeCSS(SpectrumCard)},
-    `,
+    SpectrumTypography,
+    SpectrumCard,
     css`
       :host {
         /*background-color: var(--spectrum-green-500); */

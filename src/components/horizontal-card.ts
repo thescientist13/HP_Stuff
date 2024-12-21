@@ -1,14 +1,11 @@
 // export const prerender = false;
-import { LitElement, type PropertyValues, css, html, nothing, unsafeCSS } from "lit";
+import { LitElement, type PropertyValues, css, html, nothing } from "lit";
 import { customElement, property, state } from "lit/decorators.js";
 
 const DEBUG = false;
 
-// Lit+SSR does not support Constructable Stylesheets for SSR (yet), so using Greenwood's raw loader for now
-// https://github.com/lit/lit/issues/4862
-// @ts-expect-error
-// import SpectrumCard from "@spectrum-css/card" with { type: "css" };
-import SpectrumCard from "../../node_modules/@spectrum-css/card/dist/index.css?type=raw";
+//@ts-expect-error
+import SpectrumCard from "@spectrum-css/card" with { type: "css" };
 
 @customElement("horizontal-card")
 class HorizontalCard extends LitElement {
@@ -134,10 +131,7 @@ class HorizontalCard extends LitElement {
   }
 
   static styles = [
-    // SpectrumCard,
-    css`
-      ${unsafeCSS(SpectrumCard)},
-    `,
+    SpectrumCard,
     css`
       :host {
         /*background-color: var(--spectrum-green-500); */

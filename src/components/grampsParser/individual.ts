@@ -10,11 +10,7 @@ import { grampsContext, GrampsState } from "./state.ts";
 
 import * as GrampsZod from "../../lib/GrampsZodTypes.ts";
 
-// Lit+SSR does not support Constructable Stylesheets for SSR (yet), so using Greenwood's raw loader for now
-// https://github.com/lit/lit/issues/4862
-// @ts-expect-error
-// import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
-import GrampsCSS from "../../styles/Gramps.css?type=raw";
+import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
 
 //@ts-expect-error
 import { IndividualName } from "./individualName.ts";
@@ -583,7 +579,7 @@ export class GrampsIndividual extends LitElement {
     super.connectedCallback();
   }
 
-  static styles = [/*GrampsCSS*/ css`${unsafeCSS(GrampsCSS)}`];
+  static styles = [GrampsCSS];
 
   public render() {
     let t = html``;

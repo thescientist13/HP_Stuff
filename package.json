@@ -13,7 +13,6 @@
   "devDependencies": {
     "@greenwood/cli": "0.31.0-alpha.1",
     "@greenwood/plugin-google-analytics": "0.31.0-alpha.1",
-    "@greenwood/plugin-import-raw": "0.31.0-alpha.1",
     "@greenwood/plugin-postcss": "0.31.0-alpha.1",
     "@greenwood/plugin-typescript": "0.31.0-alpha.1",
     "@iconify/types": "^2.0.0",

@@ -1,5 +1,5 @@
 // export const prerender = false;
-import { LitElement, html, nothing, css, unsafeCSS } from "lit";
+import { LitElement, html, nothing } from "lit";
 import type { TemplateResult } from "lit";
 import { property, state } from "lit/decorators.js";
 import { consume } from "@lit/context";
@@ -17,11 +17,7 @@ import { GrampsEvent } from "../events.ts";
 //@ts-expect-error
 import { SimpleIndividual } from "../simpleIndividual.ts";
 
-// Lit+SSR does not support Constructable Stylesheets for SSR (yet), so using Greenwood's raw loader for now
-// https://github.com/lit/lit/issues/4862
-// @ts-expect-error
-// import AncestorsTreeChartCSS from "../../../styles/AncestorsTreeChart.css" with { type: "css" };
-import AncestorsTreeChartCSS from "../../../styles/AncestorsTreeChart.css?type=raw";
+import AncestorsTreeChartCSS from "../../../styles/AncestorsTreeChart.css" with { type: "css" };
 
 const DEBUG = true;
 
@@ -111,7 +107,7 @@ export class AncestorsTreeChart extends LitElement {
     return null;
   }
 
-  static styles = [/*AncestorsTreeChartCSS*/ css`${unsafeCSS(AncestorsTreeChartCSS)}`];
+  static styles = [AncestorsTreeChartCSS];
 
   public render() {
     if (DEBUG) {
