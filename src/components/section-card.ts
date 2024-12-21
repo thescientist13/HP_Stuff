@@ -1,3 +1,4 @@
+// export const prerender = false;
 import { LitElement, type PropertyValues, css, html, nothing } from "lit";
 import { customElement, property } from "lit/decorators.js";
 
@@ -8,7 +9,6 @@ import SpectrumCard from "@spectrum-css/card" with { type: "css" };
 
 //@ts-expect-error
 import SpectrumTypography from "@spectrum-css/typography" with { type: "css" };
-
 
 @customElement("section-card")
 class SectionCard extends LitElement {
