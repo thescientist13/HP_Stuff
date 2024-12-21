@@ -6,8 +6,8 @@ import {
 } from "@greenwood/cli/src/data/client.js";
 
 import { TopLevelSections } from "../lib/topLevelSections.ts";
-//@ts-expect-error
-import SpectrumSideNav from "@spectrum-css/sidenav" with { type: "css" };
+// this doesn't look to be used?
+// import SpectrumSideNav from "@spectrum-css/sidenav" with { type: "css" };
 import "@spectrum-web-components/theme/src/themes-core-tokens.js";
 import "@spectrum-web-components/sidenav/sp-sidenav.js";
 import "@spectrum-web-components/sidenav/sp-sidenav-heading.js";

@@ -1,5 +1,5 @@
-export const prerender = false;
-import { html, LitElement, type PropertyValues, nothing } from "lit";
+// export const prerender = false;
+import { html, LitElement, type PropertyValues, nothing, css, unsafeCSS } from "lit";
 import { property, state } from "lit/decorators.js";
 import { consume } from "@lit/context";
 
@@ -11,7 +11,11 @@ import { DateTime, Interval } from "luxon";
 
 import * as grampsZod from "../../lib/GrampsZodTypes.ts";
 
-import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
+// Lit+SSR does not support Constructable Stylesheets for SSR (yet), so using Greenwood's raw loader for now
+// https://github.com/lit/lit/issues/4862
+// @ts-expect-error
+// import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
+import GrampsCSS from "../../styles/Gramps.css?type=raw";
 
 export class GrampsEvent extends LitElement {
   @consume({ context: grampsContext })
@@ -297,7 +301,7 @@ export class GrampsEvent extends LitElement {
     ${d ? (this.simpleDate ? d.get("year") : d.toISODate()) : nothing}`;
   }
 
-  static styles = [GrampsCSS];
+  static styles = [/*GrampsCSS*/ css`${unsafeCSS(GrampsCSS)}`];
 
   public render() {
     let t = html``;

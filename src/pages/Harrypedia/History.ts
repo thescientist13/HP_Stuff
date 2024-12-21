@@ -1,4 +1,6 @@
-export const prerender = true; // this page, using node:fs, *must* be SSR.
+// commenting this out since SSR pages are always SSR
+// https://greenwoodjs.dev/docs/pages/server-rendering/#prerender
+// export const prerender = true; // this page, using node:fs, *must* be SSR.
 import fs from "node:fs";
 import YAML from "yaml";
 import rehypeStringify from "rehype-stringify";

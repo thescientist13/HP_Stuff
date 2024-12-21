@@ -1,4 +1,4 @@
-export const prerender = false;
+// export const prerender = false;
 import { createContext } from "@lit/context";
 
 import * as GrampsZod from "../../lib/GrampsZodTypes.ts";

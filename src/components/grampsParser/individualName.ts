@@ -1,5 +1,5 @@
-export const prerender = false;
-import { LitElement, html, nothing } from "lit";
+// export const prerender = false;
+import { LitElement, html, nothing, css, unsafeCSS } from "lit";
 import type { PropertyValues } from "lit";
 import { property, state } from "lit/decorators.js";
 import { consume } from "@lit/context";
@@ -13,7 +13,11 @@ import {
   SurnameClassSchema,
 } from "../../lib/GrampsZodTypes.ts";
 
-import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
+// Lit+SSR does not support Constructable Stylesheets for SSR (yet), so using Greenwood's raw loader for now
+// https://github.com/lit/lit/issues/4862
+// @ts-expect-error
+// import GrampsCSS from "../../styles/Gramps.css" with { type: "css" };
+import GrampsCSS from "../../styles/Gramps.css?type=raw";
 
 const DEBUG = false;
 
@@ -197,7 +201,7 @@ export class IndividualName extends LitElement {
     return html`${t}`;
   }
 
-  static styles = [GrampsCSS];
+  static styles = [/*GrampsCSS*/ css`${unsafeCSS(GrampsCSS)}`];
 
   protected createRenderRoot() {
     return this;

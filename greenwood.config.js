@@ -1,7 +1,8 @@
 import { greenwoodPluginTypeScript } from "@greenwood/plugin-typescript";
 import { greenwoodPluginPostCss } from "@greenwood/plugin-postcss";
 import { greenwoodPluginGoogleAnalytics } from "@greenwood/plugin-google-analytics";
-
+import { greenwoodPluginImportRaw } from "@greenwood/plugin-import-raw";
+import { greenwoodPluginRendererLit } from "@greenwood/plugin-renderer-lit";
 /*
  * this plugin appears to do more than I first understood from the documentation.
  * Once enabled, I it fully replaces WCC and I *think* you can no longer use html components at all.
@@ -20,7 +21,7 @@ import { unified } from "unified";
 export default {
   activeContent: true,
   isolation: true,
-  // this is incompatible with Lit + WCC renderer
+  // this is required for activeContent's data client feature
   // prerender: true,
   staticRouter: false,
   markdown: {
@@ -37,5 +38,7 @@ export default {
     greenwoodPluginGoogleAnalytics({
       analyticsId: "G-9KF1R3YFTZ",
     }),
+    greenwoodPluginImportRaw(),
+    greenwoodPluginRendererLit()
   ],
 };
