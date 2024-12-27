@@ -142,7 +142,7 @@ index 3bc4522ed2923a06bbc16892f08ae7761b641159..7b7c94d4d4bb1d134c8c4432d55f9e54
  
      root = root.replace(`${segment}/`, '');
 diff --git a/src/lifecycles/bundle.js b/src/lifecycles/bundle.js
-index d06de1f2e1918b18cdb23837624408fe0f668677..08aec1b4229dc5013e6a992469b1ef4e23355218 100644
+index d06de1f2e1918b18cdb23837624408fe0f668677..d3e12d8c5f876f42dcf545cd41613391da0a6f08 100644
 --- a/src/lifecycles/bundle.js
 +++ b/src/lifecycles/bundle.js
 @@ -6,6 +6,7 @@ import { hashString } from '../lib/hashing-utils.js';
@@ -153,7 +153,29 @@ index d06de1f2e1918b18cdb23837624408fe0f668677..08aec1b4229dc5013e6a992469b1ef4e
  
  async function interceptPage(url, request, plugins, body) {
    let response = new Response(body, {
-@@ -151,9 +152,9 @@ async function bundleStyleResources(compilation, resourcePlugins) {
+@@ -25,6 +26,21 @@ async function interceptPage(url, request, plugins, body) {
+   return response;
+ }
+ 
++async function optimizePage(url, plugins, body) {
++  let response = new Response(body, {
++    headers: new Headers({ 'Content-Type': 'text/html' })
++  });
++
++  for (const plugin of plugins) {
++    if (plugin.shouldOptimize && await plugin.shouldOptimize(url, response.clone())) {
++      response = mergeResponse(response.clone(), await plugin.optimize(url, response.clone()));
++    }
++  }
++
++  return response;
++}
++
++
+ function getPluginInstances(compilation) {
+   return [...compilation.config.plugins]
+     .filter(plugin => plugin.type === 'resource' && plugin.name !== 'plugin-node-modules:resource')
+@@ -151,9 +167,9 @@ async function bundleStyleResources(compilation, resourcePlugins) {
        }
  
        // keep the original contents, but still hash the filename based on content
@@ -166,7 +188,7 @@ index d06de1f2e1918b18cdb23837624408fe0f668677..08aec1b4229dc5013e6a992469b1ef4e
          const url = resource.sourcePathURL;
          const contentType = 'text/css';
          const headers = new Headers({ 'Content-Type': contentType, 'Accept': contentType });
-@@ -218,7 +219,7 @@ async function bundleStyleResources(compilation, resourcePlugins) {
+@@ -218,7 +234,7 @@ async function bundleStyleResources(compilation, resourcePlugins) {
          }, Promise.resolve(response.clone()));
  
          optimizedFileContents = await response.text();
@@ -175,7 +197,17 @@ index d06de1f2e1918b18cdb23837624408fe0f668677..08aec1b4229dc5013e6a992469b1ef4e
  
        compilation.resources.set(resourceKey, {
          ...compilation.resources.get(resourceKey),
-@@ -309,8 +310,8 @@ async function bundleSsrPages(compilation, optimizePlugins) {
+@@ -293,7 +309,8 @@ async function bundleSsrPages(compilation, optimizePlugins) {
+       const relativeDepth = '../'.repeat(pagePath.split('/').length - 1);
+ 
+       let staticHtml = ssrPrerenderPagesRouteMapper[route];
+-      staticHtml = await (await htmlOptimizer.optimize(new URL(`http://localhost:8080${route}`), new Response(staticHtml))).text();
++      // staticHtml = await (await htmlOptimizer.optimize(new URL(`http://localhost:8080${route}`), new Response(staticHtml))).text();
++      staticHtml = await (await optimizePage(new URL(`http://localhost:8080${route}`), getPluginInstances(compilation), staticHtml)).text();
+       staticHtml = staticHtml.replace(/[`\\$]/g, '\\$&'); // https://stackoverflow.com/a/75688937/417806
+ 
+       if (!await checkResourceExists(outputPathRootUrl)) {
+@@ -309,8 +326,8 @@ async function bundleSsrPages(compilation, optimizePlugins) {
          const moduleUrl = new URL('${relativeDepth}${pagesPathDiff}${pagePath.replace('./', '')}', import.meta.url);
  
          export async function handler(request) {
