@@ -142,10 +142,18 @@ index 3bc4522ed2923a06bbc16892f08ae7761b641159..7b7c94d4d4bb1d134c8c4432d55f9e54
  
      root = root.replace(`${segment}/`, '');
 diff --git a/src/lifecycles/bundle.js b/src/lifecycles/bundle.js
-index d06de1f2e1918b18cdb23837624408fe0f668677..15f37bbb3a73cf3120fda0477338fddf82db25a3 100644
+index d06de1f2e1918b18cdb23837624408fe0f668677..08aec1b4229dc5013e6a992469b1ef4e23355218 100644
 --- a/src/lifecycles/bundle.js
 +++ b/src/lifecycles/bundle.js
-@@ -151,9 +151,9 @@ async function bundleStyleResources(compilation, resourcePlugins) {
+@@ -6,6 +6,7 @@ import { hashString } from '../lib/hashing-utils.js';
+ import { checkResourceExists, mergeResponse, normalizePathnameForWindows, trackResourcesForRoute } from '../lib/resource-utils.js';
+ import path from 'path';
+ import { rollup } from 'rollup';
++import { pruneGraph } from '../lib/content-utils.js';
+ 
+ async function interceptPage(url, request, plugins, body) {
+   let response = new Response(body, {
+@@ -151,9 +152,9 @@ async function bundleStyleResources(compilation, resourcePlugins) {
        }
  
        // keep the original contents, but still hash the filename based on content
@@ -158,7 +166,7 @@ index d06de1f2e1918b18cdb23837624408fe0f668677..15f37bbb3a73cf3120fda0477338fddf
          const url = resource.sourcePathURL;
          const contentType = 'text/css';
          const headers = new Headers({ 'Content-Type': contentType, 'Accept': contentType });
-@@ -218,7 +218,7 @@ async function bundleStyleResources(compilation, resourcePlugins) {
+@@ -218,7 +219,7 @@ async function bundleStyleResources(compilation, resourcePlugins) {
          }, Promise.resolve(response.clone()));
  
          optimizedFileContents = await response.text();
@@ -167,14 +175,14 @@ index d06de1f2e1918b18cdb23837624408fe0f668677..15f37bbb3a73cf3120fda0477338fddf
  
        compilation.resources.set(resourceKey, {
          ...compilation.resources.get(resourceKey),
-@@ -309,8 +309,8 @@ async function bundleSsrPages(compilation, optimizePlugins) {
+@@ -309,8 +310,8 @@ async function bundleSsrPages(compilation, optimizePlugins) {
          const moduleUrl = new URL('${relativeDepth}${pagesPathDiff}${pagePath.replace('./', '')}', import.meta.url);
  
          export async function handler(request) {
 -          const compilation = JSON.parse('${JSON.stringify(compilation)}');
 -          const page = JSON.parse('${JSON.stringify(page)}');
-+          const compilation = JSON.parse(\`${JSON.stringify(compilation)}\`);
-+          const page = JSON.parse(\`${JSON.stringify(page)}\`);
++          const compilation = JSON.parse(\`${JSON.stringify({...compilation, graph: pruneGraph(compilation.graph) }).replace(/\\"/g, '&quote').replace(/\\n/g, '')}\`);
++          const page = JSON.parse(\`${JSON.stringify(pruneGraph([page])[0]).replace(/\\"/g, '&quote').replace(/\\n/g, '')}\`);
            const data = await executeRouteModule({ moduleUrl, compilation, page, request });
            let staticHtml = \`${staticHtml}\`;
  
