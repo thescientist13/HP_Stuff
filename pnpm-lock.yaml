@@ -97,17 +97,17 @@ importers:
         version: 3.24.1
     devDependencies:
       '@greenwood/cli':
-        specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1
+        specifier: 0.31.0-alpha.2
+        version: 0.31.0-alpha.2
       '@greenwood/plugin-google-analytics':
-        specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)
+        specifier: 0.31.0-alpha.2
+        version: 0.31.0-alpha.2(@greenwood/cli@0.31.0-alpha.2)
       '@greenwood/plugin-postcss':
-        specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)
+        specifier: 0.31.0-alpha.2
+        version: 0.31.0-alpha.2(@greenwood/cli@0.31.0-alpha.2)
       '@greenwood/plugin-typescript':
-        specifier: 0.31.0-alpha.1
-        version: 0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)
+        specifier: 0.31.0-alpha.2
+        version: 0.31.0-alpha.2(@greenwood/cli@0.31.0-alpha.2)
       '@iconify/types':
         specifier: ^2.0.0
         version: 2.0.0
@@ -643,23 +643,23 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@greenwood/cli@0.31.0-alpha.1':
-    resolution: {integrity: sha512-KXU7EL9v5m7ugvtHo8rX92YBFwD3AEukz8feXrA7BaU32z6dCf0mkUBs6zqyAIQGaou+6Ty4aHznpVRdYcNNMA==}
+  '@greenwood/cli@0.31.0-alpha.2':
+    resolution: {integrity: sha512-M5Y9NvstZgOWnPuRl0jmCGx+6mIEN/tyPVi8buxjzc+Z35V3QvJih4raCBX/QHZ9gpbfsHnFtgjKmdkLN4btnw==}
     engines: {node: '>=18.20.0'}
     hasBin: true
 
-  '@greenwood/plugin-google-analytics@0.31.0-alpha.1':
-    resolution: {integrity: sha512-T98MnwOviLs3+yr4z1qzFxbByxcW+WDETGsEwpm0bzyuYPdHfnZoFGFRsoSWP3vJdyjIuehPnjPWZ4+1d/NfDg==}
+  '@greenwood/plugin-google-analytics@0.31.0-alpha.2':
+    resolution: {integrity: sha512-phIQ1T9Rei+Hj/+RTkmiF+OtDKSmOLBuBewG+kMFt1YgK+Vvr0A1kDtBTPv6U9QwSAcjstPrHCd3KastweGiaw==}
     peerDependencies:
       '@greenwood/cli': ^0.30.0
 
-  '@greenwood/plugin-postcss@0.31.0-alpha.1':
-    resolution: {integrity: sha512-kRv255Uaw+rB6kztRrj4ifgLWtL/L1DQ1pZaDSkjFpMLSo8sykU9rezTso/mWt1FydAKBlMFYES+Rdt37tI86g==}
+  '@greenwood/plugin-postcss@0.31.0-alpha.2':
+    resolution: {integrity: sha512-O6EaJr8CXo+A3OYNJkQepBvDeCDPmTNV9rI+ngc4boFGnuXzQBcMiS46ndbk7fsmGfIjz9kGKXcYXo/klnFXOg==}
     peerDependencies:
       '@greenwood/cli': ^0.30.0
 
-  '@greenwood/plugin-typescript@0.31.0-alpha.1':
-    resolution: {integrity: sha512-OclyYCpvtA04+aof/QymwHbM+zLt28Vm3ogIJVqB45yTSbiYoC107ewJq/5YFkKWWFAWbWhePfMEenFERdBQ/Q==}
+  '@greenwood/plugin-typescript@0.31.0-alpha.2':
+    resolution: {integrity: sha512-6aPRkDh8VYvuOzh4PhPtemFLl9Cp+h22gySu03L9rIhxNQGyPKQkGn4id3TjTq5Xa5FC33CMqlbx+hHndWTWxg==}
     peerDependencies:
       '@greenwood/cli': ^0.30.0
 
@@ -5776,7 +5776,7 @@ snapshots:
   '@esbuild/win32-x64@0.23.1':
     optional: true
 
-  '@greenwood/cli@0.31.0-alpha.1':
+  '@greenwood/cli@0.31.0-alpha.2':
     dependencies:
       '@rollup/plugin-commonjs': 28.0.1(rollup@4.28.1)
       '@rollup/plugin-node-resolve': 15.3.0(rollup@4.28.1)
@@ -5805,20 +5805,20 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@greenwood/plugin-google-analytics@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)':
+  '@greenwood/plugin-google-analytics@0.31.0-alpha.2(@greenwood/cli@0.31.0-alpha.2)':
     dependencies:
-      '@greenwood/cli': 0.31.0-alpha.1
+      '@greenwood/cli': 0.31.0-alpha.2
 
-  '@greenwood/plugin-postcss@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)':
+  '@greenwood/plugin-postcss@0.31.0-alpha.2(@greenwood/cli@0.31.0-alpha.2)':
     dependencies:
-      '@greenwood/cli': 0.31.0-alpha.1
+      '@greenwood/cli': 0.31.0-alpha.2
       postcss: 8.4.49
       postcss-import: 16.1.0(postcss@8.4.49)
       postcss-preset-env: 7.8.3(postcss@8.4.49)
 
-  '@greenwood/plugin-typescript@0.31.0-alpha.1(@greenwood/cli@0.31.0-alpha.1)':
+  '@greenwood/plugin-typescript@0.31.0-alpha.2(@greenwood/cli@0.31.0-alpha.2)':
     dependencies:
-      '@greenwood/cli': 0.31.0-alpha.1
+      '@greenwood/cli': 0.31.0-alpha.2
       typescript: 5.7.2
 
   '@grpc/grpc-js@1.12.4':
