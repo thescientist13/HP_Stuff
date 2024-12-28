@@ -4,7 +4,7 @@ title: People in Harry Potter
 sidebar:
   order: 1
 imports:
-  - /components/section-card.ts
+  - /components/section-card.ts type="module"
   - /components/grampsParser/genealogical-data.ts type="module"
 ---
 
