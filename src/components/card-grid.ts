@@ -1,4 +1,3 @@
-export const prerender = false;
 import {
   html,
   LitElement,
