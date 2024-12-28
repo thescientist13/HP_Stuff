@@ -1,0 +1,25 @@
+diff --git a/src/index.js b/src/index.js
+index 25e9bc24118b4e61a40d3be50f34fa7dca166f59..45ee264cf005b31116b9a363fb07d1d15e8e39bf 100644
+--- a/src/index.js
++++ b/src/index.js
+@@ -34,12 +34,18 @@ class PostCssResource extends ResourceInterface {
+   }
+ 
+   async shouldPreIntercept(url, request, response) {
++    // console.log('PostCSS shouldPreIntercept', { url });
++    // console.log('REQUEST', request.headers);
++    // console.log('RESPONSE', response.headers);
+     return url.protocol === 'file:'
+-      && url.pathname.split('.').pop() === this.extensions[0]
+-      && (request?.headers?.get('Content-Type')?.includes('text/css') || response?.headers?.get('Content-Type')?.includes('text/css'));
++      // && url.pathname.split('.').pop() === this.extensions[0]
++      && (request?.headers?.get('Accept')?.includes('text/css') && response?.headers?.get('Content-Type')?.includes('text/css'));
+   }
+ 
+   async preIntercept(url, request, response) {
++    console.log('PostCSS preIntercept', { url });
++    console.log('REQUEST', request.headers);
++    console.log('RESPONSE', response.headers);
+     const config = await getConfig(this.compilation, this.options.extendConfig);
+     const plugins = config.plugins || [];
+     const body = await response.text();

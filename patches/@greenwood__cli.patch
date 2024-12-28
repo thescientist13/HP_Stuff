@@ -1,0 +1,402 @@
+diff --git a/src/config/rollup.config.js b/src/config/rollup.config.js
+index a4d07608bb2da3e3a70aa819d59a4b6ef9c164aa..804284886de00052dc0d28cdecd6f05a07deb78b 100644
+--- a/src/config/rollup.config.js
++++ b/src/config/rollup.config.js
+@@ -131,9 +131,9 @@ function greenwoodSyncPageResourceBundlesPlugin(compilation) {
+               contents
+             });
+ 
+-            if (noop) {
+-              await fs.promises.writeFile(outputPath, contents);
+-            }
++            // if (noop) {
++            //   await fs.promises.writeFile(outputPath, contents);
++            // }
+           }
+         }
+       }
+@@ -242,7 +242,11 @@ function greenwoodImportMetaUrl(compilation) {
+         headers
+       });
+       let canTransform = false;
+-      let response = new Response(code);
++      let response = new Response(code, {
++        headers: {
++          'Content-Type': 'text/javascript'
++        }
++      });
+ 
+       // handle any custom imports or pre-processing first to ensure valid JavaScript for parsing
+       if (await checkResourceExists(idUrl)) {
+diff --git a/src/data/client.js b/src/data/client.js
+index 57ab05a48d136733d1a3f47e3eaf8bb8c416ec39..c154b6705dc47787105ccbb609810ee9bcb4a311 100644
+--- a/src/data/client.js
++++ b/src/data/client.js
+@@ -1,13 +1,29 @@
++import { filterContentByCollection, filterContentByRoute } from "@greenwood/cli/src/lib/content-utils.js";
++
+ const CONTENT_STATE = globalThis.__CONTENT_AS_DATA_STATE__ ?? false; // eslint-disable-line no-underscore-dangle
++const PRERENDER = globalThis.__CONTENT_OPTIONS__?.PRERENDER ?? false; // eslint-disable-line no-underscore-dangle
+ const PORT = globalThis?.__CONTENT_SERVER__?.PORT ?? 1984; // eslint-disable-line no-underscore-dangle
+ const BASE_PATH = globalThis?.__GWD_BASE_PATH__ ?? ''; // eslint-disable-line no-underscore-dangle
+ 
+ async function getContentAsData(key = '') {
+-  return CONTENT_STATE
+-    ? await fetch(`${window.location.origin}${BASE_PATH}/data-${key.replace(/\//g, '_')}.json`)
+-      .then(resp => resp.json())
+-    : await fetch(`http://localhost:${PORT}${BASE_PATH}/___graph.json`, { headers: { 'X-CONTENT-KEY': key } })
+-      .then(resp => resp.json());
++  if (CONTENT_STATE && PRERENDER) {
++    await fetch(`${window.location.origin}${BASE_PATH}/data-${key.replace(/\//g, '_')}.json`)
++    .then(resp => resp.json())
++  } else if(CONTENT_STATE && !PRERENDER) {
++    const graph = await fetch(`/graph.json`).then(resp => resp.json());
++    const value = key.split('-').pop();
++
++    if (key === 'graph') {
++      return graph;
++    } else if(key.startsWith('collection')) {
++      return filterContentByCollection(graph, value);
++    } else if(key.startsWith('route')) {
++      return filterContentByRoute(graph, value);
++    }
++  } else {
++    return await fetch(`http://localhost:${PORT}${BASE_PATH}/___graph.json`, { headers: { 'X-CONTENT-KEY': key } })
++    .then(resp => resp.json());
++  }
+ }
+ 
+ async function getContent() {
+diff --git a/src/lib/content-utils.js b/src/lib/content-utils.js
+index 7418918bf9ab80e7c6acca7335c9ed77a4d0cd25..fc5c41c22ed88b76bbba88cf888e9038b90d1e29 100644
+--- a/src/lib/content-utils.js
++++ b/src/lib/content-utils.js
+@@ -31,8 +31,18 @@ function cleanContentCollection(collection = []) {
+   });
+ }
+ 
++function filterContentByCollection(graph, collection) {
++  return graph.filter(page => page?.data?.collection === collection);
++}
++
++function filterContentByRoute(graph, route) {
++  return graph.filter(page => page?.route.startsWith(route));
++}
++
+ export {
+   pruneGraph,
+   activeFrontmatterKeys,
+-  cleanContentCollection
++  cleanContentCollection,
++  filterContentByCollection,
++  filterContentByRoute
+ };
+\ No newline at end of file
+diff --git a/src/lib/layout-utils.js b/src/lib/layout-utils.js
+index 08f2acc6f5caef6b427e96290fe114357eac498a..5c552c8e9a79e7e3bbafa456e2780ff38d632d68 100644
+--- a/src/lib/layout-utils.js
++++ b/src/lib/layout-utils.js
+@@ -217,8 +217,11 @@ async function getAppLayout(pageLayoutContents, compilation, customImports = [],
+             ? appTitle.rawText
+             : matchingRoute.label;
+     }
+-
+-    const mergedHtml = pageRoot && pageRoot.querySelector('html').rawAttrs !== ''
++    // console.log('-------')
++    // console.log({matchingRoute, pageRoot})
++    // console.log(pageRoot.querySelector('html'));
++    // console.log('-------')
++    const mergedHtml = pageRoot && pageRoot.querySelector('html')?.rawAttrs
+       ? `<html ${pageRoot.querySelector('html').rawAttrs}>`
+       : appRoot.querySelector('html').rawAttrs !== ''
+         ? `<html ${appRoot.querySelector('html').rawAttrs}>`
+diff --git a/src/lib/walker-package-ranger.js b/src/lib/walker-package-ranger.js
+index 3bc4522ed2923a06bbc16892f08ae7761b641159..7b7c94d4d4bb1d134c8c4432d55f9e54e8e56d5f 100644
+--- a/src/lib/walker-package-ranger.js
++++ b/src/lib/walker-package-ranger.js
+@@ -35,7 +35,7 @@ function resolveBareSpecifier(specifier) {
+  * {
+  *   dependencyName: 'lit-html',
+  *   resolved: 'file:///path/to/project/greenwood-lit-ssr/node_modules/.pnpm/lit-html@3.2.1/node_modules/lit-html/node/lit-html.js',
+- *   root: 'file:///path/to/project/greenwood-lit-ssr/node_modules/.pnpm/lit-html@3.2.1/node_modules/lit-html/package.json'
++ *   root: 'file:///path/to/project/greenwood-lit-ssr/node_modules/.pnpm/lit-html@3.2.1/node_modules/lit-html/
+  *  }
+  */
+ function derivePackageRoot(resolved) {
+@@ -52,7 +52,16 @@ function derivePackageRoot(resolved) {
+ 
+   for (const segment of segments.slice(1)) {
+     if (fs.existsSync(new URL('./package.json', root))) {
+-      break;
++      // now we have to check that this package.json actually has
++      // - name AND version
++      // - main or module or exports
++      // https://github.com/moment/luxon/issues/1543#issuecomment-2546858540
++      const resolvedPackageJson = JSON.parse(fs.readFileSync(new URL('./package.json', root), 'utf-8'));
++      const { name, version, main, module, exports } = resolvedPackageJson;
++
++      if ((name && version) && (main || module || exports)) {
++        break;
++      }
+     }
+ 
+     root = root.replace(`${segment}/`, '');
+diff --git a/src/lifecycles/bundle.js b/src/lifecycles/bundle.js
+index d06de1f2e1918b18cdb23837624408fe0f668677..d3e12d8c5f876f42dcf545cd41613391da0a6f08 100644
+--- a/src/lifecycles/bundle.js
++++ b/src/lifecycles/bundle.js
+@@ -6,6 +6,7 @@ import { hashString } from '../lib/hashing-utils.js';
+ import { checkResourceExists, mergeResponse, normalizePathnameForWindows, trackResourcesForRoute } from '../lib/resource-utils.js';
+ import path from 'path';
+ import { rollup } from 'rollup';
++import { pruneGraph } from '../lib/content-utils.js';
+ 
+ async function interceptPage(url, request, plugins, body) {
+   let response = new Response(body, {
+@@ -25,6 +26,21 @@ async function interceptPage(url, request, plugins, body) {
+   return response;
+ }
+ 
++async function optimizePage(url, plugins, body) {
++  let response = new Response(body, {
++    headers: new Headers({ 'Content-Type': 'text/html' })
++  });
++
++  for (const plugin of plugins) {
++    if (plugin.shouldOptimize && await plugin.shouldOptimize(url, response.clone())) {
++      response = mergeResponse(response.clone(), await plugin.optimize(url, response.clone()));
++    }
++  }
++
++  return response;
++}
++
++
+ function getPluginInstances(compilation) {
+   return [...compilation.config.plugins]
+     .filter(plugin => plugin.type === 'resource' && plugin.name !== 'plugin-node-modules:resource')
+@@ -151,9 +167,9 @@ async function bundleStyleResources(compilation, resourcePlugins) {
+       }
+ 
+       // keep the original contents, but still hash the filename based on content
+-      if (compilation.config.optimization === 'none' || optimizationAttr === 'none') {
+-        optimizedFileContents = contents;
+-      } else {
++      // if (compilation.config.optimization === 'none' || optimizationAttr === 'none') {
++      //   optimizedFileContents = contents;
++      // } else {
+         const url = resource.sourcePathURL;
+         const contentType = 'text/css';
+         const headers = new Headers({ 'Content-Type': contentType, 'Accept': contentType });
+@@ -218,7 +234,7 @@ async function bundleStyleResources(compilation, resourcePlugins) {
+         }, Promise.resolve(response.clone()));
+ 
+         optimizedFileContents = await response.text();
+-      }
++      // }
+ 
+       compilation.resources.set(resourceKey, {
+         ...compilation.resources.get(resourceKey),
+@@ -293,7 +309,8 @@ async function bundleSsrPages(compilation, optimizePlugins) {
+       const relativeDepth = '../'.repeat(pagePath.split('/').length - 1);
+ 
+       let staticHtml = ssrPrerenderPagesRouteMapper[route];
+-      staticHtml = await (await htmlOptimizer.optimize(new URL(`http://localhost:8080${route}`), new Response(staticHtml))).text();
++      // staticHtml = await (await htmlOptimizer.optimize(new URL(`http://localhost:8080${route}`), new Response(staticHtml))).text();
++      staticHtml = await (await optimizePage(new URL(`http://localhost:8080${route}`), getPluginInstances(compilation), staticHtml)).text();
+       staticHtml = staticHtml.replace(/[`\\$]/g, '\\$&'); // https://stackoverflow.com/a/75688937/417806
+ 
+       if (!await checkResourceExists(outputPathRootUrl)) {
+@@ -309,8 +326,8 @@ async function bundleSsrPages(compilation, optimizePlugins) {
+         const moduleUrl = new URL('${relativeDepth}${pagesPathDiff}${pagePath.replace('./', '')}', import.meta.url);
+ 
+         export async function handler(request) {
+-          const compilation = JSON.parse('${JSON.stringify(compilation)}');
+-          const page = JSON.parse('${JSON.stringify(page)}');
++          const compilation = JSON.parse(\`${JSON.stringify({...compilation, graph: pruneGraph(compilation.graph) }).replace(/\\"/g, '&quote').replace(/\\n/g, '')}\`);
++          const page = JSON.parse(\`${JSON.stringify(pruneGraph([page])[0]).replace(/\\"/g, '&quote').replace(/\\n/g, '')}\`);
+           const data = await executeRouteModule({ moduleUrl, compilation, page, request });
+           let staticHtml = \`${staticHtml}\`;
+ 
+diff --git a/src/lifecycles/serve.js b/src/lifecycles/serve.js
+index 8a797f492f65679978ae152b9a22ada3e4f86feb..f6377e084424d3ef5e950611747cd0106d0502b2 100644
+--- a/src/lifecycles/serve.js
++++ b/src/lifecycles/serve.js
+@@ -69,7 +69,7 @@ async function getDevServer(compilation) {
+           const current = await plugin.serve(url, request);
+           const merged = mergeResponse(response.clone(), current.clone());
+ 
+-          response = merged;
++          response = merged.clone();
+         }
+       }
+ 
+diff --git a/src/plugins/resource/plugin-active-content.js b/src/plugins/resource/plugin-active-content.js
+index 7c99e601ba420d23967ef38b2d019961f38465ba..66d8b8e92473ee014d4c52c6638eb92b81383636 100644
+--- a/src/plugins/resource/plugin-active-content.js
++++ b/src/plugins/resource/plugin-active-content.js
+@@ -1,11 +1,12 @@
+ import { mergeImportMap } from '../../lib/node-modules-utils.js';
+ import { ResourceInterface } from '../../lib/resource-interface.js';
+ import { checkResourceExists } from '../../lib/resource-utils.js';
+-import { activeFrontmatterKeys, cleanContentCollection, pruneGraph } from '../../lib/content-utils.js';
++import { activeFrontmatterKeys, cleanContentCollection, pruneGraph, filterContentByCollection, filterContentByRoute } from '../../lib/content-utils.js';
+ import fs from 'fs/promises';
+ 
+ const importMap = {
+-  '@greenwood/cli/src/data/client.js': '/node_modules/@greenwood/cli/src/data/client.js'
++  '@greenwood/cli/src/data/client.js': '/node_modules/@greenwood/cli/src/data/client.js',
++  '@greenwood/cli/src/lib/content-utils.js': '/node_modules/@greenwood/cli/src/lib/content-utils.js'
+ };
+ 
+ class ContentAsDataResource extends ResourceInterface {
+@@ -38,9 +39,9 @@ class ContentAsDataResource extends ResourceInterface {
+       if (contentKey === 'graph') {
+         body = graph;
+       } else if (keyPieces[0] === 'collection') {
+-        body = graph.filter(page => page?.data?.collection === keyPieces[1]);
++        body = filterContentByCollection(graph, keyPieces[1]);
+       } else if (keyPieces[0] === 'route') {
+-        body = graph.filter(page => page?.route.startsWith(keyPieces[1]));
++        body = filterContentByRoute(graph, keyPieces[1]);
+       }
+ 
+       if (process.env.__GWD_COMMAND__ === 'build') { // eslint-disable-line no-underscore-dangle
+@@ -76,13 +77,19 @@ class ContentAsDataResource extends ResourceInterface {
+       newBody = mergeImportMap(body, importMap, polyfills.importMaps);
+     }
+ 
++    // TODO make this one set of general options
+     newBody = newBody.replace('<head>', `
+       <head>
+         <script id="content-server">
+           globalThis.__CONTENT_SERVER__ = globalThis.__CONTENT_SERVER__
+             ? globalThis.__CONTENT_SERVER__
+             : {
+-                PORT: ${devServer.port}
++                PORT: ${devServer.port},
++              }
++          globalThis.__CONTENT_OPTIONS__ = globalThis.__CONTENT_OPTIONS__
++            ? globalThis.__CONTENT_OPTIONS__
++            : {
++                PRERENDER: ${this.compilation.config.prerender},
+               }
+         </script>
+     `);
+diff --git a/src/plugins/resource/plugin-standard-css.js b/src/plugins/resource/plugin-standard-css.js
+index f5cf8d09bbb8d604fd23c943a21872dd1d28d341..8147cac44d8a387d8479556bf78d1c013f49af43 100644
+--- a/src/plugins/resource/plugin-standard-css.js
++++ b/src/plugins/resource/plugin-standard-css.js
+@@ -11,9 +11,10 @@ import { ResourceInterface } from '../../lib/resource-interface.js';
+ import { hashString } from '../../lib/hashing-utils.js';
+ import { getResolvedHrefFromPathnameShortcut } from '../../lib/node-modules-utils.js';
+ import { isLocalLink } from '../../lib/resource-utils.js';
++import { derivePackageRoot } from '../../lib/walker-package-ranger.js';
+ 
+ function bundleCss(body, sourceUrl, compilation, workingUrl) {
+-  const { projectDirectory, outputDir, userWorkspace } = compilation.context;
++  const { projectDirectory, outputDir, userWorkspace, scratchDir } = compilation.context;
+   const ast = parse(body, {
+     onParseError(error) {
+       console.log(error.formattedMessage);
+@@ -55,34 +56,61 @@ function bundleCss(body, sourceUrl, compilation, workingUrl) {
+         }
+ 
+         const { basePath } = compilation.config;
+-        let rootPath = value.replace(/\.\.\//g, '').replace('./', '');
+ 
+-        if (!rootPath.startsWith('/')) {
+-          rootPath = `/${rootPath}`;
+-        }
+-
+-        const resolvedUrl = rootPath.indexOf('node_modules/') >= 0
+-          ? new URL(getResolvedHrefFromPathnameShortcut(rootPath, projectDirectory))
+-          : new URL(`.${rootPath}`, userWorkspace);
++        /*
++         * Our resolution algorithm works as follows:
++         * 1. First, check if it is a shortcut alias to node_modules, in which we use Node's resolution algorithm
++         * 2. Next, check if it is an absolute path "escape" hatch based path and just resolve to the user's workspace
++         * 3. If there is a workingUrl, then just join the current value with the current working file we're processing
++         * 4. If the starting file is in the scratch directory, likely means it is just an extracted inline <style> tag, so resolve to user workspace
++         * 5. Lastly, match the current value with the current source file
++         */
++        const resolvedUrl = value.startsWith('/node_modules/')
++          ? new URL(getResolvedHrefFromPathnameShortcut(value, projectDirectory))
++          : value.startsWith('/')
++            ? new URL(`.${value}`, userWorkspace)
++            : workingUrl
++              ? new URL(value, workingUrl)
++              : sourceUrl.href.startsWith(scratchDir.href)
++                ? new URL(`./${value.replace(/\.\.\//g, '').replace('./', '')}`, userWorkspace)
++                : new URL(value, sourceUrl);
+ 
+         if (fs.existsSync(resolvedUrl)) {
+           const isDev = process.env.__GWD_COMMAND__ === 'develop'; // eslint-disable-line no-underscore-dangle
+-          const hash = hashString(fs.readFileSync(resolvedUrl, 'utf-8'));
+-          const ext = rootPath.split('.').pop();
+-          const hashedRoot = isDev ? rootPath : rootPath.replace(`.${ext}`, `.${hash}.${ext}`);
++          let finalValue = '';
++
++          if (resolvedUrl.href.startsWith(userWorkspace.href)) {
++            // truncate to just get /path/in/users/workspace.png
++            finalValue = resolvedUrl.href.replace(userWorkspace.href, '/');
++          } else if (value.startsWith('/node_modules/')) {
++            // if it's a node modules shortcut alias, just use that
++            finalValue = value;
++          } else if (resolvedUrl.href.indexOf('/node_modules/') >= 0) {
++            // if we are deep in node_modules land, use resolution logic to figure out the specifier
++            const resolvedRoot = derivePackageRoot(resolvedUrl.href);
++            const resolvedRootSegments = resolvedRoot.split('/').reverse().filter(segment => segment !== '');
++            const specifier = resolvedRootSegments[1].startsWith('@') ? `${resolvedRootSegments[0]}/${resolvedRootSegments[1]}` : resolvedRootSegments[0];
++
++            finalValue = `/node_modules/${specifier}/${value.replace(/\.\.\//g, '').replace('./', '')}`;
++          }
+ 
+           if (!isDev) {
+-            fs.mkdirSync(new URL(`./${path.dirname(hashedRoot)}/`, outputDir), {
++            const hash = hashString(fs.readFileSync(resolvedUrl, 'utf-8'));
++            const ext = resolvedUrl.pathname.split('.').pop();
++
++            finalValue = finalValue.replace(`.${ext}`, `.${hash}.${ext}`);
++
++            fs.mkdirSync(new URL(`.${path.dirname(finalValue)}/`, outputDir), {
+               recursive: true
+             });
+ 
+             fs.promises.copyFile(
+               resolvedUrl,
+-              new URL(`./${hashedRoot}`, outputDir)
++              new URL(`.${finalValue}`, outputDir)
+             );
+           }
+ 
+-          optimizedCss += `url('${basePath}${hashedRoot}')`;
++          optimizedCss += `url('${basePath}${finalValue}')`;
+         } else {
+           console.warn(`Unable to locate ${value}.  You may need to manually copy this file from its source location to the build output directory.`);
+           optimizedCss += `url('${value}')`;
+@@ -343,7 +371,10 @@ class StandardCssResource extends ResourceInterface {
+   }
+ 
+   async intercept(url, request, response) {
+-    let body = bundleCss(await response.text(), url, this.compilation);
++    const text = await response.text();
++    let body = this.compilation.config.optimzation === 'none'
++      ? text
++      : bundleCss(text, url, this.compilation);
+     let headers = {};
+ 
+     if ((request.headers.get('Accept')?.indexOf('text/javascript') >= 0 || url.searchParams?.get('polyfill') === 'type-css') && !url.searchParams.has('type')) {
+diff --git a/src/plugins/resource/plugin-standard-html.js b/src/plugins/resource/plugin-standard-html.js
+index 827cc70b6cff59aab640a28fc5df9f5de671a67c..1639ba9719d4c714a7e4473c6c93315fe6f87135 100644
+--- a/src/plugins/resource/plugin-standard-html.js
++++ b/src/plugins/resource/plugin-standard-html.js
+@@ -184,7 +184,7 @@ class StandardHtmlResource extends ResourceInterface {
+         if (type === 'script') {
+           const tag = root.querySelectorAll('script').find(script => script.getAttribute('src') === src);
+ 
+-          if (!optimizationAttr && optimization === 'default') {
++          if (!optimizationAttr && (optimization === 'default' || optimization === 'none')) {
+             const optimizedFilePath = `${basePath}/${optimizedFileName}`;
+ 
+             body = body.replace(src, optimizedFilePath);

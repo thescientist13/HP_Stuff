@@ -1,4 +1,6 @@
-export const prerender = true; // this page, using node:fs, *must* be SSR.
+// commenting this out since SSR pages are always SSR
+// https://greenwoodjs.dev/docs/pages/server-rendering/#prerender
+// export const prerender = true; // this page, using node:fs, *must* be SSR.
 import fs from "node:fs";
 import YAML from "yaml";
 import rehypeStringify from "rehype-stringify";
@@ -205,7 +207,7 @@ async function getLayout(compilation: Compilation, route: Route) {
   <html>
     <head>
       <script type="module" src="../components/side-nav.ts"></script>
-      <script type="module" src="../components/split-view.ts"></script>
+      <!-- this doesn't exist <script type="module" src="../components/split-view.ts"></script> -->
       <script
         type="module"
         src="../components/v-timeline.ts"

@@ -1,4 +1,4 @@
-export const prerender = false;
+// export const prerender = false;
 import { LitElement, type PropertyValues, css, html, nothing } from "lit";
 import { customElement, property, state } from "lit/decorators.js";
 
