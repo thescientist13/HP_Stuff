@@ -20,9 +20,8 @@ import { unified } from "unified";
 export default {
   activeContent: true,
   isolation: true,
-  staticRouter: false,
   markdown: {
-    plugins: ["unified", "remark-gfm"],
+    plugins: ["remark-gfm"],
   },
   optimization: "none",
   plugins: [
