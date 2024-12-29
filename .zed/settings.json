@@ -1,0 +1,14 @@
+// Folder-specific settings
+//
+// For a full list of overridable settings, and general information on folder-specific settings,
+// see the documentation: https://zed.dev/docs/configuring-zed#settings-files
+{
+  "soft_wrap": "editor_width",
+  "languages": {
+    "Markdown": {
+      "show_wrap_guides": true,
+      "soft_wrap": "preferred_line_length",
+      "preferred_line_length": 120
+    }
+  }
+}

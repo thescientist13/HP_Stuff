@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Luke's Harry Potter Fan Site"
 layout: index
 ---
 
