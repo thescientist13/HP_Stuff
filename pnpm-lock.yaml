@@ -10,7 +10,10 @@ importers:
     dependencies:
       '@spectrum-css/card':
         specifier: ^9.3.0
-        version: 9.3.0(@spectrum-css/tokens@14.6.0)(@spectrum-css/typography@6.2.0(@spectrum-css/tokens@14.6.0))
+        version: 9.3.0(@spectrum-css/icon@7.2.0(@spectrum-css/tokens@14.6.0))(@spectrum-css/tokens@14.6.0)(@spectrum-css/typography@6.2.0(@spectrum-css/tokens@14.6.0))
+      '@spectrum-css/icon':
+        specifier: ^7.2.0
+        version: 7.2.0(@spectrum-css/tokens@14.6.0)
       '@spectrum-css/page':
         specifier: ^8.2.0
         version: 8.2.0(@spectrum-css/tokens@14.6.0)
@@ -41,6 +44,9 @@ importers:
       yaml:
         specifier: ^2.6.1
         version: 2.6.1
+      zod:
+        specifier: ^3.24.1
+        version: 3.24.1
     devDependencies:
       '@greenwood/cli':
         specifier: 0.31.0-alpha.2
@@ -114,6 +120,9 @@ importers:
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
+      prettier-plugin-astro:
+        specifier: ^0.14.1
+        version: 0.14.1
       rehype-stringify:
         specifier: ^10.0.1
         version: 10.0.1
@@ -189,6 +198,9 @@ packages:
 
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
+
+  '@astrojs/compiler@2.10.3':
+    resolution: {integrity: sha512-bL/O7YBxsFt55YHU021oL+xz+B/9HvGNId3F9xURN16aeqDK9juHGktdkCSXz+U4nqFACq6ZFvWomOzhV+zfPw==}
 
   '@aws-crypto/sha256-browser@5.2.0':
     resolution: {integrity: sha512-AXfN/lGotSQwu6HNcEsIASo7kWXZ5HYWvfOmSNKDsEqC4OashTp8alTmaz+F7TC2L083SFv5RdB+qU3Vs1kZqw==}
@@ -1280,6 +1292,11 @@ packages:
         optional: true
       '@spectrum-css/typography':
         optional: true
+
+  '@spectrum-css/icon@7.2.0':
+    resolution: {integrity: sha512-P3mnpMxqNZ+YJGhjAHKrcUpKp9wLa2RnuZVYtUsh8bweb4MlYm/4/a2VzeQunrgziU17YNG5KrXyRHpWHv1U9w==}
+    peerDependencies:
+      '@spectrum-css/tokens': '>=14'
 
   '@spectrum-css/page@8.2.0':
     resolution: {integrity: sha512-zEOaGprMKsDCGf0e4o6KMDi6WJdQ29tHYjOzghFSLMN4V0Pilr/jSifWts12e6vtqAQDhhgRTfQrGIQrLCnXTA==}
@@ -4027,6 +4044,10 @@ packages:
     resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
 
+  prettier-plugin-astro@0.14.1:
+    resolution: {integrity: sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==}
+    engines: {node: ^14.15.0 || >=16.0.0}
+
   prettier@3.4.2:
     resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
@@ -4248,6 +4269,9 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
+  s.color@0.0.15:
+    resolution: {integrity: sha512-AUNrbEUHeKY8XsYr/DYpl+qk5+aM+DChopnWOPEzn8YKzOhv4l2zH6LzZms3tOZP3wwdOyc0RmTciyi46HLIuA==}
+
   safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
 
@@ -4256,6 +4280,9 @@ packages:
 
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+
+  sass-formatter@0.7.9:
+    resolution: {integrity: sha512-CWZ8XiSim+fJVG0cFLStwDvft1VI7uvXdCNJYXhDvowiv+DsbD1nXLiQ4zrE5UBvj5DWZJ93cwN0NX5PMsr1Pw==}
 
   sass@1.83.0:
     resolution: {integrity: sha512-qsSxlayzoOjdvXMVLkzF84DJFc2HZEL/rFyGIKbbilYtAvlCxyuzUeff9LawTn4btVnLKg75Z8MMr1lxU1lfGw==}
@@ -4496,6 +4523,9 @@ packages:
     resolution: {integrity: sha512-8EbVDiu9iN/nESwxeSxDKe0dunta1GOlHufmSSXxMD2z2/tMZpDMpvXQGsc+ajGo8y2uYUmixaSRUc/QPoQ0GA==}
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
+
+  suf-log@2.5.3:
+    resolution: {integrity: sha512-KvC8OPjzdNOe+xQ4XWJV2whQA0aM1kGVczMQ8+dStAO6KfEB140JEVQ9dE76ONZ0/Ylf67ni4tILPJB41U0eow==}
 
   supports-color@0.2.0:
     resolution: {integrity: sha512-tdCZ28MnM7k7cJDJc7Eq80A9CsRFAAOZUy41npOZCs++qSjfIy7o5Rh46CBk+Dk5FbKJ33X3Tqg4YrV07N5RaA==}
@@ -4942,6 +4972,8 @@ packages:
 snapshots:
 
   '@adobe/css-tools@4.3.3': {}
+
+  '@astrojs/compiler@2.10.3': {}
 
   '@aws-crypto/sha256-browser@5.2.0':
     dependencies:
@@ -6413,11 +6445,16 @@ snapshots:
       '@smithy/types': 3.7.2
       tslib: 2.8.1
 
-  '@spectrum-css/card@9.3.0(@spectrum-css/tokens@14.6.0)(@spectrum-css/typography@6.2.0(@spectrum-css/tokens@14.6.0))':
+  '@spectrum-css/card@9.3.0(@spectrum-css/icon@7.2.0(@spectrum-css/tokens@14.6.0))(@spectrum-css/tokens@14.6.0)(@spectrum-css/typography@6.2.0(@spectrum-css/tokens@14.6.0))':
     dependencies:
       '@spectrum-css/tokens': 14.6.0
     optionalDependencies:
+      '@spectrum-css/icon': 7.2.0(@spectrum-css/tokens@14.6.0)
       '@spectrum-css/typography': 6.2.0(@spectrum-css/tokens@14.6.0)
+
+  '@spectrum-css/icon@7.2.0(@spectrum-css/tokens@14.6.0)':
+    dependencies:
+      '@spectrum-css/tokens': 14.6.0
 
   '@spectrum-css/page@8.2.0(@spectrum-css/tokens@14.6.0)':
     dependencies:
@@ -9527,6 +9564,12 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
+  prettier-plugin-astro@0.14.1:
+    dependencies:
+      '@astrojs/compiler': 2.10.3
+      prettier: 3.4.2
+      sass-formatter: 0.7.9
+
   prettier@3.4.2: {}
 
   proc-log@4.2.0: {}
@@ -9831,11 +9874,17 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
+  s.color@0.0.15: {}
+
   safe-buffer@5.1.2: {}
 
   safe-buffer@5.2.1: {}
 
   safer-buffer@2.1.2: {}
+
+  sass-formatter@0.7.9:
+    dependencies:
+      suf-log: 2.5.3
 
   sass@1.83.0:
     dependencies:
@@ -10099,6 +10148,10 @@ snapshots:
       mz: 2.7.0
       pirates: 4.0.6
       ts-interface-checker: 0.1.13
+
+  suf-log@2.5.3:
+    dependencies:
+      s.color: 0.0.15
 
   supports-color@0.2.0: {}
 
